@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+Follow AGENTS.md in the repo root for answering questions from knowledge/ (use tools/query.py or the MCP server tools/mcp_server.py; cite [Mx sN]).

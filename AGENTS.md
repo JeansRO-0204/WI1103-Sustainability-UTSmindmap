@@ -1,0 +1,20 @@
+# WI1103 Sustainability midterm study kit (tool-agnostic agent instructions)
+
+Course WI1103 (ITB), weeks 1-7 (M1-M7). Everything needed to answer questions is in `knowledge/`; no API keys or network.
+
+## Answering study questions
+1. **Best:** call the MCP tool `search_knowledge` if available (server: `python3 tools/mcp_server.py`). Otherwise run `python3 tools/query.py "question" -k 6 --hops 1` (`--json` for structured output, `--prompt` to wrap it as a ready-to-send prompt).
+2. For broad or cross-week questions read `knowledge/INDEX.md` first (every concept id, summary, slide cites), or load `knowledge/corpus.md` whole (~16k tokens, all slide text + speaker notes).
+3. Cite sources as `[M6 s16]` (module, slide). Slide images: `app/public/slides/Mx/NNN.jpg` (read them when slide text is thin).
+4. Stay within the material; label general knowledge as such. Speaker notes are often Indonesian: translate.
+
+## Layout
+`knowledge/` graph.json, chunks.jsonl (one line per slide), corpus.md, INDEX.md, fragments/ (per-week source); `tools/` query.py, mcp_server.py; `build/` extract, render, merge, validate; `app/` Vite+React mindmap; `ppt/` original decks.
+
+## Rebuild
+```
+python3 build/extract.py && bash build/render.sh   # needs LibreOffice + pdftoppm
+python3 build/merge.py && python3 build/validate.py   # must exit 0
+cd app && npm install && npm run build
+```
+Pushing to `main` deploys `app/dist` via `.github/workflows/pages.yml`.

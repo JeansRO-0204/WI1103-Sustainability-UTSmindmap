@@ -1,0 +1,4 @@
+# WI1103 Sustainability (ITB) midterm knowledge base
+> Concept graph and slide text for weeks 1-7. Cite slides as [Mx sN].
+- [Concept graph (JSON)](data/graph.json): nodes (id, label, summary, details, sources) and cross-links
+- [Slide text and speaker notes (JSONL)](data/chunks.jsonl): one object per slide

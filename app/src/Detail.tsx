@@ -52,7 +52,7 @@ export default function Detail({ data, id, reviewed, onSelect, onSlide, onReview
       <p className="lead">{n.summary}</p>
       <div className="btns">
         <button onClick={() => copy('text', plainText(data, id))}>Copy text</button>
-        <button onClick={() => copy('AI context', aiContext(data, id))} title="Node + neighbours + slide text, ready to paste into Claude">Copy AI context</button>
+        <button onClick={() => copy('AI context', aiContext(data, id))} title="Node + neighbours + slide text, ready to paste into any AI chat">Copy AI context</button>
         <button onClick={() => copy('branch outline', outline(data, id))}>Copy branch outline</button>
         <button className={reviewed ? 'on' : ''} onClick={onReview}>{reviewed ? '✓ Reviewed' : 'Mark reviewed'}</button>
       </div>

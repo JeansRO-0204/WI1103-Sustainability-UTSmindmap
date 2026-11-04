@@ -41,12 +41,12 @@ class BM25:
             if s > 0: res.append((s, i))
         return sorted(res, reverse=True)
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("question"); ap.add_argument("-k", type=int, default=6)
-    ap.add_argument("--hops", type=int, default=1); ap.add_argument("--json", action="store_true")
-    ap.add_argument("--graph")
-    a = ap.parse_args()
+PROMPT = ("You are a study assistant for ITB course WI1103 (Sustainability Principles). Answer ONLY from the context "
+          "below. Cite slides as [Mx sN]. If the context does not cover it, say so and mark any general knowledge as such.\n\n")
+
+def run(question, k=6, hops=1, graph=None, as_json=False):
+    """Retrieve a context bundle (markdown, or JSON string) for `question`. Pure stdlib; usable from any LLM stack."""
+    a = argparse.Namespace(question=question, k=k, hops=hops, graph=graph, json=as_json)
     gp = Path(a.graph) if a.graph else (K / "graph.json" if (K / "graph.json").exists() else K / "graph.sample.json")
     g = json.loads(gp.read_text(encoding="utf-8"))
     chunks = [json.loads(l) for l in (K / "chunks.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
@@ -100,10 +100,10 @@ def main():
         while cur: p.append(cur["label"]); cur = nodes.get(cur.get("parent"))
         return " > ".join(reversed(p))
     if a.json:
-        print(json.dumps({"question": a.question, "seeds": seeds,
+        return json.dumps({"question": a.question, "seeds": seeds,
             "nodes": [dict(nodes[i], hop=selected[i], score=round(nscore.get(i, 0), 3), path=path(i)) for i in order],
             "slides": [{"ref": f"[{m} s{s}]", "title": cmap[(m, s)]["title"], "text": cmap[(m, s)]["text"], "notes": cmap[(m, s)].get("notes", "")} for m, s in slides_final if (m, s) in cmap]},
-            indent=2, ensure_ascii=False)); return
+            indent=2, ensure_ascii=False)
     out = [f"# Context for: {a.question}", f"_graph: {gp.name}; seeds: {', '.join(seeds) or 'none'}; hops: {a.hops}_", ""]
     out.append("## Concepts")
     for nid in order:
@@ -125,7 +125,18 @@ def main():
         out += [f"**[{m} s{s}] {c['title']}**", f"> {txt}"]
         if c.get("notes"): out.append(f"> _Notes:_ {c['notes'].strip()[:700]}")
         out.append("")
-    print("\n".join(out))
+    return "\n".join(out)
+
+def main():
+    ap = argparse.ArgumentParser(description="Search the WI1103 knowledge graph and print a cited context bundle.")
+    ap.add_argument("question"); ap.add_argument("-k", type=int, default=6)
+    ap.add_argument("--hops", type=int, default=1); ap.add_argument("--json", action="store_true")
+    ap.add_argument("--prompt", action="store_true", help="prefix instructions + question so the output can be piped to any LLM CLI")
+    ap.add_argument("--graph")
+    a = ap.parse_args()
+    out = run(a.question, a.k, a.hops, a.graph, a.json)
+    if a.prompt and not a.json: out = PROMPT + out + f"\n\n## Question\n{a.question}\n"
+    print(out)
 
 if __name__ == "__main__":
     main()
