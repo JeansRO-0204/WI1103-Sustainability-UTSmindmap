@@ -1,0 +1,1170 @@
+{
+  "module": {
+    "id": "M5",
+    "week": 5,
+    "title": "SDGs, Indonesia and STI",
+    "summary": "The Sustainable Development Goals: origins in the MDGs, goals/targets/indicators, Indonesia's adoption (TPB, VNR), biodiversity (SDG 14/15, IBSAP, NbS), the role of science-technology-innovation, and progress reality checks."
+  },
+  "nodes": [
+    {
+      "id": "m5",
+      "label": "W5 · Sustainable Development Goals",
+      "type": "module",
+      "module": "M5",
+      "parent": "root",
+      "summary": "SDGs 2015–2030: concept and methods, adoption in Indonesia, biodiversity perspective, role of STI, and reality checks on progress.",
+      "details": "Week 5 moves from the *principles* of sustainability (W1–W4) to the **global policy framework** that operationalises them: the **Sustainable Development Goals (SDGs)**, called **TPB (Tujuan Pembangunan Berkelanjutan)** in Indonesia.\n\nThe lecture has five parts:\n1. **Concept and methods** – from the MDGs (2000–2015) to the 17 SDGs (2015–2030, the *Decade of Action*), the Brundtland definition, and the goal → target → indicator hierarchy (17 / 169 / 231 global; 289 in Indonesia).\n2. **Adoption in Indonesia** – Perpres 59/2017 → 111/2022, Bappenas roadmap, regional integration and VLR, multi-actor involvement (SDGs Desa), Voluntary National Reviews, ITB's SDGs Network.\n3. **Biodiversity perspective** – SDG 14 (improving) vs SDG 15 (declining) in Indonesia, **IBSAP 2025–2045**, **Nature-based Solutions**.\n4. **Science, Technology and Innovation (STI)** – definitions, Addis Ababa Action Agenda, the **Technology Facilitation Mechanism**.\n5. **Reality check** – only 15% of targets on track in 2023; 2026 achievements vs lags.\n\nIt links back to W1 (definitions/ethics, intergenerational equity) and W4 (ecosystem services), and forward to W6 (SDG 13/climate) and W7 (SDG interlinkages, nexus).",
+      "keyTerms": [
+        "SDGs",
+        "TPB",
+        "Decade of Action",
+        "VNR",
+        "IBSAP",
+        "STI",
+        "TFM"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            1,
+            2,
+            10,
+            17,
+            22,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.part1",
+      "label": "1 · SDGs: concept and methods",
+      "type": "topic",
+      "module": "M5",
+      "parent": "m5",
+      "summary": "History (MDGs → SDGs), the Decade of Action 2015–2030, the sustainable development definition, and goals–targets–indicators.",
+      "details": "Part 1 introduces **what the SDGs are and how they work**.\n\n- **History**: the SDGs continue the **Millennium Development Goals (MDGs, 2000–2015)**, which had 8 goals focused mostly on developing countries.\n- **Adoption**: in 2015 the UN member states agreed on **17 interrelated goals** for **2015–2030**, the **Decade of Action**.\n- **Positioning**: the SDGs rest on the Brundtland definition of sustainable development and its three dimensions (economic, social, environmental) with **peace** and **partnership** as prerequisites.\n- **Method**: each goal is broken down into **targets** and measurable **indicators** (17 goals, 169 targets, 231 global indicators; Indonesia uses 289).\n- **Monitoring**: the UN publishes an annual **Global SDGs Report** (UN DESA Statistics Division).\n\nThe key idea: SDGs are a **universal** agenda (all countries, not only the Global South, unlike the MDGs) that still respects different national conditions and capabilities.",
+      "keyTerms": [
+        "MDGs",
+        "SDGs",
+        "Decade of Action",
+        "targets",
+        "indicators"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.mdgs",
+      "label": "Millennium Development Goals (MDGs)",
+      "type": "concept",
+      "module": "M5",
+      "parent": "m5.part1",
+      "summary": "8 goals (2000–2015) initiated under Kofi Annan, adopted by 189 countries; mainly targeting extreme conditions in developing countries.",
+      "details": "The **MDGs** were an international agreement initiated under UN Secretary-General **Kofi Annan** to pursue development worldwide from **2000 to 2015**.\n\n- Adopted by **189 countries** and signed by **147 heads of state/government** at the **Millennium Summit, New York, September 2000**; Indonesia signed.\n- **8 goals**, each targeting a specific/extreme condition:\n  1. Eradicate extreme poverty and hunger (Indonesia cut poverty at the USD 1/capita/day line to ~8–10% by 2015, but malnutrition prevalence rose)\n  2. Universal primary education (high net enrolment achieved)\n  3. Gender equality and women's empowerment\n  4. Reduce child mortality (23/1000 births achieved)\n  5. Improve maternal health (102/100,000 births)\n  6. Combat HIV/AIDS, malaria and other diseases (HIV/AIDS rose, malaria fell, TB on target)\n  7. Ensure environmental sustainability (drinking water, sanitation)\n  8. Global partnership for development (falling debt service ratio, digital access)\n- The MDGs applied **mostly to developing countries / the Global South**.\n\n**Why it matters**: the SDGs are the successor, with a **broader scope**, **universal** application, and a much stronger **environmental** and intergenerational focus.",
+      "keyTerms": [
+        "MDGs",
+        "Kofi Annan",
+        "Millennium Summit 2000",
+        "8 goals"
+      ],
+      "examTips": "Contrast MDGs vs SDGs: 8 vs 17 goals; 2000–2015 vs 2015–2030; mainly Global South vs universal; narrower social focus vs integrated economic-social-environmental agenda.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sdgs",
+      "label": "SDGs: 17 goals for 2015–2030",
+      "type": "definition",
+      "module": "M5",
+      "parent": "m5.part1",
+      "summary": "Global and national commitments by UN member states: 17 interrelated, mutually reinforcing goals to be achieved by 2030.",
+      "details": "The **Sustainable Development Goals (SDGs)** are **global and national commitments** jointly established by the UN member states (the slide says **192**; the commonly cited figure is 193) to achieve a better and more sustainable life for everyone on the planet. In Indonesia they are called **TPB – Tujuan Pembangunan Berkelanjutan**.\n\n- **17 goals**, **interrelated and mutually reinforcing**, addressing global challenges (poverty, hunger, health, education, gender, water, energy, work, industry, inequality, cities, consumption, climate, oceans, land, peace, partnership).\n- Adopted at the UN summit on the **post-2015 development agenda** (September 2015) as the continuation of the MDGs.\n- Period **2015–2030**, the **Decade of Action**.\n- **Broader than the MDGs**: stronger emphasis on protecting the environment and on **intergenerational equity** – safeguarding the interests of future generations by promoting a lifestyle that balances economy, society and environment.\n- When adopted, **no country in the world had achieved all the goals** – hence the call for action.\n\nThe SDG wheel/logo (slide 6, from sdgs.bappenas.go.id) shows the 17 goals expected to be achieved by 2030.",
+      "keyTerms": [
+        "SDGs",
+        "TPB",
+        "17 goals",
+        "post-2015 agenda",
+        "intergenerational equity"
+      ],
+      "examTips": "Know: 17 goals, 169 targets, 2015–2030, adopted by UN member states; SDGs are universal (developed AND developing countries). Do not confuse with the 8 MDGs.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.decade-of-action",
+      "label": "Decade of Action (2015–2030)",
+      "type": "concept",
+      "module": "M5",
+      "parent": "m5.sdgs",
+      "summary": "2015–2030 is framed as the Decade of Action: no country had met the goals, so the period stresses concrete action.",
+      "details": "The period **2015–2030** was agreed as the **Decade of Action** for the SDGs.\n\n- Rationale (lecturer notes): at launch **no country had achieved the SDG goals**, so the period emphasises **concrete actions** to realise them.\n- The UN **ActNow** campaign (un.org/en/actnow) – \"Act for Our Common Future\" – frames individual and collective action around four themes shown on the slide: **a healthy planet, a just society, a peaceful world, a better economy**.\n- The phrase *Our Common Future* deliberately echoes the Brundtland Report.\n\n**Connection**: the Reality Check section evaluates progress at the **midpoint (2023)** of this decade and again in 2026 – the verdict is that the world is badly off-track.",
+      "keyTerms": [
+        "Decade of Action",
+        "ActNow",
+        "2030 Agenda"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sd-definition",
+      "label": "Definition and positioning of sustainable development",
+      "type": "definition",
+      "module": "M5",
+      "parent": "m5.part1",
+      "summary": "Brundtland: development meeting present needs without compromising future generations' ability to meet theirs; three dimensions plus peace and partnership.",
+      "details": "The most cited definition comes from **Our Common Future** (the **Brundtland Report**, World Commission on Environment and Development, 1987):\n\n> *Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.*\n\n- This embodies **intergenerational equity (IGE)**, which the SDGs/TPB adopt as an overarching core principle.\n- Sustainability is the **foundation** of today's major global framework – the SDGs.\n- **Three dimensions (pillars)**: **economic, social, environmental**. Sustainability lies at their intersection.\n- At global scale, these can only be implemented with two **prerequisites**: **peace** and **partnership** (cooperation).\n\n**Why it matters**: this is the conceptual bridge from Week 1 (definitions and ethics of sustainability) to the SDGs – every goal can be placed in one or more of the three dimensions, enabled by SDG 16 (peace) and SDG 17 (partnership).",
+      "keyTerms": [
+        "Brundtland Report",
+        "Our Common Future",
+        "intergenerational equity",
+        "three pillars",
+        "peace",
+        "partnership"
+      ],
+      "examTips": "Be able to quote the Brundtland definition and name the 3 dimensions + 2 prerequisites (peace, partnership). Explain intergenerational equity in your own words.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sd-dimensions-diagram",
+      "label": "SDGs mapped to the three dimensions",
+      "type": "framework",
+      "module": "M5",
+      "parent": "m5.sd-definition",
+      "summary": "Venn diagram: social, environmental and economic SDGs overlap at 'sustainable', enclosed by partnership (SDG 17) and peace (SDG 16).",
+      "details": "Slide 7's diagram places the 17 SDGs into three overlapping circles, wrapped by two outer bands:\n\n- **Social**: SDG 1 (no poverty), 2 (zero hunger), 3 (health), 4 (education), 5 (gender equality).\n- **Environmental**: SDG 6 (clean water), 13 (climate action), 14 (life below water), 15 (life on land).\n- **Economic**: SDG 8 (decent work and growth), 9 (industry, innovation, infrastructure), 11 (sustainable cities), 12 (responsible consumption and production).\n- **Overlaps**: SDG 7 (energy) sits between environmental and economic; SDG 10 (reduced inequalities) sits at the centre, labelled **Sustainable**.\n- **Outer bands**: **Partnership** (SDG 17) and **Peace** (SDG 16) – the enabling prerequisites.\n\n**Use in exams**: it shows that the SDGs are not a flat list but an integrated system – a useful lead-in to Week 7's SDG interlinkages (synergies and trade-offs).",
+      "keyTerms": [
+        "three pillars",
+        "SDG 16",
+        "SDG 17",
+        "integration"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.goals-targets-indicators",
+      "label": "Goals → targets → indicators",
+      "type": "framework",
+      "module": "M5",
+      "parent": "m5.part1",
+      "summary": "17 goals, 169 targets and 231 global indicators form an inseparable whole; Indonesia uses 289 indicators tailored to its development.",
+      "details": "The SDGs work through a **hierarchy**: each **goal** is broken down into **targets**, and each target is measured with **indicators**.\n\n- **17 goals, 169 targets** – designed as an **interconnected, inseparable whole**.\n- Goals and targets apply **globally to all countries**, but take into account differences in **conditions, capabilities and development levels** (universal but differentiated).\n- **231 global indicators** (slide figure); **Indonesia uses 289 indicators** tailored to its national development targets.\n- Indicator numbers change because the **IAEG-SDGs** (Inter-Agency and Expert Group on SDG Indicators) reviews them yearly, mainly due to data availability (see revisions node).\n\n**Why it matters**: targets and indicators turn broad aspirations into **measurable, monitorable** commitments – the basis for national reports (VNR), regional reports (VLR) and the global SDG report.",
+      "keyTerms": [
+        "goals",
+        "targets",
+        "indicators",
+        "169 targets",
+        "231 indicators",
+        "289 Indonesian indicators",
+        "IAEG-SDGs"
+      ],
+      "examTips": "Memorise 17 / 169 / 231 (global) and 289 (Indonesia). Explain why Indonesia has more indicators: national adaptation (proxy and additional indicators) to fit its development targets.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sdg7-example",
+      "label": "Example: SDG 7 targets and indicators",
+      "type": "example",
+      "module": "M5",
+      "parent": "m5.goals-targets-indicators",
+      "summary": "SDG 7 (affordable and clean energy) has 5 targets and 12 indicators: access, renewables, efficiency, plus research and developing-country deployment.",
+      "details": "The lecturer illustrates the goal → target → indicator mechanism with **SDG 7 – Affordable and Clean Energy**:\n\n- **5 targets** and **12 indicators**.\n- Three targets cover the core aspects of energy:\n  - **7.1** – access to energy\n  - **7.2** – renewable energy\n  - **7.3** – energy efficiency\n- Two further targets relate to **research/technology cooperation** and **deployment in developing countries** (the means-of-implementation targets).\n\n**Takeaway**: a single goal fans out into several measurable targets, each tracked by one or more indicators. This example also links to STI (Part 4): research and technology transfer are themselves SDG targets.",
+      "keyTerms": [
+        "SDG 7",
+        "target 7.1",
+        "target 7.2",
+        "target 7.3"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.indicator-revisions",
+      "label": "Indicator revisions and tiers (IAEG-SDGs)",
+      "type": "data",
+      "module": "M5",
+      "parent": "m5.goals-targets-indicators",
+      "summary": "Indicator counts change after annual IAEG-SDGs review; March 2025: 234 approved, classified into Tier 1 (161) and Tier 2 (60).",
+      "details": "The number of SDG indicators is **not fixed**. The **IAEG-SDGs** reviews them every year because of challenges with **data availability** in each country.\n\nCounts given in the lecturer's notes: 2015 = 241; 2023 = 248; 2024 = 289; **2025 = 234**.\n\n**March 2025: 234 indicators approved**, classified by data availability and methodological development:\n- **Tier 1**: 161 indicators (established methodology, data regularly produced)\n- **Tier 2**: 60 indicators (established methodology, data not regularly produced)\n- **Multiple tiers**: 8 indicators\n- **Unclassified**: 5 indicators\n- **13 indicators repeat** because they serve more than one goal.\n\n**Why it matters**: measuring sustainability depends on data – gaps in data are one reason progress is hard to assess (see Reality Check 2023: more databases and agreed methods are emerging).",
+      "keyTerms": [
+        "IAEG-SDGs",
+        "Tier 1",
+        "Tier 2",
+        "data availability"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.global-report",
+      "label": "Global SDGs Report (UN)",
+      "type": "concept",
+      "module": "M5",
+      "parent": "m5.part1",
+      "summary": "Annual UN stocktake of global SDG progress by UN DESA Statistics Division, summarising country reports, achievements and remaining problems.",
+      "details": "The UN publishes an **annual Sustainable Development Goals Report** through the **UN DESA Statistics Division**.\n\n- It is a **stocktaking** of global progress toward SDG commitments.\n- It summarises reporting from individual countries.\n- It presents not only **achievements** but also **persistent problems**.\n- The 2025 edition: unstats.un.org/sdgs/report/2025 (plus a video summary).\n\n**Connection**: national inputs come through each country's **Voluntary National Review (VNR)**; the 2023 edition provided the **midpoint** assessment used in the Reality Check section. Its per-goal charts (on track / fair progress / stagnation / insufficient data) are the standard evidence for judging whether the world is on course for 2030.",
+      "keyTerms": [
+        "SDG Report",
+        "UN DESA",
+        "stocktaking"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.part2",
+      "label": "2 · Adoption in Indonesia (TPB)",
+      "type": "topic",
+      "module": "M5",
+      "parent": "m5",
+      "summary": "Indonesia institutionalises SDGs via presidential regulation, Bappenas roadmap, regional integration, multi-actor partnerships, VNR reporting and universities like ITB.",
+      "details": "Part 2 shows how a global agenda becomes **national policy** in Indonesia, where the SDGs are called **TPB (Tujuan Pembangunan Berkelanjutan)**.\n\n- **Legal basis**: Presidential Regulation (Perpres) **No. 59/2017**, updated to **No. 111/2022**; **Bappenas** coordinates and maps SDG targets into national planning; an SDG **Roadmap** exists.\n- **Regional integration**: regional secretariats, data monitoring, SDG indicators used for regional development, **Voluntary Local Reviews (VLR)**.\n- **Many actors**: government, private sector, civil society, religious institutions (e.g. zakat), youth, and villages (**SDGs Desa** with an 18th goal).\n- **Reporting**: **Voluntary National Reviews (VNR)** to the UN since 2017, roughly every 2 years; the **2025 VNR** focused on SDGs 3, 5, 8, 14, 17.\n- **Universities**: ITB's **SDGs Network / SDGs Center** monitors and reports research and community service.\n\nThe theme is **multi-level governance**: global → national → regional → village → institutions.",
+      "keyTerms": [
+        "TPB",
+        "Bappenas",
+        "Perpres 59/2017",
+        "Perpres 111/2022",
+        "VLR",
+        "VNR",
+        "SDGs Desa"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.indonesia-commitment",
+      "label": "Indonesia's commitment: Perpres 59/2017 → 111/2022",
+      "type": "policy",
+      "module": "M5",
+      "parent": "m5.part2",
+      "summary": "Indonesia ratified the SDGs via Presidential Regulation 59/2017 (updated 111/2022); Bappenas integrates SDG targets into planning and leads the Roadmap.",
+      "details": "**Indonesia's legal and institutional commitment** to the SDGs:\n\n- Ratified through **Presidential Regulation (Perpres) No. 59 of 2017**, updated to **Perpres No. 111 of 2022**. The update relates to the SDG **Roadmap** and the available **metadata**.\n- As a *presidential regulation*, TPB becomes a reference in Indonesia's **development planning documents**. It binds the **executive** branch (rather than the legislative and judicial branches of the *trias politica*).\n- **Bappenas** (Ministry of National Development Planning) **matches and incorporates** SDG targets/indicators into national development.\n- Indonesia **invites partners** – private sector, civil society – to help achieve the targets.\n- Bappenas has developed a **Roadmap for SDG Achievement**.\n- Mapping model: the **pillar model** (see child node).\n\n**Why it matters**: shows how a voluntary UN agenda gains domestic legal force and planning integration.",
+      "keyTerms": [
+        "Perpres 59/2017",
+        "Perpres 111/2022",
+        "Bappenas",
+        "SDG Roadmap",
+        "executive branch"
+      ],
+      "examTips": "Know both regulation numbers and years, Bappenas as coordinator, and that a Perpres binds the executive. Possible question: how does Indonesia translate the global SDGs into national development?",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.pillar-model",
+      "label": "Indonesia's four-pillar mapping model",
+      "type": "framework",
+      "module": "M5",
+      "parent": "m5.indonesia-commitment",
+      "summary": "Indonesia maps goals, targets and indicators using a pillar model: environmental, economic, social and governance pillars.",
+      "details": "Indonesia maps SDG goals, targets and indicators using a **pillar model**, which differs from the **concentric** or **pyramid** models used elsewhere.\n\nIn this model, the SDGs are grouped into **four pillars**:\n- **Environmental**\n- **Economic**\n- **Social**\n- **Governance** (law and governance)\n\n**Compare**: the classic Brundtland/three-pillar view (economic, social, environmental) with peace and partnership as prerequisites (slide 7). Indonesia adds **governance** as a pillar in its own right, reflecting the importance of institutions for implementation.\n\nPillars are useful for assigning ministries and agencies to clusters of goals in national planning.",
+      "keyTerms": [
+        "pillar model",
+        "governance pillar",
+        "concentric model",
+        "pyramid model"
+      ],
+      "examTips": "Contrast Indonesia's 4 pillars (adds governance) with the 3 dimensions + peace & partnership in the global framing.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.regional-integration",
+      "label": "TPB integration in the regions and VLR",
+      "type": "policy",
+      "module": "M5",
+      "parent": "m5.part2",
+      "summary": "SDGs monitored regionally via secretariats and data systems; SDG indicators used for regional development; Voluntary Local Reviews reported to the UN.",
+      "details": "SDG achievement in Indonesia is also tracked **below the national level**:\n\n- **Regional secretariats** for TPB are established.\n- **Data monitoring** of achievement at regional level.\n- **SDG indicators** are used as **indicators of regional development**.\n- **Voluntary Local Review (VLR)**: a regional (provincial/city) **stocktaking report submitted to the UN**, the local counterpart of the national VNR.\n\n**Why it matters**: implementation happens where people live – provinces, cities, regencies – so localising the SDGs is essential. Compare: **VNR = national**, **VLR = local/regional**.",
+      "keyTerms": [
+        "VLR",
+        "Voluntary Local Review",
+        "regional secretariat",
+        "localisation"
+      ],
+      "examTips": "Don't mix up VNR (national, to UN HLPF) and VLR (local/regional).",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.actors",
+      "label": "Many parties involved in achieving SDGs",
+      "type": "concept",
+      "module": "M5",
+      "parent": "m5.part2",
+      "summary": "SDG delivery in Indonesia involves government, religious institutions (zakat on SDGs), youth (Youth SDGs Summit) and villages (SDGs Desa).",
+      "details": "Slide 13 shows that SDGs in Indonesia are pursued by **many different parties**, not just the central government:\n\n- **Religious / philanthropic institutions** – e.g. the launch of a *Fikih Zakat on SDGs* (Islamic jurisprudence guidance linking zakat to the SDGs, with BAZNAS and Bappenas).\n- **Youth** – e.g. the **Indonesian Youth SDGs Summit 2025**.\n- **Villages** – **SDGs Desa** (see child node).\n- Plus private sector and civil society partners invited by Bappenas (slide 11).\n\n**Why it matters**: SDG 17 (partnership) in practice. Achieving the goals depends on mobilising finance, knowledge and participation from all sectors of society.",
+      "keyTerms": [
+        "multi-stakeholder",
+        "zakat on SDGs",
+        "Youth SDGs Summit",
+        "partnership"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sdgs-desa",
+      "label": "SDGs Desa (18 village goals)",
+      "type": "case-study",
+      "module": "M5",
+      "parent": "m5.actors",
+      "summary": "Indonesia's village-level SDGs: 18 goals, adding Goal 18 'dynamic village institutions and adaptive village culture'; funded via Dana Desa.",
+      "details": "Indonesia does not limit itself to the 17 global goals. It developed **SDGs Desa** (Village SDGs) – *accelerating achievement of national sustainable development goals*.\n\n- **18 goals**: the 17 SDGs plus **Goal 18 – Kelembagaan Desa Dinamis dan Budaya Desa Adaptif** (dynamic village institutions and adaptive village culture).\n- Villages are asked to create an **SDGs roadmap**.\n- Implementation uses the **Dana Desa** (Village Fund), e.g. village electricity, establishing **BUMDes** (village-owned enterprises), use of technology, productive economic activity.\n- Involves the participation of the various elements of village society.\n\n**Why it matters**: a strong example of **localising** a global agenda and of adapting it to cultural context. Good exam example of national adaptation of the SDGs.",
+      "keyTerms": [
+        "SDGs Desa",
+        "Goal 18",
+        "Dana Desa",
+        "BUMDes",
+        "localisation"
+      ],
+      "examTips": "Remember: SDGs Desa has 18 goals; the extra one is about dynamic village institutions and adaptive culture.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.vnr",
+      "label": "Voluntary National Review (VNR)",
+      "type": "policy",
+      "module": "M5",
+      "parent": "m5.part2",
+      "summary": "Indonesia voluntarily reports national SDG progress to the UN since 2017, about every two years, coordinated by the National TPB Secretariat.",
+      "details": "The **Voluntary National Review (VNR)** is a country's report on its SDG progress, presented to the UN (High-Level Political Forum on Sustainable Development).\n\n- Indonesia has participated **actively since 2017**, about **every 2 years**, **voluntarily**, coordinated by the **National TPB Secretariat** (under Bappenas).\n- Each VNR focuses on a theme and a subset of goals (from the covers on slide 14):\n  - **2017** – *Eradicating Poverty and Promoting Prosperity in a Changing World* (SDG 1, 2, 3, 5, 9, 14, 17)\n  - **2019** – *Empowering People and Ensuring Inclusiveness and Equality*\n  - **2021** – *Sustainable and Resilient Recovery from the COVID-19 Pandemic for the Achievement of the 2030 Agenda*\n  - **2025** – *Fostering Inclusive Growth: Advancing Sustainable and Resilient Indonesia* (SDG 3, 5, 8, 14, 17)\n\n**Why it matters**: VNRs are the main accountability mechanism of the SDGs – there is no enforcement, only voluntary transparency and peer learning.",
+      "keyTerms": [
+        "VNR",
+        "HLPF",
+        "National TPB Secretariat",
+        "voluntary reporting"
+      ],
+      "examTips": "Know: voluntary, since 2017, about every 2 years, national level (vs VLR local). VNRs feed the annual global SDG report.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            14,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sdg-report-2025",
+      "label": "Indonesia's SDG Report / VNR 2025",
+      "type": "data",
+      "module": "M5",
+      "parent": "m5.vnr",
+      "summary": "VNR 2025 covered SDGs 3, 5, 8, 14 and 17; critics flagged worker security and human trafficking issues.",
+      "details": "**Indonesia's VNR 2025** – *Fostering Inclusive Growth: Advancing Sustainable and Resilient Indonesia* (campaign slogan *Bersama Menuju Indonesia yang Tangguh & Berkelanjutan*).\n\n- Focus goals: **SDG 3** (good health and well-being), **SDG 5** (gender equality), **SDG 8** (decent work and economic growth), **SDG 14** (life below water), **SDG 17** (partnerships for the goals).\n- Presented at the UN **High-Level Political Forum (HLPF)**.\n- **Criticisms** raised about the 2025 report include **workers' sense of security** (labour protection) and **human trafficking**, among others.\n\n**Why it matters**: shows that national reports are contested – civil society scrutinises whether self-reported progress reflects reality. Useful for the discussion question on whether SDG results are equitable.",
+      "keyTerms": [
+        "VNR 2025",
+        "SDG 3",
+        "SDG 5",
+        "SDG 8",
+        "SDG 14",
+        "SDG 17"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.itb",
+      "label": "SDGs at ITB",
+      "type": "example",
+      "module": "M5",
+      "parent": "m5.part2",
+      "summary": "ITB SDGs Network / Center of SDGs monitors ITB's SDG progress; research and community service are mapped to SDGs on scholar.itb.ac.id.",
+      "details": "Universities are SDG actors too. At **ITB**:\n\n- The **ITB SDGs Network** – *Center of Sustainable Development Goals (SDGs) in Institut Teknologi Bandung* – monitors ITB's progress on the SDGs (website: sdgsc.itb.ac.id).\n- ITB **reports research and community service** by its academic community mapped against the 17 goals, accessible via **scholar.itb.ac.id** (click a goal to see how researchers contribute).\n\n**Why it matters**: higher education contributes knowledge and innovation – a direct link to Part 4 (STI for SDGs) – and students can see where their own fields contribute.",
+      "keyTerms": [
+        "ITB SDGs Network",
+        "SDGs Center",
+        "scholar.itb.ac.id"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.part3",
+      "label": "3 · Biodiversity perspective in Indonesia",
+      "type": "topic",
+      "module": "M5",
+      "parent": "m5",
+      "summary": "SDG 14 improving vs SDG 15 declining in Indonesia; IBSAP 2025–2045 as biodiversity strategy; Nature-based Solutions as cost-effective SDG pathway.",
+      "details": "Part 3 zooms in on **biodiversity (KEHATI)**, the natural wealth on which all SDGs depend.\n\n- **SDG 14 (Life below Water)** and **SDG 15 (Life on Land)** represent Indonesia's environmental condition and natural wealth. Reported progress: **SDG 14 improving**, **SDG 15 consistently declining**.\n- Indonesia is a **megadiversity country** (coral reefs, rich species diversity).\n- **IBSAP 2025–2045** (Indonesian Biodiversity Strategy and Action Plan) sets vision, mission and functions for biodiversity management, aligned with RPJPN 2025–2045 and the Kunming-Montreal Global Biodiversity Framework.\n- The **UNCBD** links biodiversity to **all 17 SDGs**, most closely to 14 and 15; nearly **half of humanity** depends directly on natural resources.\n- **Nature-based Solutions (NbS)** protect, restore and sustainably use ecosystems to address societal challenges – a cost-effective way to reach the SDGs.\n\nLinks strongly to W4 **ecosystem services** and W6 **peatlands / AFOLU**.",
+      "keyTerms": [
+        "biodiversity",
+        "KEHATI",
+        "SDG 14",
+        "SDG 15",
+        "IBSAP",
+        "NbS",
+        "megadiversity"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sdg14-15-indonesia",
+      "label": "SDG 14 and 15 achievements in Indonesia",
+      "type": "data",
+      "module": "M5",
+      "parent": "m5.part3",
+      "summary": "Indonesia reports improvement on SDG 14 (marine ecosystems) but a consistent decline on SDG 15 (terrestrial ecosystems).",
+      "details": "**SDG 14 – Life below Water** (*Ekosistem Lautan*) and **SDG 15 – Life on Land** (*Ekosistem Daratan*) together represent Indonesia's **environmental condition and natural capital**, including biodiversity.\n\nLecturer's assessment:\n- Indonesia has progressed on several TPB goals overall.\n- **SDG 15 (terrestrial ecosystems)**: **consistently declining** (pressures such as land-use change and deforestation).\n- **SDG 14 (marine ecosystems)**: **improving** in Indonesia's reporting (and SDG 14 was a focus goal of the 2017 and 2025 VNRs).\n\nThis mixed picture is why Indonesia introduced stronger **biodiversity commitments** – IBSAP 2025–2045.\n\n**Global comparison** (2023 chart, slide 29): globally, roughly 30% of SDG 14 targets and 25% of SDG 15 targets were on track, but a large share was stagnating or regressing.",
+      "keyTerms": [
+        "SDG 14",
+        "SDG 15",
+        "Life below Water",
+        "Life on Land",
+        "natural capital"
+      ],
+      "examTips": "Remember the direction: 14 (sea) improving, 15 (land) declining in Indonesia. Be ready to link SDG 15 decline to deforestation/land-use change and peatlands (W6).",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.ibsap",
+      "label": "IBSAP 2025–2045",
+      "type": "policy",
+      "module": "M5",
+      "parent": "m5.part3",
+      "summary": "Indonesian Biodiversity Strategy and Action Plan: vision 'living in harmony with nature'; national guideline, diplomatic tool, evaluated every 5 years.",
+      "details": "The **Indonesian Biodiversity Strategy and Action Plan (IBSAP) 2025–2045** is Indonesia's master plan for biodiversity in a **megadiversity country** (characterised by coral reefs, found only in equatorial regions, and rich biodiversity).\n\n- **Vision**: *Living in harmony with nature for the sustainability of all life forms in Indonesia.*\n- **Mission**: *Managing biodiversity through **protection**, **sustainable use**, **enrichment of science and technology**, and **strengthening resources and governance**.*\n- **Functions**:\n  1. **National and regional guideline** for biodiversity management\n  2. Indonesia's **diplomatic tool** in global forums\n  3. **Evaluated every 5 years** to remain relevant\n- **Alignment**: RPJPN 2025–2045, RPJMN 2025–2029, the **Kunming-Montreal Global Biodiversity Framework (KM-GBF)**, and revisions of Law 5/1990 on conservation; mandated by **Presidential Instruction 1/2023** on mainstreaming biodiversity. A **Biodiversity Management Index** becomes a key development indicator nationally and regionally.\n- Government frames biodiversity as **basic capital** for development and a **game changer** for the green economy toward **Visi Indonesia 2045**.",
+      "keyTerms": [
+        "IBSAP",
+        "megadiversity",
+        "KM-GBF",
+        "Inpres 1/2023",
+        "biodiversity mainstreaming",
+        "Visi Indonesia 2045"
+      ],
+      "examTips": "Know the vision phrase, the four mission elements (protection, sustainable use, science & technology, resources & governance), and the three functions. Note the mission explicitly includes science and technology – link to STI.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            19,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.ibsap-history",
+      "label": "History of IBSAP and the CBD",
+      "type": "data",
+      "module": "M5",
+      "parent": "m5.ibsap",
+      "summary": "CBD ratified by Law 5/1994; action plans since 1993 → IBSAP 2003–2020 → IBSAP 2015–2020 (Aichi Targets) → IBSAP 2025–2045.",
+      "details": "Timeline of Indonesia's biodiversity planning (lecturer notes):\n\n- **1993** – Indonesia's first biodiversity management action plan.\n- **Law No. 5/1994** – ratification of the **UN Convention on Biological Diversity (CBD)**, committing Indonesia to global biodiversity management.\n- **IBSAP 2003–2020** – first Indonesian Biodiversity Strategy and Action Plan.\n- **IBSAP 2015–2020** – adjusted to the **Aichi Biodiversity Targets**.\n- **IBSAP 2025–2045** – drafted after the 2015–2020 plan ended, aligned with national long- and medium-term plans (RPJPN/RPJMN) and the **Kunming-Montreal GBF**.\n\n**Why it matters**: shows continuity of commitment and how national plans track successive global biodiversity frameworks (Aichi → Kunming-Montreal).",
+      "keyTerms": [
+        "CBD",
+        "Law 5/1994",
+        "Aichi Targets",
+        "Kunming-Montreal GBF"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.biodiversity-threats",
+      "label": "Value of and threats to Indonesian biodiversity",
+      "type": "concept",
+      "module": "M5",
+      "parent": "m5.ibsap",
+      "summary": "Biodiversity balances ecosystems and supports livelihoods; threatened by land/sea-use change, overuse, pollution, invasive species and climate change.",
+      "details": "**Why biodiversity matters** (lecturer notes): Indonesia's biodiversity\n- maintains **ecosystem balance**\n- provides **educational** value and preserves **culture**\n- supports **economic growth** and **local livelihoods**\n- provides **environmental services** (ecosystem services)\n\n**Threats** to biodiversity in Indonesia:\n1. **Land- and sea-use change**\n2. **Unsustainable use** (overexploitation)\n3. **Dependence of communities** living around high-biodiversity areas\n4. **Environmental pollution**\n5. **Invasive alien species**\n6. **Climate change**\n\n**Connections**: these threats map onto global biodiversity-loss drivers and onto the planetary boundary for biosphere integrity (W2); the services lost are the **ecosystem services** of W4; land-use change and climate link to peatlands and AFOLU (W6).",
+      "keyTerms": [
+        "ecosystem services",
+        "land-use change",
+        "invasive alien species",
+        "overexploitation"
+      ],
+      "examTips": "A list question is likely: name the threats to biodiversity in Indonesia.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.biodiversity-sdgs",
+      "label": "Biodiversity as foundation for all SDGs",
+      "type": "concept",
+      "module": "M5",
+      "parent": "m5.part3",
+      "summary": "UNCBD: biodiversity links to all 17 SDGs, especially 14 and 15; it is a life-support system and nearly half of humanity depends on it directly.",
+      "details": "IBSAP summary points (slide 20):\n\n- **Biodiversity management** plays a crucial role in achieving Indonesia's SDGs.\n- The **UNCBD** explains that biodiversity is **linked to all 17 SDGs**, with the closest links to **Goal 14 (marine ecosystems)** and **Goal 15 (terrestrial ecosystems)**.\n- Biodiversity is a vital foundation of **life-support systems** – the basis of welfare for present and future generations, enabling a fair balance between economic, social and environmental needs.\n- Globally, **nearly half of the human population depends directly on natural resources** for its livelihood, and many of the **most vulnerable** groups depend directly on biodiversity for subsistence.\n\n**Why it matters**: biodiversity loss is not only an environmental issue – it threatens poverty, food and health goals. This is the 'biosphere as foundation' view of the SDGs and connects to W4's argument that the Global South depends most directly on ecosystem services.",
+      "keyTerms": [
+        "UNCBD",
+        "life-support system",
+        "livelihoods",
+        "vulnerable groups"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.nbs",
+      "label": "Nature-based Solutions (NbS)",
+      "type": "definition",
+      "module": "M5",
+      "parent": "m5.part3",
+      "summary": "Actions to protect, conserve, restore, sustainably use and manage ecosystems to address societal challenges, benefiting people and nature; cost-effective for SDGs.",
+      "details": "**Nature-based Solutions (NbS; Indonesian: Solusi Berbasis Alam, SBA)** are an approach for solving societal problems – including with technology – while **conserving biodiversity**.\n\n- **UNEP definition**: actions to **protect, conserve, restore, sustainably use and manage** natural or modified ecosystems to address **social, economic and environmental challenges** effectively and adaptively.\n- **IUCN**: solutions that simultaneously benefit **people and nature** (human well-being and biodiversity).\n- NbS harness the power of nature to address **climate change, food and water security, disaster risk reduction, pollution mitigation and urban development**.\n- Considered a **cost-effective** way to achieve the SDGs (report: *Mainstreaming Nature-based Solutions – SDGs*, 2020).\n\n**NbS diagram** (IUCN-based, slide 21): ecosystem-based approaches – **restoration, issue-specific, infrastructure, management, protection** – applied to **societal challenges** (climate, food, water, disasters, economy, social) to yield **human health and well-being** plus **biodiversity enhancement**.\n\nExamples (general): mangroves for coastal protection, urban green spaces for cooling, peatland rewetting.",
+      "keyTerms": [
+        "Nature-based Solutions",
+        "SBA",
+        "UNEP",
+        "IUCN",
+        "ecosystem-based approaches",
+        "restoration"
+      ],
+      "examTips": "Give the UNEP/IUCN definition (protect, restore, sustainably manage ecosystems → societal challenges → benefits for people AND biodiversity). Contrast NbS with purely 'grey' engineered solutions; link to ecosystem services (W4) and peatlands/mangroves (W6).",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.part4",
+      "label": "4 · Role of science, technology and innovation",
+      "type": "topic",
+      "module": "M5",
+      "parent": "m5",
+      "summary": "STI defined, positioned as a key action of the Addis Ababa Action Agenda, coordinated globally via the Technology Facilitation Mechanism.",
+      "details": "Part 4 explains **how knowledge and technology drive SDG achievement**.\n\n- **Definitions**: **Science** (systematic study of the world), **Technology** (application of knowledge to specific goals), **Innovation** (new ways of producing, distributing, using goods/services) – three distinct but related areas (UNIDO and UN IATT, 2022).\n- **Policy basis**: STI is one of the **seven key action areas** of the **Addis Ababa Action Agenda (2015)**; innovation, technology dissemination and **mutually agreed technology transfer** promote sustainable development.\n- **Global mechanism**: the **Technology Facilitation Mechanism (TFM)** – IATT, 10-Member Group, STI Forum, 2030 Connect.\n- **Most related goals**: **SDG 9** (industry, innovation, infrastructure) and **SDG 17** (partnership).\n- **Features**: STI is about generating, disseminating and using **knowledge**; each SDG needs different STI; each country has **place-based priorities**.\n\nLinks to W3 (the **T** in IPAT and the dual role of technology) and W7 (technology and SDG relationships).",
+      "keyTerms": [
+        "STI",
+        "Addis Ababa Action Agenda",
+        "TFM",
+        "technology transfer",
+        "SDG 9",
+        "SDG 17"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sti-definition",
+      "label": "Science, Technology and Innovation (STI) defined",
+      "type": "definition",
+      "module": "M5",
+      "parent": "m5.part4",
+      "summary": "Science = systematic pursuit of knowledge; Technology = applying knowledge to goals; Innovation = new ways of producing, distributing or using goods/services.",
+      "details": "STI covers **three distinct but closely related areas** (source: UNIDO and UN Inter-Agency Task Team on STI for the SDGs, 2022, *STI for Achieving the SDGs: Guidelines for Policy Formulation*):\n\n- **Science** – the pursuit of **knowledge** through the **systematic study** of the structure and behaviour of the **physical, natural and social** world.\n- **Technology** – the **application of knowledge** to achieve **specific goals**.\n- **Innovation** – a **new way of producing, distributing or using goods and services**, based on new technology, **new business models**, or new ways of **economic or social organisation**.\n\nKey point: innovation is **not only technological** – it can be organisational or social (e.g. new business models, new institutions). \n\n**Connection**: in W3's IPAT equation, technology (T) can increase or decrease impact – STI policy aims to steer it toward reducing impact while meeting human needs.",
+      "keyTerms": [
+        "science",
+        "technology",
+        "innovation",
+        "UNIDO",
+        "IATT"
+      ],
+      "examTips": "Be able to distinguish the three terms precisely; note that innovation includes non-technological (business-model, social) innovation.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sti-aaaa",
+      "label": "STI in the Addis Ababa Action Agenda",
+      "type": "policy",
+      "module": "M5",
+      "parent": "m5.part4",
+      "summary": "STI is one of seven key action areas of the Addis Ababa Action Agenda (2015); innovation and agreed technology transfer promote sustainable development.",
+      "details": "The **Addis Ababa Action Agenda (AAAA, 2015)** is the UN framework on **financing and means of implementation** for the 2030 Agenda.\n\n- **STI** is one of its **seven key action areas** for realising the Sustainable Development Agenda (2015–2030). (The other areas include domestic public resources, private business and finance, international development cooperation, trade, debt, and systemic issues.)\n- The **creation, development and dissemination** of innovations and new technologies, including **mutually agreed technology transfer**, promote sustainable development.\n- With STI, **every country, including Indonesia**, can steer SDG targets toward **universal achievement**.\n- Lecturer's note: besides **funding**, the role of the **private sector** is emphasised.\n\n**Why it matters**: technology transfer on mutually agreed terms is a key North–South issue – developing countries need access to technology to leapfrog (links to W4 Global North/South and W6 CBDR).",
+      "keyTerms": [
+        "Addis Ababa Action Agenda",
+        "technology transfer",
+        "means of implementation",
+        "private sector"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.tfm",
+      "label": "Technology Facilitation Mechanism (TFM)",
+      "type": "framework",
+      "module": "M5",
+      "parent": "m5.part4",
+      "summary": "UN mechanism for STI for SDGs with four components: IATT, 10-Member Group, STI Forum and the 2030 Connect online platform.",
+      "details": "Globally, the role of STI for the SDGs is accommodated in the **Technology Facilitation Mechanism (TFM)**, which has **four components**:\n\n**Internal UN bodies (monitoring the role of STI in the SDGs)**\n1. **IATT** – UN **Interagency Task Team** on STI for the SDGs.\n2. **10-Member Group** – group of 10 representatives supporting the TFM.\n\n**Communication and knowledge-exchange platforms (among countries and stakeholders)**\n3. **STI Forum** – the annual **Multi-stakeholder Forum on Science, Technology and Innovation for the SDGs**.\n4. **2030 Connect** – **online platform**, a gateway for information on existing STI initiatives, mechanisms and programmes.\n\n**Why it matters**: TFM is the global institutional answer to the question *how do we share technology and knowledge so all countries can reach the SDGs?* It operationalises SDG 17 (partnership, technology targets).",
+      "keyTerms": [
+        "TFM",
+        "IATT",
+        "10-Member Group",
+        "STI Forum",
+        "2030 Connect"
+      ],
+      "examTips": "Name all four TFM components and sort them into two groups: platforms (STI Forum, 2030 Connect) vs internal UN bodies (IATT, 10-Member Group).",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sti-sdg9-17",
+      "label": "STI linked to SDG 9 and SDG 17",
+      "type": "concept",
+      "module": "M5",
+      "parent": "m5.part4",
+      "summary": "STI for SDGs is most closely related to SDG 17 (partnerships for the goals) and SDG 9 (industry, innovation and infrastructure).",
+      "details": "The role of STI for the SDGs is **closely related to two goals**:\n\n- **SDG 17 – Partnerships for the Goals**: includes technology targets (technology transfer, capacity building, the TFM itself) and cooperation between countries and stakeholders.\n- **SDG 9 – Industry, Innovation and Infrastructure**: building resilient infrastructure, sustainable industrialisation and fostering innovation (including research and development capacity).\n\nBut STI is **cross-cutting**: it enables progress across all goals (e.g. SDG 7 energy targets include research and technology deployment; IBSAP's mission includes science and technology).",
+      "keyTerms": [
+        "SDG 9",
+        "SDG 17",
+        "cross-cutting"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.sti-features",
+      "label": "Features of STI for SDG achievement",
+      "type": "concept",
+      "module": "M5",
+      "parent": "m5.part4",
+      "summary": "STI is about generating, disseminating and using knowledge; each SDG needs different STI and each country has place-based priorities.",
+      "details": "Three features of STI for achieving the SDGs (TPB):\n\n1. **Knowledge-centred** – STI is about **generating, disseminating and using knowledge**.\n2. **Goal-specific** – the challenges of each SDG require **different STI** (different knowledge-management needs). E.g. health needs vaccines and diagnostics; energy needs renewables and efficiency.\n3. **Place-based** – each country will **generate and require different STI** according to its own **priorities** and context.\n\n**Implication**: there is no one-size-fits-all technology fix. STI policy must be tailored – which is why Indonesia needs its own STI roadmap and why technology transfer must be adapted locally. Links to the W7 discussion that technology can create synergies or trade-offs between SDGs.",
+      "keyTerms": [
+        "knowledge management",
+        "place-based priorities",
+        "STI policy"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.part5",
+      "label": "5 · Reality check on SDG progress",
+      "type": "topic",
+      "module": "M5",
+      "parent": "m5",
+      "summary": "Midpoint 2023: only 15% of targets on track; 2026: real gains in water, sanitation, energy, internet, but poverty, hunger and climate lag.",
+      "details": "Part 5 asks: **are we actually on track for 2030?**\n\n- **2023 midpoint** (UN Statistics): of 140 assessed targets, only **15% on track**, **48%** off track, **>30% stagnant or below the 2015 baseline**. Positive: more comparable databases and agreed methods.\n- **2026 check** (*Shared Blueprint for Peace*; WEF summary of the SDG progress report 2025): achievements in **drinking water, sanitation, HIV/AIDS, electricity, internet, social protection**; lags in **extreme poverty, food insecurity, temperature rise (1.43°C), out-of-school children, refugees**.\n- Biggest gaps: **poverty and equality (SDG 1, 5, 10)**, worsened by slow COVID recovery, fragile economies, climate shocks and slower growth (e.g. in Africa).\n- **Discussion** questions on equity for the Global South/Indonesia and optimism for 2030.\n\nThis sets up W7 (why progress is uneven: interlinkages, spillovers) and W6 (climate as a cross-cutting threat).",
+      "keyTerms": [
+        "reality check",
+        "midpoint 2023",
+        "on track",
+        "stagnation"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            28,
+            29,
+            30,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.reality-2023",
+      "label": "Reality check 2023 (midpoint of the Decade of Action)",
+      "type": "data",
+      "module": "M5",
+      "parent": "m5.part5",
+      "summary": "Of 140 targets evaluated in 2023, 15% on track, 48% off track, over 30% stagnant or below the 2015 baseline.",
+      "details": "**UN Statistics midpoint assessment (2023)** – halfway through 2015–2030:\n\n- Of **140 targets** evaluated:\n  - **15%** progressing according to the roadmap (on track)\n  - **48%** not on track (moderately/severely off track)\n  - **More than 30%** **stagnant or regressing below the 2015 baseline**\n- Positive trends: **more databases** comparable across countries and **more agreed-upon methods**.\n\n**Chart (slide 29)** – progress by goal (on track / fair progress / stagnation-regression / insufficient data): the highest on-track shares are for **SDG 12 (~36%)**, **SDG 14 (~30%)**, **SDG 9 and SDG 15 (~25%)**; several goals (e.g. SDG 1, 4, 6, 8, 13, 16) show **no targets on track**; large red (stagnation/regression) bars for SDG 2, 8, 14 and 15; SDG 11 and 16 have much insufficient data.\n\n**Why it matters**: the key numbers 15% / 48% / >30% are classic exam material and show that the Decade of Action is badly off course.",
+      "keyTerms": [
+        "midpoint 2023",
+        "140 targets",
+        "15% on track",
+        "2015 baseline"
+      ],
+      "examTips": "Memorise 140 targets → 15% on track, 48% off track, >30% stagnant/regressing. Use these to answer whether SDG progress gives optimism for 2030.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.reality-2026",
+      "label": "Reality check 2026: gains and lags",
+      "type": "data",
+      "module": "M5",
+      "parent": "m5.part5",
+      "summary": "Gains: water (+1bn), sanitation (+1.2bn), electricity 92%, internet 74%. Lags: 1 in 10 extremely poor, 3bn food insecure, 1.43°C warming.",
+      "details": "**'Shared Blueprint for Peace'** – progress snapshot (source: WEF summary of the 2025 SDG progress report).\n\n**Achievements**\n- **1 billion** people gained access to **drinking water**\n- **1.2 billion** gained access to **safe sanitation**\n- **HIV/AIDS infections down 30%**\n- **Electricity** reaches **92%** of the world's population\n- **Internet** access covers **74%**\n- **Social protection** reaches **half** of the world's population\n\n**Still lagging**\n- **1 in 10** people still live in **extreme poverty**\n- **Food insecurity** affects **3 billion** people\n- By 2025, global temperature reached **1.43°C above pre-industrial** levels\n- **273 million** children and youth **out of school**\n- **Refugee** population up by **more than half** vs the previous decade\n\n**Lecturer's analysis**: gaps persist in **poverty and equality (SDG 1, 5, 10)**. Poverty reduction is harder due to **slow COVID-19 recovery, fragile economies, climate shocks and slower growth** (e.g. Africa). **Gender equality** is slow: women under-represented in leadership, education access and careers.",
+      "keyTerms": [
+        "achievements",
+        "extreme poverty",
+        "food insecurity",
+        "1.43°C",
+        "SDG 1",
+        "SDG 5",
+        "SDG 10"
+      ],
+      "examTips": "Have 2–3 numbers ready on each side (gains vs lags) and the reasons poverty/equality lag (COVID, fragile economies, climate shocks). Link 1.43°C to the Paris 1.5°C goal (W6).",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5.discussion",
+      "label": "Discussion: equity and optimism for 2030",
+      "type": "debate",
+      "module": "M5",
+      "parent": "m5.part5",
+      "summary": "Will SDGs yield equitable results for the Global South/Indonesia? Which SDGs do you know? Does progress justify optimism for 2030?",
+      "details": "**Questions (slide 31)**\n1. Will development through the SDGs yield **equitable results** in places like the **Global South or Indonesia** compared with other countries?\n2. Which SDGs are you **most and least familiar** with? Explore and give examples.\n3. Does current SDG achievement give **optimism** for the 2030 targets?\n\n**Model answer outline**\n- *Equity*: SDGs are universal and allow national adaptation (Indonesia's 289 indicators, SDGs Desa), but capacity, finance and technology differ; the Global South faces climate shocks, debt and slow post-COVID recovery, and depends more directly on natural resources. Equity hinges on means of implementation – finance (AAAA), **technology transfer (TFM)** and partnership (SDG 17); link to Global North/South (W4) and CBDR (W6).\n- *Familiarity*: e.g. SDG 4 or 7 are familiar; SDG 14/15 or 17 less so – give Indonesian examples (VNR 2025 goals, SDG 15 decline, IBSAP, NbS).\n- *Optimism*: 2023 midpoint – only 15% on track, >30% stagnant/regressing; 2026 gains in water, sanitation, energy, internet. Balanced answer: **2030 is unlikely for most targets**, but measurable progress, better data and stronger localisation justify **conditional optimism** if action and finance accelerate.",
+      "keyTerms": [
+        "equity",
+        "Global South",
+        "optimism",
+        "means of implementation"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M5",
+          "slides": [
+            31
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "m5.sdgs",
+      "target": "m5.mdgs",
+      "type": "builds-on",
+      "label": "SDGs succeed and broaden the MDGs"
+    },
+    {
+      "source": "m5.sdgs",
+      "target": "m5.sd-definition",
+      "type": "builds-on",
+      "label": "SDGs operationalise the Brundtland definition"
+    },
+    {
+      "source": "m5.pillar-model",
+      "target": "m5.sd-dimensions-diagram",
+      "type": "contrasts",
+      "label": "4 pillars (adds governance) vs 3 dimensions + peace & partnership"
+    },
+    {
+      "source": "m5.indonesia-commitment",
+      "target": "m5.goals-targets-indicators",
+      "type": "applies-to",
+      "label": "Bappenas adapts targets into 289 national indicators"
+    },
+    {
+      "source": "m5.regional-integration",
+      "target": "m5.vnr",
+      "type": "contrasts",
+      "label": "VLR (local) vs VNR (national)"
+    },
+    {
+      "source": "m5.vnr",
+      "target": "m5.global-report",
+      "type": "related",
+      "label": "national reviews feed the global stocktake"
+    },
+    {
+      "source": "m5.sdg-report-2025",
+      "target": "m5.sdg14-15-indonesia",
+      "type": "related",
+      "label": "SDG 14 a focus goal of VNR 2025"
+    },
+    {
+      "source": "m5.ibsap",
+      "target": "m5.sdg14-15-indonesia",
+      "type": "applies-to",
+      "label": "IBSAP responds to SDG 15 decline"
+    },
+    {
+      "source": "m5.nbs",
+      "target": "m5.biodiversity-sdgs",
+      "type": "builds-on",
+      "label": "NbS use biodiversity to deliver SDGs"
+    },
+    {
+      "source": "m5.ibsap",
+      "target": "m5.sti-definition",
+      "type": "related",
+      "label": "IBSAP mission includes enriching science and technology"
+    },
+    {
+      "source": "m5.sdg7-example",
+      "target": "m5.sti-features",
+      "type": "example-of",
+      "label": "SDG 7 targets include research and technology deployment"
+    },
+    {
+      "source": "m5.tfm",
+      "target": "m5.sti-sdg9-17",
+      "type": "applies-to",
+      "label": "TFM operationalises SDG 17 technology targets"
+    },
+    {
+      "source": "m5.sti-aaaa",
+      "target": "m5.tfm",
+      "type": "related",
+      "label": "technology transfer agenda implemented via TFM"
+    },
+    {
+      "source": "m5.reality-2023",
+      "target": "m5.decade-of-action",
+      "type": "related",
+      "label": "midpoint assessment of the Decade of Action"
+    },
+    {
+      "source": "m5.indicator-revisions",
+      "target": "m5.reality-2023",
+      "type": "related",
+      "label": "data gaps limit progress assessment"
+    },
+    {
+      "source": "m5.itb",
+      "target": "m5.sti-features",
+      "type": "example-of",
+      "label": "university research as STI for SDGs"
+    },
+    {
+      "source": "m5.sdgs-desa",
+      "target": "m5.regional-integration",
+      "type": "related",
+      "label": "localising SDGs down to villages"
+    }
+  ],
+  "crossModuleIdeas": [
+    {
+      "from": "m5.sd-definition",
+      "toModule": "M1",
+      "concept": "Definitions of sustainability / Brundtland / intergenerational ethics",
+      "type": "builds-on",
+      "reason": "Brundtland definition and intergenerational equity introduced in W1"
+    },
+    {
+      "from": "m5.sti-definition",
+      "toModule": "M3",
+      "concept": "IPAT technology factor / dual role of technology",
+      "type": "related",
+      "reason": "T in IPAT ↔ STI for SDGs"
+    },
+    {
+      "from": "m5.biodiversity-sdgs",
+      "toModule": "M4",
+      "concept": "Ecosystem services and valuation/PES",
+      "type": "related",
+      "reason": "biodiversity provides ecosystem services; half of humanity depends directly on nature"
+    },
+    {
+      "from": "m5.nbs",
+      "toModule": "M4",
+      "concept": "Ecosystem services",
+      "type": "builds-on",
+      "reason": "NbS harness ecosystem services to solve societal challenges"
+    },
+    {
+      "from": "m5.nbs",
+      "toModule": "M6",
+      "concept": "Peatlands / carbon sequestration / AFOLU",
+      "type": "related",
+      "reason": "peatland and mangrove restoration as NbS for climate"
+    },
+    {
+      "from": "m5.sdg14-15-indonesia",
+      "toModule": "M6",
+      "concept": "Peatlands and AFOLU emissions",
+      "type": "related",
+      "reason": "SDG 15 decline linked to land-use change and deforestation"
+    },
+    {
+      "from": "m5.biodiversity-threats",
+      "toModule": "M2",
+      "concept": "Planetary boundaries (biosphere integrity, land-system change)",
+      "type": "related",
+      "reason": "drivers of biodiversity loss map onto planetary boundaries"
+    },
+    {
+      "from": "m5.reality-2026",
+      "toModule": "M6",
+      "concept": "Paris Agreement 1.5°C goal / SDG 13",
+      "type": "related",
+      "reason": "1.43°C warming by 2025 nears the Paris limit"
+    },
+    {
+      "from": "m5.sd-dimensions-diagram",
+      "toModule": "M7",
+      "concept": "SDG interlinkages (synergies and trade-offs)",
+      "type": "builds-on",
+      "reason": "goals form an integrated, interconnected system"
+    },
+    {
+      "from": "m5.discussion",
+      "toModule": "M4",
+      "concept": "Global North vs Global South",
+      "type": "related",
+      "reason": "equity of SDG outcomes for the Global South"
+    },
+    {
+      "from": "m5.sti-aaaa",
+      "toModule": "M7",
+      "concept": "Technology and SDGs / North vs South synergies and spillovers",
+      "type": "related",
+      "reason": "technology transfer and spillovers between countries"
+    },
+    {
+      "from": "m5.reality-2023",
+      "toModule": "M7",
+      "concept": "SDG rankings / SDG Index",
+      "type": "related",
+      "reason": "measuring and ranking SDG progress"
+    }
+  ],
+  "needsImageCheck": [
+    9,
+    30
+  ]
+}

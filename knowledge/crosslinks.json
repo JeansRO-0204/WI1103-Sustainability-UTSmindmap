@@ -1,0 +1,843 @@
+{
+ "nodes": [
+  {
+   "id": "core.themes",
+   "label": "Cross-cutting themes",
+   "type": "topic",
+   "module": "core",
+   "parent": "root",
+   "importance": 3,
+   "summary": "Big ideas that run through several weeks — the best material for essay and comparison questions.",
+   "details": "These hubs connect concepts from different weeks. Lecturers love questions that ask you to **connect** weeks, e.g. *'How does the tragedy of the commons relate to climate change and the Paris Agreement?'* Open a theme to see every concept that belongs to it, then follow the dashed cross-links.",
+   "keyTerms": [],
+   "sources": []
+  },
+  {
+   "id": "core.technology",
+   "label": "Technology: problem or solution?",
+   "type": "concept",
+   "module": "core",
+   "parent": "core.themes",
+   "importance": 3,
+   "summary": "IPAT's T, rebound effects, STI and responsible innovation — technology can raise or cut impact.",
+   "details": "IPAT's T, rebound effects, STI and responsible innovation — technology can raise or cut impact.\n\nRelated concepts are linked by dashed edges — follow them across weeks.",
+   "keyTerms": [],
+   "sources": []
+  },
+  {
+   "id": "core.equity",
+   "label": "Equity: Global North vs South",
+   "type": "concept",
+   "module": "core",
+   "parent": "core.themes",
+   "importance": 3,
+   "summary": "Who causes impacts, who suffers them, who pays: justice, CBDR-RC, spillovers.",
+   "details": "Who causes impacts, who suffers them, who pays: justice, CBDR-RC, spillovers.\n\nRelated concepts are linked by dashed edges — follow them across weeks.",
+   "keyTerms": [],
+   "sources": []
+  },
+  {
+   "id": "core.commons",
+   "label": "Commons & their governance",
+   "type": "concept",
+   "module": "core",
+   "parent": "core.themes",
+   "importance": 3,
+   "summary": "Shared resources overused without rules — and the institutions (Ostrom, Montreal, Subak, PES) that manage them.",
+   "details": "Shared resources overused without rules — and the institutions (Ostrom, Montreal, Subak, PES) that manage them.\n\nRelated concepts are linked by dashed edges — follow them across weeks.",
+   "keyTerms": [],
+   "sources": []
+  },
+  {
+   "id": "core.limits",
+   "label": "Limits of the planet",
+   "type": "concept",
+   "module": "core",
+   "parent": "core.themes",
+   "importance": 3,
+   "summary": "Carrying capacity, planetary boundaries, ecological footprint and overshoot.",
+   "details": "Carrying capacity, planetary boundaries, ecological footprint and overshoot.\n\nRelated concepts are linked by dashed edges — follow them across weeks.",
+   "keyTerms": [],
+   "sources": []
+  },
+  {
+   "id": "core.sdg-system",
+   "label": "SDGs as a connected system",
+   "type": "concept",
+   "module": "core",
+   "parent": "core.themes",
+   "importance": 3,
+   "summary": "Goals interact: synergies, trade-offs, SDG13 links, and the food-energy-water nexus.",
+   "details": "Goals interact: synergies, trade-offs, SDG13 links, and the food-energy-water nexus.\n\nRelated concepts are linked by dashed edges — follow them across weeks.",
+   "keyTerms": [],
+   "sources": []
+  }
+ ],
+ "edges": [
+  {
+   "source": "m1.history.brundtland",
+   "target": "m5.sd-definition",
+   "type": "builds-on",
+   "label": "Brundtland definition underpins SD positioning in the SDGs"
+  },
+  {
+   "source": "m1.dimensions",
+   "target": "m5.sd-dimensions-diagram",
+   "type": "builds-on",
+   "label": "Three dimensions → SDGs mapped to economy/society/biosphere"
+  },
+  {
+   "source": "m1.history",
+   "target": "m3.malthus",
+   "type": "related",
+   "label": "Malthus is an early milestone in limits-to-growth thinking"
+  },
+  {
+   "source": "m1.environment.ecosystem",
+   "target": "m4.ecosystem-services",
+   "type": "builds-on",
+   "label": "Ecosystems deliver ecosystem services"
+  },
+  {
+   "source": "m1.human-centred.utilitarianism",
+   "target": "m4.es-valuation",
+   "type": "related",
+   "label": "Utilitarian logic behind putting money values on nature"
+  },
+  {
+   "source": "m1.laws-of-ecology",
+   "target": "m7.recycling",
+   "type": "related",
+   "label": "'Everything must go somewhere' → recycling & reuse"
+  },
+  {
+   "source": "m1.dam-dilemma",
+   "target": "m7.interlinkages.synergy-tradeoff",
+   "type": "related",
+   "label": "Energy vs ecosystem = a classic SDG trade-off"
+  },
+  {
+   "source": "m7.responsible-innovation",
+   "target": "m1.role-of-ethics",
+   "type": "related",
+   "label": "Responsible innovation applies ethics to technology"
+  },
+  {
+   "source": "m3.env-justice",
+   "target": "m4.why-south",
+   "type": "related",
+   "label": "Impacts and benefits are unequally shared North vs South"
+  },
+  {
+   "source": "m3.consumption-co2",
+   "target": "m4.ns-definition",
+   "type": "related",
+   "label": "Consumption emissions concentrated in the Global North"
+  },
+  {
+   "source": "m3.tech-dual-role",
+   "target": "m5.sti-definition",
+   "type": "related",
+   "label": "T in IPAT ↔ STI as SDG enabler"
+  },
+  {
+   "source": "m3.tech-dual-role",
+   "target": "m7.tech-sdg12",
+   "type": "related",
+   "label": "Technology can raise or cut material footprint"
+  },
+  {
+   "source": "m3.env-justice",
+   "target": "m7.spillover",
+   "type": "related",
+   "label": "Offshored impacts appear as cross-border spillovers"
+  },
+  {
+   "source": "m3.env-justice",
+   "target": "m6.paris.cbdr",
+   "type": "related",
+   "label": "Unequal responsibility → CBDR-RC"
+  },
+  {
+   "source": "m3.agri-tech",
+   "target": "m7.few",
+   "type": "related",
+   "label": "Green Revolution intensifies food-energy-water links"
+  },
+  {
+   "source": "m3.overconsumption",
+   "target": "m7.tech-sdg12",
+   "type": "related",
+   "label": "Overconsumption ↔ SDG 12 responsible consumption"
+  },
+  {
+   "source": "m3.biocapacity",
+   "target": "m6.ghg",
+   "type": "related",
+   "label": "Carbon footprint is the largest share of overshoot"
+  },
+  {
+   "source": "m3.offshoring",
+   "target": "m7.spillover.cotton",
+   "type": "related",
+   "label": "Production abroad, consumption at home"
+  },
+  {
+   "source": "m3.jevons",
+   "target": "m6.ac-adaptation",
+   "type": "example-of",
+   "label": "More efficient AC → more AC use (rebound)"
+  },
+  {
+   "source": "m4.why-south",
+   "target": "m3.ipat",
+   "type": "builds-on",
+   "label": "Global South's P and A growth drives future I"
+  },
+  {
+   "source": "m4.south-data",
+   "target": "m3.how-many-earths",
+   "type": "related",
+   "label": "Footprint per person differs sharply North vs South"
+  },
+  {
+   "source": "m4.tech-progress",
+   "target": "m3.tech-dual-role",
+   "type": "related",
+   "label": "Technology changes how commons are used"
+  },
+  {
+   "source": "m4.ns-definition",
+   "target": "m6.paris.cbdr",
+   "type": "related",
+   "label": "North/South divide is the basis of CBDR-RC"
+  },
+  {
+   "source": "m4.ns-definition",
+   "target": "m7.boar",
+   "type": "related",
+   "label": "Synergies differ for Global North vs South"
+  },
+  {
+   "source": "m4.ecosystem-services",
+   "target": "m5.nbs",
+   "type": "builds-on",
+   "label": "NbS work by restoring ecosystem services"
+  },
+  {
+   "source": "m4.ecosystem-services",
+   "target": "m5.biodiversity-sdgs",
+   "type": "related",
+   "label": "Biodiversity underpins services and all SDGs"
+  },
+  {
+   "source": "m4.tropical-commons",
+   "target": "m6.peatland",
+   "type": "related",
+   "label": "Tropical commons incl. peat & mangroves store carbon"
+  },
+  {
+   "source": "m4.rio20",
+   "target": "m5.sdgs",
+   "type": "builds-on",
+   "label": "Rio+20 launched the SDG process"
+  },
+  {
+   "source": "m4.tech-progress",
+   "target": "m5.tfm",
+   "type": "related",
+   "label": "Technology access via the TFM"
+  },
+  {
+   "source": "m4.montreal",
+   "target": "m6.ghg.gwp",
+   "type": "related",
+   "label": "Kigali phases down HFCs — potent GHGs"
+  },
+  {
+   "source": "m4.es-regulating",
+   "target": "m6.natural-sinks",
+   "type": "related",
+   "label": "Climate regulation service = natural carbon sinks"
+  },
+  {
+   "source": "m4.cidanau",
+   "target": "m5.nbs",
+   "type": "example-of",
+   "label": "PES to protect a watershed is a nature-based solution"
+  },
+  {
+   "source": "m5.sdg14-15-indonesia",
+   "target": "m6.afolu",
+   "type": "related",
+   "label": "Land & forest SDG15 ↔ AFOLU emissions"
+  },
+  {
+   "source": "m5.nbs",
+   "target": "m6.carbon-sequestration",
+   "type": "related",
+   "label": "Forests/peat/mangroves sequester carbon"
+  },
+  {
+   "source": "m5.reality-2026",
+   "target": "m6.mid-critical-2025",
+   "type": "related",
+   "label": "Mid-decade stocktake: SDGs & climate both off-track"
+  },
+  {
+   "source": "m5.discussion",
+   "target": "m4.why-south",
+   "type": "related",
+   "label": "Equity of SDG progress for the Global South"
+  },
+  {
+   "source": "m5.sti-aaaa",
+   "target": "m7.boar",
+   "type": "related",
+   "label": "Technology transfer & North–South cooperation"
+  },
+  {
+   "source": "m5.reality-2023",
+   "target": "m7.rankings",
+   "type": "related",
+   "label": "SDG Index / rankings measure progress"
+  },
+  {
+   "source": "m5.goals-targets-indicators",
+   "target": "m7.interlinkages",
+   "type": "builds-on",
+   "label": "Targets interact → interlinkage analysis"
+  },
+  {
+   "source": "m5.indonesia-commitment",
+   "target": "m6.indonesia-commitment",
+   "type": "related",
+   "label": "Indonesia's SDG (TPB) and climate commitments"
+  },
+  {
+   "source": "m5.vnr",
+   "target": "m6.paris.gst",
+   "type": "contrasts",
+   "label": "VNR (SDGs) vs Global Stocktake (Paris) — both review progress"
+  },
+  {
+   "source": "m6.paris.cbdr",
+   "target": "m5.tfm",
+   "type": "related",
+   "label": "Capable countries support others with technology"
+  },
+  {
+   "source": "m6.others-to-sdg13",
+   "target": "m7.interlinkages",
+   "type": "builds-on",
+   "label": "SDG13 links are interlinkages in practice"
+  },
+  {
+   "source": "m6.sdg13-to-others",
+   "target": "m7.interlinkages.synergy-tradeoff",
+   "type": "related",
+   "label": "Climate action creates synergies & trade-offs"
+  },
+  {
+   "source": "m6.ghg-sources",
+   "target": "m3.consumption-co2",
+   "type": "related",
+   "label": "Richest households emit a disproportionate share"
+  },
+  {
+   "source": "m6.sustainable-cooling",
+   "target": "m7.few",
+   "type": "related",
+   "label": "Cooling is energy-water intensive"
+  },
+  {
+   "source": "m6.cooling-emissions",
+   "target": "m4.montreal",
+   "type": "related",
+   "label": "Refrigerants (HFCs) regulated by Kigali"
+  },
+  {
+   "source": "m6.peat.fires",
+   "target": "m7.spillover",
+   "type": "example-of",
+   "label": "Haze crosses borders — a negative spillover"
+  },
+  {
+   "source": "m7.spillover.types",
+   "target": "m6.ghg",
+   "type": "related",
+   "label": "CO₂ embodied in imports is a spillover indicator"
+  },
+  {
+   "source": "m7.boar",
+   "target": "m6.paris.cbdr",
+   "type": "related",
+   "label": "Differentiated capacities North vs South"
+  },
+  {
+   "source": "m7.nexus",
+   "target": "m4.arrangement",
+   "type": "related",
+   "label": "Integrated governance of shared resources"
+  },
+  {
+   "source": "m2.hardin-tragedy",
+   "target": "m4.commons-definition",
+   "type": "builds-on",
+   "label": "Hardin's tragedy → what the commons are in the Global South"
+  },
+  {
+   "source": "m2.tragedy-not-commons",
+   "target": "m4.arrangement",
+   "type": "builds-on",
+   "label": "Ostrom: communities can govern commons with rules"
+  },
+  {
+   "source": "m2.tragedy-not-commons.barambang-katute",
+   "target": "m4.subak",
+   "type": "related",
+   "label": "Indonesian customary commons that work"
+  },
+  {
+   "source": "m2.commons-solutions",
+   "target": "m4.regulating",
+   "type": "builds-on",
+   "label": "Week 4 cases = solutions to the tragedy"
+  },
+  {
+   "source": "m2.pb.ozone",
+   "target": "m4.montreal",
+   "type": "related",
+   "label": "Ozone is 'safe' because the Montreal Protocol worked"
+  },
+  {
+   "source": "m2.pb.climate-change",
+   "target": "m6.ghg",
+   "type": "related",
+   "label": "Climate boundary is driven by GHG concentrations"
+  },
+  {
+   "source": "m2.pb.climate-change",
+   "target": "m6.paris",
+   "type": "related",
+   "label": "Paris Agreement = response to crossed climate boundary"
+  },
+  {
+   "source": "m2.pb-framework",
+   "target": "m3.carrying-capacity",
+   "type": "related",
+   "label": "Planet-scale version of carrying capacity"
+  },
+  {
+   "source": "m2.pb-framework",
+   "target": "m3.take-home",
+   "type": "related",
+   "label": "Safe operating space for humanity"
+  },
+  {
+   "source": "m2.pb-transgressed",
+   "target": "m3.overconsumption",
+   "type": "related",
+   "label": "Overconsumption pushes boundaries past limits"
+  },
+  {
+   "source": "m2.pb-transgressed",
+   "target": "m3.biocapacity",
+   "type": "related",
+   "label": "Overshoot: footprint > biocapacity"
+  },
+  {
+   "source": "m2.pb.land-system-change",
+   "target": "m6.peat.disturbance",
+   "type": "example-of",
+   "label": "Peatland drainage/conversion = land-system change"
+  },
+  {
+   "source": "m2.pb.land-system-change",
+   "target": "m6.afolu",
+   "type": "related",
+   "label": "Land use is a major emission source"
+  },
+  {
+   "source": "m2.pb.biosphere-integrity",
+   "target": "m5.biodiversity-threats",
+   "type": "related",
+   "label": "Biodiversity loss in Indonesia"
+  },
+  {
+   "source": "m2.pb.biosphere-integrity",
+   "target": "m5.ibsap",
+   "type": "related",
+   "label": "IBSAP responds to biodiversity loss"
+  },
+  {
+   "source": "m2.pb.biogeochemical-flows",
+   "target": "m7.few",
+   "type": "related",
+   "label": "Fertiliser use links food production to N/P flows"
+  },
+  {
+   "source": "m2.pb.freshwater-change",
+   "target": "m7.few",
+   "type": "related",
+   "label": "Water is one pillar of the FEW nexus"
+  },
+  {
+   "source": "m2.discussion",
+   "target": "m6.paris.cbdr",
+   "type": "related",
+   "label": "Who should act first? → CBDR-RC"
+  },
+  {
+   "source": "m2.doughnut-link",
+   "target": "m1.doughnut",
+   "type": "builds-on",
+   "label": "Ecological ceiling of the doughnut = planetary boundaries"
+  },
+  {
+   "source": "m2.natural-capital-degradation",
+   "target": "m4.es-valuation",
+   "type": "related",
+   "label": "Degraded natural capital = lost ecosystem-service value"
+  },
+  {
+   "source": "m2.hardin-tragedy",
+   "target": "m1.human-centred.locke",
+   "type": "related",
+   "label": "Privatisation as Hardin's/Locke's answer"
+  },
+  {
+   "source": "m2.open-access-resources",
+   "target": "m4.nonphysical",
+   "type": "related",
+   "label": "Open access in oceans/atmosphere/space"
+  },
+  {
+   "source": "core.technology",
+   "target": "m3.ipat",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m3.tech-dual-role",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m3.jevons",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m3.neo-malthus",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m4.tech-progress",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m5.sti-definition",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m5.tfm",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m6.ccus",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m6.ac-adaptation",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m7.tech-sdg12",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.technology",
+   "target": "m7.responsible-innovation",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.equity",
+   "target": "m3.env-justice",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.equity",
+   "target": "m3.consumption-co2",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.equity",
+   "target": "m4.why-south",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.equity",
+   "target": "m4.ns-definition",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.equity",
+   "target": "m6.paris.cbdr",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.equity",
+   "target": "m7.spillover",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.equity",
+   "target": "m7.boar",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.equity",
+   "target": "m5.discussion",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m2.hardin-tragedy",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m2.commons-vs-open-access",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m2.tragedy-not-commons",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m4.commons-definition",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m4.arrangement",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m4.montreal",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m4.subak",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m4.es-payment",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m4.nonphysical",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.commons",
+   "target": "m6.paris",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m2.pb-framework",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m2.pb-status-2025",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m3.carrying-capacity",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m3.malthus",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m3.eco-footprint",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m3.biocapacity",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m1.doughnut",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m1.laws-of-ecology",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.limits",
+   "target": "m6.ghg",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.sdg-system",
+   "target": "m5.sdgs",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.sdg-system",
+   "target": "m5.goals-targets-indicators",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.sdg-system",
+   "target": "m6.sdg13-to-others",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.sdg-system",
+   "target": "m6.others-to-sdg13",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.sdg-system",
+   "target": "m7.interlinkages",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.sdg-system",
+   "target": "m7.few",
+   "type": "related",
+   "label": ""
+  },
+  {
+   "source": "core.sdg-system",
+   "target": "m1.dimensions",
+   "type": "related",
+   "label": ""
+  }
+ ],
+ "_themeMembers": {
+  "core.technology": [
+   "m3.ipat",
+   "m3.tech-dual-role",
+   "m3.jevons",
+   "m3.neo-malthus",
+   "m4.tech-progress",
+   "m5.sti-definition",
+   "m5.tfm",
+   "m6.ccus",
+   "m6.ac-adaptation",
+   "m7.tech-sdg12",
+   "m7.responsible-innovation"
+  ],
+  "core.equity": [
+   "m3.env-justice",
+   "m3.consumption-co2",
+   "m4.why-south",
+   "m4.ns-definition",
+   "m6.paris.cbdr",
+   "m7.spillover",
+   "m7.boar",
+   "m5.discussion"
+  ],
+  "core.commons": [
+   "m2.hardin-tragedy",
+   "m2.commons-vs-open-access",
+   "m2.tragedy-not-commons",
+   "m4.commons-definition",
+   "m4.arrangement",
+   "m4.montreal",
+   "m4.subak",
+   "m4.es-payment",
+   "m4.nonphysical",
+   "m6.paris"
+  ],
+  "core.limits": [
+   "m2.pb-framework",
+   "m2.pb-status-2025",
+   "m3.carrying-capacity",
+   "m3.malthus",
+   "m3.eco-footprint",
+   "m3.biocapacity",
+   "m1.doughnut",
+   "m1.laws-of-ecology",
+   "m6.ghg"
+  ],
+  "core.sdg-system": [
+   "m5.sdgs",
+   "m5.goals-targets-indicators",
+   "m6.sdg13-to-others",
+   "m6.others-to-sdg13",
+   "m7.interlinkages",
+   "m7.few",
+   "m1.dimensions"
+  ]
+ }
+}

@@ -1,0 +1,857 @@
+{
+ "meta": {
+  "course": "WI1103",
+  "generated": "2026-11-04",
+  "sample": true
+ },
+ "modules": [
+  {
+   "id": "M2",
+   "week": 2,
+   "title": "Tragedy of the Commons",
+   "file": "ppt/1787921635087_M2-Tragedy-of-The-Commons-and-The-Impact-of-Human-Activities-on-the-Environment.pptx",
+   "slideCount": 14,
+   "color": "#d97706"
+  },
+  {
+   "id": "M3",
+   "week": 3,
+   "title": "Earth, Overpopulation vs Overconsumption",
+   "file": "ppt/1788623412643_M3-MKWI-Sustainability-Rev-5-Sept-2026_En (1).pptx",
+   "slideCount": 43,
+   "color": "#2563eb"
+  },
+  {
+   "id": "M6",
+   "week": 6,
+   "title": "SDGs & Climate Change",
+   "file": "ppt/1790503682947_M6-MKWI-1103-2025_SDGs-Perubahan-Iklim_En-1.pptx",
+   "slideCount": 43,
+   "color": "#059669"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "label": "WI1103 Sustainability",
+   "type": "root",
+   "module": null,
+   "parent": null,
+   "summary": "Introduction to the Principles of Sustainability: midterm map (sample data).",
+   "details": "Sample graph. Replace by the merged `knowledge/graph.json`.",
+   "keyTerms": [],
+   "importance": 3,
+   "sources": []
+  },
+  {
+   "id": "m2",
+   "label": "M2: Tragedy of the Commons",
+   "type": "module",
+   "module": "M2",
+   "parent": "root",
+   "summary": "Week 2 overview.",
+   "details": "Week 2: **Tragedy of the Commons**.",
+   "keyTerms": [],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "label": "M3: Earth, Overpopulation vs Overconsumption",
+   "type": "module",
+   "module": "M3",
+   "parent": "root",
+   "summary": "Week 3 overview.",
+   "details": "Week 3: **Earth, Overpopulation vs Overconsumption**.",
+   "keyTerms": [],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "label": "M6: SDGs & Climate Change",
+   "type": "module",
+   "module": "M6",
+   "parent": "root",
+   "summary": "Week 6 overview.",
+   "details": "Week 6: **SDGs & Climate Change**.",
+   "keyTerms": [],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m2.tragedy",
+   "label": "Tragedy of the Commons",
+   "type": "framework",
+   "module": "M2",
+   "parent": "m2",
+   "summary": "Hardin: shared open pasture is overgrazed because each herder gains fully but shares the cost.",
+   "details": "- Garrett Hardin pictures a **pasture open to all**.\n- Each herder adds animals: **gain is private**, **cost of overgrazing is shared**.\n- Rational individual choices lead to collective ruin.\n- The idea is *debated*: literature says commons means **shared ownership** with rules, not open access.",
+   "keyTerms": [
+    "Hardin",
+    "overgrazing",
+    "externality"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      2,
+      3
+     ]
+    }
+   ],
+   "examTips": "Distinguish commons (managed) from open-access (unmanaged)."
+  },
+  {
+   "id": "m2.open-access",
+   "label": "Open-access resources",
+   "type": "definition",
+   "module": "M2",
+   "parent": "m2.tragedy",
+   "summary": "Renewable resources owned by no one, so nobody can exclude users: prone to overuse.",
+   "details": "Open-access resources are **not owned by anyone**; access is free, so use is unrestricted.\n\n- Examples: fisheries in the high seas, atmosphere.\n- Contrast with **commons** governed by community rules.",
+   "keyTerms": [
+    "open access",
+    "exclusion"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m2.barambang",
+   "label": "Customary forest Barambang Katute",
+   "type": "case-study",
+   "module": "M2",
+   "parent": "m2.tragedy",
+   "summary": "Indonesian customary forest managed by community rules: a commons that avoids the tragedy.",
+   "details": "A customary (**adat**) forest governed by local institutions shows that shared ownership with **rules and sanctions** can sustain a resource.\n\n- Contradicts the idea that commons always fail.",
+   "keyTerms": [
+    "customary forest",
+    "adat"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m2.pb",
+   "label": "Planetary Boundaries",
+   "type": "framework",
+   "module": "M2",
+   "parent": "m2",
+   "summary": "Nine Earth-system limits within which humanity can operate safely.",
+   "details": "The **planetary boundaries** framework defines a safe operating space for humanity across nine Earth-system processes (climate change, biodiversity loss, nitrogen/phosphorus flows, land-system change, etc.).\n\n- Crossing a boundary risks abrupt, irreversible change.\n- Several are already transgressed.",
+   "keyTerms": [
+    "safe operating space",
+    "transgressed"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   ],
+   "examTips": "Know that boundaries are interlinked and some are already exceeded."
+  },
+  {
+   "id": "m2.pb.climate",
+   "label": "Climate change boundary",
+   "type": "data",
+   "module": "M2",
+   "parent": "m2.pb",
+   "summary": "One of the boundaries, quantified by atmospheric CO2 and radiative forcing.",
+   "details": "Climate change is one of the control variables; it connects to the GHG material of week 6.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.p1",
+   "label": "3.1 Carrying capacity & population",
+   "type": "topic",
+   "module": "M3",
+   "parent": "m3",
+   "summary": "Limits to population growth: carrying capacity, Malthus, Neo-Malthus, Kerala.",
+   "details": "Section 3.1 explores whether population growth is bounded by the environment.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.carrying",
+   "label": "Environmental carrying capacity",
+   "type": "definition",
+   "module": "M3",
+   "parent": "m3.p1",
+   "summary": "Maximum population an environment can sustain given limiting factors.",
+   "details": "There is **always a limit** to population growth. Limiting factors include food, water, space and energy.\n\n- Growth beyond carrying capacity leads to decline.\n- Technology can shift (not remove) the limit.",
+   "keyTerms": [
+    "limiting factors",
+    "carrying capacity"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.malthus",
+   "label": "Malthusian view",
+   "type": "concept",
+   "module": "M3",
+   "parent": "m3.p1",
+   "summary": "Population grows geometrically while food grows arithmetically, causing checks on growth.",
+   "details": "Malthus argued that **population outpaces resources**, causing famine and disease as natural checks.\n\n- Pessimistic view of unchecked population growth.",
+   "keyTerms": [
+    "geometric growth",
+    "arithmetic growth"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      5,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.neomalthus",
+   "label": "Neo-Malthusian theorem",
+   "type": "concept",
+   "module": "M3",
+   "parent": "m3.p1",
+   "summary": "Updated Malthusian concern including environmental degradation; technology may postpone limits.",
+   "details": "Neo-Malthusians connect population to **resource depletion and pollution**. Slides discuss the role of technology and agriculture in extending limits.",
+   "keyTerms": [
+    "technology"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      8,
+      9,
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.kerala",
+   "label": "Case study: Kerala, India",
+   "type": "case-study",
+   "module": "M3",
+   "parent": "m3.p1",
+   "summary": "Kerala lowered fertility through education and health rather than coercion.",
+   "details": "Kerala shows population limits are an **effect rather than a cause**: social development (female education, healthcare) reduced growth.",
+   "keyTerms": [],
+   "importance": 1,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      13,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.p2",
+   "label": "3.2 Impact: IPAT & technology",
+   "type": "topic",
+   "module": "M3",
+   "parent": "m3",
+   "summary": "From population to environmental impact; the IPAT identity and the dual role of technology.",
+   "details": "Section 3.2 links people, wealth and technology to impact.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.ipat",
+   "label": "IPAT equation",
+   "type": "framework",
+   "module": "M3",
+   "parent": "m3.p2",
+   "summary": "I = P × A × T: impact is population times affluence times technology.",
+   "details": "**I = P × A × T**\n\n- **P**: population size\n- **A**: affluence (consumption per person)\n- **T**: technology (impact per unit of consumption)\n\nImpact depends on all three, not just population.",
+   "keyTerms": [
+    "IPAT",
+    "affluence"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      16,
+      17,
+      18
+     ]
+    }
+   ],
+   "examTips": "Explain why T can increase OR decrease I."
+  },
+  {
+   "id": "m3.ipat.t",
+   "label": "Technology factor (T)",
+   "type": "concept",
+   "module": "M3",
+   "parent": "m3.ipat",
+   "summary": "T can reduce impact via efficiency or raise it via new consumption.",
+   "details": "See the dual role of technology.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      19,
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.dual",
+   "label": "Dual role of technology",
+   "type": "concept",
+   "module": "M3",
+   "parent": "m3.ipat",
+   "summary": "Technology improves efficiency but can also enable greater consumption (rebound).",
+   "details": "Technology **improves efficiency** in use and management of natural resources, yet progress also **drives consumption patterns** upward.",
+   "keyTerms": [
+    "efficiency",
+    "rebound effect"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.justice",
+   "label": "Environmental justice",
+   "type": "concept",
+   "module": "M3",
+   "parent": "m3.p2",
+   "summary": "Environmental burdens fall unequally: EV batteries and AI data centers shift impacts to others.",
+   "details": "Unequal impacts: producers of materials (e.g. for **EV batteries**) bear pollution; **data centers for AI** consume water and energy.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      24,
+      25,
+      26,
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.p3",
+   "label": "3.3 Over- and hyper-consumption",
+   "type": "topic",
+   "module": "M3",
+   "parent": "m3",
+   "summary": "Consumption beyond needs and its environmental toll.",
+   "details": "Section 3.3 covers overconsumption concepts.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      29,
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.overcons",
+   "label": "Overconsumption",
+   "type": "concept",
+   "module": "M3",
+   "parent": "m3.p3",
+   "summary": "Consuming beyond what is needed or what the Earth can regenerate.",
+   "details": "Overconsumption relates to **addiction-like** consumption patterns and large per-capita CO2 in rich countries.",
+   "keyTerms": [
+    "overconsumption"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      30,
+      31,
+      32,
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.hyper",
+   "label": "Hyperconsumption",
+   "type": "concept",
+   "module": "M3",
+   "parent": "m3.p3",
+   "summary": "Consumption driven by identity, status and marketing rather than need.",
+   "details": "Hyperconsumption extends overconsumption: buying as culture.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      34,
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.p4",
+   "label": "3.4 Ecological footprint",
+   "type": "topic",
+   "module": "M3",
+   "parent": "m3",
+   "summary": "Measuring human demand on nature against biocapacity.",
+   "details": "Section 3.4 measures consumption in global hectares.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      36,
+      37
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3.ef",
+   "label": "Ecological footprint",
+   "type": "framework",
+   "module": "M3",
+   "parent": "m3.p4",
+   "summary": "Area of productive land and sea needed to supply resources and absorb wastes.",
+   "details": "The **ecological footprint** converts consumption into area. If everyone lived like some nations, we would need **multiple Earths**.",
+   "keyTerms": [
+    "biocapacity",
+    "global hectares"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      37,
+      39,
+      41
+     ]
+    }
+   ],
+   "examTips": "Compare footprint vs biocapacity."
+  },
+  {
+   "id": "m6.p1",
+   "label": "6.1 Climate change & SDGs",
+   "type": "topic",
+   "module": "M6",
+   "parent": "m6",
+   "summary": "What climate change is, GHGs, and links between SDG 13 and other SDGs.",
+   "details": "Section 6.1.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.cc",
+   "label": "Climate change",
+   "type": "definition",
+   "module": "M6",
+   "parent": "m6.p1",
+   "summary": "Long-term shift in average atmospheric conditions of a region.",
+   "details": "Climate is the **average atmospheric condition** over a long period. Climate change is a persistent change in it.",
+   "keyTerms": [
+    "climate"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.ghg",
+   "label": "Greenhouse gases",
+   "type": "concept",
+   "module": "M6",
+   "parent": "m6.p1",
+   "summary": "Gases that absorb heat energy radiated from Earth, warming the atmosphere.",
+   "details": "GHGs absorb heat. Concentrations have increased over time; excess GHG causes **global warming**.",
+   "keyTerms": [
+    "CO2",
+    "CH4",
+    "N2O"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      4,
+      5,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.sdg13",
+   "label": "SDG 13 and other SDGs",
+   "type": "concept",
+   "module": "M6",
+   "parent": "m6.p1",
+   "summary": "Climate action both affects and depends on progress on other SDGs.",
+   "details": "Slides map how SDG 13 contributes to others and vice versa.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.p2",
+   "label": "6.2 Paris Agreement & Indonesia",
+   "type": "topic",
+   "module": "M6",
+   "parent": "m6",
+   "summary": "The 2015-2030 Paris Agreement, its principles and Indonesia's commitment.",
+   "details": "Section 6.2.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      13,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.paris",
+   "label": "Paris Agreement",
+   "type": "policy",
+   "module": "M6",
+   "parent": "m6.p2",
+   "summary": "2015 global agreement to limit warming; countries submit nationally determined contributions.",
+   "details": "Core principles: **equity (CBDR-RC)**, **transparency** (global stocktake) and **sovereignty**.",
+   "keyTerms": [
+    "NDC",
+    "global stocktake"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      14,
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.cbdr",
+   "label": "CBDR-RC",
+   "type": "framework",
+   "module": "M6",
+   "parent": "m6.paris",
+   "summary": "Common but differentiated responsibilities and respective capabilities.",
+   "details": "All countries share responsibility, but **differ by historical contribution and capability**. Linked to the 'right to development'.",
+   "keyTerms": [
+    "CBDR-RC",
+    "equity"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      16
+     ]
+    }
+   ],
+   "examTips": "Why does CBDR matter for the Global South?"
+  },
+  {
+   "id": "m6.transp",
+   "label": "Transparency & global stocktake",
+   "type": "concept",
+   "module": "M6",
+   "parent": "m6.paris",
+   "summary": "Periodic review of collective progress ratchets ambition.",
+   "details": "The **Global Stocktake** assesses collective progress.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.ndc2",
+   "label": "Indonesia 2nd NDC (2025)",
+   "type": "policy",
+   "module": "M6",
+   "parent": "m6.p2",
+   "summary": "Indonesia's updated pledge responding to the first global stocktake, with emissions peaking by 2030.",
+   "details": "Scenarios show emissions **peaking in 2030** before dropping toward net zero.",
+   "keyTerms": [
+    "NDC",
+    "net zero"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      19,
+      20,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.p4",
+   "label": "6.4 What can we do?",
+   "type": "topic",
+   "module": "M6",
+   "parent": "m6",
+   "summary": "Mitigation: peatlands, AFOLU and reducing GHG impacts.",
+   "details": "Section 6.4.",
+   "keyTerms": [],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      31,
+      32
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.peat",
+   "label": "Tropical peatlands",
+   "type": "concept",
+   "module": "M6",
+   "parent": "m6.p4",
+   "summary": "Carbon-rich wetlands; drainage and fires release huge emissions in Indonesia.",
+   "details": "Peatland carbon cycle, disturbance and **fires** matter for Indonesia's emissions.",
+   "keyTerms": [
+    "peatland",
+    "carbon store"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      34,
+      35,
+      36,
+      39
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m6.afolu",
+   "label": "AFOLU",
+   "type": "concept",
+   "module": "M6",
+   "parent": "m6.p4",
+   "summary": "Agriculture, Forestry and Other Land Use: sector for reducing GHG impacts.",
+   "details": "Reducing GHGs from AFOLU is a key mitigation lever.",
+   "keyTerms": [
+    "AFOLU"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      37,
+      38
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "m2.pb.climate",
+   "target": "m6.cc",
+   "type": "related",
+   "label": "climate boundary <-> climate change"
+  },
+  {
+   "source": "m2.pb",
+   "target": "m3.carrying",
+   "type": "related",
+   "label": "limits of the Earth"
+  },
+  {
+   "source": "m2.pb",
+   "target": "m3.ef",
+   "type": "related",
+   "label": "footprint vs safe space"
+  },
+  {
+   "source": "m3.dual",
+   "target": "m6.ndc2",
+   "type": "related",
+   "label": "technology and mitigation"
+  },
+  {
+   "source": "m2.tragedy",
+   "target": "m6.ghg",
+   "type": "example-of",
+   "label": "atmosphere as open-access sink"
+  },
+  {
+   "source": "m3.overcons",
+   "target": "m3.ef",
+   "type": "causes",
+   "label": "consumption drives footprint"
+  },
+  {
+   "source": "m3.overcons",
+   "target": "m6.cbdr",
+   "type": "related",
+   "label": "high per-capita emitters"
+  },
+  {
+   "source": "m2.open-access",
+   "target": "m2.barambang",
+   "type": "contrasts",
+   "label": "unmanaged vs managed"
+  }
+ ]
+}

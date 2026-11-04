@@ -1,0 +1,877 @@
+{
+  "module": {
+    "id": "M2",
+    "week": 2,
+    "title": "Tragedy of the Commons & Planetary Boundaries",
+    "summary": "Why shared resources get overused (Hardin) and why the problem is unmanaged open access rather than the commons, then the nine planetary boundaries—seven now transgressed."
+  },
+  "nodes": [
+    {
+      "id": "m2",
+      "label": "W2 · Tragedy of the Commons & Planetary Boundaries",
+      "type": "module",
+      "module": "M2",
+      "parent": "root",
+      "summary": "Week 2: Hardin's tragedy of the commons, commons vs open access, community-managed examples, and the planetary boundaries framework with its 2025 status.",
+      "details": "Week 2 (\"Tragedy of the Commons and the Impact of Human Activities on the Environment\") has two parts:\n\n- **Part 1 – Tragedy of the commons.** Garrett **Hardin (1968)**: an open pasture where each herder adds cattle leads inevitably to ruin. The lecture then challenges Hardin: true **commons** are jointly owned with defined members and exclusion, unlike **open-access resources** (atmosphere, high seas). Community-managed cases – **Barambang Katute customary forest** and **Maine lobster fisheries** – show the tragedy lies in **unmanaged open access**, not in sharing itself.\n- **Part 2 – Planetary boundaries.** The Earth-system framework (Rockström et al. 2009) identifies **nine processes** that keep the planet stable and defines a **safe operating space for humanity**. As of the **2025 update, 7 of 9 boundaries are transgressed** – only stratospheric ozone and atmospheric aerosol loading remain safe. Slides illustrate land use, water, climate, biodiversity, biogeochemical flows and chemical pollution, plus **natural capital degradation** on land and sea, and end with discussion questions.\n\nThe link between the halves: the Earth system's sinks and cycles are the ultimate **global open-access commons**, so crossing planetary boundaries is the tragedy of the commons at planetary scale.",
+      "keyTerms": [
+        "tragedy of the commons",
+        "open access",
+        "planetary boundaries",
+        "safe operating space"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            1,
+            2,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.part1",
+      "label": "Part 1 · Tragedy of the commons",
+      "type": "topic",
+      "module": "M2",
+      "parent": "m2",
+      "summary": "Hardin's argument, the commons vs open-access distinction, and community-managed counter-examples showing that management regimes, not sharing, decide the outcome.",
+      "details": "Structure of Part 1 (slides 2–5):\n\n1. **Hardin's tragedy** – shared, open resources are degraded because each user reasons that their small extra use or pollution won't matter; cumulatively, everyone loses.\n2. **Commons vs open access** – Hardin's \"commons\" is debated: in the literature *commons* means **shared ownership** by a defined community with exclusion of non-members. Tragedy happens in **open-access resources that are not well managed**.\n3. **Open-access resources** – owned by no one, usable by almost anyone: the **atmosphere** and the **open sea** and its fish; partly-open shared resources include grasslands, forests, rivers and aquifers.\n4. **Does the tragedy lie in the commons?** – No: the **Barambang Katute** customary forest and **Maine lobster** fisheries show communities with rules can sustain shared resources.\n5. **Solutions** – reduce use by agreement, regulate access, or privatise (which fails for the atmosphere and high seas).\n\nKey message: *the problem is the management regime, not sharing itself.*",
+      "keyTerms": [
+        "Hardin",
+        "commons",
+        "open access",
+        "management regime"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.hardin-tragedy",
+      "label": "Hardin's Tragedy of the Commons (1968)",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.part1",
+      "summary": "Hardin (Science, 1968): on a pasture open to all, each herder adds cattle for private gain while costs are shared, ruining the resource.",
+      "details": "**Garrett Hardin**, \"The Tragedy of the Commons\", *Science*, **1968** (slide 2; the speaker notes mistakenly say 1986).\n\n> \"Picture a pasture that is open to all. Each herdsman will try to keep as many cattle as possible on the commons… the inherent logic of the commons remorselessly generates tragedy.\"\n\nHardin's \"commons\" = a resource **open to all (open access)**.\n\n**The logic** (from the lecturer's notes): degradation of shared or open-access **renewable** resources happens because each user thinks, *\"the little I use or pollute won't matter – and it's renewable anyway.\"* At low use this seems true. But the **cumulative impact** of many users exploiting a widely available resource **degrades, depletes or destroys** it. In the end **no one benefits and everyone loses** – that is the tragedy.\n\nUnderlying mechanism: **benefits are private** (each extra cow earns the herder money) while **costs are shared** by all (overgrazing) – an **externality**.\n\nExamples of the pattern today: overfishing on the high seas, groundwater depletion, air pollution, and greenhouse-gas emissions into the shared atmosphere (W6).",
+      "keyTerms": [
+        "Garrett Hardin",
+        "1968",
+        "open pasture",
+        "cumulative impact",
+        "externality"
+      ],
+      "examTips": "Explain the private-benefit / shared-cost logic. Hardin published in Science in 1968 (not 1986). Know the critique: his 'commons' is really open access.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.commons-vs-open-access",
+      "label": "Commons vs open-access resource",
+      "type": "definition",
+      "module": "M2",
+      "parent": "m2.part1",
+      "summary": "Commons: joint ownership by a bounded community that excludes non-members. Open access: no ownership rights, the whole public, no exclusion.",
+      "details": "Hardin's use of \"commons\" is **debated**, because in the literature **commons refers to shared ownership** (slide 3). The comparison table:\n\n| | **The commons** | **Open-access resource** |\n|---|---|---|\n| **Ownership** | **Joint ownership** | **No ownership rights or possession** |\n| **Community** | A group defined and restricted more narrowly, with **clear boundaries between members and non-members** | The **community at large** |\n| **Exclusion** | **Non-members excluded** | **None** |\n\n**Conclusion of the slide:** the distinction emphasises that **tragedy can occur in open-access resources that are not well managed**. A true commons, with its own members, rules and exclusion, can be used sustainably.\n\nThis is the key correction to Hardin (associated in the wider literature with Elinor Ostrom's work on common-pool resource institutions). It sets up the counter-examples on slide 5 and W4's discussion of commons in the Global South and how commons are regulated.",
+      "keyTerms": [
+        "commons",
+        "common property",
+        "open access",
+        "joint ownership",
+        "exclusion"
+      ],
+      "examTips": "A favourite exam item: fill in or explain the 3-row table (ownership, community, exclusion). Say clearly: tragedy = unmanaged open access, not common property.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.open-access-resources",
+      "label": "Open-access resources",
+      "type": "definition",
+      "module": "M2",
+      "parent": "m2.part1",
+      "summary": "Renewable resources owned by no one and usable by almost anyone, e.g. the atmosphere and open sea; grasslands, forests, rivers, aquifers are often shared.",
+      "details": "Slide 4: some **renewable resources**, known as **open-access resources**, are **not owned by anyone** and **can be used by almost anyone**.\n\n**Fully open-access examples:**\n- The **atmosphere** (a sink for CO2 and air pollutants)\n- The **open sea** and its **fish**\n\n**Not entirely open, but often used collectively:**\n- **Grasslands**\n- **Forests**\n- **Rivers**\n- **Underground water bodies (aquifers)**\n\nWhy it matters:\n- These are exactly the resources most at risk of a Hardin-style tragedy, because nobody can exclude others and no one bears the full cost of overuse.\n- The truly global ones (atmosphere, high seas) **cannot be divided and sold as private property**, so privatisation is not a solution – they need **collective agreements** (e.g. international treaties such as the Montreal Protocol for ozone, W4, or the Paris Agreement for climate, W6).\n- Several of them correspond to planetary boundaries: climate change (atmosphere), ocean acidification (open sea), freshwater change (rivers, aquifers), land-system change (forests).",
+      "keyTerms": [
+        "open access",
+        "renewable resource",
+        "atmosphere",
+        "high seas",
+        "aquifer"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.tragedy-not-commons",
+      "label": "Does the tragedy lie in the commons?",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.part1",
+      "summary": "No: the tragedy comes from unmanaged open access. Commons with boundaries, rules, monitoring and sanctions often stay sustainable.",
+      "details": "Slide 5 asks **\"Does the tragedy lie in the commons?\"** The lecturer's answer (notes): **the tragedy is not in the commons but in unmanaged open access.**\n\n- Hardin mainly described **open access** – no rights, rules or monitoring – not **common property** managed by a community.\n- Many commons stay **sustainable** when they have: **clear boundaries**, **harvest rules/quotas**, **monitoring**, **graduated sanctions**, and **forums for resolving disputes**.\n- What usually triggers \"tragedy\": **absence of institutions**, **high monitoring costs**, **externalities** (costs spread onto the public), and **mismatch of scale** – e.g. the **atmosphere as a global commons**.\n- Contrast: coastal fisheries under **customary (adat) rules** are often more sustainable than the **open high seas**, where overfishing is easy.\n\n**So the problem is the management regime – not sharing resources itself.**\n\nExamples on the slide: **Barambang Katute customary forest** and **Maine lobster fisheries** (children).",
+      "keyTerms": [
+        "management regime",
+        "common property",
+        "monitoring",
+        "graduated sanctions",
+        "customary rules"
+      ],
+      "examTips": "If asked 'is Hardin right?', answer: partly – for unmanaged open access; but community commons with rules (Barambang Katute, Maine lobsters) avoid the tragedy. List the institutional ingredients.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.tragedy-not-commons.barambang-katute",
+      "label": "Barambang Katute customary forest",
+      "type": "case-study",
+      "module": "M2",
+      "parent": "m2.tragedy-not-commons",
+      "summary": "Indonesian customary (adat) forest managed by the Barambang Katute indigenous community, with protection mechanisms and sacred areas where mining is banned.",
+      "details": "**Example 2** on slide 5: the **customary forest (hutan adat) of Barambang Katute** (Sinjai, South Sulawesi, Indonesia).\n\n- The forest is **managed by the Barambang Katute indigenous community**.\n- The community has **mechanisms in place to protect** the forest area.\n- There are **sacred areas where mining is not allowed**.\n\nWhy it matters:\n- It is a **true commons** in the sense of slide 3: **joint ownership** by a **defined community** with rules that **exclude** harmful uses and outsiders.\n- Customary rules and sacred zoning function as the **institutions** (boundaries, rules, enforcement) that prevent Hardin's tragedy – showing the problem is **unmanaged open access**, not shared ownership.\n- It is a local, Indonesian illustration of **indigenous stewardship** and of a land-ethic-like relationship to place (W1), and of how **commons in the Global South** are often governed by customary institutions (W4).\n\nContrast: if the same forest were treated as open access or opened to mining without community control, it would be vulnerable to degradation.",
+      "keyTerms": [
+        "hutan adat",
+        "customary forest",
+        "indigenous community",
+        "sacred area",
+        "mining ban"
+      ],
+      "examTips": "Use as the Indonesian example of a well-managed commons. Point to the protection mechanisms and sacred no-mining areas as the 'rules' that prevent tragedy.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.tragedy-not-commons.maine-lobster",
+      "label": "Maine lobster fisheries",
+      "type": "example",
+      "module": "M2",
+      "parent": "m2.tragedy-not-commons",
+      "summary": "Local lobster-fishing communities in Maine use shared policy mechanisms to protect waters and lobster stocks and avoid overfishing.",
+      "details": "**Example 1** on slide 5: **lobster fisheries in Maine** (the slide says \"UK\", but Maine is in the north-eastern **USA**).\n\n- Local communities have **policy mechanisms among themselves** to **protect water resources and lobsters** and to **avoid overfishing**.\n- In practice such systems involve informal territories (\"harbor gangs\"), limits on traps and catches, and protecting egg-bearing females – a classic case in commons research.\n\nLesson: a fishery – normally a textbook open-access tragedy – can be sustained when the users form a **bounded community with rules, monitoring and sanctions**. It contrasts with the **open high seas**, where no one can exclude others and overfishing is common.\n\nTogether with Barambang Katute it shows the pattern holds for both **forests** and **fisheries**, and in both Global North and Global South settings.",
+      "keyTerms": [
+        "lobster fishery",
+        "community rules",
+        "overfishing",
+        "self-governance"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.commons-solutions",
+      "label": "Solutions to the tragedy",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.part1",
+      "summary": "Reduce use by agreement, regulate access, or privatise, though privatisation often fails and cannot apply to the atmosphere or high seas.",
+      "details": "From the lecturer's notes on slide 5, there are two broad ways to tackle the tragedy:\n\n1. **Use the shared/open-access resource at a lower level** – by **mutually agreeing to reduce use**, **regulating access** to the resource, or **both**. Examples: quotas, seasons, licences, community rules, international treaties.\n2. **Convert the shared resource into private property** – the argument (Locke-style, W1) is that **owners protect their investment**.\n   - But **history shows this does not always happen** (owners may still over-exploit for short-term profit).\n   - It **cannot be applied** to open-access resources like the **atmosphere** and **high seas**, which **cannot be divided and sold** as private property.\n\nA third, implied route is **community-based common-property management** (Barambang Katute, Maine lobsters), which combines reduced use with regulated access by insiders.\n\nThese options reappear in W4 (\"regulating commons\": Montreal Protocol, Subak irrigation, emissions regulation) and W6 (Paris Agreement for the atmosphere).",
+      "keyTerms": [
+        "regulate access",
+        "reduce use",
+        "privatisation",
+        "quotas",
+        "collective agreement"
+      ],
+      "examTips": "Know why privatisation fails for global commons (atmosphere/high seas can't be divided) – hence international agreements are needed.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.part2",
+      "label": "Part 2 · Planetary boundaries",
+      "type": "topic",
+      "module": "M2",
+      "parent": "m2",
+      "summary": "The nine planetary boundaries framework, its 2025 status (7 of 9 transgressed), the link to doughnut economics, human impacts on ecosystems, and discussion.",
+      "details": "Part 2 (slides 6–13) turns from local commons to the **whole Earth system**:\n\n- **The framework** (slide 6): based on Earth system science; **nine processes** regulating planetary stability; a **safe operating space for humanity** (Rockström et al., *Nature* 461:472, 2009).\n- **2025 status** (slide 7): **7 of 9 boundaries transgressed** – Earth is outside the safe operating space (Stockholm Resilience Centre, Sept 2025).\n- **The nine boundaries** illustrated (slides 8–10): land-use change and global water cycle; climate change and biodiversity loss; biogeochemical flows (eutrophication) and chemical pollution; plus ocean acidification, stratospheric ozone and atmospheric aerosols from the diagram.\n- **Doughnut economics** (notes, slide 7): planetary boundaries as the ecological ceiling.\n- **Natural capital degradation** (slides 11–12): major human impacts on terrestrial and marine ecosystems (Miller & Spoolman 2019).\n- **Discussion** (slide 13).\n\nKey idea: human pressure on Earth's shared systems is the planetary version of the tragedy of the commons.",
+      "keyTerms": [
+        "planetary boundaries",
+        "Earth system",
+        "safe operating space",
+        "transgressed"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb-framework",
+      "label": "Planetary boundaries framework",
+      "type": "framework",
+      "module": "M2",
+      "parent": "m2.part2",
+      "summary": "Earth-system framework identifying nine processes that regulate planetary stability and setting science-based limits: a safe operating space for humanity.",
+      "details": "The **planetary boundaries framework** (Rockström et al., *Nature* 461:472, **2009**; Stockholm Resilience Centre) – slide 6:\n\n- Draws on **Earth system science**.\n- Identifies **nine processes** critical for the **stability and resilience of the Earth system** as a whole.\n- Delineates the **biophysical and biochemical systems and processes** that regulate the planet's state within ranges that are **historically known** and **scientifically likely** to keep the Earth system stable and its **life-support systems** conducive to human welfare and societal development.\n- Formulates **limits to the impact of the anthroposphere** (human activity) on the Earth system, defining a **scientifically based safe operating space for humanity** that safeguards **Earth's interglacial state** (the stable Holocene climate in which civilisation developed) and its **resilience**.\n\nHow to read the diagrams: the **green inner zone = safe operating space**; wedges extending outward into yellow/orange/red = **increasing risk** of destabilising, possibly irreversible change.\n\nThe nine: **climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows (N, P), ocean acidification, stratospheric ozone depletion, atmospheric aerosol loading, novel entities**.",
+      "keyTerms": [
+        "Rockström 2009",
+        "Earth system science",
+        "safe operating space",
+        "anthroposphere",
+        "Holocene / interglacial state",
+        "resilience"
+      ],
+      "examTips": "Be able to name all nine boundaries and explain 'safe operating space'. Remember the boundaries are about Earth-system stability, not resource depletion per se.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb-status-2025",
+      "label": "2025 status: 7 of 9 transgressed",
+      "type": "data",
+      "module": "M2",
+      "parent": "m2.part2",
+      "summary": "The 2025 update finds seven of nine boundaries breached; only stratospheric ozone and atmospheric aerosol loading remain within the safe operating space.",
+      "details": "Slide 7 (Stockholm Resilience Centre, **24 Sept 2025**; diagram \"The 2025 update to the Planetary Boundaries\", Sakschewski & Caesar et al. 2025): **7 out of 9 planetary boundaries have been transgressed**, meaning **Earth is now outside the safe operating space for humanity**.\n\n**Transgressed (7):**\n1. **Climate change** – both CO2 concentration and radiative forcing\n2. **Biosphere integrity** – genetic and functional (functional in the high-risk red zone)\n3. **Land-system change**\n4. **Freshwater change** – blue water and green water\n5. **Biogeochemical flows** – nitrogen (N) and phosphorus (P), both deep in the high-risk zone\n6. **Novel entities** (synthetic chemicals, plastics etc.)\n7. **Ocean acidification** – newly breached in the 2025 assessment\n\n**Within the safe space (2):**\n8. **Stratospheric ozone depletion**\n9. **Atmospheric aerosol loading**\n\nCompare the older 2009 diagram on slide 6: then only **3** were crossed (climate change, biodiversity loss, nitrogen cycle), and chemical pollution and aerosols were **\"not yet quantified\"**. The trend shows a rapidly worsening situation.",
+      "keyTerms": [
+        "7 of 9",
+        "2025 update",
+        "transgressed",
+        "Stockholm Resilience Centre"
+      ],
+      "examTips": "Memorise: 7 of 9 breached (2025); the 2 still safe are ozone and aerosols. Ocean acidification is the newest one crossed. 2009: only 3 crossed.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.nine-boundaries",
+      "label": "The nine boundaries",
+      "type": "topic",
+      "module": "M2",
+      "parent": "m2.part2",
+      "summary": "The nine Earth-system processes, grouped by 2025 status: seven transgressed and two still within the safe operating space.",
+      "details": "The nine planetary boundaries, grouped by **2025 status** (slide 7 diagram):\n\n**Transgressed (outside safe operating space):**\n- Climate change\n- Biosphere integrity (biodiversity loss)\n- Land-system change\n- Freshwater change\n- Biogeochemical flows (N & P)\n- Novel entities (chemical pollution)\n- Ocean acidification\n\n**Safe (within safe operating space):**\n- Stratospheric ozone depletion\n- Atmospheric aerosol loading\n\nSlides 8–10 illustrate six of them with photos and one-line explanations: **land-use change** and the **global water cycle** (slide 8), **climate change** and **biodiversity loss** (slide 9), **biogeochemical flows** (eutrophication) and **chemical pollution** (slide 10).\n\nMemory aid – the boundaries are *interlinked*: e.g. deforestation (land) releases CO2 (climate), destroys habitat (biosphere) and alters rainfall (freshwater); fertiliser (N, P) causes eutrophication that harms aquatic biodiversity.",
+      "keyTerms": [
+        "nine boundaries",
+        "interlinked",
+        "transgressed",
+        "safe"
+      ],
+      "examTips": "Practise listing all nine from memory, then sorting them into 7 breached / 2 safe.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb-transgressed",
+      "label": "Transgressed boundaries (7)",
+      "type": "topic",
+      "module": "M2",
+      "parent": "m2.nine-boundaries",
+      "summary": "Climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, novel entities and ocean acidification are beyond safe limits (2025).",
+      "details": "Seven boundaries are **outside the safe operating space** in the 2025 update (slide 7):\n\n| Boundary | Sub-indicators on the diagram | Risk |\n|---|---|---|\n| **Climate change** | CO2 concentration; radiative forcing | high (radiative forcing red) |\n| **Biosphere integrity** | genetic; functional | functional in high-risk red |\n| **Land-system change** | – | increasing risk |\n| **Freshwater change** | blue water; green water | increasing risk |\n| **Biogeochemical flows** | phosphorus (P); nitrogen (N) | both high-risk red |\n| **Novel entities** | – | far beyond boundary |\n| **Ocean acidification** | – | just beyond boundary (newly crossed) |\n\nThe most severe overshoots are **biosphere integrity (functional)**, **biogeochemical flows (N, P)** and **novel entities**; climate change's radiative forcing is also in the high-risk zone.\n\nThe drivers are human activities discussed throughout the course: fossil fuels, agriculture and fertiliser, deforestation, irrigation, industrial chemicals and plastics – i.e. **overconsumption** and the **IPAT** drivers of W3.",
+      "keyTerms": [
+        "transgressed",
+        "high-risk zone",
+        "overshoot"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.climate-change",
+      "label": "Climate change",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-transgressed",
+      "summary": "GHG emissions, mainly from burning fossil fuels, raise atmospheric CO2 and cause global warming; both CO2 concentration and radiative forcing are transgressed.",
+      "details": "**Climate change** (slide 9): **greenhouse-gas emissions**, particularly from **burning fossil fuels**, have **increased CO2 concentrations** in the atmosphere, causing **global warming and climate change**.\n\n**Status 2025: transgressed.** The diagram shows two control variables, both beyond the boundary:\n- **CO2 concentration** (the boundary is commonly set at **350 ppm**; current levels are well above 400 ppm).\n- **Radiative forcing** – the extra energy trapped by greenhouse gases – in the **high-risk (red)** zone.\n\nWhy it matters:\n- Climate is a **core boundary**: it interacts with almost all others (ocean acidification from the same CO2, biosphere stress, freshwater changes).\n- The atmosphere is the classic **global open-access commons** – every emitter gains privately while the cost of warming is shared, a Hardin tragedy at planetary scale.\n- W6 covers this in depth: greenhouse gases, the **Paris Agreement**, CBDR-RC and Indonesia's NDC.",
+      "keyTerms": [
+        "greenhouse gases",
+        "CO2 concentration",
+        "radiative forcing",
+        "fossil fuels",
+        "global warming"
+      ],
+      "examTips": "Link climate change both to planetary boundaries (W2) and to the atmosphere as an open-access commons.",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            7,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.biosphere-integrity",
+      "label": "Biosphere integrity (biodiversity loss)",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-transgressed",
+      "summary": "Habitat destruction, pollution and exploitation drive extinctions at a very high rate; both genetic and functional diversity are transgressed, functional at high risk.",
+      "details": "**Loss of biodiversity / biosphere integrity** (slide 9): human activities such as **habitat destruction**, **pollution** and **resource exploitation** have caused **species extinction at a very high rate**, **disrupting ecosystem functions**.\n\n**Status 2025: transgressed** on both sub-indicators:\n- **Genetic diversity** – the variety of genes/species (measured via extinction rate).\n- **Functional integrity** – the biosphere's capacity to keep ecosystems working (e.g. energy available to ecosystems); shown in the **high-risk red** zone.\n\nIn the 2009 diagram (slide 6) **biodiversity loss** was already the most extreme overshoot of all.\n\nWhy it matters: biodiversity underpins **ecosystem services** (pollination, food, clean water, climate regulation – W4) and ecosystem resilience. Its loss links to land-system change (habitat conversion), chemical pollution and climate change. Conservation responses include protected areas, Indonesia's **IBSAP** and SDGs 14 & 15 (W5).",
+      "keyTerms": [
+        "biodiversity loss",
+        "extinction rate",
+        "genetic diversity",
+        "functional integrity",
+        "ecosystem functions"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.land-system-change",
+      "label": "Land-system change",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-transgressed",
+      "summary": "Large-scale conversion of land for agriculture, urbanisation and deforestation disrupts ecosystems, reduces biodiversity and alters carbon and water cycles. Transgressed.",
+      "details": "**Changes in land use** (slide 8): **large-scale land conversion** for **agriculture**, **urbanisation** and **deforestation** has **disrupted natural ecosystems**, **reduced biodiversity** and **affected carbon and water cycles**. (The slide's photo source discusses deforestation in Indonesia.)\n\n**Status 2025: transgressed.** The control variable is essentially how much of the original **forest cover** remains (tropical, temperate and boreal forests regulate climate and water).\n\nConnections:\n- Directly drives **biosphere integrity** loss (habitat), **climate change** (CO2 from cleared forests and drained peat) and **freshwater change** (rainfall recycling).\n- Indonesia is a key case: oil-palm expansion, peatland drainage and forest fires – covered in W6 (**peatlands**, **AFOLU** emissions).\n- Mirrors W1's example of **clearing forest for agriculture** altering ecosystem functions.",
+      "keyTerms": [
+        "land conversion",
+        "deforestation",
+        "urbanisation",
+        "forest cover"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.freshwater-change",
+      "label": "Freshwater change (global water cycle)",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-transgressed",
+      "summary": "Large-scale irrigation and river diversion alter the hydrological cycle, causing droughts, floods and poorer water quality; blue and green water both transgressed.",
+      "details": "**Global water cycle** (slide 8): changes in water use such as **large-scale irrigation** and **river diversion** have **altered the hydrological cycle**, causing **droughts, floods and a decline in water quality**.\n\n**Status 2025: transgressed** for both sub-indicators on the diagram:\n- **Blue water** – surface and groundwater in rivers, lakes and aquifers (what we withdraw for irrigation, industry and households).\n- **Green water** – water held in soil and available to plants (affected by deforestation and land use).\n\nIn the 2009 diagram this was called \"global freshwater use\" and was still within the boundary; the updated framework (\"freshwater change\") shows it has been crossed.\n\nConnections: water is a shared and often open-access resource (rivers, aquifers – slide 4); it is central to the **food–energy–water nexus** (W7) and to SDG 6; drought and floods also interact with climate change (W6).",
+      "keyTerms": [
+        "hydrological cycle",
+        "blue water",
+        "green water",
+        "irrigation",
+        "river diversion"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.biogeochemical-flows",
+      "label": "Biogeochemical flows (N & P)",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-transgressed",
+      "summary": "Excess synthetic fertiliser sends nitrogen and phosphorus into ecosystems, causing eutrophication and disrupting natural cycles; both N and P are in the high-risk zone.",
+      "details": "**Biogeochemical flows** (slide 10): **excessive use of synthetic fertilisers** in agriculture has led to excess flows of **nitrogen (N)** and **phosphorus (P)** into ecosystems, causing **eutrophication** and disrupting natural nutrient cycles.\n\n**Eutrophication** (pictured on the slide): nutrient runoff fertilises lakes, rivers and coasts → **algal blooms** → when algae die and decompose, oxygen is depleted → fish kills and \"dead zones\", plus poorer water quality.\n\n**Status 2025: transgressed**, with **both N and P deep in the high-risk (red) zone** – among the most severely overshot boundaries. In the 2009 diagram the **nitrogen cycle** was already one of the three crossed.\n\nConnections:\n- Driven by industrial agriculture feeding a growing, richer population (W3 IPAT; W1 livestock case).\n- Feeds into biosphere loss (aquatic ecosystems) and coral reef damage (\"algae growth from fertiliser runoff\", slide 12).\n- An everyday example of W1's law **\"everything must go somewhere\"**; relevant to the **food** part of the FEW nexus (W7).",
+      "keyTerms": [
+        "nitrogen",
+        "phosphorus",
+        "synthetic fertiliser",
+        "eutrophication",
+        "algal bloom"
+      ],
+      "examTips": "Explain the eutrophication chain: fertiliser runoff → algal bloom → oxygen depletion → dead zones.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.novel-entities",
+      "label": "Novel entities (chemical pollution)",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-transgressed",
+      "summary": "Hazardous chemicals—pesticides, heavy metals, industrial chemicals, plastics—pollute the environment and harm human and animal health; far beyond the boundary.",
+      "details": "**Chemical pollution / novel entities** (slide 10): the use of **hazardous chemicals**, including **pesticides**, **heavy metals** and **industrial chemicals**, has **polluted the environment**, affecting the **health of humans and animals**. (The slide's photo source refers to industrial – paper-mill – waste polluting the **Brantas river** basin in East Java.)\n\n**Novel entities** is the current name for this boundary: new substances and materials created by humans that did not exist in nature – synthetic chemicals, **plastics**, pesticides, and modified life forms – released faster than they can be assessed or monitored.\n\n**Status:** in **2009** it was \"**not yet quantified**\" (slide 6). In the **2025** diagram it is shown as **transgressed, extending far into the high-risk zone**.\n\nConnections: plastics and waste link to W1's law \"**everything must go somewhere**\", the W2 discussion question on **reducing plastic use**, and recycling/circular solutions in W7.",
+      "keyTerms": [
+        "novel entities",
+        "chemical pollution",
+        "plastics",
+        "pesticides",
+        "heavy metals"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.ocean-acidification",
+      "label": "Ocean acidification",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-transgressed",
+      "summary": "Oceans absorb CO2, lowering pH and harming shell- and reef-building organisms; newly transgressed in the 2025 update—the seventh boundary breached.",
+      "details": "**Ocean acidification** appears on both boundary diagrams (slides 6–7). Standard explanation: the ocean absorbs roughly a quarter of human CO2 emissions; dissolved CO2 forms carbonic acid, **lowering seawater pH** and reducing the carbonate ions that corals, shellfish and plankton need to build shells and skeletons.\n\n**Status:**\n- **2009** (slide 6): within the safe space.\n- **2025** (slide 7): **just beyond the boundary** – it is the boundary **newly breached** in the 2025 assessment, bringing the total to **7 of 9**.\n\nConnections:\n- Shares its driver with **climate change** (CO2 from fossil fuels).\n- Harms **marine ecosystems and coral reefs**; slide 12 lists **\"rising ocean acidity\"** and **bleaching** among major human impacts on coral reefs.\n- The open sea is an **open-access resource** (slide 4) – nobody owns it, so no single actor protects it.\n- Relevant to SDG 14 (life below water, W5).",
+      "keyTerms": [
+        "ocean acidification",
+        "pH",
+        "carbonic acid",
+        "coral reefs",
+        "newly breached"
+      ],
+      "examTips": "Remember ocean acidification is the 7th boundary crossed (2025) and shares the CO2 driver with climate change.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb-safe",
+      "label": "Boundaries still safe (2)",
+      "type": "topic",
+      "module": "M2",
+      "parent": "m2.nine-boundaries",
+      "summary": "Stratospheric ozone depletion and atmospheric aerosol loading remain within the safe operating space in the 2025 update.",
+      "details": "Only **two** of the nine boundaries remain **within the safe operating space** in the 2025 update (slide 7):\n\n1. **Stratospheric ozone depletion** – recovering thanks to global action (Montreal Protocol).\n2. **Atmospheric aerosol loading** – globally within the boundary, though regional pollution can be severe.\n\nIn the **2009** diagram (slide 6), ozone was within the boundary and aerosol loading was \"**not yet quantified**\".\n\nWhy this matters for the exam: the **ozone** case is the main **success story** – it shows that a global open-access commons problem (the atmosphere) *can* be solved when countries agree to **regulate access/reduce use** collectively, which is the solution logic from Part 1 and the \"regulating commons\" example in W4.",
+      "keyTerms": [
+        "safe operating space",
+        "ozone",
+        "aerosols",
+        "success story"
+      ],
+      "examTips": "Name the two safe boundaries (ozone, aerosols) and use ozone/Montreal Protocol as proof global commons can be governed.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.ozone",
+      "label": "Stratospheric ozone depletion",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-safe",
+      "summary": "Thinning of the protective stratospheric ozone layer by ozone-depleting chemicals; within the safe space in 2025, recovering after the Montreal Protocol.",
+      "details": "**Stratospheric ozone depletion** appears on both diagrams (slides 6–7). Standard background: the ozone layer in the stratosphere filters harmful **ultraviolet (UV) radiation**. Synthetic chemicals such as **CFCs** (from refrigerants, aerosol sprays) destroyed ozone, creating the Antarctic \"ozone hole\".\n\n**Status:** **within the safe operating space** in both 2009 and 2025. Recovery is credited to the **Montreal Protocol (1987)**, which phased out ozone-depleting substances worldwide.\n\nWhy it matters:\n- It is the best example that a **planetary boundary can be pulled back** by coordinated international policy.\n- It is a model for solving a **global open-access commons** problem (the atmosphere cannot be privatised, so collective rules are needed).\n- Related: slide 12 lists **increased UV exposure** as a stress on coral reefs.\n- Detailed further in W4 (**ozone / Montreal Protocol** as regulating the commons).",
+      "keyTerms": [
+        "ozone layer",
+        "UV radiation",
+        "CFCs",
+        "Montreal Protocol"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.pb.aerosols",
+      "label": "Atmospheric aerosol loading",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.pb-safe",
+      "summary": "Fine particles from burning, industry and dust that affect climate, monsoons and health; within the safe space in 2025, 'not yet quantified' in 2009.",
+      "details": "**Atmospheric aerosol loading** appears on both diagrams (slides 6–7). Standard background: **aerosols** are tiny particles suspended in the air – soot, sulphates, dust – from **fossil-fuel and biomass burning**, industry and natural sources. They scatter or absorb sunlight, influence **cloud formation and monsoon rainfall**, and cause respiratory disease (air pollution).\n\n**Status:**\n- **2009** (slide 6): \"**not yet quantified**\".\n- **2025** (slide 7): **within the safe operating space** globally (the diagram shows it in green), though regional air pollution can still be severe – e.g. haze from peat and forest fires in Indonesia, and urban emissions in Jakarta/Bandung (W4).\n\nIt is one of only **two boundaries still safe**, alongside stratospheric ozone.",
+      "keyTerms": [
+        "aerosols",
+        "particulate matter",
+        "air pollution",
+        "monsoon"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.doughnut-link",
+      "label": "Planetary boundaries & doughnut economics",
+      "type": "concept",
+      "module": "M2",
+      "parent": "m2.part2",
+      "summary": "Raworth's doughnut uses planetary boundaries as its outer ecological ceiling and adds an inner social foundation, defining a safe and just space.",
+      "details": "From the lecturer's notes on slide 7:\n\n- **Doughnut economics** (Kate Raworth) is **built directly on the planetary boundaries framework**.\n- Its **outer ring** is the planetary boundaries model repurposed as an **ecological ceiling**, beyond which humanity risks destabilising Earth systems such as **climate, biosphere integrity and biogeochemical flows**.\n- Raworth paired this with an **inner ring – the social foundation**, derived loosely from **SDG-type deprivation thresholds** (food, water, health, education, etc.).\n- The space between = the **safe and just space** between **ecological overshoot** and **social shortfall**.\n\n**Key contrast:**\n- **Planetary boundaries alone** = a **biophysical** model with **no inherent theory of human wellbeing or distribution**.\n- **Doughnut economics** uses it as **one half of a normative claim** about what an economy is for – meeting human needs **without breaching** the boundaries.\n\nSee the W1 Doughnut Economics diagram.",
+      "keyTerms": [
+        "doughnut economics",
+        "ecological ceiling",
+        "social foundation",
+        "biophysical vs normative"
+      ],
+      "examTips": "Contrast: planetary boundaries = biophysical (no wellbeing/distribution theory); doughnut = normative (adds social foundation).",
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.natural-capital-degradation",
+      "label": "Natural capital degradation",
+      "type": "data",
+      "module": "M2",
+      "parent": "m2.part2",
+      "summary": "Major human impacts on deserts, grasslands, forests, mountains, marine ecosystems and coral reefs (Miller & Spoolman 2019), e.g. half of coastal wetlands lost.",
+      "details": "Slides 11–12 (Miller & Spoolman, 2019) summarise **natural capital degradation** – how human activities damage ecosystems.\n\n**Terrestrial ecosystems (slide 11):**\n- **Deserts** – large desert cities (e.g. Las Vegas), soil/habitat destruction by off-road vehicles, **groundwater depletion**, mining pollution.\n- **Grasslands** – conversion to cropland, CO2 release from burning grassland, **overgrazing** by livestock, oil production in arctic tundra.\n- **Forests** – clearing for agriculture, grazing, timber and urban development; conversion of diverse forests to **tree plantations**; stream pollution.\n- **Mountains** – agriculture, timber and mineral extraction, **hydroelectric dams**, air pollution from cities and power plants.\n\n**Marine ecosystems & coral reefs (slide 12):**\n- **Half of coastal wetlands** lost to agriculture and urban development.\n- **Over one-fifth of mangrove forests** lost to agriculture, aquaculture and development.\n- Beach erosion; ocean-bottom habitat degraded by **dredging and trawling**.\n- **At least 20% of coral reefs severely damaged, 25–33% more threatened**.\n- Reef stresses: ocean warming, **rising acidity**, sea-level rise, soil erosion, **algae from fertiliser runoff**, **bleaching**, increased UV, anchor/fishing/diving damage.\n\nThese impacts are the ground-level picture behind the transgressed boundaries.",
+      "keyTerms": [
+        "natural capital",
+        "overgrazing",
+        "mangroves",
+        "coral reefs",
+        "coastal wetlands"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2.discussion",
+      "label": "Discussion: boundaries, ethics & action",
+      "type": "debate",
+      "module": "M2",
+      "parent": "m2.part2",
+      "summary": "Questions on a future with more boundaries breached, whether local actions suffice, ethical responsibilities of actors, and balancing development with limits.",
+      "details": "**Questions** (slide 13 and notes):\n1. Imagine **two (or three) more boundaries** breached – what would the world and daily life be like?\n2. Do **local actions** (less plastic, saving water) help maintain boundaries? **Enough, or do we need global efforts?**\n3. What **ethical responsibilities** do individuals, corporations, communities and governments have?\n4. How do **planetary boundaries and the tragedy of the commons** intersect? Example?\n5. How can **developing countries** balance development with staying within boundaries?\n\n**Model answer outline:**\n- *Future*: only ozone and aerosols remain safe; breaching them means more UV (health, crops, reefs) and disrupted monsoons/air quality, compounding food and water insecurity.\n- *Local vs global*: local actions reduce pressure and build norms, but boundaries are **global commons** – they need treaties and regulation (Montreal Protocol, Paris Agreement).\n- *Ethics*: link to W1 – **stewardship** for individuals, accountability for corporations, regulation by governments, customary rules in communities.\n- *Commons link*: the atmosphere as open access → climate change; open-sea overfishing → biosphere loss.\n- *Development*: trade-offs; differentiated responsibility of the Global North (W4, W6 CBDR).",
+      "keyTerms": [
+        "local vs global action",
+        "ethical responsibility",
+        "development trade-off"
+      ],
+      "examTips": "Essay-ready: connect tragedy of the commons (Part 1) to planetary boundaries (Part 2) with the atmosphere/climate example.",
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M2",
+          "slides": [
+            13
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "m2.commons-vs-open-access",
+      "target": "m2.hardin-tragedy",
+      "type": "contrasts",
+      "label": "Hardin's 'commons' is really open access"
+    },
+    {
+      "source": "m2.open-access-resources",
+      "target": "m2.hardin-tragedy",
+      "type": "applies-to",
+      "label": "where the tragedy actually occurs"
+    },
+    {
+      "source": "m2.tragedy-not-commons.barambang-katute",
+      "target": "m2.commons-vs-open-access",
+      "type": "example-of",
+      "label": "a true commons with exclusion and rules"
+    },
+    {
+      "source": "m2.commons-solutions",
+      "target": "m2.tragedy-not-commons",
+      "type": "builds-on",
+      "label": "reduce use, regulate access, privatise"
+    },
+    {
+      "source": "m2.pb.climate-change",
+      "target": "m2.open-access-resources",
+      "type": "example-of",
+      "label": "atmosphere as global open-access commons"
+    },
+    {
+      "source": "m2.pb.ocean-acidification",
+      "target": "m2.pb.climate-change",
+      "type": "related",
+      "label": "same CO2 driver"
+    },
+    {
+      "source": "m2.pb.land-system-change",
+      "target": "m2.pb.biosphere-integrity",
+      "type": "causes",
+      "label": "habitat conversion drives biodiversity loss"
+    },
+    {
+      "source": "m2.pb.biogeochemical-flows",
+      "target": "m2.natural-capital-degradation",
+      "type": "causes",
+      "label": "fertiliser runoff → algae on coral reefs"
+    },
+    {
+      "source": "m2.pb.ozone",
+      "target": "m2.commons-solutions",
+      "type": "example-of",
+      "label": "global agreement regulating a commons works"
+    },
+    {
+      "source": "m2.doughnut-link",
+      "target": "m2.pb-framework",
+      "type": "builds-on",
+      "label": "outer ring = planetary boundaries"
+    },
+    {
+      "source": "m2.pb-status-2025",
+      "target": "m2.nine-boundaries",
+      "type": "related",
+      "label": "7 breached / 2 safe"
+    },
+    {
+      "source": "m2.discussion",
+      "target": "m2.hardin-tragedy",
+      "type": "related",
+      "label": "how commons and boundaries intersect"
+    }
+  ],
+  "crossModuleIdeas": [
+    {
+      "from": "m2.tragedy-not-commons",
+      "toModule": "M4",
+      "concept": "Commons in the Global South",
+      "type": "related",
+      "reason": "customary/community commons management"
+    },
+    {
+      "from": "m2.commons-solutions",
+      "toModule": "M4",
+      "concept": "Regulating commons (ozone/Montreal Protocol, Subak, Dieselgate, Jakarta/Bandung emissions)",
+      "type": "builds-on",
+      "reason": "concrete solutions to the tragedy"
+    },
+    {
+      "from": "m2.pb.ozone",
+      "toModule": "M4",
+      "concept": "Ozone / Montreal Protocol",
+      "type": "related",
+      "reason": "why ozone is one of only two safe boundaries"
+    },
+    {
+      "from": "m2.tragedy-not-commons.barambang-katute",
+      "toModule": "M4",
+      "concept": "Commons in the Global South / Subak",
+      "type": "related",
+      "reason": "Indonesian customary institutions managing shared resources"
+    },
+    {
+      "from": "m2.pb.climate-change",
+      "toModule": "M6",
+      "concept": "Climate change & greenhouse gases / Paris Agreement",
+      "type": "builds-on",
+      "reason": "W6 deepens the climate boundary and its governance"
+    },
+    {
+      "from": "m2.pb-framework",
+      "toModule": "M3",
+      "concept": "Carrying capacity / ecological footprint",
+      "type": "related",
+      "reason": "both define biophysical limits to human activity"
+    },
+    {
+      "from": "m2.pb-transgressed",
+      "toModule": "M3",
+      "concept": "Overconsumption / IPAT",
+      "type": "causes",
+      "reason": "consumption and affluence drive boundary transgression"
+    },
+    {
+      "from": "m2.pb.land-system-change",
+      "toModule": "M6",
+      "concept": "Peatlands / AFOLU",
+      "type": "related",
+      "reason": "Indonesian land-use change and emissions"
+    },
+    {
+      "from": "m2.pb.biogeochemical-flows",
+      "toModule": "M7",
+      "concept": "Food-Energy-Water nexus",
+      "type": "related",
+      "reason": "fertiliser use in food production; freshwater and nutrient flows"
+    },
+    {
+      "from": "m2.discussion",
+      "toModule": "M6",
+      "concept": "CBDR-RC",
+      "type": "related",
+      "reason": "balancing development and boundaries; differentiated responsibility"
+    },
+    {
+      "from": "m2.doughnut-link",
+      "toModule": "M1",
+      "concept": "Doughnut Economics",
+      "type": "related",
+      "reason": "same model introduced in W1"
+    }
+  ],
+  "needsImageCheck": []
+}

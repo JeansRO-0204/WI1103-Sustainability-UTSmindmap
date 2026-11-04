@@ -1,0 +1,1245 @@
+{
+  "module": {
+    "id": "M4",
+    "week": 4,
+    "title": "Commons in the Global South",
+    "summary": "Why sustainability differs between Global North and South, why commons and ecosystem services matter, and how commons are paid for and regulated (ozone, Subak, vehicle emissions)."
+  },
+  "nodes": [
+    {
+      "id": "m4",
+      "label": "Week 4: The Commons in the Global South",
+      "type": "module",
+      "module": "M4",
+      "parent": "root",
+      "summary": "Global North vs South, the commons, ecosystem services and their payment, and how commons are regulated (ozone, Subak, vehicle emissions).",
+      "details": "Week 4 asks **why sustainability looks different in the Global South** and **how shared resources (the commons) can be kept available**.\n\nStructure of the lecture:\n- **4.1 Global North vs Global South** – a socio-economic (not geographic) split; the South holds most people, land, natural capital and future growth, yet is most vulnerable.\n- **4.2 The commons in the Global South** – resources owned/used together (water, forests, ocean, knowledge…), natural and man-made.\n- **4.3 Importance of the commons** – **ecosystem services** (MEA 2005: provisioning, regulating, supporting, cultural), their economic value (~US$63.9 trillion/yr) and how they can be paid for (**PES**, e.g. Cidanau).\n- **4.4 Regulating the commons** – three routes: **global/mutual consent** (ozone hole → Montreal Protocol), **community rules** (Bali's **Subak**), **government regulation** (Dieselgate, vehicle emissions in Indonesia/Jakarta, Bandung air quality), plus **Ostrom-style arrangement elements**.\n- **Technology & non-physical commons** – technology can privatise or strengthen commons; boundaries of air, sea and knowledge are invisible but can be defined (UNCLOS).\n\nIt builds directly on Week 2 (tragedy of the commons) and Week 3 (IPAT, consumption).",
+      "keyTerms": [
+        "Global South",
+        "the commons",
+        "ecosystem services",
+        "PES",
+        "Montreal Protocol",
+        "Subak"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.north-south",
+      "label": "4.1 Global North and Global South",
+      "type": "topic",
+      "module": "M4",
+      "parent": "m4",
+      "summary": "Countries are split into Global North and South by socio-economic development, not geography; the South's choices shape global sustainability.",
+      "details": "Section 4.1 introduces the **Global North / Global South** framework for understanding global inequality in sustainability.\n\n- It starts from the Rio tradition (**\"The Future We Want\"**, Rio+20) which criticised development that damages the environment and ignores social/cultural dimensions, and argued that the Global South needs a **different development approach** from the North.\n- It links back to Week 3: environmental pressure comes from population, consumption and technology – but also from **how benefits and impacts are shared**, and that distribution is **unequal across countries**.\n- The categories are **sociological and economic, not geographic** (Australia counts as North; Singapore, South Korea are North).\n- The South: ~88% of world population, larger land area, most tropical natural capital, lower historical emissions per capita but highest climate vulnerability.\n\nKey message: the success of the global sustainability/climate agenda **depends on development choices made in the Global South** this decade (energy, food, water, cities), which will \"lock in\" emissions and quality of life for decades.",
+      "keyTerms": [
+        "Global North",
+        "Global South",
+        "inequality",
+        "justice"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.rio20",
+      "label": "Rio+20: 'The Future We Want'",
+      "type": "policy",
+      "module": "M4",
+      "parent": "m4.north-south",
+      "summary": "Rio+20 (2012) outcome 'The Future We Want' launched the SDG process and called for a development path differing between South and North.",
+      "details": "The slide cites **\"The Future We Want\" (Rio+20)** and **\"Realizing The Future We Want for All\" (2019)** as responses to \"development\" that increasingly **damages the environment** and neglects **social and cultural dimensions**; they raise a development approach for the **Global South** that differs from the **Global North**.\n\nBackground from the lecturer's notes:\n- **1992 Earth Summit (UNCED), Rio de Janeiro** (3–14 June, 179 countries, 20 years after Stockholm 1972): sustainable development needs integration of **economic, social and environmental** dimensions and changes in how we produce, consume and decide. Outcomes: **Agenda 21, Rio Declaration (27 principles), UNFCCC, CBD, Forest Principles**, and the Commission on Sustainable Development.\n- **2002** WSSD Johannesburg.\n- **Rio+20 (Brazil, June 2012)**: agreed to launch the **SDGs** process building on the MDGs, adopted green-economy guidance, strengthened UNEP, created the **High-Level Political Forum (HLPF)**, asked for progress measures **beyond GDP**, adopted the **10-Year Framework (10YFP)** on sustainable consumption & production, and triggered 700+ voluntary commitments.\n\nConnects to Week 5 (SDGs) and Week 6 (UNFCCC).",
+      "keyTerms": [
+        "Rio+20",
+        "UNCED 1992",
+        "Agenda 21",
+        "HLPF",
+        "10YFP"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.why-south",
+      "label": "Why the Global South matters",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.north-south",
+      "summary": "Environmental pressure (IPAT) is unequally distributed; the South holds most people, growth and natural capital but bears the worst impacts.",
+      "details": "Bridge from Week 3: what increases environmental pressure?\n- **Population growth** raises resource needs.\n- **Higher consumption** raises material and energy use.\n- **Technology** can reduce *or* increase pressure (IPAT's dual role).\n- Pressure is not only about *how much* is used but **how benefits and impacts are shared** – and this is **unequal across countries**.\n\nWhy the Global South is different (lecturer's notes):\n- Most future **population growth and urbanisation** will happen there.\n- It is a **climate buffer**, holding precious **natural capital** (tropical forests, biodiversity).\n- **Low historical per-capita emissions** yet **most vulnerable** to climate impacts.\n- So **justice** is central: *who contributed, who is affected, who pays for the transition*.\n- Development decisions this decade in energy, food, water and urban planning will **\"lock in\"** emissions and the global ecological footprint for decades.\n\nThis is the root of later ideas such as **CBDR-RC** in the Paris Agreement (Week 6) and North–South spillovers (Week 7).",
+      "keyTerms": [
+        "environmental pressure",
+        "justice",
+        "lock-in",
+        "natural capital"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            4,
+            5
+          ]
+        }
+      ],
+      "examTips": "Be able to explain WHY the South matters using IPAT + distribution of impacts (contributed vs affected vs who pays). Link to CBDR."
+    },
+    {
+      "id": "m4.south-data",
+      "label": "Global South in numbers",
+      "type": "data",
+      "module": "M4",
+      "parent": "m4.why-south",
+      "summary": "Global South: less advanced economies, ~88% of world population, larger land area, ~80% of the world's middle class by 2030.",
+      "details": "Slide \"Why Different?\" lists the characteristics of the **Global South**:\n- **Economic development** not as advanced as the Northern (developed) countries.\n- About **88% of the world's population**.\n- A **larger land area**.\n- Expected to host about **80% of the global middle class by 2030** – meaning consumption (the \"A\" in IPAT) will grow fastest here.\n\nWhy these numbers matter: a rising middle class in the South means rising demand for energy, food, vehicles and goods. Whether this growth follows the North's high-footprint path or a cleaner path largely decides global environmental outcomes. Source referenced by the lecturer: Chatham House (2024), \"Measuring power in the Global South\".",
+      "keyTerms": [
+        "88% population",
+        "80% middle class 2030"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "examTips": "Memorise 88% of population and 80% middle class by 2030."
+    },
+    {
+      "id": "m4.ns-definition",
+      "label": "North/South is socio-economic, not geographic",
+      "type": "definition",
+      "module": "M4",
+      "parent": "m4.north-south",
+      "summary": "Global North = rich, industrialised, globally influential; Global South = developing countries. Categories reflect economics and power, not map location.",
+      "details": "**Definition** (slide 6): the split between **Global North** and **Global South** is based on **social and economic aspects, not geographical location**. The slide infographic lists North = America, Canada, Japan, Europe, South Korea, Singapore, Australia, New Zealand; South = \"most countries are in Asia and Africa\", e.g. Philippines, Malaysia, Haiti, Lebanon, Chad, Brazil.\n\n| | Global North | Global South |\n|---|---|---|\n| Economy | high income, strong industrial/tech base, access to capital & markets | middle/low income, vulnerable to external shocks, raw-material export dependence, foreign debt |\n| Politics | dominates international institutions and standard-setting | pushes **South–South cooperation** to balance its voice |\n| Climate | bulk of **historical emissions** (industrialised first) | lower per-capita emissions, **more vulnerable** to a crisis it did not create |\n\n**Exceptions** prove it is not a map: **Australia and New Zealand** are in the southern hemisphere but counted as North; **Singapore, South Korea, Hong Kong SAR, Taiwan** (Asia) are in the IMF's advanced-economy list; and wealthy groups exist inside Southern countries. The boundary is **informal and not uniform** (World Population Review). The majority of countries and people fall in the South – showing **structural inequality** in the global order.",
+      "keyTerms": [
+        "Global North",
+        "Global South",
+        "South–South cooperation",
+        "historical emissions"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "examTips": "Classic trap: 'Global South = southern hemisphere' is WRONG. Give Australia (North) and Indonesia/India (South, partly northern hemisphere) as counter-examples."
+    },
+    {
+      "id": "m4.country-lists",
+      "label": "Country lists: IMF North and the Global South",
+      "type": "example",
+      "module": "M4",
+      "parent": "m4.ns-definition",
+      "summary": "IMF list of 37 advanced economies (US, Japan, Korea, Singapore, Israel…) vs Global South map: Latin America, Africa, Middle East, South/Southeast Asia incl. China.",
+      "details": "- **Global North – IMF advanced economies** (slide 7, a 37-entry table): Australia, Austria, Belgium, Canada, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, **Hong Kong SAR**, Iceland, Ireland, **Israel**, Italy, **Japan**, **Korea**, Luxembourg, **Macao SAR**, Malta, Netherlands, **New Zealand**, Norway, Portugal, Puerto Rico, San Marino, **Singapore**, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, **Taiwan Province of China**, United Kingdom, **United States**. Traits: stable strong economies, high per-capita income, developed infrastructure, low population growth.\n- **Global South** (slide 8, world map in red + flag list): **Latin America, Africa, the Middle East, South and Southeast Asia – and China**. Flags include **India, China, Indonesia**, Pakistan, Nigeria, Brazil, Bangladesh, Ethiopia, Egypt, Philippines, Vietnam, Iran, South Africa, Argentina, Saudi Arabia, Malaysia, Thailand, North Korea and many African states. Sources: World Population Review, SocSES.\n\nNuance from the notes: the South is **not homogeneous** (Indonesia ≠ India, Brazil, Kenya or Fiji), but many share one challenge – **meeting development needs while conserving the natural resources** (forests, water, soil, sea, fisheries, biodiversity) that are often **used or managed together**. This sets up section 4.2 on the commons.",
+      "keyTerms": [
+        "IMF advanced economies",
+        "Indonesia",
+        "China (Global South)"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.commons-south",
+      "label": "4.2 The commons in the Global South",
+      "type": "topic",
+      "module": "M4",
+      "parent": "m4",
+      "summary": "The Global South relies heavily on shared natural resources; key questions are who uses, who benefits and who guards them.",
+      "details": "Section 4.2 connects the North/South split to **the commons** (Week 2's tragedy of the commons).\n\n- The **Global South** has more countries than the North, **large development needs** and **high reliance on natural resources**.\n- **Many of its resources are commons** – water, forests, land, sea, biodiversity – supporting many people at once (food, water, jobs, economy, social and cultural value).\n- Three guiding questions: **Who uses them? Who enjoys the benefits? Who guards them so they remain available?**\n- Many of the world's natural commons (mangroves, coral reefs, tropical rainforests) are in the **tropics**, i.e. mostly the South. They sit in national jurisdictions and are used by local communities, but their **benefits cross borders** (biodiversity, coastal protection, fisheries, carbon storage, Earth-system functions).\n- The commons include both **natural** and **man-made** resources, and are tied to **culture, identity and indigenous survival**.",
+      "keyTerms": [
+        "commons",
+        "natural resource dependence"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.commons-definition",
+      "label": "What 'the commons' means",
+      "type": "definition",
+      "module": "M4",
+      "parent": "m4.commons-south",
+      "summary": "The commons: wealth (land, culture, knowledge, values) owned, used and maintained together under shared rules, often non-excludable yet rivalrous.",
+      "details": "**Slide definition**: *the commons* is a different kind of **\"wealth\"** – land, culture, values, activities, intangible heritage, etc. – that is **owned and maintained together**.\n\nLecturer's notes add:\n- **Hardt & Negri (2009)**: the common is material and/or resources **used together** – from natural resources to the benefits of the digital world.\n- The commons is a perspective of **social transformation**: people collaborate and share, with **rules of the game** and **governance arrangements** based on the nature of the resource.\n- Typical traits: **non-excludability** (hard to keep people out) and **rivalry** (one person's use reduces what's left), yet high **social value / utility**.\n- Some define the commons as a **system**: resource + users + institutions binding them + the processes that keep its value going.\n- Others stress group ownership that can exclude outsiders, or a delineated space (property). It is **not binary** (property vs no property) but a **combination of traits**.\n\nLink: non-excludable + rivalrous = exactly the conditions for Hardin's **tragedy of the commons** (Week 2); this week shows how rules and institutions avoid it.",
+      "keyTerms": [
+        "non-excludability",
+        "rivalry",
+        "rules of the game",
+        "Hardt & Negri"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            10,
+            11
+          ]
+        }
+      ],
+      "examTips": "Define the commons and state its two economic traits (non-excludable, rivalrous). Explain why this makes it vulnerable to the tragedy of the commons."
+    },
+    {
+      "id": "m4.tropical-commons",
+      "label": "Tropical natural commons: mangroves & rainforests",
+      "type": "data",
+      "module": "M4",
+      "parent": "m4.commons-south",
+      "summary": "Mangroves cover ~150,000 km² (~15% of coastlines); ~3.2 million ha of primary tropical forest lost yearly since 2002.",
+      "details": "Map slides show many key ecosystems lie in the **tropics (mostly Global South)**; benefits extend far beyond national borders.\n\n**Mangroves**\n- About **150,000 km²** worldwide, along tropical, subtropical and warm-temperate coasts; about **15% of the world's coastline**.\n- Vital for **biodiversity**, goods and services for **local communities**, and **climate mitigation**.\n- Past threats: timber exploitation, conversion to **agriculture and shrimp ponds**, dams altering freshwater/sediment. Now also **sea-level rise** and stronger **cyclones**. Collapse risk has serious socio-economic consequences.\n\n**Tropical rainforests**\n- Highest plant and animal diversity; home to most isolated **indigenous peoples**; sources of the largest rivers.\n- Deforestation high since the 1980s (food, fibre, fuel demand and failure to value forests).\n- Since **2002**, about **3.2 million ha of primary tropical forest** lost **per year**; degraded secondary forest even larger.\n\nIllustrates commons that are local in use but **global in benefit** – and links to ecosystem services (4.3) and peatlands/AFOLU (Week 6).",
+      "keyTerms": [
+        "mangroves",
+        "tropical rainforest",
+        "deforestation"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.commons-culture",
+      "label": "Commons, culture and indigenous communities",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.commons-south",
+      "summary": "Commons are tied to identity, spirituality and survival of indigenous communities; threatened by corporations, exclusionary policies and climate change.",
+      "details": "In the Global South the commons are often **closely tied to cultural identity, spirituality and the survival of indigenous and local communities**.\n\n- **Example**: a forest is not just **timber** – it is a **\"pharmacy\"**, a **spiritual place**, and a **guardian of the water cycle**.\n- **Traditional knowledge** is itself an **intellectual commons**.\n\n**Threats** to these commons:\n1. **Exploitation by corporations**.\n2. **Government policies that do not involve local communities**.\n3. **Climate change**.\n\nWhy it matters: valuing commons only by market price (timber) misses most of their value; that is why the next section uses the wider lens of **ecosystem services**, and why community/customary rules (e.g. Subak, customary forests from Week 2) matter for governance.",
+      "keyTerms": [
+        "traditional knowledge",
+        "indigenous communities",
+        "intellectual commons"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.commons-types",
+      "label": "Natural vs man-made commons",
+      "type": "framework",
+      "module": "M4",
+      "parent": "m4.commons-south",
+      "summary": "Natural commons: water, air, land, forest, ocean, biodiversity, spectrum, outer space. Man-made: irrigation, music, parks, seeds, knowledge, internet, libraries.",
+      "details": "The lecture classifies commons into two groups:\n\n**Natural commons**\n- Water, **air**, land, forest, ocean, biodiversity\n- **Electromagnetic spectrum**\n- **Outer space**\n\n**Man-made commons**\n- **Irrigation systems** (→ Subak)\n- Music\n- Parks\n- Seeds\n- **Shared knowledge**, libraries\n- **Internet technology**, bandwidth\n\nKey insight: the commons is **not only nature**. Anything used together under shared rules – including **digital and knowledge resources** – can be a commons and can suffer overuse, enclosure or neglect. This list foreshadows the end of the lecture on **technology and non-physical commons** (knowledge, data, AI).",
+      "keyTerms": [
+        "natural commons",
+        "man-made commons",
+        "electromagnetic spectrum",
+        "knowledge commons"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            12
+          ]
+        }
+      ],
+      "examTips": "Be ready to give 3 natural and 3 man-made examples; surprising ones: electromagnetic spectrum, outer space, seeds, internet bandwidth."
+    },
+    {
+      "id": "m4.importance",
+      "label": "4.3 Importance of the commons: ecosystem services",
+      "type": "topic",
+      "module": "M4",
+      "parent": "m4",
+      "summary": "Commons matter because healthy ecosystems provide services the whole economy depends on; these can be valued and paid for.",
+      "details": "Section 4.3 explains **why the commons are important**, through **ecosystem services**:\n\n1. **Definition & categories** – everything provided by healthy, well-functioning ecosystems; MEA (2005): **provisioning, regulating, supporting, cultural**.\n2. **Economic dependence** – all economic activity depends on these services (**natural capital**).\n3. **Valuation** – global ecosystem services worth about **US$63.9 trillion per year** (Spoolman & Miller 2021).\n4. **Payment** – how services can be \"paid\": economically (**PES / PJL**, e.g. **Cidanau, Banten**), socially (**mutual consent**, indigenous agreements), and through **governance** (government regulation).\n\nThese three payment routes reappear in 4.4 as ways of regulating the commons.",
+      "keyTerms": [
+        "ecosystem services",
+        "natural capital",
+        "PES"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.ecosystem-services",
+      "label": "Ecosystem services (MEA 2005)",
+      "type": "framework",
+      "module": "M4",
+      "parent": "m4.importance",
+      "summary": "Benefits from healthy ecosystems; Millennium Ecosystem Assessment (2005) groups them as provisioning, regulating, supporting and cultural services.",
+      "details": "**Ecosystem services** are *everything provided by healthy and well-functioning ecosystems* to people.\n\nThe **Millennium Ecosystem Assessment (MEA, 2005)** sorts them into four categories:\n1. **Provisioning** – material/energy products taken directly from nature (food, water, timber, fibre, genetic resources, fuel).\n2. **Regulating** – benefits from natural regulation processes (climate, water/air purification, flood/erosion control, pollination, pest control).\n3. **Cultural** – non-material benefits (aesthetics, recreation, spiritual, education, heritage).\n4. **Supporting** – underlying processes that make all other services possible (nutrient cycling, soil formation, photosynthesis/primary production, water cycle).\n\n**Economic activities as a whole are intrinsically dependent** on the sustainability of these services. A degraded commons means lost services and higher costs for society.\n\nTip: supporting services are the **foundation** – they are not consumed directly but enable the other three.",
+      "keyTerms": [
+        "Millennium Ecosystem Assessment",
+        "provisioning",
+        "regulating",
+        "supporting",
+        "cultural"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "examTips": "Name all four MEA categories with one example each. Common confusion: regulating (e.g. flood control) vs supporting (e.g. nutrient cycling, soil formation)."
+    },
+    {
+      "id": "m4.es-provisioning",
+      "label": "Provisioning services",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.ecosystem-services",
+      "summary": "Material or energy products taken directly from nature: food, fresh water, timber, fibre, genetic resources, fuels.",
+      "details": "**Provisioning services** are the **material or energy products directly harvested** from ecosystems to meet human needs.\n\nExamples from the lecture notes:\n- **Food** – fish, agricultural products\n- **Fresh water** for drinking and irrigation\n- **Timber and fibre** as raw materials\n- **Genetic resources** for medicines\n- **Fuels and energy sources**\n\nThese are the easiest services to price because they are often traded in markets (direct economic value). The danger is that focusing only on provisioning (e.g. timber) ignores the regulating, cultural and supporting services lost when a forest is cut – the \"forest is not just timber\" point of 4.2.",
+      "keyTerms": [
+        "food",
+        "fresh water",
+        "timber",
+        "genetic resources"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.es-regulating",
+      "label": "Regulating services",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.ecosystem-services",
+      "summary": "Benefits from natural regulation: climate regulation via carbon uptake, air and water purification, erosion and flood control, pollination, pest control.",
+      "details": "**Regulating services** are benefits from the **natural regulating processes** of ecosystems – nature as a keeper of environmental balance.\n\nExamples:\n- **Climate regulation** through **carbon sequestration** (slide 15: marine ecosystems give \"climate moderation\" and \"CO₂ absorption\")\n- **Water and air purification** (e.g. forests and wetlands filter water; plants absorb pollutants)\n- **Erosion and flood control** (freshwater systems: \"flood control\"; coasts: \"reduced storm damage\" from **mangroves, barrier islands, coastal wetlands**)\n- **Waste treatment** and **groundwater recharge** (freshwater systems)\n- **Natural pollination** of crops; **pest and disease control**\n\nThese services usually have **indirect economic value**: they are rarely priced, but losing them is costly – e.g. deforestation raises the cost of supplying clean water (lost filtration), and loss of pollutant uptake by vegetation raises health costs. The **Cidanau PES** scheme pays upstream farmers precisely for a regulating service (watershed protection supplying clean water downstream).",
+      "keyTerms": [
+        "carbon sequestration",
+        "water purification",
+        "pollination",
+        "flood control"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            14,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.es-cultural",
+      "label": "Cultural services",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.ecosystem-services",
+      "summary": "Non-material benefits: aesthetic and recreational value, spiritual and religious meaning, inspiration for education and art, cultural heritage and identity.",
+      "details": "**Cultural services** provide **non-material benefits** for spiritual, cognitive and recreational development.\n\nExamples:\n- **Aesthetic value and recreation** – nature tourism\n- **Spiritual and religious value** of sacred places\n- **Inspiration** for education, art and culture\n- Strengthening **cultural heritage and community identity**\n\nIn the Global South these are especially strong: forests as spiritual places, and **Subak's water temples** linking water management to ritual and **Tri Hita Karana**. Tourism economies (e.g. marine tourism dependent on coral reefs) show cultural services also carry real economic value.",
+      "keyTerms": [
+        "recreation",
+        "spiritual value",
+        "heritage"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.es-supporting",
+      "label": "Supporting services",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.ecosystem-services",
+      "summary": "Foundational processes enabling all other services: nutrient cycling, soil formation and retention, primary production (photosynthesis), water cycle.",
+      "details": "**Supporting services** are the **foundation for all other ecosystem services** – the processes that make provisioning, regulating and cultural services possible.\n\nExamples:\n- **Nutrient cycling** (nitrogen, phosphorus)\n- **Soil formation and retention**\n- **Primary production** via photosynthesis\n- **Water cycle** maintaining clean water availability\n\nPeople rarely use these directly, so they are the most invisible and least valued – yet without them nothing else works. Link to Week 2's **planetary boundaries** (e.g. biogeochemical N and P flows, freshwater use): supporting services operate at the Earth-system scale.",
+      "keyTerms": [
+        "nutrient cycling",
+        "soil formation",
+        "primary production"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.es-economy",
+      "label": "Ecosystem services as the basis of the economy",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.importance",
+      "summary": "All economic sectors depend on ecosystem services (natural capital); they have direct and indirect value, and losing them raises costs.",
+      "details": "Slides 15–16 use **\"Natural Capital\" tables** (Miller/Spoolman textbook) pairing each ecosystem's **ecosystem services** with its **economic services**:\n\n| Ecosystem | Ecosystem services | Economic services |\n|---|---|---|\n| **Marine** | O₂ via photosynthesis, water purification, climate moderation, CO₂ absorption, nutrient cycling, reduced storm damage, biodiversity | food, wave/tidal energy, pharmaceuticals, harbours, tourism, jobs, minerals |\n| **Freshwater** | climate moderation, nutrient cycling, waste treatment, flood control, groundwater recharge, habitats, genetic resources | food, drinking & irrigation water, hydroelectricity, transport, recreation, jobs |\n| **Forests** | energy flow & chemical cycling, less soil erosion, absorb/release water, purify water & air, influence climate, store carbon, habitats | fuelwood, lumber, pulp/paper, mining, grazing, recreation, jobs |\n| **Rivers** | deliver nutrients to sea (coastal fisheries), deposit silt for deltas, purify water, renew wetlands, habitats | – |\n\nNotes: **all economic activity depends on ecosystem services** – agriculture (soil, water, pollination), tourism (beauty, biodiversity), industry (water filtered by forests/wetlands). Value can be **direct** (forest products, fish) or **indirect** (forests reducing flood losses). Losses raise costs: deforestation → dearer clean water; reef loss → fewer fish and tourists; air pollution → health costs. **Natural capital** is the base of all production, consumption and growth.",
+      "keyTerms": [
+        "natural capital",
+        "direct value",
+        "indirect value"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            15,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.es-valuation",
+      "label": "Economic value of ecosystem services (~US$63.9 trillion/yr)",
+      "type": "data",
+      "module": "M4",
+      "parent": "m4.importance",
+      "summary": "Spoolman & Miller (2021) chart: annual value of ecosystem services by biome; coastal marshes/mangroves top at $24.8T, forests $15.6T, open ocean $16.3T.",
+      "details": "Slide 17 bar chart: **estimated annual monetary value** of ecosystem services from the world's major ecosystems (**Spoolman & Miller, 2021**), in US$ trillion/year:\n\n- **Terrestrial**: forests **15.6**, grasslands/rangelands **12.7**, cropland **9.3**, swamps/floodplains **1.5** → sum **39.1**\n- **Aquatic**: **coastal marshes/mangroves 24.8** (largest bar of all), open ocean **16.3**, coral reefs **9.9**, marine shelf **5.9**, lakes/rivers **0.9** → sum **57.8**\n\n**Caution on totals**: the lecturer's notes quote a total of **$63.9T** = terrestrial $39.1T + \"aquatic $24.8T\" – but $24.8T is the coastal marshes/mangroves bar alone; the aquatic bars on the chart add to $57.8T (≈ $96.9T overall). If asked, quote the per-ecosystem figures and the key finding.\n\n**Key finding**: **coastal ecosystems (marshes, mangroves)**, though **small in area**, deliver the **largest service value** – why mangrove loss in the Global South is so costly.\n\nWhy it matters:\n- Shows how much \"free\" **natural capital** conventional accounting (GDP) ignores.\n- Gives an economic argument for conservation and **payment for ecosystem services (PES)**.\n- Nature's life-support services are irreplaceable, so conservation belongs at the centre of economic and development policy.",
+      "keyTerms": [
+        "US$63.9 trillion",
+        "Spoolman & Miller",
+        "valuation"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            17
+          ]
+        }
+      ],
+      "examTips": "Know the ranking: coastal marshes/mangroves ($24.8T) > open ocean ($16.3T) > forests ($15.6T). Beware the $63.9T total in the notes – it does not match the chart's aquatic sum."
+    },
+    {
+      "id": "m4.es-payment",
+      "label": "How ecosystem services can be paid",
+      "type": "framework",
+      "module": "M4",
+      "parent": "m4.importance",
+      "summary": "Three routes: economically via Payment for Ecosystem Services (PES/PJL), socially via mutual consent (indigenous agreements), and via government regulation.",
+      "details": "How can ecosystem services be **paid for / valued** so people protect them? Three routes:\n\n1. **Economically – Payment for Ecosystem Services (PES)**, in Indonesia *Pembayaran Jasa Lingkungan (PJL)*: those who **benefit** from nature (clean water, healthier air, carbon absorption, scenic beauty) **pay** those who **preserve or enhance** the service (forest farmers, coastal communities) – **provided the results are genuinely achieved** (conditional payment). Example: **Cidanau, Banten**.\n2. **Socially – mutual consent**: joint agreements, as practised by **indigenous communities** under customary (*adat*) rules; even neighbourhood (RT/RW) agreements to keep areas clean.\n3. **Governance – government regulation**.\n\nThese three routes map onto the cases in 4.4: **ozone (global mutual consent / treaty)**, **Subak (community rules)**, **vehicle emissions (government regulation)**.",
+      "keyTerms": [
+        "Payment for Ecosystem Services",
+        "PJL",
+        "mutual consent",
+        "government regulation"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            18
+          ]
+        }
+      ],
+      "examTips": "Define PES with beneficiary-pays + conditionality. Know the three payment/regulation routes (market, social, government) and an example of each."
+    },
+    {
+      "id": "m4.cidanau",
+      "label": "Cidanau watershed PES, Banten",
+      "type": "case-study",
+      "module": "M4",
+      "parent": "m4.es-payment",
+      "summary": "Since 2003 downstream Cilegon industries pay upstream farmers Rp1.2–1.75 million/ha/yr to manage land sustainably, protecting Cidanau's water supply.",
+      "details": "**Cidanau watershed (DAS Cidanau)** is a priority watershed in **Banten province** – Indonesia's best-known **PES** example.\n\n- **Upstream** (Serang city and Pandeglang regency): land managed mostly by **poor farmers**.\n- **Downstream**: **Cilegon**, an **industrial city** whose industries rely on water from the Cidanau watershed.\n- Since **2003**, the **Cidanau Watershed Communication Forum (FKDC)** has run an **Imbal Jasa Lingkungan (IJL)** scheme: downstream industries pay **Rp1.2–1.75 million per hectare per year** to upstream farmer groups to **manage their gardens sustainably** (keep tree cover).\n\nWhy it is a textbook PES:\n- **Beneficiary pays** (industry) → **provider** (farmers).\n- The service is a **regulating service** (watershed protection, clean water supply).\n- Payment is linked to **actual conservation results**.\n- It also addresses **equity**: poor upstream communities are rewarded for protecting a resource used by richer downstream users.",
+      "keyTerms": [
+        "Cidanau",
+        "FKDC",
+        "Imbal Jasa Lingkungan",
+        "Cilegon"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            18
+          ]
+        }
+      ],
+      "examTips": "Know who pays whom, for what, since when (2003), and how much (Rp1.2–1.75 million/ha/yr)."
+    },
+    {
+      "id": "m4.regulating",
+      "label": "4.4 Regulating the commons: example cases",
+      "type": "topic",
+      "module": "M4",
+      "parent": "m4",
+      "summary": "Commons can avoid tragedy through global consensus (ozone), community rules (Subak) or government regulation (vehicle emissions), guided by Ostrom's principles.",
+      "details": "Section 4.4 (the lecturer notes \"Ostrom\") shows how commons are **regulated in practice**, answering Hardin's tragedy of the commons (Week 2) with **institutions**:\n\n| Route | Case | Commons |\n|---|---|---|\n| **Global consensus / mutual consent** | Antarctic **ozone hole** → **Montreal Protocol 1987**, **Kigali Amendment 2016** | atmosphere (global, \"invisible\" commons) |\n| **Community rules / collective action** | **Subak** irrigation in Bali | irrigation water |\n| **Government regulation** | **Dieselgate** (US Clean Air Act), **vehicle emission rules in Indonesia/Jakarta**, **Bandung air quality** | urban air |\n\nIt closes with **how arrangements are made** – boundaries, costs, use rules, supervision, sanctions, conflict resolution (Ostrom's design principles).\n\nLessons: regulation works when there is **shared commitment** of all parties (government, corporations, citizens); it fails when industry resists or cheats (Dieselgate), when monitoring is weak, or when governments fear harming growth (Bandung).",
+      "keyTerms": [
+        "Ostrom",
+        "collective action",
+        "regulation"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        }
+      ],
+      "examTips": "Expect: 'give an example of a commons successfully regulated and explain why'. Use ozone (global) or Subak (local); contrast with Dieselgate/Indonesian emissions (enforcement failure)."
+    },
+    {
+      "id": "m4.ozone",
+      "label": "Antarctic ozone hole: a global commons",
+      "type": "case-study",
+      "module": "M4",
+      "parent": "m4.regulating",
+      "summary": "The ozone layer, a global 'invisible' commons blocking UV, thinned over Antarctica (hole found 1985); global consensus led to its regulation.",
+      "details": "The **ozone layer** is a **common asset**: a layer of the atmosphere that **blocks harmful ultraviolet (UV) radiation** from reaching Earth.\n\n- In **1985** scientists found the ozone layer had thinned, forming a **\"hole\" over Antarctica**.\n- The lecturer calls the atmosphere a **global commons** or **\"invisible commons\"** – not seen, yet its shared benefit is enormous; no single country owns or can protect it alone.\n- Ozone depletion **endangered the survival of human habitats**, which triggered a **global consensus** – **mutual consent at global scale**.\n- **Still monitored** (slide 22): a CAMS/Copernicus chart of **Southern Hemisphere ozone hole area** shows the hole opening each **August–December**; in **2023 it peaked at ~26 million km²** (mid/late September), larger than the 1979–2020 median and well above the **area of Antarctica (~14 million km²)**, with 2021 and 2022 also large.\n- Knock-on effects (Kang et al., 2011 diagram): the ozone hole **shifted the westerly jet poleward** and altered global air circulation, **bringing more rain to the subtropics**.\n\nWhy it's the classic success story: clear scientific signal, an identifiable cause (CFCs), substitutes, and a binding treaty with near-universal participation – yet recovery is slow. Contrast with climate change (Week 6).",
+      "keyTerms": [
+        "ozone layer",
+        "UV radiation",
+        "global commons",
+        "invisible commons",
+        "1985"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            20,
+            21,
+            22
+          ]
+        }
+      ],
+      "examTips": "Year the hole was discovered: 1985. Explain why the ozone layer is a commons (non-excludable, shared benefit)."
+    },
+    {
+      "id": "m4.montreal",
+      "label": "Montreal Protocol (1987) & Kigali Amendment (2016)",
+      "type": "policy",
+      "module": "M4",
+      "parent": "m4.ozone",
+      "summary": "Montreal Protocol 1987 banned production and use of CFCs and derivatives; Kigali Amendment 2016 extended controls to HFCs, HCFCs and similar substances.",
+      "details": "**Montreal Protocol (1987)**: a **global agreement prohibiting the production and use of hazardous ozone-depleting substances** – **CFCs** (chlorofluorocarbons) and their derivatives.\n\n**Kigali Amendment (2016)**: extends the protocol to **HFCs, HCFCs and similar substances** (per the slide). (Standard context: HFCs replaced CFCs but are powerful greenhouse gases, so Kigali also helps climate.)\n\nWhy it matters for the course:\n- The textbook example of **regulating a global commons through international consensus** – the global version of the \"mutual consent\" route.\n- Shows commons tragedies **can be solved** when science is clear and states cooperate.\n- Recovery is gradual and still **monitored**: slide 22's CAMS chart shows the 2023 Antarctic ozone hole still reaching ~26 million km² – a reminder that long-lived chemicals take decades to clear, so compliance must be sustained.\n- Links to Week 2 **planetary boundaries** (stratospheric ozone depletion is one of the nine boundaries, and the one humanity has pulled back from) and Week 6 climate agreements.",
+      "keyTerms": [
+        "Montreal Protocol",
+        "CFC",
+        "Kigali Amendment",
+        "HFC",
+        "HCFC"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            21,
+            22
+          ]
+        }
+      ],
+      "examTips": "Pair years with treaties: Montreal 1987 (CFCs), Kigali 2016 (HFCs/HCFCs). Don't mix up with Kyoto (1997) or Paris (2015)."
+    },
+    {
+      "id": "m4.common-property",
+      "label": "'Common property': rules respected together",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.regulating",
+      "summary": "Communities gather to set shared 'rules of the game' that maintain common property, e.g. maintaining waterways – the logic of collective action.",
+      "details": "**Common property** regime: the **community gathers and works together** to establish **\"rules of the game\"** that keep the shared resource in existence.\n\n- **Example**: maintaining **waterways** together.\n- Underlying idea: the **logic of collective action** – individuals cooperate and accept rules because everyone benefits from the resource's survival, overcoming the temptation to free-ride.\n\nThis is the **community** route (between pure market and pure state) and directly answers Hardin's tragedy of the commons: shared resources need **not** be privatised or nationalised if users can create and enforce their own rules (Elinor Ostrom's insight). The flagship example is **Subak** in Bali, and the six arrangement elements (boundaries, costs, use, supervision, sanctions, conflict resolution) describe how such rules are designed.",
+      "keyTerms": [
+        "common property",
+        "rules of the game",
+        "collective action"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.subak",
+      "label": "Subak irrigation system (Bali)",
+      "type": "case-study",
+      "module": "M4",
+      "parent": "m4.common-property",
+      "summary": "Bali's ~1,000-year-old cooperative irrigation: farmers jointly allocate water, maintain canals and water temples under awig-awig rules and Tri Hita Karana.",
+      "details": "**Subak** is not just irrigation but a **social-ecological and cultural system** that has shaped Bali's rice landscape for **over 1,000 years** (water-temple networks managing terraces at **watershed scale since ~11th century**). UNESCO World Heritage: **five terraced rice landscapes + water temples, ~19,500 ha**.\n\nHow Subak meets the **commons** elements:\n- **Shared resource** – water from one source/stream used by many farmers.\n- **Multiple users** – UNESCO: about **50–400 farmers** manage water from one source.\n- **Collective rules** – community decides **allocation and timing** of water; rights/duties written in **awig-awig** (customary rules).\n- **Collective management** – canals, dams/weirs, tunnels, **water temples (pura)** and distribution maintained jointly.\n- **Socio-cultural dimension** – linked to rituals, local institutions and **Tri Hita Karana** (harmony between the **spiritual world, humans and nature**).\n\nLesson: a commons is a **system** of resource + users + rules + institutions + knowledge + collective responsibility, connecting upstream forests and rivers with downstream food production.",
+      "keyTerms": [
+        "Subak",
+        "awig-awig",
+        "Tri Hita Karana",
+        "water temples",
+        "UNESCO"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            24
+          ]
+        }
+      ],
+      "examTips": "Know the 5 commons elements Subak fulfils, the number 50–400 farmers per source, and Tri Hita Karana's three harmonies. Contrast with the tragedy of the commons."
+    },
+    {
+      "id": "m4.vehicle-emissions",
+      "label": "Government regulation of air: vehicle emissions",
+      "type": "topic",
+      "module": "M4",
+      "parent": "m4.regulating",
+      "summary": "Air as a commons regulated by government emission standards: Dieselgate in the US, and Indonesia's rules, challenges and green mobility shift.",
+      "details": "The third route – **government regulation** – applied to **air**, a commons.\n\nRegulating vehicle emissions involves three parties:\n- **Corporations** (automotive industry) – must meet standards.\n- **Government** – sets regulations/policies and test methods.\n- **Society** – must comply (maintenance, emission tests).\n\nPollution control focuses on the **source**: exhaust from combustion. Complete combustion gives CO₂, water and nitrogen; **incomplete combustion** produces harmful **CO, hydrocarbons (THC), NOx and particulates**. NOx and THC react with sunlight to form **photochemical smog**.\n\nCases in this group:\n- **Dieselgate** – industry cheating strict US rules.\n- **Indonesia/Jakarta regulation** – Permen LHK 8/2023, PP 22/2021, Euro 4, periodic tests.\n- **Shift to green mobility** – ICE → hybrid → EV, with caveats.\n- **Bandung air quality** – government reluctance to regulate strictly.\n\nLecturer's conclusion: emission measurement is still lacking (industrial, economic obstacles); **success requires shared commitment** of all parties.",
+      "keyTerms": [
+        "vehicle emissions",
+        "NOx",
+        "photochemical smog",
+        "government regulation"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.dieselgate",
+      "label": "Dieselgate (Volkswagen)",
+      "type": "case-study",
+      "module": "M4",
+      "parent": "m4.vehicle-emissions",
+      "summary": "VW marketed 'clean diesel' but used software to cut emissions only during tests; on-road NOx was up to 20× higher; millions of cars recalled.",
+      "details": "**Dieselgate** – an example of government regulation of a commons (air) and of how industry can undermine it.\n\n- In the US, vehicle emissions are regulated by the **Clean Air Act**, with **strict limits on NOx**.\n- **Volkswagen** campaigned its diesel engines as **\"clean technology\"**.\n- It was proven that VW used **software (\"defeat device\")** that **controlled emissions only during testing**; on the road emissions were up to **20× higher**.\n- NOx forms **smog** → a **public health** issue. **Millions of vehicles were recalled**.\n\nLecturer's point: emission rules must be obeyed but industry finds them burdensome and is not very interested, so companies may **manipulate** compliance. Regulation needs **independent monitoring and enforcement**, not just standards.\n\nThe slide then asks: **how is vehicle emission reduction implemented in Indonesia (Global South)?** – leading to the Indonesian cases. Also an example of technology's **dual role** (Week 3): the same software technology used to deceive.",
+      "keyTerms": [
+        "Dieselgate",
+        "Volkswagen",
+        "Clean Air Act",
+        "NOx",
+        "defeat device"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            25
+          ]
+        }
+      ],
+      "examTips": "Explain Dieselgate as a regulation/enforcement failure of a commons (air); key facts: Clean Air Act, NOx, software, 20× on-road, recall."
+    },
+    {
+      "id": "m4.indonesia-emissions",
+      "label": "Vehicle emission regulation in Indonesia & Jakarta",
+      "type": "policy",
+      "module": "M4",
+      "parent": "m4.vehicle-emissions",
+      "summary": "Indonesia: Permen LHK 8/2023, PP 22/2021, Euro 4. Jakarta: Ingub 66/2019, Pergub 66/2020 emission tests, 2021 low-emission zone; weak participation and enforcement.",
+      "details": "**National legal basis**: **Permen LHK No. 8/2023** and **PP No. 22/2021**. Main policies (slide 29): **Euro 4** for new vehicles; **periodic emission testing** linked to **vehicle tax renewal**; availability of **clean fuel**.\n\n**Jakarta** (slide 27, Katadata/TRUE Initiative infographic \"Strengthening emission standards to support decarbonisation\"):\n- *DKI strategies*: **Instruksi Gubernur 66/2019** on air-quality control; **Pergub 66/2020** on vehicle exhaust emission testing; a **Low Emission Zone (LEZ) in 2021** in **Kota Tua, North Jakarta**.\n- *Current conditions*: emission-test **participation is minimal**; **sanctions** for failing tests are **not enforced**; the **10-year age limit** for private vehicles is not aligned with national rules.\n- *TRUE recommendations*: adopt **Euro 6** for new vehicles; regular private-vehicle emission tests; **disincentives** for high emitters; **remote sensing** of emissions; speed up **zero-emission vehicles**, especially city buses and motorcycles.\n\nLecturer's notes: industry is reluctant and may **manipulate** results; emission measurement remains **insufficient** (industrial and economic constraints); in **Bandung**, rules met the obstacle of **reduced tax payments**. Success needs **shared commitment** of government, industry and citizens.",
+      "keyTerms": [
+        "Permen LHK 8/2023",
+        "PP 22/2021",
+        "Euro 4",
+        "emission test",
+        "Jakarta"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            26,
+            27,
+            29
+          ]
+        }
+      ],
+      "examTips": "Know the two regulations (Permen LHK 8/2023, PP 22/2021) and Euro 4."
+    },
+    {
+      "id": "m4.emission-challenges",
+      "label": "Challenges of emission regulation in Indonesia",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.vehicle-emissions",
+      "summary": "Technical (few test tools, old vehicles), economic (repair costs, transport operators), regulatory (weak coordination, lax sanctions), social (low awareness).",
+      "details": "Implementing vehicle emission regulation in Indonesia faces four kinds of challenges (slide 29):\n\n- **Technical**: **limited emission-testing equipment**; **older vehicles** struggle to meet standards.\n- **Economic**: **high repair costs**; burden on **public transport operators**.\n- **Regulatory**: **weak coordination among agencies**; **lax sanctions**.\n- **Social**: **low public awareness**; **enforcement outside Jakarta remains weak**.\n\nRead these against Ostrom's arrangement elements: weak **supervision** (few testers), weak **sanctions**, unfair **cost** sharing, and poor coordination (no **nested** governance). This is why the Global South often struggles to regulate commons like urban air even when laws exist – a gap between **regulation on paper and implementation**.",
+      "keyTerms": [
+        "implementation gap",
+        "enforcement",
+        "sanctions"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            29
+          ]
+        }
+      ],
+      "examTips": "Useful for essay answers: classify challenges as technical / economic / regulatory / social."
+    },
+    {
+      "id": "m4.green-mobility",
+      "label": "From emission standards to green mobility",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.vehicle-emissions",
+      "summary": "Timeline 1975–2060: global fuel-efficiency/CO₂ standards outpace Indonesia; Indonesia moves LCGC → LCEV → hybrid/EV toward green mobility and 2060 net-zero.",
+      "details": "Slide 28 is a **timeline with two arrows – \"Global Trend\" vs \"Indonesia Trend\"**:\n- **Global**: 1975 **US CAFE** (fuel-economy concern, FE 7.6 km/L); 1990 **EU starts CO₂ discussion**; 2005 **stringent policy (Euro 4)**; 2011 US CAFE 12.8 km/L; 2016 **16.5 km/L, 140 g CO₂/km**.\n- **Indonesia**: market grows from **72K** vehicles (commercial-vehicle based) to 534K (Euro 2) to **1,230K in 2013**; **LCGC** (low-cost green car, 2013 – triggers: fuel consumption, low buying power); **fuel subsidy removed 2015**; 2016 still **12.8 km/L, 180 g CO₂/km** (behind global); **LCEV** (2019 – energy security, environment); then **hybrid** and **EV** (EVs \"initiated by 2-wheelers and public transport\") → **green mobility** (\"current IDN\"), aiming to **narrow the gap by 2050** and reach **net-zero by 2060**.\n\nNotes: control began with **tighter emission standards**, then **fuel efficiency** and **low-emission vehicles** (ICE → efficient → hybrid → EV).\n\n**Caution**: **green mobility ≠ swapping all fossil cars for EVs**. Consider the **electricity source** (coal power shifts emissions), **vehicle production** and **materials** (batteries, nickel), **congestion**, and **public transport**.\n\nTies to Week 3's **dual role of technology** and Week 6's 2060 net-zero target.",
+      "keyTerms": [
+        "green mobility",
+        "electric vehicles",
+        "hybrid",
+        "public transport"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.bandung-air",
+      "label": "Air quality in Bandung",
+      "type": "case-study",
+      "module": "M4",
+      "parent": "m4.vehicle-emissions",
+      "summary": "IQAir snapshot: Bandung AQI 173 'unhealthy', PM2.5 87 µg/m³ (17.4× WHO guideline); developing-country governments avoid strict rules to protect growth.",
+      "details": "Slide 30 is an **IQAir screenshot** for Bandung (12:00, 10 Sep; 5 stations from 3 contributors):\n- **US AQI 173 – \"Tidak sehat\" (unhealthy)**; main pollutant **PM2.5 = 87 µg/m³**, **17.4 times** the WHO annual PM2.5 guideline.\n- Hourly forecast falls from 173 at midday to ~110–125 overnight; the weekly forecast drops from 136 to ~72–78 – air quality swings with weather.\n\nLecturer's notes:\n- Pollution **differs by season**; **air pollution can be global** – air is a commons without fixed boundaries.\n- Developing countries chasing **growth and industrialisation** (esp. the **automotive sector**) are **reluctant to regulate** pollution measurement strictly, fearing it will:\n  - **slow growth** in industry and capital-intensive sectors;\n  - **raise production costs** (standards, control technology);\n  - **reduce investment attractiveness**;\n  - hit car makers (higher prices, limits on fossil-car sales).\n- Locally, Bandung's emission rules met the obstacle of **reduced tax revenue**.\n\nThis is the **Global South dilemma**: development needs vs protecting the commons – and an example of the commons needing government regulation (with Jakarta's case on slide 27).",
+      "keyTerms": [
+        "Bandung",
+        "IQAir",
+        "growth vs environment"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            30,
+            27
+          ]
+        }
+      ],
+      "examTips": "Good example of the development-vs-environment trade-off in the Global South."
+    },
+    {
+      "id": "m4.arrangement",
+      "label": "How commons arrangements are made (Ostrom)",
+      "type": "framework",
+      "module": "M4",
+      "parent": "m4.regulating",
+      "summary": "Six elements: boundaries, cost sharing, rules for use, supervision, graduated sanctions, conflict resolution – reflecting Ostrom's design principles for commons.",
+      "details": "Effective management of a common resource needs an arrangement with six elements:\n\n1. **Boundaries** – who may access the resource and where the management area applies (prevents outsider over-exploitation).\n2. **Costs** – management/maintenance costs **shared fairly** (fees, labour, other participation).\n3. **Opportunities for use** – rules on **how, when and how much** can be used, so individual interest doesn't defeat the common interest.\n4. **Supervision** – **monitoring** compliance, by appointed officers or participatory community monitoring.\n5. **Sanctions** – clear and **progressive (graduated)** sanctions, from warnings to fines to loss of access, proportional to the violation.\n6. **Conflict resolution** – fair, accepted mechanisms (mediation, arbitration, joint decisions).\n\nThese reflect **Elinor Ostrom's principles** for governing the commons. The notes add two more: **minimal recognition of rights to organise** (outside authorities respect community self-governance) and **nested enterprises** (multi-level governance: local–village–district–regency).\n\nApply them: Subak fulfils almost all; Indonesian emission control is weak on supervision, sanctions and coordination.",
+      "keyTerms": [
+        "Ostrom",
+        "boundaries",
+        "graduated sanctions",
+        "monitoring",
+        "conflict resolution",
+        "nested enterprises"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            31
+          ]
+        }
+      ],
+      "examTips": "List the six elements in order. Be ready to apply them to Subak or a local commons (discussion question). Ostrom = commons CAN be governed by communities, contra Hardin."
+    },
+    {
+      "id": "m4.tech-commons-topic",
+      "label": "Technology and non-physical commons",
+      "type": "topic",
+      "module": "M4",
+      "parent": "m4",
+      "summary": "Technology can enclose or strengthen commons, and helps define invisible boundaries of air, sea, data and knowledge.",
+      "details": "The final part looks at **technology** and commons whose boundaries are **not physical**.\n\n- **Technological progress** changes how common property is managed – sometimes causing **exclusion/privatisation**, sometimes **strengthening collective management**.\n- Many commons (air, oceans, groundwater, fish stocks, knowledge) **cross territorial boundaries** and have **invisible boundaries**.\n- A boundary's real function is to **define rights and limits of use**, not just to build a fence; technology (satellites, GPS, sensors, data, digital permits) makes invisible boundaries **measurable and monitorable**.\n- Examples: **maritime boundaries under UNCLOS**; the **knowledge commons in the AI era**.\n\nThe lecture ends with **discussion questions** on successful commons management.",
+      "keyTerms": [
+        "technology",
+        "non-physical boundaries",
+        "knowledge commons"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            32,
+            33,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.tech-progress",
+      "label": "Technological progress and the commons",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.tech-commons-topic",
+      "summary": "Technology (fences, data, energy, automation, IP rights) can privatise and fragment commons or strengthen collective management; regulation decides which.",
+      "details": "**Technological advancement can change the management of common property**: in some cases it leads to **exclusion or reduced joint access**, in others it **strengthens collective capacity**.\n\nTechnologies listed:\n- **Fences / stakes** – physical enclosure of land.\n- **Information and data**.\n- **Energy**.\n- **Time-saving technology** (automation, smart gadgets).\n- **(Intellectual) property rights**.\n\nLecturer's warning (notes): technological progress **tends to privatise and fragment** shared resources. **Without clear goals and regulation to protect shared value**, technology risks becoming a **tool of privatisation** that divides communities and destroys collective management.\n\nConnects to Week 3's **dual role of technology** (T in IPAT can raise or lower impact) and Week 5's **STI for SDGs**.",
+      "keyTerms": [
+        "enclosure",
+        "privatisation",
+        "intellectual property rights"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            32
+          ]
+        }
+      ],
+      "examTips": "Show both sides: technology can enclose (fences, IP) or empower (monitoring data, sensors)."
+    },
+    {
+      "id": "m4.nonphysical",
+      "label": "Commons with non-physical boundaries",
+      "type": "concept",
+      "module": "M4",
+      "parent": "m4.tech-commons-topic",
+      "summary": "Air, waters, groundwater, fish and knowledge cross borders; boundaries define use rights and limits, made monitorable by satellites, GPS, sensors, data.",
+      "details": "**Many commons have non-physical boundaries** – invisible or intangible.\n- **Air** cannot be bounded; **waters** have no clearly visible boundaries.\n- **Air, oceans, groundwater, fish stocks and knowledge** move or are used **across territorial boundaries**.\n\nKey idea: **the primary function of a boundary is not to build a physical barrier but to define rights and limits on the use of common resources** (Ostrom's first element).\n\n**Technology makes invisible boundaries measurable and monitorable**: **satellites, GPS, sensors, environmental quality data, digital permits**.\n\nOpen questions from the notes: how should **biodiversity data**, information, air and maritime territory be governed? Links back to the **ozone layer** (an invisible global commons) and to air quality in Jakarta/Bandung.",
+      "keyTerms": [
+        "non-physical boundaries",
+        "satellites",
+        "sensors",
+        "digital permits"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.unclos",
+      "label": "Maritime boundaries: UNCLOS",
+      "type": "example",
+      "module": "M4",
+      "parent": "m4.nonphysical",
+      "summary": "No fences at sea: UNCLOS sets legal boundaries as coordinates – territorial sea ≤12 nm, EEZ ≤200 nm, high seas beyond national jurisdiction.",
+      "details": "**Example of a non-physical boundary: the ocean** (slide 33, illustrated with a map of Indonesia).\n- There are **no physical fences** at sea.\n- The **United Nations Convention on the Law of the Sea (UNCLOS)** establishes **jurisdictional boundaries legally**.\n- Boundaries are defined as **geographic coordinates**.\n- **Resource-use rights differ by zone**:\n  - **Territorial sea – up to 12 nautical miles**: full coastal-state sovereignty.\n  - **Exclusive Economic Zone (EEZ) – up to 200 nautical miles**: the coastal state holds rights over resources (fish, oil, gas).\n  - **High seas – beyond national jurisdiction**: a true global commons, open to all.\n\nShows that a boundary's job is to define **rights and limits**, not to build walls, and that technology (GPS, satellite vessel tracking) makes such invisible boundaries enforceable. Highly relevant to **Indonesia as an archipelagic state** (fisheries, illegal fishing) and to SDG 14 (Life below water).",
+      "keyTerms": [
+        "UNCLOS",
+        "territorial sea",
+        "EEZ",
+        "high seas",
+        "nautical miles"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            33
+          ]
+        }
+      ],
+      "examTips": "Remember the numbers: 12 nm territorial sea, 200 nm EEZ, high seas beyond – and that the high seas are the classic open-access global commons."
+    },
+    {
+      "id": "m4.knowledge-ai",
+      "label": "Knowledge commons in the AI era",
+      "type": "example",
+      "module": "M4",
+      "parent": "m4.nonphysical",
+      "summary": "Lecturer's 2026 Navier–Stokes example raises questions on where private research ends and shared knowledge used by AI begins.",
+      "details": "The notes pose the question **\"Knowledge commons in the AI era: where is the boundary?\"** – AI can cross boundaries of knowledge.\n\nExample described by the lecturer (**Navier–Stokes case, 2026**): mathematicians **Tristan Buckmaster and Levent Alpöge** were developing results on the Navier–Stokes problem with help from AI systems including Codex; **OpenAI** then announced that an internal AI system had produced a solution to the **Navier–Stokes Millennium Prize Problem**. OpenAI said the work was independent and denied directly accessing the researchers' work, but acknowledged it could not fully exclude **indirect contribution from de-identified usage data**.\n\nQuestions raised:\n- **Research confidentiality** and access to **user data**.\n- **Attribution and scientific credit**.\n- The line between **private knowledge** and knowledge that AI systems can **use as a commons**.\n\nIllustrates that **knowledge is a man-made commons** whose boundaries are invisible, and that technology can both enclose and blur them.",
+      "keyTerms": [
+        "knowledge commons",
+        "AI",
+        "attribution",
+        "data"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4.discussion",
+      "label": "Discussion: successful commons management",
+      "type": "debate",
+      "module": "M4",
+      "parent": "m4.tech-commons-topic",
+      "summary": "Find a successful commons case, identify success factors, apply to a local commons problem and evaluate challenges (community, resources, external support).",
+      "details": "**Questions (slide 34)**\n1. Find and analyse **one example of successful commons management**. What factors influence its success?\n2. Identify a **commons management issue in your surroundings**. Based on the chosen case, what can be implemented there?\n3. **Evaluate potential challenges** (community characteristics, resources, external support).\n\n**Model answer outline**\n- **Case**: **Subak, Bali** (or Montreal Protocol, Cidanau PES).\n- **Success factors** (use Ostrom's elements): clear **boundaries** (one water source, defined members); fair **cost sharing** (joint canal/temple maintenance); clear **use rules** (allocation and timing in awig-awig); **monitoring** by members; **graduated sanctions**; **conflict resolution** via subak meetings; cultural legitimacy (**Tri Hita Karana**); recognition by authorities (UNESCO, government).\n- **Local issue**: e.g. Bandung air quality, a polluted river (Citarum), shared green space in a neighbourhood.\n- **Apply**: form a user forum, define boundaries and rights, PES-style payments (beneficiaries pay upstream/caretakers), monitoring with sensors/data, sanctions.\n- **Challenges**: heterogeneous/urban communities with weak social ties, free-riding, limited funds and test equipment, weak coordination/lax enforcement, growth-first politics, need for nested governance.",
+      "keyTerms": [
+        "discussion",
+        "Ostrom",
+        "success factors"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M4",
+          "slides": [
+            34
+          ]
+        }
+      ],
+      "examTips": "Structure any essay with: case → Ostrom elements → transfer to local case → challenges (community, resources, external support)."
+    }
+  ],
+  "edges": [
+    {
+      "source": "m4.subak",
+      "target": "m4.arrangement",
+      "type": "applies-to",
+      "label": "Subak fulfils Ostrom's arrangement elements"
+    },
+    {
+      "source": "m4.cidanau",
+      "target": "m4.es-regulating",
+      "type": "example-of",
+      "label": "pays for watershed (regulating) service"
+    },
+    {
+      "source": "m4.es-payment",
+      "target": "m4.regulating",
+      "type": "builds-on",
+      "label": "market / social / government routes reappear as regulation cases"
+    },
+    {
+      "source": "m4.montreal",
+      "target": "m4.es-payment",
+      "type": "example-of",
+      "label": "global mutual consent route"
+    },
+    {
+      "source": "m4.indonesia-emissions",
+      "target": "m4.es-payment",
+      "type": "example-of",
+      "label": "government regulation route"
+    },
+    {
+      "source": "m4.dieselgate",
+      "target": "m4.tech-progress",
+      "type": "related",
+      "label": "technology used to evade regulation"
+    },
+    {
+      "source": "m4.emission-challenges",
+      "target": "m4.arrangement",
+      "type": "contrasts",
+      "label": "weak supervision & sanctions vs Ostrom's elements"
+    },
+    {
+      "source": "m4.bandung-air",
+      "target": "m4.why-south",
+      "type": "example-of",
+      "label": "development vs environment dilemma in the Global South"
+    },
+    {
+      "source": "m4.tropical-commons",
+      "target": "m4.es-valuation",
+      "type": "related",
+      "label": "mangroves/wetlands have highest service value per area"
+    },
+    {
+      "source": "m4.ozone",
+      "target": "m4.nonphysical",
+      "type": "related",
+      "label": "atmosphere as invisible commons"
+    },
+    {
+      "source": "m4.unclos",
+      "target": "m4.arrangement",
+      "type": "applies-to",
+      "label": "boundaries define rights and limits"
+    },
+    {
+      "source": "m4.commons-types",
+      "target": "m4.knowledge-ai",
+      "type": "related",
+      "label": "shared knowledge is a man-made commons"
+    },
+    {
+      "source": "m4.commons-culture",
+      "target": "m4.es-cultural",
+      "type": "related",
+      "label": "forests as spiritual places / pharmacies"
+    },
+    {
+      "source": "m4.subak",
+      "target": "m4.es-cultural",
+      "type": "related",
+      "label": "water temples & Tri Hita Karana"
+    },
+    {
+      "source": "m4.commons-definition",
+      "target": "m4.common-property",
+      "type": "builds-on",
+      "label": "rules of the game for shared resources"
+    }
+  ],
+  "crossModuleIdeas": [
+    {
+      "from": "m4.commons-definition",
+      "toModule": "M2",
+      "concept": "Tragedy of the commons (Hardin)",
+      "type": "builds-on",
+      "reason": "non-excludable + rivalrous resources are prone to the tragedy; M4 shows institutional solutions"
+    },
+    {
+      "from": "m4.subak",
+      "toModule": "M2",
+      "concept": "Customary forest / tragedy of the commons example",
+      "type": "contrasts",
+      "reason": "community rules avoid the tragedy"
+    },
+    {
+      "from": "m4.montreal",
+      "toModule": "M2",
+      "concept": "Planetary boundaries – stratospheric ozone depletion",
+      "type": "related",
+      "reason": "ozone is one of the nine boundaries, restored via Montreal Protocol"
+    },
+    {
+      "from": "m4.why-south",
+      "toModule": "M3",
+      "concept": "IPAT equation",
+      "type": "builds-on",
+      "reason": "lecture explicitly frames North/South through population, affluence, technology"
+    },
+    {
+      "from": "m4.south-data",
+      "toModule": "M3",
+      "concept": "Overconsumption / ecological footprint",
+      "type": "related",
+      "reason": "80% of middle class in South by 2030 drives future footprint"
+    },
+    {
+      "from": "m4.tech-progress",
+      "toModule": "M3",
+      "concept": "Dual role of technology",
+      "type": "related",
+      "reason": "technology can enclose or strengthen commons; Dieselgate"
+    },
+    {
+      "from": "m4.ns-definition",
+      "toModule": "M6",
+      "concept": "CBDR-RC in the Paris Agreement",
+      "type": "related",
+      "reason": "historical emissions from North vs vulnerability of South"
+    },
+    {
+      "from": "m4.ns-definition",
+      "toModule": "M7",
+      "concept": "North vs South synergies & spillover effects",
+      "type": "related",
+      "reason": "North–South inequality and spillovers"
+    },
+    {
+      "from": "m4.ecosystem-services",
+      "toModule": "M5",
+      "concept": "SDG 14/15, IBSAP 2025-2045, Nature-based Solutions",
+      "type": "related",
+      "reason": "ecosystem services underpin biodiversity and NbS policy"
+    },
+    {
+      "from": "m4.tropical-commons",
+      "toModule": "M6",
+      "concept": "Peatlands / AFOLU / carbon sequestration",
+      "type": "related",
+      "reason": "tropical forests & mangroves as carbon stores"
+    },
+    {
+      "from": "m4.rio20",
+      "toModule": "M5",
+      "concept": "SDGs (targets/indicators)",
+      "type": "builds-on",
+      "reason": "Rio+20 launched the SDG process"
+    },
+    {
+      "from": "m4.tech-progress",
+      "toModule": "M5",
+      "concept": "Science, Technology & Innovation (STI) for SDGs",
+      "type": "related",
+      "reason": "technology governance for shared value"
+    }
+  ],
+  "needsImageCheck": []
+}

@@ -1,0 +1,491 @@
+# Concept index (id — label — summary)
+
+Use with tools/query.py or grep; full details in graph.json.
+
+- `root` **WI1103 — Sustainability Principles** ★★★ — Weeks 1–7 midterm material: from the commons and planetary limits to SDGs, climate change and the nexus. [M1 s2]
+  - `m1` **W1 · Sustainability & Environmental Ethics** ★★★ — Week 1: definitions, history and dimensions of sustainability, ecosystems and ecological laws, and environmental ethics theories. [M1 s1,9,10,19,20]
+    - `m1.course-overview` **Course overview & assessment** ★ — WI1103 weekly plan, learning outcomes (CPMK 1–4), activities and grading: quizzes 10%, class work 10%, midterm 30%, reports 35%, popular media 15%. [M1 s2,3,4,5,6,7,8]
+    - `m1.part1` **Part 1 · What is sustainability?** ★★ — Definitions and history of sustainability, its three dimensions, Doughnut Economics, ecosystems, human impacts, and the laws of ecology. [M1 s9,10,11,12,13,14,15,16,17,18]
+      - `m1.open-ended-definition` **Sustainability is open-ended & temporary** ★★★ — Sustainability cannot be fixed scientifically once and for all: it is an open-ended, positive, temporary concept shaped by time, situation, culture and knowledge. [M1 s11]
+      - `m1.history` **Timeline of the sustainability idea** ★★★ — From Carlowitz's sustainable forestry (1713) through Malthus, 1960s ecological economists, Brundtland, the German Advisory Council (1994) to multidimensional concepts (2003). [M1 s12]
+        - `m1.history.brundtland` **Brundtland / Our Common Future** ★★★ — WCED report Our Common Future: development meeting present needs without compromising future generations' ability to meet theirs; environment, economy, society interdependent. [M1 s12,13]
+      - `m1.dimensions` **Three dimensions of sustainability** ★★★ — Economic, environmental and social dimensions; their overlaps are bearable, equitable and viable, and all three together are sustainable. [M1 s13,15]
+      - `m1.doughnut` **Doughnut Economics** ★★★ — Kate Raworth's model: a safe and just space between a social foundation (inner ring) and an ecological ceiling (outer ring, planetary boundaries). [M1 s14]
+      - `m1.environment` **Environment as foundation** ★★ — The environment is everything around us, living and non-living; it is foundational, so society and economy must operate within planetary boundaries. [M1 s15]
+        - `m1.environment.ecosystem` **Ecosystem** ★★ — Functional unit of a biotic community and its abiotic environment, linked by energy flow and nutrient cycling; from a log to the biosphere. [M1 s15,16]
+      - `m1.human-impacts` **Human activities alter ecosystems** ★★ — All human activities (forest clearing, fishing, logging) alter energy flows and nutrient/water cycles, changing ecosystem structure and the functions society relies on. [M1 s17]
+      - `m1.laws-of-ecology` **Laws of ecology** ★★★ — Six laws: everything is connected; species depend on each other; everything must go somewhere; thermodynamics applies; nature knows best; no free lunch. [M1 s18]
+    - `m1.part2` **Part 2 · Environmental ethics** ★★ — Ethical theories about humans and nature, from the Dominion thesis and anthropocentrism to Leopold's ecocentric Land Ethic, applied to livestock and dam dilemmas. [M1 s19,20,21,22,23,24,25,26,27,28,29,30,31]
+      - `m1.livestock-case` **Livestock industry: farrowing crates** ★★ — Farrowing crates confine sows to raise piglet survival and profit; opponents argue animals are sentient (A) or that industry harms small farms and water (B). [M1 s21,22]
+      - `m1.role-of-ethics` **What ethics is & its role** ★★ — Ethics is the branch of philosophy asking what is right or wrong; codes of conduct guided civilisations; Western ethics focuses on actions' impacts on others. [M1 s22,23]
+      - `m1.dominion-thesis` **Dominion thesis** ★★★ — Humans are the pinnacle of creation, superior to and separate from nature, free to use it as they wish; nature valued only for human use. [M1 s24]
+      - `m1.human-centred` **Human-centred theories** ★★ — Theories related to the Dominion thesis: Locke's nature-as-property, anthropocentrism, utilitarianism, and the softer stewardship ethic. [M1 s25,26]
+        - `m1.human-centred.locke` **John Locke: nature as property** ★★ — Founder of liberalism: limited government to protect individual liberty and property rights; nature treated as useful property for humans. [M1 s25]
+        - `m1.human-centred.anthropocentrism` **Anthropocentrism** ★★★ — Ethical viewpoint in which humans are the primary factor in deciding whether actions toward nature are right or wrong. [M1 s22,25]
+        - `m1.human-centred.utilitarianism` **Utilitarianism** ★★ — Normative ethical theory that judges value by benefits, aiming to maximise individual or societal welfare. [M1 s25,27]
+        - `m1.human-centred.stewardship` **Stewardship** ★★ — The moral responsibility to protect the environment and living things; humans as caretakers rather than owners of nature. [M1 s26]
+      - `m1.conserve-vs-preserve` **Conservation vs preservation** ★★★ — Pinchot's utilitarian conservationism (wise use) versus Muir's non-utilitarian preservationism, clashing over the Hetch Hetchy dam. [M1 s27,28,29]
+        - `m1.conserve-vs-preserve.pinchot` **Gifford Pinchot: conservationism** ★★ — Conservationist favouring efficient, sustainable resource use for 'the greatest good for the greatest number'; opponent of the timber barons. [M1 s27,29]
+        - `m1.conserve-vs-preserve.muir` **John Muir: preservationism** ★★ — Preservationist, non-utilitarian: manage nature primarily for protection and wildlife; pioneer of US conservation (national) parks. [M1 s28,29]
+        - `m1.conserve-vs-preserve.hetch-hetchy` **Hetch Hetchy Valley dam** ★★ — Pinchot vs Muir: the dam brings greater benefits to society versus the valley as a biodiversity treasure whose wildlife the dam would disrupt. [M1 s29]
+      - `m1.land-ethic` **Aldo Leopold: Land Ethic** ★★★ — Land is not mere property; moral community extended to soils, waters, plants and animals—humans as 'plain member and citizen', not conqueror. [M1 s30]
+        - `m1.land-ethic.ecocentrism` **Ecocentrism** ★★★ — Ecological interests must be placed above the interests of the human species when judging whether an action is right or wrong. [M1 s30]
+      - `m1.dam-dilemma` **Conservation dilemma: dam vs salmon** ★★★ — An energy company's dam brings electricity and jobs but threatens migratory salmon and an indigenous community; the government supports it, environmentalists oppose. [M1 s31]
+  - `m2` **W2 · Tragedy of the Commons & Planetary Boundaries** ★★★ — Week 2: Hardin's tragedy of the commons, commons vs open access, community-managed examples, and the planetary boundaries framework with its 2025 status. [M2 s1,2,6,7]
+    - `m2.part1` **Part 1 · Tragedy of the commons** ★★ — Hardin's argument, the commons vs open-access distinction, and community-managed counter-examples showing that management regimes, not sharing, decide the outcome. [M2 s1,2,3,4,5]
+      - `m2.hardin-tragedy` **Hardin's Tragedy of the Commons (1968)** ★★★ — Hardin (Science, 1968): on a pasture open to all, each herder adds cattle for private gain while costs are shared, ruining the resource. [M2 s2]
+      - `m2.commons-vs-open-access` **Commons vs open-access resource** ★★★ — Commons: joint ownership by a bounded community that excludes non-members. Open access: no ownership rights, the whole public, no exclusion. [M2 s3]
+      - `m2.open-access-resources` **Open-access resources** ★★ — Renewable resources owned by no one and usable by almost anyone, e.g. the atmosphere and open sea; grasslands, forests, rivers, aquifers are often shared. [M2 s4]
+      - `m2.tragedy-not-commons` **Does the tragedy lie in the commons?** ★★★ — No: the tragedy comes from unmanaged open access. Commons with boundaries, rules, monitoring and sanctions often stay sustainable. [M2 s5]
+        - `m2.tragedy-not-commons.barambang-katute` **Barambang Katute customary forest** ★★★ — Indonesian customary (adat) forest managed by the Barambang Katute indigenous community, with protection mechanisms and sacred areas where mining is banned. [M2 s5]
+        - `m2.tragedy-not-commons.maine-lobster` **Maine lobster fisheries** ★★ — Local lobster-fishing communities in Maine use shared policy mechanisms to protect waters and lobster stocks and avoid overfishing. [M2 s5]
+      - `m2.commons-solutions` **Solutions to the tragedy** ★★ — Reduce use by agreement, regulate access, or privatise, though privatisation often fails and cannot apply to the atmosphere or high seas. [M2 s5]
+    - `m2.part2` **Part 2 · Planetary boundaries** ★★ — The nine planetary boundaries framework, its 2025 status (7 of 9 transgressed), the link to doughnut economics, human impacts on ecosystems, and discussion. [M2 s6,7,8,9,10,11,12,13]
+      - `m2.pb-framework` **Planetary boundaries framework** ★★★ — Earth-system framework identifying nine processes that regulate planetary stability and setting science-based limits: a safe operating space for humanity. [M2 s6,7]
+      - `m2.pb-status-2025` **2025 status: 7 of 9 transgressed** ★★★ — The 2025 update finds seven of nine boundaries breached; only stratospheric ozone and atmospheric aerosol loading remain within the safe operating space. [M2 s6,7]
+      - `m2.nine-boundaries` **The nine boundaries** ★★★ — The nine Earth-system processes, grouped by 2025 status: seven transgressed and two still within the safe operating space. [M2 s7,8,9,10]
+        - `m2.pb-transgressed` **Transgressed boundaries (7)** ★★ — Climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, novel entities and ocean acidification are beyond safe limits (2025). [M2 s7,8,9,10]
+          - `m2.pb.climate-change` **Climate change** ★★★ — GHG emissions, mainly from burning fossil fuels, raise atmospheric CO2 and cause global warming; both CO2 concentration and radiative forcing are transgressed. [M2 s7,9]
+          - `m2.pb.biosphere-integrity` **Biosphere integrity (biodiversity loss)** ★★ — Habitat destruction, pollution and exploitation drive extinctions at a very high rate; both genetic and functional diversity are transgressed, functional at high risk. [M2 s6,7,9]
+          - `m2.pb.land-system-change` **Land-system change** ★★ — Large-scale conversion of land for agriculture, urbanisation and deforestation disrupts ecosystems, reduces biodiversity and alters carbon and water cycles. Transgressed. [M2 s7,8]
+          - `m2.pb.freshwater-change` **Freshwater change (global water cycle)** ★★ — Large-scale irrigation and river diversion alter the hydrological cycle, causing droughts, floods and poorer water quality; blue and green water both transgressed. [M2 s6,7,8]
+          - `m2.pb.biogeochemical-flows` **Biogeochemical flows (N & P)** ★★ — Excess synthetic fertiliser sends nitrogen and phosphorus into ecosystems, causing eutrophication and disrupting natural cycles; both N and P are in the high-risk zone. [M2 s6,7,10]
+          - `m2.pb.novel-entities` **Novel entities (chemical pollution)** ★★ — Hazardous chemicals—pesticides, heavy metals, industrial chemicals, plastics—pollute the environment and harm human and animal health; far beyond the boundary. [M2 s6,7,10]
+          - `m2.pb.ocean-acidification` **Ocean acidification** ★★ — Oceans absorb CO2, lowering pH and harming shell- and reef-building organisms; newly transgressed in the 2025 update—the seventh boundary breached. [M2 s6,7,12]
+        - `m2.pb-safe` **Boundaries still safe (2)** ★★ — Stratospheric ozone depletion and atmospheric aerosol loading remain within the safe operating space in the 2025 update. [M2 s6,7]
+          - `m2.pb.ozone` **Stratospheric ozone depletion** ★★ — Thinning of the protective stratospheric ozone layer by ozone-depleting chemicals; within the safe space in 2025, recovering after the Montreal Protocol. [M2 s6,7]
+          - `m2.pb.aerosols` **Atmospheric aerosol loading** ★ — Fine particles from burning, industry and dust that affect climate, monsoons and health; within the safe space in 2025, 'not yet quantified' in 2009. [M2 s6,7]
+      - `m2.doughnut-link` **Planetary boundaries & doughnut economics** ★★★ — Raworth's doughnut uses planetary boundaries as its outer ecological ceiling and adds an inner social foundation, defining a safe and just space. [M2 s7]
+      - `m2.natural-capital-degradation` **Natural capital degradation** ★★ — Major human impacts on deserts, grasslands, forests, mountains, marine ecosystems and coral reefs (Miller & Spoolman 2019), e.g. half of coastal wetlands lost. [M2 s11,12]
+      - `m2.discussion` **Discussion: boundaries, ethics & action** ★★ — Questions on a future with more boundaries breached, whether local actions suffice, ethical responsibilities of actors, and balancing development with limits. [M2 s13]
+  - `m3` **Week 3: Overpopulation vs Overconsumption** ★★★ — Is environmental damage driven by how many people there are, or by how much and how they consume? [M3 s1,2,15,29,36]
+    - `m3.part1` **Part 3.1: Planetary Limits & Carrying Capacity** ★★ — Earth has limits; population growth, technology and development interact with carrying capacity. [M3 s2,3,4,5,6,7,8,9,10,11,12,13,14]
+      - `m3.take-home` **Future We Want & Safe Operating Space** ★★ — Since Rio 1992 development must balance economy, society and environment within planetary boundaries; 7 of 9 already breached. [M3 s3]
+      - `m3.carrying-capacity` **Carrying Capacity** ★★★ — Maximum number of individuals of a species a habitat can sustainably support, set by limiting factors; growth follows an S-curve. [M3 s4]
+      - `m3.population-theories` **Malthus, Neo-Malthus & Overpopulation** ★★ — The classic debate on whether population growth outruns resources, and when growth becomes 'overpopulation'. [M3 s5,6,7,8,9]
+        - `m3.malthus` **Malthusian View** ★★★ — Malthus: resources grow arithmetically, population geometrically, so crises (famine, disease, war) push population back to sustainable levels. [M3 s5,8]
+        - `m3.population-growth` **World Population Growth Data** ★★ — World population: 1 bn (1804), 2 (1927), 3 (1960), 4 (1974), 5 (1987), 6 (1998), 7 (2010), 8 (2022); ~10 bn by 2058. [M3 s6,18]
+        - `m3.overpopulation` **Overpopulation** ★★★ — Occurs when population needs sustainably exceed the system's carrying capacity; depends on consumption, technology, distribution and governance, not size alone. [M3 s7]
+        - `m3.neo-malthus` **Neo-Malthusian Theory & Technology** ★★★ — Extends Malthus to social, economic and environmental interactions causing scarcity; Barry Commoner stressed technology over population numbers. [M3 s8,9]
+      - `m3.development` **Technology, Development & Population** ★★ — Technology raises effective carrying capacity; development lowers birth rates; wealth does not map neatly to impact or wellbeing. [M3 s10,11,12,13,14]
+        - `m3.gdp-energy` **GDP, Energy & CO2 Emissions Data** ★★ — Larger/richer economies use more energy and emit more, but not proportionally: efficiency and energy sources matter (2021 country data). [M3 s10,11]
+        - `m3.agri-tech` **Agricultural Technology & Green Revolution** ★★ — Agricultural innovation (extensification to intensification, Green Revolution) raised effective carrying capacity; shifted goal from food sufficiency to food security, with trade-offs. [M3 s12]
+        - `m3.demographic-transition` **Demographic Transition: Limit as Effect** ★★ — Population decline is an effect, not a cause, of development: as poverty falls, death then birth rates drop and growth stabilises. [M3 s13]
+        - `m3.kerala` **Case Study: Kerala, India** ★★★ — Kerala has low per-capita income (~US$3,100) yet literacy (94%) and life expectancy (75) comparable to developed countries. [M3 s14]
+    - `m3.part2` **Part 3.2: Thinking About Environmental Impact** ★★ — From population to impact: IPAT, technology's dual role, Jevons paradox, Kuznets optimism and unequal/unjust distribution of impacts. [M3 s15,16,17,18,19,20,21,22,23,24,25,26,27,28]
+      - `m3.ipat` **IPAT Equation** ★★★ — I = P x A x T: impact equals Population x Affluence (consumption/income per capita) x Technology (impact per unit); Ehrlich & Holdren 1974. [M3 s16,17]
+        - `m3.ipat.pa-data` **P and A Data: Population & GDP Trends** ★★ — Charts of world population (3 bn 1960 to ~9 bn 2045) and world real GDP growth (1999-2010) illustrate rising P and A. [M3 s18]
+        - `m3.ipat.2050` **2050 Scenario: Factor-Five Decoupling** ★★ — To keep 2050 environmental quality at 2010 levels with population +35% and affluence about x4, technology impact must fall by a factor of ~5. [M3 s19]
+      - `m3.tech-dual-role` **Dual Role of Technology** ★★★ — Technology can reduce impact (efficiency, renewables, monitoring, innovation) or increase it (more exploitation, pollution, waste, consumption). [M3 s20,21]
+        - `m3.jevons` **Jevons Paradox: Rebound & Backfire** ★★★ — Efficiency gains can raise total resource use: rebound (consumption offsets savings) and backfire (overconsumption exceeds savings). [M3 s22]
+      - `m3.kuznets-kurzweil` **Kuznets & Kurzweil: Affluence Reduces Impact?** ★★ — Claim: rising affluence plus advanced technology eventually lowers impact (e.g. reforestation in W. Europe/US vs loss in Brazil/Indonesia). Is it true? [M3 s23]
+      - `m3.env-justice` **Unequal Impact & Environmental Justice** ★★★ — Environmental impacts are often borne by those who do not enjoy the benefits: producing countries, local communities, low- and middle-income countries. [M3 s24,25]
+        - `m3.offshoring` **Offshoring & Environmental Externalities** ★★ — Transnational firms relocate production and source raw materials in LMICs with looser regulation, shifting environmental damage onto others. [M3 s25]
+        - `m3.ev-battery` **Case: EV Batteries (LFP vs NMC)** ★★ — EVs cut emissions but drive mineral demand (cobalt x39.6 by 2030); LFP batteries have far lower GWP and water use than NMC. [M3 s25,26]
+        - `m3.ai-datacenter` **Case: AI Data Centres' Energy Demand** ★★ — Data centres used ~415 TWh (1.5% of global electricity) in 2024, projected ~945 TWh by 2030 driven by AI; impacts concentrate locally. [M3 s27,28]
+    - `m3.part3` **Part 3.3: Over-Consumption** ★★ — Consumption beyond need or beyond ecosystem recovery drives damage; includes addictive consumption and hyperconsumption, concentrated among the richest. [M3 s29,30,31,32,33,34,35]
+      - `m3.overconsumption` **Overconsumption** ★★★ — Using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality; a key driver of damage. [M3 s30,33,34]
+        - `m3.consumption-co2` **Consumption Inequality & CO2 Data** ★★ — Richest 10% emit roughly half of global CO2; poorest 50% only ~10%. Consumption-based CO2 per capita (2021) is high in few countries. [M3 s30,31]
+        - `m3.overconsumption-examples` **Everyday Overconsumption & Planned Obsolescence** ★ — AC set very cold all day, lights left on, oversized portions and food waste, single-use plastic, excess fertiliser; products built to fail. [M3 s33]
+      - `m3.addictive-consumption` **Addictive Consumption** ★★ — John Ehrenfeld: consumption that becomes addictive, unrelated to real needs, lowers individual health and social participation (e.g. obesity). [M3 s32]
+      - `m3.hyperconsumption` **Hyperconsumption** ★★★ — Lipovetsky (2011): buying driven by social/psychological factors (novelty, speed, status) far beyond functional need, with rapid turnover and duplication. [M3 s34,35]
+        - `m3.hyperconsumption-examples` **Hyperconsumption Examples** ★★ — Fast fashion, fast furniture, yearly gadget upgrades, duplicated skincare, frequent food delivery and buy-try-return e-commerce. [M3 s35]
+    - `m3.part4` **Part 3.4: Ecological Footprint** ★★ — Ecological footprint measures human demand on nature in global hectares and compares it with biocapacity to reveal overshoot. [M3 s36,37,38,39,40,41,42]
+      - `m3.eco-footprint` **Ecological Footprint: Concept** ★★★ — A measure of human demand for natural capital: the biologically productive area needed to supply resources and absorb wastes. [M3 s37]
+      - `m3.biocapacity` **Footprint vs Biocapacity & Overshoot** ★★★ — Footprint (area demanded) is compared with biocapacity (productive area available); humanity used 73% of biocapacity in 1961 and 160% in 2020. [M3 s38]
+      - `m3.footprint-measurement` **Measuring the Footprint (gha)** ★★ — Measured in global hectares (gha) per person per year from food, housing energy and materials, mobility, and waste. [M3 s39,42]
+      - `m3.indonesia-footprint` **Indonesia's Ecological Footprint (2022)** ★★ — Indonesia 2022: biocapacity 1.2 gha, footprint 1.8 gha per person: deficit of -0.6 gha; deficit since ~2000. [M3 s40]
+      - `m3.how-many-earths` **How Many Earths? Country Comparison** ★★★ — If everyone lived like: USA ~5 Earths, Australia ~4.1-4.5, Germany 3.0, China ~2.2-2.4, India <1; world average ~1.7-1.75. [M3 s41]
+      - `m3.discussion` **Discussion: Reducing Your Footprint** ★★ — Calculate your footprint; what changes reduce it (consumption patterns, technology)? Which changes are individual vs collective or policy-based? [M3 s42]
+  - `m4` **Week 4: The Commons in the Global South** ★★★ — Global North vs South, the commons, ecosystem services and their payment, and how commons are regulated (ozone, Subak, vehicle emissions). [M4 s1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
+    - `m4.north-south` **4.1 Global North and Global South** ★★ — Countries are split into Global North and South by socio-economic development, not geography; the South's choices shape global sustainability. [M4 s2,3,4,5,6,7,8]
+      - `m4.rio20` **Rio+20: 'The Future We Want'** ★★ — Rio+20 (2012) outcome 'The Future We Want' launched the SDG process and called for a development path differing between South and North. [M4 s3]
+      - `m4.why-south` **Why the Global South matters** ★★★ — Environmental pressure (IPAT) is unequally distributed; the South holds most people, growth and natural capital but bears the worst impacts. [M4 s4,5]
+        - `m4.south-data` **Global South in numbers** ★★ — Global South: less advanced economies, ~88% of world population, larger land area, ~80% of the world's middle class by 2030. [M4 s5]
+      - `m4.ns-definition` **North/South is socio-economic, not geographic** ★★★ — Global North = rich, industrialised, globally influential; Global South = developing countries. Categories reflect economics and power, not map location. [M4 s6,7,8]
+        - `m4.country-lists` **Country lists: IMF North and the Global South** ★ — IMF list of 37 advanced economies (US, Japan, Korea, Singapore, Israel…) vs Global South map: Latin America, Africa, Middle East, South/Southeast Asia incl. China. [M4 s7,8]
+    - `m4.commons-south` **4.2 The commons in the Global South** ★★ — The Global South relies heavily on shared natural resources; key questions are who uses, who benefits and who guards them. [M4 s9,10,11,12]
+      - `m4.commons-definition` **What 'the commons' means** ★★★ — The commons: wealth (land, culture, knowledge, values) owned, used and maintained together under shared rules, often non-excludable yet rivalrous. [M4 s10,11]
+      - `m4.tropical-commons` **Tropical natural commons: mangroves & rainforests** ★★ — Mangroves cover ~150,000 km² (~15% of coastlines); ~3.2 million ha of primary tropical forest lost yearly since 2002. [M4 s10]
+      - `m4.commons-culture` **Commons, culture and indigenous communities** ★★ — Commons are tied to identity, spirituality and survival of indigenous communities; threatened by corporations, exclusionary policies and climate change. [M4 s11]
+      - `m4.commons-types` **Natural vs man-made commons** ★★★ — Natural commons: water, air, land, forest, ocean, biodiversity, spectrum, outer space. Man-made: irrigation, music, parks, seeds, knowledge, internet, libraries. [M4 s12]
+    - `m4.importance` **4.3 Importance of the commons: ecosystem services** ★★ — Commons matter because healthy ecosystems provide services the whole economy depends on; these can be valued and paid for. [M4 s13,14,15,16,17,18]
+      - `m4.ecosystem-services` **Ecosystem services (MEA 2005)** ★★★ — Benefits from healthy ecosystems; Millennium Ecosystem Assessment (2005) groups them as provisioning, regulating, supporting and cultural services. [M4 s14,15,16]
+        - `m4.es-provisioning` **Provisioning services** ★★ — Material or energy products taken directly from nature: food, fresh water, timber, fibre, genetic resources, fuels. [M4 s14]
+        - `m4.es-regulating` **Regulating services** ★★ — Benefits from natural regulation: climate regulation via carbon uptake, air and water purification, erosion and flood control, pollination, pest control. [M4 s14,15]
+        - `m4.es-cultural` **Cultural services** ★★ — Non-material benefits: aesthetic and recreational value, spiritual and religious meaning, inspiration for education and art, cultural heritage and identity. [M4 s14]
+        - `m4.es-supporting` **Supporting services** ★★ — Foundational processes enabling all other services: nutrient cycling, soil formation and retention, primary production (photosynthesis), water cycle. [M4 s14]
+      - `m4.es-economy` **Ecosystem services as the basis of the economy** ★★ — All economic sectors depend on ecosystem services (natural capital); they have direct and indirect value, and losing them raises costs. [M4 s15,16]
+      - `m4.es-valuation` **Economic value of ecosystem services (~US$63.9 trillion/yr)** ★★★ — Spoolman & Miller (2021) chart: annual value of ecosystem services by biome; coastal marshes/mangroves top at $24.8T, forests $15.6T, open ocean $16.3T. [M4 s17]
+      - `m4.es-payment` **How ecosystem services can be paid** ★★★ — Three routes: economically via Payment for Ecosystem Services (PES/PJL), socially via mutual consent (indigenous agreements), and via government regulation. [M4 s18]
+        - `m4.cidanau` **Cidanau watershed PES, Banten** ★★★ — Since 2003 downstream Cilegon industries pay upstream farmers Rp1.2–1.75 million/ha/yr to manage land sustainably, protecting Cidanau's water supply. [M4 s18]
+    - `m4.regulating` **4.4 Regulating the commons: example cases** ★★ — Commons can avoid tragedy through global consensus (ozone), community rules (Subak) or government regulation (vehicle emissions), guided by Ostrom's principles. [M4 s19,20,21,22,23,24,25,26,27,28,29,30,31]
+      - `m4.ozone` **Antarctic ozone hole: a global commons** ★★★ — The ozone layer, a global 'invisible' commons blocking UV, thinned over Antarctica (hole found 1985); global consensus led to its regulation. [M4 s20,21,22]
+        - `m4.montreal` **Montreal Protocol (1987) & Kigali Amendment (2016)** ★★★ — Montreal Protocol 1987 banned production and use of CFCs and derivatives; Kigali Amendment 2016 extended controls to HFCs, HCFCs and similar substances. [M4 s21,22]
+      - `m4.common-property` **'Common property': rules respected together** ★★ — Communities gather to set shared 'rules of the game' that maintain common property, e.g. maintaining waterways – the logic of collective action. [M4 s23]
+        - `m4.subak` **Subak irrigation system (Bali)** ★★★ — Bali's ~1,000-year-old cooperative irrigation: farmers jointly allocate water, maintain canals and water temples under awig-awig rules and Tri Hita Karana. [M4 s24]
+      - `m4.vehicle-emissions` **Government regulation of air: vehicle emissions** ★★ — Air as a commons regulated by government emission standards: Dieselgate in the US, and Indonesia's rules, challenges and green mobility shift. [M4 s25,26,27,28,29,30]
+        - `m4.dieselgate` **Dieselgate (Volkswagen)** ★★★ — VW marketed 'clean diesel' but used software to cut emissions only during tests; on-road NOx was up to 20× higher; millions of cars recalled. [M4 s25]
+        - `m4.indonesia-emissions` **Vehicle emission regulation in Indonesia & Jakarta** ★★ — Indonesia: Permen LHK 8/2023, PP 22/2021, Euro 4. Jakarta: Ingub 66/2019, Pergub 66/2020 emission tests, 2021 low-emission zone; weak participation and enforcement. [M4 s26,27,29]
+        - `m4.emission-challenges` **Challenges of emission regulation in Indonesia** ★★ — Technical (few test tools, old vehicles), economic (repair costs, transport operators), regulatory (weak coordination, lax sanctions), social (low awareness). [M4 s29]
+        - `m4.green-mobility` **From emission standards to green mobility** ★★ — Timeline 1975–2060: global fuel-efficiency/CO₂ standards outpace Indonesia; Indonesia moves LCGC → LCEV → hybrid/EV toward green mobility and 2060 net-zero. [M4 s28]
+        - `m4.bandung-air` **Air quality in Bandung** ★★ — IQAir snapshot: Bandung AQI 173 'unhealthy', PM2.5 87 µg/m³ (17.4× WHO guideline); developing-country governments avoid strict rules to protect growth. [M4 s30,27]
+      - `m4.arrangement` **How commons arrangements are made (Ostrom)** ★★★ — Six elements: boundaries, cost sharing, rules for use, supervision, graduated sanctions, conflict resolution – reflecting Ostrom's design principles for commons. [M4 s31]
+    - `m4.tech-commons-topic` **Technology and non-physical commons** ★★ — Technology can enclose or strengthen commons, and helps define invisible boundaries of air, sea, data and knowledge. [M4 s32,33,34]
+      - `m4.tech-progress` **Technological progress and the commons** ★★ — Technology (fences, data, energy, automation, IP rights) can privatise and fragment commons or strengthen collective management; regulation decides which. [M4 s32]
+      - `m4.nonphysical` **Commons with non-physical boundaries** ★★ — Air, waters, groundwater, fish and knowledge cross borders; boundaries define use rights and limits, made monitorable by satellites, GPS, sensors, data. [M4 s33]
+        - `m4.unclos` **Maritime boundaries: UNCLOS** ★★ — No fences at sea: UNCLOS sets legal boundaries as coordinates – territorial sea ≤12 nm, EEZ ≤200 nm, high seas beyond national jurisdiction. [M4 s33]
+        - `m4.knowledge-ai` **Knowledge commons in the AI era** ★ — Lecturer's 2026 Navier–Stokes example raises questions on where private research ends and shared knowledge used by AI begins. [M4 s33]
+      - `m4.discussion` **Discussion: successful commons management** ★★ — Find a successful commons case, identify success factors, apply to a local commons problem and evaluate challenges (community, resources, external support). [M4 s34]
+  - `m5` **W5 · Sustainable Development Goals** ★★★ — SDGs 2015–2030: concept and methods, adoption in Indonesia, biodiversity perspective, role of STI, and reality checks on progress. [M5 s1,2,10,17,22,28]
+    - `m5.part1` **1 · SDGs: concept and methods** ★★ — History (MDGs → SDGs), the Decade of Action 2015–2030, the sustainable development definition, and goals–targets–indicators. [M5 s2,3,4,5,6,7,8,9]
+      - `m5.mdgs` **Millennium Development Goals (MDGs)** ★★ — 8 goals (2000–2015) initiated under Kofi Annan, adopted by 189 countries; mainly targeting extreme conditions in developing countries. [M5 s3]
+      - `m5.sdgs` **SDGs: 17 goals for 2015–2030** ★★★ — Global and national commitments by UN member states: 17 interrelated, mutually reinforcing goals to be achieved by 2030. [M5 s4,6]
+        - `m5.decade-of-action` **Decade of Action (2015–2030)** ★★ — 2015–2030 is framed as the Decade of Action: no country had met the goals, so the period stresses concrete action. [M5 s4,5]
+      - `m5.sd-definition` **Definition and positioning of sustainable development** ★★★ — Brundtland: development meeting present needs without compromising future generations' ability to meet theirs; three dimensions plus peace and partnership. [M5 s7]
+        - `m5.sd-dimensions-diagram` **SDGs mapped to the three dimensions** ★★ — Venn diagram: social, environmental and economic SDGs overlap at 'sustainable', enclosed by partnership (SDG 17) and peace (SDG 16). [M5 s7]
+      - `m5.goals-targets-indicators` **Goals → targets → indicators** ★★★ — 17 goals, 169 targets and 231 global indicators form an inseparable whole; Indonesia uses 289 indicators tailored to its development. [M5 s8]
+        - `m5.sdg7-example` **Example: SDG 7 targets and indicators** ★★ — SDG 7 (affordable and clean energy) has 5 targets and 12 indicators: access, renewables, efficiency, plus research and developing-country deployment. [M5 s8]
+        - `m5.indicator-revisions` **Indicator revisions and tiers (IAEG-SDGs)** ★ — Indicator counts change after annual IAEG-SDGs review; March 2025: 234 approved, classified into Tier 1 (161) and Tier 2 (60). [M5 s8]
+      - `m5.global-report` **Global SDGs Report (UN)** ★ — Annual UN stocktake of global SDG progress by UN DESA Statistics Division, summarising country reports, achievements and remaining problems. [M5 s9]
+    - `m5.part2` **2 · Adoption in Indonesia (TPB)** ★★ — Indonesia institutionalises SDGs via presidential regulation, Bappenas roadmap, regional integration, multi-actor partnerships, VNR reporting and universities like ITB. [M5 s10,11,12,13,14,15,16]
+      - `m5.indonesia-commitment` **Indonesia's commitment: Perpres 59/2017 → 111/2022** ★★★ — Indonesia ratified the SDGs via Presidential Regulation 59/2017 (updated 111/2022); Bappenas integrates SDG targets into planning and leads the Roadmap. [M5 s11]
+        - `m5.pillar-model` **Indonesia's four-pillar mapping model** ★★ — Indonesia maps goals, targets and indicators using a pillar model: environmental, economic, social and governance pillars. [M5 s11]
+      - `m5.regional-integration` **TPB integration in the regions and VLR** ★★ — SDGs monitored regionally via secretariats and data systems; SDG indicators used for regional development; Voluntary Local Reviews reported to the UN. [M5 s12]
+      - `m5.actors` **Many parties involved in achieving SDGs** ★★ — SDG delivery in Indonesia involves government, religious institutions (zakat on SDGs), youth (Youth SDGs Summit) and villages (SDGs Desa). [M5 s13]
+        - `m5.sdgs-desa` **SDGs Desa (18 village goals)** ★★ — Indonesia's village-level SDGs: 18 goals, adding Goal 18 'dynamic village institutions and adaptive village culture'; funded via Dana Desa. [M5 s13]
+      - `m5.vnr` **Voluntary National Review (VNR)** ★★★ — Indonesia voluntarily reports national SDG progress to the UN since 2017, about every two years, coordinated by the National TPB Secretariat. [M5 s14,15]
+        - `m5.sdg-report-2025` **Indonesia's SDG Report / VNR 2025** ★★ — VNR 2025 covered SDGs 3, 5, 8, 14 and 17; critics flagged worker security and human trafficking issues. [M5 s15]
+      - `m5.itb` **SDGs at ITB** ★ — ITB SDGs Network / Center of SDGs monitors ITB's SDG progress; research and community service are mapped to SDGs on scholar.itb.ac.id. [M5 s16]
+    - `m5.part3` **3 · Biodiversity perspective in Indonesia** ★★ — SDG 14 improving vs SDG 15 declining in Indonesia; IBSAP 2025–2045 as biodiversity strategy; Nature-based Solutions as cost-effective SDG pathway. [M5 s17,18,19,20,21]
+      - `m5.sdg14-15-indonesia` **SDG 14 and 15 achievements in Indonesia** ★★★ — Indonesia reports improvement on SDG 14 (marine ecosystems) but a consistent decline on SDG 15 (terrestrial ecosystems). [M5 s18]
+      - `m5.ibsap` **IBSAP 2025–2045** ★★★ — Indonesian Biodiversity Strategy and Action Plan: vision 'living in harmony with nature'; national guideline, diplomatic tool, evaluated every 5 years. [M5 s19,20]
+        - `m5.ibsap-history` **History of IBSAP and the CBD** ★★ — CBD ratified by Law 5/1994; action plans since 1993 → IBSAP 2003–2020 → IBSAP 2015–2020 (Aichi Targets) → IBSAP 2025–2045. [M5 s19]
+        - `m5.biodiversity-threats` **Value of and threats to Indonesian biodiversity** ★★ — Biodiversity balances ecosystems and supports livelihoods; threatened by land/sea-use change, overuse, pollution, invasive species and climate change. [M5 s19]
+      - `m5.biodiversity-sdgs` **Biodiversity as foundation for all SDGs** ★★ — UNCBD: biodiversity links to all 17 SDGs, especially 14 and 15; it is a life-support system and nearly half of humanity depends on it directly. [M5 s20]
+      - `m5.nbs` **Nature-based Solutions (NbS)** ★★★ — Actions to protect, conserve, restore, sustainably use and manage ecosystems to address societal challenges, benefiting people and nature; cost-effective for SDGs. [M5 s21]
+    - `m5.part4` **4 · Role of science, technology and innovation** ★★ — STI defined, positioned as a key action of the Addis Ababa Action Agenda, coordinated globally via the Technology Facilitation Mechanism. [M5 s22,23,24,25,26,27]
+      - `m5.sti-definition` **Science, Technology and Innovation (STI) defined** ★★★ — Science = systematic pursuit of knowledge; Technology = applying knowledge to goals; Innovation = new ways of producing, distributing or using goods/services. [M5 s23]
+      - `m5.sti-aaaa` **STI in the Addis Ababa Action Agenda** ★★ — STI is one of seven key action areas of the Addis Ababa Action Agenda (2015); innovation and agreed technology transfer promote sustainable development. [M5 s24]
+      - `m5.tfm` **Technology Facilitation Mechanism (TFM)** ★★★ — UN mechanism for STI for SDGs with four components: IATT, 10-Member Group, STI Forum and the 2030 Connect online platform. [M5 s25]
+      - `m5.sti-sdg9-17` **STI linked to SDG 9 and SDG 17** ★★ — STI for SDGs is most closely related to SDG 17 (partnerships for the goals) and SDG 9 (industry, innovation and infrastructure). [M5 s26]
+      - `m5.sti-features` **Features of STI for SDG achievement** ★★ — STI is about generating, disseminating and using knowledge; each SDG needs different STI and each country has place-based priorities. [M5 s27]
+    - `m5.part5` **5 · Reality check on SDG progress** ★★ — Midpoint 2023: only 15% of targets on track; 2026: real gains in water, sanitation, energy, internet, but poverty, hunger and climate lag. [M5 s28,29,30,31]
+      - `m5.reality-2023` **Reality check 2023 (midpoint of the Decade of Action)** ★★★ — Of 140 targets evaluated in 2023, 15% on track, 48% off track, over 30% stagnant or below the 2015 baseline. [M5 s29]
+      - `m5.reality-2026` **Reality check 2026: gains and lags** ★★★ — Gains: water (+1bn), sanitation (+1.2bn), electricity 92%, internet 74%. Lags: 1 in 10 extremely poor, 3bn food insecure, 1.43°C warming. [M5 s30]
+      - `m5.discussion` **Discussion: equity and optimism for 2030** ★★ — Will SDGs yield equitable results for the Global South/Indonesia? Which SDGs do you know? Does progress justify optimism for 2030? [M5 s31]
+  - `m6` **W6: SDGs & Climate Change** ★★★ — Climate change as the cross-cutting threat to the SDGs; Paris Agreement, Indonesia's NDC, local impacts, and mitigation via sinks, peatlands, CCUS, AFOLU. [M6 s1,2,13,22,31]
+    - `m6.part1` **6.1 Climate change & SDGs** ★★ — Basics of climate change and GHGs, and how SDG 13 and the other SDGs affect each other in both directions. [M6 s2,3,4,5,6,7,8,9,10,11,12]
+      - `m6.climate-change` **What is climate change?** ★★ — Climate = long-term average atmospheric conditions; climate change = long-term shift in them. Today's change is unusually fast and mainly human-caused. [M6 s3]
+      - `m6.ghg` **Greenhouse gases (GHGs)** ★★★ — Gases that absorb heat radiated from Earth's surface; in natural amounts they keep Earth above freezing, in excess they cause global warming. [M6 s4,6]
+        - `m6.ghg.concentration` **GHG concentrations over time** ★★ — Ice cores show CO₂ ~180–300 ppm for 800,000 years, then a sharp post-1760 rise: 409.9 ppm in 2019, 419.3 ppm in 2023 (+50% vs pre-industrial). [M6 s5,7]
+        - `m6.ghg.gwp` **Enhanced greenhouse effect & GWP** ★★ — Extra human GHGs enhance the greenhouse effect, causing global warming. GWP compares each gas's heat-trapping power to CO₂ (GWP = 1). [M6 s6]
+      - `m6.sdg-challenges` **Why the SDGs are hard to achieve** ★★ — Climate change can reverse progress on other SDGs via disasters (slow and fast onset): temperature rise, sea-level rise, ecosystem disruption. [M6 s8]
+      - `m6.sdg13-to-others` **SDG 13 → other SDGs** ★★★ — Climate change undermines other SDGs; extreme weather is a cause, and vulnerable groups (SIDS, coasts, Global South, women, children) suffer most. [M6 s9]
+      - `m6.others-to-sdg13` **Other SDGs → SDG 13** ★★★ — Progress on other SDGs can help climate action: clean energy, sustainable cities, responsible consumption, ecosystems and agriculture cut emissions or store carbon. [M6 s10]
+        - `m6.natural-sinks` **Ecosystems as natural carbon sinks** ★★ — Ecosystems and biodiversity absorb carbon; peatlands (3% of land) store twice the carbon of all forests; mangroves/seagrass absorb up to 4× faster. [M6 s10]
+      - `m6.mid-critical-2025` **2025: mid-critical time & follow-up** ★★ — 2025 is a midpoint: new NDCs due, rising hunger, slow adaptation, need to align climate and development finance; follow-up via science and the Global Stocktake. [M6 s11,12]
+    - `m6.part2` **6.2 Paris Agreement & Indonesia** ★★ — The 2015 Paris Agreement, its three principles (equity, transparency, sovereignty), and Indonesia's commitments including the 2025 Second NDC. [M6 s13,14,15,16,17,18,19,20,21]
+      - `m6.paris` **Paris Agreement 2015–2030** ★★★ — 2015 global climate deal: limit warming well below 2°C (aim 1.5°C), build adaptation/resilience, align finance; all countries set their own NDCs. [M6 s14,15]
+        - `m6.paris.principles` **Three principles of Paris** ★★★ — The Paris Agreement runs on equity (CBDR-RC), transparency (Global Stocktake) and sovereignty (bottom-up NDCs). [M6 s15,16,17,18]
+          - `m6.paris.cbdr` **Equity: CBDR-RC** ★★★ — Common but Differentiated Responsibilities & Respective Capabilities: all countries share responsibility, but developed countries commit more based on ability and history. [M6 s16]
+          - `m6.paris.gst` **Transparency: Global Stocktake (GST)** ★★★ — Periodic review of how far countries implement climate commitments, to keep raising ambition; first GST concluded at COP28 (2023). [M6 s17,12]
+          - `m6.paris.sovereignty` **Sovereignty: bottom-up NDCs** ★★ — Bottom-up architecture: each country determines its own emission level, reported as its Nationally Determined Contribution (NDC). [M6 s18]
+      - `m6.indonesia-commitment` **Indonesia's climate commitment** ★★★ — Indonesia ratified Paris via Law No. 16/2016; 2030 target 29% unconditional / 41% with support; limit to 1.5°C; Net Zero Emission by 2060. [M6 s19]
+      - `m6.indonesia-sndc` **Indonesia's Second NDC (2025)** ★★★ — Responding to the 1st GST: absolute 2035 targets of 31.89% unconditional and 43.20% conditional, with three scenarios (CPOS, LCCP_Low, LCCP_High). [M6 s20]
+        - `m6.sndc.projection` **SNDC emission projections** ★★ — WRI chart of Indonesia's Second NDC: current-policy (CPOS) emissions keep rising; LCCP_L/LCCP_H peak around 2030 and reach net sink by 2060, conditional on finance. [M6 s21]
+    - `m6.part3` **6.3 Examples** ★★ — Real-world climate impacts and responses: sinking islands and coasts, urban heat, AC use, sustainable cooling and mitigation efforts. [M6 s22,23,24,25,26,27,28,29,30]
+      - `m6.coastal` **Sea-level rise & coastal loss** ★★ — Three coastal cases show options under sea-level rise: migration, hard/green protection, or forced displacement. [M6 s23,24,25]
+        - `m6.kiribati` **Kiribati: the sinking country?** ★★ — Pacific atoll nation (~100,000 people, 33 atolls) flooding since the 1970s; shifted from 'Migrate with Dignity' (2015) to fortifying islands (2022). [M6 s23]
+        - `m6.semarang` **Semarang: preventing abrasion** ★ — Semarang invests in coastal and sea dikes, a maritime toll road, mangrove planting and tyre dams to stop coastal abrasion. [M6 s24]
+        - `m6.muara-gembong` **Muara Gembong, Bekasi** ★ — In Pantai Mekar village, coastal loss leaves residents two bad options: stay with declining quality of life or be displaced and start over. [M6 s25]
+      - `m6.urban-heat-cooling` **Urban heat & cooling** ★★ — Rising urban heat drives AC use as adaptation, but AC raises emissions — a maladaptation risk solved by sustainable cooling. [M6 s26,27,28,29]
+        - `m6.urban-heat` **Rising heat in urban areas** ★★ — Heat waves hit Europe and SE Asia; BMKG says Indonesia's 2023 records (Semarang, Surabaya, Makassar) weren't heat waves but still harmful. [M6 s26]
+        - `m6.ac-adaptation` **AC use: adaptation vs. emissions** ★★ — Air conditioning saves lives and productivity in heat, but raises energy use and HFC emissions — a potential maladaptation. [M6 s27]
+        - `m6.cooling-emissions` **CO₂e emissions from cooling** ★★ — Cooling emits directly (high-GWP refrigerant leaks and poor servicing) and indirectly (energy use, up to 50–60% of a commercial building's energy). [M6 s28]
+        - `m6.sustainable-cooling` **Principles of sustainable cooling** ★★★ — Five principles: energy savings, eco-friendly refrigerants (zero ODP, low GWP), renewable integration, fair access, and circular end-of-life management. [M6 s29]
+      - `m6.mitigation-effort` **Mitigation efforts** ★ — Three-level response to extreme heat: city blue/green infrastructure and disaster preparedness, community shaded shelters, individual hydration, fans, AC and clothing. [M6 s30]
+    - `m6.part4` **6.4 What can we do?** ★★ — Where emissions come from and how to cut them: carbon sequestration, tropical peatland protection, CCUS, and AFOLU mitigation. [M6 s31,32,33,34,35,36,37,38,39,40,41,42]
+      - `m6.ghg-sources` **GHG emissions by sector** ★★ — 2019 global GHG emissions (IPCC 2023): energy 34%, industry 24%, AFOLU 22%, transport 15%, buildings 6%. [M6 s32]
+      - `m6.carbon-sequestration` **Carbon sequestration** ★★★ — Natural or artificial removal/diversion of CO₂ from the atmosphere or emission sources, stored in oceans, land (vegetation, soil) or geological formations. [M6 s33]
+      - `m6.peatland` **Tropical peatlands** ★★★ — Waterlogged soils of partly decomposed plant matter storing huge carbon; disturbance (drainage, deforestation, fire) makes Indonesia's peatlands major emitters. [M6 s34,35,36,39,40,41]
+        - `m6.peat.carbon-cycle` **Carbon cycle in tropical peatland** ★★ — CO₂ fixed by photosynthesis (GPP) minus respiration gives NPP; litter decomposes aerobically (CO₂) above the water table or anaerobically (CH₄) below it. [M6 s34]
+        - `m6.peat.formation` **Peatland formation & carbon capture** ★★ — Peat forms when water input exceeds evapotranspiration and plant production exceeds decomposition; tropical peat averages 5.5–7 m deep, up to 20 m. [M6 s35]
+        - `m6.peat.disturbance` **Peatland disturbance in Indonesia** ★★★ — Logging, drainage and conversion dry out peat: steady 'cold fire' decomposition plus episodic dry-season fires release huge CO₂; Indonesia degrades fastest. [M6 s36]
+        - `m6.peat.fires` **Peatland fires in Indonesia** ★★ — Recurring dry-season disaster: Palangka Raya hotspots peak in ENSO years (5,258 in 2015), sending haze to Malaysia and Singapore and closing schools and airports. [M6 s39,40,41]
+      - `m6.ccus` **Carbon Capture, Utilization & Storage (CCUS)** ★★ — Capture CO₂ from industrial sources or air, compress and transport it, then either use it (CCU) or store it permanently underground (CCS). [M6 s37]
+      - `m6.afolu` **Reducing AFOLU emissions** ★★ — AFOLU mitigation (afforestation, reforestation, restoration, agroforestry, soil carbon, bioenergy) can cut emissions and boost sequestration, with land-use trade-offs. [M6 s38]
+      - `m6.discussion` **Discussion: climate-friendly behaviour** ★ — Has climate change changed your behaviour? Which habits are climate-friendly? What will you do to support a climate-friendly lifestyle? [M6 s42]
+  - `m7` **W7 · SDG Interlinkages & Nexus** ★★★ — SDGs interact: spillovers, synergies and trade-offs, technology's role, and the Food–Energy–Water nexus as an integrated way to manage them. [M7 s1,2,14,20]
+    - `m7.part1` **7.1 SDGs & Interlinkages Approach** ★★ — From country rankings to spillovers, synergies/trade-offs, activity types, and recycling as a practical trade-off. [M7 s2,3,4,5,6,7,8,9,10,11,12,13]
+      - `m7.rankings` **SDG achievement rankings (SDR 2025)** ★★ — Sustainable Development Report 2025: top 10 are developed Northern countries (Finland 87.02), bottom 10 are Global South (South Sudan 41.55). [M7 s3]
+      - `m7.spillover` **Cross-border spillover effects** ★★★ — Effects of one country's consumption, trade or policy on other countries' ability to achieve the SDGs – can be negative or positive. [M7 s3,4,5]
+        - `m7.spillover.cotton` **Cotton–clothing spillover chain** ★★ — Country A grows cotton (water stress), B makes clothes (air emissions), C consumes them – importing embodied water stress and emissions. [M7 s4]
+        - `m7.spillover.types` **Spillover categories & indicators** ★★ — Four spillover flows – environmental, social & governance, economic & financial, security – tracked by indicators like CO₂ in imports or tax havens. [M7 s5]
+      - `m7.interlinkages` **Interlinkages between SDGs** ★★★ — SDGs are transformative, universal and indivisible; progress on one target affects others, so maximise synergies and minimise trade-offs. [M7 s6]
+        - `m7.interlinkages.synergy-tradeoff` **Synergy vs trade-off** ★★★ — Synergy: progress on objective A also advances B (reinforcing). Trade-off: progress on A sets back B (counteracting). [M7 s6,8]
+      - `m7.activities` **Activity characteristics: core, mixed, opposed, peripheral** ★★★ — Economic activities classified by net SDG impact: core (mostly positive), mixed (both), opposed (mostly negative), peripheral (little either way). [M7 s7,8,9,10]
+        - `m7.activities.core` **Core activities (synergies)** ★★ — Activities creating far more positive than negative SDG impact – education, health, legal, renewable power grids, research; strategy: scale up. [M7 s7]
+        - `m7.activities.mixed` **Mixed activities (trade-offs)** ★★ — Activities with significant positive and negative SDG impacts, e.g. large-scale agriculture or renewable energy industries; strategy: decouple the negatives. [M7 s8]
+        - `m7.activities.opposed` **Opposed activities & Ørsted** ★★ — Activities mostly harming SDGs – fossil fuel and mineral extraction, alcohol/tobacco/soft drinks; strategy: transform, as DONG did becoming Ørsted. [M7 s9]
+        - `m7.activities.peripheral` **Peripheral activities** ★ — Activities with no significant positive or negative SDG impact, e.g. cultural preservation through dance or painting; strategy: find ways to add positive impact. [M7 s10]
+      - `m7.recycling` **Recycling as an SDG trade-off** ★★ — Recycling is often costlier than virgin production, depends on material and oil prices, and involves convenience–quality trade-offs. [M7 s11,12,13]
+        - `m7.recycling.cost` **When recycling costs more than new material** ★★★ — Recycling often costs more than virgin production; China rejects imports below 99% purity; single vs dual stream sorting trades convenience for quality. [M7 s11]
+        - `m7.recycling.materials` **Recyclability by material** ★★ — Plastic not yet cost-effective (oil-price dependent); aluminium keeps quality; steel 100% recyclable; glass recyclable; paper ~6 cycles, then landfill/incineration. [M7 s12]
+        - `m7.recycling.itb` **Recycling at ITB Jatinangor** ★ — ITB Jatinangor campus separates waste: plastic-bottle collection points in food areas and battery disposal boxes near offices. [M7 s13]
+    - `m7.part2` **SDGs & the Role of Technology** ★★ — How technology use shapes SDG relationships, which SDGs lag, North–South differences in synergies (Boar et al. 2021), and responsible innovation. [M7 s14,15,16,17,18,19]
+      - `m7.tech-sdg12` **Technology use & SDG 12 (material footprint)** ★★★ — Technology-driven development raises material and environmental footprints, hindering SDG 12 (12.2) and SDG 8.4; footprint follows an inverted U with income. [M7 s15]
+      - `m7.hardest-sdgs` **SDGs hardest to achieve** ★★ — Progress often unreported: SDG 15, 14, 5, 10. Needing attention: SDG 9, 12, 11. [M7 s16]
+      - `m7.boar` **Boar et al. (2021): North vs South synergies** ★★★ — Literature review: Global North SDG synergies span social, economic and environmental dimensions; Global South synergies cover only one dimension. [M7 s17,18]
+        - `m7.boar.maps` **SDG synergy & trade-off maps** ★★ — Boar et al. diagrams: SDG 7 energy and SDGs 16/17 drive synergies; economic goals (8, 9, 12) trade off against environmental goals (6, 13–15). [M7 s18]
+      - `m7.responsible-innovation` **Responsible Innovation (RI)** ★★ — Responsibility means avoiding harm, doing good and weighing long-term double effects; RI dimensions: anticipation, reflexivity, inclusion, responsiveness (Stilgoe 2013). [M7 s19]
+    - `m7.part3` **SDGs & the Nexus Approach** ★★ — The nexus approach integrates goals across sectors; the Food–Energy–Water nexus, its rationale, drivers, interventions, implementation strategy and challenges. [M7 s20,21,22,23,24,25,26,27,28,29]
+      - `m7.nexus` **Nexus approach (definition & principles)** ★★★ — Integrating goals and targets across sectors to avoid conflicts, strengthen synergies and reduce trade-offs; principles: access for vulnerable, efficiency, sustainability. [M7 s21]
+      - `m7.few` **Food–Energy–Water (FEW) nexus** ★★★ — Food, energy and water interact and shape nearly all SDGs but are managed separately; SDGs 2, 6 and 7 form its core. [M7 s22,26]
+        - `m7.few.why` **Why a FEW nexus approach? (9 reasons)** ★★★ — Nine reasons: limited access, rising demand, limited resources; global goods, regional differences, climate interdependence; security, regulated markets, risk management. [M7 s23,24,25]
+      - `m7.nexus.drivers` **Nexus drivers** ★★ — Nexus outcomes are shaped by endogenous vs exogenous and direct vs indirect drivers – e.g. resource governance, rainfall, currency exchange. [M7 s26]
+      - `m7.nexus.interventions` **Nexus interventions (food examples)** ★★ — Agricultural conservation and energy-efficient cookstoves each improve water, energy and food security at once – nexus synergies. [M7 s27]
+      - `m7.nexus.strategy` **Strategy for implementing the nexus** ★★ — Create a nexus policy: agreed shared goals, shared responsibility and cooperation, nexus meetings, coordination with other ministries, horizontal accountability. [M7 s28]
+      - `m7.nexus.challenges` **Challenges in implementing the nexus** ★★ — Challenges for researchers: no common framework, uncertain timelines in group work, language barriers, publication problems; need incentives for joint problem-solving. [M7 s29]
+    - `m7.discussion` **Week 7 discussion questions** ★★ — Three applied debates: urban/campus farming in the FEW nexus, whether green tech shifts problems, and whether recycling bins achieve zero waste. [M7 s30]
+      - `m7.discussion.urban-farming` **Debate: campus/urban farming & the FEW nexus** ★★ — How would campus gardens or hydroponics affect water and energy use, costs, food access for low-income groups, and urban design and social life? [M7 s30]
+      - `m7.discussion.green-tech` **Debate: green technology or shifting the problem?** ★★ — Do EVs, solar panels and digital traffic systems automatically make a city sustainable? Who benefits, and who bears hidden environmental or social costs? [M7 s30]
+      - `m7.discussion.zero-waste` **Debate: is recycling enough for zero waste?** ★★ — Are separate bins and recycling enough for responsible consumption and production? Design a fairer strategy covering consumption to final disposal. [M7 s30]
+  - `core.themes` **Cross-cutting themes** ★★★ — Big ideas that run through several weeks — the best material for essay and comparison questions. [M3 s8,16,20,22]
+    - `core.technology` **Technology: problem or solution?** ★★★ — IPAT's T, rebound effects, STI and responsible innovation — technology can raise or cut impact. [M3 s8,16,20,22; M4 s32; M5 s23,25; M6 s27,37; M7 s15,19]
+    - `core.equity` **Equity: Global North vs South** ★★★ — Who causes impacts, who suffers them, who pays: justice, CBDR-RC, spillovers. [M3 s24,30; M4 s4,6; M5 s31; M6 s16; M7 s3,17]
+    - `core.commons` **Commons & their governance** ★★★ — Shared resources overused without rules — and the institutions (Ostrom, Montreal, Subak, PES) that manage them. [M2 s2,3,5; M4 s10,18,21,24,31,33; M6 s14]
+    - `core.limits` **Limits of the planet** ★★★ — Carrying capacity, planetary boundaries, ecological footprint and overshoot. [M1 s14,18; M2 s6; M3 s4,5,37,38; M6 s4]
+    - `core.sdg-system` **SDGs as a connected system** ★★★ — Goals interact: synergies, trade-offs, SDG13 links, and the food-energy-water nexus. [M1 s13; M5 s4,8; M6 s9,10; M7 s6,22]
+
+## Cross-links
+
+- `m1.history.brundtland` —builds-on→ `m1.dimensions`: environment, economy, society interdependent → three dimensions
+- `m1.doughnut` —builds-on→ `m1.dimensions`: nests economy/society inside ecological limits
+- `m1.environment` —related→ `m1.doughnut`: environment as foundation ↔ ecological ceiling
+- `m1.environment.ecosystem` —related→ `m1.laws-of-ecology`: interconnected ecosystems → 'everything is connected'
+- `m1.human-impacts` —causes→ `m1.environment.ecosystem`: activities alter energy flows and cycles
+- `m1.human-centred.anthropocentrism` —contrasts→ `m1.land-ethic.ecocentrism`: human-centred vs nature-centred
+- `m1.dominion-thesis` —contrasts→ `m1.human-centred.stewardship`: domination vs responsible care
+- `m1.conserve-vs-preserve.pinchot` —applies-to→ `m1.human-centred.utilitarianism`: 'greatest good for the greatest number'
+- `m1.conserve-vs-preserve.pinchot` —contrasts→ `m1.conserve-vs-preserve.muir`: wise use vs preservation
+- `m1.land-ethic` —contrasts→ `m1.human-centred.locke`: land is not just property
+- `m1.dam-dilemma` —related→ `m1.conserve-vs-preserve.hetch-hetchy`: same dam-vs-nature structure
+- `m1.livestock-case` —example-of→ `m1.human-centred.anthropocentrism`: Argument B is anthropocentric
+- `m1.history` —related→ `m1.open-ended-definition`: meaning shifts over time
+- `m2.commons-vs-open-access` —contrasts→ `m2.hardin-tragedy`: Hardin's 'commons' is really open access
+- `m2.open-access-resources` —applies-to→ `m2.hardin-tragedy`: where the tragedy actually occurs
+- `m2.tragedy-not-commons.barambang-katute` —example-of→ `m2.commons-vs-open-access`: a true commons with exclusion and rules
+- `m2.commons-solutions` —builds-on→ `m2.tragedy-not-commons`: reduce use, regulate access, privatise
+- `m2.pb.climate-change` —example-of→ `m2.open-access-resources`: atmosphere as global open-access commons
+- `m2.pb.ocean-acidification` —related→ `m2.pb.climate-change`: same CO2 driver
+- `m2.pb.land-system-change` —causes→ `m2.pb.biosphere-integrity`: habitat conversion drives biodiversity loss
+- `m2.pb.biogeochemical-flows` —causes→ `m2.natural-capital-degradation`: fertiliser runoff → algae on coral reefs
+- `m2.pb.ozone` —example-of→ `m2.commons-solutions`: global agreement regulating a commons works
+- `m2.doughnut-link` —builds-on→ `m2.pb-framework`: outer ring = planetary boundaries
+- `m2.pb-status-2025` —related→ `m2.nine-boundaries`: 7 breached / 2 safe
+- `m2.discussion` —related→ `m2.hardin-tragedy`: how commons and boundaries intersect
+- `m3.overpopulation` —builds-on→ `m3.carrying-capacity`: overpopulation = needs exceed carrying capacity
+- `m3.biocapacity` —related→ `m3.carrying-capacity`: biocapacity as carrying capacity in area units
+- `m3.neo-malthus` —builds-on→ `m3.malthus`: extends Malthus to social-economic-environmental factors
+- `m3.ipat` —builds-on→ `m3.neo-malthus`: combines Ehrlich (P) and Commoner (T)
+- `m3.ipat` —builds-on→ `m3.overpopulation`: impact not set by population alone
+- `m3.agri-tech` —causes→ `m3.carrying-capacity`: raises effective carrying capacity
+- `m3.agri-tech` —contrasts→ `m3.malthus`: Green Revolution undercut Malthus's prediction
+- `m3.demographic-transition` —contrasts→ `m3.malthus`: fertility falls with development
+- `m3.kerala` —example-of→ `m3.demographic-transition`: human development without high income
+- `m3.gdp-energy` —applies-to→ `m3.ipat`: affluence vs technology/efficiency evidence
+- `m3.tech-dual-role` —applies-to→ `m3.ipat`: T can raise or lower I
+- `m3.agri-tech` —example-of→ `m3.tech-dual-role`: yields up, pollution and biodiversity loss
+- `m3.jevons` —causes→ `m3.overconsumption`: backfire = overconsumption
+- `m3.ipat.2050` —contrasts→ `m3.jevons`: decoupling target threatened by rebound
+- `m3.kuznets-kurzweil` —contrasts→ `m3.offshoring`: rich-country gains may be displaced impacts
+- `m3.ev-battery` —example-of→ `m3.tech-dual-role`: green tech with extraction burdens
+- `m3.ai-datacenter` —example-of→ `m3.tech-dual-role`: digital tech with large energy demand
+- `m3.consumption-co2` —related→ `m3.env-justice`: richest consume most; burdens fall elsewhere
+- `m3.hyperconsumption` —contrasts→ `m3.overconsumption`: status/novelty-driven vs need-exceeding
+- `m3.hyperconsumption-examples` —related→ `m3.env-justice`: fast fashion impacts in producing countries
+- `m3.eco-footprint` —applies-to→ `m3.overconsumption`: measures overconsumption
+- `m3.how-many-earths` —contrasts→ `m3.overpopulation`: India (big P) <1 Earth vs USA ~5
+- `m3.take-home` —related→ `m3.biocapacity`: overshoot = outside safe operating space
+- `m3.indonesia-footprint` —example-of→ `m3.ipat`: P and A jointly drive deficit
+- `m4.subak` —applies-to→ `m4.arrangement`: Subak fulfils Ostrom's arrangement elements
+- `m4.cidanau` —example-of→ `m4.es-regulating`: pays for watershed (regulating) service
+- `m4.es-payment` —builds-on→ `m4.regulating`: market / social / government routes reappear as regulation cases
+- `m4.montreal` —example-of→ `m4.es-payment`: global mutual consent route
+- `m4.indonesia-emissions` —example-of→ `m4.es-payment`: government regulation route
+- `m4.dieselgate` —related→ `m4.tech-progress`: technology used to evade regulation
+- `m4.emission-challenges` —contrasts→ `m4.arrangement`: weak supervision & sanctions vs Ostrom's elements
+- `m4.bandung-air` —example-of→ `m4.why-south`: development vs environment dilemma in the Global South
+- `m4.tropical-commons` —related→ `m4.es-valuation`: mangroves/wetlands have highest service value per area
+- `m4.ozone` —related→ `m4.nonphysical`: atmosphere as invisible commons
+- `m4.unclos` —applies-to→ `m4.arrangement`: boundaries define rights and limits
+- `m4.commons-types` —related→ `m4.knowledge-ai`: shared knowledge is a man-made commons
+- `m4.commons-culture` —related→ `m4.es-cultural`: forests as spiritual places / pharmacies
+- `m4.subak` —related→ `m4.es-cultural`: water temples & Tri Hita Karana
+- `m4.commons-definition` —builds-on→ `m4.common-property`: rules of the game for shared resources
+- `m5.sdgs` —builds-on→ `m5.mdgs`: SDGs succeed and broaden the MDGs
+- `m5.sdgs` —builds-on→ `m5.sd-definition`: SDGs operationalise the Brundtland definition
+- `m5.pillar-model` —contrasts→ `m5.sd-dimensions-diagram`: 4 pillars (adds governance) vs 3 dimensions + peace & partnership
+- `m5.indonesia-commitment` —applies-to→ `m5.goals-targets-indicators`: Bappenas adapts targets into 289 national indicators
+- `m5.regional-integration` —contrasts→ `m5.vnr`: VLR (local) vs VNR (national)
+- `m5.vnr` —related→ `m5.global-report`: national reviews feed the global stocktake
+- `m5.sdg-report-2025` —related→ `m5.sdg14-15-indonesia`: SDG 14 a focus goal of VNR 2025
+- `m5.ibsap` —applies-to→ `m5.sdg14-15-indonesia`: IBSAP responds to SDG 15 decline
+- `m5.nbs` —builds-on→ `m5.biodiversity-sdgs`: NbS use biodiversity to deliver SDGs
+- `m5.ibsap` —related→ `m5.sti-definition`: IBSAP mission includes enriching science and technology
+- `m5.sdg7-example` —example-of→ `m5.sti-features`: SDG 7 targets include research and technology deployment
+- `m5.tfm` —applies-to→ `m5.sti-sdg9-17`: TFM operationalises SDG 17 technology targets
+- `m5.sti-aaaa` —related→ `m5.tfm`: technology transfer agenda implemented via TFM
+- `m5.reality-2023` —related→ `m5.decade-of-action`: midpoint assessment of the Decade of Action
+- `m5.indicator-revisions` —related→ `m5.reality-2023`: data gaps limit progress assessment
+- `m5.itb` —example-of→ `m5.sti-features`: university research as STI for SDGs
+- `m5.sdgs-desa` —related→ `m5.regional-integration`: localising SDGs down to villages
+- `m6.paris.gst` —builds-on→ `m6.indonesia-sndc`: SNDC responds to the 1st Global Stocktake
+- `m6.mid-critical-2025` —related→ `m6.paris.gst`: stocktaking as follow-up; GST concluded COP28
+- `m6.paris.sovereignty` —applies-to→ `m6.indonesia-commitment`: Indonesia's targets are its NDC
+- `m6.paris.cbdr` —applies-to→ `m6.sndc.projection`: conditional targets depend on international funding
+- `m6.indonesia-commitment` —builds-on→ `m6.indonesia-sndc`: 2030 targets updated to absolute 2035 targets
+- `m6.kiribati` —example-of→ `m6.sdg13-to-others`: SIDS as most vulnerable group
+- `m6.urban-heat` —example-of→ `m6.sdg13-to-others`: heat impacts differ by socio-economic status
+- `m6.ac-adaptation` —causes→ `m6.cooling-emissions`: more AC → more direct and indirect emissions
+- `m6.cooling-emissions` —related→ `m6.ghg.gwp`: HFC/HCFC refrigerants have high GWP
+- `m6.natural-sinks` —example-of→ `m6.carbon-sequestration`: biological sequestration
+- `m6.natural-sinks` —related→ `m6.peatland`: peatlands store 2× carbon of all forests
+- `m6.ccus` —example-of→ `m6.carbon-sequestration`: geological/technological sequestration
+- `m6.peat.disturbance` —causes→ `m6.ghg-sources`: LULUCF/deforestation share of AFOLU emissions
+- `m6.afolu` —related→ `m6.peat.disturbance`: restoration incl. blocking peat canals (rewetting)
+- `m6.semarang` —related→ `m6.natural-sinks`: mangroves protect coast and store carbon
+- `m6.ghg-sources` —related→ `m6.afolu`: AFOLU = 22% of global emissions
+- `m7.rankings` —related→ `m7.spillover`: rankings hide cross-border spillovers
+- `m7.spillover.types` —example-of→ `m7.interlinkages.synergy-tradeoff`: spillovers are cross-border trade-offs
+- `m7.activities` —applies-to→ `m7.interlinkages.synergy-tradeoff`: core = synergy; mixed/opposed = trade-off
+- `m7.recycling.cost` —example-of→ `m7.interlinkages.synergy-tradeoff`: convenience vs quality/cost trade-off
+- `m7.recycling.cost` —related→ `m7.spillover.types`: export of plastic waste as spillover (SDG 12)
+- `m7.tech-sdg12` —related→ `m7.hardest-sdgs`: SDG 12 hindered by material footprints
+- `m7.boar` —related→ `m7.spillover`: North synergies may rely on impacts outsourced to the South
+- `m7.nexus` —builds-on→ `m7.interlinkages`: nexus operationalises indivisibility
+- `m7.nexus.interventions` —example-of→ `m7.interlinkages.synergy-tradeoff`: one intervention, synergies in three sectors
+- `m7.activities.mixed` —related→ `m7.few`: agriculture: SDG 2 vs SDG 6/15 trade-offs
+- `m7.discussion.green-tech` —applies-to→ `m7.responsible-innovation`: tech problem-shifting and RI
+- `m7.discussion.zero-waste` —applies-to→ `m7.recycling`: recycling limits
+- `m7.discussion.urban-farming` —applies-to→ `m7.few`: FEW nexus on campus
+- `m7.boar.maps` —related→ `m7.few`: SDG 7 as synergy hub
+- `m1.history.brundtland` —builds-on→ `m5.sd-definition`: Brundtland definition underpins SD positioning in the SDGs
+- `m1.dimensions` —builds-on→ `m5.sd-dimensions-diagram`: Three dimensions → SDGs mapped to economy/society/biosphere
+- `m1.history` —related→ `m3.malthus`: Malthus is an early milestone in limits-to-growth thinking
+- `m1.environment.ecosystem` —builds-on→ `m4.ecosystem-services`: Ecosystems deliver ecosystem services
+- `m1.human-centred.utilitarianism` —related→ `m4.es-valuation`: Utilitarian logic behind putting money values on nature
+- `m1.laws-of-ecology` —related→ `m7.recycling`: 'Everything must go somewhere' → recycling & reuse
+- `m1.dam-dilemma` —related→ `m7.interlinkages.synergy-tradeoff`: Energy vs ecosystem = a classic SDG trade-off
+- `m7.responsible-innovation` —related→ `m1.role-of-ethics`: Responsible innovation applies ethics to technology
+- `m3.env-justice` —related→ `m4.why-south`: Impacts and benefits are unequally shared North vs South
+- `m3.consumption-co2` —related→ `m4.ns-definition`: Consumption emissions concentrated in the Global North
+- `m3.tech-dual-role` —related→ `m5.sti-definition`: T in IPAT ↔ STI as SDG enabler
+- `m3.tech-dual-role` —related→ `m7.tech-sdg12`: Technology can raise or cut material footprint
+- `m3.env-justice` —related→ `m7.spillover`: Offshored impacts appear as cross-border spillovers
+- `m3.env-justice` —related→ `m6.paris.cbdr`: Unequal responsibility → CBDR-RC
+- `m3.agri-tech` —related→ `m7.few`: Green Revolution intensifies food-energy-water links
+- `m3.overconsumption` —related→ `m7.tech-sdg12`: Overconsumption ↔ SDG 12 responsible consumption
+- `m3.biocapacity` —related→ `m6.ghg`: Carbon footprint is the largest share of overshoot
+- `m3.offshoring` —related→ `m7.spillover.cotton`: Production abroad, consumption at home
+- `m3.jevons` —example-of→ `m6.ac-adaptation`: More efficient AC → more AC use (rebound)
+- `m4.why-south` —builds-on→ `m3.ipat`: Global South's P and A growth drives future I
+- `m4.south-data` —related→ `m3.how-many-earths`: Footprint per person differs sharply North vs South
+- `m4.tech-progress` —related→ `m3.tech-dual-role`: Technology changes how commons are used
+- `m4.ns-definition` —related→ `m6.paris.cbdr`: North/South divide is the basis of CBDR-RC
+- `m4.ns-definition` —related→ `m7.boar`: Synergies differ for Global North vs South
+- `m4.ecosystem-services` —builds-on→ `m5.nbs`: NbS work by restoring ecosystem services
+- `m4.ecosystem-services` —related→ `m5.biodiversity-sdgs`: Biodiversity underpins services and all SDGs
+- `m4.tropical-commons` —related→ `m6.peatland`: Tropical commons incl. peat & mangroves store carbon
+- `m4.rio20` —builds-on→ `m5.sdgs`: Rio+20 launched the SDG process
+- `m4.tech-progress` —related→ `m5.tfm`: Technology access via the TFM
+- `m4.montreal` —related→ `m6.ghg.gwp`: Kigali phases down HFCs — potent GHGs
+- `m4.es-regulating` —related→ `m6.natural-sinks`: Climate regulation service = natural carbon sinks
+- `m4.cidanau` —example-of→ `m5.nbs`: PES to protect a watershed is a nature-based solution
+- `m5.sdg14-15-indonesia` —related→ `m6.afolu`: Land & forest SDG15 ↔ AFOLU emissions
+- `m5.nbs` —related→ `m6.carbon-sequestration`: Forests/peat/mangroves sequester carbon
+- `m5.reality-2026` —related→ `m6.mid-critical-2025`: Mid-decade stocktake: SDGs & climate both off-track
+- `m5.discussion` —related→ `m4.why-south`: Equity of SDG progress for the Global South
+- `m5.sti-aaaa` —related→ `m7.boar`: Technology transfer & North–South cooperation
+- `m5.reality-2023` —related→ `m7.rankings`: SDG Index / rankings measure progress
+- `m5.goals-targets-indicators` —builds-on→ `m7.interlinkages`: Targets interact → interlinkage analysis
+- `m5.indonesia-commitment` —related→ `m6.indonesia-commitment`: Indonesia's SDG (TPB) and climate commitments
+- `m5.vnr` —contrasts→ `m6.paris.gst`: VNR (SDGs) vs Global Stocktake (Paris) — both review progress
+- `m6.paris.cbdr` —related→ `m5.tfm`: Capable countries support others with technology
+- `m6.others-to-sdg13` —builds-on→ `m7.interlinkages`: SDG13 links are interlinkages in practice
+- `m6.sdg13-to-others` —related→ `m7.interlinkages.synergy-tradeoff`: Climate action creates synergies & trade-offs
+- `m6.ghg-sources` —related→ `m3.consumption-co2`: Richest households emit a disproportionate share
+- `m6.sustainable-cooling` —related→ `m7.few`: Cooling is energy-water intensive
+- `m6.cooling-emissions` —related→ `m4.montreal`: Refrigerants (HFCs) regulated by Kigali
+- `m6.peat.fires` —example-of→ `m7.spillover`: Haze crosses borders — a negative spillover
+- `m7.spillover.types` —related→ `m6.ghg`: CO₂ embodied in imports is a spillover indicator
+- `m7.boar` —related→ `m6.paris.cbdr`: Differentiated capacities North vs South
+- `m7.nexus` —related→ `m4.arrangement`: Integrated governance of shared resources
+- `m2.hardin-tragedy` —builds-on→ `m4.commons-definition`: Hardin's tragedy → what the commons are in the Global South
+- `m2.tragedy-not-commons` —builds-on→ `m4.arrangement`: Ostrom: communities can govern commons with rules
+- `m2.tragedy-not-commons.barambang-katute` —related→ `m4.subak`: Indonesian customary commons that work
+- `m2.commons-solutions` —builds-on→ `m4.regulating`: Week 4 cases = solutions to the tragedy
+- `m2.pb.ozone` —related→ `m4.montreal`: Ozone is 'safe' because the Montreal Protocol worked
+- `m2.pb.climate-change` —related→ `m6.ghg`: Climate boundary is driven by GHG concentrations
+- `m2.pb.climate-change` —related→ `m6.paris`: Paris Agreement = response to crossed climate boundary
+- `m2.pb-framework` —related→ `m3.carrying-capacity`: Planet-scale version of carrying capacity
+- `m2.pb-framework` —related→ `m3.take-home`: Safe operating space for humanity
+- `m2.pb-transgressed` —related→ `m3.overconsumption`: Overconsumption pushes boundaries past limits
+- `m2.pb-transgressed` —related→ `m3.biocapacity`: Overshoot: footprint > biocapacity
+- `m2.pb.land-system-change` —example-of→ `m6.peat.disturbance`: Peatland drainage/conversion = land-system change
+- `m2.pb.land-system-change` —related→ `m6.afolu`: Land use is a major emission source
+- `m2.pb.biosphere-integrity` —related→ `m5.biodiversity-threats`: Biodiversity loss in Indonesia
+- `m2.pb.biosphere-integrity` —related→ `m5.ibsap`: IBSAP responds to biodiversity loss
+- `m2.pb.biogeochemical-flows` —related→ `m7.few`: Fertiliser use links food production to N/P flows
+- `m2.pb.freshwater-change` —related→ `m7.few`: Water is one pillar of the FEW nexus
+- `m2.discussion` —related→ `m6.paris.cbdr`: Who should act first? → CBDR-RC
+- `m2.doughnut-link` —builds-on→ `m1.doughnut`: Ecological ceiling of the doughnut = planetary boundaries
+- `m2.natural-capital-degradation` —related→ `m4.es-valuation`: Degraded natural capital = lost ecosystem-service value
+- `m2.hardin-tragedy` —related→ `m1.human-centred.locke`: Privatisation as Hardin's/Locke's answer
+- `m2.open-access-resources` —related→ `m4.nonphysical`: Open access in oceans/atmosphere/space
+- `core.technology` —related→ `m3.ipat`: 
+- `core.technology` —related→ `m3.tech-dual-role`: 
+- `core.technology` —related→ `m3.jevons`: 
+- `core.technology` —related→ `m3.neo-malthus`: 
+- `core.technology` —related→ `m4.tech-progress`: 
+- `core.technology` —related→ `m5.sti-definition`: 
+- `core.technology` —related→ `m5.tfm`: 
+- `core.technology` —related→ `m6.ccus`: 
+- `core.technology` —related→ `m6.ac-adaptation`: 
+- `core.technology` —related→ `m7.tech-sdg12`: 
+- `core.technology` —related→ `m7.responsible-innovation`: 
+- `core.equity` —related→ `m3.env-justice`: 
+- `core.equity` —related→ `m3.consumption-co2`: 
+- `core.equity` —related→ `m4.why-south`: 
+- `core.equity` —related→ `m4.ns-definition`: 
+- `core.equity` —related→ `m6.paris.cbdr`: 
+- `core.equity` —related→ `m7.spillover`: 
+- `core.equity` —related→ `m7.boar`: 
+- `core.equity` —related→ `m5.discussion`: 
+- `core.commons` —related→ `m2.hardin-tragedy`: 
+- `core.commons` —related→ `m2.commons-vs-open-access`: 
+- `core.commons` —related→ `m2.tragedy-not-commons`: 
+- `core.commons` —related→ `m4.commons-definition`: 
+- `core.commons` —related→ `m4.arrangement`: 
+- `core.commons` —related→ `m4.montreal`: 
+- `core.commons` —related→ `m4.subak`: 
+- `core.commons` —related→ `m4.es-payment`: 
+- `core.commons` —related→ `m4.nonphysical`: 
+- `core.commons` —related→ `m6.paris`: 
+- `core.limits` —related→ `m2.pb-framework`: 
+- `core.limits` —related→ `m2.pb-status-2025`: 
+- `core.limits` —related→ `m3.carrying-capacity`: 
+- `core.limits` —related→ `m3.malthus`: 
+- `core.limits` —related→ `m3.eco-footprint`: 
+- `core.limits` —related→ `m3.biocapacity`: 
+- `core.limits` —related→ `m1.doughnut`: 
+- `core.limits` —related→ `m1.laws-of-ecology`: 
+- `core.limits` —related→ `m6.ghg`: 
+- `core.sdg-system` —related→ `m5.sdgs`: 
+- `core.sdg-system` —related→ `m5.goals-targets-indicators`: 
+- `core.sdg-system` —related→ `m6.sdg13-to-others`: 
+- `core.sdg-system` —related→ `m6.others-to-sdg13`: 
+- `core.sdg-system` —related→ `m7.interlinkages`: 
+- `core.sdg-system` —related→ `m7.few`: 
+- `core.sdg-system` —related→ `m1.dimensions`: 

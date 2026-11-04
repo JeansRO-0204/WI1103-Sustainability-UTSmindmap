@@ -1,0 +1,1342 @@
+{
+  "module": {
+    "id": "M6",
+    "week": 6,
+    "title": "SDGs and Climate Change",
+    "summary": "How climate change threatens and depends on the SDGs; the Paris Agreement and Indonesia's NDCs; local impacts; and mitigation via sequestration, peatlands, CCUS and AFOLU."
+  },
+  "nodes": [
+    {
+      "id": "m6",
+      "label": "W6: SDGs & Climate Change",
+      "type": "module",
+      "module": "M6",
+      "parent": "root",
+      "summary": "Climate change as the cross-cutting threat to the SDGs; Paris Agreement, Indonesia's NDC, local impacts, and mitigation via sinks, peatlands, CCUS, AFOLU.",
+      "details": "Week 6 links **SDG 13 (Climate Action)** to the rest of the SDG agenda. Four parts:\n\n- **6.1 Climate change & SDG achievement** — what climate change and greenhouse gases (GHGs) are, the enhanced greenhouse effect, GWP, and the **two-way relationship** between SDG 13 and the other SDGs; 2025 as a \"mid-critical time\".\n- **6.2 Paris Agreement 2015–2030 & Indonesia** — goals (mitigation, adaptation, finance), the three principles **equity (CBDR-RC)**, **transparency (Global Stocktake)** and **sovereignty (NDCs)**; Indonesia's targets (29%/41% by 2030, NZE 2060) and the **Second NDC (2025)** with 31.89%/43.20% absolute targets for 2035.\n- **6.3 Examples** — sea-level rise and coastal loss (Kiribati, Semarang, Muara Gembong); urban heat and the AC dilemma (adaptation vs. emissions) leading to **sustainable cooling**.\n- **6.4 What can we do?** — sectoral GHG sources (IPCC 2023), **carbon sequestration** (biological, geological, technological), **tropical peatlands** (carbon cycle, formation, disturbance, fires), **CCUS** and **AFOLU** mitigation.\n\nThe week ends with a reflection on climate-friendly personal behaviour.",
+      "keyTerms": [
+        "SDG 13",
+        "Paris Agreement",
+        "NDC",
+        "peatland",
+        "carbon sequestration"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            1,
+            2,
+            13,
+            22,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.part1",
+      "label": "6.1 Climate change & SDGs",
+      "type": "topic",
+      "module": "M6",
+      "parent": "m6",
+      "summary": "Basics of climate change and GHGs, and how SDG 13 and the other SDGs affect each other in both directions.",
+      "details": "Part 6.1 builds the science foundation and then the SDG link:\n\n1. **What climate change is** — long-term change in average atmospheric conditions; today's change is fast and mainly human-driven (IPCC 2021).\n2. **Greenhouse gases** — natural greenhouse effect keeps Earth habitable; extra GHGs since the Industrial Revolution (~1760) cause the **enhanced greenhouse effect → global warming**. Gases differ in **GWP**.\n3. **Why SDGs are hard to achieve** — climate impacts (temperature rise, sea-level rise, ecosystem disruption) can **reverse progress** on other goals (IOC & WMO).\n4. **SDG 13 → other SDGs** (climate as a cause of setbacks, hitting vulnerable groups hardest) and **other SDGs → SDG 13** (SDG 7, 11, 12, 14, 15, 2 cutting emissions or storing carbon).\n5. **2025: mid-critical time** — new NDC round, rising hunger, slow adaptation, need for synergy between climate and development finance; follow-up through climate science and the **Global Stocktake**.",
+      "keyTerms": [
+        "climate system",
+        "greenhouse effect",
+        "SDG 13",
+        "synergy"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.climate-change",
+      "label": "What is climate change?",
+      "type": "definition",
+      "module": "M6",
+      "parent": "m6.part1",
+      "summary": "Climate = long-term average atmospheric conditions; climate change = long-term shift in them. Today's change is unusually fast and mainly human-caused.",
+      "details": "- **Climate**: the average atmospheric condition of a region over a long period (vs. *weather*, which is short-term).\n- **Climate change**: the long-term change in the average atmospheric conditions that shape local, regional and global climate.\n- In Earth's history, climate changed due to **natural factors**: volcanic activity, variation in solar radiation, tectonic plate shifts, orbital changes.\n- The **current** change is happening at extraordinary speed and **cannot be explained by natural factors alone** — it is primarily driven by **human activities**.\n- Changes are seen across the whole **climate system**, whose main components are the **atmosphere, biosphere, cryosphere (ice) and oceans** (IPCC 2021) — drawn as a four-quadrant circle on the slide.\n- The slide's \"warming-stripes\" figure shows **six indicators, 1850–2018** (annual averages; grey = no data): **CO₂ concentration** (scale 260–420 ppm), **precipitation** (NH temperate / SH subtropical land), **glacier mass loss**, **global surface temperature** (−1 to +1 °C anomaly), **global sea level** (0–20 cm) and **ocean heat content**. All turn sharply toward \"more/warmer/higher\" after ~1950.\n- The phenomenon the lecture focuses on is **global warming**.\n\nConnects to: GHGs (the cause), planetary boundaries (climate change is one of the nine boundaries).",
+      "keyTerms": [
+        "climate",
+        "weather",
+        "climate system",
+        "cryosphere",
+        "IPCC 2021",
+        "global warming"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.ghg",
+      "label": "Greenhouse gases (GHGs)",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.part1",
+      "summary": "Gases that absorb heat radiated from Earth's surface; in natural amounts they keep Earth above freezing, in excess they cause global warming.",
+      "details": "**GHGs** absorb heat (infrared) energy emitted from Earth's surface and re-emit part of it back down.\n\n- **Natural greenhouse effect** is *good*: it keeps Earth's average surface temperature above freezing, allowing life.\n- Main natural GHGs listed: **water vapour, carbon dioxide (CO₂), methane (CH₄), nitrous oxide (N₂O), ozone (O₃)**.\n- **Industrial (human-made) GHGs**: **CFCs, HFCs, PFCs, SF₆**.\n- GHGs are **< 1% of air molecules** yet absorb large amounts of heat, and most stay in the atmosphere for **decades to centuries**.\n- **Ozone is special**: in the **stratosphere** (~10–50 km) it has little net warming effect and protects life by absorbing UV; in the **troposphere** it is a harmful air pollutant (main component of urban smog) and an important GHG, lasting only days to weeks.\n\nWhen human activity adds extra CO₂, CH₄ etc., the effect is *enhanced* → **global warming** (see GWP node).",
+      "keyTerms": [
+        "greenhouse effect",
+        "CO2",
+        "CH4",
+        "N2O",
+        "water vapour",
+        "tropospheric ozone",
+        "CFC",
+        "HFC"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            4,
+            6
+          ]
+        }
+      ],
+      "examTips": "Know the difference between the natural and enhanced greenhouse effect, and why ozone is 'good up high, bad nearby'. Don't confuse ozone depletion with global warming."
+    },
+    {
+      "id": "m6.ghg.concentration",
+      "label": "GHG concentrations over time",
+      "type": "data",
+      "module": "M6",
+      "parent": "m6.ghg",
+      "summary": "Ice cores show CO₂ ~180–300 ppm for 800,000 years, then a sharp post-1760 rise: 409.9 ppm in 2019, 419.3 ppm in 2023 (+50% vs pre-industrial).",
+      "details": "**Slide 5 (IPCC 2021)**\n- Ice cores record the three well-mixed GHGs over the **last 800,000 years**: CO₂ swings roughly **180–300 ppm** between glacial and interglacial periods — the \"safe\" range before global warming.\n- A **sharp increase** follows the **Industrial Revolution (~1760)**. Measured **2019** values: **CO₂ 409.9 ppm, CH₄ 1866.3 ppb, N₂O 332.1 ppb** (CO₂, N₂O in ppm/ppb as labelled; methane in **ppb**).\n- IPCC comparison table: **pre-industrial (1850–1900)** CO₂ 286→296 ppm; **recent past (1995–2014)** CO₂ 360→397 ppm, temperature **+0.66 to 1.00 °C**, sea level **+0.15 to 0.25 m**. At the Last Glacial Maximum CO₂ was only 188–194 ppm and sea level ~125–134 m lower.\n\n**Slide 7 \"Related data\" (NOAA Climate.gov, State of the Climate 2023)**\n- **All three dominant GHGs hit record highs in 2023**: **CO₂ 419.3 ppm (+50%** vs pre-industrial), **CH₄ 1922.6 ppb (+166%)**, **N₂O 336.7 ppb (+25%)**.\n- Map: 2023 set new records for **intensity and frequency of extreme humid heat** (days with wet-bulb temperature above the 90th percentile).\n- Lecturer: this US government data series is **no longer produced**.\n\nUse: evidence that today's warming is human-driven; links to the \"climate change\" planetary boundary.",
+      "keyTerms": [
+        "ice core",
+        "Industrial Revolution",
+        "409.9 ppm",
+        "ppm",
+        "ppb"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            5,
+            7
+          ]
+        }
+      ],
+      "examTips": "Memorise: 409.9 ppm CO₂ (2019, IPCC) and 419.3 ppm (2023, NOAA); methane rose most in % terms (+166%). Methane is in ppb, CO₂ in ppm."
+    },
+    {
+      "id": "m6.ghg.gwp",
+      "label": "Enhanced greenhouse effect & GWP",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.ghg",
+      "summary": "Extra human GHGs enhance the greenhouse effect, causing global warming. GWP compares each gas's heat-trapping power to CO₂ (GWP = 1).",
+      "details": "- **Enhanced greenhouse effect → global warming**: more CO₂, CH₄ etc. from human activity raises average global temperature.\n- **Global Warming Potential (GWP)**: how much heat a gas traps over a given period relative to **CO₂ (reference, GWP = 1)**. Example: **N₂O ≈ 298×** CO₂.\n- **Kyoto Protocol** regulates **6 GHGs**: CO₂, CH₄, N₂O, HFC, PFC, SF₆.\n- **Montreal Protocol** (not Kyoto) covers **CFCs** (GWP up to ~12,500) and **HCFCs** (HCFC-22 ≈ 1,800).\n- **Ozone-depleting substances (ODS)** — CFC, HCFC, halons, methyl bromide — are usually also GHGs, so they have a **double effect**: warming in the troposphere and destroying ozone in the stratosphere.\n\nThis explains why refrigerants (HFCs) matter for climate (see cooling emissions) and links to the Montreal Protocol as a commons-regulation success.",
+      "keyTerms": [
+        "GWP",
+        "Kyoto Protocol",
+        "Montreal Protocol",
+        "ODS",
+        "N2O 298"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "examTips": "Ozone depletion ≠ global warming, but ODS contribute to both. Kyoto = 6 gases; CFC/HCFC under Montreal."
+    },
+    {
+      "id": "m6.sdg-challenges",
+      "label": "Why the SDGs are hard to achieve",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.part1",
+      "summary": "Climate change can reverse progress on other SDGs via disasters (slow and fast onset): temperature rise, sea-level rise, ecosystem disruption.",
+      "details": "According to the **IOC (Intergovernmental Oceanographic Commission) & WMO**, climate change can **hinder or reverse progress** on the other SDGs.\n\nWeather, climate and water impacts cause **disasters**, both **slow-onset** (e.g. sea-level rise) and **fast-onset** (e.g. storms, floods):\n- Temperature increase\n- Sea-level rise\n- Disruption of land and marine ecosystems\n\nThe lecturer also notes five barriers to the SDGs identified by Cambridge Judge Business School (2024): (1) insufficient **financial resources** (investment only ~48% of what is needed), (2) **greenwashing** by private firms, (3) **marginalisation of the state**, (4) **top-down intervention**, (5) a misguided focus on scaling social enterprise.",
+      "keyTerms": [
+        "reversed progress",
+        "slow onset",
+        "fast onset",
+        "IOC",
+        "WMO",
+        "greenwashing"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.sdg13-to-others",
+      "label": "SDG 13 → other SDGs",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.part1",
+      "summary": "Climate change undermines other SDGs; extreme weather is a cause, and vulnerable groups (SIDS, coasts, Global South, women, children) suffer most.",
+      "details": "Direction 1: **climate (SDG 13) affects other goals** (Filho et al., 2023, *Scientific Reports*).\n\n- **Extreme weather events** act as a *cause* of setbacks in health, food, water, cities, livelihoods.\n- **COVID-19** cut global GHG emissions by about **6%** — showing how strongly emissions track economic activity.\n- **Most vulnerable groups**:\n  - **Small Island Developing States (SIDS)** — e.g. Kiribati\n  - **Coastal areas** — e.g. Semarang, Muara Gembong\n  - **Countries of the Global South**\n  - **Women, children, youth and other marginalised groups**\n\nKey message: climate impacts are unequal — those who emitted least are often hit hardest, which underpins the **equity / CBDR-RC** principle of the Paris Agreement.",
+      "keyTerms": [
+        "extreme weather",
+        "SIDS",
+        "vulnerable groups",
+        "Global South",
+        "COVID-19 -6%"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            9
+          ]
+        }
+      ],
+      "examTips": "Be ready to explain the relationship in BOTH directions, with an example group for each. Link vulnerability to equity/CBDR-RC."
+    },
+    {
+      "id": "m6.others-to-sdg13",
+      "label": "Other SDGs → SDG 13",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.part1",
+      "summary": "Progress on other SDGs can help climate action: clean energy, sustainable cities, responsible consumption, ecosystems and agriculture cut emissions or store carbon.",
+      "details": "Direction 2: **achieving other SDGs supports climate mitigation**, so synergy is needed.\n\nExamples from the lecturer:\n- **SDG 7** Clean energy — renewable transition lowers GHG emissions.\n- **SDG 11** Sustainable cities — green transport, energy efficiency, green urban planning reduce carbon footprint.\n- **SDG 12** Responsible consumption & production — waste management, less overconsumption, **circular economy**.\n- **SDG 14 & 15** Life below water / on land — restoring forests, mangroves, marine ecosystems → **carbon sequestration**.\n- **SDG 2** Zero hunger — sustainable agriculture (agroforestry, organic fertiliser) cuts emissions and boosts food security.\n\nAbout **half** of human GHG emissions stay in the atmosphere; the other half is absorbed by **land and oceans**. Climate change, biodiversity loss and pollution form the **triple planetary crisis**, which must be tackled together.",
+      "keyTerms": [
+        "synergy",
+        "SDG 7",
+        "SDG 11",
+        "SDG 12",
+        "SDG 14/15",
+        "triple planetary crisis"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            10
+          ]
+        }
+      ],
+      "examTips": "Classic question: give examples of how other SDGs contribute to SDG 13. Mention synergy vs trade-off (links to Week 7 interlinkages)."
+    },
+    {
+      "id": "m6.natural-sinks",
+      "label": "Ecosystems as natural carbon sinks",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.others-to-sdg13",
+      "summary": "Ecosystems and biodiversity absorb carbon; peatlands (3% of land) store twice the carbon of all forests; mangroves/seagrass absorb up to 4× faster.",
+      "details": "- **Ecosystems and their biodiversity act as natural carbon sinks.**\n- **Peatlands** (bogs, swamps) cover only **~3% of the world's land** but store **twice as much carbon as all forests**. Conserving them means **keeping them wet** so carbon isn't oxidised and released.\n- **Seagrass and mangroves** can absorb CO₂ at rates up to **four times** higher than land forests — \"blue carbon\".\n- Around **one-third** of the GHG reductions needed in the coming decade could come from enhancing **nature's capacity to absorb emissions**.\n- Conserving natural spaces both **limits emissions (mitigation)** and helps **adapt** to the changing climate.\n\nLinks to carbon sequestration (biological type), tropical peatlands in 6.4, and ecosystem services (regulating services).",
+      "keyTerms": [
+        "carbon sink",
+        "peatland 3%",
+        "mangrove",
+        "blue carbon",
+        "nature-based"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.mid-critical-2025",
+      "label": "2025: mid-critical time & follow-up",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.part1",
+      "summary": "2025 is a midpoint: new NDCs due, rising hunger, slow adaptation, need to align climate and development finance; follow-up via science and the Global Stocktake.",
+      "details": "**2025 = \"mid-critical time\"** (Sixth Global Climate & SDG Synergies Conference, IISD):\n- Each country reports emission-reduction contributions via **NDCs** (new round due in 2025).\n- **Rising hunger** and declining food security.\n- **Slow progress in climate adaptation**.\n- Need for **synergy between climate finance and development finance**.\n\nConference themes: integrated policy, finance & investment, innovation & technology, country-led strategies, multi-stakeholder partnerships, milestones toward **COP30**.\n\n**Follow-up** (slide 12):\n- Develop **science** on climate, weather and water resources — e.g. **IPCC AR6 Synthesis Report (2023)**.\n- **Stocktaking**: the first **Global Stocktake** concluded at **COP28 (2023)**; Decision 1/CMA.5 guides the next NDCs.",
+      "keyTerms": [
+        "NDC",
+        "COP30",
+        "COP28",
+        "IPCC AR6",
+        "Global Stocktake",
+        "climate finance"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.part2",
+      "label": "6.2 Paris Agreement & Indonesia",
+      "type": "topic",
+      "module": "M6",
+      "parent": "m6",
+      "summary": "The 2015 Paris Agreement, its three principles (equity, transparency, sovereignty), and Indonesia's commitments including the 2025 Second NDC.",
+      "details": "Part 6.2 covers global climate governance and Indonesia's position:\n\n- **Paris Agreement (2015–2030)**: keep warming well below 2°C (aim 1.5°C), build resilience, align finance. Unlike Kyoto, **all countries** participate via self-set **NDCs**.\n- **Three principles**: **equity** (CBDR-RC), **transparency** (Global Stocktake), **sovereignty** (bottom-up NDCs).\n- **Indonesia's commitment**: ratified via **Law No. 16/2016**; 2030 targets **29% (own effort) / 41% (with international support)**; **NZE 2060** or earlier.\n- **Second NDC (2025)**: responds to the 1st GST; absolute targets for **2035: 31.89% unconditional / 43.20% conditional**; scenarios CPOS, LCCP_Low, LCCP_High; projections peak in 2030 and become a net sink by 2060.",
+      "keyTerms": [
+        "Paris Agreement",
+        "NDC",
+        "CBDR-RC",
+        "Global Stocktake",
+        "Indonesia"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.paris",
+      "label": "Paris Agreement 2015–2030",
+      "type": "policy",
+      "module": "M6",
+      "parent": "m6.part2",
+      "summary": "2015 global climate deal: limit warming well below 2°C (aim 1.5°C), build adaptation/resilience, align finance; all countries set their own NDCs.",
+      "details": "Governments negotiated on global warming from **1992 (UNFCCC)** until the **Paris Agreement**, adopted at **COP21 in Paris, 2015** (slide 14 photo and infographic).\n\n**Three goals:**\n1. **Mitigation** — keep global temperature rise **well below 2°C**, pursuing **1.5°C**, and (per the infographic) reach **net-zero emissions by mid-century**.\n2. **Adaptation** — build **resilience** and adaptive capacity, since some impacts are unavoidable.\n3. **Finance** — make financial flows consistent with low emissions and climate-resilient development.\n\nAll framed \"in the context of **sustainable development** and efforts to **eradicate poverty**\".\n\n**Kyoto vs Paris:**\n- **Kyoto Protocol (1997)** set top-down emission targets, but **developing countries had no binding commitments** and the **USA did not join**.\n- **Paris** asks **all countries** to set their own targets: **Nationally Determined Contributions (NDCs)** — a \"pledge\". Self-set targets → stronger ownership and commitment.\n\nBuilt on three principles: **equity, transparency, sovereignty**.",
+      "keyTerms": [
+        "Paris Agreement",
+        "1.5°C",
+        "well below 2°C",
+        "mitigation",
+        "adaptation",
+        "Kyoto Protocol",
+        "NDC"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            14,
+            15
+          ]
+        }
+      ],
+      "examTips": "Compare Kyoto (top-down, only developed countries) with Paris (bottom-up NDCs, all countries). Know the three goals and the 1.5/2°C target."
+    },
+    {
+      "id": "m6.paris.principles",
+      "label": "Three principles of Paris",
+      "type": "framework",
+      "module": "M6",
+      "parent": "m6.paris",
+      "summary": "The Paris Agreement runs on equity (CBDR-RC), transparency (Global Stocktake) and sovereignty (bottom-up NDCs).",
+      "details": "The Paris Agreement is implemented through three principles (slide 15 infographic):\n\n| Principle | Mechanism | Core idea |\n|---|---|---|\n| **Equity** | **CBDR-RC** (common but differentiated responsibilities and respective capabilities) | Puts the onus on **wealthy nations to lead**: \"developed country Parties should continue taking the lead by undertaking economy-wide absolute emission reduction targets\" (**Art. 4.4**) |\n| **Transparency** | **Enhanced Transparency Framework + Global Stocktake (GST)** | Builds trust that all countries contribute their fair share; acts as a **minor check on sovereignty through global peer pressure** |\n| **Sovereignty** | **Bottom-up NDCs** | Each country sets its own climate path, in line with CBDR; Kyoto's **top-down architecture was the main reason it failed to win universal support** |\n\nThe **NDC** acts as a country's **promise/pledge**. The three principles balance each other: sovereignty gives freedom, transparency checks whether pledges are enough (and ratchets ambition), and equity distributes the burden fairly between Global North and South.",
+      "keyTerms": [
+        "equity",
+        "transparency",
+        "sovereignty",
+        "CBDR-RC",
+        "GST",
+        "NDC"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "examTips": "Very likely exam item: name the three principles and match each to its mechanism (CBDR-RC, GST, NDC)."
+    },
+    {
+      "id": "m6.paris.cbdr",
+      "label": "Equity: CBDR-RC",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.paris.principles",
+      "summary": "Common but Differentiated Responsibilities & Respective Capabilities: all countries share responsibility, but developed countries commit more based on ability and history.",
+      "details": "**CBDR-RC = Common but Differentiated Responsibilities and Respective Capabilities** — the equity principle. Negotiation term: **\"Right to Development\"**.\n\n- **Common responsibilities**: all countries contribute to climate change (to varying degrees); a shared responsibility to save the Earth.\n- **Differentiated responsibilities**: the **\"ability to pay\"** principle — **developed countries commit more**; each country's conditions and development goals are considered. Related debate: **historical vs current** emissions contributions.\n- **Respective capabilities**: countries differ in their capacity to face environmental challenges → support via the **Technology Facilitation Mechanism (TFM)** and **funding** so all can participate.\n\nAlso linked to the principle of **participation**. Example in practice: Indonesia's **conditional** targets depend on international support.",
+      "keyTerms": [
+        "CBDR-RC",
+        "right to development",
+        "ability to pay",
+        "historical emissions",
+        "TFM",
+        "climate finance"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            16
+          ]
+        }
+      ],
+      "examTips": "Explain each of the three parts (common / differentiated / respective capabilities). Link to Global North vs South and to Indonesia's conditional NDC targets."
+    },
+    {
+      "id": "m6.paris.gst",
+      "label": "Transparency: Global Stocktake (GST)",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.paris.principles",
+      "summary": "Periodic review of how far countries implement climate commitments, to keep raising ambition; first GST concluded at COP28 (2023).",
+      "details": "The **Global Stocktake (GST)** represents the **transparency** principle.\n\n- Purpose: **assess how far countries have implemented** their climate commitments (review progress).\n- Objective: **continually increase climate ambition** to avoid an emergency.\n- Example outcomes: **reduce fossil fuels**, **increase renewable energy capacity**, **increase climate funding**.\n- Experts debated methods, producing ~**1,600 pages** of documents. Progress is discussed at the annual **Conference of the Parties (COP)**.\n- **COP24 (Katowice)** agreed the stocktake must also consider (1) **loss and damage** from climate change and (2) **response measures**, i.e. consequences of climate action such as impacts on fossil-industry workers.\n- The **first GST concluded at COP28 (2023)** (Decision 1/CMA.5) and fed into the 2025 NDC round — Indonesia's **Second NDC** explicitly responds to it.",
+      "keyTerms": [
+        "Global Stocktake",
+        "transparency",
+        "ambition",
+        "COP",
+        "loss and damage",
+        "response measures",
+        "COP28"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            17,
+            12
+          ]
+        }
+      ],
+      "examTips": "GST = transparency, not equity. Know its purpose (review progress → raise ambition) and the COP28 link to the 2nd NDC."
+    },
+    {
+      "id": "m6.paris.sovereignty",
+      "label": "Sovereignty: bottom-up NDCs",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.paris.principles",
+      "summary": "Bottom-up architecture: each country determines its own emission level, reported as its Nationally Determined Contribution (NDC).",
+      "details": "- **Bottom-up architecture** (vs Kyoto's top-down targets).\n- **Each country determines its own level of emissions** reduction.\n- Reported as **Nationally Determined Contributions (NDCs)**, which act as national pledges.\n- Rationale: self-chosen targets respect national circumstances and development priorities, and countries are expected to be more committed to targets they set themselves.\n- Weakness balanced by **transparency (GST)**: since targets are voluntary, the stocktake checks whether the sum of NDCs is enough for 1.5°C.\n\nIndonesia's 29%/41% (2030) and 31.89%/43.20% (2035) targets are its NDCs.",
+      "keyTerms": [
+        "sovereignty",
+        "bottom-up",
+        "NDC",
+        "nationally determined"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.indonesia-commitment",
+      "label": "Indonesia's climate commitment",
+      "type": "policy",
+      "module": "M6",
+      "parent": "m6.part2",
+      "summary": "Indonesia ratified Paris via Law No. 16/2016; 2030 target 29% unconditional / 41% with support; limit to 1.5°C; Net Zero Emission by 2060.",
+      "details": "- **Ratification**: Paris Agreement ratified as **Law No. 16 of 2016 (UU 16/2016)**.\n- **2030 GHG reduction target** (first/enhanced NDC, relative to business-as-usual):\n  - **29%** by own effort (**unconditional**)\n  - **41%** with international support (**conditional**)\n- Supports limiting warming to **< 1.5°C**.\n- **Net Zero Emission (NZE) by 2060 or earlier**.\n\nThe conditional/unconditional split is CBDR-RC in practice: extra ambition depends on finance and technology from developed countries.\n\nThese 2030 targets are Indonesia's earlier NDC; in 2025 they were superseded by the **Second NDC**, which responds to the Global Stocktake and switches to **absolute** 2035 targets (31.89% / 43.20%) while keeping the NZE 2060 goal.",
+      "keyTerms": [
+        "UU 16/2016",
+        "29%",
+        "41%",
+        "NZE 2060",
+        "conditional",
+        "unconditional"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            19
+          ]
+        }
+      ],
+      "examTips": "Memorise the numbers: Law 16/2016; 29% / 41% by 2030; NZE 2060. Don't mix up with the 2nd NDC numbers for 2035."
+    },
+    {
+      "id": "m6.indonesia-sndc",
+      "label": "Indonesia's Second NDC (2025)",
+      "type": "policy",
+      "module": "M6",
+      "parent": "m6.part2",
+      "summary": "Responding to the 1st GST: absolute 2035 targets of 31.89% unconditional and 43.20% conditional, with three scenarios (CPOS, LCCP_Low, LCCP_High).",
+      "details": "The **Second NDC (SNDC, 2025)** responds to the **1st Global Stocktake**, and aligns with Indonesia's **LTS-LCCR 2050**, **Asta Cita**, **RPJMN 2025–2029** and **RPJPN 2025–2045**.\n\n- **2035 targets (absolute emission reduction)**: **31.89% unconditional** (without intervention) and **43.20% conditional** (with international support).\n- Shift to **absolute emission** targets — more modern methodology, consistent with Dec. 1/CMA.5 and UNFCCC transparency standards, and based on pre-COVID emission conditions.\n- Reaffirms the path to **NZE 2060 or sooner**, balancing ambition, growth and development.\n\n**Three scenarios:**\n- **CPOS** – Current Policy Scenario (domestic action; growth 6.0% in 2030, 6.7% in 2035)\n- **LCCP_Low** – Low Carbon Compatible with Paris (moderate growth, same as CPOS)\n- **LCCP_High** – Low Carbon Compatible with Paris (high growth: 7.0% 2030, 8.3% 2035)\nThe two LCCP scenarios combine domestic action with international support to reach a 1.5°C pathway.",
+      "keyTerms": [
+        "Second NDC",
+        "SNDC",
+        "31.89%",
+        "43.20%",
+        "2035",
+        "CPOS",
+        "LCCP",
+        "absolute emissions"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            20
+          ]
+        }
+      ],
+      "examTips": "Know: SNDC responds to GST; 2035 targets 31.89% / 43.20%; switch to absolute targets; three scenarios."
+    },
+    {
+      "id": "m6.sndc.projection",
+      "label": "SNDC emission projections",
+      "type": "data",
+      "module": "M6",
+      "parent": "m6.indonesia-sndc",
+      "summary": "WRI chart of Indonesia's Second NDC: current-policy (CPOS) emissions keep rising; LCCP_L/LCCP_H peak around 2030 and reach net sink by 2060, conditional on finance.",
+      "details": "Slide 21 (**WRI Indonesia**, \"emission level projection under three scenarios\", in GgCO₂eq, 2019–2060, stacked by sector: **FOLU, Energy, IPPU, Waste, Agriculture**, with a net-emission line):\n- **Scenario 1 – CPOS** (current policy): net emissions climb from ~1.15 million Gg (≈1.15 GtCO₂e) in 2019 to ~2 million Gg by 2050–2060; **energy** is the dominant and growing block.\n- **Scenarios 2 & 3 – LCCP_Low and LCCP_High**: emissions **peak around 2030** (LCCP_H a little higher, ~1.5 million Gg) and then fall steeply, turning slightly **net negative (net sink) by 2060**. **FOLU** shifts to a growing **sink** (bars below zero) that offsets residual energy emissions.\n- Because the LCCP scenarios are **conditional**, achieving them **depends heavily on international funding**.\n- The SNDC therefore stresses that **international support is crucial**, and that decarbonisation must be compatible with targeted **economic growth of up to 8%**.\n\nExam angle: illustrates **CBDR-RC** (developing country's ambition tied to finance), the central role of **energy** and **forests/land** in Indonesia's emissions, and the 2060 net-zero horizon.",
+      "keyTerms": [
+        "peak 2030",
+        "net sink 2060",
+        "conditional",
+        "international funding",
+        "8% growth"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.part3",
+      "label": "6.3 Examples",
+      "type": "topic",
+      "module": "M6",
+      "parent": "m6",
+      "summary": "Real-world climate impacts and responses: sinking islands and coasts, urban heat, AC use, sustainable cooling and mitigation efforts.",
+      "details": "Part 6.3 grounds the theory in cases:\n\n- **Sea-level rise and coastal loss**: **Kiribati** (migration vs. seawall), **Semarang** (anti-abrasion infrastructure, mangroves), **Muara Gembong, Bekasi** (stay with lower quality of life, or be displaced).\n- **Urban heat**: record temperatures in Semarang, Surabaya, Makassar (BMKG 2023); impacts vary by socio-economic status.\n- **AC dilemma**: air conditioning is an **adaptation** tool but increases **GHG emissions** (energy + HFC refrigerants) → risk of **maladaptation** → need for **sustainable cooling**.\n- **Mitigation efforts** overview (Nastiti & Amir, 2022).\n\nTheme: adaptation and mitigation must be designed together, and vulnerable groups are affected most.",
+      "keyTerms": [
+        "sea-level rise",
+        "abrasion",
+        "urban heat",
+        "maladaptation",
+        "sustainable cooling"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.coastal",
+      "label": "Sea-level rise & coastal loss",
+      "type": "topic",
+      "module": "M6",
+      "parent": "m6.part3",
+      "summary": "Three coastal cases show options under sea-level rise: migration, hard/green protection, or forced displacement.",
+      "details": "Three cases of **sea-level rise and coastal erosion**, each showing a different response:\n\n- **Kiribati** (SIDS): **\"Migrate with Dignity\"** (land bought in Fiji) vs. later **\"fortifying the islands\"** with seawalls.\n- **Semarang**: infrastructure investment to **prevent abrasion** — coastal and sea dikes, maritime toll road, **mangrove** forest, tyre dams (question raised: Giant Sea Wall?).\n- **Muara Gembong (Bekasi)**: residents either **stay with declining quality of life** or are **forced to relocate** and start over.\n\nResponses can be grouped as **retreat/migration**, **protection** (grey infrastructure like dikes, or green like mangroves), and **accommodation**. These cases illustrate why SIDS and coastal communities are listed as most vulnerable under \"SDG 13 → other SDGs\".",
+      "keyTerms": [
+        "sea-level rise",
+        "abrasion",
+        "migration",
+        "seawall",
+        "displacement"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            23,
+            24,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.kiribati",
+      "label": "Kiribati: the sinking country?",
+      "type": "case-study",
+      "module": "M6",
+      "parent": "m6.coastal",
+      "summary": "Pacific atoll nation (~100,000 people, 33 atolls) flooding since the 1970s; shifted from 'Migrate with Dignity' (2015) to fortifying islands (2022).",
+      "details": "- **Kiribati**: ~**100,000 people**, **33 atolls** in the Pacific; a **Small Island Developing State (SIDS)**.\n- Experiencing **flooding since the 1970s** due to sea-level rise.\n- **President Anote Tong (2015)**: **\"Migrate with Dignity\"** — bought **6,000 acres of land in Fiji** as a possible future home.\n- **President Taneti Maamau (2022)**: changed approach to **\"fortifying the islands\"** by building **seawalls**, reasoning that the climate crisis is happening everywhere, so relocation is no escape.\n\nWhy it matters: the clearest example of an entire nation threatened by climate change despite negligible emissions — an argument for **equity/CBDR-RC**, **loss and damage**, and adaptation finance.",
+      "keyTerms": [
+        "Kiribati",
+        "SIDS",
+        "Migrate with Dignity",
+        "Anote Tong",
+        "Taneti Maamau",
+        "seawall"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.semarang",
+      "label": "Semarang: preventing abrasion",
+      "type": "case-study",
+      "module": "M6",
+      "parent": "m6.coastal",
+      "summary": "Semarang invests in coastal and sea dikes, a maritime toll road, mangrove planting and tyre dams to stop coastal abrasion.",
+      "details": "**Semarang (Central Java)** faces coastal **abrasion** and flooding (rob) as sea level rises.\n\nInfrastructure responses listed and photographed on the slide:\n- **Coastal dike** and **sea dike** (rock-armoured embankment running between the sea and fishponds)\n- **Maritime toll road** (a toll road built over the coastal fishpond area that doubles as sea defence)\n- **Mangrove forest** planting (volunteers planting seedlings on the mudflat — nature-based protection that also stores carbon)\n- **Dams made from used tyres** (stacked tyre wave-breakers held by bamboo poles — low-cost)\n\nThe lecturer raises the question of a **Giant Sea Wall** — prompting discussion of whether hard infrastructure is the right long-term answer compared to green solutions like mangroves, or a mix of both (\"grey + green\").\n\nThese are **adaptation** measures (coping with impacts) rather than mitigation; mangroves are the exception that does both. Compare with Muara Gembong, where protection failed and residents face displacement.",
+      "keyTerms": [
+        "Semarang",
+        "abrasion",
+        "sea dike",
+        "maritime toll road",
+        "mangrove",
+        "Giant Sea Wall"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.muara-gembong",
+      "label": "Muara Gembong, Bekasi",
+      "type": "case-study",
+      "module": "M6",
+      "parent": "m6.coastal",
+      "summary": "In Pantai Mekar village, coastal loss leaves residents two bad options: stay with declining quality of life or be displaced and start over.",
+      "details": "- Location: **Desa Pantai Mekar, Muara Gembong, Kabupaten Bekasi** (West Java coast near Jakarta).\n- Photos on the slide: **ruined house foundations and brick walls** left on a muddy shore now reached by the sea, and lone **mangrove saplings** standing in open water where land used to be.\n- Coastal erosion and sea-level rise are swallowing land and homes.\n- **Those who remain**: experience a **declining quality of life**.\n- **Those forced to relocate (displacement)**: must **start over** elsewhere.\n\nThe lecture frames it as a choice with no good option: adaptation by staying erodes wellbeing, while relocation breaks social ties and livelihoods (often fishing and aquaculture).\n\nIllustrates **climate-induced displacement** at a local Indonesian scale — paralleling Kiribati's national dilemma — and how climate impacts undermine SDG 1 (poverty), SDG 11 (settlements) and livelihoods.",
+      "keyTerms": [
+        "Muara Gembong",
+        "Pantai Mekar",
+        "displacement",
+        "relocation"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.urban-heat-cooling",
+      "label": "Urban heat & cooling",
+      "type": "topic",
+      "module": "M6",
+      "parent": "m6.part3",
+      "summary": "Rising urban heat drives AC use as adaptation, but AC raises emissions — a maladaptation risk solved by sustainable cooling.",
+      "details": "A chain of cause and effect:\n\n1. **Rising heat in cities** (heat waves abroad; record temperatures in Indonesian cities) →\n2. **AC use as adaptation** (protects health, productivity) →\n3. **More GHG emissions** from cooling (direct refrigerant leaks + indirect energy use) →\n4. Risk of **maladaptation** (adaptation that worsens the original problem) →\n5. Need for **sustainable cooling** (efficiency, low-GWP refrigerants, renewables, fair access, circular management).\n\nThis is a textbook example of an **adaptation–mitigation trade-off** and of the dual role of technology.",
+      "keyTerms": [
+        "urban heat",
+        "adaptation",
+        "maladaptation",
+        "cooling"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            26,
+            27,
+            28,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.urban-heat",
+      "label": "Rising heat in urban areas",
+      "type": "example",
+      "module": "M6",
+      "parent": "m6.urban-heat-cooling",
+      "summary": "Heat waves hit Europe and SE Asia; BMKG says Indonesia's 2023 records (Semarang, Surabaya, Makassar) weren't heat waves but still harmful.",
+      "details": "- **Heat waves** are occurring in **Europe, Southeast Asia** and elsewhere (e.g. record European heat waves, 2025).\n- In **Indonesia**, **BMKG** clarified it was **not technically a heat wave**, but the **highest temperatures on record (2023)** were in **Semarang, Surabaya and Makassar**.\n- **Impacts on people**: heat strain, **heat stress**, psychosocial disorders, and disrupted cognitive performance.\n- **Equity dimension**: hot weather affects the whole city, but **effects differ by socio-economic status** — poorer residents have less access to cooling, shade and good housing.\n\n(Source: Nastiti & Amir, Eds., 2022, ITB Press.)",
+      "keyTerms": [
+        "heat wave",
+        "BMKG",
+        "heat stress",
+        "socio-economic status"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.ac-adaptation",
+      "label": "AC use: adaptation vs. emissions",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.urban-heat-cooling",
+      "summary": "Air conditioning saves lives and productivity in heat, but raises energy use and HFC emissions — a potential maladaptation.",
+      "details": "**Air conditioning as adaptation:**\n- **Life-saving** during extreme heat, especially for **vulnerable groups**.\n- Maintains **quality of life and work productivity**.\n\n**But it increases GHG emissions:**\n- **High energy use** → more CO₂ from power generation.\n- **Release of refrigerants (HFCs)** into the air → potent GHGs.\n\n**Result: potential maladaptation** — an adaptation response that increases emissions and so worsens warming, feeding a vicious cycle (hotter → more AC → more emissions → hotter).\n\nHence the need for **sustainable cooling**.",
+      "keyTerms": [
+        "air conditioner",
+        "adaptation",
+        "maladaptation",
+        "HFC",
+        "energy use"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            27
+          ]
+        }
+      ],
+      "examTips": "Define maladaptation using the AC example."
+    },
+    {
+      "id": "m6.cooling-emissions",
+      "label": "CO₂e emissions from cooling",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.urban-heat-cooling",
+      "summary": "Cooling emits directly (high-GWP refrigerant leaks and poor servicing) and indirectly (energy use, up to 50–60% of a commercial building's energy).",
+      "details": "Two types of GHG emissions from cooling systems:\n\n**Direct emissions**\n- Refrigerants **CFC, HCFC, HFC** have **high GWP**.\n- **Leakage** from cooling units.\n- **Unsustainable refrigerant handling** during servicing (venting to air).\n\n**Indirect emissions**\n- From the **energy consumed** by cooling systems (electricity, often fossil-generated).\n- In **hotels, offices and shopping centres**, cooling can be **50–60% of total building energy use**.\n\nDirect emissions are measured in **CO₂-equivalent (CO₂e)** using each refrigerant's GWP. Knowing the two pathways tells you what sustainable cooling must fix: refrigerant choice/management (direct) and efficiency/renewables (indirect).",
+      "keyTerms": [
+        "direct emissions",
+        "indirect emissions",
+        "refrigerant leakage",
+        "HFC",
+        "50-60% building energy"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.sustainable-cooling",
+      "label": "Principles of sustainable cooling",
+      "type": "framework",
+      "module": "M6",
+      "parent": "m6.urban-heat-cooling",
+      "summary": "Five principles: energy savings, eco-friendly refrigerants (zero ODP, low GWP), renewable integration, fair access, and circular end-of-life management.",
+      "details": "Sustainable cooling reduces **both direct and indirect** emissions while ensuring **fair, affordable access**.\n\n1. **Energy savings** — energy-efficient ACs, fridges, freezers, cold storage, chillers; reduce thermal load with **passive design** (ventilation, insulation, shading).\n2. **Environmentally friendly refrigerants** — **zero ODP** (Ozone Depleting Potential, protects ozone layer) and **low GWP** (doesn't drive warming).\n3. **Renewable energy integration** — e.g. **solar-powered cooling**.\n4. **Fair and affordable access** — e.g. **cold storage for traditional fishers** and village cooperatives.\n5. **Circular economy & end-of-life management** — recover used refrigerants (not vented), **recycle** cooling units.\n\nConnects ozone protection (Montreal Protocol), climate mitigation, energy (SDG 7) and equity in one framework.",
+      "keyTerms": [
+        "sustainable cooling",
+        "passive design",
+        "zero ODP",
+        "low GWP",
+        "solar cooling",
+        "circular economy"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            29
+          ]
+        }
+      ],
+      "examTips": "List the five principles; explain which address direct vs indirect emissions; ODP vs GWP."
+    },
+    {
+      "id": "m6.mitigation-effort",
+      "label": "Mitigation efforts",
+      "type": "example",
+      "module": "M6",
+      "parent": "m6.part3",
+      "summary": "Three-level response to extreme heat: city blue/green infrastructure and disaster preparedness, community shaded shelters, individual hydration, fans, AC and clothing.",
+      "details": "Slide 30 (\"Mitigation effort\", images from **Nastiti & Amir, Eds., 2022**, ITB Press free book) shows how to reduce **heat risk** at three overlapping levels (three circles):\n\n1. **City level – blue/green infrastructure and disaster preparedness.** Labelled photo: **heat-reflective building materials**, **city parks/urban forest**, **green roofs/green walls**, **greening of pedestrian paths**, **porous paving**, and **city retention ponds (embung)**.\n2. **Community level – vernacular gathering spaces for shelter**, e.g. a shaded communal platform (\"naungan vernakular\") in **Galur, Jakarta**.\n3. **Individual level – hydration, bathing, air conditioning, fans, clothing adjustments**, etc.\n\n**Terminology caution**: the slide says \"mitigation\" in the disaster-risk sense (reducing the *impact* of heat). In climate-policy terms most of these are **adaptation** (Paris goal 2); climate **mitigation** means cutting GHG emissions or enhancing sinks (Paris goal 1).\n\nGood answers note overlaps: **urban trees, green roofs and parks** cool cities *and* store some carbon (co-benefit), while **air conditioning** helps people adapt but raises electricity use and emissions (maladaptation risk) — linking to sustainable cooling.",
+      "keyTerms": [
+        "mitigation",
+        "adaptation",
+        "emission reduction"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            30
+          ]
+        }
+      ],
+      "examTips": "Name the three levels (city, community, individual) with one example each, and explain why AC is adaptation that can undermine mitigation."
+    },
+    {
+      "id": "m6.part4",
+      "label": "6.4 What can we do?",
+      "type": "topic",
+      "module": "M6",
+      "parent": "m6",
+      "summary": "Where emissions come from and how to cut them: carbon sequestration, tropical peatland protection, CCUS, and AFOLU mitigation.",
+      "details": "Part 6.4 moves to solutions:\n\n- **GHG sources** (IPCC 2023, 2019 data): energy 34%, industry 24%, **AFOLU 22%**, transport 15%, buildings 6%.\n- **Carbon sequestration**: removing/diverting CO₂ and storing it — **biological, geological, technological**.\n- **Tropical peatlands**: huge carbon stores formed under waterlogged conditions; **drainage, deforestation and fire** turn them into major emission sources, especially in **Indonesia**.\n- **CCUS**: capture → transport → utilise or store CO₂.\n- **AFOLU mitigation**: afforestation/reforestation/restoration, agroforestry, soil carbon, bioenergy.\n- **Discussion**: personal climate-friendly behaviour.",
+      "keyTerms": [
+        "GHG sources",
+        "carbon sequestration",
+        "peatland",
+        "CCUS",
+        "AFOLU"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.ghg-sources",
+      "label": "GHG emissions by sector",
+      "type": "data",
+      "module": "M6",
+      "parent": "m6.part4",
+      "summary": "2019 global GHG emissions (IPCC 2023): energy 34%, industry 24%, AFOLU 22%, transport 15%, buildings 6%.",
+      "details": "Global anthropogenic GHG emissions in **2019** (IPCC 2023):\n\n| Sector | Share | GtCO₂-eq |\n|---|---|---|\n| **Energy** | 34% | 20 |\n| **Industry** | 24% | 14 |\n| **AFOLU** (Agriculture, Forestry, Other Land Use) | 22% | 13 |\n| **Transport** | 15% | 8.7 |\n| **Buildings** | 6% | 3.3 |\n\nThe slide's stacked-area chart (**1850–2019**) shows total emissions rising from a few GtCO₂-eq/yr to **~59 GtCO₂-eq/yr in 2019**, in three layers: **CO₂ from fossil fuels and industry** (largest, ~38 Gt, growing fastest after 1950), **CO₂ from LULUCF**, and **non-CO₂ gases** (CH₄, N₂O, F-gases).\n\nNotes from the lecturer:\n- About **half of AFOLU net emissions are CO₂ from LULUCF**, mainly **deforestation**.\n- Efficiency gains (energy per GDP, carbon per energy) were **smaller than growth in activity**, so emissions kept rising.\n- **Inequality**: the top **10%** of households by per-capita emissions cause **34–45%** of consumption-based household emissions; the middle 40% cause 40–53%; the bottom **50%** only **13–15%**.\n- **Urban share** of emissions rose from ~62% to **67–72%** (2015–2020).",
+      "keyTerms": [
+        "energy 34%",
+        "AFOLU 22%",
+        "LULUCF",
+        "deforestation",
+        "top 10% emitters",
+        "IPCC 2023"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            32
+          ]
+        }
+      ],
+      "examTips": "Remember the order Energy > Industry > AFOLU > Transport > Buildings; AFOLU is especially relevant for Indonesia."
+    },
+    {
+      "id": "m6.carbon-sequestration",
+      "label": "Carbon sequestration",
+      "type": "definition",
+      "module": "M6",
+      "parent": "m6.part4",
+      "summary": "Natural or artificial removal/diversion of CO₂ from the atmosphere or emission sources, stored in oceans, land (vegetation, soil) or geological formations.",
+      "details": "**Definition (UC Davis):** natural or artificial processes by which **CO₂ is removed from the atmosphere or diverted from emission sources**, then **stored** in the **ocean**, **terrestrial environments** (vegetation, soil, sediments) and **geological formations**.\n\n**Three types:**\n1. **Biological** — CO₂ stored in vegetation (grasslands, forests), soils and oceans. E.g. forests, mangroves, peatlands.\n2. **Geological** — CO₂ captured from industrial (steel, cement) or energy sources (power plants, gas processing) and **injected into porous rock** underground for long-term storage.\n3. **Technological** — innovative removal and use of CO₂:\n   - **Graphene production** using CO₂ as feedstock (used in smartphone screens).\n   - **Direct Air Capture (DAC)** — effective but energy-intensive and expensive (**USD 500–800 per tonne**).\n   - **Engineered molecules** that change shape and act as filters capturing CO₂.\n\nTrend: from just removing CO₂ toward treating it as a **resource**.",
+      "keyTerms": [
+        "carbon sequestration",
+        "biological",
+        "geological",
+        "technological",
+        "DAC",
+        "graphene"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            33
+          ]
+        }
+      ],
+      "examTips": "Know the definition and the three types with one example each. DAC cost USD 500–800/t is a good detail."
+    },
+    {
+      "id": "m6.peatland",
+      "label": "Tropical peatlands",
+      "type": "topic",
+      "module": "M6",
+      "parent": "m6.part4",
+      "summary": "Waterlogged soils of partly decomposed plant matter storing huge carbon; disturbance (drainage, deforestation, fire) makes Indonesia's peatlands major emitters.",
+      "details": "**Tropical peatlands** are thick layers of partly decomposed organic matter that accumulate where waterlogging slows decomposition. They are among the world's largest land carbon stores (globally, peatlands cover ~3% of land but hold twice the carbon of all forests).\n\nSub-topics:\n- **Carbon cycle** — photosynthesis in, respiration/decomposition/fire out; water table decides CO₂ vs CH₄.\n- **Formation** — rain + lateral inflow > evapotranspiration → waterlogged → production > decomposition → peat builds up (avg 5.5–7 m, up to 20 m deep).\n- **Disturbance in Indonesia** — drainage + deforestation → aerobic \"cold fire\" decomposition (steady CO₂), plus **peat fires** in dry/El Niño years (huge episodic CO₂).\n- **Peatland fires** — annual dry-season disaster, haze, airport closures.\n\nKey lever: **keep peat wet** (rewetting, canal blocking) — links to AFOLU restoration and nature-based solutions.",
+      "keyTerms": [
+        "peatland",
+        "water table",
+        "carbon store",
+        "drainage",
+        "peat fire"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            34,
+            35,
+            36,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "examTips": "Explain why drained peat emits CO₂ even without burning (cold fire), and why water table level is the key control."
+    },
+    {
+      "id": "m6.peat.carbon-cycle",
+      "label": "Carbon cycle in tropical peatland",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.peatland",
+      "summary": "CO₂ fixed by photosynthesis (GPP) minus respiration gives NPP; litter decomposes aerobically (CO₂) above the water table or anaerobically (CH₄) below it.",
+      "details": "Slide 34 diagram (modified from Luo & Zhuo 2006; Page et al. 2011) stacks four layers: **vegetation**, **oxic peat**, **anoxic peat**, **mineral subsoil**.\n\n- **Input**: plants fix CO₂ by **photosynthesis** = **Gross Primary Production (GPP)**.\n- Part returns via **autotrophic respiration**, **Rp = Ra + Rb** (above-ground Ra, root Rb).\n- **Net Primary Production: NPP = GPP − Rp** → above- and below-ground biomass.\n- Dead vegetation (**litter**) enters the peat.\n- **Oxic peat** (above the water table) → **aerobic decomposition** by bacteria/fungi → **CO₂**.\n- **Anoxic peat** (waterlogged) → slower **anaerobic decomposition** by methanogens → **CH₄** (low in tropical vs northern peatlands). (The slide's \"aerobic organic matter\" label on this layer appears to be a typo.)\n- **Soil respiration (Rs)** = root respiration + microbial respiration (**Rm**); **ecosystem respiration** = Ra + soil respiration.\n- Other losses: **fire** (CO₂ straight to air), **DOC/POC** carried to the **water system**, and **leaching/erosion** to the mineral subsoil.\n- **Net Ecosystem Exchange (NEE)** (dashed line at the top) = GPP minus ecosystem respiration — whether the peat forest is a net **sink or source**.\n\nKey lever: the **water table** decides CO₂ vs CH₄; draining peat switches it to aerobic CO₂ release.",
+      "keyTerms": [
+        "GPP",
+        "NPP",
+        "autotrophic respiration",
+        "aerobic decomposition",
+        "anaerobic decomposition",
+        "NEE",
+        "methane"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.peat.formation",
+      "label": "Peatland formation & carbon capture",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.peatland",
+      "summary": "Peat forms when water input exceeds evapotranspiration and plant production exceeds decomposition; tropical peat averages 5.5–7 m deep, up to 20 m.",
+      "details": "**Conditions for formation:**\n- **Water supply** (precipitation + lateral inflows) **> evapotranspiration** → **waterlogged** soil, water table near surface, low oxygen → **slow decomposition**.\n- **Plant production rate > decomposition rate** → accumulation of thick organic layers = **peat formation**.\n- Climate: **annual rainfall 1,500–3,000 mm**, **temperature 22–35 °C** — high productivity; decomposers would be active, but high water level restricts oxygen.\n- Large, flat, wet areas. Dead roots, stems, branches of peat swamp forest are the main contributors.\n\n**Carbon store facts:**\n- Accumulation began in the **late Pleistocene (30,000–22,000 ¹⁴C yr BP)**.\n- Accumulation rate **7.4 to > 90 g C/m²/yr** (Page et al. 2004).\n- Deposits up to **20 m** deep, **average 5.5–7 m**; SE Asian peat is ~**50% carbon** by dry mass.\n\nToday, **land-use change (drainage + deforestation)** is the largest driver of peat loss.",
+      "keyTerms": [
+        "waterlogged",
+        "evapotranspiration",
+        "production > decomposition",
+        "Pleistocene",
+        "5.5-7 m",
+        "1500-3000 mm"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m6.peat.disturbance",
+      "label": "Peatland disturbance in Indonesia",
+      "type": "case-study",
+      "module": "M6",
+      "parent": "m6.peatland",
+      "summary": "Logging, drainage and conversion dry out peat: steady 'cold fire' decomposition plus episodic dry-season fires release huge CO₂; Indonesia degrades fastest.",
+      "details": "**Most rapid tropical peatland degradation is in Indonesia** (Page et al. 2011), driven by economic and social pressure for timber and agriculture.\n\n**Drivers:** **deforestation** (illegal logging since the early 1970s), **conversion** to agriculture, and **drainage** canals built to support both.\n- **26.63 Mha (47.72%)** of Borneo's 55.81 Mha of forest (1973) had been logged by **2010** (Gaveau et al. 2014).\n\n**Two emission pathways:**\n1. **Drainage → lower groundwater level → upper peat turns aerobic → microbial decomposition** = **\"cold fire\"**: a **steady**, continuous emission of large CO₂ amounts.\n2. **Peatland fire** — in **dry seasons**, low water table makes peat flammable; land is cleared by **burning** (cheapest method); fires last months, especially in **El Niño** years → **occasional but extensive** emissions.\n\nSolution direction: restore hydrology (canal blocking/rewetting), stop burning, reforest.",
+      "keyTerms": [
+        "drainage",
+        "deforestation",
+        "cold fire",
+        "aerobic decomposition",
+        "El Niño",
+        "Borneo 47.72%"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            36
+          ]
+        }
+      ],
+      "examTips": "Contrast steady 'cold fire' emissions vs occasional extensive fire emissions; name the three disturbances (fire, drainage, deforestation)."
+    },
+    {
+      "id": "m6.peat.fires",
+      "label": "Peatland fires in Indonesia",
+      "type": "example",
+      "module": "M6",
+      "parent": "m6.peatland",
+      "summary": "Recurring dry-season disaster: Palangka Raya hotspots peak in ENSO years (5,258 in 2015), sending haze to Malaysia and Singapore and closing schools and airports.",
+      "details": "- **Peatland fires happen almost every year**, especially in the **dry season** (high temperature, low rainfall).\n- **Headlines (slide 39)**: haze forces masks in **Central Kalimantan**; ≥38 hotspots detected in **Jambi**; Sumatra fires **close schools and an airport** and strain relations with **Malaysia**; CNN: \"Malaysia and Singapore are choking on the fumes\" (**Sept 2019**); **Singapore shuts schools** (**Sept 2015**); smoke \"claims another life\".\n- **Chart (slide 40)**: **MODIS hotspot counts within 50 km of Palangka Raya, Central Kalimantan, 2001–2017**. Red bars = **ENSO (El Niño) years**: **2002 (4,393)**, **2006 (2,987)**, **2009 (3,268)**, **2015 (5,258 – the peak)**. Non-ENSO years are usually low (e.g. 27 in 2007 and 2010, 21 in 2017), though 2014 reached 2,056.\n- Smoke causes heavy **air pollution** and low **visibility**, forcing **airports to stop operating**.\n- **Slide 41**: Copernicus (CAMS) satellite map of **smoke plumes over Sumatra and Kalimantan** drifting across the region – **transboundary haze**.\n- The slides title these as fires driven by **land use** on peat (the specific land-use types are not itemised on the slides).\n\nLinks: AFOLU emissions, health (SDG 3), life on land (SDG 15), and regional **spillovers**.",
+      "keyTerms": [
+        "peat fire",
+        "haze",
+        "MODIS hotspots",
+        "Palangka Raya",
+        "ENSO",
+        "El Niño"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "examTips": "Link ENSO/El Niño drought to fire peaks (2015 highest). Haze is a transboundary spillover – a commons/regional-governance issue."
+    },
+    {
+      "id": "m6.ccus",
+      "label": "Carbon Capture, Utilization & Storage (CCUS)",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.part4",
+      "summary": "Capture CO₂ from industrial sources or air, compress and transport it, then either use it (CCU) or store it permanently underground (CCS).",
+      "details": "**CCUS** captures CO₂ from industrial sources or directly from the atmosphere, then **stores it permanently** underground or **uses it** as feedstock, reducing CO₂ released to the air.\n\nSlide 37 diagrams: **CO₂ source → CO₂ capturing →** branches into\n- **CCU – Carbon Capture and Utilisation** (CO₂ utilisation), or\n- **CCS – Carbon Capture and Storage** (CO₂ storage).\nCCUS is the umbrella for both. The second infographic shows the chain **sources → capture → compression & liquefaction → transportation (ship) → storage (injection well) / utilisation**.\n\n**How it works (notes):**\n1. **Capture** — separate CO₂ from power-plant/industry flue gas, or from air (DAC).\n2. **Transport** — compress and move CO₂, usually by **pipeline** (or by ship, as pictured).\n3. **Utilise or Store**:\n   - **Utilisation (\"U\")**: **fuels, chemicals, building aggregates (concrete)**, or **enhanced oil recovery (EOR)**.\n   - **Storage**: inject into **geological formations** — depleted **oil and gas reservoirs**, **deep saline aquifers**, **unmineable coal seams**.\n\nCCUS is engineered **geological/technological sequestration**, mainly for hard-to-abate sectors (cement, steel, power).",
+      "keyTerms": [
+        "CCUS",
+        "capture",
+        "transport",
+        "utilization",
+        "storage",
+        "EOR",
+        "saline aquifer"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            37
+          ]
+        }
+      ],
+      "examTips": "Distinguish CCU (CO₂ becomes a product) from CCS (CO₂ is locked away permanently); CCUS covers both."
+    },
+    {
+      "id": "m6.afolu",
+      "label": "Reducing AFOLU emissions",
+      "type": "concept",
+      "module": "M6",
+      "parent": "m6.part4",
+      "summary": "AFOLU mitigation (afforestation, reforestation, restoration, agroforestry, soil carbon, bioenergy) can cut emissions and boost sequestration, with land-use trade-offs.",
+      "details": "**AFOLU = Agriculture, Forestry and Other Land Use** (22% of global emissions). If implemented sustainably, AFOLU options give **large-scale emission reductions and more CO₂ sequestration** (IPCC AR6 WG3 Ch. 7).\n\n**High-potential strategies:**\n- **Afforestation** — new forest on land not forested in recent decades (critical land, grassland, ex-mines). Avoid natural non-forest ecosystems (savanna, swamps) to protect biodiversity.\n- **Reforestation** — restore forest on recently lost forest land (after fire, logging, conversion), by planting or **assisted natural regeneration**, ideally native species.\n- **Ecosystem/forest restoration** — restore structure, function and services, not just planting trees: stop disturbance, **restore hydrology (e.g. blocking peat canals)**, improve soil, recover biodiversity.\n- **Agroforestry** — integrate trees/shrubs with crops and/or livestock on the same land for mutual benefit.\n- **Soil carbon management** and **bioenergy** in agriculture.\n\n**Barriers/trade-offs**: climate impacts, competition for land, conflicts with **food security** and livelihoods, complex land tenure, cultural factors.",
+      "keyTerms": [
+        "AFOLU",
+        "afforestation",
+        "reforestation",
+        "restoration",
+        "agroforestry",
+        "soil carbon",
+        "trade-off"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            38
+          ]
+        }
+      ],
+      "examTips": "Distinguish afforestation vs reforestation vs restoration — a common confusion."
+    },
+    {
+      "id": "m6.discussion",
+      "label": "Discussion: climate-friendly behaviour",
+      "type": "debate",
+      "module": "M6",
+      "parent": "m6.part4",
+      "summary": "Has climate change changed your behaviour? Which habits are climate-friendly? What will you do to support a climate-friendly lifestyle?",
+      "details": "**Questions (slide 42):**\n1. Do you feel climate change has changed your life or behaviour?\n2. Do you recognise climate-friendly behaviours or habits?\n3. What will you do to support a climate-friendly lifestyle?\n\n**Model answer outline:**\n- **Felt impacts**: hotter days and more AC/fan use (urban heat), floods/rob in coastal cities, haze from peat fires, changing rainy seasons.\n- **Climate-friendly habits**: public transport, cycling or walking; saving electricity; choosing efficient appliances and setting AC sensibly; reducing food waste and meat; reducing single-use plastic; repairing/recycling (circular economy).\n- **Commitments**: link personal action to **SDG 12** (responsible consumption) and **SDG 11/7**; support policy (NDC, peatland protection); remember that the **top 10% of emitters** cause a large share of household emissions, so lifestyle choices of the affluent matter most.\n- Acknowledge limits: individual action helps, but systemic change (energy transition, land-use policy) is decisive.",
+      "keyTerms": [
+        "climate-friendly lifestyle",
+        "behaviour change",
+        "SDG 12"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            42
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "m6.paris.gst",
+      "target": "m6.indonesia-sndc",
+      "type": "builds-on",
+      "label": "SNDC responds to the 1st Global Stocktake"
+    },
+    {
+      "source": "m6.mid-critical-2025",
+      "target": "m6.paris.gst",
+      "type": "related",
+      "label": "stocktaking as follow-up; GST concluded COP28"
+    },
+    {
+      "source": "m6.paris.sovereignty",
+      "target": "m6.indonesia-commitment",
+      "type": "applies-to",
+      "label": "Indonesia's targets are its NDC"
+    },
+    {
+      "source": "m6.paris.cbdr",
+      "target": "m6.sndc.projection",
+      "type": "applies-to",
+      "label": "conditional targets depend on international funding"
+    },
+    {
+      "source": "m6.indonesia-commitment",
+      "target": "m6.indonesia-sndc",
+      "type": "builds-on",
+      "label": "2030 targets updated to absolute 2035 targets"
+    },
+    {
+      "source": "m6.kiribati",
+      "target": "m6.sdg13-to-others",
+      "type": "example-of",
+      "label": "SIDS as most vulnerable group"
+    },
+    {
+      "source": "m6.urban-heat",
+      "target": "m6.sdg13-to-others",
+      "type": "example-of",
+      "label": "heat impacts differ by socio-economic status"
+    },
+    {
+      "source": "m6.ac-adaptation",
+      "target": "m6.cooling-emissions",
+      "type": "causes",
+      "label": "more AC → more direct and indirect emissions"
+    },
+    {
+      "source": "m6.cooling-emissions",
+      "target": "m6.ghg.gwp",
+      "type": "related",
+      "label": "HFC/HCFC refrigerants have high GWP"
+    },
+    {
+      "source": "m6.natural-sinks",
+      "target": "m6.carbon-sequestration",
+      "type": "example-of",
+      "label": "biological sequestration"
+    },
+    {
+      "source": "m6.natural-sinks",
+      "target": "m6.peatland",
+      "type": "related",
+      "label": "peatlands store 2× carbon of all forests"
+    },
+    {
+      "source": "m6.ccus",
+      "target": "m6.carbon-sequestration",
+      "type": "example-of",
+      "label": "geological/technological sequestration"
+    },
+    {
+      "source": "m6.peat.disturbance",
+      "target": "m6.ghg-sources",
+      "type": "causes",
+      "label": "LULUCF/deforestation share of AFOLU emissions"
+    },
+    {
+      "source": "m6.afolu",
+      "target": "m6.peat.disturbance",
+      "type": "related",
+      "label": "restoration incl. blocking peat canals (rewetting)"
+    },
+    {
+      "source": "m6.semarang",
+      "target": "m6.natural-sinks",
+      "type": "related",
+      "label": "mangroves protect coast and store carbon"
+    },
+    {
+      "source": "m6.ghg-sources",
+      "target": "m6.afolu",
+      "type": "related",
+      "label": "AFOLU = 22% of global emissions"
+    }
+  ],
+  "crossModuleIdeas": [
+    {
+      "from": "m6.ghg",
+      "toModule": "M2",
+      "concept": "Planetary boundaries (climate change boundary)",
+      "type": "related",
+      "reason": "GHG concentration rise is the climate-change planetary boundary"
+    },
+    {
+      "from": "m6.paris.cbdr",
+      "toModule": "M4",
+      "concept": "Global North vs Global South",
+      "type": "related",
+      "reason": "differentiated responsibility by historical emissions and capability"
+    },
+    {
+      "from": "m6.paris.cbdr",
+      "toModule": "M5",
+      "concept": "Science, Technology & Innovation / Technology Facilitation Mechanism (TFM)",
+      "type": "related",
+      "reason": "slide cites TFM and funding for respective capabilities"
+    },
+    {
+      "from": "m6.others-to-sdg13",
+      "toModule": "M7",
+      "concept": "SDG interlinkages (synergies and trade-offs)",
+      "type": "builds-on",
+      "reason": "two-way SDG13 links are a specific case of SDG interlinkages"
+    },
+    {
+      "from": "m6.natural-sinks",
+      "toModule": "M4",
+      "concept": "Ecosystem services (regulating services)",
+      "type": "related",
+      "reason": "carbon sequestration is a regulating ecosystem service"
+    },
+    {
+      "from": "m6.peatland",
+      "toModule": "M5",
+      "concept": "SDG 15 / Nature-based Solutions / IBSAP",
+      "type": "related",
+      "reason": "peatland protection and rewetting as NbS for life on land"
+    },
+    {
+      "from": "m6.ghg.gwp",
+      "toModule": "M4",
+      "concept": "Ozone layer / Montreal Protocol",
+      "type": "related",
+      "reason": "CFC/HCFC are ODS and GHGs; regulated under Montreal"
+    },
+    {
+      "from": "m6.ghg-sources",
+      "toModule": "M3",
+      "concept": "Overconsumption / ecological footprint",
+      "type": "related",
+      "reason": "top 10% emitters cause 34–45% of household emissions"
+    },
+    {
+      "from": "m6.ac-adaptation",
+      "toModule": "M3",
+      "concept": "Dual role of technology (IPAT T)",
+      "type": "related",
+      "reason": "AC as technology that both helps adaptation and increases impact"
+    },
+    {
+      "from": "m6.indonesia-commitment",
+      "toModule": "M5",
+      "concept": "SDGs in Indonesia (TPB, VNR)",
+      "type": "related",
+      "reason": "national climate commitments within Indonesia's SDG framework"
+    },
+    {
+      "from": "m6.sustainable-cooling",
+      "toModule": "M7",
+      "concept": "Food-Energy-Water nexus",
+      "type": "related",
+      "reason": "cooling links energy use with cold-chain food storage for fishers"
+    }
+  ],
+  "needsImageCheck": []
+}

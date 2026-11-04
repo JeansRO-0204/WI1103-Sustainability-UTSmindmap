@@ -1,0 +1,108 @@
+import { useState } from 'react'
+import { descendants, originalUrl, pdfUrl, thumbUrl, type Data } from './data'
+import { SlideImg } from './ui'
+
+export interface Hits { nodes: string[]; slides: { module: string; slide: number; title: string; snippet: string }[] }
+
+interface Props {
+  data: Data
+  reviewed: Set<string>
+  query: string
+  setQuery: (q: string) => void
+  inputRef: React.RefObject<HTMLInputElement | null>
+  hits: Hits | null
+  onFly: (id: string) => void
+  onSlide: (m: string, s: number) => void
+  onFirstHit: () => void
+}
+
+export default function Sidecar({ data, reviewed, query, setQuery, inputRef, hits, onFly, onSlide, onFirstHit }: Props) {
+  const [open, setOpen] = useState<string | null>(null)
+  const total = data.graph.nodes.length, done = [...reviewed].filter((i) => data.nodes.has(i)).length
+  return (
+    <aside className="side">
+      <div className="brand">
+        <h1>WI1103 Sustainability</h1>
+        <div className="prog"><div style={{ width: `${(done / total) * 100}%` }} /></div>
+        <small>{done} / {total} concepts reviewed{data.sample && <span className="sample"> &middot; SAMPLE DATA</span>}</small>
+      </div>
+      <div className="search">
+        <input
+          ref={inputRef} value={query} placeholder="Search concepts and slide text  ( / )"
+          onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={(e) => { if (e.key === 'Escape') { setQuery(''); (e.target as HTMLInputElement).blur() } else if (e.key === 'Enter') onFirstHit() }}
+        />
+        {query && <button className="icon" onClick={() => setQuery('')}>&#10005;</button>}
+      </div>
+      <div className="side-scroll">
+        {hits ? (
+          <div className="results">
+            <h6>Concepts ({hits.nodes.length})</h6>
+            {hits.nodes.slice(0, 12).map((id) => {
+              const n = data.nodes.get(id)!
+              return (
+                <button key={id} className="hit-row" style={{ ['--c' as any]: data.moduleColor(n.module) }} onClick={() => onFly(id)}>
+                  <b>{n.label}</b><span>{n.module ?? 'core'} &middot; {n.summary}</span>
+                </button>
+              )
+            })}
+            <h6>Slides ({hits.slides.length})</h6>
+            {hits.slides.slice(0, 14).map((s) => (
+              <button key={s.module + s.slide} className="hit-row" style={{ ['--c' as any]: data.moduleColor(s.module) }} onClick={() => onSlide(s.module, s.slide)}>
+                <b>[{s.module} s{s.slide}] {s.title}</b><span dangerouslySetInnerHTML={{ __html: s.snippet }} />
+              </button>
+            ))}
+            {!hits.nodes.length && !hits.slides.length && <p className="empty">No matches.</p>}
+          </div>
+        ) : (
+          data.modules.map((m) => {
+            const ids = data.graph.nodes.filter((n) => n.module === m.id).map((n) => n.id)
+            const r = ids.filter((i) => reviewed.has(i)).length
+            const deck = data.decks.get(m.id) ?? []
+            const isOpen = open === m.id
+            const modNode = data.nodes.get(m.id.toLowerCase()) ?? data.nodes.get(m.id.toLowerCase() + '.themes')
+            const topics = modNode ? descendants(data, modNode.id).filter((i) => (data.depth.get(i) ?? 9) <= (data.depth.get(modNode.id) ?? 0) + 2) : []
+            const color = data.moduleColor(m.id)
+            return (
+              <div key={m.id} className={'mod' + (isOpen ? ' open' : '')} style={{ ['--c' as any]: color }}>
+                <button className="mod-head" onClick={() => setOpen(isOpen ? null : m.id)}>
+                  <span className="dot" />
+                  <span className="mt"><b>{m.id}</b>{m.week ? ` · W${m.week}` : ''}<br /><span>{m.title}</span></span>
+                  <span className="cnt">{ids.length ? `${r}/${ids.length}` : ''}</span>
+                </button>
+                <div className="prog thin"><div style={{ width: ids.length ? `${(r / ids.length) * 100}%` : 0 }} /></div>
+                {isOpen && (
+                  <div className="mod-body">
+                    <div className="links">
+                      {import.meta.env.DEV && (m.slideCount ?? 0) > 0 && <a href={pdfUrl(m.id)} target="_blank" rel="noreferrer">Open PDF</a>}
+                      {import.meta.env.DEV && m.file && <a href={originalUrl(m)} target="_blank" rel="noreferrer">Original file</a>}
+                      <button onClick={() => modNode && onFly(modNode.id)}>Show on map</button>
+                    </div>
+                    <div className="strip">
+                      {deck.map((c) => (
+                        <button key={c.slide} className="thumb" onClick={() => onSlide(m.id, c.slide)} title={c.title}>
+                          <SlideImg src={thumbUrl(c)} label={String(c.slide)} /><span>{c.slide}</span>
+                        </button>
+                      ))}
+                    </div>
+                    <ul className="topics">
+                      {topics.map((i) => {
+                        const n = data.nodes.get(i)!
+                        const lvl = (data.depth.get(i) ?? 0) - (data.depth.get(modNode!.id) ?? 0)
+                        return (
+                          <li key={i} style={{ paddingLeft: 6 + (lvl - 1) * 14 }} className={reviewed.has(i) ? 'done' : ''}>
+                            <button onClick={() => onFly(i)}>{reviewed.has(i) ? '✓ ' : ''}{n.label}</button>
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            )
+          })
+        )}
+      </div>
+    </aside>
+  )
+}

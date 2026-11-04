@@ -1,0 +1,7 @@
+# lecturer originals and PDF copies stay local (copyright; also 150 MB)
+ppt/
+app/public/pdf/
+node_modules/
+dist/
+.DS_Store
+.claude/settings.local.json
