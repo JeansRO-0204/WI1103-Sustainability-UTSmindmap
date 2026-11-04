@@ -103,6 +103,20 @@ export default function Sidecar({ data, reviewed, query, setQuery, inputRef, hit
           })
         )}
       </div>
+      <div className="gh-foot">
+        <a className="gh-link" href="https://github.com/JeansRO-0204/WI1103-Sustainability-UTSmindmap" target="_blank" rel="noreferrer">&#9733; GitHub repository</a>
+        <details>
+          <summary>Clone &amp; query with AI</summary>
+          <p>Works offline with any AI tool, no API key.</p>
+          <pre>{`git clone https://github.com/JeansRO-0204/WI1103-Sustainability-UTSmindmap.git
+cd WI1103-Sustainability-UTSmindmap`}</pre>
+          <p><b>Agent tools</b> (Claude Code, Codex, Gemini CLI, Cursor): open the folder and ask. They read <code>AGENTS.md</code>.</p>
+          <p><b>Any chat:</b></p>
+          <pre>{`python3 tools/query.py "your question" --prompt | pbcopy`}</pre>
+          <p>then paste it into any model (use <code>clip</code> on Windows, <code>xclip</code> on Linux).</p>
+          <p><b>MCP:</b> <code>.mcp.json</code> registers the search tools.</p>
+        </details>
+      </div>
     </aside>
   )
 }
