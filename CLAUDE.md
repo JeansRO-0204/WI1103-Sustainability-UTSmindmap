@@ -1,6 +1,6 @@
 # WI1103 Sustainability midterm study kit
 
-Course WI1103 (ITB), midterm Sat 7 Nov 2026, weeks 1-7 (M1-M7). Source slides in `ppt/` (local only, not in the GitHub repo; rebuild steps need them, querying does not).
+Course WI1103 (ITB), midterm Sat 7 Nov 2026, weeks 1-7 (M1-M7). Source slides in `ppt/`.
 
 ## Layout
 - `ppt/` originals (do not edit). `build/extract.py` -> `knowledge/chunks.jsonl` (one line per slide: id `M3-s21`, title, text, notes, image) and `knowledge/corpus.md` (all slides, readable).
@@ -24,4 +24,4 @@ python3 build/validate.py           # must exit 0
 cd app && npm install && npm run build   # static site in app/dist
 npm run dev                         # dev server on :5173 (preview config "mindmap" in .claude/launch.json)
 ```
-`npm run preview` serves dist on :4173. PDF/original-file links appear only in dev (files are not published). Pushing to `main` deploys app/dist to GitHub Pages via .github/workflows/pages.yml.
+`npm run preview` serves dist on :4173. Originals (`ppt/`) and PDFs (`app/public/pdf/`) are published with the site. Pushing to `main` deploys app/dist to GitHub Pages via .github/workflows/pages.yml.

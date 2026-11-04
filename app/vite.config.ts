@@ -35,6 +35,9 @@ function knowledgePlugin(): Plugin {
     generateBundle() {
       this.emitFile({ type: 'asset', fileName: 'data/graph.json', source: fs.readFileSync(graphPath()) })
       this.emitFile({ type: 'asset', fileName: 'data/chunks.jsonl', source: fs.readFileSync(path.join(know, 'chunks.jsonl')) })
+      const pptDir = path.join(repo, 'ppt')
+      if (fs.existsSync(pptDir)) for (const f of fs.readdirSync(pptDir)) if (!f.startsWith('.'))
+        this.emitFile({ type: 'asset', fileName: 'ppt/' + f, source: fs.readFileSync(path.join(pptDir, f)) })
     },
   }
 }

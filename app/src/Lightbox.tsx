@@ -26,8 +26,8 @@ export default function Lightbox({ data, module, slide, onSlide, onClose, onNode
           <b style={{ color: data.moduleColor(module) }}>{module}</b>
           <span className="lb-title">{c?.title || `Slide ${slide}`}</span>
           <span className="lb-pos">{slide} / {deck.length || '?'}</span>
-          {import.meta.env.DEV && <a href={pdfUrl(module, slide)} target="_blank" rel="noreferrer">Open PDF page</a>}
-          {import.meta.env.DEV && mod?.file && <a href={originalUrl(mod)} target="_blank" rel="noreferrer">Original file</a>}
+          {<a href={pdfUrl(module, slide)} target="_blank" rel="noreferrer">Open PDF page</a>}
+          {mod?.file && <a href={originalUrl(mod)} target="_blank" rel="noreferrer">Original file</a>}
           <button className="icon" onClick={onClose} title="Close (Esc)">&#10005;</button>
         </div>
         <div className="lb-main">

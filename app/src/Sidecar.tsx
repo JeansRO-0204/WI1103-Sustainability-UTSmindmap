@@ -74,8 +74,8 @@ export default function Sidecar({ data, reviewed, query, setQuery, inputRef, hit
                 {isOpen && (
                   <div className="mod-body">
                     <div className="links">
-                      {import.meta.env.DEV && (m.slideCount ?? 0) > 0 && <a href={pdfUrl(m.id)} target="_blank" rel="noreferrer">Open PDF</a>}
-                      {import.meta.env.DEV && m.file && <a href={originalUrl(m)} target="_blank" rel="noreferrer">Original file</a>}
+                      {(m.slideCount ?? 0) > 0 && <a href={pdfUrl(m.id)} target="_blank" rel="noreferrer">Open PDF</a>}
+                      {m.file && <a href={originalUrl(m)} target="_blank" rel="noreferrer">Original file</a>}
                       <button onClick={() => modNode && onFly(modNode.id)}>Show on map</button>
                     </div>
                     <div className="strip">

@@ -17,4 +17,4 @@ claude          # then ask, e.g. "how does CBDR-RC connect to the Global South?"
 - `app/` Vite + React mindmap; `app/public/slides/` rendered slide images
 - `build/`, `tools/` pipeline, validator, query CLI
 
-Original lecture files are not in this repo. Content is the author's study notes derived from course slides; check slides for exam-critical figures.
+Original lecture files (`ppt/`) and PDFs are included. Content is the author's study notes derived from course slides; check slides for exam-critical figures.
