@@ -1,0 +1,245 @@
+{
+ "Sustainability basics & dimensions": {
+  "module": "M1",
+  "nodeIds": [
+   "m1.open-ended-definition",
+   "m1.history",
+   "m1.history.brundtland",
+   "m1.dimensions",
+   "m1.doughnut",
+   "m1.laws-of-ecology",
+   "m5.sd-definition",
+   "core.themes"
+  ]
+ },
+ "Environmental ethics": {
+  "module": "M1",
+  "nodeIds": [
+   "m1.dominion-thesis",
+   "m1.human-centred.anthropocentrism",
+   "m1.conserve-vs-preserve",
+   "m1.land-ethic",
+   "m1.land-ethic.ecocentrism",
+   "m1.dam-dilemma"
+  ]
+ },
+ "Tragedy of the commons": {
+  "module": "M2",
+  "nodeIds": [
+   "m2.hardin-tragedy",
+   "m2.commons-vs-open-access",
+   "m2.tragedy-not-commons",
+   "m2.tragedy-not-commons.barambang-katute",
+   "core.commons"
+  ]
+ },
+ "Planetary boundaries": {
+  "module": "M2",
+  "nodeIds": [
+   "m2.pb-framework",
+   "m2.pb-status-2025",
+   "m2.nine-boundaries",
+   "m2.pb.climate-change",
+   "m2.doughnut-link",
+   "core.limits"
+  ]
+ },
+ "Carrying capacity & population": {
+  "module": "M3",
+  "nodeIds": [
+   "m3.carrying-capacity",
+   "m3.malthus",
+   "m3.overpopulation",
+   "m3.neo-malthus",
+   "m3.kerala"
+  ]
+ },
+ "IPAT & technology": {
+  "module": "M3",
+  "nodeIds": [
+   "m3.ipat",
+   "m3.tech-dual-role",
+   "m3.jevons",
+   "m3.env-justice",
+   "core.technology"
+  ]
+ },
+ "Overconsumption": {
+  "module": "M3",
+  "nodeIds": [
+   "m3.overconsumption",
+   "m3.hyperconsumption"
+  ]
+ },
+ "Ecological footprint": {
+  "module": "M3",
+  "nodeIds": [
+   "m3.eco-footprint",
+   "m3.biocapacity",
+   "m3.how-many-earths"
+  ]
+ },
+ "Global North & South": {
+  "module": "M4",
+  "nodeIds": [
+   "m4.why-south",
+   "m4.ns-definition",
+   "core.equity"
+  ]
+ },
+ "Commons in the Global South": {
+  "module": "M4",
+  "nodeIds": [
+   "m4.commons-definition",
+   "m4.commons-types",
+   "m4.arrangement"
+  ]
+ },
+ "Ecosystem services": {
+  "module": "M4",
+  "nodeIds": [
+   "m4.ecosystem-services",
+   "m4.es-valuation",
+   "m4.es-payment",
+   "m4.cidanau"
+  ]
+ },
+ "Regulating the commons": {
+  "module": "M4",
+  "nodeIds": [
+   "m4.ozone",
+   "m4.montreal",
+   "m4.subak",
+   "m4.dieselgate"
+  ]
+ },
+ "SDG basics & indicators": {
+  "module": "M5",
+  "nodeIds": [
+   "m5.mdgs",
+   "m5.sdgs",
+   "m5.decade-of-action",
+   "m5.goals-targets-indicators"
+  ]
+ },
+ "SDGs in Indonesia": {
+  "module": "M5",
+  "nodeIds": [
+   "m5.indonesia-commitment",
+   "m5.vnr"
+  ]
+ },
+ "Biodiversity & IBSAP": {
+  "module": "M5",
+  "nodeIds": [
+   "m5.sdg14-15-indonesia",
+   "m5.ibsap",
+   "m5.nbs"
+  ]
+ },
+ "STI & TFM": {
+  "module": "M5",
+  "nodeIds": [
+   "m5.sti-definition",
+   "m5.sti-aaaa",
+   "m5.tfm",
+   "m5.sti-features",
+   "m5.sti-sdg9-17"
+  ]
+ },
+ "SDG progress (reality check)": {
+  "module": "M5",
+  "nodeIds": [
+   "m5.reality-2023",
+   "m5.reality-2026"
+  ]
+ },
+ "Climate system & GHGs": {
+  "module": "M6",
+  "nodeIds": [
+   "m6.climate-change",
+   "m6.ghg",
+   "m6.ghg.list",
+   "m6.ghg.concentration",
+   "m6.ghg.gwp",
+   "m6.ghg-sources"
+  ]
+ },
+ "Climate change & SDGs": {
+  "module": "M6",
+  "nodeIds": [
+   "m6.sdg-challenges",
+   "m6.sdg13-to-others",
+   "m6.others-to-sdg13",
+   "m6.mid-critical-2025"
+  ]
+ },
+ "Paris Agreement": {
+  "module": "M6",
+  "nodeIds": [
+   "m6.paris",
+   "m6.paris.principles",
+   "m6.paris.cbdr",
+   "m6.paris.gst",
+   "m6.paris.sovereignty"
+  ]
+ },
+ "Indonesia's NDC": {
+  "module": "M6",
+  "nodeIds": [
+   "m6.indonesia-commitment",
+   "m6.indonesia-endc",
+   "m6.indonesia-sndc"
+  ]
+ },
+ "Sustainable cooling": {
+  "module": "M6",
+  "nodeIds": [
+   "m6.urban-heat",
+   "m6.ac-adaptation",
+   "m6.cooling-emissions",
+   "m6.sustainable-cooling",
+   "m6.sustainable-cooling.energy-passive",
+   "m6.sustainable-cooling.refrigerants",
+   "m6.sustainable-cooling.renewables",
+   "m6.sustainable-cooling.circular"
+  ]
+ },
+ "Carbon sequestration & AFOLU": {
+  "module": "M6",
+  "nodeIds": [
+   "m6.carbon-sequestration",
+   "m6.afolu",
+   "m6.peatland",
+   "m6.peat.disturbance"
+  ]
+ },
+ "SDG interlinkages": {
+  "module": "M7",
+  "nodeIds": [
+   "m7.interlinkages",
+   "m7.interlinkages.synergy-tradeoff",
+   "m7.activities",
+   "m7.activities.mixed",
+   "m7.spillover",
+   "m7.recycling.cost",
+   "core.sdg-system"
+  ]
+ },
+ "Technology & SDG relationships": {
+  "module": "M7",
+  "nodeIds": [
+   "m7.tech-sdg12",
+   "m7.boar",
+   "m7.responsible-innovation"
+  ]
+ },
+ "FEW nexus": {
+  "module": "M7",
+  "nodeIds": [
+   "m7.nexus",
+   "m7.few",
+   "m7.few.why"
+  ]
+ }
+}

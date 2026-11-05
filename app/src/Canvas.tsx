@@ -5,6 +5,7 @@ import {
 } from '@xyflow/react'
 import { useState } from 'react'
 import type { Data } from './data'
+import { profColor, type Agg } from './quizlib'
 import { CARD_H, CARD_W, computeLayout, type Pos } from './layout'
 import type { LayoutMode } from './types'
 import { ActionsCtx } from './ui'
@@ -12,6 +13,7 @@ import { ActionsCtx } from './ui'
 export type CardData = {
   label: string; summary: string; type: string; color: string; importance: number; slides: number
   nKids: number; expanded: boolean; selected: boolean; reviewed: boolean; dim: boolean; depth: number
+  prof: number; ptip: string // prof: -2 no quiz items, -1 untested, else 0-100
 }
 type CardNode = Node<CardData, 'card'>
 
@@ -30,6 +32,7 @@ const Card = memo(function Card({ id, data }: NodeProps<CardNode>) {
         <span className="imp" title={`Importance ${data.importance}/3`}>
           {[1, 2, 3].map((i) => <i key={i} className={i <= data.importance ? 'on' : ''} />)}
         </span>
+        {data.prof > -2 && <span className="pring" style={{ ['--pp' as any]: data.prof >= 0 ? Math.max(data.prof, 8) : 0, ['--pc' as any]: profColor(data.prof, data.prof >= 0) }} title={data.ptip} />}
         {data.slides > 0 && <span className="sl" title="Cited slides">{data.slides} sl.</span>}
         <button className={'rv nodrag nopan' + (data.reviewed ? ' on' : '')} title="Mark reviewed (R)" onClick={(e) => { e.stopPropagation(); act.review(id) }}>&#10003;</button>
       </div>
@@ -101,6 +104,7 @@ export interface CanvasProps {
   expanded: Set<string>
   selectedId: string | null
   reviewed: Set<string>
+  nodeProf: Map<string, Agg>
   highlight: Set<string> | null
   mode: LayoutMode
   showLinks: boolean
@@ -129,12 +133,14 @@ export default function Canvas(p: CanvasProps) {
   }, [data, vis, mode, p.overrides])
 
   const getData = useCallback((id: string): CardData => {
-    const s = st.current, n = data.nodes.get(id)!
+    const s = st.current, n = data.nodes.get(id)!, pa = s.nodeProf.get(id)
     const next: CardData = {
       label: n.label, summary: n.summary, type: n.type, color: data.moduleColor(n.module), importance: n.importance,
       slides: (n.sources ?? []).reduce((a, x) => a + x.slides.length, 0),
       nKids: (data.children.get(id) ?? []).length, expanded: s.expanded.has(id), selected: s.selectedId === id,
       reviewed: s.reviewed.has(id), dim: s.highlight ? !s.highlight.has(id) : false, depth: data.depth.get(id) ?? 0,
+      prof: pa ? (pa.tested ? pa.p : -1) : -2,
+      ptip: pa ? (pa.tested ? `Quiz proficiency ${pa.p}% (${pa.tested}/${pa.total} items practiced)` : `${pa.total} quiz item${pa.total === 1 ? '' : 's'}, not practiced yet`) : '',
     }
     const old = cache.current.get(id)
     if (old && (Object.keys(next) as (keyof CardData)[]).every((k) => old[k] === next[k])) return old
@@ -180,7 +186,7 @@ export default function Canvas(p: CanvasProps) {
   // Flag updates without relayout
   useEffect(() => {
     setNodes((prev) => prev.map((n) => { const d = getData(n.id); return d === n.data ? n : { ...n, data: d } }))
-  }, [p.selectedId, p.reviewed, p.highlight, p.expanded, getData])
+  }, [p.selectedId, p.reviewed, p.highlight, p.expanded, p.nodeProf, getData])
 
   const onNodesChange = useCallback((ch: NodeChange<CardNode>[]) => {
     for (const c of ch) if (c.type === 'position' && c.position) curPos.current.set(c.id, c.position)

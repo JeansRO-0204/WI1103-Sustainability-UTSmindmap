@@ -1,0 +1,951 @@
+{
+ "questions": [
+  {
+   "id": "g-m1-01",
+   "source": "generated",
+   "stem": "Sustainability should be understood as an open-ended, positive and temporary concept. It is called open-ended because:",
+   "options": [
+    "It was fixed scientifically once and for all by the Brundtland Commission.",
+    "It applies only to environmental issues, since the economic and social dimensions are handled elsewhere.",
+    "The social understanding of sustainable development depends on time and situation, as well as culture and knowledge.",
+    "It stops being relevant once the SDGs are achieved in 2030, because all needs will then be met."
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "The social understanding of sustainable development depends on time and situation, as well as culture and knowledge.",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.open-ended-definition"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "Slide 11 says sustainability cannot be fixed once and for all: its social understanding changes with time, situation, culture and knowledge. [M1 s11]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-02",
+   "source": "generated",
+   "stem": "On the Hopwood et al. (2005) chart of views on sustainable development, which of the following is placed under the 'status quo' view?",
+   "options": [
+    "World Bank, OECD and neo-liberal economists",
+    "Deep ecology and eco-socialism",
+    "Social ecology and indigenous/Global South movements",
+    "Anti-capitalist movement and environmental justice groups"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "World Bank, OECD and neo-liberal economists",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.open-ended-definition"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "On the chart on slide 11, World Bank, OECD, WBCSD and neo-liberal economists sit at the status quo end, while deep ecology, social ecology and similar movements are at the transformation end. [M1 s11]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-03",
+   "source": "generated",
+   "stem": "Which figure is credited on slide 12 with calling for the 'continuous, stable and sustainable utilization of forests' in 1713?",
+   "options": [
+    "Thomas Malthus, an economist",
+    "Gro Harlem Brundtland, chair of the WCED",
+    "Garrett Hardin, author of a famous 1968 article in Science",
+    "Hans Carl von Carlowitz, a German mining director",
+    "Kate Raworth, an economist"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Hans Carl von Carlowitz, a German mining director",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.history"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "The 1713 call for sustainable forest use is attributed to the German mining director Carl von Carlowitz. [M1 s12]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-04",
+   "source": "generated",
+   "stem": "The timeline of the sustainability concept on slide 12 includes the following, except:",
+   "options": [
+    "The German Advisory Council divided sustainable development into responsibilities to the natural environment, the social world and to itself (1994)",
+    "Carlowitz introduced the safe and just space between a social foundation and an ecological ceiling",
+    "Boulding, Ayres & Kneese, Georgescu-Roegen and Daly put nature back on the economic agenda (1960s)",
+    "Malthus identified the imbalance between a habitat's resources and its population and predicted famines, epidemics and wars"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Carlowitz introduced the safe and just space between a social foundation and an ecological ceiling",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.history"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "The safe and just space belongs to Raworth's Doughnut Economics (slide 14), not to the historical timeline on slide 12. [M1 s12, s14]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      12,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-05",
+   "source": "generated",
+   "stem": "Which report, published by the World Commission on Environment and Development (WCED), is the source of the most frequently quoted definition of sustainable development?",
+   "options": [
+    "The Future We Want (Rio+20)",
+    "A Sand County Almanac",
+    "Agenda 21",
+    "Our Common Future"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Our Common Future",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.history.brundtland"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "The Brundtland Commission (WCED) published Our Common Future, which details the concept of sustainable development and the interdependence of environment, economy and society. [M1 s12]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-06",
+   "source": "generated",
+   "stem": "A government meets this year's water demand by exhausting an aquifer on which future generations will depend. Based on the Brundtland definition, this policy is:",
+   "options": [
+    "Not sustainable, because it compromises the ability of future generations to meet their own needs",
+    "Sustainable, because the needs of the present generation are fully met and the aquifer may recover in theory",
+    "Sustainable, as long as it is profitable in the short term",
+    "Irrelevant, because the definition only covers the environmental dimension"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Not sustainable, because it compromises the ability of future generations to meet their own needs",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.history.brundtland",
+    "m1.dimensions"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "The definition (reused for the economic dimension) requires meeting present needs without compromising future generations' ability to meet theirs. [M1 s12, s13]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      12,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-07",
+   "source": "generated",
+   "stem": "In the IUCN Venn diagram of the three dimensions of sustainability, the overlap of the Social and Economic circles is labelled:",
+   "options": [
+    "Bearable",
+    "Viable",
+    "Equitable",
+    "Sustainable"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Equitable",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.dimensions"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "Social ∩ Environment = Bearable, Social ∩ Economic = Equitable, Environment ∩ Economic = Viable, all three = Sustainable. [M1 s13]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-08",
+   "source": "generated",
+   "stem": "Slide 15 adds a nuance to the three dimensions: the environment is not just one equal circle among three. What does it say?",
+   "options": [
+    "The economy is foundational and the environment is just a resource to be priced.",
+    "The environment is foundational; societies and economies depend on it and must operate within planetary boundaries.",
+    "Environmental loss can always be offset by economic gains as long as GDP keeps growing, so the three circles are fully tradable.",
+    "The environment matters only after social needs are met."
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "The environment is foundational; societies and economies depend on it and must operate within planetary boundaries.",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.dimensions"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "Slide 15 calls the environment foundational and says it includes both living and non-living things (air, water, sunlight). [M1 s15]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-09",
+   "source": "generated",
+   "stem": "In Kate Raworth's Doughnut Economics, the outer circle (the ecological ceiling) is made up of:",
+   "options": [
+    "The 17 SDGs and their 169 targets",
+    "Social shortfalls such as lack of water, food, health, education, housing and political voice",
+    "The economic, social and environmental dimensions of the IUCN Venn diagram",
+    "Planetary boundaries such as climate change, biodiversity loss and ocean acidification"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Planetary boundaries such as climate change, biodiversity loss and ocean acidification",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.doughnut"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "The doughnut's outer circle is the ecological ceiling whose segments are the planetary boundaries; the inner circle is the social foundation. [M1 s14; M2 s7]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      14
+     ]
+    },
+    {
+     "module": "M2",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-10",
+   "source": "generated",
+   "stem": "In a society everyone has enough food, water and housing, but climate change and biodiversity loss extend beyond the outer circle of the doughnut. In Doughnut Economics this situation is called:",
+   "options": [
+    "Overshoot",
+    "Shortfall",
+    "Safe and just space",
+    "Social foundation",
+    "Bearable"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Overshoot",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.doughnut"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "Red wedges beyond the outer ring are overshoot of the ecological ceiling; red wedges inside the inner ring are shortfall of the social foundation. [M1 s14]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-11",
+   "source": "generated",
+   "stem": "Which law of ecology says that waste and pollution do not disappear but are only moved from one place to another?",
+   "options": [
+    "Every element is connected to everything else",
+    "Everything must go somewhere",
+    "Every species depends on every other species",
+    "Nature knows best",
+    "There is no such thing as a free lunch"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Everything must go somewhere",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.laws-of-ecology"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "Law 3 on slide 18: matter is not destroyed, so wastes such as plastics or CO2 simply go somewhere else. [M1 s18]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-12",
+   "source": "generated",
+   "stem": "The six laws of ecology on slide 18 include the following, except:",
+   "options": [
+    "The laws of thermodynamics apply: energy is conserved but degrades with every transfer",
+    "Nature knows best",
+    "There is no such thing as a free lunch: every gain from nature has a cost somewhere",
+    "Resources grow arithmetically while population grows geometrically"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Resources grow arithmetically while population grows geometrically",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.laws-of-ecology"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "The arithmetic-versus-geometric growth statement is Malthus's argument (Week 3), not one of the six laws of ecology. [M1 s18]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-13",
+   "source": "generated",
+   "stem": "According to the Dominion thesis, nature is valuable:",
+   "options": [
+    "In itself, independently of any human use",
+    "Only as long as it has benefits for humans",
+    "Because humans and nature form one moral community",
+    "Only when it is left completely untouched"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Only as long as it has benefits for humans",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.dominion-thesis"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "The thesis holds that humans are a separate and superior entity and that nature is only useful as long as it benefits humans. [M1 s24]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-14",
+   "source": "generated",
+   "stem": "The 17th-century wolf eradication programme, one of the first environmental regulations passed in North America, is used on the slides to illustrate:",
+   "options": [
+    "The Dominion thesis",
+    "Stewardship, the moral responsibility to protect the environment",
+    "Preservationism of John Muir",
+    "The Land Ethic of Aldo Leopold"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "The Dominion thesis",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.dominion-thesis"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "Slide 24 uses the wolf eradication programme to show humans using nature however they deem beneficial, the Dominion thesis. [M1 s24]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-15",
+   "source": "generated",
+   "stem": "Anthropocentrism is the ethical viewpoint that:",
+   "options": [
+    "Ecological interests must be above the interests of the human species",
+    "The value of something is measured by its benefits, maximizing individual or societal welfare",
+    "Humans are the primary factor in determining whether actions toward nature are right or wrong",
+    "Humans have a moral responsibility to protect the environment and living things",
+    "Nature should be managed primarily for protection and preservation for the benefit of wildlife"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Humans are the primary factor in determining whether actions toward nature are right or wrong",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.human-centred.anthropocentrism"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "Slide 25 gives this definition; the other options describe ecocentrism, utilitarianism, stewardship and Muir's preservationism. [M1 s25, s26, s28, s30]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      25,
+      26,
+      28,
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-16",
+   "source": "generated",
+   "stem": "Opponents of agricultural industrialisation give two arguments: (A) animals are not 'capital' but sentient beings; (B) industrial farms pollute water, disrupting human health downstream, and shut down small traditional farms. Which one is human-centred (anthropocentric)?",
+   "options": [
+    "Argument A, because it treats animals as sentient beings and not as 'capital'",
+    "Both, because every ethical argument is ultimately made by and for humans",
+    "Argument B, because the harm is judged by its effect on humans",
+    "Neither, because ethics is never human-centred"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Argument B, because the harm is judged by its effect on humans",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.human-centred.anthropocentrism"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "Slide 22 asks exactly this: Argument B concerns human health and livelihoods, while Argument A gives sentient animals moral weight. [M1 s22]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-17",
+   "source": "generated",
+   "stem": "Gifford Pinchot's conservationist ethic aims at:",
+   "options": [
+    "Protecting nature from use, for the benefit of wildlife, through national and conservation parks",
+    "Removing species that threaten human interests, such as wolves and other predators",
+    "Making humans 'plain members and citizens' of the land community, with voluntary limits on freedom",
+    "Banning every dam on principle",
+    "Efficient and sustainable use of natural resources, 'the greatest good for the greatest number'"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Efficient and sustainable use of natural resources, 'the greatest good for the greatest number'",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.conserve-vs-preserve"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "Slide 27 describes Pinchot as a conservationist (efficient, sustainable use) and enemy of the 'timber barons'; the protection-for-wildlife view is Muir's. [M1 s27, s28]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      27,
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-18",
+   "source": "generated",
+   "stem": "The following describe John Muir, except:",
+   "options": [
+    "He argued for 'the greatest good for the greatest number'",
+    "He was a preservationist",
+    "He was a pioneer of conservation parks in the United States",
+    "He favoured managing natural resources primarily for protection, for the benefit of wildlife",
+    "His ethic is non-utilitarian"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "He argued for 'the greatest good for the greatest number'",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.conserve-vs-preserve"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "'The greatest good for the greatest number' is Pinchot's utilitarian formula; Muir was non-utilitarian. [M1 s27, s28]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      27,
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-19",
+   "source": "generated",
+   "stem": "Aldo Leopold (1949) argued that we must change our relationship with nature from:",
+   "options": [
+    "'Plain member and citizen' to 'conqueror'",
+    "'Conqueror' to 'plain member and citizen'",
+    "'Owner' to 'shareholder' of natural capital",
+    "'Steward' to 'sole owner'",
+    "'Protector' to 'consumer'"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "'Conqueror' to 'plain member and citizen'",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.land-ethic"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "Leopold's Land Ethic is a moral extension that places humans as members of the land community instead of its conquerors. [M1 s30]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-20",
+   "source": "generated",
+   "stem": "The Land Ethic includes the following ideas, except:",
+   "options": [
+    "Land is not just 'property'",
+    "Nature is only useful as long as it has benefits for humans",
+    "To be part of society, individuals voluntarily give up their absolute freedom",
+    "The boundaries of dependency are stretched to include nature and other living things"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Nature is only useful as long as it has benefits for humans",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.land-ethic"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "Utility of nature to humans is the Dominion thesis; the Land Ethic rejects treating land as mere property. [M1 s24, s30]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      24,
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-21",
+   "source": "generated",
+   "stem": "Ecocentrism is the ethical view that:",
+   "options": [
+    "Humans are the pinnacle of creation and may use nature in any way they deem beneficial, as a separate and superior entity",
+    "Humans are the primary factor in judging actions toward nature",
+    "Value is measured by the benefits that maximize societal welfare",
+    "Ecological interests must be above human-species interests when judging whether an action is right or wrong"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Ecological interests must be above human-species interests when judging whether an action is right or wrong",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.land-ethic.ecocentrism"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "This is the definition given beside Leopold's Land Ethic on slide 30. [M1 s30]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-22",
+   "source": "generated",
+   "stem": "Which pairing of theory and core idea is correct?",
+   "options": [
+    "Ecocentrism: ecological interests must be above those of the human species",
+    "Anthropocentrism: ecological interests must be above those of the human species",
+    "Utilitarianism: nature has value independently of humans",
+    "Stewardship: humans are a separate and superior entity to nature"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Ecocentrism: ecological interests must be above those of the human species",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.land-ethic.ecocentrism"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "Ecocentrism is the nature-centred end; the other pairings swap the definitions of anthropocentrism, utilitarianism, stewardship and the Dominion thesis. [M1 s24, s25, s26, s30]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      24,
+      25,
+      26,
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-23",
+   "source": "generated",
+   "stem": "In the conservation dilemma scenario on slide 31 (a dam threatening migratory salmon), who strongly opposed the project?",
+   "options": [
+    "The energy company and the government, who expected the economic benefits",
+    "The national electricity supply authority, which feared losing power supply",
+    "Environmentalists and some members of the indigenous community",
+    "All indigenous communities, together with the government and the company"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Environmentalists and some members of the indigenous community",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.dam-dilemma"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "The government supported the dam as it fits regional and national growth plans, while environmentalists and some indigenous members strongly opposed it. [M1 s31]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m1-24",
+   "source": "generated",
+   "stem": "The dam-versus-salmon scenario resembles the Hetch Hetchy Valley dispute. Which pairing of positions is correct?",
+   "options": [
+    "Pinchot: the valley must be preserved for its wildlife; Muir: dams provide the greatest good for the greatest number",
+    "Pinchot and Muir both held that nature is only useful as long as it benefits humans",
+    "Pinchot: dams give greater benefits to society; Muir: the valley is a biodiversity 'treasure' that dams disrupt",
+    "Pinchot: the dam is ethical only if it benefits the timber barons; Muir: only the government decides",
+    "Pinchot: the dam should be built to eradicate threats to the valley; Muir: the dam is acceptable if it is profitable"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Pinchot: dams give greater benefits to society; Muir: the valley is a biodiversity 'treasure' that dams disrupt",
+   "keyStatus": "given",
+   "module": "M1",
+   "nodeIds": [
+    "m1.dam-dilemma",
+    "m1.conserve-vs-preserve"
+   ],
+   "topic": "Environmental ethics",
+   "explanation": "Slide 29 contrasts Pinchot (dams give greater benefits) with Muir (Hetch Hetchy as a biodiversity treasure that dams disrupt). [M1 s29, s31]",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      29,
+      31
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-m1.open-ended-definition",
+   "nodeId": "m1.open-ended-definition",
+   "module": "M1",
+   "topic": "Sustainability basics & dimensions",
+   "front": "Why is sustainability called an 'open-ended, positive and temporary' concept?",
+   "back": "Slide 11: no single scientific definition fixes it. It is **open-ended** because the social understanding of sustainable development depends on time and situation, culture and knowledge. Hopwood et al. (2005) map views from status quo (World Bank, OECD) through reform to transformation (deep ecology, indigenous/Global South movements).",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.history",
+   "nodeId": "m1.history",
+   "module": "M1",
+   "topic": "Sustainability basics & dimensions",
+   "front": "List the milestones in the history of the sustainability idea (slide 12).",
+   "back": "1713 Carlowitz (sustainable forest use); Malthus (limits to growth, famine/epidemics/war); 1960s Boulding, Ayres & Kneese, Georgescu-Roegen, Daly (nature back on the economic agenda); Brundtland Commission (WCED) *Our Common Future*; 1994 German Advisory Council (3 responsibilities); 2003 unidimensional vs multidimensional concepts.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.history.brundtland",
+   "nodeId": "m1.history.brundtland",
+   "module": "M1",
+   "topic": "Sustainability basics & dimensions",
+   "front": "State the Brundtland definition of sustainable development and its source.",
+   "back": "From the WCED report *Our Common Future*: development that **meets the needs of the present without compromising the ability of future generations to meet their own needs**. The report stresses that environment, economy and society are interdependent and interconnected.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      12,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.dimensions",
+   "nodeId": "m1.dimensions",
+   "module": "M1",
+   "topic": "Sustainability basics & dimensions",
+   "front": "Name the three dimensions of sustainability and the IUCN Venn overlaps.",
+   "back": "**Economic**, **Environmental**, **Social**. Overlaps: Social ∩ Environment = Bearable; Social ∩ Economic = Equitable; Environment ∩ Economic = Viable; all three = Sustainable. Slide 15: the environment is foundational; society and economy must operate within planetary boundaries.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      13,
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.doughnut",
+   "nodeId": "m1.doughnut",
+   "module": "M1",
+   "topic": "Sustainability basics & dimensions",
+   "front": "What is Doughnut Economics (Raworth) and what do its two rings represent?",
+   "back": "A safe and just space for humanity. **Outer ring** = ecological ceiling (planetary boundaries; beyond it = overshoot). **Inner ring** = social foundation (water, food, health, education, etc.; below it = shortfall). The doughnut between them is the aim: meeting everyone's needs within environmental limits.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.laws-of-ecology",
+   "nodeId": "m1.laws-of-ecology",
+   "module": "M1",
+   "topic": "Sustainability basics & dimensions",
+   "front": "List the six laws of ecology.",
+   "back": "1) Every element is connected to everything else. 2) Every species depends on every other species. 3) Everything must go somewhere. 4) The laws of thermodynamics apply. 5) Nature knows best. 6) There is no such thing as a free lunch.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.dominion-thesis",
+   "nodeId": "m1.dominion-thesis",
+   "module": "M1",
+   "topic": "Environmental ethics",
+   "front": "Define the Dominion thesis and give its historical illustration.",
+   "back": "Humans are the pinnacle of creation, a separate and superior entity to nature, with the ethical freedom to use it in any way they deem beneficial; nature is only useful as long as it benefits humans. Illustration: the 17th-century wolf eradication programme, among the first environmental regulations in North America.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.human-centred.anthropocentrism",
+   "nodeId": "m1.human-centred.anthropocentrism",
+   "module": "M1",
+   "topic": "Environmental ethics",
+   "front": "Define anthropocentrism and name its opposite.",
+   "back": "Anthropocentrism: the ethical viewpoint that **humans are the primary factor** in determining whether actions toward nature are right or wrong. Its opposite is **ecocentrism** (ecological interests above human interests). Slide 22 example: water pollution harming human health downstream is an anthropocentric argument.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      22,
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.conserve-vs-preserve",
+   "nodeId": "m1.conserve-vs-preserve",
+   "module": "M1",
+   "topic": "Environmental ethics",
+   "front": "Compare Pinchot (conservation) and Muir (preservation).",
+   "back": "**Pinchot**: conservationist; efficient and sustainable use of natural resources, 'the greatest good for the greatest number'; enemy of the timber barons. **Muir**: preservationist; protection of nature for the benefit of wildlife; non-utilitarian; pioneer of conservation parks in the US. They clashed over the Hetch Hetchy dam.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      27,
+      28,
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.land-ethic",
+   "nodeId": "m1.land-ethic",
+   "module": "M1",
+   "topic": "Environmental ethics",
+   "front": "What is Leopold's Land Ethic?",
+   "back": "Aldo Leopold (1949): land is not just 'property'. Individuals voluntarily give up absolute freedom to belong to a community, and the community is stretched to include nature and other living things. A moral extension: from 'conqueror' to 'plain member and citizen'. It leads to ecocentrism.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.land-ethic.ecocentrism",
+   "nodeId": "m1.land-ethic.ecocentrism",
+   "module": "M1",
+   "topic": "Environmental ethics",
+   "front": "Define ecocentrism.",
+   "back": "The view that **ecological interests must be above the interests of the human species** in determining whether an action is right or wrong. It sits at the nature-centred end of the ethics spectrum, opposite to anthropocentrism, and follows from Leopold's Land Ethic.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.dam-dilemma",
+   "nodeId": "m1.dam-dilemma",
+   "module": "M1",
+   "topic": "Environmental ethics",
+   "front": "Summarise the conservation dilemma scenario (dam vs salmon) and who takes which side.",
+   "back": "An energy company's dam brings electricity, employment and economic benefits, but blocks migratory salmon routes and threatens indigenous people whose livelihoods depend on salmon. The government supports it; environmentalists and some indigenous members strongly oppose it. Answer by weighing stakeholders, ethical theories and trade-offs.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      31
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,858 @@
+[
+ {
+  "id": "q2-01",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.climate-change"
+  ],
+  "explanation": "Natural drivers (volcanoes, solar variation, tectonics, orbit) shaped past climates, but today's change is too fast for them; it is primarily driven by human activities [M6 s3].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     3
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-02",
+  "module": "M5",
+  "topic": "Biodiversity & IBSAP",
+  "nodeIds": [
+   "m5.ibsap"
+  ],
+  "explanation": "The IBSAP 2025-2045 mission is protection, sustainable use, enrichment of science and technology, and strengthening resources and governance [M5 s19]. None of the listed options matches the mission verbatim; the closest is the 'strengthening' option on global forums, which echoes IBSAP's diplomatic-tool function and the 'strengthening ... governance' mission element.",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     19
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "note": "Quiz has no answer key (it says no option fits). Best-supported pick from M5 s19: option 0 'Strengthening diplomacy in global forums.' (the slide lists 'Indonesia's diplomatic tool in global forums' as an IBSAP function and the mission ends with 'strengthening resources and governance'). Option 2 ('Define quizzes ...') looks like a garbled 'science & technology' item but is not supported by any slide text. Low confidence.",
+  "answer": [
+   0
+  ],
+  "answerText": "Strengthening diplomacy in global forums."
+ },
+ {
+  "id": "q2-03",
+  "module": "M6",
+  "topic": "Indonesia's NDC",
+  "nodeIds": [
+   "m6.indonesia-endc",
+   "m6.indonesia-commitment"
+  ],
+  "explanation": "The Enhanced NDC 2022 pledges 31.89% emission cuts independently and 43.2% with international support (unconditional vs conditional) [M6 s19-20].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     19,
+     20
+    ]
+   }
+  ],
+  "keyStatus": "disputed",
+  "note": "Quiz keys 31.89% / 43.2% as the Enhanced NDC 2022 (2030) target. Slide 19 lists 29% / 41% for 2030; slide 20 shows 31.89% / 43.20% only as the absolute 2035 target of the Second NDC. Numbers match, label/year differ. Key kept. Overlaps with Q10 and Q33 (not a strict duplicate since it asks for both values)."
+ },
+ {
+  "id": "q2-04",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.afolu"
+  ],
+  "explanation": "AFOLU mitigation means afforestation/reforestation, agroforestry, soil carbon management and bioenergy in agriculture; clearing land by burning releases carbon and is the opposite of mitigation [M6 s38].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     38
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "'Burning' is not named on the slide; it is the only option that is not a listed strategy."
+ },
+ {
+  "id": "q2-05",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg.concentration"
+  ],
+  "explanation": "Ice-core records show a sharp rise in GHG concentrations after the Industrial Revolution (~1760) [M6 s5].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     5
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-06",
+  "module": "M5",
+  "topic": "STI & TFM",
+  "nodeIds": [
+   "m5.sti-features"
+  ],
+  "explanation": "The feature that each country/region needs different STI depending on its own context is 'place-based priorities'; the other options are SDG principles (universality, indivisibility, transformative) or RI [M5 s27; M7 s6].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     27
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-07",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.urban-heat"
+  ],
+  "explanation": "BMKG said the 2023 Semarang/Surabaya/Makassar records were not a heat wave, yet urban heat still causes heat strain, heat stress, psychosocial disorders and impaired cognitive performance [M6 s26].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     26
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-08",
+  "module": "M7",
+  "topic": "FEW nexus",
+  "nodeIds": [
+   "m7.nexus"
+  ],
+  "explanation": "The nexus approach deepens integration between goals and targets across sectors, makes overlaps clear and avoids unsustainable, inefficient conflicts/trade-offs, instead of treating each SDG as an ivory tower [M7 s21, s6].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     21,
+     6
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-09",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.carbon-sequestration"
+  ],
+  "explanation": "Sequestration stores CO2 in the ocean, vegetation/soil or geological formations, and is classed as biological, geological and technological sequestration [M6 s33].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     33
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-10",
+  "module": "M6",
+  "topic": "Indonesia's NDC",
+  "nodeIds": [
+   "m6.indonesia-endc",
+   "m6.indonesia-commitment"
+  ],
+  "explanation": "The Enhanced NDC 2022 target for the independent (unconditional) reduction is 31.89%; 43.2% is the conditional one with international support [M6 s19-20].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     19,
+     20
+    ]
+   }
+  ],
+  "keyStatus": "disputed",
+  "note": "Same label/year mismatch as Q3: slide 19 shows 29% (2030, first NDC); slide 20 shows 31.89% for 2035 (Second NDC). Quiz key kept; 29% is not offered as an option."
+ },
+ {
+  "id": "q2-11",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.mdgs"
+  ],
+  "explanation": "The MDGs (2000-2015, 8 goals aimed at specific/extreme conditions, mostly developing countries) preceded the SDGs [M5 s3].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     3
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-12",
+  "module": "M6",
+  "topic": "Climate change & SDGs",
+  "nodeIds": [
+   "m6.sdg-challenges"
+  ],
+  "explanation": "Per IOC/WMO, climate change can reverse progress on other SDGs through temperature rise, sea-level rise and the disruption of land and sea ecosystems [M6 s8].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     8
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-13",
+  "module": "M7",
+  "topic": "FEW nexus",
+  "nodeIds": [
+   "m7.nexus"
+  ],
+  "explanation": "Nexus principles: ensure access to resources for vulnerable groups, promote efficient resource use, ensure sustainability [M7 s21].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     21
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-14",
+  "module": "M7",
+  "topic": "Technology & SDG relationships",
+  "nodeIds": [
+   "m7.tech-sdg12"
+  ],
+  "explanation": "Technology use and development raise material/environmental footprints, which correlates with (hinders) SDG 12 [M7 s15].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     15
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-15",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.carbon-sequestration"
+  ],
+  "explanation": "Carbon sequestration is the removal and storage of CO2 from the atmosphere or emission sources [M6 s33].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     33
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Related to Q9 (definition vs. types) but not a strict duplicate."
+ },
+ {
+  "id": "q2-16",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.sustainable-cooling.energy-passive",
+   "m6.sustainable-cooling"
+  ],
+  "explanation": "Passive design lowers the thermal load of buildings through ventilation, insulation and shading; efficient ACs, solar cooling, recycling and cold storage belong to other principles [M6 s29].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     29
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-17",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.climate-change"
+  ],
+  "explanation": "IPCC (2021) names the atmosphere, biosphere, cryosphere and oceans as the main components of the climate system [M6 s3].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     3
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-18",
+  "module": "M6",
+  "topic": "Climate change & SDGs",
+  "nodeIds": [
+   "m6.sdg-challenges",
+   "m5.reality-2023"
+  ],
+  "explanation": "The quiz treats SDG 6, 7, 11, 13, 14 and 15 (water, energy, cities, climate, ocean, land) as the goals directly exposed to climate disruption of water and energy [M5 s29; M6 s8-10].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "module": "M5",
+    "slides": [
+     29
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Quiz-only fact: no slide text lists 'SDG 6, 7, 11, 13, 14, 15' as hampered by climate change (M5 s29 is a bar chart of progress per goal; M6 s10 notes name SDG 7, 11, 12, 14, 15, 2 as climate-mitigation contributors). Key kept; graph now states it as a quiz fact."
+ },
+ {
+  "id": "q2-19",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.dimensions",
+   "m5.sd-definition"
+  ],
+  "explanation": "The Brundtland definition rests on three pillars that must be balanced: economic, social and environmental [M1 s13; M5 s7].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     13
+    ]
+   },
+   {
+    "module": "M5",
+    "slides": [
+     7
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-20",
+  "module": "M5",
+  "topic": "STI & TFM",
+  "nodeIds": [
+   "m5.sti-definition"
+  ],
+  "explanation": "Innovation is a new way of producing, distributing or using goods and services, based on new technology, new business models or new forms of economic/social organisation [M5 s23].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     23
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-21",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg"
+  ],
+  "explanation": "The natural greenhouse effect traps heat so the average surface temperature stays above freezing, which makes life possible [M6 s4].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     4
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-22",
+  "module": "M5",
+  "topic": "STI & TFM",
+  "nodeIds": [
+   "m5.tfm"
+  ],
+  "explanation": "Of the four TFM components, the STI Forum and 2030 Connect are the communication/knowledge-exchange platforms; IATT and the 10-Member Group are internal UN bodies [M5 s25].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     25
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-23",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.sustainable-cooling.circular"
+  ],
+  "explanation": "The circular-economy principle: handle used refrigerants so they are not released into the air and recycle cooling units [M6 s29].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     29
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-24",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.sustainable-cooling.refrigerants"
+  ],
+  "explanation": "Eco-friendly refrigerants must not harm the ozone layer (zero ODP) and must not drive warming (low GWP) [M6 s29].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     29
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-25",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg.list",
+   "m6.ghg"
+  ],
+  "explanation": "N2O, water vapour (H2O) and methane (CH4) are greenhouse gases; ammonia (NH3) is not among the GHGs listed [M6 s4, s6].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     4,
+     6
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "NH3 is not listed on the slides at all; the answer follows from the slide's GHG list (and real-world knowledge)."
+ },
+ {
+  "id": "q2-26",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg.gwp"
+  ],
+  "explanation": "Extra human-emitted GHGs strengthen the greenhouse effect and raise global temperature: the enhanced greenhouse effect, i.e. global warming [M6 s6].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     6
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-27",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.ac-adaptation"
+  ],
+  "explanation": "For adaptation, AC is a life-saving tool for vulnerable groups in extreme heat, though it can become maladaptation because of its emissions [M6 s27].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     27
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-28",
+  "module": "M5",
+  "topic": "STI & TFM",
+  "nodeIds": [
+   "m5.sti-aaaa"
+  ],
+  "explanation": "STI is one of the Seven Key Actions of the Addis Ababa Action Agenda 2015-2030 [M5 s24].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     24
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-29",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.sustainable-cooling.renewables"
+  ],
+  "explanation": "Renewable integration in sustainable cooling is exemplified by solar-powered cooling systems [M6 s29].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     29
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-30",
+  "module": "M6",
+  "topic": "Paris Agreement",
+  "nodeIds": [
+   "m6.paris.cbdr"
+  ],
+  "explanation": "CBDR-RC means all countries contribute to climate change to different degrees, so responses reflect each country's development status and ability to pay (developed countries commit more) [M6 s16].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     16
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-31",
+  "module": "M5",
+  "topic": "SDGs in Indonesia",
+  "nodeIds": [
+   "m5.indonesia-commitment"
+  ],
+  "explanation": "Indonesia ratified the SDGs through Presidential Regulation (Perpres) 59/2017, updated by Perpres 111/2022 [M5 s11].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     11
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-32",
+  "module": "M5",
+  "topic": "STI & TFM",
+  "nodeIds": [
+   "m5.sti-definition"
+  ],
+  "explanation": "Technology is the application of knowledge to achieve specific goals; science is the systematic pursuit of knowledge, innovation is a new way of doing things [M5 s23].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     23
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-33",
+  "module": "M6",
+  "topic": "Indonesia's NDC",
+  "nodeIds": [
+   "m6.indonesia-endc"
+  ],
+  "explanation": "Domestic-effort (unconditional) target of the Enhanced NDC 2022 is 31.89% [M6 s19-20].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     19,
+     20
+    ]
+   }
+  ],
+  "keyStatus": "disputed",
+  "dupOf": "q2-10",
+  "note": "Duplicate of Q10. Same slide/quiz label mismatch (slide 19 gives 29% for 2030; 31.89% appears on slide 20 as a 2035 SNDC target). Key kept."
+ },
+ {
+  "id": "q2-34",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.goals-targets-indicators"
+  ],
+  "explanation": "The SDGs have 17 goals and 169 targets, measured by 231 global indicators (Indonesia uses 289 tailored indicators) [M5 s8].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     8
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-35",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.cooling-emissions"
+  ],
+  "explanation": "Indirect cooling emissions come from the electricity/energy needed to run the system (50-60% of a commercial building's energy); leaks and servicing losses are direct emissions [M6 s28].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     28
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-36",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg.gwp",
+   "m6.ghg.list"
+  ],
+  "explanation": "Each GHG has a Global Warming Potential (GWP), its heat-trapping power relative to CO2 [M6 s6].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     6
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-37",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.activities.mixed"
+  ],
+  "explanation": "Renewable energy is a mixed activity: social benefit (energy access) but long-term trade-offs such as bird deaths, disturbed marine habitats and loss of fertile land (SDG 14/15) [M7 s8].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     8
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-38",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.sdgs",
+   "m5.decade-of-action"
+  ],
+  "explanation": "The SDGs are a commitment of UN member states (192 on the slide) and run 2015-2030, the Decade of Action [M5 s4].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     4
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Slide and quiz say 192 member states; 193 is the commonly cited real-world number but is not used here."
+ },
+ {
+  "id": "q2-39",
+  "module": "M7",
+  "topic": "FEW nexus",
+  "nodeIds": [
+   "m7.few.why",
+   "m7.few"
+  ],
+  "explanation": "Climate change affects the availability and quality of food, energy and water, so their interdependence on climate/environmental conditions drives the FEW nexus approach [M7 s24].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     24
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-40",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.ac-adaptation"
+  ],
+  "explanation": "AC raises GHG emissions via high energy use and the release of HFC refrigerants, creating the adaptation-versus-mitigation conflict [M6 s27].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     27
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-41",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg-sources"
+  ],
+  "explanation": "In 2019 the energy sector emitted the most GHGs (34%, 20 GtCO2-eq), ahead of industry 24%, AFOLU 22%, transport 15% and buildings 6% [M6 s32].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     32
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-42",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg.concentration"
+  ],
+  "explanation": "GHG concentrations jumped sharply after the Industrial Revolution (~1760) [M6 s5].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     5
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "dupOf": "q2-05"
+ },
+ {
+  "id": "q2-43",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.sustainable-cooling.refrigerants",
+   "m6.cooling-emissions"
+  ],
+  "explanation": "The high-GWP refrigerant gases cited for direct cooling emissions are CFCs, HCFCs and HFCs [M6 s28].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     28
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q2-44",
+  "module": "M5",
+  "topic": "Biodiversity & IBSAP",
+  "nodeIds": [
+   "m5.ibsap"
+  ],
+  "explanation": "IBSAP is Indonesia's national and regional guideline for biodiversity management (keyed answer) [M5 s19].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     19
+    ]
+   }
+  ],
+  "keyStatus": "disputed",
+  "note": "Slide 19 lists three IBSAP functions: national & regional guidelines, diplomatic tool in global forums, evaluated every 5 years. Options A (diplomatic tool) and C (evaluation, loosely) therefore also appear on the slide, so 'All of the above' is defensible; the quiz key is B. Key kept."
+ },
+ {
+  "id": "q2-45",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.sdgs"
+  ],
+  "explanation": "The SDGs form an indivisible, integrated whole of 17 interlinked goals (169 targets) [M5 s4, s8].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     4,
+     8
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ }
+]

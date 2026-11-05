@@ -1,0 +1,50 @@
+# Quiz / flashcard / proficiency spec (shared contract)
+
+Files (all under `knowledge/quiz/`):
+- `quiz2.md` original (never edit). `quiz2.raw.json` verbatim parse (from `build/quiz_import.py`; never edit stem/options/answerText).
+- `quiz2.tags.json` per-question tags + verification (written by the tagging agent).
+- `generated.<MODULE>.json` new questions + flashcards per module (written by generator agents, M1..M7).
+- `quiz.json` FINAL merged file consumed by the app (written by `build/quiz_merge.py`).
+
+## quiz.json
+```jsonc
+{
+  "meta": { "generated": "2026-11-05", "quiz2Count": 45 },
+  "questions": [{
+    "id": "q2-06",                   // quiz2: q2-NN ; generated: g-<module lower>-NN e.g. g-m6-04
+    "source": "quiz2" | "generated",
+    "n": 6,                          // quiz2 only: original number
+    "stem": "…", "options": ["…"],   // quiz2: VERBATIM (markdown inline like *italic* allowed)
+    "answer": [3],                   // option indexes (0-based); single-answer in practice
+    "answerText": "…",               // exactly options[answer[0]] (quiz2 verbatim)
+    "keyStatus": "given" | "inferred" | "disputed",   // inferred = quiz had no key (Q2); disputed = slides disagree, see note
+    "module": "M5",                  // primary week
+    "nodeIds": ["m5.tfm"],           // 1-3 graph concept ids this tests (must exist in graph.json)
+    "topic": "STI & TFM",            // short topic-area label, consistent across questions (see topics list in tags file)
+    "explanation": "1-3 sentences why the answer is right (own words), cite [M5 s25]",
+    "sources": [{"module":"M5","slides":[25]}],
+    "dupOf": "q2-10",                // optional: duplicate of another question, excluded from proficiency weighting
+    "note": "optional flag, e.g. quiz key vs slide mismatch"
+  }],
+  "flashcards": [{
+    "id": "fc-m6.paris.cbdr", "nodeId": "m6.paris.cbdr", "module": "M6", "topic": "Paris Agreement",
+    "front": "question/prompt (what, why, compare, define)",
+    "back": "concise answer (markdown ok, ≤ 70 words), include key numbers",
+    "sources": [{"module":"M6","slides":[16]}]
+  }]
+}
+```
+
+## Quiz 2 patterns (generated questions MUST imitate these)
+- 4 options (≈55%) or 5 options (≈45%); exactly one correct; no "all of the above" except rarely.
+- Stems: direct definition ("What is meant by X"), "Which of the following is/are …", "…, except", "Based on [document/framework], what is …", scenario-with-context-then-ask ("Although X, these still cause …"), "According to the sources …", "This characteristic is called:".
+- Heavy on exact terms and numbers from slides (31.89% / 43.2%, 17 goals, 169 targets, 231 indicators, 2015–2030, Perpres 59/2017 → 111/2022, 6, 7, 11, 13, 14, 15).
+- Distractors are plausible neighbours from the same topic or lookalike terms from other weeks; some options are absurd absolutes ("Only…", "Ignoring…"). Correct option is often the longest/most complete one — do NOT make that a reliable tell: vary it.
+- Language: English, slightly translated-from-Indonesian phrasing is fine; keep terms exactly as on slides.
+- Weighted to the concepts the lecturer emphasises (importance 3).
+
+## Topic areas
+Use `knowledge/quiz/topics.json` ({topic label: {module, nodeIds[]}}), created by the tagging agent; generators and the app reuse those labels (add new labels only if needed, then append to topics.json).
+
+## Proficiency (app)
+Per question/card Leitner boxes 1–5 in localStorage (`mm.quiz`); box moves up on correct, back to 1 on wrong; due intervals by box. Proficiency per topic/module/concept = weighted recent accuracy + box level (0–100%), untested = grey. Shown per week, per topic, and as a ring on mindmap cards. Duplicates (`dupOf`) don't count twice. Export/import JSON of all progress (reviewed ✓ + quiz).

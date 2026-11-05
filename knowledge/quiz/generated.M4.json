@@ -1,0 +1,1015 @@
+{
+ "questions": [
+  {
+   "id": "g-m4-01",
+   "source": "generated",
+   "stem": "According to the lecture, what share of the world's population lives in the Global South?",
+   "options": [
+    "40%",
+    "62%",
+    "88%",
+    "80%",
+    "100%"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "88%",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.why-south"
+   ],
+   "topic": "Global North & South",
+   "explanation": "Slide 5 lists the Global South's characteristics: less advanced economic development than the North, 88% of the world's population, larger land area, and 80% middle class by 2030 [M4 s5]. 80% is the middle-class share, not the population share.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-02",
+   "source": "generated",
+   "stem": "Why does the lecturer stress that development decisions made in the Global South this decade are so important?",
+   "options": [
+    "They will 'lock in' emissions and the global ecological footprint for decades to come",
+    "The Global South has the highest historical per-capita emissions and therefore caused most of the climate crisis",
+    "The Global North no longer has any environmental impact",
+    "The Global South has a smaller land area and population than the North"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "They will 'lock in' emissions and the global ecological footprint for decades to come",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.why-south"
+   ],
+   "topic": "Global North & South",
+   "explanation": "Lecturer's notes on s4-s5: Southern choices in energy, food, water and urban planning lock in the footprint and quality of life for decades, while the South has low historical per-capita emissions but is most vulnerable [M4 s4, s5].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-03",
+   "source": "generated",
+   "stem": "The categories 'Global North' and 'Global South' are based on:",
+   "options": [
+    "The hemisphere in which a country is located",
+    "Membership of the UN Security Council",
+    "Social and economic aspects, not geographical location",
+    "The latitude of the country's capital city",
+    "The size of the country's land area"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Social and economic aspects, not geographical location",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.ns-definition"
+   ],
+   "topic": "Global North & South",
+   "explanation": "Slide 6 states the division is social and economic rather than geographic; e.g. Australia counts as Global North [M4 s6].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-04",
+   "source": "generated",
+   "stem": "Which of the following countries is counted as part of the Global North even though it lies in the Southern Hemisphere?",
+   "options": [
+    "Australia",
+    "Indonesia",
+    "Brazil",
+    "Chad",
+    "The Philippines"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Australia",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.ns-definition"
+   ],
+   "topic": "Global North & South",
+   "explanation": "Australia (and New Zealand) lie in the Southern Hemisphere but are counted as Global North; Indonesia, Brazil, Chad and the Philippines are listed as Global South [M4 s6, s8].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      6,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-05",
+   "source": "generated",
+   "stem": "On the slides, 'the commons' is defined as:",
+   "options": [
+    "Natural resources that belong to no one and can be used freely by anybody without any rules or limits at all",
+    "Wealth held privately by corporations and rented to the public",
+    "Resources owned and controlled exclusively by the state",
+    "Only physical resources such as water, forest and ocean",
+    "A different kind of 'wealth' (land, culture, values, intangible heritage, etc.) owned and maintained together"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "A different kind of 'wealth' (land, culture, values, intangible heritage, etc.) owned and maintained together",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.commons-definition"
+   ],
+   "topic": "Commons in the Global South",
+   "explanation": "Slide 11 defines the commons as a different type of wealth owned and maintained together, often tied to cultural identity and the survival of local communities [M4 s11].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-06",
+   "source": "generated",
+   "stem": "According to the lecturer's notes, which pair of characteristics is typical of the commons, even though they still have high social value or utility?",
+   "options": [
+    "Excludability and non-rivalry",
+    "Excludability and rivalry",
+    "Non-excludability and rivalry",
+    "Non-excludability and non-rivalry only"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Non-excludability and rivalry",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.commons-definition"
+   ],
+   "topic": "Commons in the Global South",
+   "explanation": "The notes say some commons are characterised by non-excludability and rivalry yet have social value/utility; this links to Hardin's tragedy of the commons [M4 s10].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-07",
+   "source": "generated",
+   "stem": "Which of the following is a man-made commons according to the lecture?",
+   "options": [
+    "Forest",
+    "Electromagnetic spectrum",
+    "Biodiversity",
+    "Irrigation system"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Irrigation system",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.commons-types"
+   ],
+   "topic": "Commons in the Global South",
+   "explanation": "Man-made commons on slide 12 include irrigation systems, music, parks, seeds, shared knowledge, internet technology, bandwidth and libraries; forest, spectrum and biodiversity are natural commons [M4 s12].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-08",
+   "source": "generated",
+   "stem": "The following are natural commons, except:",
+   "options": [
+    "Air",
+    "Seeds",
+    "Outer space",
+    "Electromagnetic spectrum",
+    "Ocean"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Seeds",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.commons-types"
+   ],
+   "topic": "Commons in the Global South",
+   "explanation": "Seeds are listed under man-made commons; air, outer space, the electromagnetic spectrum and the ocean are natural commons [M4 s12].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-09",
+   "source": "generated",
+   "stem": "According to the Millennium Ecosystem Assessment (2005), ecosystem services consist of:",
+   "options": [
+    "Provisioning, regulating, supporting and cultural services",
+    "Provisioning, regulating, protecting and recreational services",
+    "Biotic, abiotic, cultural and economic services",
+    "Provisioning, trading, financial and cultural services",
+    "Regulating, mitigating, adapting and supporting services"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Provisioning, regulating, supporting and cultural services",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.ecosystem-services"
+   ],
+   "topic": "Ecosystem services",
+   "explanation": "The MEA (2005) groups ecosystem services into provisioning, regulating, supporting and cultural services [M4 s14].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-10",
+   "source": "generated",
+   "stem": "Climate regulation through carbon absorption, pollination, and flood and erosion control are examples of which category of ecosystem services?",
+   "options": [
+    "Provisioning services",
+    "Regulating services",
+    "Supporting services",
+    "Cultural services",
+    "Financial services"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Regulating services",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.ecosystem-services"
+   ],
+   "topic": "Ecosystem services",
+   "explanation": "Regulating services are benefits from natural regulation processes such as climate regulation, water and air purification, flood and erosion control, pollination and pest control [M4 s14].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-11",
+   "source": "generated",
+   "stem": "In the chart of the estimated annual value of ecosystem services (Spoolman & Miller, 2021), which ecosystem has the largest value?",
+   "options": [
+    "Forests (US$15.6 trillion)",
+    "Open ocean (US$16.3 trillion)",
+    "Coral reefs (US$9.9 trillion)",
+    "Coastal marshes/mangroves (US$24.8 trillion)"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Coastal marshes/mangroves (US$24.8 trillion)",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.es-valuation"
+   ],
+   "topic": "Ecosystem services",
+   "explanation": "The largest bar on slide 17 is coastal marshes/mangroves at $24.8 trillion; small in area, they provide the largest service value [M4 s17].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-12",
+   "source": "generated",
+   "stem": "Which pairing of ecosystem and estimated annual ecosystem-service value is correct, according to the chart?",
+   "options": [
+    "Coral reefs: US$24.8 trillion",
+    "Forests: US$12.7 trillion",
+    "Cropland: US$15.6 trillion",
+    "Open ocean: US$16.3 trillion",
+    "Lakes/rivers: US$5.9 trillion"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Open ocean: US$16.3 trillion",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.es-valuation"
+   ],
+   "topic": "Ecosystem services",
+   "explanation": "Slide 17 values: forests 15.6, grasslands 12.7, cropland 9.3, swamps 1.5, mangroves 24.8, open ocean 16.3, coral reefs 9.9, marine shelf 5.9, lakes/rivers 0.9 (US$ trillion) [M4 s17].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-13",
+   "source": "generated",
+   "stem": "Payment for Ecosystem Services (PES) is a mechanism in which:",
+   "options": [
+    "Parties who benefit from nature pay those who preserve or enhance a service, provided results are achieved",
+    "Those who preserve nature pay the beneficiaries of the service to compensate them for using it, whatever the result",
+    "Local communities receive payment regardless of whether the service is delivered",
+    "All citizens are taxed equally to fund conservation in other countries"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Parties who benefit from nature pay those who preserve or enhance a service, provided results are achieved",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.es-payment"
+   ],
+   "topic": "Ecosystem services",
+   "explanation": "PES: beneficiaries (e.g. of clean water or carbon absorption) pay providers (forest farmers, coastal communities), conditional on real results [M4 s18].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-14",
+   "source": "generated",
+   "stem": "Indigenous communities protect shared resources through customary rules and joint agreements. Which route for valuing and protecting ecosystem services does this represent?",
+   "options": [
+    "Economic: Payment for Ecosystem Services",
+    "Social: mutual consent",
+    "Governance: government regulation",
+    "Market: tradable emission permits"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Social: mutual consent",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.es-payment"
+   ],
+   "topic": "Ecosystem services",
+   "explanation": "The lecture gives three routes: economic (PES), social (mutual consent as practised by indigenous communities) and governance (government regulations) [M4 s18].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-15",
+   "source": "generated",
+   "stem": "In the Cidanau, Banten scheme (IJL, run since 2003), how much do downstream industries pay upstream farmer groups?",
+   "options": [
+    "Rp12-17.5 million per hectare per year",
+    "Rp1.2-1.75 million per farmer per month",
+    "Rp1.2-1.75 million per hectare per year",
+    "Rp120-175 thousand per hectare per year",
+    "Rp1.2-1.75 billion per watershed per year"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Rp1.2-1.75 million per hectare per year",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.cidanau"
+   ],
+   "topic": "Ecosystem services",
+   "explanation": "Industries in the downstream industrial city of Cilegon pay about Rp1.2-1.75 million per hectare per year to upstream farmers to manage their gardens sustainably [M4 s18].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-16",
+   "source": "generated",
+   "stem": "In the Cidanau watershed case, who pays whom?",
+   "options": [
+    "Upstream farmers pay downstream industries for access to water",
+    "The national government pays the downstream industries to reduce their water use from the watershed",
+    "Downstream industries in Cilegon pay upstream farmers in Serang and Pandeglang",
+    "Downstream farmers pay the upstream industries for water access"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Downstream industries in Cilegon pay upstream farmers in Serang and Pandeglang",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.cidanau"
+   ],
+   "topic": "Ecosystem services",
+   "explanation": "Upstream land is managed mostly by poor farmers; downstream Cilegon industry benefits from the water service and compensates them through the FKDC scheme [M4 s18].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-17",
+   "source": "generated",
+   "stem": "The 'hole' in the ozone layer was discovered in which year and where?",
+   "options": [
+    "1985, over Antarctica",
+    "1987, over the Arctic",
+    "1972, over Antarctica",
+    "2016, over the tropics"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "1985, over Antarctica",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.ozone"
+   ],
+   "topic": "Regulating the commons",
+   "explanation": "In 1985 the ozone layer was found to have thinned, creating a 'hole' over Antarctica [M4 s20].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-18",
+   "source": "generated",
+   "stem": "The ozone layer is described as a 'global commons' or 'invisible commons' because:",
+   "options": [
+    "It is owned and administered by the United Nations on behalf of all member states through a global treaty body",
+    "It lies over the territory of only one country",
+    "It can be fenced and bounded like land",
+    "It cannot be seen, yet its shared benefit (blocking harmful UV radiation) is very high for everyone",
+    "It is a man-made resource created by CFC production"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "It cannot be seen, yet its shared benefit (blocking harmful UV radiation) is very high for everyone",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.ozone"
+   ],
+   "topic": "Regulating the commons",
+   "explanation": "Lecturer's notes: the ozone layer is a global/invisible commons, not visible but with high shared benefit; it blocks harmful UV radiation [M4 s20].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-19",
+   "source": "generated",
+   "stem": "The Montreal Protocol (1987) is a global agreement that:",
+   "options": [
+    "Limits NOx emissions from diesel vehicles and requires software-free emission testing in the United States",
+    "Sets the goal of limiting global warming to below 1.5 C",
+    "Prohibits the production and use of hazardous substances such as CFCs and their derivatives",
+    "Establishes jurisdictional zones such as the EEZ at sea"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Prohibits the production and use of hazardous substances such as CFCs and their derivatives",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.montreal"
+   ],
+   "topic": "Regulating the commons",
+   "explanation": "The Montreal Protocol (1987) banned CFCs and derivatives that deplete ozone [M4 s21].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-20",
+   "source": "generated",
+   "stem": "Which pairing of agreement, year and focus is correct?",
+   "options": [
+    "Montreal Protocol (2016): HFCs and other greenhouse gases only",
+    "Kigali Amendment (2016): HFC, HCFC and similar substances",
+    "Kigali Amendment (1987): CFCs",
+    "Montreal Protocol (1985): NOx from vehicles",
+    "Kigali Amendment (2016): NOx from diesel vehicles"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Kigali Amendment (2016): HFC, HCFC and similar substances",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.montreal"
+   ],
+   "topic": "Regulating the commons",
+   "explanation": "Montreal Protocol (1987) targets CFCs and derivatives; the Kigali Amendment (2016) prohibits HFC, HCFC and similar substances [M4 s21].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-21",
+   "source": "generated",
+   "stem": "According to UNESCO (cited in the lecture), around how many farmers can manage the water supply from one Subak water source?",
+   "options": [
+    "5-20",
+    "1,000-2,000",
+    "Exactly one farmer per source",
+    "50-400"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "50-400",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.subak"
+   ],
+   "topic": "Regulating the commons",
+   "explanation": "Slide 24: UNESCO notes that around 50-400 farmers can manage water from a single source [M4 s24].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-22",
+   "source": "generated",
+   "stem": "Subak fulfils the key elements of the commons, except:",
+   "options": [
+    "Shared resource: water from the same source and stream used by many farmers",
+    "Private ownership of the water by each individual farmer",
+    "Collective rules on the allocation and timing of water use",
+    "Social-cultural dimension linked to rituals, local institutions and Tri Hita Karana"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Private ownership of the water by each individual farmer",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.subak"
+   ],
+   "topic": "Regulating the commons",
+   "explanation": "Slide 24 lists shared resource, multiple users, collective rules, collective management and a social-cultural dimension; individual private ownership is not one of them [M4 s24].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-23",
+   "source": "generated",
+   "stem": "In the 'Dieselgate' case, Volkswagen was proven to have:",
+   "options": [
+    "Falsified diesel fuel tax records to avoid paying duties",
+    "Exported old diesel engines to the Global South",
+    "Used software that lowered NOx emissions on the road but raised them during testing so the cars looked dirtier",
+    "Exceeded CO2 limits by 20% on all vehicles sold",
+    "Used software that controlled emissions during testing, while on-road emissions increased about 20 times"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Used software that controlled emissions during testing, while on-road emissions increased about 20 times",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.dieselgate"
+   ],
+   "topic": "Regulating the commons",
+   "explanation": "VW marketed its diesels as 'clean technology' but used software that controlled emissions only in testing; NOx caused smog and millions of vehicles were recalled [M4 s25].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-24",
+   "source": "generated",
+   "stem": "What does Dieselgate illustrate about regulating a commons such as air?",
+   "options": [
+    "Rules alone are not enough: industry may manipulate compliance, so monitoring and enforcement are needed",
+    "Voluntary industry self-regulation is sufficient to protect air quality, so strict government rules and testing are unnecessary",
+    "NOx limits are unnecessary because NOx is not harmful to health",
+    "Emission regulation is only relevant in the Global South"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Rules alone are not enough: industry may manipulate compliance, so monitoring and enforcement are needed",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.dieselgate"
+   ],
+   "topic": "Regulating the commons",
+   "explanation": "Lecturer's notes: industry finds emission rules burdensome and may manipulate them (as VW did), so regulation needs real monitoring [M4 s25].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-25",
+   "source": "generated",
+   "stem": "In an arrangement for managing a common resource, which element defines who may access the resource and where the management area applies?",
+   "options": [
+    "Opportunities for use",
+    "Boundaries",
+    "Supervision",
+    "Sanctions"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Boundaries",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.arrangement"
+   ],
+   "topic": "Commons in the Global South",
+   "explanation": "Boundaries define who has the right to access and the extent of the managed area; opportunities for use set how, when and how much to use [M4 s31].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m4-26",
+   "source": "generated",
+   "stem": "A commons arrangement (Ostrom) includes the following elements, except:",
+   "options": [
+    "Boundaries defining who may access the resource",
+    "Costs shared fairly among all users",
+    "Supervision of compliance with the rules",
+    "Conflict resolution through mediation",
+    "Taxation by the central government"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Taxation by the central government",
+   "keyStatus": "given",
+   "module": "M4",
+   "nodeIds": [
+    "m4.arrangement"
+   ],
+   "topic": "Commons in the Global South",
+   "explanation": "The six elements are boundaries, costs, opportunities for use, supervision, sanctions and conflict resolution [M4 s31].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      31
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-m4.why-south",
+   "nodeId": "m4.why-south",
+   "module": "M4",
+   "topic": "Global North & South",
+   "front": "Why does the Global South matter for sustainability? Give key facts.",
+   "back": "Characteristics: less advanced economic development, 88% of world population, larger land area, 80% middle class by 2030. Most future population growth and urbanisation; holds tropical forests and biodiversity; low historical per-capita emissions yet most vulnerable. Decisions now lock in emissions for decades; justice is central.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.ns-definition",
+   "nodeId": "m4.ns-definition",
+   "module": "M4",
+   "topic": "Global North & South",
+   "front": "How are Global North and Global South defined? Give exceptions.",
+   "back": "Based on social and economic aspects, not geographical location. North: high income, strong industry/tech, dominates institutions, most historical emissions. South: middle/low income, vulnerable, South-South cooperation. Exceptions: Australia and New Zealand (south but North); Singapore, South Korea, Taiwan, Hong Kong in IMF advanced list.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      6,
+      7,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.commons-definition",
+   "nodeId": "m4.commons-definition",
+   "module": "M4",
+   "topic": "Commons in the Global South",
+   "front": "What does 'the commons' mean?",
+   "back": "A different kind of wealth (land, culture, values, activities, intangible heritage) owned and maintained together; tied to cultural identity and community survival. Notes: Hardt & Negri (2009); non-excludability and rivalry yet high social value; a system of resource, users, rules and institutions; not binary property vs none.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      10,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.commons-types",
+   "nodeId": "m4.commons-types",
+   "module": "M4",
+   "topic": "Commons in the Global South",
+   "front": "List natural vs man-made commons.",
+   "back": "Natural: water, air, land, forest, ocean, biodiversity, electromagnetic spectrum, outer space. Man-made: irrigation system, music, park, seeds, shared knowledge, internet technology, bandwidth, library. The commons is not only nature; digital and knowledge resources count too.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.ecosystem-services",
+   "nodeId": "m4.ecosystem-services",
+   "module": "M4",
+   "topic": "Ecosystem services",
+   "front": "Name the four MEA (2005) categories of ecosystem services with examples.",
+   "back": "Provisioning (food, water, timber, fuel); regulating (climate, water and air purification, flood control, pollination); cultural (recreation, spiritual, aesthetic); supporting (nutrient cycling, soil formation, photosynthesis; the foundation of the other three). All economic activity depends on them.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.es-valuation",
+   "nodeId": "m4.es-valuation",
+   "module": "M4",
+   "topic": "Ecosystem services",
+   "front": "What does the ecosystem-service value chart show (US$ trillion/yr)?",
+   "back": "Spoolman & Miller 2021: coastal marshes/mangroves 24.8 (largest), open ocean 16.3, forests 15.6, grasslands 12.7, coral reefs 9.9, cropland 9.3, marine shelf 5.9, swamps 1.5, lakes/rivers 0.9. Small-area coastal ecosystems give the largest value; natural capital is ignored by conventional accounting.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.es-payment",
+   "nodeId": "m4.es-payment",
+   "module": "M4",
+   "topic": "Ecosystem services",
+   "front": "List the three ways ecosystem services can be 'paid'.",
+   "back": "1) Economic: Payment for Ecosystem Services (PES/PJL): beneficiaries pay those who preserve the service, if results are achieved (example Cidanau). 2) Social: mutual consent / joint agreement, as in indigenous communities. 3) Governance: government regulations.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.cidanau",
+   "nodeId": "m4.cidanau",
+   "module": "M4",
+   "topic": "Ecosystem services",
+   "front": "Explain the Cidanau (Banten) PES case with numbers.",
+   "back": "Priority watershed in Banten. Upstream (Serang, Pandeglang): poor farmers; downstream: industrial Cilegon. Since 2003 the Cidanau Watershed Communication Forum (FKDC) runs an IJL scheme: industries pay Rp1.2-1.75 million per hectare per year to upstream farmers to manage land sustainably.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.ozone",
+   "nodeId": "m4.ozone",
+   "module": "M4",
+   "topic": "Regulating the commons",
+   "front": "Why is the Antarctic ozone hole a global commons example?",
+   "back": "Ozone is a common asset that blocks harmful UV radiation; the 'invisible commons' is unseen but benefits all. In 1985 a 'hole' over Antarctica was found. It endangered human habitats and triggered a global consensus (mutual consent at global scale), leading to the Montreal Protocol. Still monitored.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      20,
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.montreal",
+   "nodeId": "m4.montreal",
+   "module": "M4",
+   "topic": "Regulating the commons",
+   "front": "Compare the Montreal Protocol and the Kigali Amendment.",
+   "back": "Montreal Protocol (1987): global agreement prohibiting production and use of hazardous ozone-depleting substances, CFCs and derivatives. Kigali Amendment (2016): prohibits HFC, HCFC and similar substances. Example of regulating a global commons by international consensus.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.subak",
+   "nodeId": "m4.subak",
+   "module": "M4",
+   "topic": "Regulating the commons",
+   "front": "How does the Subak irrigation system illustrate the commons?",
+   "back": "Bali system of over 1,000 years, UNESCO-listed (about 19,500 ha). Elements: shared water source; multiple users (about 50-400 farmers per source); collective rules on allocation and timing; collective upkeep of canals, dams and water temples; socio-cultural dimension (rituals, Tri Hita Karana).",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.dieselgate",
+   "nodeId": "m4.dieselgate",
+   "module": "M4",
+   "topic": "Regulating the commons",
+   "front": "Summarise the Dieselgate case and its lesson.",
+   "back": "US Clean Air Act sets strict NOx limits. Volkswagen sold diesels as 'clean technology' but used software that controlled emissions during testing; on the road emissions rose about 20x. NOx forms smog (health issue); millions of vehicles recalled. Lesson: regulation needs monitoring because industry may manipulate compliance.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.arrangement",
+   "nodeId": "m4.arrangement",
+   "module": "M4",
+   "topic": "Commons in the Global South",
+   "front": "List the six elements of a commons arrangement.",
+   "back": "Boundaries (who/where), costs (shared fairly), opportunities for use (how, when, how much), supervision (monitoring), sanctions (clear, progressive) and conflict resolution (mediation, arbitration). Reflect Ostrom's principles; notes add minimal recognition of rights to organise and nested enterprises.",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      31
+     ]
+    }
+   ]
+  }
+ ]
+}

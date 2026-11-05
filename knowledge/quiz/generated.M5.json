@@ -1,0 +1,833 @@
+{
+ "questions": [
+  {
+   "id": "g-m5-01",
+   "source": "generated",
+   "stem": "The MDGs were an international agreement adopted at the Millennium Summit in New York in September 2000. How many countries adopted them?",
+   "options": [
+    "147 countries",
+    "189 countries",
+    "192 countries",
+    "169 countries",
+    "17 countries"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "189 countries",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.mdgs"
+   ],
+   "topic": "SDG basics & indicators",
+   "explanation": "189 countries adopted the MDGs and 147 heads of state or government signed them at the September 2000 Millennium Summit [M5 s3].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-02",
+   "source": "generated",
+   "stem": "Compared with the MDGs, the SDGs have a broader scope because they put stronger emphasis on:",
+   "options": [
+    "Extreme poverty and hunger in developing countries only",
+    "Reducing child mortality as the single priority",
+    "Environmental protection and intergenerational equity",
+    "Economic growth in the Global North"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Environmental protection and intergenerational equity",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.sdgs"
+   ],
+   "topic": "SDG basics & indicators",
+   "explanation": "The SDGs extend the MDGs with a stronger focus on protecting the environment and on intergenerational equity, and apply to all countries [M5 s4].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-03",
+   "source": "generated",
+   "stem": "Sustainable development rests on the economic, social and environmental pillars. At the global scale, which two prerequisites are needed to implement it?",
+   "options": [
+    "Peace and partnership",
+    "Technology and innovation",
+    "Economic growth and trade",
+    "Justice and strong institutions"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Peace and partnership",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.sd-definition"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "The slide names peace and partnership (cooperation) as the two prerequisites for implementing sustainable development globally [M5 s7].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-04",
+   "source": "generated",
+   "stem": "Globally there are 231 SDG indicators. How many indicators does Indonesia use, tailored to its national development targets?",
+   "options": [
+    "169 indicators",
+    "59 indicators",
+    "111 indicators",
+    "289 indicators",
+    "17 indicators"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "289 indicators",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.goals-targets-indicators"
+   ],
+   "topic": "SDG basics & indicators",
+   "explanation": "Indonesia uses 289 indicators, more than the 231 global ones, because they are adapted to national development targets [M5 s8].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-05",
+   "source": "generated",
+   "stem": "Which institution matches and incorporates the SDG (TPB) targets and indicators into Indonesia's national development planning?",
+   "options": [
+    "BMKG",
+    "Bappenas (Ministry of National Development Planning)",
+    "The House of Representatives (DPR)",
+    "IAEG-SDGs"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Bappenas (Ministry of National Development Planning)",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.indonesia-commitment"
+   ],
+   "topic": "SDGs in Indonesia",
+   "explanation": "Bappenas matches and incorporates the SDG targets and indicators into national development and has developed the SDG Roadmap [M5 s11].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-06",
+   "source": "generated",
+   "stem": "To remain relevant to current conditions, the IBSAP 2025–2045 is evaluated every:",
+   "options": [
+    "1 year",
+    "2 years",
+    "5 years",
+    "10 years",
+    "20 years"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "5 years",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.ibsap"
+   ],
+   "topic": "Biodiversity & IBSAP",
+   "explanation": "One of the IBSAP functions listed on the slide is that it is evaluated every 5 years to stay relevant [M5 s19].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-07",
+   "source": "generated",
+   "stem": "A start-up offers households a pay-per-use rental service for solar panels, using existing equipment but a new way of organising the service. In the STI definitions, this is best classified as:",
+   "options": [
+    "Science",
+    "Technology",
+    "Not STI, because innovation requires a new scientific discovery",
+    "Innovation"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Innovation",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.sti-definition"
+   ],
+   "topic": "STI & TFM",
+   "explanation": "Innovation is a new way of producing, distributing or using goods and services, including new business models or new economic or social organisation [M5 s23].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      23
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-08",
+   "source": "generated",
+   "stem": "Under the Addis Ababa Action Agenda, the creation, development and dissemination of innovations and new technologies promote sustainable development, including:",
+   "options": [
+    "Compulsory transfer of all patents to developing countries",
+    "Technology transfer reserved for the Global North",
+    "Mutually agreed technology transfer",
+    "Removing the private sector from the process",
+    "Replacing domestic public resources entirely"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Mutually agreed technology transfer",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.sti-aaaa"
+   ],
+   "topic": "STI & TFM",
+   "explanation": "The AAAA states that innovation and technology dissemination, including mutually agreed technology transfer, promote sustainable development [M5 s24].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-09",
+   "source": "generated",
+   "stem": "Within the Technology Facilitation Mechanism (TFM), 2030 Connect is:",
+   "options": [
+    "The annual multi-stakeholder forum on STI for the SDGs",
+    "The UN Interagency Task Team on STI for the SDGs",
+    "A group of 10 representatives supporting the TFM",
+    "A financing facility for national STI roadmaps in developing countries",
+    "An online gateway for information on STI initiatives and programmes"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "An online gateway for information on STI initiatives and programmes",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.tfm"
+   ],
+   "topic": "STI & TFM",
+   "explanation": "2030 Connect is the online platform; the annual STI Forum is the other communication channel, while IATT and the 10-Member Group are internal UN bodies [M5 s25].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-10",
+   "source": "generated",
+   "stem": "Health challenges call for vaccines and diagnostics, while energy challenges call for renewables and efficiency. Which feature of STI for SDG achievement does this illustrate?",
+   "options": [
+    "Knowledge-centred",
+    "Goal-specific",
+    "Place-based Priority",
+    "Indivisibility",
+    "Universality"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Goal-specific",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.sti-features"
+   ],
+   "topic": "STI & TFM",
+   "explanation": "Goal-specific means the challenges of each SDG require different STI; place-based priority instead refers to differences between countries and regions [M5 s27].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-11",
+   "source": "generated",
+   "stem": "In the UN midpoint assessment of 140 SDG targets (2023), what share of targets was progressing according to the roadmap?",
+   "options": [
+    "48%",
+    "15%",
+    "Over 30%",
+    "75%"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "15%",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.reality-2023"
+   ],
+   "topic": "SDG progress (reality check)",
+   "explanation": "Only 15% of the 140 targets were progressing as planned; 48% were not, and more than 30% were stagnant or below the 2015 baseline [M5 s29].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-12",
+   "source": "generated",
+   "stem": "Indonesia has taken part in the Voluntary National Review (VNR) since 2017, voluntarily, about every:",
+   "options": [
+    "1 year",
+    "2 years",
+    "5 years",
+    "10 years"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "2 years",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.vnr"
+   ],
+   "topic": "SDGs in Indonesia",
+   "explanation": "Indonesia has participated actively in the VNR since 2017, roughly every 2 years, coordinated by the National TPB Secretariat [M5 s14-15].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      14,
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-13",
+   "source": "generated",
+   "stem": "Which Indonesian VNR carried the theme \"Sustainable and Resilient Recovery from the COVID-19 Pandemic for the Achievement of the 2030 Agenda\"?",
+   "options": [
+    "VNR 2017",
+    "VNR 2019",
+    "VNR 2021",
+    "VNR 2025",
+    "VNR 2015"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "VNR 2021",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.vnr"
+   ],
+   "topic": "SDGs in Indonesia",
+   "explanation": "The VNR 2021 cover shows the COVID-19 recovery theme; 2017 was about eradicating poverty and 2019 about empowering people and inclusiveness [M5 s14].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-14",
+   "source": "generated",
+   "stem": "According to the lecturer's assessment of Indonesia's TPB achievements, which statement about SDG 14 (Life below Water) and SDG 15 (Life on Land) is correct?",
+   "options": [
+    "SDG 14 is declining while SDG 15 is improving",
+    "Both goals have already been fully achieved",
+    "Both goals are consistently declining",
+    "SDG 15 is consistently declining, while SDG 14 is improving",
+    "Neither goal is covered by Indonesia's TPB reporting"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "SDG 15 is consistently declining, while SDG 14 is improving",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.sdg14-15-indonesia"
+   ],
+   "topic": "Biodiversity & IBSAP",
+   "explanation": "Indonesia's SDG 15 (land ecosystems) shows a consistent decline whereas SDG 14 (marine ecosystems) is improving, which motivates stronger biodiversity commitments such as IBSAP [M5 s18].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-15",
+   "source": "generated",
+   "stem": "In the 2023 global progress chart, roughly what share of SDG 14 and SDG 15 targets was on track?",
+   "options": [
+    "About 30% of SDG 14 and 25% of SDG 15 targets",
+    "About 80% of the targets of both goals",
+    "About 15% of SDG 14 and 48% of SDG 15 targets",
+    "None of the targets of either goal"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "About 30% of SDG 14 and 25% of SDG 15 targets",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.sdg14-15-indonesia",
+    "m5.reality-2023"
+   ],
+   "topic": "Biodiversity & IBSAP",
+   "explanation": "In the 2023 chart the on-track share is about 30% for SDG 14 and 25% for SDG 15, with a large share stagnating or regressing [M5 s29].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      18,
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-16",
+   "source": "generated",
+   "stem": "According to the UNEP definition, Nature-based Solutions (NbS) are actions to:",
+   "options": [
+    "Protect, conserve, restore, sustainably use and manage ecosystems",
+    "Replace natural ecosystems with engineered grey infrastructure wherever possible",
+    "Maximise resource extraction for short-term growth",
+    "Relocate communities away from every protected ecosystem in the country"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Protect, conserve, restore, sustainably use and manage ecosystems",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.nbs"
+   ],
+   "topic": "Biodiversity & IBSAP",
+   "explanation": "UNEP defines NbS as actions to protect, conserve, restore, sustainably use and manage ecosystems to address social, economic and environmental challenges [M5 s21].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-17",
+   "source": "generated",
+   "stem": "The IUCN describes Nature-based Solutions as solutions that simultaneously benefit:",
+   "options": [
+    "Only the economy",
+    "Only biodiversity, excluding human needs",
+    "Industry and technology developers",
+    "People (human well-being) and nature (biodiversity)",
+    "Developed countries only"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "People (human well-being) and nature (biodiversity)",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.nbs"
+   ],
+   "topic": "Biodiversity & IBSAP",
+   "explanation": "Per IUCN, NbS deliver human well-being and biodiversity benefits at the same time, and are seen as a cost-effective way to reach the SDGs [M5 s21].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-18",
+   "source": "generated",
+   "stem": "In the 2026 reality check (\"Shared Blueprint for Peace\"), electricity reaches what share of the world's population?",
+   "options": [
+    "74%",
+    "92%",
+    "50%",
+    "99%"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "92%",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.reality-2026"
+   ],
+   "topic": "SDG progress (reality check)",
+   "explanation": "The snapshot lists electricity reaching 92% of the world's population, internet 74% and social protection about half [M5 s30].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m5-19",
+   "source": "generated",
+   "stem": "Among the areas still lagging in the 2026 reality check, global temperature by 2025 had reached how far above pre-industrial levels?",
+   "options": [
+    "1.5°C",
+    "1.1°C",
+    "2.0°C",
+    "0.8°C",
+    "1.43°C"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "1.43°C",
+   "keyStatus": "given",
+   "module": "M5",
+   "nodeIds": [
+    "m5.reality-2026"
+   ],
+   "topic": "SDG progress (reality check)",
+   "explanation": "By 2025 the global temperature reached 1.43°C above pre-industrial levels, close to the 1.5°C Paris limit [M5 s30].",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      30
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-m5.mdgs",
+   "nodeId": "m5.mdgs",
+   "module": "M5",
+   "topic": "SDG basics & indicators",
+   "front": "What were the MDGs, and how do they differ from the SDGs?",
+   "back": "International agreement under UN Sec-Gen Kofi Annan for 2000–2015; adopted by 189 countries, signed by 147 heads of state/government (Millennium Summit, New York, Sept 2000). 8 goals targeting specific/extreme conditions, mostly for developing countries. SDGs: 17 goals, 2015–2030, universal, stronger environmental and intergenerational focus.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.sdgs",
+   "nodeId": "m5.sdgs",
+   "module": "M5",
+   "topic": "SDG basics & indicators",
+   "front": "State the key facts of the SDGs (goals, period, who set them).",
+   "back": "17 interrelated goals for 2015–2030 (the Decade of Action), set by UN member states (192 per slide/quiz) as a global and national commitment; called TPB in Indonesia. Continuation of the MDGs but broader, with stronger emphasis on the environment and intergenerational equity. When adopted, no country had achieved all goals.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      4,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.sd-definition",
+   "nodeId": "m5.sd-definition",
+   "module": "M5",
+   "topic": "Sustainability basics & dimensions",
+   "front": "Give the Brundtland definition of sustainable development, its three pillars and two prerequisites.",
+   "back": "Our Common Future (1987): development that meets the needs of the present without compromising the ability of future generations to meet their own needs (intergenerational equity). Pillars: economic, social, environmental. Global prerequisites: peace and partnership (SDG 16 and 17).",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.goals-targets-indicators",
+   "nodeId": "m5.goals-targets-indicators",
+   "module": "M5",
+   "topic": "SDG basics & indicators",
+   "front": "What numbers define the SDG hierarchy, globally and for Indonesia?",
+   "back": "17 goals, 169 targets, 231 global indicators; Indonesia uses 289 indicators adapted to national development targets. Each goal splits into targets, each target is measured by indicators. Goals apply to all countries but consider differing conditions and capabilities. IAEG-SDGs reviews the indicators yearly.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.indonesia-commitment",
+   "nodeId": "m5.indonesia-commitment",
+   "module": "M5",
+   "topic": "SDGs in Indonesia",
+   "front": "How is Indonesia's SDG commitment anchored in law, and who coordinates it?",
+   "back": "Perpres (Presidential Regulation) No. 59/2017, updated to No. 111/2022 (Roadmap and metadata). A Perpres binds the executive and makes TPB a reference for development planning. Bappenas matches SDG targets and indicators to national development and invites private sector and civil society as partners.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.vnr",
+   "nodeId": "m5.vnr",
+   "module": "M5",
+   "topic": "SDGs in Indonesia",
+   "front": "What is the Voluntary National Review (VNR) and how does Indonesia use it?",
+   "back": "A country's own report on SDG progress presented to the UN (High-Level Political Forum); voluntary, with no enforcement. Indonesia has reported since 2017, about every 2 years, coordinated by the National TPB Secretariat (Bappenas). Themes: 2017 poverty and prosperity, 2019 inclusiveness, 2021 COVID-19 recovery, 2025 inclusive growth.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      14,
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.sdg14-15-indonesia",
+   "nodeId": "m5.sdg14-15-indonesia",
+   "module": "M5",
+   "topic": "Biodiversity & IBSAP",
+   "front": "Compare Indonesia's performance on SDG 14 and SDG 15.",
+   "back": "Both represent natural capital and biodiversity. SDG 15 (land ecosystems) is consistently declining; SDG 14 (marine ecosystems) is improving and was a focus of the 2017 and 2025 VNRs. This mixed picture motivates IBSAP 2025–2045. Globally about 30% of SDG 14 and 25% of SDG 15 targets were on track (2023).",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      18,
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.ibsap",
+   "nodeId": "m5.ibsap",
+   "module": "M5",
+   "topic": "Biodiversity & IBSAP",
+   "front": "What is IBSAP 2025–2045: mission, functions, alignment?",
+   "back": "Indonesia's biodiversity master plan. Mission: protection, sustainable use, enrichment of science and technology (STI), strengthening resources and governance. Functions: national and regional guideline, diplomatic tool in global forums, evaluated every 5 years. Aligned with RPJPN, KM-GBF; mandated by Presidential Instruction 1/2023.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      19,
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.nbs",
+   "nodeId": "m5.nbs",
+   "module": "M5",
+   "topic": "Biodiversity & IBSAP",
+   "front": "Define Nature-based Solutions (NbS) per UNEP and IUCN.",
+   "back": "UNEP: actions to protect, conserve, restore, sustainably use and manage natural or modified ecosystems to address social, economic and environmental challenges. IUCN: solutions benefiting people and nature at once. Address climate, food and water security, disaster risk and urban development; a cost-effective route to the SDGs.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.sti-definition",
+   "nodeId": "m5.sti-definition",
+   "module": "M5",
+   "topic": "STI & TFM",
+   "front": "Define Science, Technology and Innovation (STI) as three related areas.",
+   "back": "Science: pursuit of knowledge through systematic study of the physical, natural and social world. Technology: application of knowledge to achieve specific goals. Innovation: a new way of producing, distributing or using goods and services, based on new technology, new business models or new economic or social organisation (not only technological).",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      23
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.sti-aaaa",
+   "nodeId": "m5.sti-aaaa",
+   "module": "M5",
+   "topic": "STI & TFM",
+   "front": "What does the Addis Ababa Action Agenda say about STI?",
+   "back": "The AAAA (2015) is the UN financing and means-of-implementation framework for the 2030 Agenda. STI is one of its Seven Key Actions. Creating and spreading innovations and technologies, including mutually agreed technology transfer, promotes sustainable development, so every country can steer targets toward universal achievement.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.tfm",
+   "nodeId": "m5.tfm",
+   "module": "M5",
+   "topic": "STI & TFM",
+   "front": "List the four components of the Technology Facilitation Mechanism (TFM) and group them.",
+   "back": "Internal UN bodies monitoring STI in the SDGs: IATT (UN Interagency Task Team) and the 10-Member Group. Communication and knowledge-exchange platforms: the STI Forum (annual multi-stakeholder forum) and 2030 Connect (online platform and information gateway).",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.sti-features",
+   "nodeId": "m5.sti-features",
+   "module": "M5",
+   "topic": "STI & TFM",
+   "front": "List the three features of STI for SDG achievement.",
+   "back": "1) Knowledge-centred: generating, disseminating and using knowledge. 2) Goal-specific: each SDG needs different STI (e.g. vaccines for health, renewables for energy). 3) Place-based Priority: each country needs different STI according to its priorities and local context. No one-size-fits-all.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.reality-2023",
+   "nodeId": "m5.reality-2023",
+   "module": "M5",
+   "topic": "SDG progress (reality check)",
+   "front": "What did the UN 2023 midpoint reality check find (numbers)?",
+   "back": "Of 140 targets evaluated: 15% progressing per roadmap, 48% not on track, more than 30% stagnant or regressing below the 2015 baseline. Positives: more databases comparable across countries and more agreed methods. Highest on-track share: SDG 12 (~36%). Climate hampers water and energy progress (SDG 6, 7, 11, 13, 14, 15).",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m5.reality-2026",
+   "nodeId": "m5.reality-2026",
+   "module": "M5",
+   "topic": "SDG progress (reality check)",
+   "front": "Give gains and lags from the 2026 reality check.",
+   "back": "Gains: 1 billion gained drinking water, 1.2 billion safe sanitation, HIV infections down 30%, electricity 92%, internet 74%, social protection half the world. Lags: 1 in 10 in extreme poverty, 3 billion food insecure, 1.43°C warming by 2025, 273 million children out of school, refugees up by over half. Gaps persist in SDG 1, 5, 10.",
+   "sources": [
+    {
+     "module": "M5",
+     "slides": [
+      30
+     ]
+    }
+   ]
+  }
+ ]
+}

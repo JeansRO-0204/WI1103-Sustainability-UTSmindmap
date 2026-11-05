@@ -1,0 +1,713 @@
+{
+ "questions": [
+  {
+   "id": "g-m7-01",
+   "source": "generated",
+   "stem": "Large-scale agricultural expansion in rural areas (SDG 2) is a mixed activity. The following are negative impacts it can cause, except",
+   "options": [
+    "Driving deforestation (SDG 15)",
+    "Being among the largest users of freshwater (SDG 6)",
+    "Chemical use and land degradation (SDG 12 and 15)",
+    "Less inequality in local communities (SDG 10)"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Less inequality in local communities (SDG 10)",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.activities.mixed"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Agricultural expansion improves nutrition but drives deforestation, uses most freshwater, and can lower local quality of life and widen inequality, not narrow it [M7 s8].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-02",
+   "source": "generated",
+   "stem": "In the inverted-U curve linking per capita income to per capita material footprint, what happens after the turning point?",
+   "options": [
+    "The per capita material footprint starts to fall",
+    "The per capita material footprint keeps rising with income",
+    "Per capita income falls back to zero",
+    "The footprint stays fixed at its maximum value"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "The per capita material footprint starts to fall",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.tech-sdg12"
+   ],
+   "topic": "Technology & SDG relationships",
+   "explanation": "The curve rises to a turning point and then declines, so technology and affluence first raise the footprint and only later may decouple it [M7 s15].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-03",
+   "source": "generated",
+   "stem": "In the nexus approach, how should a country prioritise the SDGs?",
+   "options": [
+    "In the same order as the global SDG ranking",
+    "By following the priorities of the Global North",
+    "According to its local context",
+    "By choosing only the environmental goals"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "According to its local context",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.nexus"
+   ],
+   "topic": "FEW nexus",
+   "explanation": "The nexus slide states that the country prioritises SDGs depending on the local context, so there is no one-size-fits-all [M7 s21].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-04",
+   "source": "generated",
+   "stem": "In the SDG wheel of the Food–Energy–Water nexus, which three SDGs form the inner ring (food, water and energy security)?",
+   "options": [
+    "SDG 1, SDG 3 and SDG 4",
+    "SDG 12, SDG 13 and SDG 15",
+    "SDG 9, SDG 11 and SDG 17",
+    "SDG 2, SDG 6 and SDG 7",
+    "SDG 14, SDG 15 and SDG 16"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "SDG 2, SDG 6 and SDG 7",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.few"
+   ],
+   "topic": "FEW nexus",
+   "explanation": "The inner ring holds SDG 2 (food security), SDG 6 (water security) and SDG 7 (energy security); other SDGs sit in the middle and outer rings [M7 s22].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-05",
+   "source": "generated",
+   "stem": "Under the \"Security\" reason for the FEW nexus approach, the absence or crisis of any one of food, energy or water results in:",
+   "options": [
+    "No effect on the other two sectors",
+    "Social instability and economic disruption",
+    "An automatic increase in SDG funding",
+    "A temporary fall in all resource prices worldwide",
+    "Immediate achievement of SDG 13"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Social instability and economic disruption",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.few.why"
+   ],
+   "topic": "FEW nexus",
+   "explanation": "Food, energy and water are fundamental for society, so a crisis in any one of them causes social instability and economic disruption [M7 s25].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-06",
+   "source": "generated",
+   "stem": "An SDG spillover refers to:",
+   "options": [
+    "The transfer of SDG funds from the Global North to the Global South to close financing gaps",
+    "Two SDGs reinforcing each other within one country's policy mix",
+    "The effect of one country's policies, practices or trade on other countries' SDG progress",
+    "The overflow of surplus indicators into national reports"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "The effect of one country's policies, practices or trade on other countries' SDG progress",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.spillover"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "A spillover is the influence of one country's policies, practices or trade on other countries' SDG achievement, even while its own ranking improves [M7 s5].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-07",
+   "source": "generated",
+   "stem": "Indonesia imports rice to meet its food needs (target 2.1). Which cross-border effect may this cause, as an example of an SDG trade-off?",
+   "options": [
+    "Loss of biodiversity in the exporting country (target 15.5)",
+    "Reduced hunger in the exporting country thanks to a larger rice supply (target 2.1)",
+    "A synergy that needs no further attention",
+    "A lower material footprint in the exporting country"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Loss of biodiversity in the exporting country (target 15.5)",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.spillover"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Importing food can cause biodiversity loss in the exporter (target 15.5), an SDG trade-off across borders [M7 s5].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-08",
+   "source": "generated",
+   "stem": "The 2030 Agenda says SDGs are not achieved one by one but rest on the following principles, except",
+   "options": [
+    "Place-based Priority",
+    "Transformative",
+    "Universality",
+    "Indivisibility"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Place-based Priority",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.interlinkages"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "The M7 mandate is transformative, universal and indivisible; place-based priority is a feature of STI from M5, not of this mandate [M7 s6].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-09",
+   "source": "generated",
+   "stem": "Why can traditional analysis of SDG achievement, such as country rankings or linear correlations, be misleading?",
+   "options": [
+    "It covers too few countries to be statistically valid for comparison",
+    "It includes only the environmental dimension of sustainability",
+    "It always ranks Global South countries above Global North countries",
+    "It is prohibited under the 2030 Agenda and the Addis Ababa Action Agenda",
+    "It ignores interlinkages, local context, \"No One Left Behind\" and spillovers"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "It ignores interlinkages, local context, \"No One Left Behind\" and spillovers",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.interlinkages"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Rankings and linear correlations oversimplify complex, interlinked goals and miss local context, No One Left Behind and spillover effects [M7 s6].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      3,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-10",
+   "source": "generated",
+   "stem": "In the two-objective grid of SDG interlinkages, a positive change in Objective A that comes with a negative change in Objective B is called a:",
+   "options": [
+    "Synergy (reinforcing)",
+    "Peripheral relation",
+    "Spillover",
+    "Trade-off (counteracting)",
+    "Nexus"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Trade-off (counteracting)",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.interlinkages.synergy-tradeoff"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "A trade-off is counteracting: progress on one goal delays another. A synergy has positive change in both objectives [M7 s6, s8].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      6,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-11",
+   "source": "generated",
+   "stem": "Which policy direction follows from the idea of synergies and trade-offs among SDGs?",
+   "options": [
+    "Pursue each SDG separately to avoid interference",
+    "Scale up synergies and manage or decouple trade-offs",
+    "Drop any SDG that causes a trade-off",
+    "Ignore trade-offs because they cancel out in the long run"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Scale up synergies and manage or decouple trade-offs",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.interlinkages.synergy-tradeoff"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Synergies accelerate SDG achievement and trade-offs need special attention, so the aim is to maximise synergies and minimise trade-offs [M7 s6].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-12",
+   "source": "generated",
+   "stem": "In the activity classification, what is the strategic imperative for opposed activities such as coal mining or alcohol and cigarette production?",
+   "options": [
+    "Scale up their positive impact",
+    "Decouple their negative impacts",
+    "Explore ways to add positive impact",
+    "Transform themselves to align with the SDG agenda",
+    "Keep current practice because their effects are insignificant"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Transform themselves to align with the SDG agenda",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.activities"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Opposed activities mainly harm the SDGs, so they must transform; core activities scale, mixed ones decouple, peripheral ones explore [M7 s9].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      7,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-13",
+   "source": "generated",
+   "stem": "Education, public health, legal activities and scientific research are examples of which type of activity, whose strategy is to increase positive impact?",
+   "options": [
+    "Core activities (synergy)",
+    "Mixed activities",
+    "Opposed activities",
+    "Peripheral activities"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Core activities (synergy)",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.activities"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Core activities generate many positive and few negative impacts, and their strategy is to scale the positive impact [M7 s7].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-14",
+   "source": "generated",
+   "stem": "Since 2018, China no longer accepts imported recyclables below which purity level?",
+   "options": [
+    "70%",
+    "90%",
+    "95%",
+    "99%",
+    "50%"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "99%",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.recycling.cost"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Recycling can cost more than new material, and China has rejected recyclables below 99% purity since 2018 [M7 s11].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-15",
+   "source": "generated",
+   "stem": "Which statement correctly contrasts single stream and dual stream recycling?",
+   "options": [
+    "Single stream sorts by material quality at source, while dual stream mixes all materials together",
+    "Both systems give the same market value but differ only in collection cost",
+    "Single stream mixes material qualities in one container; dual stream sorts by quality and raises value",
+    "Dual stream is convenient for households but mixes and contaminates materials"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Single stream mixes material qualities in one container; dual stream sorts by quality and raises value",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.recycling.cost"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Single stream is convenient but mixes qualities; dual stream sorts by quality and raises value, showing the convenience versus cost/quality trade-off [M7 s11].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-16",
+   "source": "generated",
+   "stem": "Based on Boar et al. (2021), synergy among SDGs in the Global North includes:",
+   "options": [
+    "Only one dimension, as in the Global South",
+    "Only the economic dimension of growth and trade",
+    "All three dimensions (social, economic and environmental)",
+    "Social and governance dimensions only",
+    "None; the Global North has only trade-offs among SDGs"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "All three dimensions (social, economic and environmental)",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.boar"
+   ],
+   "topic": "Technology & SDG relationships",
+   "explanation": "Boar et al. found Global North synergies span social, economic and environmental dimensions, while Global South synergies cover only one [M7 s17].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m7-17",
+   "source": "generated",
+   "stem": "According to Boar et al. (2021), which factor reduces the impact on the environmental dimension in the Global North's SDG synergies?",
+   "options": [
+    "New technology and renewable energy",
+    "Reduced international trade",
+    "Slower population growth",
+    "Top 10 and bottom 10 country rankings"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "New technology and renewable energy",
+   "keyStatus": "given",
+   "module": "M7",
+   "nodeIds": [
+    "m7.boar"
+   ],
+   "topic": "Technology & SDG relationships",
+   "explanation": "The slide notes that new technology and renewable energy reduce environmental-dimension impacts in the Global North [M7 s17].",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-m7.spillover",
+   "nodeId": "m7.spillover",
+   "module": "M7",
+   "topic": "SDG interlinkages",
+   "front": "What is an SDG spillover? Give an example.",
+   "back": "Effect of a country's policies, practices or trade on other countries' SDG progress; a country can raise its own score while pushing harm abroad. Measured with a footprint approach. Example: importing rice (target 2.1) causes biodiversity loss in the exporter (15.5); palm oil drives deforestation and poor labour conditions (SDG 8).",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      3,
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.interlinkages",
+   "nodeId": "m7.interlinkages",
+   "module": "M7",
+   "topic": "SDG interlinkages",
+   "front": "What principles underlie SDG interlinkages, and why do rankings mislead?",
+   "back": "SDGs are not achieved one by one; the 2030 Agenda rests on being transformative, universal and indivisible, grounded in systems thinking. Interlinkages show how progress on one target affects others; implementation must be coherent and context-specific. Rankings and linear correlations ignore interlinkages, local context, No One Left Behind and spillovers.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.interlinkages.synergy-tradeoff",
+   "nodeId": "m7.interlinkages.synergy-tradeoff",
+   "module": "M7",
+   "topic": "SDG interlinkages",
+   "front": "Define synergy and trade-off between SDGs, with examples.",
+   "back": "Synergy (reinforcing): action gives positive change in both objectives, e.g. clean energy (SDG 7) helping education (4) and health (3). Trade-off (counteracting): positive change in one comes with negative change in another, e.g. agriculture (SDG 2) driving deforestation (15) and water use (6). Aim: maximise synergies, minimise trade-offs.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      6,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.activities",
+   "nodeId": "m7.activities",
+   "module": "M7",
+   "topic": "SDG interlinkages",
+   "front": "List the four activity types and the matching strategy for each.",
+   "back": "Core (synergy; many positive, few negative): scale positive impact. Mixed (significant positive and negative): decouple negatives. Opposed (mainly negative, e.g. coal mining, alcohol, tobacco): transform. Peripheral (insignificant, e.g. cultural preservation): explore ways to add positive impact.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.activities.mixed",
+   "nodeId": "m7.activities.mixed",
+   "module": "M7",
+   "topic": "SDG interlinkages",
+   "front": "What are mixed activities? Give the two slide examples.",
+   "back": "Activities with both significant positive and negative SDG impacts. Large-scale agricultural expansion (SDG 2): feeds people but drives deforestation (15), is the largest freshwater user (6), and can widen inequality (10). Renewable energy (SDG 7): energy access but long-term trade-offs such as bird deaths, marine habitat loss, loss of fertile land (SDG 14/15).",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.recycling.cost",
+   "nodeId": "m7.recycling.cost",
+   "module": "M7",
+   "topic": "SDG interlinkages",
+   "front": "Why can recycling cost more than new material, and what is single vs dual stream?",
+   "back": "Collecting, sorting and cleaning mixed waste is costly. Since 2018 China rejects recyclables below 99% purity (Indonesia and African countries also receive them). Single stream: one container, mixed material qualities. Dual stream: sorted by quality, raising market value. Trade-off: collection convenience vs processing cost and quality.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.tech-sdg12",
+   "nodeId": "m7.tech-sdg12",
+   "module": "M7",
+   "topic": "Technology & SDG relationships",
+   "front": "How does technology use affect SDG 12, and what does the inverted-U curve show?",
+   "back": "Development and technology use raise material and environmental footprints, hindering SDG 12 (targets 12.2 and 8.4). Inverted-U: per capita material footprint rises with per capita income until a turning point, then falls (decoupling). Examples: IKN construction materials, 12 coal power plants. This is the T of IPAT.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.boar",
+   "nodeId": "m7.boar",
+   "module": "M7",
+   "topic": "Technology & SDG relationships",
+   "front": "Compare SDG synergies in the Global North and South (Boar et al. 2021).",
+   "back": "Global North: synergies include all three dimensions (social, economic, environmental); new technology and renewable energy reduce environmental impact. Global South: synergies cover only one dimension, so gains in one area often come at others' expense. North's synergies may partly rely on outsourcing impacts through spillovers.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      17,
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.nexus",
+   "nodeId": "m7.nexus",
+   "module": "M7",
+   "topic": "FEW nexus",
+   "front": "Define the nexus approach and its principles.",
+   "back": "Deepens integration between goals and targets across sectors, avoids unsustainable and inefficient conflicts and overlaps, and strengthens synergies while reducing trade-offs. Principles: ensure access to resources for vulnerable groups, promote efficient use of resources, ensure sustainability. Countries prioritise SDGs by local context.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.few",
+   "nodeId": "m7.few",
+   "module": "M7",
+   "topic": "FEW nexus",
+   "front": "What is the Food–Energy–Water nexus and which SDGs sit at its core?",
+   "back": "Food, energy and water interact and affect the SDGs yet are often managed separately: food needs water and energy, energy needs water and land, water needs energy. Inner ring of the SDG wheel: SDG 2 (food), 6 (water), 7 (energy); managing it well ripples to all 17 SDGs.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      22,
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m7.few.why",
+   "nodeId": "m7.few.why",
+   "module": "M7",
+   "topic": "FEW nexus",
+   "front": "Name and group the nine reasons for a FEW nexus approach.",
+   "back": "A. Basic needs/scarcity: limited access, increasing demand, limited resources. B. Global/environmental: global goods (traded internationally), regional differences, interdependence with climate and environmental change. C. Security/governance: security (a crisis causes instability), tightly regulated markets, identification and management of risks.",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      23,
+      24,
+      25
+     ]
+    }
+   ]
+  }
+ ]
+}

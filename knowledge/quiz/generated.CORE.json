@@ -1,0 +1,711 @@
+{
+ "questions": [
+  {
+   "id": "g-core-01",
+   "source": "generated",
+   "stem": "IPAT's T (Week 3), Science, Technology and Innovation (Week 5) and Responsible Innovation (Week 7) all belong to which cross-cutting theme?",
+   "options": [
+    "Equity: Global North vs South",
+    "Commons and their governance (Ostrom, Montreal, Subak)",
+    "Technology: problem or solution?",
+    "Limits of the planet: carrying capacity and overshoot",
+    "SDGs as a connected system of goals"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Technology: problem or solution?",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.themes",
+    "core.technology",
+    "m3.ipat",
+    "m5.sti-definition",
+    "m7.responsible-innovation"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "These concepts all deal with technology raising or cutting impact; the hub links IPAT, rebound effects, STI and RI. [M3 s16; M5 s23; M7 s19]",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      16
+     ]
+    },
+    {
+     "module": "M5",
+     "slides": [
+      23
+     ]
+    },
+    {
+     "module": "M7",
+     "slides": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-02",
+   "source": "generated",
+   "stem": "The theme 'Equity: Global North vs South' brings together the following concepts from different weeks, except:",
+   "options": [
+    "Unequal impact and environmental justice (Week 3)",
+    "Jevons paradox: rebound and backfire",
+    "North/South is socio-economic, not geographic (Week 4)",
+    "Equity: CBDR-RC (Week 6)"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Jevons paradox: rebound and backfire",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.themes",
+    "core.equity",
+    "m3.jevons"
+   ],
+   "topic": "Sustainability basics & dimensions",
+   "explanation": "Jevons paradox is about efficiency gains raising total consumption and belongs to the technology theme. [M3 s22, s24; M4 s6; M6 s16; M7 s3]",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22,
+      24
+     ]
+    },
+    {
+     "module": "M4",
+     "slides": [
+      6
+     ]
+    },
+    {
+     "module": "M6",
+     "slides": [
+      16
+     ]
+    },
+    {
+     "module": "M7",
+     "slides": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-03",
+   "source": "generated",
+   "stem": "Week 3 stresses the dual role of technology. Which Week 7 finding illustrates the 'worsening' side of that role?",
+   "options": [
+    "Technology automatically lowers the material footprint at every income level, so SDG 12 is advanced by technology alone",
+    "Technology use is unrelated to SDG 12 and to the material footprint",
+    "Technology use raises the material footprint, hindering SDG 12 (targets 12.2, 8.4)",
+    "Renewable energy never affects any other SDG, so no trade-offs arise"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Technology use raises the material footprint, hindering SDG 12 (targets 12.2, 8.4)",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.technology",
+    "m3.tech-dual-role",
+    "m7.tech-sdg12"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "Slide 15 of Week 7 links technology to a rising material and environmental footprint (inverted U with income); Week 3 lists increasing consumption and pollution as the worsening side. [M3 s21; M7 s15]",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      21
+     ]
+    },
+    {
+     "module": "M7",
+     "slides": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-04",
+   "source": "generated",
+   "stem": "Week 4 warns that technology (fences, data, energy, intellectual property rights) can privatise and fragment commons. What does it say decides whether technology strengthens or weakens collective management?",
+   "options": [
+    "Clear goals and regulation that protect shared value",
+    "The speed at which the technology is adopted by the community",
+    "Whether the technology is energy-efficient or not",
+    "How many patents each individual user holds",
+    "The size of the shared resource in hectares"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Clear goals and regulation that protect shared value",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.technology",
+    "m4.tech-progress",
+    "m3.tech-dual-role"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "Without clear goals and regulation, technology becomes a tool of privatisation; this echoes Week 3's dual role of technology. [M4 s32; M3 s21]",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      32
+     ]
+    },
+    {
+     "module": "M3",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-05",
+   "source": "generated",
+   "stem": "Week 3 shows that the richest 10% emit about half of global CO2 while the poorest 50% emit only about 10%. Which Week 6 Paris Agreement principle responds to such inequality?",
+   "options": [
+    "Sovereignty, embodied in bottom-up NDCs set by each country",
+    "Equity, embodied in CBDR-RC",
+    "Transparency, embodied in the Global Stocktake every five years",
+    "The goal of net zero emissions by 2060 for every country",
+    "Kyoto-style top-down emission targets with no role for developing countries"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Equity, embodied in CBDR-RC",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.equity",
+    "m3.consumption-co2",
+    "m6.paris.cbdr"
+   ],
+   "topic": "Global North & South",
+   "explanation": "CBDR-RC acknowledges that all countries contribute to climate change to differing degrees and that developed countries commit more according to ability to pay. [M3 s30; M6 s16]",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      30
+     ]
+    },
+    {
+     "module": "M6",
+     "slides": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-06",
+   "source": "generated",
+   "stem": "Week 4 says the North/South split is socio-economic, not geographic. Boar et al. (2021, Week 7) report that SDG synergies in the Global South typically cover:",
+   "options": [
+    "Only one dimension; North synergies span social, economic and environmental dimensions",
+    "All three dimensions, exactly as in the Global North",
+    "No dimension at all, since the South has no synergies",
+    "The social and environmental dimensions but never the economic one"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Only one dimension; North synergies span social, economic and environmental dimensions",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.equity",
+    "m7.boar",
+    "m4.ns-definition"
+   ],
+   "topic": "Global North & South",
+   "explanation": "Boar et al.: Global North synergies cover all three dimensions; Global South synergies cover only one. [M7 s17; M4 s6]",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      17
+     ]
+    },
+    {
+     "module": "M4",
+     "slides": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-07",
+   "source": "generated",
+   "stem": "Week 4 links three routes of regulating or paying for commons to cases. Which pairing is correct?",
+   "options": [
+    "Subak irrigation: regulation imposed by the national government",
+    "Vehicle emissions: customary agreement among villagers under adat",
+    "Cidanau: an international treaty on ozone-depleting substances",
+    "Montreal Protocol on ozone: global mutual consent (treaty)"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Montreal Protocol on ozone: global mutual consent (treaty)",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.commons",
+    "m4.montreal",
+    "m4.subak",
+    "m4.es-payment"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "Ozone = global mutual consent/treaty, Subak = community rules, vehicle emissions = government regulation, Cidanau = payment for ecosystem services. [M4 s18, s21, s24]",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      18,
+      21,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-08",
+   "source": "generated",
+   "stem": "The Barambang Katute customary forest (Week 2) and the Subak irrigation system (Week 4) both illustrate that:",
+   "options": [
+    "Shared resources always collapse unless they are turned into private ownership",
+    "Customary rules cannot work for renewable resources managed by a community",
+    "Only international treaties can stop overuse of shared resources",
+    "Commons governed by community rules can be sustained, so the problem is unmanaged open access",
+    "Open access is the best way to share a resource fairly"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Commons governed by community rules can be sustained, so the problem is unmanaged open access",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.commons",
+    "m2.tragedy-not-commons.barambang-katute",
+    "m4.subak"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "Both are defined communities with boundaries, rules and exclusion of harmful uses, answering Week 2's question 'Does the tragedy lie in the commons?'. [M2 s5; M4 s24, s31]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      5
+     ]
+    },
+    {
+     "module": "M4",
+     "slides": [
+      24,
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-09",
+   "source": "generated",
+   "stem": "In Week 3, the ecological footprint exceeding biocapacity (overshoot) is described as the footprint version of which Week 2 idea?",
+   "options": [
+    "A social shortfall below the doughnut's inner ring",
+    "Transgressing planetary boundaries, i.e. leaving the safe operating space",
+    "Reaching the plateau of the S-curve at carrying capacity",
+    "The commons being managed by a community with clear boundaries"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Transgressing planetary boundaries, i.e. leaving the safe operating space",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.limits",
+    "m3.biocapacity",
+    "m2.pb-framework"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Biocapacity is effectively carrying capacity in area units and overshoot parallels breaching planetary boundaries. [M3 s38; M2 s6, s7]",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      38
+     ]
+    },
+    {
+     "module": "M2",
+     "slides": [
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-10",
+   "source": "generated",
+   "stem": "Which set of figures from the slides is correct?",
+   "options": [
+    "73% of biocapacity used in 1961 and 160% in 2020; 7 of 9 planetary boundaries transgressed in 2025",
+    "Humanity used 160% of biocapacity in 1961 and 73% in 2020; 7 of 9 boundaries were transgressed in 2025",
+    "Humanity used 73% of biocapacity in 1961 and 160% in 2020; 3 of 9 boundaries were transgressed in 2025",
+    "Humanity used 100% of biocapacity in 1961 and 160% in 2020; 9 of 9 boundaries were transgressed in 2025"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "73% of biocapacity used in 1961 and 160% in 2020; 7 of 9 planetary boundaries transgressed in 2025",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.limits",
+    "m3.biocapacity",
+    "m2.pb-status-2025"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Week 3: 73% (1961) to 160% (2020, about 1.6 Earths). Week 2: 7 of 9 transgressed in 2025; only 3 were crossed in the 2009 diagram. [M3 s38; M2 s6, s7]",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      38
+     ]
+    },
+    {
+     "module": "M2",
+     "slides": [
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-11",
+   "source": "generated",
+   "stem": "Week 7 says the SDGs are not achieved one by one 'like an ivory tower'. On which three features does the 2030 Agenda's mandate rest?",
+   "options": [
+    "Sovereignty, transparency and equity (the Paris principles)",
+    "Bearable, equitable and viable (the IUCN overlaps)",
+    "Transformative, universality and indivisibility",
+    "Mitigation, adaptation and finance (the Paris goals)"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Transformative, universality and indivisibility",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.sdg-system",
+    "m7.interlinkages",
+    "m5.sdgs"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "Slide 6 of Week 7: transformative, universal and indivisible. The other options are the Paris principles (Week 6), IUCN Venn overlaps (Week 1) and Paris goals (Week 6). [M7 s6; M6 s14; M1 s13]",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      6
+     ]
+    },
+    {
+     "module": "M6",
+     "slides": [
+      14
+     ]
+    },
+    {
+     "module": "M1",
+     "slides": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-core-12",
+   "source": "generated",
+   "stem": "The 17 SDGs (Week 5) are interlinked. In the SDG wheel of the Food-Energy-Water nexus (Week 7), which three goals form the inner ring?",
+   "options": [
+    "SDG 13, SDG 14 and SDG 15",
+    "SDG 1, SDG 3 and SDG 4",
+    "SDG 9, SDG 12 and SDG 17",
+    "SDG 2, SDG 6 and SDG 7"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "SDG 2, SDG 6 and SDG 7",
+   "keyStatus": "given",
+   "module": "core",
+   "nodeIds": [
+    "core.sdg-system",
+    "m7.few",
+    "m5.sdgs"
+   ],
+   "topic": "SDG interlinkages",
+   "explanation": "The inner ring is food security (SDG 2), water security (SDG 6) and energy security (SDG 7). [M7 s22; M5 s4]",
+   "sources": [
+    {
+     "module": "M7",
+     "slides": [
+      22
+     ]
+    },
+    {
+     "module": "M5",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-core.themes",
+   "nodeId": "core.themes",
+   "module": "core",
+   "topic": "Sustainability basics & dimensions",
+   "front": "Why do cross-cutting themes matter, and which five does the course use?",
+   "back": "They connect concepts from different weeks, so they suit essay and comparison questions. Themes: **Technology** (problem or solution?), **Equity** (Global North vs South), **Commons** and their governance, **Limits** of the planet, and **SDGs as a connected system**.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      8,
+      16,
+      20,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-core.technology",
+   "nodeId": "core.technology",
+   "module": "core",
+   "topic": "IPAT & technology",
+   "front": "Technology: how can it raise or cut impact? Name concepts from several weeks.",
+   "back": "Dual role. W3: IPAT's T, Jevons paradox (rebound/backfire), Neo-Malthusian technology (Commoner). W4: technology can privatise commons. W5: STI, TFM. W6: CCUS, AC (adaptation vs emissions). W7: technology raises material footprint (SDG 12), Responsible Innovation.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      8,
+      16,
+      20,
+      22
+     ]
+    },
+    {
+     "module": "M4",
+     "slides": [
+      32
+     ]
+    },
+    {
+     "module": "M5",
+     "slides": [
+      23,
+      25
+     ]
+    },
+    {
+     "module": "M6",
+     "slides": [
+      27,
+      37
+     ]
+    },
+    {
+     "module": "M7",
+     "slides": [
+      15,
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-core.equity",
+   "nodeId": "core.equity",
+   "module": "core",
+   "topic": "Global North & South",
+   "front": "Equity: who causes, suffers and pays for impacts? List linked concepts.",
+   "back": "W3 environmental justice and consumption inequality (richest 10% ~ half of CO2, poorest 50% ~10%); W4 Global North/South is socio-economic; W5 equity discussion; W6 CBDR-RC (developed countries commit more); W7 cross-border spillovers and Boar et al. (North synergies span 3 dimensions, South only 1).",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      24,
+      30
+     ]
+    },
+    {
+     "module": "M4",
+     "slides": [
+      4,
+      6
+     ]
+    },
+    {
+     "module": "M5",
+     "slides": [
+      31
+     ]
+    },
+    {
+     "module": "M6",
+     "slides": [
+      16
+     ]
+    },
+    {
+     "module": "M7",
+     "slides": [
+      3,
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-core.commons",
+   "nodeId": "core.commons",
+   "module": "core",
+   "topic": "Tragedy of the commons",
+   "front": "How do the commons weeks connect (Hardin, Ostrom, Montreal, Subak, PES, Paris)?",
+   "back": "W2 Hardin: tragedy comes from unmanaged open access. W4: commons arrangements (boundaries, costs, rules, supervision, graduated sanctions, conflict resolution), Montreal Protocol (1987)/Kigali (2016), Subak, payment for ecosystem services. W6: the Paris Agreement regulates the atmosphere as a global commons via NDCs.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      2,
+      3,
+      5
+     ]
+    },
+    {
+     "module": "M4",
+     "slides": [
+      10,
+      18,
+      21,
+      24,
+      31,
+      33
+     ]
+    },
+    {
+     "module": "M6",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-core.limits",
+   "nodeId": "core.limits",
+   "module": "core",
+   "topic": "Planetary boundaries",
+   "front": "What concepts make up the theme 'Limits of the planet' and what numbers matter?",
+   "back": "Carrying capacity and Malthus (W3); ecological footprint vs biocapacity (73% in 1961, 160% in 2020); planetary boundaries (9 processes; 7 of 9 transgressed in 2025); Doughnut Economics and laws of ecology (W1); GHGs (W6). Overshoot = footprint above biocapacity or beyond the ecological ceiling.",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      14,
+      18
+     ]
+    },
+    {
+     "module": "M2",
+     "slides": [
+      6
+     ]
+    },
+    {
+     "module": "M3",
+     "slides": [
+      4,
+      5,
+      37,
+      38
+     ]
+    },
+    {
+     "module": "M6",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-core.sdg-system",
+   "nodeId": "core.sdg-system",
+   "module": "core",
+   "topic": "SDG interlinkages",
+   "front": "How do the SDGs work as a connected system (W1, W5, W6, W7)?",
+   "back": "W5: 17 goals, 169 targets, 231 global indicators, inseparable whole (2015-2030). W1: three dimensions. W6: SDG 13 affects other SDGs and vice versa. W7: interlinkages (maximise synergies, minimise trade-offs; transformative, universal, indivisible) and the FEW nexus (SDG 2, 6, 7 at the centre).",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      13
+     ]
+    },
+    {
+     "module": "M5",
+     "slides": [
+      4,
+      8
+     ]
+    },
+    {
+     "module": "M6",
+     "slides": [
+      9,
+      10
+     ]
+    },
+    {
+     "module": "M7",
+     "slides": [
+      6,
+      22
+     ]
+    }
+   ]
+  }
+ ]
+}

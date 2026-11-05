@@ -1,0 +1,719 @@
+{
+ "questions": [
+  {
+   "id": "g-m2-01",
+   "source": "generated",
+   "stem": "In Hardin's 1968 parable of a pasture open to all, why does tragedy occur?",
+   "options": [
+    "The cattle are a non-renewable resource that runs out by itself after a few seasons",
+    "The government owns the pasture and fails to tax the herdsmen who graze their cattle",
+    "Each herdsman gains privately from adding cattle while the cost of overgrazing is shared by all",
+    "The herdsmen cooperate too much and under-use the pasture"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Each herdsman gains privately from adding cattle while the cost of overgrazing is shared by all",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.hardin-tragedy"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "Each herdsman tries to keep as many cattle as possible, so the cumulative impact degrades the shared resource and no one benefits in the end. [M2 s2]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-02",
+   "source": "generated",
+   "stem": "Which situation is the clearest example of the pattern Hardin described?",
+   "options": [
+    "Overfishing in the open sea, where nobody owns the fish and nobody can be excluded",
+    "Local communities setting policy mechanisms to protect lobster fisheries",
+    "A customary forest where an indigenous community bans mining in sacred areas and protects the forest",
+    "A single owner who fences and manages his own pasture"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Overfishing in the open sea, where nobody owns the fish and nobody can be excluded",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.hardin-tragedy"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "Slide 4 lists the atmosphere and the open sea with its fish as open-access resources; slide 5's lobster fishery and customary forest are managed. [M2 s2, s4, s5]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      2,
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-03",
+   "source": "generated",
+   "stem": "Which statement correctly distinguishes a commons from an open-access resource?",
+   "options": [
+    "A commons has no ownership rights or possession, whereas an open-access resource is jointly owned by a defined group of users",
+    "Both exclude non-members and have joint ownership; they differ only in the size of the resource",
+    "A commons is open to the community at large with no exclusion, whereas an open-access resource excludes non-members",
+    "A commons is jointly owned by a bounded group that excludes non-members; open access has no ownership rights and no exclusion"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "A commons is jointly owned by a bounded group that excludes non-members; open access has no ownership rights and no exclusion",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.commons-vs-open-access"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "Slide 3's table: commons = joint ownership, narrowly defined community, non-members excluded; open access = no ownership, community at large, no exclusion. [M2 s3]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-04",
+   "source": "generated",
+   "stem": "Fishing boats from many countries take fish from the open sea. Nobody owns the fish and nobody can be excluded. In the terms of slide 3, this resource is:",
+   "options": [
+    "An open-access resource, where tragedy can occur if it is not well managed",
+    "A commons, because it is jointly owned by a restricted group",
+    "Private property with clear boundaries and a single owner who excludes everyone else",
+    "A commons whose non-members are excluded by the customary rules of the community",
+    "A resource that cannot be overused because it is renewable"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "An open-access resource, where tragedy can occur if it is not well managed",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.commons-vs-open-access"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "No ownership rights, the community at large and no exclusion define open access; slide 3 stresses tragedy can occur when such resources are poorly managed. [M2 s3, s4]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      3,
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-05",
+   "source": "generated",
+   "stem": "Slide 5 asks: 'Does the tragedy lie in the commons?' The lecturer's answer is that the tragedy lies in:",
+   "options": [
+    "Any resource that is shared by more than one user, whether or not it has rules or monitoring",
+    "Unmanaged open access, not in the sharing of resources itself",
+    "The communal ownership of land",
+    "Population growth in the community"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Unmanaged open access, not in the sharing of resources itself",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.tragedy-not-commons"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "Hardin mainly described open access (no rights, rules or monitoring), not managed common property; the problem is the management regime. [M2 s5]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-06",
+   "source": "generated",
+   "stem": "Many commons remain sustainable when they have the following, except:",
+   "options": [
+    "Clear boundaries between members and non-members",
+    "Externalities that push the costs of use onto the public",
+    "Harvest rules or quotas for each user",
+    "Monitoring of compliance by officers or the community",
+    "Graduated sanctions from warnings to loss of access"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Externalities that push the costs of use onto the public",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.tragedy-not-commons"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "Externalities (costs spread to the public), no institutions and high monitoring costs are what trigger tragedy, not what sustain commons. [M2 s5]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-07",
+   "source": "generated",
+   "stem": "What is notable about the Barambang Katute customary forest?",
+   "options": [
+    "An open-access forest with no rules, which has been degraded by many users",
+    "A forest owned by a mining company that restores the land after extraction",
+    "A forest managed by an indigenous community, with sacred areas where mining is not allowed",
+    "A forest managed by the central government alone, with no community role"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "A forest managed by an indigenous community, with sacred areas where mining is not allowed",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.tragedy-not-commons.barambang-katute"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "Slide 5 gives it as example 2: a customary forest managed by the Barambang Katute indigenous community with protection mechanisms and mining-free sacred areas. [M2 s5]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-08",
+   "source": "generated",
+   "stem": "What does the Barambang Katute case illustrate about Hardin's tragedy of the commons?",
+   "options": [
+    "The tragedy is unavoidable whenever land is shared",
+    "Only private ownership can protect forests",
+    "Indigenous communities are exempt from state rules, so their forests cannot be overused",
+    "A defined community's own rules can protect shared resources, so the problem is unmanaged open access"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "A defined community's own rules can protect shared resources, so the problem is unmanaged open access",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.tragedy-not-commons.barambang-katute"
+   ],
+   "topic": "Tragedy of the commons",
+   "explanation": "The case sits under the slide's question 'Does the tragedy lie in the commons?'; community mechanisms and mining bans keep the forest protected. [M2 s5]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-09",
+   "source": "generated",
+   "stem": "How many processes does the planetary boundaries framework identify as critical for the stability and resilience of the Earth system?",
+   "options": [
+    "7",
+    "8",
+    "9",
+    "12",
+    "17"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "9",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.pb-framework"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Slide 6: the framework identifies nine processes. (Seven of the nine were transgressed in the 2025 update.) [M2 s6, s7]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-10",
+   "source": "generated",
+   "stem": "The planetary boundaries framework defines a scientifically based 'safe operating space for humanity' that safeguards:",
+   "options": [
+    "Earth's interglacial state and its resilience",
+    "The maximum population a habitat can support",
+    "Social minimums such as food, water, health and education",
+    "Zero human impact on every Earth-system process"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Earth's interglacial state and its resilience",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.pb-framework"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Slide 6 says the framework limits the impact of the anthroposphere to safeguard the interglacial state and resilience of the Earth system. [M2 s6]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-11",
+   "source": "generated",
+   "stem": "According to the 2025 update of the planetary boundaries (Stockholm Resilience Centre), how many of the nine boundaries have been transgressed?",
+   "options": [
+    "3",
+    "5",
+    "6",
+    "7",
+    "9"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "7",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.pb-status-2025"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Slide 7: 7 out of 9 boundaries are transgressed, so Earth is outside the safe operating space. [M2 s7]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-12",
+   "source": "generated",
+   "stem": "In the 2009 diagram only three boundaries were crossed (climate change, biodiversity loss, nitrogen cycle). Which boundary is described as newly breached in the 2025 assessment?",
+   "options": [
+    "Stratospheric ozone depletion",
+    "Atmospheric aerosol loading",
+    "Climate change",
+    "Biosphere integrity",
+    "Ocean acidification"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Ocean acidification",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.pb-status-2025"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "The 2025 update adds ocean acidification to the transgressed list; only stratospheric ozone depletion and atmospheric aerosol loading stay within the safe space. [M2 s6, s7]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-13",
+   "source": "generated",
+   "stem": "The nine planetary boundaries include the following, except:",
+   "options": [
+    "Climate change",
+    "Biosphere integrity",
+    "Novel entities",
+    "Material footprint",
+    "Ocean acidification"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Material footprint",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.nine-boundaries"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "The nine are climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, ocean acidification, stratospheric ozone depletion, atmospheric aerosol loading and novel entities. [M2 s7]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-14",
+   "source": "generated",
+   "stem": "Excessive use of synthetic fertilisers sends too much nitrogen and phosphorus into ecosystems, causing eutrophication. Which planetary boundary does this describe?",
+   "options": [
+    "Freshwater change",
+    "Biogeochemical flows",
+    "Land-system change",
+    "Novel entities"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Biogeochemical flows",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.nine-boundaries"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Slide 10 illustrates biogeochemical flows with fertiliser-driven N and P overflow and eutrophication, next to chemical pollution. [M2 s10]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-15",
+   "source": "generated",
+   "stem": "According to slide 9, what has increased CO2 concentrations in the atmosphere and caused global warming and climate change?",
+   "options": [
+    "Greenhouse gas emissions, particularly from burning fossil fuels",
+    "Excessive use of synthetic fertilisers",
+    "Use of hazardous chemicals such as pesticides and heavy metals that pollute the environment",
+    "Large-scale irrigation and river diversion",
+    "Natural variation in solar radiation"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Greenhouse gas emissions, particularly from burning fossil fuels",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.pb.climate-change"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Slide 9 attributes climate change to GHG emissions, especially from burning fossil fuels; the other options relate to other boundaries. [M2 s8, s9, s10]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      8,
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-16",
+   "source": "generated",
+   "stem": "In the 2025 planetary boundaries diagram, climate change is assessed with which two control variables?",
+   "options": [
+    "Genetic and functional diversity",
+    "CO2 concentration and radiative forcing",
+    "Blue water and green water",
+    "Nitrogen and phosphorus",
+    "Global average temperature and sea-level rise"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "CO2 concentration and radiative forcing",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.pb.climate-change"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Slide 7's diagram shows CO2 concentration and radiative forcing under climate change; genetic/functional belong to biosphere integrity, blue/green water to freshwater, N and P to biogeochemical flows. [M2 s7]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-17",
+   "source": "generated",
+   "stem": "In Raworth's doughnut, the inner ring (the social foundation) is derived loosely from:",
+   "options": [
+    "SDG-type deprivation thresholds, e.g. food, water, health, education",
+    "The nine planetary boundaries, turned inwards",
+    "The laws of ecology, such as no free lunch",
+    "The IUCN overlaps of bearable, equitable and viable"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "SDG-type deprivation thresholds, e.g. food, water, health, education",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.doughnut-link"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Slide 7's notes: the outer ring is the planetary boundaries model, paired with an inner ring derived loosely from SDG-type deprivation thresholds. [M2 s7]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m2-18",
+   "source": "generated",
+   "stem": "Compared with planetary boundaries alone, Doughnut Economics is distinctive because it:",
+   "options": [
+    "Ignores the biophysical limits of the Earth system and focuses only on social indicators of wellbeing",
+    "Replaces the nine boundaries with the 17 SDGs as its outer ring",
+    "Measures only GDP growth",
+    "Removes the idea of a safe operating space",
+    "Uses the boundaries as one half of a normative claim: meeting human needs without breaching them"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Uses the boundaries as one half of a normative claim: meeting human needs without breaching them",
+   "keyStatus": "given",
+   "module": "M2",
+   "nodeIds": [
+    "m2.doughnut-link",
+    "m2.pb-framework"
+   ],
+   "topic": "Planetary boundaries",
+   "explanation": "Planetary boundaries alone are a biophysical model with no theory of wellbeing or distribution; the doughnut adds a social foundation. [M2 s7; M1 s14]",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7
+     ]
+    },
+    {
+     "module": "M1",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-m2.hardin-tragedy",
+   "nodeId": "m2.hardin-tragedy",
+   "module": "M2",
+   "topic": "Tragedy of the commons",
+   "front": "Explain Hardin's tragedy of the commons (1968).",
+   "back": "Garrett Hardin, *Science* 1968: on a pasture open to all each herdsman keeps as many cattle as possible. Benefits are private, costs are shared. Each thinks his little use does not matter, but the cumulative impact degrades or destroys the resource: no one benefits, everyone loses.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.commons-vs-open-access",
+   "nodeId": "m2.commons-vs-open-access",
+   "module": "M2",
+   "topic": "Tragedy of the commons",
+   "front": "Compare a commons with an open-access resource.",
+   "back": "**Commons**: joint ownership; a narrowly defined group with clear boundaries; non-members excluded. **Open access**: no ownership rights or possession; the community at large; no exclusion (e.g. atmosphere, open sea and its fish). Tragedy can occur in open-access resources that are not well managed.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.tragedy-not-commons",
+   "nodeId": "m2.tragedy-not-commons",
+   "module": "M2",
+   "topic": "Tragedy of the commons",
+   "front": "Does the tragedy lie in the commons? Why or why not?",
+   "back": "No: the tragedy lies in **unmanaged open access** (no rights, rules or monitoring). Many commons stay sustainable with clear boundaries, harvest rules/quotas, monitoring, graduated sanctions and dispute forums. Triggers of tragedy: no institutions, high monitoring costs, externalities, scale mismatch (e.g. atmosphere). Problem = management regime.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.tragedy-not-commons.barambang-katute",
+   "nodeId": "m2.tragedy-not-commons.barambang-katute",
+   "module": "M2",
+   "topic": "Tragedy of the commons",
+   "front": "What is the Barambang Katute customary forest an example of?",
+   "back": "An example on slide 5 that commons can be protected: the customary (adat) forest is managed by the Barambang Katute indigenous community, which has protection mechanisms and sacred areas where mining is not allowed. Shows the problem is unmanaged open access, not shared ownership.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.pb-framework",
+   "nodeId": "m2.pb-framework",
+   "module": "M2",
+   "topic": "Planetary boundaries",
+   "front": "What is the planetary boundaries framework?",
+   "back": "Earth-system-science framework (Rockström et al. 2009) identifying **nine processes** critical for Earth-system stability and resilience. It sets limits on human (anthroposphere) impact, defining a scientifically based **safe operating space for humanity** that safeguards Earth's interglacial state and its resilience.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.pb-status-2025",
+   "nodeId": "m2.pb-status-2025",
+   "module": "M2",
+   "topic": "Planetary boundaries",
+   "front": "What is the 2025 status of the planetary boundaries?",
+   "back": "**7 of 9 transgressed** (Stockholm Resilience Centre, Sept 2025): climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, novel entities and ocean acidification (newly breached). Still safe: stratospheric ozone depletion and atmospheric aerosol loading. In 2009 only 3 were crossed.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.nine-boundaries",
+   "nodeId": "m2.nine-boundaries",
+   "module": "M2",
+   "topic": "Planetary boundaries",
+   "front": "List the nine planetary boundaries grouped by 2025 status.",
+   "back": "**Transgressed (7)**: climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows (N, P), novel entities, ocean acidification. **Within safe space (2)**: stratospheric ozone depletion, atmospheric aerosol loading. The boundaries are interlinked (e.g. deforestation affects climate, biodiversity and rainfall).",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.pb.climate-change",
+   "nodeId": "m2.pb.climate-change",
+   "module": "M2",
+   "topic": "Planetary boundaries",
+   "front": "Why is climate change a planetary boundary issue, and which variables show it is transgressed?",
+   "back": "GHG emissions, especially from burning fossil fuels, raise atmospheric CO2 and cause global warming. The 2025 diagram shows both control variables, **CO2 concentration** and **radiative forcing**, beyond the boundary. Climate interacts with most other boundaries; Week 6 covers Paris, CBDR-RC and NDCs.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.doughnut-link",
+   "nodeId": "m2.doughnut-link",
+   "module": "M2",
+   "topic": "Planetary boundaries",
+   "front": "How do planetary boundaries relate to Doughnut Economics?",
+   "back": "Raworth's doughnut is built on planetary boundaries: the **outer ring** is the boundaries repurposed as an ecological ceiling; the **inner ring** is a social foundation derived loosely from SDG-type deprivation thresholds. The space between is the safe and just space. Boundaries alone = biophysical; doughnut adds a normative claim.",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  }
+ ]
+}

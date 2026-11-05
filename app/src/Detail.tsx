@@ -2,6 +2,8 @@ import Markdown from 'react-markdown'
 import { aiContext, copyText, outline, plainText } from './copy'
 import { ancestors, thumbUrl, slideKey, type Data } from './data'
 import { SlideImg } from './ui'
+import { profColor, type Agg } from './quizlib'
+import { Ring } from './quizui'
 
 interface Props {
   data: Data
@@ -12,9 +14,10 @@ interface Props {
   onReview: () => void
   onClose: () => void
   toast: (m: string) => void
+  quiz?: { agg?: Agg; onPractice: (kind: 'quiz' | 'cards') => void }
 }
 
-export default function Detail({ data, id, reviewed, onSelect, onSlide, onReview, onClose, toast }: Props) {
+export default function Detail({ data, id, reviewed, onSelect, onSlide, onReview, onClose, toast, quiz }: Props) {
   const n = data.nodes.get(id)
   if (!n) return null
   const color = data.moduleColor(n.module)
@@ -56,6 +59,21 @@ export default function Detail({ data, id, reviewed, onSelect, onSlide, onReview
         <button onClick={() => copy('branch outline', outline(data, id))}>Copy branch outline</button>
         <button className={reviewed ? 'on' : ''} onClick={onReview}>{reviewed ? '✓ Reviewed' : 'Mark reviewed'}</button>
       </div>
+      {quiz && (
+        <section className="qprof">
+          {quiz.agg ? (
+            <>
+              <Ring agg={quiz.agg} size={30} />
+              <div className="qp-text">
+                <b style={{ color: profColor(quiz.agg.p, quiz.agg.tested > 0) }}>{quiz.agg.tested > 0 ? `${quiz.agg.p}%` : 'Not practiced yet'}</b> quiz proficiency
+                <span className="muted small"> &middot; {quiz.agg.tested}/{quiz.agg.total} items practiced &middot; {quiz.agg.attempts} attempts</span>
+              </div>
+              <button onClick={() => quiz.onPractice('quiz')}>Practice this concept</button>
+              <button onClick={() => quiz.onPractice('cards')}>Flashcards</button>
+            </>
+          ) : <span className="muted small">No quiz items are linked to this concept yet.</span>}
+        </section>
+      )}
       {n.details && <div className="md"><Markdown>{n.details}</Markdown></div>}
       {!!n.keyTerms?.length && (
         <section><h4>Key terms</h4><div className="terms">{n.keyTerms.map((t) => <span key={t} className="term">{t}</span>)}</div></section>

@@ -1,0 +1,1601 @@
+{
+ "questions": [
+  {
+   "id": "g-m6-01",
+   "source": "generated",
+   "stem": "Throughout Earth's history, the climate has changed due to natural factors, except:",
+   "options": [
+    "Burning of fossil fuels by industry",
+    "Variations in solar radiation",
+    "Volcanic activity",
+    "Tectonic plate shifts",
+    "Orbital changes"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Burning of fossil fuels by industry",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.climate-change"
+   ],
+   "topic": "Climate system & GHGs",
+   "explanation": "The natural drivers named are volcanic activity, solar radiation variation, tectonic plate shifts and orbital changes; fossil-fuel burning is a human activity, which is why today's change is so fast [M6 s3].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-02",
+   "source": "generated",
+   "stem": "Greenhouse gases (GHGs) are defined as a group of gases that:",
+   "options": [
+    "Make up more than half of all air molecules near the surface",
+    "Absorb heat energy emitted from the Earth's surface",
+    "Reflect incoming solar radiation back into space",
+    "Are produced only by industrial processes"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Absorb heat energy emitted from the Earth's surface",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.ghg"
+   ],
+   "topic": "Climate system & GHGs",
+   "explanation": "GHGs absorb heat energy emitted from the Earth's surface; they are a tiny fraction (<1%) of air molecules and include natural gases as well as industrial ones [M6 s4].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-03",
+   "source": "generated",
+   "stem": "Based on the IPCC (2021) data, what was the recorded concentration of CO₂ in 2019?",
+   "options": [
+    "286 ppm",
+    "360 ppm",
+    "409.9 ppm",
+    "1866.3 ppm",
+    "180 ppm"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "409.9 ppm",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.ghg.concentration"
+   ],
+   "topic": "Climate system & GHGs",
+   "explanation": "The slide reports CO₂ at 409.9 ppm in 2019; 1866.3 is the CH₄ value in ppb, and 180–300 ppm was the range over the last 800,000 years [M6 s5].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-04",
+   "source": "generated",
+   "stem": "CFCs and HCFCs are not regulated by the Kyoto Protocol. They are covered by the:",
+   "options": [
+    "Paris Agreement",
+    "Sendai Framework",
+    "Montreal Protocol",
+    "Global Stocktake"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Montreal Protocol",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.ghg.gwp",
+    "m6.ghg.list"
+   ],
+   "topic": "Climate system & GHGs",
+   "explanation": "The Kyoto Protocol regulates six GHGs (CO₂, CH₄, N₂O, HFC, PFC, SF₆); CFCs (GWP up to ~12,500) and HCFCs fall under the Montreal Protocol [M6 s6, speaker notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-05",
+   "source": "generated",
+   "stem": "According to the Cambridge Judge Business School (2024), which of the following is one of the five biggest obstacles to achieving the SDGs?",
+   "options": [
+    "Too much bottom-up intervention",
+    "A growing role of the state",
+    "Excess financial resources from investors",
+    "Greenwashing by private firms",
+    "Reducing the scale of social enterprise"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Greenwashing by private firms",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sdg-challenges"
+   ],
+   "topic": "Climate change & SDGs",
+   "explanation": "The five barriers are insufficient financial resources, greenwashing by private firms, marginalisation of the state, top-down intervention, and a misguided focus on scaling social enterprise [M6 s8 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-06",
+   "source": "generated",
+   "stem": "In the discussion of SDG 13 and other SDGs, the COVID-19 pandemic is mentioned because it:",
+   "options": [
+    "Reduced global GHG emissions by about 6%",
+    "Increased global GHG emissions by 6%",
+    "Eliminated all extreme weather events",
+    "Reduced GHG emissions by 31.89%"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Reduced global GHG emissions by about 6%",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sdg13-to-others"
+   ],
+   "topic": "Climate change & SDGs",
+   "explanation": "The slide notes that COVID-19 reduced GHG emissions by 6%, showing how closely emissions follow economic activity [M6 s9].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-07",
+   "source": "generated",
+   "stem": "Which of the following are named as the vulnerable groups affected by climate change when SDG 13 affects other SDGs?",
+   "options": [
+    "Small Island Developing States (SIDS), coastal areas, and countries in the Global South",
+    "Countries of the Global North and investors",
+    "Only people living in cold-climate regions",
+    "Landlocked high-income countries and large corporations",
+    "OECD member states and urban property owners"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Small Island Developing States (SIDS), coastal areas, and countries in the Global South",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sdg13-to-others"
+   ],
+   "topic": "Climate change & SDGs",
+   "explanation": "Vulnerable groups are SIDS, coastal areas, Global South countries, and women, children, youth and other marginalized groups [M6 s9].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-08",
+   "source": "generated",
+   "stem": "When human activities produce GHGs, roughly how much of these emissions remains in the atmosphere, while the rest is absorbed by land and oceans?",
+   "options": [
+    "About one tenth",
+    "About half",
+    "Almost all of it (95%)",
+    "About 6%",
+    "None of it"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "About half",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.others-to-sdg13"
+   ],
+   "topic": "Climate change & SDGs",
+   "explanation": "About half stays in the atmosphere and the other half is absorbed by land and oceans, which is why ecosystems act as natural carbon sinks [M6 s10].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-09",
+   "source": "generated",
+   "stem": "Restoring forests, mangroves and marine ecosystems so that they absorb carbon (carbon sequestration) is how which SDGs help to achieve SDG 13?",
+   "options": [
+    "SDG 7 (Affordable and Clean Energy)",
+    "SDG 11 (Sustainable Cities and Communities)",
+    "SDG 12 (Responsible Consumption and Production)",
+    "SDG 14 and SDG 15 (Life Below Water and Life on Land)"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "SDG 14 and SDG 15 (Life Below Water and Life on Land)",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.others-to-sdg13"
+   ],
+   "topic": "Climate change & SDGs",
+   "explanation": "SDG 14 and 15 contribute through rehabilitating forests, mangroves and marine ecosystems that sequester carbon; SDG 7, 11 and 12 contribute via clean energy, green cities and waste/circular economy [M6 s10 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-10",
+   "source": "generated",
+   "stem": "Compared with the Kyoto Protocol, the Paris Agreement is different because it:",
+   "options": [
+    "Asks all countries to set their own targets, known as Nationally Determined Contributions (NDCs)",
+    "Sets top-down emission targets that only developed countries must meet",
+    "Requires only the USA to reduce its emissions",
+    "Removes any temperature limit from the agreement"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Asks all countries to set their own targets, known as Nationally Determined Contributions (NDCs)",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.paris"
+   ],
+   "topic": "Paris Agreement",
+   "explanation": "Kyoto set top-down targets, excluded developing countries and was not joined by the USA; Paris asks all countries to set their own NDCs [M6 s14 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-11",
+   "source": "generated",
+   "stem": "The three goals of the Paris Agreement (2015) are:",
+   "options": [
+    "Equity, transparency, and sovereignty",
+    "Economic, social, and environmental",
+    "Prevention, polluter pays, and compensation",
+    "Energy, industry, and AFOLU",
+    "Mitigation, adaptation, and making financial flows consistent with low-emission, climate-resilient development"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Mitigation, adaptation, and making financial flows consistent with low-emission, climate-resilient development",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.paris"
+   ],
+   "topic": "Paris Agreement",
+   "explanation": "Paris aims to limit warming well below 2°C (pursuing 1.5°C), build resilience and adaptive capacity, and align finance flows; equity/transparency/sovereignty are its principles, not goals [M6 s14, s15].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      14,
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-12",
+   "source": "generated",
+   "stem": "The Paris Agreement is implemented based on which three principles?",
+   "options": [
+    "Equity, transparency, and sovereignty",
+    "Mitigation, adaptation, and finance",
+    "Universality, indivisibility, and place-based priority",
+    "Economic, social, and environmental",
+    "Common, differentiated, and respective"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Equity, transparency, and sovereignty",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.paris.principles"
+   ],
+   "topic": "Paris Agreement",
+   "explanation": "The principles are equity (CBDR-RC), transparency (Global Stocktake) and sovereignty (bottom-up NDCs) [M6 s15].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-13",
+   "source": "generated",
+   "stem": "The Paris principle of Sovereignty, which allows each country to determine its own level of emissions through a bottom-up architecture, is reported as:",
+   "options": [
+    "Global Stocktake reports",
+    "CBDR-RC statements",
+    "Voluntary National Reviews (VNR)",
+    "Nationally Determined Contributions (NDCs)"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Nationally Determined Contributions (NDCs)",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.paris.principles"
+   ],
+   "topic": "Paris Agreement",
+   "explanation": "Sovereignty means bottom-up architecture: each country sets its own level of emissions and reports it as an NDC, its pledge [M6 s18].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-14",
+   "source": "generated",
+   "stem": "The equity principle of the Paris Agreement (CBDR-RC) is associated with which negotiation terminology?",
+   "options": [
+    "Polluter Pays",
+    "Precautionary Principle",
+    "Right to Development",
+    "Net Zero Emission",
+    "Free riding"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Right to Development",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.paris.cbdr"
+   ],
+   "topic": "Paris Agreement",
+   "explanation": "Slide 16 gives 'Right to Development' as the negotiation term for the CBDR-RC principle, together with the 'ability to pay' idea [M6 s16].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-15",
+   "source": "generated",
+   "stem": "The Global Stocktake (GST) is the representation of which principle of the Paris Agreement?",
+   "options": [
+    "Equity",
+    "Transparency",
+    "Sovereignty",
+    "Mitigation"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Transparency",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.paris.gst"
+   ],
+   "topic": "Paris Agreement",
+   "explanation": "GST represents the transparency principle: it assesses how far countries implement their climate commitments [M6 s17].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-16",
+   "source": "generated",
+   "stem": "The stated objective of the Global Stocktake (GST) is to:",
+   "options": [
+    "Set binding top-down emission quotas for each country",
+    "Replace all NDCs with one single global target",
+    "Punish countries that emit more than the global average",
+    "Fund the Technology Facilitation Mechanism",
+    "Continually increase climate ambition to avoid an emergency situation"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Continually increase climate ambition to avoid an emergency situation",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.paris.gst"
+   ],
+   "topic": "Paris Agreement",
+   "explanation": "GST reviews progress and aims to continually raise climate ambition (e.g., less fossil fuel, more renewables, more climate funding) [M6 s17].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-17",
+   "source": "generated",
+   "stem": "Indonesia ratified the Paris Agreement as Law No. 16/2016 and aims to achieve Net Zero Emission (NZE) by:",
+   "options": [
+    "2030 or earlier",
+    "2045",
+    "2050",
+    "2060 or earlier",
+    "2100"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "2060 or earlier",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.indonesia-commitment"
+   ],
+   "topic": "Indonesia's NDC",
+   "explanation": "Slide 19: Law No. 16/2016 ratifies Paris; Indonesia aims to limit warming to <1.5°C and reach NZE by 2060 or earlier [M6 s19].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-18",
+   "source": "generated",
+   "stem": "In Indonesia's NDC, the 'conditional' emission reduction target is the one that:",
+   "options": [
+    "Is achieved through domestic efforts alone",
+    "Is legally enforced by the United Nations",
+    "Applies only to the AFOLU sector",
+    "Depends on international support"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Depends on international support",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.indonesia-endc"
+   ],
+   "topic": "Indonesia's NDC",
+   "explanation": "Unconditional means independent/without intervention; conditional means achieved with international support (the higher percentage) [M6 s19-20].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      19,
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-19",
+   "source": "generated",
+   "stem": "Indonesia's Second NDC (2025) was prepared in response to the outcomes of the:",
+   "options": [
+    "Kyoto Protocol review (1997)",
+    "1st Global Stocktake",
+    "Millennium Summit (2000)",
+    "Voluntary National Review (VNR)",
+    "Montreal Protocol amendments"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "1st Global Stocktake",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.indonesia-sndc"
+   ],
+   "topic": "Indonesia's NDC",
+   "explanation": "The 2nd NDC explicitly responds to the outcomes of the 1st Global Stocktake (concluded at COP28, 2023) [M6 s20, s12].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      20,
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-20",
+   "source": "generated",
+   "stem": "A notable change in Indonesia's Second NDC is that its emission reduction targets are expressed as:",
+   "options": [
+    "Per-capita emissions only",
+    "Absolute emission reductions",
+    "A percentage of GDP",
+    "Relative to a business-as-usual baseline only"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Absolute emission reductions",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.indonesia-sndc"
+   ],
+   "topic": "Indonesia's NDC",
+   "explanation": "The SNDC shifts to absolute emission targets (31.89% unconditional, 43.20% conditional by 2035), a more modern methodology aligned with UNFCCC transparency standards [M6 s20 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-21",
+   "source": "generated",
+   "stem": "Hot weather occurs throughout cities, but the effects of urban heat may differ based on:",
+   "options": [
+    "The number of cities in the country",
+    "The classification of BMKG only",
+    "Socio-economic status",
+    "The total volume of carbon sequestration"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Socio-economic status",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.urban-heat"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "Slide 26 says the heat affects the whole city but impacts vary by socio-economic status, an equity dimension of urban heat [M6 s26].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-22",
+   "source": "generated",
+   "stem": "Because AC use can raise energy consumption and refrigerant (HFC) emissions, relying on AC as a climate adaptation strategy creates a potential for:",
+   "options": [
+    "Carbon sequestration",
+    "Mitigation co-benefits",
+    "Zero-emission cooling",
+    "Maladaptation"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Maladaptation",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.ac-adaptation"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "AC saves lives but increases GHG emissions, so it can be a maladaptation, which is why sustainable cooling is needed [M6 s27].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-23",
+   "source": "generated",
+   "stem": "A technician releases old refrigerant into the air while servicing an AC unit. This is an example of:",
+   "options": [
+    "Direct emission",
+    "Indirect emission",
+    "Carbon sequestration",
+    "Passive design",
+    "Natural greenhouse effect"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Direct emission",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.cooling-emissions"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "Direct emissions come from refrigerant leakage and unsustainable refrigerant handling during servicing; indirect emissions come from the energy used [M6 s28].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-24",
+   "source": "generated",
+   "stem": "Which of the following is not one of the principles of sustainable cooling presented in the lecture?",
+   "options": [
+    "Energy savings",
+    "Banning all cooling in tropical cities",
+    "Circular economy and end-of-life management",
+    "Fair and affordable access",
+    "Integration of renewable energy"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Banning all cooling in tropical cities",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sustainable-cooling"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "The principles are energy savings, environmentally friendly refrigerants, renewable energy integration, fair and affordable access, and circular economy/end-of-life management [M6 s29].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-25",
+   "source": "generated",
+   "stem": "Which example illustrates the 'fair and affordable access' principle of sustainable cooling?",
+   "options": [
+    "Solar-powered cooling systems",
+    "Reducing the thermal load with shading",
+    "Cold storage for traditional fishermen and village cooperatives in need",
+    "Recycling cooling units",
+    "Refrigerants with zero ODP"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Cold storage for traditional fishermen and village cooperatives in need",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sustainable-cooling"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "Slide 29 gives cold storage for traditional fishermen and village cooperatives as the fair-access example [M6 s29].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-26",
+   "source": "generated",
+   "stem": "In 2019, which sector contributed 22% (13 GtCO₂-eq) of global GHG emissions?",
+   "options": [
+    "Industry",
+    "Transportation",
+    "Buildings",
+    "AFOLU (Agriculture, Forestry, and Other Land Use)",
+    "Energy"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "AFOLU (Agriculture, Forestry, and Other Land Use)",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.ghg-sources"
+   ],
+   "topic": "Climate system & GHGs",
+   "explanation": "2019 shares: Energy 34%, Industry 24%, AFOLU 22%, Transportation 15%, Building 6% [M6 s32].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      32
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-27",
+   "source": "generated",
+   "stem": "CO₂ captured from industrial sources (such as steel or cement production) or power plants and injected into porous rock underground for long-term storage is an example of:",
+   "options": [
+    "Geological sequestration",
+    "Technological sequestration",
+    "Biological sequestration",
+    "Atmospheric sequestration"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Geological sequestration",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.carbon-sequestration"
+   ],
+   "topic": "Carbon sequestration & AFOLU",
+   "explanation": "Geological sequestration stores CO₂ from industrial/energy sources in underground rock formations; biological uses vegetation, soil and oceans [M6 s33 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-28",
+   "source": "generated",
+   "stem": "Tropical peatlands and other peatlands cover only about 3% of the world's land. How does the carbon they store compare with all forests?",
+   "options": [
+    "Twice as much",
+    "The same amount",
+    "Half as much",
+    "Negligible amounts",
+    "Ten times as much"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Twice as much",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.peatland"
+   ],
+   "topic": "Carbon sequestration & AFOLU",
+   "explanation": "Peatlands cover about 3% of land but store twice as much carbon as all forests, so protecting and restoring them matters for climate [M6 s10 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-29",
+   "source": "generated",
+   "stem": "In tropical peatlands, the most important factor regulating peat decomposition is:",
+   "options": [
+    "The amount of annual sunlight",
+    "The depth of the mineral subsoil",
+    "A high water table level that limits oxygen availability",
+    "The type of crops planted nearby"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "A high water table level that limits oxygen availability",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.peatland"
+   ],
+   "topic": "Carbon sequestration & AFOLU",
+   "explanation": "A high water table keeps the peat waterlogged and limits oxygen for aerobic decomposers, so plant litter accumulates as peat [M6 s35 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-30",
+   "source": "generated",
+   "stem": "By 2010, what share of the 55.81 Mha of Borneo forests recorded in 1973 had been logged over?",
+   "options": [
+    "10.5%",
+    "22%",
+    "31.89%",
+    "47.72%",
+    "78.4%"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "47.72%",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.peat.disturbance"
+   ],
+   "topic": "Carbon sequestration & AFOLU",
+   "explanation": "Gaveau et al. (2014): 26.63 Mha (47.72%) of Borneo's forest had been logged by 2010, part of Indonesia's rapid peatland degradation [M6 s36].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-31",
+   "source": "generated",
+   "stem": "In tropical peatlands in Indonesia, the 'cold fire' is:",
+   "options": [
+    "An extensive fire that occurs occasionally in dry El Niño years",
+    "The release of methane from rice paddies",
+    "The storage of carbon in permanently waterlogged anoxic peat",
+    "A steady CO₂ emission from aerobic decomposition after drainage lowers the water table"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "A steady CO₂ emission from aerobic decomposition after drainage lowers the water table",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.peat.disturbance"
+   ],
+   "topic": "Carbon sequestration & AFOLU",
+   "explanation": "Drainage makes the upper peat aerobic so microbes decompose it continuously (steady emission), unlike occasional but extensive dry-season fires [M6 s36 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-32",
+   "source": "generated",
+   "stem": "Among AFOLU mitigation strategies, reforestation refers to:",
+   "options": [
+    "Restoring forest cover on land that recently lost its forest due to fire, logging or conversion",
+    "Planting trees together with crops or livestock on the same land",
+    "Using crop residues as a source of bioenergy",
+    "Establishing a new forest on land that was not forest"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Restoring forest cover on land that recently lost its forest due to fire, logging or conversion",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.afolu"
+   ],
+   "topic": "Carbon sequestration & AFOLU",
+   "explanation": "Reforestation restores forest on recently deforested land; afforestation plants forest on non-forest land; agroforestry mixes trees with crops/livestock [M6 s38 notes].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      38
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-33",
+   "source": "generated",
+   "stem": "Which of the following is a human-made (industrial) greenhouse gas?",
+   "options": [
+    "N₂ (nitrogen)",
+    "O₂ (oxygen)",
+    "H₂O (water vapor)",
+    "NH₃ (ammonia)",
+    "SF₆"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "SF₆",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.ghg.list"
+   ],
+   "topic": "Climate system & GHGs",
+   "explanation": "Industrial GHGs include CFCs, HFCs, PFCs and SF₆; N₂, O₂ and NH₃ are not GHGs, and water vapor is a natural GHG [M6 s4].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-34",
+   "source": "generated",
+   "stem": "Besides passive design, which measure belongs to the 'energy savings' principle of sustainable cooling?",
+   "options": [
+    "Using energy-efficient ACs, refrigerators, freezers, cold storage and chillers",
+    "Recovering used refrigerants during servicing",
+    "Solar-powered cooling systems",
+    "Refrigerants with zero ODP",
+    "Cold storage for village cooperatives"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Using energy-efficient ACs, refrigerators, freezers, cold storage and chillers",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sustainable-cooling.energy-passive"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "Energy savings means energy-efficient equipment plus passive design (ventilation, insulation, shading); the other options belong to other principles [M6 s29].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-35",
+   "source": "generated",
+   "stem": "In the principle of environmentally friendly refrigerants, the requirement of 'low GWP' is meant so that the refrigerant does not:",
+   "options": [
+    "Deplete the ozone layer",
+    "Require recycling at end-of-life",
+    "Increase the thermal load of buildings",
+    "Contribute to global warming"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Contribute to global warming",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sustainable-cooling.refrigerants"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "Zero ODP protects the ozone layer, while low GWP means the refrigerant does not contribute to global warming [M6 s29].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-36",
+   "source": "generated",
+   "stem": "Integrating renewable energy into cooling systems mainly helps to reduce which type of emissions?",
+   "options": [
+    "Indirect emissions from the energy consumed by cooling",
+    "Emissions from used-refrigerant handling",
+    "Direct emissions from refrigerant leakage",
+    "Emissions from peatland fires"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Indirect emissions from the energy consumed by cooling",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sustainable-cooling.renewables"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "Indirect emissions come from energy consumption of cooling (50-60% of a commercial building's energy), so powering it with renewables such as solar cuts them [M6 s28, s29].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      28,
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m6-37",
+   "source": "generated",
+   "stem": "A workshop collects old refrigerant from retired AC units instead of venting it and sends the units for recycling. Which principle of sustainable cooling does this follow?",
+   "options": [
+    "Fair and affordable access",
+    "Circular economy and end-of-life management",
+    "Integration of renewable energy",
+    "Energy savings through passive design"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Circular economy and end-of-life management",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.sustainable-cooling.circular"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "Managing used refrigerants (not releasing them directly into the air) and recycling cooling units is the circular economy and end-of-life principle [M6 s29].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-m6.climate-change",
+   "nodeId": "m6.climate-change",
+   "module": "M6",
+   "topic": "Climate system & GHGs",
+   "front": "Define climate change and name the main components of the climate system.",
+   "back": "Climate change = long-term change in the average atmospheric conditions shaping local, regional and global climate. Past natural drivers: volcanoes, solar radiation, tectonic shifts, orbital changes. Today's change is extraordinarily fast and primarily human-driven. Climate system components (IPCC 2021): atmosphere, biosphere, cryosphere, oceans.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.ghg",
+   "nodeId": "m6.ghg",
+   "module": "M6",
+   "topic": "Climate system & GHGs",
+   "front": "What are GHGs, and why are they both essential and a problem?",
+   "back": "Gases that absorb heat energy emitted from Earth's surface (<1% of air molecules). Natural greenhouse effect keeps average surface temperature above freezing, so life can exist. Natural: water vapor, CO₂, CH₄, N₂O, ozone. Industrial: CFCs, HFCs, PFCs, SF₆. Excess human emissions enhance the effect and cause global warming.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.ghg.concentration",
+   "nodeId": "m6.ghg.concentration",
+   "module": "M6",
+   "topic": "Climate system & GHGs",
+   "front": "What do the GHG concentration data show, and which numbers matter?",
+   "back": "Ice cores (800,000 years): CO₂ stayed roughly 180–300 ppm, then rose sharply after the Industrial Revolution (~1760). CO₂ = 409.9 ppm in 2019 (IPCC); NOAA 2023: CO₂ 419.3 ppm (+50%), CH₄ 1922.6 ppb (+166%), N₂O 336.7 ppb (+25%). CO₂ in ppm, methane in ppb.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      5,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.ghg.gwp",
+   "nodeId": "m6.ghg.gwp",
+   "module": "M6",
+   "topic": "Climate system & GHGs",
+   "front": "Explain the enhanced greenhouse effect and GWP. Which protocol covers which gases?",
+   "back": "Extra human CO₂/CH₄ enhance the greenhouse effect, so average temperature rises: global warming. GWP = heat a gas traps over a period relative to CO₂ (GWP = 1); N₂O ≈ 298. Kyoto regulates 6 GHGs (CO₂, CH₄, N₂O, HFC, PFC, SF₆). Montreal Protocol covers CFCs (GWP up to ~12,500) and HCFCs (HCFC-22 ≈ 1,800).",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.ghg.list",
+   "nodeId": "m6.ghg.list",
+   "module": "M6",
+   "topic": "Climate system & GHGs",
+   "front": "Which gases are GHGs and which are not?",
+   "back": "GHGs: water vapor (H₂O), CO₂, CH₄, N₂O, ozone (O₃); industrial CFCs/HCFCs, HFCs, PFCs, SF₆. NOT GHGs: ammonia (NH₃) and the bulk gases nitrogen (N₂) and oxygen (O₂). Each GHG has a Global Warming Potential (GWP).",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      4,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.sdg-challenges",
+   "nodeId": "m6.sdg-challenges",
+   "module": "M6",
+   "topic": "Climate change & SDGs",
+   "front": "Why can climate change make the SDGs hard to achieve?",
+   "back": "IOC and WMO: climate change can hinder or reverse progress on other SDGs. Weather, climate and water impacts cause slow-onset and fast-onset disasters: temperature rise, sea-level rise, and disruption of land and sea ecosystems. Reality-check framing: SDG 6, 7, 11, 13, 14, 15 are hit. Cambridge (2024) barriers: finance (~48%), greenwashing, marginalised state, top-down intervention, misguided scaling of social enterprise.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.sdg13-to-others",
+   "nodeId": "m6.sdg13-to-others",
+   "module": "M6",
+   "topic": "Climate change & SDGs",
+   "front": "How does SDG 13 (climate) affect the other SDGs, and who is most vulnerable?",
+   "back": "Extreme weather events cause setbacks across health, food, water, cities and livelihoods. COVID-19 cut global GHG emissions by about 6%. Most vulnerable: Small Island Developing States (SIDS), coastal areas, Global South countries, and women, children, youth and other marginalised groups.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.others-to-sdg13",
+   "nodeId": "m6.others-to-sdg13",
+   "module": "M6",
+   "topic": "Climate change & SDGs",
+   "front": "Give examples of how other SDGs contribute to SDG 13.",
+   "back": "SDG 7: renewable transition cuts GHGs. SDG 11: green transport, efficiency, green planning. SDG 12: waste management, less overconsumption, circular economy. SDG 14 & 15: restoring forests, mangroves, marine ecosystems for carbon sequestration. SDG 2: agroforestry, organic fertiliser. About half of emissions stay in the atmosphere; the rest is absorbed by land and oceans.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.paris",
+   "nodeId": "m6.paris",
+   "module": "M6",
+   "topic": "Paris Agreement",
+   "front": "Compare the Paris Agreement (2015) with the Kyoto Protocol (1997), and state Paris's goals.",
+   "back": "Kyoto: top-down targets, developing countries not committed, USA did not join. Paris: all countries set own targets (NDCs). Goals: (1) mitigation, well below 2°C, pursue 1.5°C; (2) adaptation and resilience; (3) align finance flows with low-emission, climate-resilient development. Principles: equity, transparency, sovereignty.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      14,
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.paris.principles",
+   "nodeId": "m6.paris.principles",
+   "module": "M6",
+   "topic": "Paris Agreement",
+   "front": "List the three principles of the Paris Agreement and their mechanisms.",
+   "back": "Equity: CBDR-RC. Transparency: Global Stocktake (GST). Sovereignty: bottom-up architecture with NDCs, each country determines its own level of emissions and reports it as an NDC (its pledge).",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      15,
+      16,
+      17,
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.paris.cbdr",
+   "nodeId": "m6.paris.cbdr",
+   "module": "M6",
+   "topic": "Paris Agreement",
+   "front": "What does CBDR-RC stand for and what does each part mean?",
+   "back": "Common but Differentiated Responsibilities and Respective Capabilities (equity principle; negotiation term 'Right to Development'). Common: all countries contribute to climate change, to varying degrees. Differentiated: 'ability to pay', developed countries commit more. Respective capabilities: support via TFM and funding so all can participate.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.paris.gst",
+   "nodeId": "m6.paris.gst",
+   "module": "M6",
+   "topic": "Paris Agreement",
+   "front": "What is the Global Stocktake (GST), which principle does it represent, and what is its aim?",
+   "back": "GST = transparency principle. It assesses how far countries implement their climate commitments (reviews progress) to continually raise ambition and avoid an emergency, e.g. less fossil fuel, more renewables, more climate funding. COP24 added loss and damage and response measures; first GST concluded at COP28 (2023).",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      17,
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.indonesia-commitment",
+   "nodeId": "m6.indonesia-commitment",
+   "module": "M6",
+   "topic": "Indonesia's NDC",
+   "front": "What is Indonesia's climate commitment under Paris?",
+   "back": "Paris ratified as Law No. 16/2016. Keep temperature rise <1.5°C. Net Zero Emission (NZE) by 2060 or earlier. Emission cut targets are split into unconditional (independent) and conditional (with international support); slide 19 lists 29% / 41% for 2030, later updated to 31.89% / 43.2%.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      19,
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.indonesia-endc",
+   "nodeId": "m6.indonesia-endc",
+   "module": "M6",
+   "topic": "Indonesia's NDC",
+   "front": "What numbers does the quiz attach to Indonesia's Enhanced NDC, and what do conditional vs unconditional mean?",
+   "back": "Quiz answer: 31.89% GHG reduction independently (unconditional, domestic effort) and 43.2% with international support (conditional). Slide 19 shows the first NDC as 29% / 41%, and slide 20 shows 31.89% / 43.20% as the 2035 target of the Second NDC, so learn the numbers firmly. Conditional targets depend on finance and technology.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      19,
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.indonesia-sndc",
+   "nodeId": "m6.indonesia-sndc",
+   "module": "M6",
+   "topic": "Indonesia's NDC",
+   "front": "What is Indonesia's Second NDC (2025) and what are its scenarios?",
+   "back": "Responds to the 1st Global Stocktake. 2035 absolute emission reduction targets: 31.89% unconditional and 43.20% conditional; shift from relative to absolute targets; NZE 2060 or sooner. Scenarios: CPOS (Current Policy), LCCP_Low and LCCP_High (Low Carbon Compatible with Paris).",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      20,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.urban-heat",
+   "nodeId": "m6.urban-heat",
+   "module": "M6",
+   "topic": "Sustainable cooling",
+   "front": "What did the 2023 urban heat events in Indonesia show, and what are the impacts?",
+   "back": "BMKG said it was not technically a heat wave, yet the highest temperatures on record (2023) were in Semarang, Surabaya and Makassar. Impacts: heat strain, heat stress, psychosocial disorders and disrupted cognitive performance. Effects differ by socio-economic status.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.ac-adaptation",
+   "nodeId": "m6.ac-adaptation",
+   "module": "M6",
+   "topic": "Sustainable cooling",
+   "front": "Why is air conditioning both an adaptation tool and a risk?",
+   "back": "Adaptation: life-saving in extreme heat, especially for vulnerable groups; maintains quality of life and work productivity. Risk: high energy use and release of HFC refrigerants increase GHGs. Result: potential maladaptation (a vicious cycle), hence the need for sustainable cooling.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.cooling-emissions",
+   "nodeId": "m6.cooling-emissions",
+   "module": "M6",
+   "topic": "Sustainable cooling",
+   "front": "Distinguish direct and indirect emissions from cooling systems.",
+   "back": "Direct: high-GWP refrigerants (CFC, HCFC, HFC) leaking from units or mishandled during servicing. Indirect: energy consumed by cooling, which can reach 50–60% of total energy use in hotels, offices and shopping centres. Measured in CO₂e.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.sustainable-cooling",
+   "nodeId": "m6.sustainable-cooling",
+   "module": "M6",
+   "topic": "Sustainable cooling",
+   "front": "List the five principles of sustainable cooling.",
+   "back": "(1) Energy savings (efficient equipment, passive design); (2) environmentally friendly refrigerants (zero ODP, low GWP); (3) integration of renewable energy (solar-powered cooling); (4) fair and affordable access (cold storage for traditional fishermen, village cooperatives); (5) circular economy and end-of-life management.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.sustainable-cooling.energy-passive",
+   "nodeId": "m6.sustainable-cooling.energy-passive",
+   "module": "M6",
+   "topic": "Sustainable cooling",
+   "front": "What does the energy-savings principle of sustainable cooling include?",
+   "back": "Use energy-efficient ACs, refrigerators, freezers, cold storage and chillers, and reduce the thermal load by passive design: effective ventilation, insulation and shading. It targets indirect (energy) emissions.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.sustainable-cooling.refrigerants",
+   "nodeId": "m6.sustainable-cooling.refrigerants",
+   "module": "M6",
+   "topic": "Sustainable cooling",
+   "front": "What two criteria must a sustainable-cooling refrigerant meet?",
+   "back": "Zero ODP (Ozone Depleting Potential, does not damage the ozone layer) and low GWP (does not contribute to global warming). Problem gases: CFCs, HCFCs and HFCs, whose leakage and servicing cause high direct emissions.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      28,
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.sustainable-cooling.renewables",
+   "nodeId": "m6.sustainable-cooling.renewables",
+   "module": "M6",
+   "topic": "Sustainable cooling",
+   "front": "What is the renewable-energy principle of sustainable cooling?",
+   "back": "Integrate renewable energy into cooling, the named example being solar-powered cooling systems. This lowers indirect emissions from the electricity that cooling consumes.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.sustainable-cooling.circular",
+   "nodeId": "m6.sustainable-cooling.circular",
+   "module": "M6",
+   "topic": "Sustainable cooling",
+   "front": "What does circular economy and end-of-life management mean for cooling?",
+   "back": "Manage used refrigerants so they are not released directly into the air, and recycle cooling units at end-of-life. Prevents high-GWP CFC/HCFC/HFC leakage after use.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.ghg-sources",
+   "nodeId": "m6.ghg-sources",
+   "module": "M6",
+   "topic": "Climate system & GHGs",
+   "front": "Rank global GHG emissions by sector in 2019 with their shares.",
+   "back": "Energy 34% (20 GtCO₂-eq) > Industry 24% (14) > AFOLU 22% (13) > Transportation 15% (8.7) > Buildings 6% (3.3). Source: IPCC 2023. About half of AFOLU net emissions are CO₂ from LULUCF, mainly deforestation.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      32
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.carbon-sequestration",
+   "nodeId": "m6.carbon-sequestration",
+   "module": "M6",
+   "topic": "Carbon sequestration & AFOLU",
+   "front": "Define carbon sequestration and give its three types.",
+   "back": "Natural or artificial processes by which CO₂ is removed from the atmosphere or diverted from emission sources, then stored in oceans, terrestrial environments (vegetation, soil, sediments) and geological formations. Types: biological, geological (injected in porous rock), technological (e.g. Direct Air Capture, USD 500–800 per tonne).",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.peatland",
+   "nodeId": "m6.peatland",
+   "module": "M6",
+   "topic": "Carbon sequestration & AFOLU",
+   "front": "Why do tropical peatlands matter for climate, and how do they form?",
+   "back": "Peatlands cover about 3% of land but store twice as much carbon as all forests. They form where waterlogging limits oxygen so production exceeds decomposition (average depth 5.5–7 m, up to 20 m). A high water table is the key control on decomposition; keeping peat wet is the key lever.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      34,
+      35,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.peat.disturbance",
+   "nodeId": "m6.peat.disturbance",
+   "module": "M6",
+   "topic": "Carbon sequestration & AFOLU",
+   "front": "How does disturbance turn Indonesian peatlands into CO₂ sources?",
+   "back": "Fire, drainage and deforestation release CO₂. Drainage lowers the water table, upper peat turns aerobic, giving 'cold fire': steady CO₂ emission. Dry-season fires (El Niño) give occasional but extensive emissions. Borneo: 26.63 Mha (47.72%) of 55.81 Mha forest logged by 2010.",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m6.afolu",
+   "nodeId": "m6.afolu",
+   "module": "M6",
+   "topic": "Carbon sequestration & AFOLU",
+   "front": "What are the AFOLU mitigation strategies, and what is not one?",
+   "back": "AFOLU = Agriculture, Forestry and Other Land Use (22% of 2019 emissions). Strategies: afforestation, reforestation and forest ecosystem restoration; agroforestry; soil carbon management; bioenergy in agriculture. Land clearing by burning is NOT mitigation (it is an emission source).",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      38
+     ]
+    }
+   ]
+  }
+ ]
+}

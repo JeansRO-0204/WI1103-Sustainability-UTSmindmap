@@ -1,0 +1,111 @@
+{
+  "meta": { "generated": "2026-11-05", "quiz2Count": 5, "sample": true },
+  "questions": [
+    {
+      "id": "q2-01", "source": "quiz2", "n": 1,
+      "stem": "The main factor causing climate change today is",
+      "options": ["Volcanic activity", "Human activity", "Variations in solar radiation", "Movement of tectonic plates"],
+      "answer": [1], "answerText": "Human activity", "keyStatus": "given",
+      "module": "M6", "topic": "Climate & GHG", "nodeIds": ["m6.ghg.gwp"],
+      "explanation": "Extra greenhouse gases from human activity enhance the greenhouse effect and drive global warming [M6 s6].",
+      "sources": [{ "module": "M6", "slides": [6] }]
+    },
+    {
+      "id": "q2-02", "source": "quiz2", "n": 2,
+      "stem": "Indonesia's Strategy and Action Plan for Biodiversity (IBSAP) 2025–2045 highlights the importance of biodiversity in achieving SDGs. Its mission explicitly incorporates STI, focusing on protection, sustainable utilization, and:",
+      "options": [
+        "Strengthening diplomacy in global forums.",
+        "Reducing GRK emissions by 31.89%.",
+        "Define quizzes that show calculations and precision in achievement of SDGs in Indonesia.",
+        "Providing *cold storage* for traditional fishers.",
+        "Increasing the *material footprint* of the country."
+      ],
+      "answer": [0], "answerText": "Strengthening diplomacy in global forums.", "keyStatus": "inferred",
+      "module": "M5", "topic": "SDGs in Indonesia", "nodeIds": ["m5.ibsap"],
+      "explanation": "IBSAP is described as a national guideline and a diplomatic tool, so diplomacy is the best fit among the options [M5 s19-20].",
+      "sources": [{ "module": "M5", "slides": [19, 20] }],
+      "note": "The quiz had no answer key; this one is inferred from the slides."
+    },
+    {
+      "id": "q2-10", "source": "quiz2", "n": 10,
+      "stem": "How many *Sustainable Development Goals* (SDGs) are there, and how many targets do they have?",
+      "options": ["8 goals, 21 targets", "17 goals, 169 targets", "17 goals, 231 targets", "15 goals, 169 targets"],
+      "answer": [1], "answerText": "17 goals, 169 targets", "keyStatus": "given",
+      "module": "M5", "topic": "SDGs framework", "nodeIds": ["m5.goals-targets-indicators"],
+      "explanation": "The SDGs have 17 goals and 169 targets, measured by 231 global indicators [M5 s8].",
+      "sources": [{ "module": "M5", "slides": [8] }]
+    },
+    {
+      "id": "q2-11", "source": "quiz2", "n": 11,
+      "stem": "Which of the following is NOT a component of the Technology Facilitation Mechanism (TFM)?",
+      "options": ["IATT", "10-Member Group", "STI Forum", "Brundtland Commission"],
+      "answer": [3], "answerText": "Brundtland Commission", "keyStatus": "disputed",
+      "module": "M5", "topic": "STI & TFM", "nodeIds": ["m5.tfm", "m5.sti-aaaa"],
+      "explanation": "The TFM has four components: IATT, the 10-Member Group, the STI Forum and the 2030 Connect online platform [M5 s25].",
+      "sources": [{ "module": "M5", "slides": [25] }],
+      "dupOf": "q2-10", "note": "Sample of a duplicate/disputed flag."
+    },
+    {
+      "id": "g-m6-01", "source": "generated",
+      "stem": "In the Paris Agreement, the principle that all countries share responsibility but developed countries commit more is called:",
+      "options": ["The polluter-pays rule", "CBDR-RC", "Nationally Determined Contribution", "The precautionary principle"],
+      "answer": [1], "answerText": "CBDR-RC", "keyStatus": "given",
+      "module": "M6", "topic": "Paris Agreement", "nodeIds": ["m6.paris.cbdr"],
+      "explanation": "CBDR-RC (Common but Differentiated Responsibilities and Respective Capabilities) is the equity principle behind differentiated commitments [M6 s16].",
+      "sources": [{ "module": "M6", "slides": [16] }]
+    },
+    {
+      "id": "g-m2-01", "source": "generated",
+      "stem": "According to the 2025 update of the planetary boundaries, how many of the nine boundaries have been transgressed?",
+      "options": ["Three", "Five", "Seven", "All nine"],
+      "answer": [2], "answerText": "Seven", "keyStatus": "given",
+      "module": "M2", "topic": "Planetary Boundaries", "nodeIds": ["m2.pb-status-2025", "m2.nine-boundaries"],
+      "explanation": "Seven of nine are transgressed; only stratospheric ozone and aerosol loading remain in the safe operating space [M2 s7].",
+      "sources": [{ "module": "M2", "slides": [6, 7] }]
+    },
+    {
+      "id": "g-m1-01", "source": "generated",
+      "stem": "Gifford Pinchot's motto, \"the greatest good for the greatest number\", reflects which kind of environmental thinking?",
+      "options": ["Preservationism", "Conservationism (utilitarian)", "Land ethic", "Deep ecology", "Dominion thesis"],
+      "answer": [1], "answerText": "Conservationism (utilitarian)", "keyStatus": "given",
+      "module": "M1", "topic": "Environmental ethics", "nodeIds": ["m1.conserve-vs-preserve.pinchot"],
+      "explanation": "Pinchot advocated efficient, sustainable use of resources, an application of utilitarianism to nature [M1 s27].",
+      "sources": [{ "module": "M1", "slides": [27, 29] }]
+    },
+    {
+      "id": "g-m2-02", "source": "generated",
+      "stem": "Hardin's *Tragedy of the Commons* (1968) describes a pasture that is:",
+      "options": ["Owned jointly by a bounded community", "Open to all, with costs shared and gains private", "Managed by the state", "Privately owned"],
+      "answer": [1], "answerText": "Open to all, with costs shared and gains private", "keyStatus": "given",
+      "module": "M2", "topic": "Tragedy of the Commons", "nodeIds": ["m2.hardin-tragedy", "m2.commons-vs-open-access"],
+      "explanation": "Hardin's pasture is open access: each herder gains privately while the cost of overgrazing is shared [M2 s2-3].",
+      "sources": [{ "module": "M2", "slides": [2, 3] }]
+    }
+  ],
+  "flashcards": [
+    { "id": "fc-m6.paris.cbdr", "nodeId": "m6.paris.cbdr", "module": "M6", "topic": "Paris Agreement",
+      "front": "What does **CBDR-RC** stand for, and what does it imply?",
+      "back": "Common but Differentiated Responsibilities and Respective Capabilities. All countries share responsibility, but developed countries commit more (*ability to pay*, historical emissions).",
+      "sources": [{ "module": "M6", "slides": [16] }] },
+    { "id": "fc-m2.pb-status-2025", "nodeId": "m2.pb-status-2025", "module": "M2", "topic": "Planetary Boundaries",
+      "front": "How many planetary boundaries are transgressed in the 2025 update, and which two are still safe?",
+      "back": "**7 of 9** transgressed. Still safe: **stratospheric ozone** and **atmospheric aerosol loading**.",
+      "sources": [{ "module": "M2", "slides": [6, 7] }] },
+    { "id": "fc-m5.goals-targets-indicators", "nodeId": "m5.goals-targets-indicators", "module": "M5", "topic": "SDGs framework",
+      "front": "Give the SDG numbers: goals, targets, global indicators (and Indonesia's own count).",
+      "back": "**17** goals, **169** targets, **231** global indicators. Indonesia uses **289** indicators tailored to national development.",
+      "sources": [{ "module": "M5", "slides": [8] }] },
+    { "id": "fc-m5.tfm", "nodeId": "m5.tfm", "module": "M5", "topic": "STI & TFM",
+      "front": "Name the four components of the Technology Facilitation Mechanism.",
+      "back": "IATT, the 10-Member Group, the STI Forum and the 2030 Connect online platform.",
+      "sources": [{ "module": "M5", "slides": [25] }] },
+    { "id": "fc-m1.history.brundtland", "nodeId": "m1.history.brundtland", "module": "M1", "topic": "Defining sustainability",
+      "front": "State the Brundtland definition of sustainable development and its source.",
+      "back": "Development that *meets the needs of the present without compromising the ability of future generations to meet their own needs*. From **Our Common Future** (WCED, 1987).",
+      "sources": [{ "module": "M1", "slides": [12, 13] }] },
+    { "id": "fc-m6.ghg.gwp", "nodeId": "m6.ghg.gwp", "module": "M6", "topic": "Climate & GHG",
+      "front": "What is GWP, and what is its reference value?",
+      "back": "Global Warming Potential: how much heat a gas traps relative to CO₂ (**GWP = 1**). Example: N₂O is about **298x** CO₂. Kyoto covers 6 GHGs.",
+      "sources": [{ "module": "M6", "slides": [6] }] }
+  ]
+}

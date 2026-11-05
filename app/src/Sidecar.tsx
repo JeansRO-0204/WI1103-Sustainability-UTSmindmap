@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { descendants, originalUrl, pdfUrl, thumbUrl, type Data } from './data'
 import { SlideImg } from './ui'
+import { profColor, type Stats } from './quizlib'
 
 export interface Hits { nodes: string[]; slides: { module: string; slide: number; title: string; snippet: string }[] }
 
 interface Props {
   data: Data
   reviewed: Set<string>
+  stats: Stats | null
   query: string
   setQuery: (q: string) => void
   inputRef: React.RefObject<HTMLInputElement | null>
@@ -16,7 +18,7 @@ interface Props {
   onFirstHit: () => void
 }
 
-export default function Sidecar({ data, reviewed, query, setQuery, inputRef, hits, onFly, onSlide, onFirstHit }: Props) {
+export default function Sidecar({ data, reviewed, stats, query, setQuery, inputRef, hits, onFly, onSlide, onFirstHit }: Props) {
   const [open, setOpen] = useState<string | null>(null)
   const total = data.graph.nodes.length, done = [...reviewed].filter((i) => data.nodes.has(i)).length
   return (
@@ -25,6 +27,7 @@ export default function Sidecar({ data, reviewed, query, setQuery, inputRef, hit
         <h1>WI1103 Sustainability</h1>
         <div className="prog"><div style={{ width: `${(done / total) * 100}%` }} /></div>
         <small>{done} / {total} concepts reviewed{data.sample && <span className="sample"> &middot; SAMPLE DATA</span>}</small>
+        {stats && stats.overall.total > 0 && <small className="qready"><br />Quiz readiness <b style={{ color: profColor(stats.overall.p, stats.overall.tested > 0) }}>{stats.overall.tested > 0 ? `${stats.overall.p}%` : '–'}</b> &middot; {stats.overall.tested}/{stats.overall.total} items practiced</small>}
       </div>
       <div className="search">
         <input
@@ -63,12 +66,15 @@ export default function Sidecar({ data, reviewed, query, setQuery, inputRef, hit
             const modNode = data.nodes.get(m.id.toLowerCase()) ?? data.nodes.get(m.id.toLowerCase() + '.themes')
             const topics = modNode ? descendants(data, modNode.id).filter((i) => (data.depth.get(i) ?? 9) <= (data.depth.get(modNode.id) ?? 0) + 2) : []
             const color = data.moduleColor(m.id)
+            const qa = stats?.week.get(m.id)
             return (
               <div key={m.id} className={'mod' + (isOpen ? ' open' : '')} style={{ ['--c' as any]: color }}>
                 <button className="mod-head" onClick={() => setOpen(isOpen ? null : m.id)}>
                   <span className="dot" />
                   <span className="mt"><b>{m.id}</b>{m.week ? ` · W${m.week}` : ''}<br /><span>{m.title}</span></span>
-                  <span className="cnt">{ids.length ? `${r}/${ids.length}` : ''}</span>
+                  <span className="cnt">{ids.length ? `${r}/${ids.length}` : ''}
+                    {qa && <b className="qp" style={{ color: profColor(qa.p, qa.tested > 0) }} title={`Quiz proficiency: ${qa.tested}/${qa.total} items practiced`}>Q {qa.tested > 0 ? `${qa.p}%` : '–'}</b>}
+                  </span>
                 </button>
                 <div className="prog thin"><div style={{ width: ids.length ? `${(r / ids.length) * 100}%` : 0 }} /></div>
                 {isOpen && (

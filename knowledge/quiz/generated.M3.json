@@ -1,0 +1,1093 @@
+{
+ "questions": [
+  {
+   "id": "g-m3-01",
+   "source": "generated",
+   "stem": "What is meant by the carrying capacity of an area?",
+   "options": [
+    "The total number of different species that can live in a habitat at the same time",
+    "The population size at which the birth rate first exceeds the death rate in a given habitat, after which growth turns exponential",
+    "The maximum number of individuals of a species that a particular habitat can sustainably support",
+    "The fastest rate at which a population can grow when resources are unlimited"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "The maximum number of individuals of a species that a particular habitat can sustainably support",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.carrying-capacity"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "Carrying capacity is the maximum number of individuals of a species a habitat can sustainably support, set by limiting factors [M3 s4]. The other options describe species richness, birth/death balance, or J-curve growth.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-02",
+   "source": "generated",
+   "stem": "Limiting factors determine the carrying capacity of an area. Which of the following is NOT a limiting factor mentioned in the lecture?",
+   "options": [
+    "Unlimited availability of resources",
+    "Space",
+    "Abiotic factors such as water, nutrients and climate",
+    "Biotic factors such as disease"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Unlimited availability of resources",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.carrying-capacity"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "The lecture lists space, abiotic factors and biotic factors (e.g. disease) as limiting factors; unlimited resources would give J-curve growth and are not a limit [M3 s4].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-03",
+   "source": "generated",
+   "stem": "According to the Malthusian view of population and natural resources:",
+   "options": [
+    "Population grows linearly while natural resources grow exponentially, so shortages never occur",
+    "Natural resources have fixed limits and grow arithmetically (linearly), while population tends to grow exponentially (geometrically), leading to a crisis",
+    "Both population and resources grow exponentially, so a crisis can be avoided",
+    "Technology always keeps food production ahead of population growth",
+    "Natural resources are unlimited, so population is limited only by individual choice"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Natural resources have fixed limits and grow arithmetically (linearly), while population tends to grow exponentially (geometrically), leading to a crisis",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.malthus"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "Malthus argued resources grow arithmetically while population grows geometrically, producing a crisis period that cuts population back to what the environment can sustain [M3 s5].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-04",
+   "source": "generated",
+   "stem": "Malthus's work is now seen as an early source of sustainability thinking, but in his time it received little attention because:",
+   "options": [
+    "Population in England was shrinking rapidly at that time",
+    "He argued that natural resources are essentially unlimited, so famine could never occur in a growing population",
+    "His predictions were immediately disproved by the Green Revolution",
+    "National or global environmental issues were not yet part of political or social discourse"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "National or global environmental issues were not yet part of political or social discourse",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.malthus"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "The lecturer's notes say Malthus is regarded as the first systematic study of ecological limits to growth, yet environmental problems at national or global scale were not yet part of political or social discussion [M3 s5].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-05",
+   "source": "generated",
+   "stem": "Overpopulation occurs when:",
+   "options": [
+    "The needs of the population sustainably exceed the carrying capacity of the system",
+    "The number of people living in a region increases over time and varies across regions, as in population growth",
+    "The demand for food, water, energy, land and housing rises as population grows",
+    "The population of a country passes one billion people"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "The needs of the population sustainably exceed the carrying capacity of the system",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.overpopulation"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "Overpopulation is defined relative to carrying capacity [M3 s7]. A rising number of people is only population growth, and rising demand is population pressure.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-06",
+   "source": "generated",
+   "stem": "Two regions have the same population size, but one faces much greater environmental pressure. Which explanation is consistent with the lecture on overpopulation?",
+   "options": [
+    "Overpopulation is determined only by the number of people living in an area",
+    "Population growth and overpopulation are the same concept",
+    "Only the region with the faster population growth rate, regardless of consumption levels, technology or governance, can ever be considered overpopulated",
+    "The region with the larger land area never experiences population pressure",
+    "Overpopulation is not determined by population size alone but also by consumption levels, technology, resource distribution and governance"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Overpopulation is not determined by population size alone but also by consumption levels, technology, resource distribution and governance",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.overpopulation"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "The lecture stresses that overpopulation depends on consumption, technology, resource distribution and governance as well as size, so equal populations need not mean equal pressure [M3 s7].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-07",
+   "source": "generated",
+   "stem": "Barry Commoner contributed to the Neo-Malthusian debate by arguing that:",
+   "options": [
+    "Population numbers have a far greater impact on the environment than technology",
+    "Technology (e.g. petrochemicals, pesticides, fossil fuels) has a greater impact on the environment than population numbers",
+    "Consumption levels have no effect on environmental damage",
+    "Food production grows exponentially while population grows linearly"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Technology (e.g. petrochemicals, pesticides, fossil fuels) has a greater impact on the environment than population numbers",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.neo-malthus"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "Commoner held that technology, not just population numbers, drives environmental impact [M3 s9].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-08",
+   "source": "generated",
+   "stem": "In the Neo-Malthusian graph (population vs food production), the 'crisis point' (war, famine, etc.) occurs where:",
+   "options": [
+    "The food production line falls to zero because natural resources are completely exhausted by the growing population",
+    "The J-shaped curve flattens into an S-shaped curve",
+    "The population and food production lines run parallel",
+    "Affluence overtakes technology",
+    "The exponentially rising population curve overtakes the linearly rising food production line"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "The exponentially rising population curve overtakes the linearly rising food production line",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.neo-malthus"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "The graph shows exponential population growth crossing linear food production, which marks the crisis point of war and famine [M3 s8].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-09",
+   "source": "generated",
+   "stem": "What does the case study of Kerala, India show?",
+   "options": [
+    "Higher GDP per capita automatically leads to higher human development, as shown by Kerala's literacy and life expectancy exceeding those of Australia and the USA",
+    "High literacy is possible only where population density is low",
+    "Kerala has the lowest literacy rate among the areas compared",
+    "High human development (literacy, life expectancy) can be achieved despite a low per-capita income"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "High human development (literacy, life expectancy) can be achieved despite a low per-capita income",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.kerala"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "Kerala has a low GDP per capita yet literacy and life expectancy comparable to developed countries, so economic capacity does not automatically raise human development [M3 s14].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-10",
+   "source": "generated",
+   "stem": "Based on the 2022 data in the Kerala case study, Kerala's literacy rate and life expectancy were about:",
+   "options": [
+    "69.4% and 67.3 years",
+    "~100% and 83.1 years",
+    "94% and 75 years",
+    "94% and 68.3 years",
+    "75% and 94 years"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "94% and 75 years",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.kerala"
+   ],
+   "topic": "Carrying capacity & population",
+   "explanation": "The table gives Kerala 94% literacy and 75 years life expectancy; 69.4/67.3 are India's, 94/68.3 are Indonesia's [M3 s14].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-11",
+   "source": "generated",
+   "stem": "In the IPAT equation by Ehrlich & Holdren (1974), the letter A stands for:",
+   "options": [
+    "Agriculture, measured by the area of farmland per person",
+    "Affluence, measured by the level of consumption or per-capita income",
+    "Adaptation, measured by the speed at which a society responds to climate change",
+    "Area, measured by the land size of a country"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Affluence, measured by the level of consumption or per-capita income",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.ipat"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "IPAT states I = P x A x T, with A = Affluence measured by consumption level or per-capita income [M3 s17].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-12",
+   "source": "generated",
+   "stem": "In the 2050 IPAT scenario, population rises by 35% and affluence rises about 4 times. To keep environmental quality at the 2010 level, the technology factor must reduce its impact ('decoupling') by a factor of:",
+   "options": [
+    "Two",
+    "Four",
+    "Ten",
+    "Five",
+    "Thirty-five"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Five",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.ipat"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "With P up 35% and A about 4x, impact would rise by roughly 5x, so T must fall by a factor of about five to keep I constant [M3 s19].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-13",
+   "source": "generated",
+   "stem": "The 'dual role of technology' means that technology can:",
+   "options": [
+    "Both improve environmental impact (e.g. efficiency, renewable energy) and worsen it (e.g. more exploitation, waste, increased consumption)",
+    "Act only as a technofix that eliminates every environmental problem as consumption and affluence rise, as claimed by the Kuznets-Kurzweil argument",
+    "Be used by both the Global North and the Global South",
+    "Serve as both an input and an output of the IPAT equation"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Both improve environmental impact (e.g. efficiency, renewable energy) and worsen it (e.g. more exploitation, waste, increased consumption)",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.tech-dual-role"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "The lecture lists efficiency, renewable energy, pollution monitoring and innovation as improving impact, versus exploitation, pollution/waste and increased consumption as worsening it [M3 s21].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-14",
+   "source": "generated",
+   "stem": "Technology can improve environmental impact in the following ways, except:",
+   "options": [
+    "Efficiency in the use and management of natural resources",
+    "Renewable energy",
+    "Pollution monitoring",
+    "Expansion of natural resource exploitation",
+    "Innovation"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Expansion of natural resource exploitation",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.tech-dual-role"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "Expansion of resource exploitation is on the 'worsening' side of the dual role; the other four are listed as improving impact [M3 s21].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-15",
+   "source": "generated",
+   "stem": "The Jevons Paradox describes a situation in which:",
+   "options": [
+    "Population grows exponentially while resources grow only arithmetically",
+    "Rising affluence and advanced technology always reduce the impact on the environment",
+    "Technological progress makes resource use more efficient, yet total consumption of the resource increases",
+    "Efficiency gains reduce resource consumption in exact proportion to the saving"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Technological progress makes resource use more efficient, yet total consumption of the resource increases",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.jevons"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "Efficiency improves, but consumption of natural resources also rises [M3 s22]. The distractors describe Malthus, Kuznets/Kurzweil, and a naive efficiency assumption.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-16",
+   "source": "generated",
+   "stem": "In the Jevons Paradox, a 'backfire' occurs when:",
+   "options": [
+    "Excessive consumption (overconsumption) outweighs the efficiency gain, so resource use ends up higher than before",
+    "An increase in consumption merely erodes part of the efficiency benefit, while total resource use still ends up lower than before",
+    "Consumption falls as soon as efficiency improves",
+    "The savings from efficiency are reinvested in renewable energy",
+    "A new technology is abandoned because it is too expensive"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Excessive consumption (overconsumption) outweighs the efficiency gain, so resource use ends up higher than before",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.jevons"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "The slide separates rebound (increased consumption erodes the efficiency benefit) from backfire (excessive consumption, overconsumption) [M3 s22].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-17",
+   "source": "generated",
+   "stem": "Which statement best describes 'unequal environmental impact'?",
+   "options": [
+    "Every country suffers the same share of pollution regardless of what it consumes",
+    "Environmental impacts are not always borne by those who enjoy the benefits of consumption",
+    "Countries that consume a good always pollute the most while producing it",
+    "Environmental damage occurs only in countries with large populations",
+    "Consumers and producers always share costs and benefits equally"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Environmental impacts are not always borne by those who enjoy the benefits of consumption",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.env-justice"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "Goods consumed in one country can use resources and cause pollution in another, while the benefits go to the importing country (smartphones, fast fashion, agricultural commodities) [M3 s24].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-18",
+   "source": "generated",
+   "stem": "The lecture cites environmental and social impacts at the extraction stage of electric-vehicle battery minerals. Which pairing is given?",
+   "options": [
+    "Local groundwater depletion from cobalt mining in the Democratic Republic of the Congo, and child labor in Chile",
+    "Oil spills from nickel refining in China, and unsafe working conditions in Chile",
+    "Local groundwater depletion from lithium mining in Chile, and child labor in the mines of the Democratic Republic of the Congo",
+    "Deforestation from lithium mining in Indonesia, and strikes in the Democratic Republic of the Congo"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Local groundwater depletion from lithium mining in Chile, and child labor in the mines of the Democratic Republic of the Congo",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.env-justice"
+   ],
+   "topic": "IPAT & technology",
+   "explanation": "Slide 25 cites lithium mining in Chile (groundwater depletion) and DR Congo mines (unsafe conditions, child labor) as examples of environmental justice issues [M3 s25].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-19",
+   "source": "generated",
+   "stem": "Overconsumption is best defined as:",
+   "options": [
+    "Buying driven by social and psychological factors such as speed, novelty and status, with rapid turnover and many duplications, as in fast fashion",
+    "Consumption that occurs only in high-income countries",
+    "Any use of resources by a growing population",
+    "Using resources more than needed or beyond the ecosystem's ability to recover, which degrades environmental quality"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Using resources more than needed or beyond the ecosystem's ability to recover, which degrades environmental quality",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.overconsumption"
+   ],
+   "topic": "Overconsumption",
+   "explanation": "Overconsumption is excessive consumption that drives environmental damage [M3 s30, s34]. The second option is hyperconsumption.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      30,
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-20",
+   "source": "generated",
+   "stem": "Which statement about overconsumption in the Global North and Global South is correct?",
+   "options": [
+    "It occurs only in the Global North because only high-income societies with industrialized economies can afford to overconsume goods and energy",
+    "It is not always tied to economic capability: the North shows consumptive lifestyles, the South resource export and rapid urbanization",
+    "It is a problem only when population exceeds the carrying capacity",
+    "It is absent in the Global South because its per-capita emissions are lower"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "It is not always tied to economic capability: the North shows consumptive lifestyles, the South resource export and rapid urbanization",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.overconsumption"
+   ],
+   "topic": "Overconsumption",
+   "explanation": "Slide 33 states overconsumption is not always tied to economic capability and compares the North and South in these terms [M3 s33].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-21",
+   "source": "generated",
+   "stem": "Hyperconsumption (Lipovetsky, 2011) refers to purchasing or using goods driven mainly by:",
+   "options": [
+    "Social and psychological factors far beyond functional needs, such as speed, novelty and status",
+    "The need to meet basic survival requirements such as food, shelter and clothing at the lowest possible cost",
+    "Limited availability of goods in local markets",
+    "Government subsidies on energy prices"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Social and psychological factors far beyond functional needs, such as speed, novelty and status",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.hyperconsumption"
+   ],
+   "topic": "Overconsumption",
+   "explanation": "Hyperconsumption is driven by social and psychological factors, with rapid turnover and many duplications [M3 s34, s35].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      34,
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-22",
+   "source": "generated",
+   "stem": "Which of the following is NOT an example of hyperconsumption given in the lecture?",
+   "options": [
+    "Buying the latest clothing styles every month (fast fashion)",
+    "Replacing gadgets every year for the latest models",
+    "Producing and buying low-priced, low-durability furniture (fast furniture)",
+    "Repairing a phone and using it for several more years",
+    "Using loan modes such as PayLater and instalments to buy more goods"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "Repairing a phone and using it for several more years",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.hyperconsumption"
+   ],
+   "topic": "Overconsumption",
+   "explanation": "Fast fashion, fast furniture and yearly gadget replacement are the lecture's examples, with easy credit as a driver [M3 s35]; keeping a repaired phone is the opposite behaviour.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-23",
+   "source": "generated",
+   "stem": "The ecological footprint is a measure of:",
+   "options": [
+    "The amount of biologically productive land and sea area available on Earth to produce what humans demand from nature",
+    "The total volume of CO2 that a country emits from industry and transport in one calendar year",
+    "The number of people living per square kilometre",
+    "The gross domestic product generated per hectare of land",
+    "Human demand for natural capital, i.e. the amount of nature needed to support humans or an economy"
+   ],
+   "answer": [
+    4
+   ],
+   "answerText": "Human demand for natural capital, i.e. the amount of nature needed to support humans or an economy",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.eco-footprint"
+   ],
+   "topic": "Ecological footprint",
+   "explanation": "The ecological footprint tracks the land area needed to provide resources and absorb waste; the first distractor is biocapacity [M3 s37, s38].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      37,
+      38
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-24",
+   "source": "generated",
+   "stem": "The main unit used to express an individual's ecological footprint is:",
+   "options": [
+    "Tonnes of CO2-equivalent per person per year",
+    "Global hectares (gha) per person per year",
+    "Square kilometres per country",
+    "Kilowatt-hours per household per month"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Global hectares (gha) per person per year",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.eco-footprint"
+   ],
+   "topic": "Ecological footprint",
+   "explanation": "At the individual level the main unit is global hectares per person per year, the productive land/sea area a lifestyle requires [M3 s39].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      39
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-25",
+   "source": "generated",
+   "stem": "Which statement correctly compares ecological footprint and biocapacity?",
+   "options": [
+    "Footprint is the productive land needed for what humans consume (demand); biocapacity is the productive land available (supply)",
+    "Footprint is the productive land available in nature (supply), while biocapacity is the land area needed by humans to consume (demand)",
+    "Both terms measure the same quantity, only in different units",
+    "Footprint measures only carbon emissions, while biocapacity measures only forest area"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Footprint is the productive land needed for what humans consume (demand); biocapacity is the productive land available (supply)",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.biocapacity"
+   ],
+   "topic": "Ecological footprint",
+   "explanation": "The calculation compares the ecological footprint (demand) with biocapacity (supply) [M3 s38].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      38
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-26",
+   "source": "generated",
+   "stem": "According to the Global Footprint Network figure 'Busting our Biocapacity Budget', what share of Earth's biocapacity did humanity use in 1961 and in 2020?",
+   "options": [
+    "160% and 73%",
+    "73% and 160%",
+    "50% and 100%",
+    "73% and 100%",
+    "100% and 220%"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "73% and 160%",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.biocapacity"
+   ],
+   "topic": "Ecological footprint",
+   "explanation": "The figure shows 73% of biocapacity used in 1961 and 160% in 2020, i.e. overshoot [M3 s38].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      38
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-27",
+   "source": "generated",
+   "stem": "Based on the 2022 'How many Earths' data, if everyone lived like residents of the U.S.A., about how many Earths would be needed?",
+   "options": [
+    "0.8",
+    "1.75",
+    "3.0",
+    "5.1"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "5.1",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.how-many-earths"
+   ],
+   "topic": "Ecological footprint",
+   "explanation": "The 2022 chart gives 5.1 Earths for the USA (5.0 in 2018), versus 0.8 for India and 1.75 for the world [M3 s41].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-m3-28",
+   "source": "generated",
+   "stem": "India has a far larger population than the USA, yet its lifestyle would need less than one Earth. What does this show?",
+   "options": [
+    "Not only population but also how people consume determines environmental pressure",
+    "Population size is the main determinant of the ecological footprint, so more people always means more Earths",
+    "India has no environmental impact",
+    "The USA has a higher biocapacity per person than India",
+    "Overpopulation is unrelated to carrying capacity"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Not only population but also how people consume determines environmental pressure",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.how-many-earths"
+   ],
+   "topic": "Ecological footprint",
+   "explanation": "The lecturer's note on slide 41: India's consumption can still be accommodated by <1 Earth despite its population, so consumption patterns matter as much as numbers [M3 s41].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      41
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-m3.carrying-capacity",
+   "nodeId": "m3.carrying-capacity",
+   "module": "M3",
+   "topic": "Carrying capacity & population",
+   "front": "Define carrying capacity and name what sets it.",
+   "back": "Maximum number of individuals of a species a habitat can sustainably support. Set by limiting factors: space, abiotic factors (water, nutrients, climate) and biotic factors (e.g. disease). Growth is a J-curve far below K and becomes an S-curve (logistic) as it nears K.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.malthus",
+   "nodeId": "m3.malthus",
+   "module": "M3",
+   "topic": "Carrying capacity & population",
+   "front": "State Malthus's argument about population and resources.",
+   "back": "Resources have fixed limits and grow arithmetically (linearly); population grows exponentially (geometrically). The gap leads to a crisis period (famine, disease, war) that pushes population back to a sustainable level. Seen as the first systematic study of ecological limits to growth.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.overpopulation",
+   "nodeId": "m3.overpopulation",
+   "module": "M3",
+   "topic": "Carrying capacity & population",
+   "front": "When does population growth become overpopulation?",
+   "back": "When the needs of the population sustainably exceed the carrying capacity of the system. Not determined by size alone: consumption levels, technology, resource distribution and governance matter. Population growth = demographic fact; population pressure = rising demand; overpopulation = demand beyond capacity.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.neo-malthus",
+   "nodeId": "m3.neo-malthus",
+   "module": "M3",
+   "topic": "Carrying capacity & population",
+   "front": "Compare the Neo-Malthusian view with Malthus; what did Commoner add?",
+   "back": "Neo-Malthusians apply Malthus to modern problems: social, economic and environmental interactions cause scarcity and damage; they propose population control and efficient resource use. Barry Commoner: technology (petrochemicals, pesticides, fossil fuels) impacts the environment more than population numbers.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      8,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.kerala",
+   "nodeId": "m3.kerala",
+   "module": "M3",
+   "topic": "Carrying capacity & population",
+   "front": "What does Kerala (India) show about income and human development?",
+   "back": "High human development does not require high income. 2022: Kerala GDP per capita about US$3,100, literacy 94%, life expectancy 75 years, density 860/km2, comparable to developed countries and above India's average (69.4%, 67.3 yr). Economic capacity alone does not raise human development.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.ipat",
+   "nodeId": "m3.ipat",
+   "module": "M3",
+   "topic": "IPAT & technology",
+   "front": "Write the IPAT equation and explain each term.",
+   "back": "I = P x A x T (Ehrlich & Holdren, 1974). I = environmental impact, P = population, A = affluence (consumption level or per-capita income), T = technology (impact per unit of consumption). 2050 case: P +35%, A about 4x means T must fall by a factor of about 5.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      17,
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.tech-dual-role",
+   "nodeId": "m3.tech-dual-role",
+   "module": "M3",
+   "topic": "IPAT & technology",
+   "front": "Explain the dual role of technology.",
+   "back": "Improves impact: efficiency in resource use and management, renewable energy, pollution monitoring, innovation. Worsens impact: expansion of natural resource exploitation, pollution and waste, increased consumption. Example: coal raises GHG emissions, solar reduces them, yet coal replacing firewood can reduce deforestation.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      20,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.jevons",
+   "nodeId": "m3.jevons",
+   "module": "M3",
+   "topic": "IPAT & technology",
+   "front": "What is the Jevons Paradox? Distinguish rebound and backfire.",
+   "back": "Technological progress makes resource use more efficient but also increases total consumption. Rebound: increased consumption eats into the efficiency gain. Backfire: excessive consumption (overconsumption) outweighs the gain, so use ends up higher than before.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.env-justice",
+   "nodeId": "m3.env-justice",
+   "module": "M3",
+   "topic": "IPAT & technology",
+   "front": "Why is environmental impact 'unequal'? Give examples.",
+   "back": "Impacts are not always borne by those who enjoy the benefits. Smartphones (minerals mined elsewhere), fast fashion (water, energy, waste in producing region), agricultural commodities (land-use change in producers). Offshoring since the 1970s; EV minerals (Chile lithium groundwater, DR Congo child labor); AI data centres.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      24,
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.overconsumption",
+   "nodeId": "m3.overconsumption",
+   "module": "M3",
+   "topic": "Overconsumption",
+   "front": "Define overconsumption and list the perspectives on consumption.",
+   "back": "Using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality. Perspectives: rational, cultural, pleasurable, identity, communication. Not always tied to economic capability: North = consumptive lifestyle and high industrialization; South = resource export and rapid urbanization.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      30,
+      33,
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.hyperconsumption",
+   "nodeId": "m3.hyperconsumption",
+   "module": "M3",
+   "topic": "Overconsumption",
+   "front": "Compare hyperconsumption with overconsumption.",
+   "back": "Hyperconsumption (Lipovetsky, 2011): buying driven by social and psychological factors (speed, novelty, status) far beyond functional needs, with rapid turnover and duplication; drivers include trends, technology and loans (PayLater, instalments). Overconsumption: use beyond need or ecosystem recovery. Examples: fast fashion, fast furniture, yearly gadgets.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      34,
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.eco-footprint",
+   "nodeId": "m3.eco-footprint",
+   "module": "M3",
+   "topic": "Ecological footprint",
+   "front": "Define the ecological footprint and its unit.",
+   "back": "A measure of human demand for natural capital: the land area needed to provide resources and absorb waste, so a measure of human impact. More consumption means a larger footprint. Individual unit: global hectares (gha) per person per year (food, home energy and materials, mobility, waste).",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      37,
+      39
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.biocapacity",
+   "nodeId": "m3.biocapacity",
+   "module": "M3",
+   "topic": "Ecological footprint",
+   "front": "Footprint vs biocapacity: what is compared and what are the key numbers?",
+   "back": "Footprint = productive land needed for all human consumption (demand); biocapacity = productive land available (supply). Footprint above biocapacity = overshoot. Global Footprint Network: humanity used 73% of biocapacity in 1961 and 160% in 2020.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      38
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.how-many-earths",
+   "nodeId": "m3.how-many-earths",
+   "module": "M3",
+   "topic": "Ecological footprint",
+   "front": "What do the 'How many Earths' figures show, with key numbers?",
+   "back": "Earths needed if everyone lived like a given country (2022): USA 5.1, Australia 4.5, Russia 3.4, Germany 3.0, China 2.4, Brazil 1.6, India 0.8, World 1.75. India has far more people than the USA but needs <1 Earth: how people consume matters, not only how many.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      41
+     ]
+    }
+   ]
+  }
+ ]
+}

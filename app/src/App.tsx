@@ -4,11 +4,15 @@ import Canvas from './Canvas'
 import Detail from './Detail'
 import Lightbox from './Lightbox'
 import Sidecar, { type Hits } from './Sidecar'
+import Study, { ModeSeg, type View } from './Study'
+import type { Launch, StudyCtx } from './Setup'
+import { EMPTY_STATE, computeStats, loadQuiz, mergeQuiz, recordAttempt, type Agg, type QuizData, type QuizState, type Scope } from './quizlib'
 import { ancestors, descendants, loadData, type Data } from './data'
 import { CARD_H, CARD_W, computeLayout, visibleIds, type Pos } from './layout'
 import { ActionsCtx, useLocalState } from './ui'
 import type { LayoutMode } from './types'
 
+const NO_PROF = new Map<string, Agg>()
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
 function snippet(text: string, q: string): string {
@@ -44,6 +48,25 @@ function Main({ data }: { data: Data }) {
   const [ovr, setOvr] = useLocalState<Record<LayoutMode, Record<string, Pos>>>('mm.pos', { radial: {}, lr: {} })
   const { mode, cram } = prefs
   const overrides = useMemo(() => ovr[mode] ?? {}, [ovr, mode])
+
+  // quiz / flashcards / proficiency
+  const [qd, setQd] = useState<QuizData | null>(null)
+  useEffect(() => { loadQuiz(data).then(setQd) }, [data])
+  const [qraw, setQraw] = useLocalState<QuizState>('mm.quiz', EMPTY_STATE)
+  const qstate = useMemo<QuizState>(() => (qraw && typeof qraw === 'object' && qraw.items && typeof qraw.items === 'object' ? qraw : EMPTY_STATE), [qraw])
+  const stats = useMemo(() => (qd ? computeStats(qd, qstate) : null), [qd, qstate])
+  const [view, setView] = useState<View>('map')
+  const [launch, setLaunch] = useState<Launch | null>(null)
+  const launchN = useRef(0)
+  const record = useCallback((id: string, score: number, up: number) => setQraw((p) => recordAttempt(p?.items ? p : EMPTY_STATE, id, score, up)), [setQraw])
+  const startPractice = useCallback((kind: 'quiz' | 'cards', scope: Scope) => { setLaunch({ id: ++launchN.current, kind, scope }); setView(kind) }, [])
+  const mergeProgress = useCallback((rev: string[], quiz: QuizState) => {
+    const m = mergeQuiz(qstate, quiz)
+    const newReviewed = rev.filter((i) => !reviewed.has(i)).length
+    setRevArr((p) => [...new Set([...p, ...rev])])
+    setQraw(m.state)
+    return { newReviewed, newAttempts: m.newAttempts, itemsTouched: m.itemsTouched }
+  }, [qstate, reviewed, setRevArr, setQraw])
 
   const [selected, setSelected] = useState<string | null>(null)
   const [focus, setFocus] = useState<{ id: string; n: number; zoom?: number } | null>(null)
@@ -84,6 +107,7 @@ function Main({ data }: { data: Data }) {
     setExpanded((p) => { const s = new Set(p); ancestors(data, id).forEach((a) => s.add(a)); return s })
     if (prefs.cram && !data.keep3.has(id)) setPrefs((p) => ({ ...p, cram: false }))
     setSelected(id)
+    setView('map')
     setFocus({ id, n: ++focusN.current, zoom })
   }, [data, setExpanded, prefs.cram, setPrefs])
 
@@ -108,6 +132,7 @@ function Main({ data }: { data: Data }) {
       const typing = t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)
       if (lb) return
       if (e.key === '/' && !typing) { e.preventDefault(); setPrefs((p) => ({ ...p, side: true })); setTimeout(() => inputRef.current?.focus(), 0); return }
+      if (view !== 'map') return // study panes own the keyboard
       if (e.key === 'Escape') { if (typing) return; if (help) setHelp(false); else setSelected(null); return }
       if (typing || e.metaKey || e.ctrlKey || e.altKey) return
       const sel = selected && visSet.has(selected) ? selected : null
@@ -139,28 +164,30 @@ function Main({ data }: { data: Data }) {
     }
     window.addEventListener('keydown', h)
     return () => window.removeEventListener('keydown', h)
-  }, [lb, selected, visSet, data, vis, mode, overrides, rf, toggle, expandBranch, review, help, setPrefs])
+  }, [lb, view, selected, visSet, data, vis, mode, overrides, rf, toggle, expandBranch, review, help, setPrefs])
 
+  const ctx = useMemo<StudyCtx | null>(() => (qd && stats ? { data, qd, state: qstate, stats, record, onFly: flyTo, onSlide: (module, slide) => setLb({ module, slide }), start: startPractice, paused: !!lb } : null), [data, qd, stats, qstate, record, flyTo, startPractice, lb])
   const openSlide = useCallback((module: string, slide: number) => setLb({ module, slide }), [])
   const onDragStop = useCallback((id: string, p: Pos) => setOvr((o) => ({ ...o, [mode]: { ...o[mode], [id]: { x: Math.round(p.x), y: Math.round(p.y) } } })), [mode, setOvr])
 
   return (
     <ActionsCtx.Provider value={actions}>
-      <div className={'app' + (prefs.side ? '' : ' no-side') + (selected ? ' has-detail' : '') + (highlight ? ' searching' : '')}>
+      <div className={'app' + (prefs.side ? '' : ' no-side') + (selected && view === 'map' ? ' has-detail' : '') + (highlight ? ' searching' : '')}>
         {prefs.side && (
           <Sidecar
-            data={data} reviewed={reviewed} query={query} setQuery={setQuery} inputRef={inputRef} hits={hits}
+            data={data} reviewed={reviewed} stats={stats} query={query} setQuery={setQuery} inputRef={inputRef} hits={hits}
             onFly={flyTo} onSlide={openSlide}
             onFirstHit={() => { if (hits?.nodes[0]) flyTo(hits.nodes[0]); else if (hits?.slides[0]) openSlide(hits.slides[0].module, hits.slides[0].slide) }}
           />
         )}
         <main className="stage">
           <Canvas
-            data={data} vis={vis} expanded={expanded} selectedId={selected} reviewed={reviewed} highlight={highlight}
+            data={data} vis={vis} expanded={expanded} selectedId={selected} reviewed={reviewed} highlight={highlight} nodeProf={stats?.node ?? NO_PROF}
             mode={mode} showLinks={prefs.links} overrides={overrides} focus={focus} fitReq={fitReq}
             onDragStop={onDragStop} onBackgroundClick={() => { /* keep selection */ }}
           >
             <Panel position="top-left" className="toolbar">
+              <ModeSeg view={view} setView={setView} />
               <button className="tb" onClick={() => setPrefs((p) => ({ ...p, side: !p.side }))} title="Toggle materials sidebar">{prefs.side ? '◀ Materials' : '▶ Materials'}</button>
               <div className="seg">
                 <button className={mode === 'radial' ? 'on' : ''} onClick={() => setMode('radial')}>Radial</button>
@@ -175,6 +202,7 @@ function Main({ data }: { data: Data }) {
               <button className="tb" onClick={() => setHelp((h) => !h)} title="?">?</button>
             </Panel>
           </Canvas>
+          <Study ctx={ctx} view={view} setView={setView} launch={launch} reviewed={revArr} mergeProgress={mergeProgress} />
           {help && (
             <div className="help" onClick={() => setHelp(false)}>
               <h4>Keyboard</h4>
@@ -188,9 +216,10 @@ function Main({ data }: { data: Data }) {
           )}
           {msg && <div className="toast">{msg}</div>}
         </main>
-        {selected && data.nodes.has(selected) && (
+        {selected && view === 'map' && data.nodes.has(selected) && (
           <Detail
             data={data} id={selected} reviewed={reviewed.has(selected)} onSelect={(id) => reveal(id)} onSlide={openSlide}
+            quiz={stats ? { agg: stats.node.get(selected), onPractice: (kind) => startPractice(kind, { kind: 'node', id: selected }) } : undefined}
             onReview={() => review(selected)} onClose={() => setSelected(null)} toast={toast}
           />
         )}
