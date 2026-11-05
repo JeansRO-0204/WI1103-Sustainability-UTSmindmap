@@ -81,6 +81,7 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
           <span className="tag" style={{ background: ctx.data.moduleColor(q.module) }}>{q.module}</span>
           <span className="tag ghost">{q.topic}</span>
           <span className="tag ghost">{q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : 'Generated'}</span>
+          {q.source !== 'quiz2' && <span className="info-i" tabIndex={0} aria-label="About generated questions" data-tip="AI-generated from the course slides in the style of Quiz 2. Not written by your lecturer and not independently verified. Check anything doubtful against the cited slides.">i</span>}
           {q.keyStatus === 'inferred' && <span className="tag warn" title="The original quiz had no answer key">key inferred</span>}
           {q.keyStatus === 'disputed' && <span className="tag warn" title="The slides disagree with the quiz key">key disputed</span>}
         </div>

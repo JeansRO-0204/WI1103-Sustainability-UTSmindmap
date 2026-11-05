@@ -253,3 +253,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .gradesum { display: flex; gap: 12px; margin: 14px 0 6px; } .gradesum > div { flex: 1; border: 2px solid; border-radius: 12px; text-align: center; padding: 10px; } .gradesum b { display: block; font-size: 28px; } .gradesum span { color: var(--muted); font-size: 13px; }
 
 .trow .linkbtn, .wrow .linkbtn { white-space: nowrap; }
+
+.info-i { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 17px; height: 17px; border-radius: 50%; background: #e2e8f0; color: #475569; font: italic 700 11px/1 Georgia, serif; cursor: help; user-select: none; }
+.info-i:hover, .info-i:focus { background: #cbd5e1; outline: none; }
+.info-i::after { content: attr(data-tip); position: absolute; left: 50%; top: calc(100% + 8px); transform: translateX(-50%); width: 260px; padding: 8px 10px; border-radius: 8px; background: #1e293b; color: #f8fafc; font: 400 12px/1.4 system-ui, sans-serif; text-transform: none; letter-spacing: 0; text-align: left; box-shadow: 0 6px 20px rgba(0,0,0,.2); opacity: 0; pointer-events: none; transition: opacity .12s; z-index: 50; }
+.info-i:hover::after, .info-i:focus::after { opacity: 1; }
