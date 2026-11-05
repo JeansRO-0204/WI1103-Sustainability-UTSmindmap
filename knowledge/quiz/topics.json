@@ -9,7 +9,8 @@
    "m1.doughnut",
    "m1.laws-of-ecology",
    "m5.sd-definition",
-   "core.themes"
+   "core.themes",
+   "m1.environment.ecosystem"
   ]
  },
  "Environmental ethics": {
@@ -20,7 +21,9 @@
    "m1.conserve-vs-preserve",
    "m1.land-ethic",
    "m1.land-ethic.ecocentrism",
-   "m1.dam-dilemma"
+   "m1.dam-dilemma",
+   "m1.conserve-vs-preserve.muir",
+   "m1.conserve-vs-preserve.hetch-hetchy"
   ]
  },
  "Tragedy of the commons": {
@@ -30,7 +33,8 @@
    "m2.commons-vs-open-access",
    "m2.tragedy-not-commons",
    "m2.tragedy-not-commons.barambang-katute",
-   "core.commons"
+   "core.commons",
+   "m2.open-access-resources"
   ]
  },
  "Planetary boundaries": {
@@ -41,7 +45,9 @@
    "m2.nine-boundaries",
    "m2.pb.climate-change",
    "m2.doughnut-link",
-   "core.limits"
+   "core.limits",
+   "m2.pb.land-system-change",
+   "m2.pb.biogeochemical-flows"
   ]
  },
  "Carrying capacity & population": {
@@ -61,14 +67,16 @@
    "m3.tech-dual-role",
    "m3.jevons",
    "m3.env-justice",
-   "core.technology"
+   "core.technology",
+   "m3.ipat.2050"
   ]
  },
  "Overconsumption": {
   "module": "M3",
   "nodeIds": [
    "m3.overconsumption",
-   "m3.hyperconsumption"
+   "m3.hyperconsumption",
+   "m3.overconsumption-examples"
   ]
  },
  "Ecological footprint": {
@@ -76,7 +84,8 @@
   "nodeIds": [
    "m3.eco-footprint",
    "m3.biocapacity",
-   "m3.how-many-earths"
+   "m3.how-many-earths",
+   "m3.footprint-measurement"
   ]
  },
  "Global North & South": {
@@ -84,7 +93,8 @@
   "nodeIds": [
    "m4.why-south",
    "m4.ns-definition",
-   "core.equity"
+   "core.equity",
+   "m4.south-data"
   ]
  },
  "Commons in the Global South": {
@@ -92,7 +102,8 @@
   "nodeIds": [
    "m4.commons-definition",
    "m4.commons-types",
-   "m4.arrangement"
+   "m4.arrangement",
+   "m4.commons-culture"
   ]
  },
  "Ecosystem services": {
@@ -101,7 +112,8 @@
    "m4.ecosystem-services",
    "m4.es-valuation",
    "m4.es-payment",
-   "m4.cidanau"
+   "m4.cidanau",
+   "m4.es-cultural"
   ]
  },
  "Regulating the commons": {
@@ -110,7 +122,8 @@
    "m4.ozone",
    "m4.montreal",
    "m4.subak",
-   "m4.dieselgate"
+   "m4.dieselgate",
+   "m4.tech-progress"
   ]
  },
  "SDG basics & indicators": {
@@ -240,6 +253,17 @@
    "m7.nexus",
    "m7.few",
    "m7.few.why"
+  ]
+ },
+ "Calculations (IPAT, footprint, energy cost)": {
+  "module": "M3",
+  "nodeIds": [
+   "m3.calc",
+   "m3.calc.ipat",
+   "m3.calc.density",
+   "m3.calc.electricity",
+   "m3.calc.footprint",
+   "m3.calc.slide-ratios"
   ]
  }
 }

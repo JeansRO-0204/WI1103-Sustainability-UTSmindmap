@@ -1325,6 +1325,79 @@
       ],
       "module": "M6",
       "importance": 3
+    },
+    {
+      "id": "m6.ghg.gwp.calc",
+      "label": "Worked calculation: CO2e from GWP",
+      "type": "framework",
+      "module": "M6",
+      "parent": "m6.ghg.gwp",
+      "summary": "CO2e = mass of gas x GWP; CO2 = 1, N2O = 298, HCFC-22 ~ 1,800, CFC up to 12,500 (lecturer's notes).",
+      "details": "**Formula:** emissions in CO2-equivalents (CO2e) = mass of gas x its GWP, because GWP is measured relative to CO2 (GWP = 1).\n\n**Slide data (M6 s6 speaker notes):** N2O = 298; HCFC-22 ~ 1,800; CFC up to 12,500.\n\n**Worked examples (derived from those numbers):**\n- 1 tonne of N2O = 1 x 298 = **298 t CO2e**.\n- 10 kg of HCFC-22 leaked from an AC = 10 x 1,800 = **18,000 kg CO2e** (18 t) - which is why refrigerant leakage is a direct-emission concern (M6 s28).\n- A CFC with GWP 12,500 is 12,500 times CO2 per kg.\n\nThe slides give no numeric exam question here; the point is to read GWP as a multiplier.",
+      "keyTerms": [
+        "GWP",
+        "CO2e",
+        "N2O 298"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            6,
+            28
+          ]
+        }
+      ],
+      "examTips": "Not tested numerically in Quiz 1/2: know that GWP is a multiplier relative to CO2 and the headline values (N2O 298, CFC ~12,500, HCFC-22 ~1,800)."
+    },
+    {
+      "id": "m6.ghg-sources.calc",
+      "label": "Worked calculation: sector shares of GHG emissions (2019)",
+      "type": "data",
+      "module": "M6",
+      "parent": "m6.ghg-sources",
+      "summary": "Share = sector emissions / total: 20 Gt of ~59 GtCO2-eq = 34% (energy); energy + industry = 58%.",
+      "details": "**Formula:** share (%) = sector emissions / total emissions x 100.\n\n**Slide data (M6 s32, IPCC 2023, 2019):** Energy 34% (20 GtCO2-eq), Industrial 24% (14), AFOLU 22% (13), Transportation 15% (8.7), Building 6% (3.3).\n\n**Checks and worked examples:**\n- Total = 20 + 14 + 13 + 8.7 + 3.3 = **59 GtCO2-eq**; the five percentages add to 101% because of rounding.\n- Energy: 20/59 = 33.9% ~ **34%**; Building: 3.3/59 = 5.6% ~ 6%.\n- Energy + Industrial = 34 Gt = 34/59 = **58%**; Transportation + Building = 12 Gt ~ 20%.\n\nKey fact (quiz): **Energy is the largest source in 2019**.",
+      "keyTerms": [
+        "GtCO2-eq",
+        "sector share",
+        "2019"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            32
+          ]
+        }
+      ],
+      "examTips": "Known quiz fact: energy is the biggest source. Percent = Gt / ~59."
+    },
+    {
+      "id": "m6.cooling-emissions.calc",
+      "label": "Worked calculation: cooling share of building energy",
+      "type": "data",
+      "module": "M6",
+      "parent": "m6.cooling-emissions",
+      "summary": "Indirect emissions from cooling = building energy x 50-60% share; combine with kW x h x tariff for cost.",
+      "details": "**Slide data (M6 s28):** in hotels, offices and shopping centres, cooling can use **50-60% of the building's total energy**.\n\n**Worked example (derived):** a building using 1,000 MWh per year spends about 500-600 MWh on cooling. At a tariff of Rp 1,500/kWh (the Quiz 1 price) that is 500,000-600,000 kWh x 1,500 = Rp 750-900 million per year. The same kW x hours x price method as Week 3 (see m3.calc.electricity) applies; converting kWh to CO2e needs a grid emission factor that the slides do not give.\n\nDirect emissions (refrigerant leakage of high-GWP CFC/HCFC/HFC) are calculated with the GWP multiplier (see m6.ghg.gwp.calc).",
+      "keyTerms": [
+        "cooling energy",
+        "50-60%",
+        "indirect emissions"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M6",
+          "slides": [
+            28
+          ]
+        }
+      ],
+      "examTips": "Quiz fact: indirect emissions = energy use; direct = refrigerant leakage. 50-60% is the slide number."
     }
   ],
   "edges": [
@@ -1435,6 +1508,12 @@
       "target": "m6.paris.cbdr",
       "type": "applies-to",
       "label": "conditional vs unconditional target = CBDR-RC in practice"
+    },
+    {
+      "source": "m6.cooling-emissions.calc",
+      "target": "m3.calc.electricity",
+      "type": "builds-on",
+      "label": "same kW x hours x price method"
     }
   ],
   "crossModuleIdeas": [

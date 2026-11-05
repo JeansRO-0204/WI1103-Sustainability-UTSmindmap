@@ -3,8 +3,14 @@ import { BASE, type Data } from './data'
 import type { Source } from './types'
 
 export interface Question {
-  id: string; source: 'quiz2' | 'generated'; n?: number
+  id: string; source: 'quiz1' | 'quiz2' | 'generated'; n?: number
   stem: string; options: string[]; answer: number[]; answerText: string
+  /** Quiz 1 only: Indonesian original, optionsId aligned index-by-index with options */
+  stemId?: string; optionsId?: string[]; answerTextId?: string
+  /** Quiz 1 only: the English text was translated by AI (the lecturer's original is Indonesian) */
+  enTranslated?: boolean
+  /** Quiz 1 only: lecturer's worked calculation (verbatim, may contain LaTeX-ish markup) */
+  calc?: string
   keyStatus: 'given' | 'inferred' | 'disputed'
   module: string; nodeIds: string[]; topic: string
   explanation?: string; sources?: Source[]; dupOf?: string; note?: string
@@ -13,13 +19,13 @@ export interface Flashcard {
   id: string; nodeId: string; module: string; topic: string; front: string; back: string; sources?: Source[]
 }
 export interface QuizFile {
-  meta?: { generated?: string; quiz2Count?: number; sample?: boolean }
+  meta?: { generated?: string; quiz2Count?: number; quiz1Count?: number; sample?: boolean }
   questions: Question[]; flashcards: Flashcard[]
 }
 
 /** Unified view of a question or a card for scheduling / stats. */
 export interface Item {
-  id: string; kind: 'q' | 'c'; module: string; topic: string; nodeIds: string[]; dup: boolean; src: 'quiz2' | 'generated'
+  id: string; kind: 'q' | 'c'; module: string; topic: string; nodeIds: string[]; dup: boolean; src: 'quiz1' | 'quiz2' | 'generated'
 }
 export interface QuizData {
   questions: Map<string, Question>
@@ -148,7 +154,7 @@ export function profColor(p: number | null | undefined, tested = true): string {
 // ---------- scopes ----------
 export type Scope =
   | { kind: 'all' } | { kind: 'week'; module: string } | { kind: 'topic'; topic: string } | { kind: 'weakest' }
-  | { kind: 'due' } | { kind: 'quiz2' } | { kind: 'gen' } | { kind: 'unseen' } | { kind: 'node'; id: string }
+  | { kind: 'due' } | { kind: 'quiz1' } | { kind: 'quiz2' } | { kind: 'gen' } | { kind: 'unseen' } | { kind: 'node'; id: string }
 
 export function weakestTopics(stats: Stats, k = 3): string[] {
   const all = [...stats.topic].map(([label, a]) => ({ label, ...a }))
@@ -165,6 +171,7 @@ export function poolFor(qd: QuizData, stats: Stats, st: QuizState, scope: Scope,
     case 'topic': return base.filter((i) => i.topic === scope.topic)
     case 'weakest': { const w = new Set(weakestTopics(stats)); return base.filter((i) => w.has(i.topic)) }
     case 'due': return base.filter((i) => stats.due.has(i.id))
+    case 'quiz1': return base.filter((i) => i.src === 'quiz1')
     case 'quiz2': return base.filter((i) => i.src === 'quiz2')
     case 'gen': return base.filter((i) => i.src === 'generated')
     case 'unseen': return base.filter((i) => !(st.items[i.id]?.a.length))

@@ -1,0 +1,785 @@
+[
+ {
+  "id": "q1-01",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.open-ended-definition"
+  ],
+  "explanation": "Sustainability cannot be fixed scientifically; it is an open-ended, positive, temporary concept expressing a vision of how the world should be, i.e. an ethical concept, not a static fact or closed definition [M1 s11].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     11
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-02",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.history"
+  ],
+  "explanation": "Malthus (dated ~1850 on the slide; the essay is 1798) is credited with the first systematic study of ecological limits to growth, from the imbalance between resources and population. Carlowitz is the 1713 forestry origin of sustainability [M1 s12].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     12
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Option D differs between the halves (Muir in English, Pinchot in Indonesian); neither is correct. Quiz date 1850 follows the slide."
+ },
+ {
+  "id": "q1-03",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.dimensions"
+  ],
+  "explanation": "The environment is the foundation: society and economy depend on it and must operate within planetary boundaries (nested view) [M1 s15].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     15
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-04",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.environment.ecosystem"
+  ],
+  "explanation": "An ecosystem is a functional unit of a biotic community and its abiotic environment connected by energy flow and nutrient cycling; the biosphere is the global sum, a habitat is just a location [M1 s15].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     15
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-05",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.laws-of-ecology"
+  ],
+  "explanation": "The law stated in the question is itself 'Everything must go somewhere' (matter is not destroyed, waste only moves) [M1 s18]. The other options are the other laws of ecology.",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     18
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Trivial item: the answer repeats the stem. Slide lists the thermodynamics law separately as law 4; the lecturer links law 3 to thermodynamics."
+ },
+ {
+  "id": "q1-06",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.human-centred.anthropocentrism"
+  ],
+  "explanation": "Anthropocentrism makes humans the primary factor in judging right or wrong toward nature; ecocentrism places ecological interests above human ones [M1 s25, s30].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     25,
+     30
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-07",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.dominion-thesis"
+  ],
+  "explanation": "The Dominion thesis sees humans as the pinnacle of creation, separate from and superior to nature, with nature valuable only if it benefits humans [M1 s24].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     24
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-08",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.conserve-vs-preserve.muir",
+   "m1.conserve-vs-preserve"
+  ],
+  "explanation": "John Muir was the preservationist who protected wilderness for its own sake (non-utilitarian); Pinchot is the utilitarian conservationist [M1 s28].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     28
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Quiz spells 'Clifford Pinchot'; slide says Gifford Pinchot."
+ },
+ {
+  "id": "q1-09",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.land-ethic.ecocentrism"
+  ],
+  "explanation": "Ecocentrism puts ecological interests above those of the human species when judging whether an action is right [M1 s30].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     30
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-10",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb-status-2025",
+   "m2.pb-framework"
+  ],
+  "explanation": "The lecturer's key is 6 of the 9 boundaries breached (outside the safe operating space) [M2 s7]. Slide 7 (2025 update) counts 7 because ocean acidification was newly crossed; the 2009 diagram had 3 [M2 s6].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     6,
+     7
+    ]
+   }
+  ],
+  "keyStatus": "disputed",
+  "note": "Key kept (6). Slide 7 says 7 of 9; the quiz figure matches the earlier 2023 update. 7 is not offered as an option."
+ },
+ {
+  "id": "q1-11",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb.biogeochemical-flows"
+  ],
+  "explanation": "Excess synthetic fertiliser sends nitrogen and phosphorus into ecosystems and causes eutrophication; that is the biogeochemical flows boundary [M2 s10].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     10
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-12",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.open-access-resources",
+   "m2.commons-vs-open-access"
+  ],
+  "explanation": "Resources owned by no one and usable by almost anyone, such as the atmosphere and open sea, are open-access resources; a commons has joint ownership and excludes non-members [M2 s3-4].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     3,
+     4
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "English key line in the PDF reads 'jAwab C' (typo)."
+ },
+ {
+  "id": "q1-13",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.tragedy-not-commons",
+   "m2.tragedy-not-commons.barambang-katute"
+  ],
+  "explanation": "Managed commons such as Barambang Katute avoid tragedy because the local community applies rules and boundaries; the tragedy belongs to unmanaged open access [M2 s5].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     5
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-14",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb.land-system-change"
+  ],
+  "explanation": "Large-scale conversion of land for agriculture, urbanisation and deforestation breaches the land-system change boundary [M2 s8].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     8
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-15",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb-framework"
+  ],
+  "explanation": "The framework defines science-based limits that make up a safe operating space for humanity in the Earth system, not an economic or energy target [M2 s6].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     6
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-16",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.carrying-capacity"
+  ],
+  "explanation": "Carrying capacity K is set by limiting factors: space, abiotic factors and biotic factors such as disease [M3 s4].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     4
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-17",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.ipat"
+  ],
+  "explanation": "In I = P x A x T, affluence A is the level of consumption (or income) per person [M3 s17].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     17
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-18",
+  "module": "M3",
+  "topic": "Calculations (IPAT, footprint, energy cost)",
+  "nodeIds": [
+   "m3.calc.ipat",
+   "m3.ipat.2050"
+  ],
+  "explanation": "Hold I constant: required reduction of T = P multiplier x A multiplier = 1.35 x 4 = 5.4, i.e. about a factor of five, as the 2050 scenario states [M3 s19]. Steps: +35% => x1.35; A x4; multiply; nearest option = Five.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     19
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Calculation item (IPAT).",
+  "calcType": "ipat"
+ },
+ {
+  "id": "q1-19",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons"
+  ],
+  "explanation": "The Jevons paradox: efficiency gains lower cost per unit and raise total resource use [M3 s22]. 'Rebound effect' is the related partial-offset term but the full-increase case is the paradox.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     22
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-20",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.tech-dual-role"
+  ],
+  "explanation": "Technology worsens impact through expanding natural-resource exploitation (also pollution, waste, more consumption); renewables, monitoring and efficiency are the improving side [M3 s20-21].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     20,
+     21
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "KEY MISMATCH between halves: Indonesian key B (Pollution Monitoring) vs English key D. D is correct per the slides; the Indonesian key looks like a typo."
+ },
+ {
+  "id": "q1-21",
+  "module": "M3",
+  "topic": "Overconsumption",
+  "nodeIds": [
+   "m3.overconsumption"
+  ],
+  "explanation": "Overconsumption is using resources more than needed or beyond what the ecosystem can recover from, degrading environmental quality [M3 s30, s34].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     30,
+     34
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-22",
+  "module": "M3",
+  "topic": "Overconsumption",
+  "nodeIds": [
+   "m3.hyperconsumption"
+  ],
+  "explanation": "Hyperconsumption (Lipovetsky) is buying driven by speed, novelty and status far beyond functional need, with rapid turnover [M3 s34-35].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     34,
+     35
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-23",
+  "module": "M3",
+  "topic": "Ecological footprint",
+  "nodeIds": [
+   "m3.footprint-measurement",
+   "m3.eco-footprint"
+  ],
+  "explanation": "The footprint is measured in global hectares (gha) per person per year [M3 s39]; tonnes CO2 would be a carbon footprint, km2 and GDP are not the unit.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     39
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-24",
+  "module": "M3",
+  "topic": "Ecological footprint",
+  "nodeIds": [
+   "m3.biocapacity",
+   "m3.eco-footprint",
+   "m3.calc.footprint"
+  ],
+  "explanation": "The footprint (demand for productive land) is compared with biocapacity (productive land available, supply); footprint > biocapacity means overshoot [M3 s38].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     38
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-25",
+  "module": "M3",
+  "topic": "Calculations (IPAT, footprint, energy cost)",
+  "nodeIds": [
+   "m3.calc.density",
+   "m3.kerala"
+  ],
+  "explanation": "Subtract densities from the 2022 table: Kerala 860 - Indonesia 141 = 719 per km2 [M3 s14]. 488 is India's density and 141 is Indonesia's own.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     14
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Calculation item (difference).",
+  "calcType": "density"
+ },
+ {
+  "id": "q1-26",
+  "module": "M3",
+  "topic": "Calculations (IPAT, footprint, energy cost)",
+  "nodeIds": [
+   "m3.calc.electricity",
+   "m3.overconsumption-examples"
+  ],
+  "explanation": "Cost = kW x hours/day x days x price: 20 x 15 W = 300 W = 0.3 kW; 0.3 x 10 x 30 = 90 kWh; x 1,000 = 90,000 [M3 s33, s22].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     22,
+     33
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Calculation item (electricity cost).",
+  "calcType": "electricity"
+ },
+ {
+  "id": "q1-27",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.kerala"
+  ],
+  "explanation": "Kerala has low income (~US$3,100) but high literacy (94%) and life expectancy (75) comparable to developed countries [M3 s14].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     14
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-28",
+  "module": "M4",
+  "topic": "Global North & South",
+  "nodeIds": [
+   "m4.ns-definition"
+  ],
+  "explanation": "The North/South split rests on social and economic aspects, not geographic location [M4 s6].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     6
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-29",
+  "module": "M4",
+  "topic": "Global North & South",
+  "nodeIds": [
+   "m4.south-data"
+  ],
+  "explanation": "The Global South holds about 88% of the world's population (and ~80% of the global middle class by 2030) [M4 s5].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     5
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "English half has no key; 88% taken from the Indonesian key (D) and the slide. Indonesian option C is 80% (the middle-class figure), English option C is 75%."
+ },
+ {
+  "id": "q1-30",
+  "module": "M4",
+  "topic": "Commons in the Global South",
+  "nodeIds": [
+   "m4.commons-types"
+  ],
+  "explanation": "Man-made commons include shared knowledge and internet technology; the electromagnetic spectrum, outer space and biodiversity are natural [M4 s12].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     12
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-31",
+  "module": "M4",
+  "topic": "Commons in the Global South",
+  "nodeIds": [
+   "m4.commons-culture"
+  ],
+  "explanation": "The main threats to commons in the Global South are corporate exploitation and government policies that exclude local communities (also climate change) [M4 s11].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     11
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-32",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.ecosystem-services"
+  ],
+  "explanation": "Provisioning, regulating, supporting and cultural benefits from healthy ecosystems are ecosystem services [M4 s14].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     14
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-33",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.es-cultural"
+  ],
+  "explanation": "Cultural services are the non-material benefits: aesthetic, spiritual, recreational and educational value [M4 s14].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     14
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-34",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.es-payment"
+  ],
+  "explanation": "Payment for Ecosystem Services: beneficiaries pay those who maintain the service, conditional on results (e.g. Cidanau) [M4 s18].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     18
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-35",
+  "module": "M4",
+  "topic": "Regulating the commons",
+  "nodeIds": [
+   "m4.montreal",
+   "m4.ozone"
+  ],
+  "explanation": "The Montreal Protocol (1987) phased out CFCs through international consensus, the model of managing a global commons by agreement [M4 s20-22].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     20,
+     21,
+     22
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-36",
+  "module": "M4",
+  "topic": "Regulating the commons",
+  "nodeIds": [
+   "m4.dieselgate"
+  ],
+  "explanation": "VW's defeat-device software hid on-road emissions of nitrogen oxides (NOx), the smog-forming pollutant limited by the US Clean Air Act [M4 s25].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     25
+    ]
+   }
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-37",
+  "module": "M4",
+  "topic": "Regulating the commons",
+  "nodeIds": [
+   "m4.tech-progress"
+  ],
+  "explanation": "Technology can enclose or reduce shared access (fences, IP rights) but also strengthen collective capacity to manage commons; regulation decides which [M4 s32].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     32
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "KEY MISMATCH between halves: Indonesian key D ('Mendorong backfire dalam konsumsi') vs English key B. The Indonesian stem ('...and sometimes...') is completed by B; D looks like a typo."
+ },
+ {
+  "id": "q1-38",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.laws-of-ecology"
+  ],
+  "explanation": "The law 'Everything must go somewhere' is linked by the lecturer to the laws of thermodynamics (conservation: matter and energy are not destroyed, only moved or degraded) [M1 s18].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     18
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Indonesian-only item. The slide lists 'thermodynamics applies' as a separate law, but the key follows the English Q5 hint."
+ },
+ {
+  "id": "q1-39",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.conserve-vs-preserve.hetch-hetchy",
+   "m1.conserve-vs-preserve.muir"
+  ],
+  "explanation": "Muir (preservationist) opposed the Hetch Hetchy dam because it would disrupt wilderness and biodiversity; Pinchot backed it for greater benefits to society [M1 s28-29].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     28,
+     29
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Indonesian-only item."
+ },
+ {
+  "id": "q1-40",
+  "module": "M3",
+  "topic": "Calculations (IPAT, footprint, energy cost)",
+  "nodeIds": [
+   "m3.calc.ipat",
+   "m3.ipat"
+  ],
+  "explanation": "I constant: 100 = (1.2 P)(2.5 A)(T/X) => X = 1.2 x 2.5 = 3.0, so technology must cut impact per unit 3-fold [M3 s17, s19]. Same method as the factor-five scenario.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     17,
+     19
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Indonesian-only item (IPAT calculation). Stem calls I 'Kualitas Lingkungan' but means impact.",
+  "calcType": "ipat"
+ },
+ {
+  "id": "q1-41",
+  "module": "M3",
+  "topic": "Calculations (IPAT, footprint, energy cost)",
+  "nodeIds": [
+   "m3.calc.electricity",
+   "m3.overconsumption-examples"
+  ],
+  "explanation": "0.75 kW x 12 h x 30 days = 270 kWh; 270 x Rp 1,500 = Rp 405,000 [M3 s33].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     33
+    ]
+   }
+  ],
+  "keyStatus": "given",
+  "note": "Indonesian-only item (electricity cost).",
+  "calcType": "electricity"
+ }
+]

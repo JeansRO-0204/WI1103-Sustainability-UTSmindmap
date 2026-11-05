@@ -103,7 +103,7 @@
       "module": "M1",
       "parent": "m1.part1",
       "summary": "Sustainability cannot be fixed scientifically once and for all: it is an open-ended, positive, temporary concept shaped by time, situation, culture and knowledge.",
-      "details": "Slide 11 asks: **can sustainability be scientifically defined?** The answer given is no single fixed definition exists. Sustainability should be understood as an **open-ended, positive and temporary** concept:\n\n- **Open-ended** – the *social understanding* of sustainable development depends on **time and situation, culture and knowledge**; it keeps evolving.\n- **Positive** – it describes a desirable direction, not just the avoidance of harm.\n- **Temporary** – any definition reflects its era and will be revised.\n\nThe slide's chart (Hopwood et al. 2005) **maps views of sustainable development** on two axes: *increasing environmental concern* (techno-centred → eco-centred) and *increasing socio-economic well-being & equality concern*. Positions range from **status quo** (e.g. World Bank, OECD, WBCSD, neo-liberal economists), through **reform** (e.g. Brundtland, ICLEI, IUCN), to **transformation** (e.g. social ecology, eco-socialism, indigenous/Global South movements, deep ecology).\n\nWhy it matters: the same word supports very different agendas – this is why the course keeps asking *whose* sustainability, and links to the ethics spectrum in Part 2 and to the SDG framing in W5.",
+      "details": "Slide 11 asks: **can sustainability be scientifically defined?** The answer given is no single fixed definition exists. Sustainability should be understood as an **open-ended, positive and temporary** concept:\n\n- **Open-ended** – the *social understanding* of sustainable development depends on **time and situation, culture and knowledge**; it keeps evolving.\n- **Positive** – it describes a desirable direction, not just the avoidance of harm.\n- **Temporary** – any definition reflects its era and will be revised.\n\nThe slide's chart (Hopwood et al. 2005) **maps views of sustainable development** on two axes: *increasing environmental concern* (techno-centred → eco-centred) and *increasing socio-economic well-being & equality concern*. Positions range from **status quo** (e.g. World Bank, OECD, WBCSD, neo-liberal economists), through **reform** (e.g. Brundtland, ICLEI, IUCN), to **transformation** (e.g. social ecology, eco-socialism, indigenous/Global South movements, deep ecology).\n\nWhy it matters: the same word supports very different agendas – this is why the course keeps asking *whose* sustainability, and links to the ethics spectrum in Part 2 and to the SDG framing in W5.\n\n**Quiz 1 phrasing:** sustainability is described as an **ethical concept** - a vision of *how the world ought to be* - rather than a scientifically derivable fact; it is open-ended, not static, not closed-ended and not a linear economic model.",
       "keyTerms": [
         "open-ended",
         "temporary",
@@ -111,7 +111,7 @@
         "Hopwood et al. 2005",
         "status quo / reform / transformation"
       ],
-      "examTips": "Be ready to explain WHY sustainability can't be defined once scientifically (depends on time, situation, culture, knowledge). Hopwood's map: techno-centred vs eco-centred; status quo vs reform vs transformation.",
+      "examTips": "Be ready to explain WHY sustainability can't be defined once scientifically (depends on time, situation, culture, knowledge). Hopwood's map: techno-centred vs eco-centred; status quo vs reform vs transformation. Quiz 1: sustainability is fundamentally an ETHICAL concept (a vision of \"how the world should be\"), not a static scientific fact, not a linear economic model, not a closed-ended universal definition.",
       "importance": 3,
       "sources": [
         {
@@ -137,7 +137,7 @@
         "Brundtland",
         "German Advisory Council 1994"
       ],
-      "examTips": "Know the order and who did what: Carlowitz (forests) → Malthus (population vs resources) → 1960s economists → Brundtland/WCED → German Advisory Council's 3 responsibilities.",
+      "examTips": "Know the order and who did what: Carlowitz (forests) → Malthus (population vs resources) → 1960s economists → Brundtland/WCED → German Advisory Council's 3 responsibilities. Quiz 1: Malthus (dated ~1850 on the slide and in the quiz) = first systematic study of ecological limits to growth; not Carlowitz (forestry, 1713), Leopold, Muir or Pinchot.",
       "importance": 3,
       "sources": [
         {
@@ -191,7 +191,7 @@
         "viable",
         "triple bottom line"
       ],
-      "examTips": "Classic question: name the 3 dimensions and the three overlaps (bearable = social+environment, equitable = social+economic, viable = environment+economic). Contrast the overlapping-circles model with the nested view (environment as foundation).",
+      "examTips": "Classic question: name the 3 dimensions and the three overlaps (bearable = social+environment, equitable = social+economic, viable = environment+economic). Contrast the overlapping-circles model with the nested view (environment as foundation). Quiz 1: the ENVIRONMENT dimension is the foundation; society and economy must operate within planetary boundaries.",
       "importance": 3,
       "sources": [
         {
@@ -270,8 +270,8 @@
         "nutrient cycling",
         "biosphere"
       ],
-      "examTips": "Define an ecosystem with all four parts: biotic community + abiotic environment + energy flow + nutrient cycling.",
-      "importance": 2,
+      "examTips": "Define an ecosystem with all four parts: biotic community + abiotic environment + energy flow + nutrient cycling. Quiz 1: ecosystem (not biosphere, population or habitat) = biotic community + abiotic environment in energy flow and nutrient cycles.",
+      "importance": 3,
       "sources": [
         {
           "module": "M1",
@@ -313,7 +313,7 @@
       "module": "M1",
       "parent": "m1.part1",
       "summary": "Six laws: everything is connected; species depend on each other; everything must go somewhere; thermodynamics applies; nature knows best; no free lunch.",
-      "details": "Slide 18 lists six **laws of ecology** (the first four and the last echo Barry Commoner's classic \"four laws\"):\n\n1. **Every element is connected to everything else** – ecosystems are networks; disturbing one part ripples through.\n2. **Every species depends on every other species** – interdependence within food webs.\n3. **Everything must go somewhere** – matter is not destroyed; waste and pollution are just moved (e.g. plastics, CO2, fertiliser runoff).\n4. **The laws of thermodynamics apply** – energy is conserved but degrades at each transfer; ecosystems need continuous energy input (sunlight).\n5. **Nature knows best** – human interventions in natural systems are likely to be harmful; long-evolved systems are hard to improve.\n6. **There is no such thing as a free lunch** – every gain from nature has a cost somewhere; exploitation always has consequences.\n\nThese laws give scientific weight to sustainability: e.g. law 3 explains pollution and the need for recycling (W7); law 6 explains why overconsumption has hidden costs (W3) and why planetary boundaries exist (W2).",
+      "details": "Slide 18 lists six **laws of ecology** (the first four and the last echo Barry Commoner's classic \"four laws\"):\n\n1. **Every element is connected to everything else** – ecosystems are networks; disturbing one part ripples through.\n2. **Every species depends on every other species** – interdependence within food webs.\n3. **Everything must go somewhere** – matter is not destroyed; waste and pollution are just moved (e.g. plastics, CO2, fertiliser runoff).\n4. **The laws of thermodynamics apply** – energy is conserved but degrades at each transfer; ecosystems need continuous energy input (sunlight).\n5. **Nature knows best** – human interventions in natural systems are likely to be harmful; long-evolved systems are hard to improve.\n6. **There is no such thing as a free lunch** – every gain from nature has a cost somewhere; exploitation always has consequences.\n\nThese laws give scientific weight to sustainability: e.g. law 3 explains pollution and the need for recycling (W7); law 6 explains why overconsumption has hidden costs (W3) and why planetary boundaries exist (W2).\n\n**Quiz 1 link:** the lecturer pairs law 3 (\"Everything must go somewhere\") with the **laws of thermodynamics** (conservation: nothing disappears, it only changes place or form). On the slide the thermodynamics law is listed separately as law 4, so answer \"thermodynamics\" when asked what science principle law 3 relates to.",
       "keyTerms": [
         "everything is connected",
         "everything must go somewhere",
@@ -321,7 +321,7 @@
         "thermodynamics",
         "Barry Commoner"
       ],
-      "examTips": "Be able to list the laws and illustrate one with a real example (e.g. 'everything must go somewhere' → microplastics, fertiliser runoff causing eutrophication).",
+      "examTips": "Be able to list the laws and illustrate one with a real example (e.g. 'everything must go somewhere' → microplastics, fertiliser runoff causing eutrophication). Quiz 1: \"Everything must go somewhere\" is the law the lecturer links closely to thermodynamics (matter is conserved, waste is only moved). Other options seen: Nature Knows Best, Everything is Connected to Everything Else, There is No Such Free Lunch; also \"energy flow\", \"carrying capacity\", \"biodiversity\" as lookalikes.",
       "importance": 3,
       "sources": [
         {
@@ -433,7 +433,7 @@
         "instrumental value",
         "wolf eradication"
       ],
-      "examTips": "Contrast Dominion (humans above nature, nature has only instrumental value) with Stewardship (responsibility to care) and Ecocentrism (humans as plain members of the land community).",
+      "examTips": "Contrast Dominion (humans above nature, nature has only instrumental value) with Stewardship (responsibility to care) and Ecocentrism (humans as plain members of the land community). Quiz 1: Dominion Thesis = humans separate from and superior to nature; nature useful only insofar as it benefits humans. Distractors: Utilitarianism, Land Ethic, Conservationism, Stewardship.",
       "importance": 3,
       "sources": [
         {
@@ -507,7 +507,7 @@
         "human-centred",
         "instrumental value"
       ],
-      "examTips": "Most common compare/contrast: anthropocentrism vs ecocentrism. Give an example argument for each (e.g. dam for electricity/jobs vs protecting salmon and the ecosystem).",
+      "examTips": "Most common compare/contrast: anthropocentrism vs ecocentrism. Give an example argument for each (e.g. dam for electricity/jobs vs protecting salmon and the ecosystem). Quiz 1: anthropocentrism = humans as the primary factor in judging right/wrong actions toward nature; distractors: ecocentrism, stewardship, utilitarianism, Land Ethic, preservationism.",
       "importance": 3,
       "sources": [
         {
@@ -635,7 +635,7 @@
         "national parks",
         "wildlife"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "module": "M1",
@@ -644,7 +644,8 @@
             29
           ]
         }
-      ]
+      ],
+      "examTips": "Quiz 1: John Muir = preservationist, protection of wilderness for its own sake, NON-utilitarian (not Pinchot, Malthus, Locke). The quiz spells Pinchot \"Clifford\"; the slide says Gifford."
     },
     {
       "id": "m1.conserve-vs-preserve.hetch-hetchy",
@@ -660,8 +661,8 @@
         "Pinchot vs Muir",
         "trade-off"
       ],
-      "examTips": "Use Hetch Hetchy as an illustration when asked to contrast conservationism and preservationism.",
-      "importance": 2,
+      "examTips": "Use Hetch Hetchy as an illustration when asked to contrast conservationism and preservationism. Quiz 1: Muir opposed the dam because it would disturb wilderness and biodiversity; Pinchot (conservationism) wanted efficient use for the greatest benefit of society. Muir is NOT the utilitarian.",
+      "importance": 3,
       "sources": [
         {
           "module": "M1",
@@ -709,7 +710,7 @@
         "ecological interests",
         "non-anthropocentric"
       ],
-      "examTips": "Pair with anthropocentrism. Be able to say which stance each actor in a dilemma takes (company/government vs environmentalists/indigenous community).",
+      "examTips": "Pair with anthropocentrism. Be able to say which stance each actor in a dilemma takes (company/government vs environmentalists/indigenous community). Quiz 1: ecological interests override human-species interests when judging the morality of an action = ecocentrism (not anthropocentrism, utilitarianism, Dominion Thesis).",
       "importance": 3,
       "sources": [
         {

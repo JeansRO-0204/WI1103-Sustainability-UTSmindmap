@@ -258,3 +258,13 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .info-i:hover, .info-i:focus { background: #cbd5e1; outline: none; }
 .info-i::after { content: attr(data-tip); position: absolute; left: 50%; top: calc(100% + 8px); transform: translateX(-50%); width: 260px; padding: 8px 10px; border-radius: 8px; background: #1e293b; color: #f8fafc; font: 400 12px/1.4 system-ui, sans-serif; text-transform: none; letter-spacing: 0; text-align: left; box-shadow: 0 6px 20px rgba(0,0,0,.2); opacity: 0; pointer-events: none; transition: opacity .12s; z-index: 50; }
 .info-i:hover::after, .info-i:focus::after { opacity: 1; }
+
+/* Quiz 1: EN | ID toggle and worked calculation */
+.qtags { align-items: center; }
+.langtoggle { display: inline-flex; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; }
+.langtoggle button { border: 0; border-radius: 0; background: #fff; color: #475569; font: 700 11px/1 system-ui, sans-serif; letter-spacing: .06em; padding: 5px 10px; cursor: pointer; }
+.langtoggle button + button { border-left: 1px solid #cbd5e1; }
+.langtoggle button.on { background: #1e293b; color: #fff; }
+.calcblock { margin: 10px 0; padding: 8px 12px; border-left: 3px solid #94a3b8; background: rgba(148,163,184,.14); border-radius: 0 8px 8px 0; }
+.calcblock h5 { margin: 0 0 4px; }
+.calcblock p { margin: 0; font-variant-numeric: tabular-nums; white-space: pre-wrap; }

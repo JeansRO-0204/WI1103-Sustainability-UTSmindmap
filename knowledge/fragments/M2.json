@@ -128,7 +128,7 @@
         "high seas",
         "aquifer"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "module": "M2",
@@ -136,7 +136,8 @@
             4
           ]
         }
-      ]
+      ],
+      "examTips": "Quiz 1: \"renewable resources owned by no one, usable by almost anyone, e.g. atmosphere, open ocean\" = Open-Access Resources (not The Commons, not private property, not ecosystem services)."
     },
     {
       "id": "m2.tragedy-not-commons",
@@ -153,7 +154,7 @@
         "graduated sanctions",
         "customary rules"
       ],
-      "examTips": "If asked 'is Hardin right?', answer: partly – for unmanaged open access; but community commons with rules (Barambang Katute, Maine lobsters) avoid the tragedy. List the institutional ingredients.",
+      "examTips": "If asked 'is Hardin right?', answer: partly – for unmanaged open access; but community commons with rules (Barambang Katute, Maine lobsters) avoid the tragedy. List the institutional ingredients. Quiz 1: managed commons (Barambang Katute, Maine lobster) avoid tragedy because of mechanisms of policy and boundaries applied by the local community; unmanaged = Hardin 1968 assumption.",
       "importance": 3,
       "sources": [
         {
@@ -287,7 +288,7 @@
         "Holocene / interglacial state",
         "resilience"
       ],
-      "examTips": "Be able to name all nine boundaries and explain 'safe operating space'. Remember the boundaries are about Earth-system stability, not resource depletion per se.",
+      "examTips": "Be able to name all nine boundaries and explain 'safe operating space'. Remember the boundaries are about Earth-system stability, not resource depletion per se. Quiz 1: purpose = identify scientifically based limits that define a SAFE OPERATING SPACE for humanity within the Earth system (not max GDP, not a fossil-fuel depletion date, not 2050 energy capacity).",
       "importance": 3,
       "sources": [
         {
@@ -301,19 +302,19 @@
     },
     {
       "id": "m2.pb-status-2025",
-      "label": "2025 status: 7 of 9 transgressed",
+      "label": "Boundaries breached: 6 (quiz) vs 7 (2025 slide)",
       "type": "data",
       "module": "M2",
       "parent": "m2.part2",
-      "summary": "The 2025 update finds seven of nine boundaries breached; only stratospheric ozone and atmospheric aerosol loading remain within the safe operating space.",
-      "details": "Slide 7 (Stockholm Resilience Centre, **24 Sept 2025**; diagram \"The 2025 update to the Planetary Boundaries\", Sakschewski & Caesar et al. 2025): **7 out of 9 planetary boundaries have been transgressed**, meaning **Earth is now outside the safe operating space for humanity**.\n\n**Transgressed (7):**\n1. **Climate change** – both CO2 concentration and radiative forcing\n2. **Biosphere integrity** – genetic and functional (functional in the high-risk red zone)\n3. **Land-system change**\n4. **Freshwater change** – blue water and green water\n5. **Biogeochemical flows** – nitrogen (N) and phosphorus (P), both deep in the high-risk zone\n6. **Novel entities** (synthetic chemicals, plastics etc.)\n7. **Ocean acidification** – newly breached in the 2025 assessment\n\n**Within the safe space (2):**\n8. **Stratospheric ozone depletion**\n9. **Atmospheric aerosol loading**\n\nCompare the older 2009 diagram on slide 6: then only **3** were crossed (climate change, biodiversity loss, nitrogen cycle), and chemical pollution and aerosols were **\"not yet quantified\"**. The trend shows a rapidly worsening situation.",
+      "summary": "Quiz key: 6 of 9 boundaries breached (outside the safe operating space). The 2025 slide update counts 7, adding ocean acidification.",
+      "details": "**Quiz 1 headline fact: 6 of the 9 boundaries are currently breached** (Q10, options 3 / 5 / 6 / 9; key = 6). The lecturer's key matches the 2023 update (Richardson et al.): climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows and novel entities. **Slide 7 (2025 update) shows 7**, because ocean acidification was newly crossed. If the options contain 6 and not 7, answer 6; if 7 is offered, 7 is the slide figure. 2009 diagram (slide 6): only 3 crossed.\n\nSlide 7 (Stockholm Resilience Centre, **24 Sept 2025**; diagram \"The 2025 update to the Planetary Boundaries\", Sakschewski & Caesar et al. 2025): **7 out of 9 planetary boundaries have been transgressed**, meaning **Earth is now outside the safe operating space for humanity**.\n\n**Transgressed (7):**\n1. **Climate change** – both CO2 concentration and radiative forcing\n2. **Biosphere integrity** – genetic and functional (functional in the high-risk red zone)\n3. **Land-system change**\n4. **Freshwater change** – blue water and green water\n5. **Biogeochemical flows** – nitrogen (N) and phosphorus (P), both deep in the high-risk zone\n6. **Novel entities** (synthetic chemicals, plastics etc.)\n7. **Ocean acidification** – newly breached in the 2025 assessment\n\n**Within the safe space (2):**\n8. **Stratospheric ozone depletion**\n9. **Atmospheric aerosol loading**\n\nCompare the older 2009 diagram on slide 6: then only **3** were crossed (climate change, biodiversity loss, nitrogen cycle), and chemical pollution and aerosols were **\"not yet quantified\"**. The trend shows a rapidly worsening situation.",
       "keyTerms": [
         "7 of 9",
         "2025 update",
         "transgressed",
         "Stockholm Resilience Centre"
       ],
-      "examTips": "Memorise: 7 of 9 breached (2025); the 2 still safe are ozone and aerosols. Ocean acidification is the newest one crossed. 2009: only 3 crossed.",
+      "examTips": "Quiz 1 key: 6 of 9 breached (=> outside the safe operating space). Slide 7 (2025) says 7 of 9; the 2 still safe are ozone and aerosols; ocean acidification is the newest crossed. 2009: 3. Ensure you can name the 6/7 and the safe ones.",
       "importance": 3,
       "sources": [
         {
@@ -447,7 +448,7 @@
         "urbanisation",
         "forest cover"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "module": "M2",
@@ -456,7 +457,8 @@
             8
           ]
         }
-      ]
+      ],
+      "examTips": "Quiz 1: deforestation + urbanisation + agricultural expansion violate the LAND-SYSTEM CHANGE boundary (not freshwater, ocean acidification, ozone)."
     },
     {
       "id": "m2.pb.freshwater-change",
@@ -500,8 +502,8 @@
         "eutrophication",
         "algal bloom"
       ],
-      "examTips": "Explain the eutrophication chain: fertiliser runoff → algal bloom → oxygen depletion → dead zones.",
-      "importance": 2,
+      "examTips": "Explain the eutrophication chain: fertiliser runoff → algal bloom → oxygen depletion → dead zones. Quiz 1: synthetic-fertiliser N and P runoff causing eutrophication = BIOGEOCHEMICAL FLOWS (not climate change, chemical pollution/novel entities, land-system change).",
+      "importance": 3,
       "sources": [
         {
           "module": "M2",

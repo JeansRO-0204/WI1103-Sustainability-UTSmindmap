@@ -15,7 +15,7 @@ Everything is plain files + stdlib Python (no API keys, no provider lock-in):
 - **Web crawlers/LLMs**: `llms.txt` on the site points to `data/graph.json` and `data/chunks.jsonl`.
 
 ## Practice (quiz, flashcards, proficiency)
-Open the site's **Quiz / Cards / Progress** tabs: Quiz 2's 45 questions verbatim plus ~180 generated questions in the same style, and a flashcard for every importance-3 concept. Spaced repetition and per-topic proficiency are saved in your browser (use Export/Import on the Progress tab to move devices). Data: `knowledge/quiz/quiz.json` (rebuild with `python3 build/quiz_merge.py`); where Quiz 2's key disagrees with the slides see `knowledge/quiz/RECONCILIATION.md`.
+Open the site's **Quiz / Cards / Progress** tabs: Quiz 1 (bilingual EN/ID toggle, once ingested) and Quiz 2's 45 questions verbatim plus ~180 generated questions in the same style, and a flashcard for every importance-3 concept. Spaced repetition and per-topic proficiency are saved in your browser (use Export/Import on the Progress tab to move devices). Data: `knowledge/quiz/quiz.json` (rebuild with `python3 build/quiz_merge.py`, which also merges `quiz1.raw/tags.json`); where Quiz 2's key disagrees with the slides see `knowledge/quiz/RECONCILIATION.md`.
 
 ## Layout
 - `knowledge/` graph.json (concepts), chunks.jsonl + corpus.md (slide text and speaker notes), INDEX.md

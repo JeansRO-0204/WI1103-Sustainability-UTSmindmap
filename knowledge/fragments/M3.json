@@ -1,1270 +1,1493 @@
 {
- "module": {
-  "id": "M3",
-  "week": 3,
-  "title": "Overpopulation vs Overconsumption",
-  "summary": "Whether environmental damage is driven by population or consumption: carrying capacity, Malthus, IPAT, technology's dual role, overconsumption and the ecological footprint."
- },
- "nodes": [
-  {
-   "id": "m3",
-   "label": "Week 3: Overpopulation vs Overconsumption",
-   "type": "module",
-   "module": "M3",
-   "parent": "root",
-   "summary": "Is environmental damage driven by how many people there are, or by how much and how they consume?",
-   "details": "Week 3 asks whether the planet's limits are threatened mainly by **population** or by **consumption**. It is organised in four parts:\n\n- **3.1 Planetary boundaries & carrying capacity** - carrying capacity, J vs S growth curves, **Malthus** and **Neo-Malthusian** views, overpopulation, technology and the demographic transition, and the **Kerala** case.\n- **3.2 Thinking about environmental impact** - the **IPAT** equation (Ehrlich & Holdren), P and A data, the 2050 'factor five' scenario, the **dual role of technology**, the **Jevons paradox**, Kuznets/Kurzweil optimism and **environmental justice** (offshoring, EV batteries, AI data centres).\n- **3.3 Over-consumption** - overconsumption, addictive consumption and **hyperconsumption**.\n- **3.4 Ecological footprint** - footprint vs **biocapacity**, measurement in global hectares, Indonesia's deficit and 'how many Earths'.\n\nThe through-line: **population size alone does not determine impact** - affluence, technology, distribution and governance matter, and the richest consume far more than their share.",
-   "keyTerms": [
-    "overpopulation",
-    "overconsumption",
-    "carrying capacity",
-    "IPAT",
-    "ecological footprint"
-   ],
-   "importance": 3,
-   "sources": [
+  "module": {
+    "id": "M3",
+    "week": 3,
+    "title": "Overpopulation vs Overconsumption",
+    "summary": "Whether environmental damage is driven by population or consumption: carrying capacity, Malthus, IPAT, technology's dual role, overconsumption and the ecological footprint."
+  },
+  "nodes": [
     {
-     "module": "M3",
-     "slides": [
-      1,
-      2,
-      15,
-      29,
-      36
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.part1",
-   "label": "Part 3.1: Planetary Limits & Carrying Capacity",
-   "type": "topic",
-   "module": "M3",
-   "parent": "m3",
-   "summary": "Earth has limits; population growth, technology and development interact with carrying capacity.",
-   "details": "Part 3.1 links last week's **planetary boundaries** to the ecological idea of **carrying capacity** and then to the historical population debate.\n\n- Starts from the 'take-home message' of Rio+20: development must stay within planetary limits.\n- **Carrying capacity**: limiting factors cap population growth (S-shaped curve).\n- **Malthus** (resources grow linearly, population exponentially -> crisis) and the **Neo-Malthusians** (social, economic and technological drivers of scarcity; Barry Commoner on technology).\n- World population data (1 billion in 1804 -> 8 billion in 2022) and the distinction between **population growth** and **overpopulation**.\n- Technology (Green Revolution) raises *effective* carrying capacity; GDP-energy-emission data show the link is not proportional.\n- **Demographic transition**: falling population may be an *effect* of development rather than its cause, illustrated by **Kerala, India**.",
-   "keyTerms": [
-    "carrying capacity",
-    "Malthus",
-    "Neo-Malthusian",
-    "demographic transition"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3",
+      "label": "Week 3: Overpopulation vs Overconsumption",
+      "type": "module",
+      "module": "M3",
+      "parent": "root",
+      "summary": "Is environmental damage driven by how many people there are, or by how much and how they consume?",
+      "details": "Week 3 asks whether the planet's limits are threatened mainly by **population** or by **consumption**. It is organised in four parts:\n\n- **3.1 Planetary boundaries & carrying capacity** - carrying capacity, J vs S growth curves, **Malthus** and **Neo-Malthusian** views, overpopulation, technology and the demographic transition, and the **Kerala** case.\n- **3.2 Thinking about environmental impact** - the **IPAT** equation (Ehrlich & Holdren), P and A data, the 2050 'factor five' scenario, the **dual role of technology**, the **Jevons paradox**, Kuznets/Kurzweil optimism and **environmental justice** (offshoring, EV batteries, AI data centres).\n- **3.3 Over-consumption** - overconsumption, addictive consumption and **hyperconsumption**.\n- **3.4 Ecological footprint** - footprint vs **biocapacity**, measurement in global hectares, Indonesia's deficit and 'how many Earths'.\n\nThe through-line: **population size alone does not determine impact** - affluence, technology, distribution and governance matter, and the richest consume far more than their share.",
+      "keyTerms": [
+        "overpopulation",
+        "overconsumption",
+        "carrying capacity",
+        "IPAT",
+        "ecological footprint"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            1,
+            2,
+            15,
+            29,
+            36
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.take-home",
-   "label": "Future We Want & Safe Operating Space",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.part1",
-   "summary": "Since Rio 1992 development must balance economy, society and environment within planetary boundaries; 7 of 9 already breached.",
-   "details": "The opening 'take-home message' frames the week, citing **'The Future We Want' (Rio+20, 2012)** and **'Realizing the Future We Want for All' (2019)**.\n\n- Since the **Rio Earth Summit (1992)** the world has agreed to steer development by the **compass of sustainability**: economic progress in harmony with **social justice** and **environmental preservation** (the three pillars).\n- Human activity must stay within the **planetary boundaries**, the **safe operating space** for humanity (Rockstrom et al.).\n- Recall from the previous lecture: **7 out of 9 planetary boundaries have been breached**.\n\nWhy it matters: carrying capacity, the ecological footprint and overshoot (later in this week) are all ways of asking whether humanity is living within these limits. It connects Week 2 (planetary boundaries) to Week 3's question of *who* and *what* pushes us past them.",
-   "keyTerms": [
-    "Rio+20",
-    "The Future We Want",
-    "safe operating space",
-    "planetary boundaries"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.part1",
+      "label": "Part 3.1: Planetary Limits & Carrying Capacity",
+      "type": "topic",
+      "module": "M3",
+      "parent": "m3",
+      "summary": "Earth has limits; population growth, technology and development interact with carrying capacity.",
+      "details": "Part 3.1 links last week's **planetary boundaries** to the ecological idea of **carrying capacity** and then to the historical population debate.\n\n- Starts from the 'take-home message' of Rio+20: development must stay within planetary limits.\n- **Carrying capacity**: limiting factors cap population growth (S-shaped curve).\n- **Malthus** (resources grow linearly, population exponentially -> crisis) and the **Neo-Malthusians** (social, economic and technological drivers of scarcity; Barry Commoner on technology).\n- World population data (1 billion in 1804 -> 8 billion in 2022) and the distinction between **population growth** and **overpopulation**.\n- Technology (Green Revolution) raises *effective* carrying capacity; GDP-energy-emission data show the link is not proportional.\n- **Demographic transition**: falling population may be an *effect* of development rather than its cause, illustrated by **Kerala, India**.",
+      "keyTerms": [
+        "carrying capacity",
+        "Malthus",
+        "Neo-Malthusian",
+        "demographic transition"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      3
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.carrying-capacity",
-   "label": "Carrying Capacity",
-   "type": "definition",
-   "module": "M3",
-   "parent": "m3.part1",
-   "summary": "Maximum number of individuals of a species a habitat can sustainably support, set by limiting factors; growth follows an S-curve.",
-   "details": "**Carrying capacity (K)** is the **maximum number of individuals of a species that a particular habitat can sustainably support**.\n\n- It is set by **limiting factors**: **space**, **abiotic** factors (water, nutrients, climate) and **biotic** factors (e.g. **disease**, predators, competition).\n- **J-curve (exponential growth)**: happens when resources are effectively unlimited, i.e. early on, when the population is still far below K.\n- **S-curve (logistic growth)**: as the population approaches K, growth slows and levels off. In reality there is **no unlimited population growth** - every population eventually meets limits (lecture notes, after Spoolman & Miller 2019).\n\nFor humans the idea is tricky because **technology and trade raise the *effective* carrying capacity** (see agricultural technology), and because impact depends on consumption, not just numbers. **Overpopulation** is defined *relative* to carrying capacity, and the **ecological footprint vs biocapacity** comparison is the modern accounting version of the same idea.",
-   "keyTerms": [
-    "carrying capacity",
-    "limiting factors",
-    "J-curve",
-    "S-curve",
-    "logistic growth",
-    "exponential growth"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.take-home",
+      "label": "Future We Want & Safe Operating Space",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.part1",
+      "summary": "Since Rio 1992 development must balance economy, society and environment within planetary boundaries; 7 of 9 already breached.",
+      "details": "The opening 'take-home message' frames the week, citing **'The Future We Want' (Rio+20, 2012)** and **'Realizing the Future We Want for All' (2019)**.\n\n- Since the **Rio Earth Summit (1992)** the world has agreed to steer development by the **compass of sustainability**: economic progress in harmony with **social justice** and **environmental preservation** (the three pillars).\n- Human activity must stay within the **planetary boundaries**, the **safe operating space** for humanity (Rockstrom et al.).\n- Recall from the previous lecture: **7 out of 9 planetary boundaries have been breached**.\n\nWhy it matters: carrying capacity, the ecological footprint and overshoot (later in this week) are all ways of asking whether humanity is living within these limits. It connects Week 2 (planetary boundaries) to Week 3's question of *who* and *what* pushes us past them.",
+      "keyTerms": [
+        "Rio+20",
+        "The Future We Want",
+        "safe operating space",
+        "planetary boundaries"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            3
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      4
-     ]
-    }
-   ],
-   "examTips": "Define carrying capacity and name the three groups of limiting factors. Explain J vs S curve. Link to overpopulation (needs exceed carrying capacity) and to footprint vs biocapacity."
-  },
-  {
-   "id": "m3.population-theories",
-   "label": "Malthus, Neo-Malthus & Overpopulation",
-   "type": "topic",
-   "module": "M3",
-   "parent": "m3.part1",
-   "summary": "The classic debate on whether population growth outruns resources, and when growth becomes 'overpopulation'.",
-   "details": "This cluster covers the intellectual history of the population-resources debate:\n\n- **Thomas Robert Malthus** - population grows **geometrically**, food/resources **arithmetically**, so crisis (famine, disease, war) eventually pulls population back down.\n- **World population data (1700-2022)** - exponential growth in recent centuries raises the question of whether Malthus was right.\n- **Overpopulation** - not the same as population growth: it occurs when the population's needs **sustainably exceed carrying capacity**, shaped also by consumption, technology, distribution and governance (Paul Ehrlich, *The Population Bomb*).\n- **Neo-Malthusian theory** - widens Malthus to social, economic and environmental interactions; **Barry Commoner** argued **technology** matters more than numbers.\n\nThese positions set up Part 3.2's **IPAT** equation, which combines population, affluence and technology in one formula.",
-   "keyTerms": [
-    "Malthus",
-    "Neo-Malthusian",
-    "overpopulation",
-    "Barry Commoner"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.carrying-capacity",
+      "label": "Carrying Capacity",
+      "type": "definition",
+      "module": "M3",
+      "parent": "m3.part1",
+      "summary": "Maximum number of individuals of a species a habitat can sustainably support, set by limiting factors; growth follows an S-curve.",
+      "details": "**Carrying capacity (K)** is the **maximum number of individuals of a species that a particular habitat can sustainably support**.\n\n- It is set by **limiting factors**: **space**, **abiotic** factors (water, nutrients, climate) and **biotic** factors (e.g. **disease**, predators, competition).\n- **J-curve (exponential growth)**: happens when resources are effectively unlimited, i.e. early on, when the population is still far below K.\n- **S-curve (logistic growth)**: as the population approaches K, growth slows and levels off. In reality there is **no unlimited population growth** - every population eventually meets limits (lecture notes, after Spoolman & Miller 2019).\n\nFor humans the idea is tricky because **technology and trade raise the *effective* carrying capacity** (see agricultural technology), and because impact depends on consumption, not just numbers. **Overpopulation** is defined *relative* to carrying capacity, and the **ecological footprint vs biocapacity** comparison is the modern accounting version of the same idea.",
+      "keyTerms": [
+        "carrying capacity",
+        "limiting factors",
+        "J-curve",
+        "S-curve",
+        "logistic growth",
+        "exponential growth"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "examTips": "Define carrying capacity and name the three groups of limiting factors. Explain J vs S curve. Link to overpopulation (needs exceed carrying capacity) and to footprint vs biocapacity. Quiz 1: carrying capacity is determined by limiting factors - space, abiotic factors and biotic factors (e.g. disease) - not by exponential growth, unlimited technology or affluence."
+    },
     {
-     "module": "M3",
-     "slides": [
-      5,
-      6,
-      7,
-      8,
-      9
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.malthus",
-   "label": "Malthusian View",
-   "type": "framework",
-   "module": "M3",
-   "parent": "m3.population-theories",
-   "summary": "Malthus: resources grow arithmetically, population geometrically, so crises (famine, disease, war) push population back to sustainable levels.",
-   "details": "**Thomas Robert Malthus** (*Essay on the Principle of Population*, 1798) lived through rapid population growth in England.\n\n- **Natural resources (food) have fixed limits and grow arithmetically/linearly** (1, 2, 3, 4...).\n- **Population tends to grow exponentially/geometrically** (1, 2, 4, 8...).\n- The gap eventually produces a **crisis period** - **famine, epidemics and war** - that reduces population back to what the environment can sustain.\n\nLecturer's notes: Malthus diagnosed an **imbalance between a habitat's resources and population size**. His work is now seen as the **first systematic study of ecological limits to growth in a finite world** and an early source of sustainability thinking, but in his day it got little attention because national or global environmental issues were not yet part of political or social discourse.\n\n**Critique / limits**: the chart says nothing about changes in resource *use*; Malthus underestimated **technology** (Green Revolution raised food output) and the **demographic transition** (fertility falls with development).",
-   "keyTerms": [
-    "Thomas Malthus",
-    "arithmetic growth",
-    "geometric growth",
-    "Malthusian crisis"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.population-theories",
+      "label": "Malthus, Neo-Malthus & Overpopulation",
+      "type": "topic",
+      "module": "M3",
+      "parent": "m3.part1",
+      "summary": "The classic debate on whether population growth outruns resources, and when growth becomes 'overpopulation'.",
+      "details": "This cluster covers the intellectual history of the population-resources debate:\n\n- **Thomas Robert Malthus** - population grows **geometrically**, food/resources **arithmetically**, so crisis (famine, disease, war) eventually pulls population back down.\n- **World population data (1700-2022)** - exponential growth in recent centuries raises the question of whether Malthus was right.\n- **Overpopulation** - not the same as population growth: it occurs when the population's needs **sustainably exceed carrying capacity**, shaped also by consumption, technology, distribution and governance (Paul Ehrlich, *The Population Bomb*).\n- **Neo-Malthusian theory** - widens Malthus to social, economic and environmental interactions; **Barry Commoner** argued **technology** matters more than numbers.\n\nThese positions set up Part 3.2's **IPAT** equation, which combines population, affluence and technology in one formula.",
+      "keyTerms": [
+        "Malthus",
+        "Neo-Malthusian",
+        "overpopulation",
+        "Barry Commoner"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      5,
-      8
-     ]
-    }
-   ],
-   "examTips": "Classic question: explain Malthus's argument and why his prediction has not (yet) fully materialised (technology, demographic transition). Compare with Neo-Malthusians and with IPAT."
-  },
-  {
-   "id": "m3.population-growth",
-   "label": "World Population Growth Data",
-   "type": "data",
-   "module": "M3",
-   "parent": "m3.population-theories",
-   "summary": "World population: 1 bn (1804), 2 (1927), 3 (1960), 4 (1974), 5 (1987), 6 (1998), 7 (2010), 8 (2022); ~10 bn by 2058.",
-   "details": "The slide (UN DESA, *World Population Prospects 2022*) shows **exponential growth** of the human population from 1700 to 2022, with projections to 2100.\n\n**Billion milestones:**\n- 1 bn - **1804**\n- 2 bn - **1927** (123 years later)\n- 3 bn - **1960**; 4 bn - **1974**; 5 bn - **1987**; 6 bn - **1998**; 7 bn - **2010**\n- 8 bn - **2022**; projected 9 bn - **2037**; 10 bn - **2058** (median projection, with a widening 95% prediction interval)\n\nEach extra billion now arrives in ~12-13 years, but the projection curve **flattens** later in the century, consistent with the **demographic transition**.\n\nDiscussion questions on the slide: Is this in line with **Malthus's** claim of a population-resource imbalance? What is the relationship between humans and the environment? Can resource shortages be avoided, and do we have the ability to overcome them? A related chart (s18, US Census Bureau 2010) shows 3 bn in ~1960 rising toward ~9 bn by ~2045.",
-   "keyTerms": [
-    "world population",
-    "UN World Population Prospects",
-    "exponential growth"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.malthus",
+      "label": "Malthusian View",
+      "type": "framework",
+      "module": "M3",
+      "parent": "m3.population-theories",
+      "summary": "Malthus: resources grow arithmetically, population geometrically, so crises (famine, disease, war) push population back to sustainable levels.",
+      "details": "**Thomas Robert Malthus** (*Essay on the Principle of Population*, 1798) lived through rapid population growth in England.\n\n- **Natural resources (food) have fixed limits and grow arithmetically/linearly** (1, 2, 3, 4...).\n- **Population tends to grow exponentially/geometrically** (1, 2, 4, 8...).\n- The gap eventually produces a **crisis period** - **famine, epidemics and war** - that reduces population back to what the environment can sustain.\n\nLecturer's notes: Malthus diagnosed an **imbalance between a habitat's resources and population size**. His work is now seen as the **first systematic study of ecological limits to growth in a finite world** and an early source of sustainability thinking, but in his day it got little attention because national or global environmental issues were not yet part of political or social discourse.\n\n**Critique / limits**: the chart says nothing about changes in resource *use*; Malthus underestimated **technology** (Green Revolution raised food output) and the **demographic transition** (fertility falls with development).",
+      "keyTerms": [
+        "Thomas Malthus",
+        "arithmetic growth",
+        "geometric growth",
+        "Malthusian crisis"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            5,
+            8
+          ]
+        }
+      ],
+      "examTips": "Classic question: explain Malthus's argument and why his prediction has not (yet) fully materialised (technology, demographic transition). Compare with Neo-Malthusians and with IPAT."
+    },
     {
-     "module": "M3",
-     "slides": [
-      6,
-      18
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.overpopulation",
-   "label": "Overpopulation",
-   "type": "definition",
-   "module": "M3",
-   "parent": "m3.population-theories",
-   "summary": "Occurs when population needs sustainably exceed the system's carrying capacity; depends on consumption, technology, distribution and governance, not size alone.",
-   "details": "The lecture separates three ideas:\n\n1. **Population growth** - the number of people increases over time; rates **vary across regions**. It is a *demographic fact*.\n2. **Population pressure** - demand for **food, water, energy, land, housing and infrastructure** rises as population grows.\n3. **Overpopulation** - occurs **when the needs of the population sustainably exceed the carrying capacity** of the system.\n\nKey point: overpopulation is **not determined by population size alone**. It is also shaped by **consumption levels, technology, resource distribution and governance**. Two regions with the same population do not necessarily face the same pressure.\n\nThe concept traces to **Paul Ehrlich, *The Population Bomb* (1968)**. Lecturer's summary: *population growth is a demographic fact; overpopulation is about the relationship between population and the capacity of the system to support it*. This anticipates **IPAT** (Ehrlich & Holdren) and the **overconsumption** argument: India's huge population lives within <1 Earth while the USA needs ~5.",
-   "keyTerms": [
-    "overpopulation",
-    "population growth",
-    "population pressure",
-    "Paul Ehrlich",
-    "The Population Bomb"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.population-growth",
+      "label": "World Population Growth Data",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.population-theories",
+      "summary": "World population: 1 bn (1804), 2 (1927), 3 (1960), 4 (1974), 5 (1987), 6 (1998), 7 (2010), 8 (2022); ~10 bn by 2058.",
+      "details": "The slide (UN DESA, *World Population Prospects 2022*) shows **exponential growth** of the human population from 1700 to 2022, with projections to 2100.\n\n**Billion milestones:**\n- 1 bn - **1804**\n- 2 bn - **1927** (123 years later)\n- 3 bn - **1960**; 4 bn - **1974**; 5 bn - **1987**; 6 bn - **1998**; 7 bn - **2010**\n- 8 bn - **2022**; projected 9 bn - **2037**; 10 bn - **2058** (median projection, with a widening 95% prediction interval)\n\nEach extra billion now arrives in ~12-13 years, but the projection curve **flattens** later in the century, consistent with the **demographic transition**.\n\nDiscussion questions on the slide: Is this in line with **Malthus's** claim of a population-resource imbalance? What is the relationship between humans and the environment? Can resource shortages be avoided, and do we have the ability to overcome them? A related chart (s18, US Census Bureau 2010) shows 3 bn in ~1960 rising toward ~9 bn by ~2045.",
+      "keyTerms": [
+        "world population",
+        "UN World Population Prospects",
+        "exponential growth"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            6,
+            18
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      7
-     ]
-    }
-   ],
-   "examTips": "Common confusion: population growth does not equal overpopulation. Be ready to explain why the same population can be 'overpopulated' in one place and not another (consumption, technology, distribution, governance)."
-  },
-  {
-   "id": "m3.neo-malthus",
-   "label": "Neo-Malthusian Theory & Technology",
-   "type": "framework",
-   "module": "M3",
-   "parent": "m3.population-theories",
-   "summary": "Extends Malthus to social, economic and environmental interactions causing scarcity; Barry Commoner stressed technology over population numbers.",
-   "details": "**Neo-Malthusian theory** updates Malthus for modern environmental problems.\n\n- It **recognises interactions of social, economic and environmental factors** that lead to environmental damage and **natural-resource scarcity**, but keeps the core premise: **resources are becoming scarcer and environmental damage is occurring**.\n- The slide graph: a red **population** curve rising exponentially, a green **food production** line rising linearly; where they cross is a **crisis point (war, famine, etc.)**.\n- Neo-Malthusians propose **population control** plus **more efficient resource use**. The theory gained attention in the late 19th and 20th centuries amid overpopulation concerns.\n\n**Role of technology - Barry Commoner** (*The Closing Circle*, 1971): **technology has a greater environmental impact than population numbers**. Post-war technologies such as **petrochemical-based economies, pesticides and fossil fuels** sharply increased environmental impact.\n\nThis sets up the **Ehrlich-Commoner debate** that IPAT resolves: impact depends on P **and** A **and** T. It also foreshadows the **dual role of technology**.",
-   "keyTerms": [
-    "Neo-Malthusian",
-    "Barry Commoner",
-    "population control",
-    "technology impact"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.overpopulation",
+      "label": "Overpopulation",
+      "type": "definition",
+      "module": "M3",
+      "parent": "m3.population-theories",
+      "summary": "Occurs when population needs sustainably exceed the system's carrying capacity; depends on consumption, technology, distribution and governance, not size alone.",
+      "details": "The lecture separates three ideas:\n\n1. **Population growth** - the number of people increases over time; rates **vary across regions**. It is a *demographic fact*.\n2. **Population pressure** - demand for **food, water, energy, land, housing and infrastructure** rises as population grows.\n3. **Overpopulation** - occurs **when the needs of the population sustainably exceed the carrying capacity** of the system.\n\nKey point: overpopulation is **not determined by population size alone**. It is also shaped by **consumption levels, technology, resource distribution and governance**. Two regions with the same population do not necessarily face the same pressure.\n\nThe concept traces to **Paul Ehrlich, *The Population Bomb* (1968)**. Lecturer's summary: *population growth is a demographic fact; overpopulation is about the relationship between population and the capacity of the system to support it*. This anticipates **IPAT** (Ehrlich & Holdren) and the **overconsumption** argument: India's huge population lives within <1 Earth while the USA needs ~5.",
+      "keyTerms": [
+        "overpopulation",
+        "population growth",
+        "population pressure",
+        "Paul Ehrlich",
+        "The Population Bomb"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            7
+          ]
+        }
+      ],
+      "examTips": "Common confusion: population growth does not equal overpopulation. Be ready to explain why the same population can be 'overpopulated' in one place and not another (consumption, technology, distribution, governance)."
+    },
     {
-     "module": "M3",
-     "slides": [
-      8,
-      9
-     ]
-    }
-   ],
-   "examTips": "Contrast Malthus (food vs population only) with Neo-Malthusians (social-economic-environmental interactions) and with Commoner (technology > population)."
-  },
-  {
-   "id": "m3.development",
-   "label": "Technology, Development & Population",
-   "type": "topic",
-   "module": "M3",
-   "parent": "m3.part1",
-   "summary": "Technology raises effective carrying capacity; development lowers birth rates; wealth does not map neatly to impact or wellbeing.",
-   "details": "This cluster asks whether the Malthusian trap is inevitable.\n\n- **GDP, energy and CO2 data** - bigger economies use more energy and emit more, but **not proportionally**; efficiency and energy mix matter.\n- **Agricultural technology** - extensification -> intensification -> **Green Revolution**; raises the *effective* carrying capacity, with trade-offs.\n- **Demographic transition** - population decline may be an **effect** of economic development, not its cause.\n- **Kerala case** - high human development without high income.\n\nTogether they show that **population is not destiny**: technology, development, health and education reshape the population-environment relationship, which is why Part 3.2 moves to IPAT.",
-   "keyTerms": [
-    "Green Revolution",
-    "demographic transition",
-    "Kerala",
-    "GDP-energy relationship"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.neo-malthus",
+      "label": "Neo-Malthusian Theory & Technology",
+      "type": "framework",
+      "module": "M3",
+      "parent": "m3.population-theories",
+      "summary": "Extends Malthus to social, economic and environmental interactions causing scarcity; Barry Commoner stressed technology over population numbers.",
+      "details": "**Neo-Malthusian theory** updates Malthus for modern environmental problems.\n\n- It **recognises interactions of social, economic and environmental factors** that lead to environmental damage and **natural-resource scarcity**, but keeps the core premise: **resources are becoming scarcer and environmental damage is occurring**.\n- The slide graph: a red **population** curve rising exponentially, a green **food production** line rising linearly; where they cross is a **crisis point (war, famine, etc.)**.\n- Neo-Malthusians propose **population control** plus **more efficient resource use**. The theory gained attention in the late 19th and 20th centuries amid overpopulation concerns.\n\n**Role of technology - Barry Commoner** (*The Closing Circle*, 1971): **technology has a greater environmental impact than population numbers**. Post-war technologies such as **petrochemical-based economies, pesticides and fossil fuels** sharply increased environmental impact.\n\nThis sets up the **Ehrlich-Commoner debate** that IPAT resolves: impact depends on P **and** A **and** T. It also foreshadows the **dual role of technology**.",
+      "keyTerms": [
+        "Neo-Malthusian",
+        "Barry Commoner",
+        "population control",
+        "technology impact"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            8,
+            9
+          ]
+        }
+      ],
+      "examTips": "Contrast Malthus (food vs population only) with Neo-Malthusians (social-economic-environmental interactions) and with Commoner (technology > population)."
+    },
     {
-     "module": "M3",
-     "slides": [
-      10,
-      11,
-      12,
-      13,
-      14
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.gdp-energy",
-   "label": "GDP, Energy & CO2 Emissions Data",
-   "type": "data",
-   "module": "M3",
-   "parent": "m3.development",
-   "summary": "Larger/richer economies use more energy and emit more, but not proportionally: efficiency and energy sources matter (2021 country data).",
-   "details": "Two 2021 tables compare the top-10 economies.\n\n**Totals (s10)**: bigger economies generally use more energy and emit more, **but not proportionally**.\n- **USA**: GDP rank 1 (~US$23.3 trillion), energy 93.4 EJ (rank 2), CO2 ~5,007 Mt (rank 2).\n- **China**: GDP rank 2 (~$17.8 tn) but **rank 1 in energy (157.9 EJ) and CO2 (~11,472 Mt)**.\n- **India**: GDP rank 5 but rank 3 in energy and CO2 (~2,710 Mt).\n- **UK, France, Italy**: high GDP with relatively low emissions (~306-347 Mt).\n\n**Per capita (s11)**: higher GDP per capita tends to mean higher energy use, but **emissions also depend on efficiency and energy source**.\n- USA $70,219 -> 14.86 t CO2/person; Canada 14.30 t; South Korea 11.89 t.\n- France $43,659 -> only **4.74 t** (nuclear-heavy mix); UK 5.15 t.\n- India $2,238 -> **1.93 t**; China $12,618 -> 8.05 t.\n\nLesson: population and GDP alone don't predict impact - this motivates **IPAT** (affluence *and* technology).",
-   "keyTerms": [
-    "GDP",
-    "energy consumption",
-    "CO2 per capita",
-    "decoupling"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.development",
+      "label": "Technology, Development & Population",
+      "type": "topic",
+      "module": "M3",
+      "parent": "m3.part1",
+      "summary": "Technology raises effective carrying capacity; development lowers birth rates; wealth does not map neatly to impact or wellbeing.",
+      "details": "This cluster asks whether the Malthusian trap is inevitable.\n\n- **GDP, energy and CO2 data** - bigger economies use more energy and emit more, but **not proportionally**; efficiency and energy mix matter.\n- **Agricultural technology** - extensification -> intensification -> **Green Revolution**; raises the *effective* carrying capacity, with trade-offs.\n- **Demographic transition** - population decline may be an **effect** of economic development, not its cause.\n- **Kerala case** - high human development without high income.\n\nTogether they show that **population is not destiny**: technology, development, health and education reshape the population-environment relationship, which is why Part 3.2 moves to IPAT.",
+      "keyTerms": [
+        "Green Revolution",
+        "demographic transition",
+        "Kerala",
+        "GDP-energy relationship"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      10,
-      11
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.agri-tech",
-   "label": "Agricultural Technology & Green Revolution",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.development",
-   "summary": "Agricultural innovation (extensification to intensification, Green Revolution) raised effective carrying capacity; shifted goal from food sufficiency to food security, with trade-offs.",
-   "details": "Humans **do not rely solely on natural productivity**: **agricultural innovation** lets us meet food needs and so **increases the effective carrying capacity** for human populations - a key reason Malthus's prediction did not come true.\n\n- **Extensification** = opening new land; **intensification** = higher yields on the same land through improved seeds, fertiliser, irrigation, pesticides, mechanisation and better markets.\n- The peak was the **Green Revolution**, which boosted productivity and reduced hunger in many countries.\n- Policy goal shifted from **food sufficiency** (how much is produced) to **food security**, with four pillars: **availability, access** (purchasing power/distribution), **utilisation** (nutrition/safety) and **stability** over time.\n\n**Trade-offs of intensification**: soil and water degradation/**pollution**, **GHG emissions**, **loss of biodiversity**. Hence the next step is **sustainable/regenerative intensification**, keeping productivity while shrinking the footprint and building resilience to economic and climate shocks.\n\nAn early example of the **dual role of technology** (Part 3.2).",
-   "keyTerms": [
-    "Green Revolution",
-    "intensification",
-    "extensification",
-    "food security",
-    "effective carrying capacity"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.gdp-energy",
+      "label": "GDP, Energy & CO2 Emissions Data",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.development",
+      "summary": "Larger/richer economies use more energy and emit more, but not proportionally: efficiency and energy sources matter (2021 country data).",
+      "details": "Two 2021 tables compare the top-10 economies.\n\n**Totals (s10)**: bigger economies generally use more energy and emit more, **but not proportionally**.\n- **USA**: GDP rank 1 (~US$23.3 trillion), energy 93.4 EJ (rank 2), CO2 ~5,007 Mt (rank 2).\n- **China**: GDP rank 2 (~$17.8 tn) but **rank 1 in energy (157.9 EJ) and CO2 (~11,472 Mt)**.\n- **India**: GDP rank 5 but rank 3 in energy and CO2 (~2,710 Mt).\n- **UK, France, Italy**: high GDP with relatively low emissions (~306-347 Mt).\n\n**Per capita (s11)**: higher GDP per capita tends to mean higher energy use, but **emissions also depend on efficiency and energy source**.\n- USA $70,219 -> 14.86 t CO2/person; Canada 14.30 t; South Korea 11.89 t.\n- France $43,659 -> only **4.74 t** (nuclear-heavy mix); UK 5.15 t.\n- India $2,238 -> **1.93 t**; China $12,618 -> 8.05 t.\n\nLesson: population and GDP alone don't predict impact - this motivates **IPAT** (affluence *and* technology).",
+      "keyTerms": [
+        "GDP",
+        "energy consumption",
+        "CO2 per capita",
+        "decoupling"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            10,
+            11
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      12
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.demographic-transition",
-   "label": "Demographic Transition: Limit as Effect",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.development",
-   "summary": "Population decline is an effect, not a cause, of development: as poverty falls, death then birth rates drop and growth stabilises.",
-   "details": "Slide title: **'Limit to population: an effect rather than the cause?'** Will population grow without limit once technology raises food supply? Not necessarily: social change, health and education also shape it.\n\n**Demographic transition model** (lecturer's notes):\n1. **Low/no growth** - high birth *and* death rates (poor health care, sanitation, food).\n2. **Falling death rate** - public health improves, births stay high -> **rapid growth** (typical of developing countries).\n3. **Falling birth rate** - driven by **economic development / poverty reduction** and financial success that gives access to **education, health care and birth control**; growth slows.\n4. **Low/no growth** - low birth and death rates; population near equilibrium (developed countries).\n\nKey message: **economic development -> poverty reduction -> population decline**, i.e. falling population is **a result of successful development, not its precondition**. The slide also floats the alternative framing: financial success as a 'prerequisite' for human development - which the **Kerala** case challenges.",
-   "keyTerms": [
-    "demographic transition",
-    "birth rate",
-    "death rate",
-    "poverty reduction"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.agri-tech",
+      "label": "Agricultural Technology & Green Revolution",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.development",
+      "summary": "Agricultural innovation (extensification to intensification, Green Revolution) raised effective carrying capacity; shifted goal from food sufficiency to food security, with trade-offs.",
+      "details": "Humans **do not rely solely on natural productivity**: **agricultural innovation** lets us meet food needs and so **increases the effective carrying capacity** for human populations - a key reason Malthus's prediction did not come true.\n\n- **Extensification** = opening new land; **intensification** = higher yields on the same land through improved seeds, fertiliser, irrigation, pesticides, mechanisation and better markets.\n- The peak was the **Green Revolution**, which boosted productivity and reduced hunger in many countries.\n- Policy goal shifted from **food sufficiency** (how much is produced) to **food security**, with four pillars: **availability, access** (purchasing power/distribution), **utilisation** (nutrition/safety) and **stability** over time.\n\n**Trade-offs of intensification**: soil and water degradation/**pollution**, **GHG emissions**, **loss of biodiversity**. Hence the next step is **sustainable/regenerative intensification**, keeping productivity while shrinking the footprint and building resilience to economic and climate shocks.\n\nAn early example of the **dual role of technology** (Part 3.2).",
+      "keyTerms": [
+        "Green Revolution",
+        "intensification",
+        "extensification",
+        "food security",
+        "effective carrying capacity"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            12
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      13
-     ]
-    }
-   ],
-   "examTips": "Explain the four stages and why lower fertility is an outcome of development. Use Kerala as a counter-example showing human development without high income."
-  },
-  {
-   "id": "m3.kerala",
-   "label": "Case Study: Kerala, India",
-   "type": "case-study",
-   "module": "M3",
-   "parent": "m3.development",
-   "summary": "Kerala has low per-capita income (~US$3,100) yet literacy (94%) and life expectancy (75) comparable to developed countries.",
-   "details": "**Kerala, India** shows that **high human development does not require high income**.\n\n2022 data (World Population Data; Our World in Data):\n\n| | Kerala | India | Australia | Germany | USA | Indonesia |\n|---|---|---|---|---|---|---|\n| Population (m) | 36 | 1,380 | 25.5 | 83.8 | 341 | 275 |\n| GDP per capita (US$) | 3,100 | 2,375 | 63,945 | 48,429 | 58,487 | 3,895 |\n| Density (/km2) | 860 | 488 | 3.5 | 242 | 37.8 | 141 |\n| Literacy (%) | 94 | 69.4 | ~100 | ~100 | ~100 | 94 |\n| Life expectancy (yr) | 75 | 67.3 | 83.1 | 80.5 | 77.5 | 68.3 |\n\n- Kerala's income is below Indonesia's, and it is **very densely populated (860/km2)**, yet its **literacy (94%)** and **life expectancy (75)** approach rich-country levels and beat India's average.\n- Lecturer's conclusion: **high economic capacity does not automatically raise human development** - investment in education and health does.\n\nLinks: supports the demographic transition argument (education/health lower fertility) and challenges the idea that GDP growth is the only route to wellbeing.",
-   "keyTerms": [
-    "Kerala",
-    "human development",
-    "literacy",
-    "life expectancy",
-    "GDP per capita"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.demographic-transition",
+      "label": "Demographic Transition: Limit as Effect",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.development",
+      "summary": "Population decline is an effect, not a cause, of development: as poverty falls, death then birth rates drop and growth stabilises.",
+      "details": "Slide title: **'Limit to population: an effect rather than the cause?'** Will population grow without limit once technology raises food supply? Not necessarily: social change, health and education also shape it.\n\n**Demographic transition model** (lecturer's notes):\n1. **Low/no growth** - high birth *and* death rates (poor health care, sanitation, food).\n2. **Falling death rate** - public health improves, births stay high -> **rapid growth** (typical of developing countries).\n3. **Falling birth rate** - driven by **economic development / poverty reduction** and financial success that gives access to **education, health care and birth control**; growth slows.\n4. **Low/no growth** - low birth and death rates; population near equilibrium (developed countries).\n\nKey message: **economic development -> poverty reduction -> population decline**, i.e. falling population is **a result of successful development, not its precondition**. The slide also floats the alternative framing: financial success as a 'prerequisite' for human development - which the **Kerala** case challenges.",
+      "keyTerms": [
+        "demographic transition",
+        "birth rate",
+        "death rate",
+        "poverty reduction"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            13
+          ]
+        }
+      ],
+      "examTips": "Explain the four stages and why lower fertility is an outcome of development. Use Kerala as a counter-example showing human development without high income."
+    },
     {
-     "module": "M3",
-     "slides": [
-      14
-     ]
-    }
-   ],
-   "examTips": "Know the headline numbers (GDP ~$3,100; literacy 94%; life expectancy 75; density 860/km2) and the lesson: human development is not just a function of income."
-  },
-  {
-   "id": "m3.part2",
-   "label": "Part 3.2: Thinking About Environmental Impact",
-   "type": "topic",
-   "module": "M3",
-   "parent": "m3",
-   "summary": "From population to impact: IPAT, technology's dual role, Jevons paradox, Kuznets optimism and unequal/unjust distribution of impacts.",
-   "details": "Part 3.2 moves from population numbers to **environmental impact**.\n\n- Population size affects **total demand**, but populous countries don't always have the highest per-capita energy use or emissions. Impact also depends on **consumption levels** and **how needs are produced (technology)**.\n- **IPAT** (Ehrlich & Holdren 1974): I = P x A x T, with P/A data and a **2050 scenario** requiring technology to cut impact by a **factor of five**.\n- **Dual role of technology**: it can improve or worsen impact; **technofix** optimism; the **Jevons paradox** (rebound/backfire).\n- **Kuznets & Kurzweil**: does rising affluence eventually reduce impact?\n- **Environmental justice**: impacts are borne by those who don't enjoy the benefits - offshoring, EV battery minerals, AI data centres.",
-   "keyTerms": [
-    "IPAT",
-    "technology",
-    "Jevons paradox",
-    "environmental justice"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.kerala",
+      "label": "Case Study: Kerala, India",
+      "type": "case-study",
+      "module": "M3",
+      "parent": "m3.development",
+      "summary": "Kerala has low per-capita income (~US$3,100) yet literacy (94%) and life expectancy (75) comparable to developed countries.",
+      "details": "**Kerala, India** shows that **high human development does not require high income**.\n\n2022 data (World Population Data; Our World in Data):\n\n| | Kerala | India | Australia | Germany | USA | Indonesia |\n|---|---|---|---|---|---|---|\n| Population (m) | 36 | 1,380 | 25.5 | 83.8 | 341 | 275 |\n| GDP per capita (US$) | 3,100 | 2,375 | 63,945 | 48,429 | 58,487 | 3,895 |\n| Density (/km2) | 860 | 488 | 3.5 | 242 | 37.8 | 141 |\n| Literacy (%) | 94 | 69.4 | ~100 | ~100 | ~100 | 94 |\n| Life expectancy (yr) | 75 | 67.3 | 83.1 | 80.5 | 77.5 | 68.3 |\n\n- Kerala's income is below Indonesia's, and it is **very densely populated (860/km2)**, yet its **literacy (94%)** and **life expectancy (75)** approach rich-country levels and beat India's average.\n- Lecturer's conclusion: **high economic capacity does not automatically raise human development** - investment in education and health does.\n\nLinks: supports the demographic transition argument (education/health lower fertility) and challenges the idea that GDP growth is the only route to wellbeing.",
+      "keyTerms": [
+        "Kerala",
+        "human development",
+        "literacy",
+        "life expectancy",
+        "GDP per capita"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            14
+          ]
+        }
+      ],
+      "examTips": "Know the headline numbers (GDP ~$3,100; literacy 94%; life expectancy 75; density 860/km2) and the lesson: human development is not just a function of income. Quiz 1: Kerala = human-development success (high literacy 94% and life expectancy 75) despite low income. Density 860 vs Indonesia 141 /km2 => difference 719 /km2 (see m3.calc.density)."
+    },
     {
-     "module": "M3",
-     "slides": [
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.ipat",
-   "label": "IPAT Equation",
-   "type": "framework",
-   "module": "M3",
-   "parent": "m3.part2",
-   "summary": "I = P x A x T: impact equals Population x Affluence (consumption/income per capita) x Technology (impact per unit); Ehrlich & Holdren 1974.",
-   "details": "**IPAT**, from **Ehrlich & Holdren (1974)**, says that environmental damage comes not only from population but also from consumption:\n\n**I = P x A x T**\n- **I - Impact** on the environment (e.g. emissions, resource use).\n- **P - Population** (number of people).\n- **A - Affluence**, measured as the **level of consumption per person** or **per-capita income**.\n- **T - Technology**, the impact per unit of consumption (how goods and energy are produced).\n\n**Why it matters**\n- It moves beyond the pure Malthusian focus on numbers: a large population with low consumption (India) can have less impact than a smaller, richer one (USA).\n- It reconciles **Ehrlich** (population) with **Commoner** (technology): all three factors multiply.\n- It frames policy: since P and A are rising, **T must fall** (decoupling) to keep I constant - see the 2050 scenario.\n\n**Limits**: the factors are not independent (technology can raise consumption, see **Jevons paradox**), and the equation ignores distribution and justice.",
-   "keyTerms": [
-    "IPAT",
-    "impact",
-    "population",
-    "affluence",
-    "technology",
-    "Ehrlich and Holdren"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.part2",
+      "label": "Part 3.2: Thinking About Environmental Impact",
+      "type": "topic",
+      "module": "M3",
+      "parent": "m3",
+      "summary": "From population to impact: IPAT, technology's dual role, Jevons paradox, Kuznets optimism and unequal/unjust distribution of impacts.",
+      "details": "Part 3.2 moves from population numbers to **environmental impact**.\n\n- Population size affects **total demand**, but populous countries don't always have the highest per-capita energy use or emissions. Impact also depends on **consumption levels** and **how needs are produced (technology)**.\n- **IPAT** (Ehrlich & Holdren 1974): I = P x A x T, with P/A data and a **2050 scenario** requiring technology to cut impact by a **factor of five**.\n- **Dual role of technology**: it can improve or worsen impact; **technofix** optimism; the **Jevons paradox** (rebound/backfire).\n- **Kuznets & Kurzweil**: does rising affluence eventually reduce impact?\n- **Environmental justice**: impacts are borne by those who don't enjoy the benefits - offshoring, EV battery minerals, AI data centres.",
+      "keyTerms": [
+        "IPAT",
+        "technology",
+        "Jevons paradox",
+        "environmental justice"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      16,
-      17
-     ]
-    }
-   ],
-   "examTips": "Most likely exam item. State the formula, define each term (A = consumption/income per capita), name the authors (Ehrlich & Holdren 1974), and explain why T can raise or lower I. Do a simple calculation (e.g. P x1.35, A x4 -> T must fall ~5x)."
-  },
-  {
-   "id": "m3.ipat.pa-data",
-   "label": "P and A Data: Population & GDP Trends",
-   "type": "data",
-   "module": "M3",
-   "parent": "m3.ipat",
-   "summary": "Charts of world population (3 bn 1960 to ~9 bn 2045) and world real GDP growth (1999-2010) illustrate rising P and A.",
-   "details": "Slide 18 shows the two growing IPAT drivers (source: *Sustainability: A Comprehensive Foundation*, IPAT chapter):\n\n- **P - World Population 1950-2050** (US Census Bureau, International Data Base, Dec 2010): **3 billion ~1960, 4 bn ~1974, 5 bn ~1987, 6 bn ~1999, 7 bn ~2012, 8 bn ~2026, 9 bn ~2045** - steady near-linear growth of ~1 billion every 12-14 years.\n- **A - Worldwide growth of real GDP 1999-2010** (CIA World Factbook via IndexMundi): annual world real growth mostly **~3-5%** (e.g. ~4.8% in 2000, ~5.2% in 2006-07), a dip to **~-0.7% in 2009** (global financial crisis), and a rebound to **~4.9% in 2010**.\n\nTakeaway: both **population and affluence keep rising**, so unless **T (technology)** improves dramatically, **impact I** will grow. This is the basis for the 2050 'factor five' calculation.",
-   "keyTerms": [
-    "population growth",
-    "GDP growth",
-    "affluence"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.ipat",
+      "label": "IPAT Equation",
+      "type": "framework",
+      "module": "M3",
+      "parent": "m3.part2",
+      "summary": "I = P x A x T: impact equals Population x Affluence (consumption/income per capita) x Technology (impact per unit); Ehrlich & Holdren 1974.",
+      "details": "**IPAT**, from **Ehrlich & Holdren (1974)**, says that environmental damage comes not only from population but also from consumption:\n\n**I = P x A x T**\n- **I - Impact** on the environment (e.g. emissions, resource use).\n- **P - Population** (number of people).\n- **A - Affluence**, measured as the **level of consumption per person** or **per-capita income**.\n- **T - Technology**, the impact per unit of consumption (how goods and energy are produced).\n\n**Why it matters**\n- It moves beyond the pure Malthusian focus on numbers: a large population with low consumption (India) can have less impact than a smaller, richer one (USA).\n- It reconciles **Ehrlich** (population) with **Commoner** (technology): all three factors multiply.\n- It frames policy: since P and A are rising, **T must fall** (decoupling) to keep I constant - see the 2050 scenario.\n\n**Limits**: the factors are not independent (technology can raise consumption, see **Jevons paradox**), and the equation ignores distribution and justice.",
+      "keyTerms": [
+        "IPAT",
+        "impact",
+        "population",
+        "affluence",
+        "technology",
+        "Ehrlich and Holdren"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            16,
+            17
+          ]
+        }
+      ],
+      "examTips": "Most likely exam item. State the formula, define each term (A = consumption/income per capita), name the authors (Ehrlich & Holdren 1974), and explain why T can raise or lower I. Do a simple calculation (e.g. P x1.35, A x4 -> T must fall ~5x). Quiz 1: A (Affluence) = level of consumption or per-capita income (not population, patents, area). Calculation items: see m3.calc.ipat."
+    },
     {
-     "module": "M3",
-     "slides": [
-      18
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.ipat.2050",
-   "label": "2050 Scenario: Factor-Five Decoupling",
-   "type": "data",
-   "module": "M3",
-   "parent": "m3.ipat",
-   "summary": "To keep 2050 environmental quality at 2010 levels with population +35% and affluence about x4, technology impact must fall by a factor of ~5.",
-   "details": "Applying IPAT: **how can environmental quality in 2050 be kept as it is now?**\n\nAssumptions (base year 2010):\n- **Population rises ~35%** by 2050 -> P x 1.35.\n- **Affluence rises about 4 times** -> A x 4.\n- If technology stayed constant, **I = 1.35 x 4 = 5.4 times** today's impact.\n\nTo keep **I constant**, technology must **'decouple'** - cut impact per unit of consumption **by a factor of about five** (T reduced to ~1/5 of 2010 levels).\n\nWhy it matters:\n- Shows how IPAT turns into a **quantitative policy target** (the 'Factor Five' idea of resource productivity).\n- Shows the burden falls on **technology and consumption patterns**, since population and income growth are hard to stop.\n- Raises the question of whether technology can deliver this without **rebound effects** (Jevons paradox) - setting up the dual-role and over-consumption discussions.",
-   "keyTerms": [
-    "decoupling",
-    "factor five",
-    "IPAT scenario",
-    "2050"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.ipat.pa-data",
+      "label": "P and A Data: Population & GDP Trends",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.ipat",
+      "summary": "Charts of world population (3 bn 1960 to ~9 bn 2045) and world real GDP growth (1999-2010) illustrate rising P and A.",
+      "details": "Slide 18 shows the two growing IPAT drivers (source: *Sustainability: A Comprehensive Foundation*, IPAT chapter):\n\n- **P - World Population 1950-2050** (US Census Bureau, International Data Base, Dec 2010): **3 billion ~1960, 4 bn ~1974, 5 bn ~1987, 6 bn ~1999, 7 bn ~2012, 8 bn ~2026, 9 bn ~2045** - steady near-linear growth of ~1 billion every 12-14 years.\n- **A - Worldwide growth of real GDP 1999-2010** (CIA World Factbook via IndexMundi): annual world real growth mostly **~3-5%** (e.g. ~4.8% in 2000, ~5.2% in 2006-07), a dip to **~-0.7% in 2009** (global financial crisis), and a rebound to **~4.9% in 2010**.\n\nTakeaway: both **population and affluence keep rising**, so unless **T (technology)** improves dramatically, **impact I** will grow. This is the basis for the 2050 'factor five' calculation.",
+      "keyTerms": [
+        "population growth",
+        "GDP growth",
+        "affluence"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            18
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      19
-     ]
-    }
-   ],
-   "examTips": "Be able to reproduce the arithmetic: 1.35 x 4 = 5.4, so T must fall ~5x. Explain what 'decoupling' means."
-  },
-  {
-   "id": "m3.tech-dual-role",
-   "label": "Dual Role of Technology",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.part2",
-   "summary": "Technology can reduce impact (efficiency, renewables, monitoring, innovation) or increase it (more exploitation, pollution, waste, consumption).",
-   "details": "If technology advances, can it solve environmental problems? The **technofix** view (attributed on the slide to Kurzweil) says yes. The lecture instead stresses technology's **dual role**:\n\n**Improving environmental impact**\n- **Efficiency** in using and managing natural resources\n- **Renewable energy**\n- **Pollution monitoring**\n- **Innovation**\n\n**Worsening environmental impact**\n- **Expansion of natural-resource exploitation**\n- **Pollution and waste**\n- **Increasing consumption**\n\nExamples (s20): **coal power plants** generally **increase GHG emissions**, while **solar power reduces** them. Yet coal can **reduce deforestation** if it replaces **firewood** as a cheap energy source - the same technology can be harmful in one respect and helpful in another.\n\nConnections: T in **IPAT** can push I up or down; the **Jevons paradox** shows efficiency gains can backfire; **Barry Commoner** emphasised the harmful side; **environmental justice** cases (EV batteries, AI) show 'green' technology shifting burdens elsewhere.",
-   "keyTerms": [
-    "dual role of technology",
-    "technofix",
-    "renewable energy",
-    "efficiency"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.ipat.2050",
+      "label": "2050 Scenario: Factor-Five Decoupling",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.ipat",
+      "summary": "To keep 2050 environmental quality at 2010 levels with population +35% and affluence about x4, technology impact must fall by a factor of ~5.",
+      "details": "Applying IPAT: **how can environmental quality in 2050 be kept as it is now?**\n\nAssumptions (base year 2010):\n- **Population rises ~35%** by 2050 -> P x 1.35.\n- **Affluence rises about 4 times** -> A x 4.\n- If technology stayed constant, **I = 1.35 x 4 = 5.4 times** today's impact.\n\nTo keep **I constant**, technology must **'decouple'** - cut impact per unit of consumption **by a factor of about five** (T reduced to ~1/5 of 2010 levels).\n\nWhy it matters:\n- Shows how IPAT turns into a **quantitative policy target** (the 'Factor Five' idea of resource productivity).\n- Shows the burden falls on **technology and consumption patterns**, since population and income growth are hard to stop.\n- Raises the question of whether technology can deliver this without **rebound effects** (Jevons paradox) - setting up the dual-role and over-consumption discussions.",
+      "keyTerms": [
+        "decoupling",
+        "factor five",
+        "IPAT scenario",
+        "2050"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            19
+          ]
+        }
+      ],
+      "examTips": "Be able to reproduce the arithmetic: 1.35 x 4 = 5.4, so T must fall ~5x. Explain what 'decoupling' means. Quiz 1 (EN Q18): P +35%, A x4 => 1.35 x 4 = 5.4, so T must fall by a factor of ~five. A second quiz item (ID Q18) used P +20%, A x2.5 => 3, so T must fall 3x. See m3.calc.ipat."
+    },
     {
-     "module": "M3",
-     "slides": [
-      20,
-      21
-     ]
-    }
-   ],
-   "examTips": "Give two examples each of technology improving and worsening impact. Explain the coal-vs-firewood nuance. Link to IPAT's T and to Jevons paradox."
-  },
-  {
-   "id": "m3.jevons",
-   "label": "Jevons Paradox: Rebound & Backfire",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.tech-dual-role",
-   "summary": "Efficiency gains can raise total resource use: rebound (consumption offsets savings) and backfire (overconsumption exceeds savings).",
-   "details": "**Jevons Paradox**: technological progress makes resource use **more efficient**, but it has also **increased total consumption** of natural resources. (Named after William Stanley Jevons, who observed in 1865 that more efficient steam engines increased Britain's coal use.)\n\nThe slide distinguishes:\n- **Rebound** - increased consumption eats into the efficiency savings (the slide labels this RE = 1).\n- **Backfire** - consumption rises so much (**overconsumption**) that total use exceeds what it was before the efficiency gain (slide label RE < 1).\n\n*Note:* the RE notation follows the slide; many textbooks instead describe backfire as a rebound effect **greater than 100%**. Know the concepts: rebound = savings partly/fully offset; backfire = efficiency leads to *more* total use.\n\nWhy cheaper/efficient = more use: lower cost per unit makes the good more attractive, so people use more of it (e.g. fuel-efficient cars driven further, LED lights left on).\n\nConnects the **T** and **A** terms of IPAT (they are not independent) and bridges to **over-consumption** in Part 3.3.",
-   "keyTerms": [
-    "Jevons paradox",
-    "rebound effect",
-    "backfire",
-    "efficiency"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.tech-dual-role",
+      "label": "Dual Role of Technology",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.part2",
+      "summary": "Technology can reduce impact (efficiency, renewables, monitoring, innovation) or increase it (more exploitation, pollution, waste, consumption).",
+      "details": "If technology advances, can it solve environmental problems? The **technofix** view (attributed on the slide to Kurzweil) says yes. The lecture instead stresses technology's **dual role**:\n\n**Improving environmental impact**\n- **Efficiency** in using and managing natural resources\n- **Renewable energy**\n- **Pollution monitoring**\n- **Innovation**\n\n**Worsening environmental impact**\n- **Expansion of natural-resource exploitation**\n- **Pollution and waste**\n- **Increasing consumption**\n\nExamples (s20): **coal power plants** generally **increase GHG emissions**, while **solar power reduces** them. Yet coal can **reduce deforestation** if it replaces **firewood** as a cheap energy source - the same technology can be harmful in one respect and helpful in another.\n\nConnections: T in **IPAT** can push I up or down; the **Jevons paradox** shows efficiency gains can backfire; **Barry Commoner** emphasised the harmful side; **environmental justice** cases (EV batteries, AI) show 'green' technology shifting burdens elsewhere.",
+      "keyTerms": [
+        "dual role of technology",
+        "technofix",
+        "renewable energy",
+        "efficiency"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            20,
+            21
+          ]
+        }
+      ],
+      "examTips": "Give two examples each of technology improving and worsening impact. Explain the coal-vs-firewood nuance. Link to IPAT's T and to Jevons paradox. Quiz 1: technology WORSENS impact via expansion of natural-resource exploitation (also pollution/waste, higher consumption); renewable energy, pollution monitoring and resource efficiency are the IMPROVING examples."
+    },
     {
-     "module": "M3",
-     "slides": [
-      22
-     ]
-    }
-   ],
-   "examTips": "Classic trick question: 'Does efficiency always reduce resource use?' Answer with Jevons paradox; distinguish rebound vs backfire."
-  },
-  {
-   "id": "m3.kuznets-kurzweil",
-   "label": "Kuznets & Kurzweil: Affluence Reduces Impact?",
-   "type": "debate",
-   "module": "M3",
-   "parent": "m3.part2",
-   "summary": "Claim: rising affluence plus advanced technology eventually lowers impact (e.g. reforestation in W. Europe/US vs loss in Brazil/Indonesia). Is it true?",
-   "details": "**Claim (Kuznets and Kurzweil)**: as **affluence** rises and technology advances, **environmental impact declines**. This echoes the **Environmental Kuznets Curve** - impact rises in early development, then falls after a certain income level - plus Kurzweil-style techno-optimism.\n\n**Evidence offered**: **reforestation** has increased in **Western Europe and the US**, while forests have **decreased in Brazil and Indonesia**.\n\n**Question posed: is the argument true?** Model answer outline:\n- *Partly*: richer countries can afford cleaner technology, stronger regulation and conservation; some local indicators (forests, air quality) improve.\n- *But*: rich countries often **outsource** land-use and pollution through trade - forests regrow at home while imports drive deforestation in Brazil/Indonesia (see **unequal impact / offshoring**).\n- **Consumption-based** CO2 and **ecological footprints** of rich countries remain highest (USA ~5 Earths).\n- **Global** impacts (GHG, biodiversity) don't follow the curve neatly; rebound effects can offset gains.\n\nConclusion: affluence can improve *local* indicators but often **displaces** impacts rather than eliminating them.",
-   "keyTerms": [
-    "Environmental Kuznets Curve",
-    "Kuznets",
-    "Kurzweil",
-    "reforestation",
-    "affluence"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.jevons",
+      "label": "Jevons Paradox: Rebound & Backfire",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.tech-dual-role",
+      "summary": "Efficiency gains can raise total resource use: rebound (consumption offsets savings) and backfire (overconsumption exceeds savings).",
+      "details": "**Jevons Paradox**: technological progress makes resource use **more efficient**, but it has also **increased total consumption** of natural resources. (Named after William Stanley Jevons, who observed in 1865 that more efficient steam engines increased Britain's coal use.)\n\nThe slide distinguishes:\n- **Rebound** - increased consumption eats into the efficiency savings (the slide labels this RE = 1).\n- **Backfire** - consumption rises so much (**overconsumption**) that total use exceeds what it was before the efficiency gain (slide label RE < 1).\n\n*Note:* the RE notation follows the slide; many textbooks instead describe backfire as a rebound effect **greater than 100%**. Know the concepts: rebound = savings partly/fully offset; backfire = efficiency leads to *more* total use.\n\nWhy cheaper/efficient = more use: lower cost per unit makes the good more attractive, so people use more of it (e.g. fuel-efficient cars driven further, LED lights left on).\n\nConnects the **T** and **A** terms of IPAT (they are not independent) and bridges to **over-consumption** in Part 3.3.",
+      "keyTerms": [
+        "Jevons paradox",
+        "rebound effect",
+        "backfire",
+        "efficiency"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            22
+          ]
+        }
+      ],
+      "examTips": "Classic trick question: 'Does efficiency always reduce resource use?' Answer with Jevons paradox; distinguish rebound vs backfire. Quiz 1: efficiency gains that increase total resource use = Jevons Paradox (lookalikes: Technofix, Malthusian theorem, rebound effect, ecocentrism)."
+    },
     {
-     "module": "M3",
-     "slides": [
-      23
-     ]
-    }
-   ],
-   "examTips": "Be ready to critique: displacement via trade/offshoring, consumption-based accounting, footprint data."
-  },
-  {
-   "id": "m3.env-justice",
-   "label": "Unequal Impact & Environmental Justice",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.part2",
-   "summary": "Environmental impacts are often borne by those who do not enjoy the benefits: producing countries, local communities, low- and middle-income countries.",
-   "details": "**Unequal environmental impact**: impacts are **not always borne by those who enjoy the benefits**. Goods consumed in one country can **use resources** in another and **generate emissions and pollution in the producing country**, while the benefits are enjoyed in the importing country.\n\nExamples (s24):\n- **Smartphones** - used in consumer countries, minerals mined elsewhere.\n- **Fast fashion** - clothes consumed in one country; **water, energy and production waste** occur in the producing region.\n- **Agricultural commodities** - consumption in importing countries linked to **land-use change** in producing countries.\n\n**Environmental justice** asks who bears these burdens. Mechanisms and cases:\n- **Offshoring** of polluting production to LMICs.\n- **EV battery minerals** - 'green' transport with extraction impacts in Chile and the DR Congo.\n- **AI data centres** - global benefits, local energy and water burdens.\n- The **EJAtlas** (ejatlas.org, Martinez-Alier 2023) maps thousands of environmental conflicts worldwide - largest categories include **mineral ores/building materials, fossil fuels & climate justice, and biomass/land conflicts**.\n\nThis is the bridge to Week 4's **Global North vs Global South**.",
-   "keyTerms": [
-    "environmental justice",
-    "unequal impact",
-    "externalities",
-    "EJAtlas",
-    "Global North-South"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.kuznets-kurzweil",
+      "label": "Kuznets & Kurzweil: Affluence Reduces Impact?",
+      "type": "debate",
+      "module": "M3",
+      "parent": "m3.part2",
+      "summary": "Claim: rising affluence plus advanced technology eventually lowers impact (e.g. reforestation in W. Europe/US vs loss in Brazil/Indonesia). Is it true?",
+      "details": "**Claim (Kuznets and Kurzweil)**: as **affluence** rises and technology advances, **environmental impact declines**. This echoes the **Environmental Kuznets Curve** - impact rises in early development, then falls after a certain income level - plus Kurzweil-style techno-optimism.\n\n**Evidence offered**: **reforestation** has increased in **Western Europe and the US**, while forests have **decreased in Brazil and Indonesia**.\n\n**Question posed: is the argument true?** Model answer outline:\n- *Partly*: richer countries can afford cleaner technology, stronger regulation and conservation; some local indicators (forests, air quality) improve.\n- *But*: rich countries often **outsource** land-use and pollution through trade - forests regrow at home while imports drive deforestation in Brazil/Indonesia (see **unequal impact / offshoring**).\n- **Consumption-based** CO2 and **ecological footprints** of rich countries remain highest (USA ~5 Earths).\n- **Global** impacts (GHG, biodiversity) don't follow the curve neatly; rebound effects can offset gains.\n\nConclusion: affluence can improve *local* indicators but often **displaces** impacts rather than eliminating them.",
+      "keyTerms": [
+        "Environmental Kuznets Curve",
+        "Kuznets",
+        "Kurzweil",
+        "reforestation",
+        "affluence"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            23
+          ]
+        }
+      ],
+      "examTips": "Be ready to critique: displacement via trade/offshoring, consumption-based accounting, footprint data."
+    },
     {
-     "module": "M3",
-     "slides": [
-      24,
-      25
-     ]
-    }
-   ],
-   "examTips": "Explain with an example why consumption in one country causes impacts in another. Link to Global North/South and consumption-based emissions."
-  },
-  {
-   "id": "m3.offshoring",
-   "label": "Offshoring & Environmental Externalities",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.env-justice",
-   "summary": "Transnational firms relocate production and source raw materials in LMICs with looser regulation, shifting environmental damage onto others.",
-   "details": "**Offshoring** is the practice of **transnational corporations relocating production facilities** and **sourcing raw materials from low- and middle-income countries (LMICs)**, which often have **looser environmental regulations**.\n\n- **Since the 1970s**, many **North American and European companies** moved production to **Latin America and Asia**.\n- Result: **environmental externalities** - environmental damage **borne by other parties** than those who profit or consume (Robbins et al., 2014, *Environment & Society*).\n- The **EJAtlas** map of environmental conflicts (Martinez-Alier, 2023) shows dense clusters of conflicts in Latin America, Africa, South and Southeast Asia, consistent with impacts being exported.\n\nWhy it matters:\n- It explains how rich countries can show falling domestic pollution or rising forest cover (the **Kuznets** claim) while their **consumption-based** impact stays high.\n- It is a core argument for **consumption-based accounting** (CO2 per capita by consumption, ecological footprint) rather than production-based national inventories.",
-   "keyTerms": [
-    "offshoring",
-    "externalities",
-    "LMIC",
-    "pollution haven"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.env-justice",
+      "label": "Unequal Impact & Environmental Justice",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.part2",
+      "summary": "Environmental impacts are often borne by those who do not enjoy the benefits: producing countries, local communities, low- and middle-income countries.",
+      "details": "**Unequal environmental impact**: impacts are **not always borne by those who enjoy the benefits**. Goods consumed in one country can **use resources** in another and **generate emissions and pollution in the producing country**, while the benefits are enjoyed in the importing country.\n\nExamples (s24):\n- **Smartphones** - used in consumer countries, minerals mined elsewhere.\n- **Fast fashion** - clothes consumed in one country; **water, energy and production waste** occur in the producing region.\n- **Agricultural commodities** - consumption in importing countries linked to **land-use change** in producing countries.\n\n**Environmental justice** asks who bears these burdens. Mechanisms and cases:\n- **Offshoring** of polluting production to LMICs.\n- **EV battery minerals** - 'green' transport with extraction impacts in Chile and the DR Congo.\n- **AI data centres** - global benefits, local energy and water burdens.\n- The **EJAtlas** (ejatlas.org, Martinez-Alier 2023) maps thousands of environmental conflicts worldwide - largest categories include **mineral ores/building materials, fossil fuels & climate justice, and biomass/land conflicts**.\n\nThis is the bridge to Week 4's **Global North vs Global South**.",
+      "keyTerms": [
+        "environmental justice",
+        "unequal impact",
+        "externalities",
+        "EJAtlas",
+        "Global North-South"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            24,
+            25
+          ]
+        }
+      ],
+      "examTips": "Explain with an example why consumption in one country causes impacts in another. Link to Global North/South and consumption-based emissions."
+    },
     {
-     "module": "M3",
-     "slides": [
-      25
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.ev-battery",
-   "label": "Case: EV Batteries (LFP vs NMC)",
-   "type": "case-study",
-   "module": "M3",
-   "parent": "m3.env-justice",
-   "summary": "EVs cut emissions but drive mineral demand (cobalt x39.6 by 2030); LFP batteries have far lower GWP and water use than NMC.",
-   "details": "**Electric vehicles** show technology's dual role and environmental justice together.\n\n**Benefits**: in **China**, EV policies can contribute significantly to **climate mitigation, air-quality improvement and public health** (Hsieh et al., 2022).\n\n**Mineral demand**: by **2030** (vs 2015) demand for **cobalt x39.6, lithium x19.6, manganese x5.2, nickel x4.7** (Jones et al., 2020), much of it from **developing regions**.\n\n**Extraction impacts** (Prates et al., 2023): **groundwater depletion from lithium mining in Chile**; **unsafe working conditions and child labour** in **DR Congo** cobalt mines.\n\n**Two battery chemistries**:\n- **LFP** - lithium-iron-phosphate; **NMC** - nickel-manganese-cobalt (higher energy density, longer range).\n- **GWP of production: NMC ~1,208 vs LFP ~573 kg CO2-eq**; **water use: NMC ~153.6 vs LFP ~25.8** (per unit, per the LCA cited).\n- LFP also performs better on several air/water pollution and toxicity indicators.\n- Industry response: **~70% of EVs in China use LFP**.\n\n**'How about Indonesia?'** - the government promotes **nickel-based** batteries (Indonesia's large nickel reserves) while makers such as BYD still rely on LFP: a live trade-off between industrial policy and footprint.",
-   "keyTerms": [
-    "electric vehicle",
-    "LFP",
-    "NMC",
-    "critical minerals",
-    "cobalt",
-    "lithium",
-    "nickel"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.offshoring",
+      "label": "Offshoring & Environmental Externalities",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.env-justice",
+      "summary": "Transnational firms relocate production and source raw materials in LMICs with looser regulation, shifting environmental damage onto others.",
+      "details": "**Offshoring** is the practice of **transnational corporations relocating production facilities** and **sourcing raw materials from low- and middle-income countries (LMICs)**, which often have **looser environmental regulations**.\n\n- **Since the 1970s**, many **North American and European companies** moved production to **Latin America and Asia**.\n- Result: **environmental externalities** - environmental damage **borne by other parties** than those who profit or consume (Robbins et al., 2014, *Environment & Society*).\n- The **EJAtlas** map of environmental conflicts (Martinez-Alier, 2023) shows dense clusters of conflicts in Latin America, Africa, South and Southeast Asia, consistent with impacts being exported.\n\nWhy it matters:\n- It explains how rich countries can show falling domestic pollution or rising forest cover (the **Kuznets** claim) while their **consumption-based** impact stays high.\n- It is a core argument for **consumption-based accounting** (CO2 per capita by consumption, ecological footprint) rather than production-based national inventories.",
+      "keyTerms": [
+        "offshoring",
+        "externalities",
+        "LMIC",
+        "pollution haven"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            25
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      25,
-      26
-     ]
-    }
-   ],
-   "examTips": "Know that LFP has roughly half the GWP and ~1/6 the water use of NMC, and why Indonesia's nickel strategy is relevant."
-  },
-  {
-   "id": "m3.ai-datacenter",
-   "label": "Case: AI Data Centres' Energy Demand",
-   "type": "case-study",
-   "module": "M3",
-   "parent": "m3.env-justice",
-   "summary": "Data centres used ~415 TWh (1.5% of global electricity) in 2024, projected ~945 TWh by 2030 driven by AI; impacts concentrate locally.",
-   "details": "**AI requires data centres that demand large amounts of electricity** (IEA, *Energy and AI*).\n\n- **2024**: data centres consumed **~415 TWh**, about **1.5% of global electricity consumption**.\n- **2030 projection**: **~945 TWh** (more than double), with **AI as the primary driver**.\n- The IEA map (slide 28) shows data centres are **clustered** - largest clusters named include **Northern Virginia, Chicago, Dallas, Omaha** (US), **Dublin, London** (Europe), **Beijing, Shanghai, Pearl River Delta, Singapore** (Asia) - **potentially creating challenges for local electricity systems**.\n\n**Justice question** on the slide: while **AI's benefits are enjoyed by many**, its **energy and water demands are concentrated where data centres are built** - are these impacts distributed equitably?\n\nConnections: another example of technology's **dual role** (digital efficiency vs new energy demand), a possible **Jevons**-type rebound, and of **unequal impact** between beneficiaries and host communities.",
-   "keyTerms": [
-    "AI",
-    "data centres",
-    "electricity demand",
-    "IEA"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.ev-battery",
+      "label": "Case: EV Batteries (LFP vs NMC)",
+      "type": "case-study",
+      "module": "M3",
+      "parent": "m3.env-justice",
+      "summary": "EVs cut emissions but drive mineral demand (cobalt x39.6 by 2030); LFP batteries have far lower GWP and water use than NMC.",
+      "details": "**Electric vehicles** show technology's dual role and environmental justice together.\n\n**Benefits**: in **China**, EV policies can contribute significantly to **climate mitigation, air-quality improvement and public health** (Hsieh et al., 2022).\n\n**Mineral demand**: by **2030** (vs 2015) demand for **cobalt x39.6, lithium x19.6, manganese x5.2, nickel x4.7** (Jones et al., 2020), much of it from **developing regions**.\n\n**Extraction impacts** (Prates et al., 2023): **groundwater depletion from lithium mining in Chile**; **unsafe working conditions and child labour** in **DR Congo** cobalt mines.\n\n**Two battery chemistries**:\n- **LFP** - lithium-iron-phosphate; **NMC** - nickel-manganese-cobalt (higher energy density, longer range).\n- **GWP of production: NMC ~1,208 vs LFP ~573 kg CO2-eq**; **water use: NMC ~153.6 vs LFP ~25.8** (per unit, per the LCA cited).\n- LFP also performs better on several air/water pollution and toxicity indicators.\n- Industry response: **~70% of EVs in China use LFP**.\n\n**'How about Indonesia?'** - the government promotes **nickel-based** batteries (Indonesia's large nickel reserves) while makers such as BYD still rely on LFP: a live trade-off between industrial policy and footprint.",
+      "keyTerms": [
+        "electric vehicle",
+        "LFP",
+        "NMC",
+        "critical minerals",
+        "cobalt",
+        "lithium",
+        "nickel"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            25,
+            26
+          ]
+        }
+      ],
+      "examTips": "Know that LFP has roughly half the GWP and ~1/6 the water use of NMC, and why Indonesia's nickel strategy is relevant."
+    },
     {
-     "module": "M3",
-     "slides": [
-      27,
-      28
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.part3",
-   "label": "Part 3.3: Over-Consumption",
-   "type": "topic",
-   "module": "M3",
-   "parent": "m3",
-   "summary": "Consumption beyond need or beyond ecosystem recovery drives damage; includes addictive consumption and hyperconsumption, concentrated among the richest.",
-   "details": "Part 3.3 shifts the blame question from population to **consumption**.\n\n- **Overconsumption**: consumption so excessive it **drives environmental damage**; consumption behaviour can be rational, cultural, pleasurable, identity-based or communicative.\n- **Evidence**: the richest **10%** of people emit about half of CO2 while the poorest **50%** emit only ~10%; consumption-based CO2 per capita is high in only a few countries.\n- **Addictive consumption** (John Ehrenfeld) - unrelated to real needs, harms health and social participation.\n- **Overconsumption is not only about wealth**: everyday examples (AC, lights, food waste, single-use plastic, excess fertiliser) and North vs South differences.\n- **Hyperconsumption** (Gilles Lipovetsky, 2011) - buying driven by novelty, speed and status, enabled by technology and easy credit.",
-   "keyTerms": [
-    "overconsumption",
-    "hyperconsumption",
-    "addictive consumption"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.ai-datacenter",
+      "label": "Case: AI Data Centres' Energy Demand",
+      "type": "case-study",
+      "module": "M3",
+      "parent": "m3.env-justice",
+      "summary": "Data centres used ~415 TWh (1.5% of global electricity) in 2024, projected ~945 TWh by 2030 driven by AI; impacts concentrate locally.",
+      "details": "**AI requires data centres that demand large amounts of electricity** (IEA, *Energy and AI*).\n\n- **2024**: data centres consumed **~415 TWh**, about **1.5% of global electricity consumption**.\n- **2030 projection**: **~945 TWh** (more than double), with **AI as the primary driver**.\n- The IEA map (slide 28) shows data centres are **clustered** - largest clusters named include **Northern Virginia, Chicago, Dallas, Omaha** (US), **Dublin, London** (Europe), **Beijing, Shanghai, Pearl River Delta, Singapore** (Asia) - **potentially creating challenges for local electricity systems**.\n\n**Justice question** on the slide: while **AI's benefits are enjoyed by many**, its **energy and water demands are concentrated where data centres are built** - are these impacts distributed equitably?\n\nConnections: another example of technology's **dual role** (digital efficiency vs new energy demand), a possible **Jevons**-type rebound, and of **unequal impact** between beneficiaries and host communities.",
+      "keyTerms": [
+        "AI",
+        "data centres",
+        "electricity demand",
+        "IEA"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            27,
+            28
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.overconsumption",
-   "label": "Overconsumption",
-   "type": "definition",
-   "module": "M3",
-   "parent": "m3.part3",
-   "summary": "Using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality; a key driver of damage.",
-   "details": "**Overconsumption** is the **level of excessive consumption that drives environmental damage** - formally, **using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality** (s30, s34; Heinrichs et al. 2016, *Sustainability Science*, ch. 5).\n\n**Why people consume** - perspectives on consumption behaviour: **rational, cultural, pleasurable, identity, communication** (signalling status or progress).\n\n**Overconsumption is not always about economic capability** (s33):\n- **Global North**: consumptive lifestyles, high industrialisation.\n- **Global South**: export of natural resources, rapid urbanisation. Lecturer's note: at macro level Southern overconsumption is hidden because only a small share of people overconsume - there is a big **gap between individuals**.\n\nOverconsumption is the 'A' in IPAT made visible, the cause of **backfire** in the Jevons paradox, and what the **ecological footprint** measures. It reframes the population debate: **who consumes** matters more than **how many** people there are.",
-   "keyTerms": [
-    "overconsumption",
-    "consumption behaviour",
-    "Global North",
-    "Global South"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.part3",
+      "label": "Part 3.3: Over-Consumption",
+      "type": "topic",
+      "module": "M3",
+      "parent": "m3",
+      "summary": "Consumption beyond need or beyond ecosystem recovery drives damage; includes addictive consumption and hyperconsumption, concentrated among the richest.",
+      "details": "Part 3.3 shifts the blame question from population to **consumption**.\n\n- **Overconsumption**: consumption so excessive it **drives environmental damage**; consumption behaviour can be rational, cultural, pleasurable, identity-based or communicative.\n- **Evidence**: the richest **10%** of people emit about half of CO2 while the poorest **50%** emit only ~10%; consumption-based CO2 per capita is high in only a few countries.\n- **Addictive consumption** (John Ehrenfeld) - unrelated to real needs, harms health and social participation.\n- **Overconsumption is not only about wealth**: everyday examples (AC, lights, food waste, single-use plastic, excess fertiliser) and North vs South differences.\n- **Hyperconsumption** (Gilles Lipovetsky, 2011) - buying driven by novelty, speed and status, enabled by technology and easy credit.",
+      "keyTerms": [
+        "overconsumption",
+        "hyperconsumption",
+        "addictive consumption"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      30,
-      33,
-      34
-     ]
-    }
-   ],
-   "examTips": "Define overconsumption and contrast it with hyperconsumption (need-exceeding vs status/novelty-driven). Argue 'overconsumption, not overpopulation' using footprint and CO2 data."
-  },
-  {
-   "id": "m3.consumption-co2",
-   "label": "Consumption Inequality & CO2 Data",
-   "type": "data",
-   "module": "M3",
-   "parent": "m3.overconsumption",
-   "summary": "Richest 10% emit roughly half of global CO2; poorest 50% only ~10%. Consumption-based CO2 per capita (2021) is high in few countries.",
-   "details": "Two pieces of evidence that **overconsumption is concentrated**:\n\n1. **Emissions by income group** (s30, the widely cited Oxfam-style 'champagne glass' chart): when the world's population is ranked by income, the **richest 10%** account for a very large share of CO2 emissions (about half), while the **poorest 50%** - mostly in the Global South - account for **only ~10%**.\n2. **CO2 emissions per capita based on consumption (2021) by country** (s31, map): emissions counted where goods are **consumed**, not produced. Dark (high) colours appear in **only a few places**; most of the world map is light, meaning **low consumption**.\n\nWhy consumption-based accounting matters: it assigns emissions from imported goods to the importing country, correcting for **offshoring** and making rich countries' true impact visible.\n\nLecturer's point: half of humanity contributes little to environmental damage; the problem lies with the overconsumption of a wealthy minority, mostly in the Global North.",
-   "keyTerms": [
-    "consumption-based emissions",
-    "CO2 per capita",
-    "richest 10%",
-    "carbon inequality"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.overconsumption",
+      "label": "Overconsumption",
+      "type": "definition",
+      "module": "M3",
+      "parent": "m3.part3",
+      "summary": "Using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality; a key driver of damage.",
+      "details": "**Overconsumption** is the **level of excessive consumption that drives environmental damage** - formally, **using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality** (s30, s34; Heinrichs et al. 2016, *Sustainability Science*, ch. 5).\n\n**Why people consume** - perspectives on consumption behaviour: **rational, cultural, pleasurable, identity, communication** (signalling status or progress).\n\n**Overconsumption is not always about economic capability** (s33):\n- **Global North**: consumptive lifestyles, high industrialisation.\n- **Global South**: export of natural resources, rapid urbanisation. Lecturer's note: at macro level Southern overconsumption is hidden because only a small share of people overconsume - there is a big **gap between individuals**.\n\nOverconsumption is the 'A' in IPAT made visible, the cause of **backfire** in the Jevons paradox, and what the **ecological footprint** measures. It reframes the population debate: **who consumes** matters more than **how many** people there are.",
+      "keyTerms": [
+        "overconsumption",
+        "consumption behaviour",
+        "Global North",
+        "Global South"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            30,
+            33,
+            34
+          ]
+        }
+      ],
+      "examTips": "Define overconsumption and contrast it with hyperconsumption (need-exceeding vs status/novelty-driven). Argue 'overconsumption, not overpopulation' using footprint and CO2 data. Quiz 1: overconsumption = using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality (not affluence, hyperconsumption, addictive consumption, rebound)."
+    },
     {
-     "module": "M3",
-     "slides": [
-      30,
-      31
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.overconsumption-examples",
-   "label": "Everyday Overconsumption & Planned Obsolescence",
-   "type": "example",
-   "module": "M3",
-   "parent": "m3.overconsumption",
-   "summary": "AC set very cold all day, lights left on, oversized portions and food waste, single-use plastic, excess fertiliser; products built to fail.",
-   "details": "**Everyday examples of overconsumption** (s33):\n- Using **air conditioning at very low temperatures all day**.\n- **Turning on lights** when not in use.\n- **Eating portions larger than needed** and leaving leftovers (food waste).\n- **Single-use packaging** - plastic and disposable utensils.\n- **Overusing fertilisers** beyond plants' needs (links to agricultural intensification trade-offs).\n\n**Planned obsolescence** (lecturer's notes): products are designed with a **limited lifespan**, forcing repeat purchases:\n- **Incandescent bulbs** limited to ~**1,000 hours** (the historic Phoebus cartel).\n- **DuPont nylon stockings** - reportedly made less durable to sell more.\n- **Electronics, furniture**, etc.\n\nThese show overconsumption is often habitual and built into products and systems, not just a matter of individual wealth - relevant to the discussion question on whether change can be individual or must be collective/policy-driven.",
-   "keyTerms": [
-    "planned obsolescence",
-    "food waste",
-    "single-use plastic"
-   ],
-   "importance": 1,
-   "sources": [
+      "id": "m3.consumption-co2",
+      "label": "Consumption Inequality & CO2 Data",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.overconsumption",
+      "summary": "Richest 10% emit roughly half of global CO2; poorest 50% only ~10%. Consumption-based CO2 per capita (2021) is high in few countries.",
+      "details": "Two pieces of evidence that **overconsumption is concentrated**:\n\n1. **Emissions by income group** (s30, the widely cited Oxfam-style 'champagne glass' chart): when the world's population is ranked by income, the **richest 10%** account for a very large share of CO2 emissions (about half), while the **poorest 50%** - mostly in the Global South - account for **only ~10%**.\n2. **CO2 emissions per capita based on consumption (2021) by country** (s31, map): emissions counted where goods are **consumed**, not produced. Dark (high) colours appear in **only a few places**; most of the world map is light, meaning **low consumption**.\n\nWhy consumption-based accounting matters: it assigns emissions from imported goods to the importing country, correcting for **offshoring** and making rich countries' true impact visible.\n\nLecturer's point: half of humanity contributes little to environmental damage; the problem lies with the overconsumption of a wealthy minority, mostly in the Global North.",
+      "keyTerms": [
+        "consumption-based emissions",
+        "CO2 per capita",
+        "richest 10%",
+        "carbon inequality"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            30,
+            31
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      33
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.addictive-consumption",
-   "label": "Addictive Consumption",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.part3",
-   "summary": "John Ehrenfeld: consumption that becomes addictive, unrelated to real needs, lowers individual health and social participation (e.g. obesity).",
-   "details": "**Overconsumption can become addictive** - consumption **not related to actual needs**.\n\n- Concept from **John Ehrenfeld** (chemical engineer, sustainability thinker; *Sustainability by Design*).\n- **Addictive consumption** results in **low levels of individual health** and **low participation in society** - people become self-focused.\n- **Example: obesity** - overconsumption of food harming health.\n\nWhy it matters: it shows overconsumption harms not just the environment but **human wellbeing**, undermining the assumption that more consumption = a better life. It links to **hyperconsumption** (psychological/social drivers) and to the idea that sustainability requires redefining 'need' and 'enough'.",
-   "keyTerms": [
-    "addictive consumption",
-    "John Ehrenfeld",
-    "obesity"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.overconsumption-examples",
+      "label": "Everyday Overconsumption & Planned Obsolescence",
+      "type": "example",
+      "module": "M3",
+      "parent": "m3.overconsumption",
+      "summary": "AC set very cold all day, lights left on, oversized portions and food waste, single-use plastic, excess fertiliser; products built to fail.",
+      "details": "**Everyday examples of overconsumption** (s33):\n- Using **air conditioning at very low temperatures all day**.\n- **Turning on lights** when not in use.\n- **Eating portions larger than needed** and leaving leftovers (food waste).\n- **Single-use packaging** - plastic and disposable utensils.\n- **Overusing fertilisers** beyond plants' needs (links to agricultural intensification trade-offs).\n\n**Planned obsolescence** (lecturer's notes): products are designed with a **limited lifespan**, forcing repeat purchases:\n- **Incandescent bulbs** limited to ~**1,000 hours** (the historic Phoebus cartel).\n- **DuPont nylon stockings** - reportedly made less durable to sell more.\n- **Electronics, furniture**, etc.\n\nThese show overconsumption is often habitual and built into products and systems, not just a matter of individual wealth - relevant to the discussion question on whether change can be individual or must be collective/policy-driven.",
+      "keyTerms": [
+        "planned obsolescence",
+        "food waste",
+        "single-use plastic"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            33
+          ]
+        }
+      ],
+      "examTips": "Quiz 1 calculation items use these slide examples (AC set very cold, lights left on): 20 LED x 15 W, 10 h/day, 30 days at 1,000/kWh = 90,000; 750 W AC, 12 h/day, 30 days at Rp 1,500/kWh = Rp 405,000 (see m3.calc.electricity)."
+    },
     {
-     "module": "M3",
-     "slides": [
-      32
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.hyperconsumption",
-   "label": "Hyperconsumption",
-   "type": "definition",
-   "module": "M3",
-   "parent": "m3.part3",
-   "summary": "Lipovetsky (2011): buying driven by social/psychological factors (novelty, speed, status) far beyond functional need, with rapid turnover and duplication.",
-   "details": "**Hyperconsumption** (**Gilles Lipovetsky, 2011**): purchasing/using **driven by social and psychological factors far beyond functional needs** - **speed, novelty, status** - with **rapid turnover** and **many duplications**.\n\n**Context**: geographical and time boundaries are increasingly **negligible** (anything can be bought anytime online); technology is **entrenched in daily life**; people want the **latest / most up-to-date** products.\n\n**Drivers**: trends and technological advancement; easy credit - **loan modes such as PayLater, credit cards and instalment schemes** make buying easier.\n\n**Overconsumption vs hyperconsumption**:\n- *Overconsumption* = using **more than needed** or **beyond ecosystem recovery** -> environmental degradation.\n- *Hyperconsumption* = buying for **novelty/identity**, far beyond function, with fast replacement.\n\nHyperconsumption is a powerful **A (affluence)** amplifier in IPAT and a main reason footprints of rich societies exceed biocapacity.",
-   "keyTerms": [
-    "hyperconsumption",
-    "Gilles Lipovetsky",
-    "PayLater",
-    "novelty",
-    "status consumption"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.addictive-consumption",
+      "label": "Addictive Consumption",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.part3",
+      "summary": "John Ehrenfeld: consumption that becomes addictive, unrelated to real needs, lowers individual health and social participation (e.g. obesity).",
+      "details": "**Overconsumption can become addictive** - consumption **not related to actual needs**.\n\n- Concept from **John Ehrenfeld** (chemical engineer, sustainability thinker; *Sustainability by Design*).\n- **Addictive consumption** results in **low levels of individual health** and **low participation in society** - people become self-focused.\n- **Example: obesity** - overconsumption of food harming health.\n\nWhy it matters: it shows overconsumption harms not just the environment but **human wellbeing**, undermining the assumption that more consumption = a better life. It links to **hyperconsumption** (psychological/social drivers) and to the idea that sustainability requires redefining 'need' and 'enough'.",
+      "keyTerms": [
+        "addictive consumption",
+        "John Ehrenfeld",
+        "obesity"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            32
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      34,
-      35
-     ]
-    }
-   ],
-   "examTips": "Most likely: 'Distinguish overconsumption from hyperconsumption with examples.' Name Lipovetsky (2011)."
-  },
-  {
-   "id": "m3.hyperconsumption-examples",
-   "label": "Hyperconsumption Examples",
-   "type": "example",
-   "module": "M3",
-   "parent": "m3.hyperconsumption",
-   "summary": "Fast fashion, fast furniture, yearly gadget upgrades, duplicated skincare, frequent food delivery and buy-try-return e-commerce.",
-   "details": "Examples from the slide and lecturer's notes:\n\n- **Fast fashion** - buying the latest styles **every month**; 'haul' clothes worn only **5-10 times**; wardrobe clear-outs each season.\n- **Fast furniture** - cheap, **low-durability** furniture produced and discarded quickly.\n- **Gadgets** - **replacing phones every year** for the newest model while the old one still works; owning several similar devices.\n- **Cosmetics/skincare** - overlapping products, 10+ step routines with duplication.\n- **Home decor** - seasonal themes, renting storage for rarely used items.\n- **Food delivery** - ordering via apps several times a day for variety, generating lots of packaging waste.\n- **E-commerce** - buy-try-return cycles as entertainment.\n\nCommon thread: **novelty and identity**, not function, plus **easy credit (PayLater, instalments)**. Each example multiplies resource use, waste and emissions - and many shift production impacts to other countries (fast fashion -> **unequal impact**).",
-   "keyTerms": [
-    "fast fashion",
-    "fast furniture",
-    "gadget upgrades"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.hyperconsumption",
+      "label": "Hyperconsumption",
+      "type": "definition",
+      "module": "M3",
+      "parent": "m3.part3",
+      "summary": "Lipovetsky (2011): buying driven by social/psychological factors (novelty, speed, status) far beyond functional need, with rapid turnover and duplication.",
+      "details": "**Hyperconsumption** (**Gilles Lipovetsky, 2011**): purchasing/using **driven by social and psychological factors far beyond functional needs** - **speed, novelty, status** - with **rapid turnover** and **many duplications**.\n\n**Context**: geographical and time boundaries are increasingly **negligible** (anything can be bought anytime online); technology is **entrenched in daily life**; people want the **latest / most up-to-date** products.\n\n**Drivers**: trends and technological advancement; easy credit - **loan modes such as PayLater, credit cards and instalment schemes** make buying easier.\n\n**Overconsumption vs hyperconsumption**:\n- *Overconsumption* = using **more than needed** or **beyond ecosystem recovery** -> environmental degradation.\n- *Hyperconsumption* = buying for **novelty/identity**, far beyond function, with fast replacement.\n\nHyperconsumption is a powerful **A (affluence)** amplifier in IPAT and a main reason footprints of rich societies exceed biocapacity.",
+      "keyTerms": [
+        "hyperconsumption",
+        "Gilles Lipovetsky",
+        "PayLater",
+        "novelty",
+        "status consumption"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            34,
+            35
+          ]
+        }
+      ],
+      "examTips": "Most likely: 'Distinguish overconsumption from hyperconsumption with examples.' Name Lipovetsky (2011). Quiz 1: buying/replacing gadgets yearly for speed, novelty or status = hyperconsumption (not overconsumption, addictive consumption, rebound effect, provisioning services)."
+    },
     {
-     "module": "M3",
-     "slides": [
-      35
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.part4",
-   "label": "Part 3.4: Ecological Footprint",
-   "type": "topic",
-   "module": "M3",
-   "parent": "m3",
-   "summary": "Ecological footprint measures human demand on nature in global hectares and compares it with biocapacity to reveal overshoot.",
-   "details": "Part 3.4 introduces a way to **measure** overconsumption against planetary limits.\n\n- **Ecological footprint** - human demand for natural capital: land/sea area needed to provide resources and absorb waste.\n- Compared with **biocapacity** - productive area available. Footprint > biocapacity = **ecological deficit / overshoot**. Globally we used **73% of biocapacity in 1961 vs 160% in 2020**.\n- **Measured** in **global hectares (gha) per person per year** from food, housing energy/materials, mobility and waste.\n- **Indonesia (2022)**: biocapacity 1.2 gha vs footprint 1.8 gha -> **deficit -0.6 gha**.\n- **How many Earths**: USA ~5, India <1, world ~1.75.\n- **Discussion**: calculate your own footprint and decide which changes are individual vs collective/policy.",
-   "keyTerms": [
-    "ecological footprint",
-    "biocapacity",
-    "global hectare",
-    "overshoot"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.hyperconsumption-examples",
+      "label": "Hyperconsumption Examples",
+      "type": "example",
+      "module": "M3",
+      "parent": "m3.hyperconsumption",
+      "summary": "Fast fashion, fast furniture, yearly gadget upgrades, duplicated skincare, frequent food delivery and buy-try-return e-commerce.",
+      "details": "Examples from the slide and lecturer's notes:\n\n- **Fast fashion** - buying the latest styles **every month**; 'haul' clothes worn only **5-10 times**; wardrobe clear-outs each season.\n- **Fast furniture** - cheap, **low-durability** furniture produced and discarded quickly.\n- **Gadgets** - **replacing phones every year** for the newest model while the old one still works; owning several similar devices.\n- **Cosmetics/skincare** - overlapping products, 10+ step routines with duplication.\n- **Home decor** - seasonal themes, renting storage for rarely used items.\n- **Food delivery** - ordering via apps several times a day for variety, generating lots of packaging waste.\n- **E-commerce** - buy-try-return cycles as entertainment.\n\nCommon thread: **novelty and identity**, not function, plus **easy credit (PayLater, instalments)**. Each example multiplies resource use, waste and emissions - and many shift production impacts to other countries (fast fashion -> **unequal impact**).",
+      "keyTerms": [
+        "fast fashion",
+        "fast furniture",
+        "gadget upgrades"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            35
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.eco-footprint",
-   "label": "Ecological Footprint: Concept",
-   "type": "definition",
-   "module": "M3",
-   "parent": "m3.part4",
-   "summary": "A measure of human demand for natural capital: the biologically productive area needed to supply resources and absorb wastes.",
-   "details": "The **ecological footprint** is a **measure of human demand for natural capital** - the **amount of nature needed to support a person, population or economy**. In other words, a **measure of human impact on the environment**.\n\n- Tracked via an **ecological accounting system** (Global Footprint Network) that measures the **land area required to provide resources for human activities and to absorb its waste** (e.g. forest area to absorb CO2).\n- **The more resources an individual or society consumes, the larger its footprint.**\n- Lecturer's plain version: *how much land do humans need to meet their needs and wants?*\n\nWhy it matters:\n- It translates consumption into a single comparable unit (**global hectares**) and can be compared directly with **biocapacity**.\n- It is the measurement tool for the **overconsumption** argument and the modern analogue of **carrying capacity** for humans.\n- It connects to **planetary boundaries**: overshoot signals living outside the safe operating space.",
-   "keyTerms": [
-    "ecological footprint",
-    "natural capital",
-    "Global Footprint Network",
-    "ecological accounting"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.part4",
+      "label": "Part 3.4: Ecological Footprint",
+      "type": "topic",
+      "module": "M3",
+      "parent": "m3",
+      "summary": "Ecological footprint measures human demand on nature in global hectares and compares it with biocapacity to reveal overshoot.",
+      "details": "Part 3.4 introduces a way to **measure** overconsumption against planetary limits.\n\n- **Ecological footprint** - human demand for natural capital: land/sea area needed to provide resources and absorb waste.\n- Compared with **biocapacity** - productive area available. Footprint > biocapacity = **ecological deficit / overshoot**. Globally we used **73% of biocapacity in 1961 vs 160% in 2020**.\n- **Measured** in **global hectares (gha) per person per year** from food, housing energy/materials, mobility and waste.\n- **Indonesia (2022)**: biocapacity 1.2 gha vs footprint 1.8 gha -> **deficit -0.6 gha**.\n- **How many Earths**: USA ~5, India <1, world ~1.75.\n- **Discussion**: calculate your own footprint and decide which changes are individual vs collective/policy.",
+      "keyTerms": [
+        "ecological footprint",
+        "biocapacity",
+        "global hectare",
+        "overshoot"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      37
-     ]
-    }
-   ],
-   "examTips": "Define ecological footprint precisely (demand for productive land/sea to supply resources AND absorb waste). Don't confuse with carbon footprint (only one component)."
-  },
-  {
-   "id": "m3.biocapacity",
-   "label": "Footprint vs Biocapacity & Overshoot",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.part4",
-   "summary": "Footprint (area demanded) is compared with biocapacity (productive area available); humanity used 73% of biocapacity in 1961 and 160% in 2020.",
-   "details": "The calculation **compares**:\n- **Ecological footprint** - the area of **biologically productive land needed** to supply everything humans consume (**demand**).\n- **Biocapacity** - the area of **biologically productive land available** to produce what humans demand from nature (**supply**).\n\nIf **footprint > biocapacity**, there is an **ecological deficit** (nationally) or **overshoot** (globally): capacity has been exceeded and needs surpass what nature can regenerate.\n\n**Global data** (Global Footprint Network, 'Busting our Biocapacity Budget'):\n- **1961**: humanity used **73%** of Earth's biocapacity (within limits).\n- **2020**: humanity used **160%** - roughly **1.6 Earths** - an overshoot also expressed as **Earth Overshoot Day**.\n\nConnections: biocapacity is effectively **carrying capacity** in area units; overshoot is the footprint version of breaching **planetary boundaries**. Overshoot is possible only temporarily, by depleting stocks (forests, fish, groundwater) and accumulating waste (CO2).",
-   "keyTerms": [
-    "biocapacity",
-    "ecological deficit",
-    "overshoot",
-    "Earth Overshoot Day"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.eco-footprint",
+      "label": "Ecological Footprint: Concept",
+      "type": "definition",
+      "module": "M3",
+      "parent": "m3.part4",
+      "summary": "A measure of human demand for natural capital: the biologically productive area needed to supply resources and absorb wastes.",
+      "details": "The **ecological footprint** is a **measure of human demand for natural capital** - the **amount of nature needed to support a person, population or economy**. In other words, a **measure of human impact on the environment**.\n\n- Tracked via an **ecological accounting system** (Global Footprint Network) that measures the **land area required to provide resources for human activities and to absorb its waste** (e.g. forest area to absorb CO2).\n- **The more resources an individual or society consumes, the larger its footprint.**\n- Lecturer's plain version: *how much land do humans need to meet their needs and wants?*\n\nWhy it matters:\n- It translates consumption into a single comparable unit (**global hectares**) and can be compared directly with **biocapacity**.\n- It is the measurement tool for the **overconsumption** argument and the modern analogue of **carrying capacity** for humans.\n- It connects to **planetary boundaries**: overshoot signals living outside the safe operating space.",
+      "keyTerms": [
+        "ecological footprint",
+        "natural capital",
+        "Global Footprint Network",
+        "ecological accounting"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            37
+          ]
+        }
+      ],
+      "examTips": "Define ecological footprint precisely (demand for productive land/sea to supply resources AND absorb waste). Don't confuse with carbon footprint (only one component). Quiz 1: the footprint is a comparison of demand (footprint) versus supply/availability (biocapacity). See m3.calc.footprint."
+    },
     {
-     "module": "M3",
-     "slides": [
-      38
-     ]
-    }
-   ],
-   "examTips": "Explain footprint vs biocapacity and what a deficit means. Quote 73% (1961) vs 160% (2020)."
-  },
-  {
-   "id": "m3.footprint-measurement",
-   "label": "Measuring the Footprint (gha)",
-   "type": "concept",
-   "module": "M3",
-   "parent": "m3.part4",
-   "summary": "Measured in global hectares (gha) per person per year from food, housing energy and materials, mobility, and waste.",
-   "details": "**Measurement at the individual level**:\n\n- **Main unit: global hectare (gha) per person per year** - the average biologically productive land/sea area 'required' by our lifestyle. A global hectare is a hectare with world-average productivity, so different land types can be compared and summed.\n\n**Components** measured:\n1. **Food consumption** (diet, e.g. meat vs plant-based)\n2. **Energy and material use for homes** (electricity, appliances, building)\n3. **Mobility** (transportation and travel, e.g. car, flights)\n4. **Waste produced**\n\nThe **Footprint Calculator** (footprintcalculator.org) estimates an individual's gha and how many Earths would be needed if everyone lived that way; the **Global Footprint Network data portal** gives national figures.\n\nWhy it matters: it lets individuals see which lifestyle choices dominate their impact and test reductions - the basis of the week's discussion task.",
-   "keyTerms": [
-    "global hectare",
-    "gha",
-    "footprint calculator",
-    "food",
-    "mobility",
-    "housing",
-    "waste"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.biocapacity",
+      "label": "Footprint vs Biocapacity & Overshoot",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.part4",
+      "summary": "Footprint (area demanded) is compared with biocapacity (productive area available); humanity used 73% of biocapacity in 1961 and 160% in 2020.",
+      "details": "The calculation **compares**:\n- **Ecological footprint** - the area of **biologically productive land needed** to supply everything humans consume (**demand**).\n- **Biocapacity** - the area of **biologically productive land available** to produce what humans demand from nature (**supply**).\n\nIf **footprint > biocapacity**, there is an **ecological deficit** (nationally) or **overshoot** (globally): capacity has been exceeded and needs surpass what nature can regenerate.\n\n**Global data** (Global Footprint Network, 'Busting our Biocapacity Budget'):\n- **1961**: humanity used **73%** of Earth's biocapacity (within limits).\n- **2020**: humanity used **160%** - roughly **1.6 Earths** - an overshoot also expressed as **Earth Overshoot Day**.\n\nConnections: biocapacity is effectively **carrying capacity** in area units; overshoot is the footprint version of breaching **planetary boundaries**. Overshoot is possible only temporarily, by depleting stocks (forests, fish, groundwater) and accumulating waste (CO2).",
+      "keyTerms": [
+        "biocapacity",
+        "ecological deficit",
+        "overshoot",
+        "Earth Overshoot Day"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            38
+          ]
+        }
+      ],
+      "examTips": "Explain footprint vs biocapacity and what a deficit means. Quote 73% (1961) vs 160% (2020)."
+    },
     {
-     "module": "M3",
-     "slides": [
-      39,
-      42
-     ]
-    }
-   ],
-   "examTips": "Know the unit (gha per person per year) and the four components."
-  },
-  {
-   "id": "m3.indonesia-footprint",
-   "label": "Indonesia's Ecological Footprint (2022)",
-   "type": "data",
-   "module": "M3",
-   "parent": "m3.part4",
-   "summary": "Indonesia 2022: biocapacity 1.2 gha, footprint 1.8 gha per person: deficit of -0.6 gha; deficit since ~2000.",
-   "details": "**Indonesia (2022)** from the Global Footprint Network data portal:\n\n- **Biocapacity per person: 1.2 gha**\n- **Ecological footprint per person: 1.8 gha**\n- **Biocapacity reserve/deficit: -0.6 gha** (a **deficit**)\n- GDP per person ~**$4,788**; population ~**275.5 million**.\n\n**Trend 1961-2024**: in **1961** Indonesia's biocapacity per person was high (~2.8 gha) and its footprint low (~1.5 gha) - a large **reserve**. Biocapacity per person declined steadily (population growth, land degradation) while the footprint slowly rose; the lines **crossed around 2000**, and Indonesia has run a **growing deficit** since then.\n\nInterpretation: even a middle-income country with a modest per-capita footprint can overshoot when **population growth reduces biocapacity per person** and consumption rises - showing **P and A interact**. Students are encouraged to explore other countries on the website.",
-   "keyTerms": [
-    "Indonesia",
-    "biocapacity deficit",
-    "gha"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.footprint-measurement",
+      "label": "Measuring the Footprint (gha)",
+      "type": "concept",
+      "module": "M3",
+      "parent": "m3.part4",
+      "summary": "Measured in global hectares (gha) per person per year from food, housing energy and materials, mobility, and waste.",
+      "details": "**Measurement at the individual level**:\n\n- **Main unit: global hectare (gha) per person per year** - the average biologically productive land/sea area 'required' by our lifestyle. A global hectare is a hectare with world-average productivity, so different land types can be compared and summed.\n\n**Components** measured:\n1. **Food consumption** (diet, e.g. meat vs plant-based)\n2. **Energy and material use for homes** (electricity, appliances, building)\n3. **Mobility** (transportation and travel, e.g. car, flights)\n4. **Waste produced**\n\nThe **Footprint Calculator** (footprintcalculator.org) estimates an individual's gha and how many Earths would be needed if everyone lived that way; the **Global Footprint Network data portal** gives national figures.\n\nWhy it matters: it lets individuals see which lifestyle choices dominate their impact and test reductions - the basis of the week's discussion task.",
+      "keyTerms": [
+        "global hectare",
+        "gha",
+        "footprint calculator",
+        "food",
+        "mobility",
+        "housing",
+        "waste"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            39,
+            42
+          ]
+        }
+      ],
+      "examTips": "Know the unit (gha per person per year) and the four components. Quiz 1: the unit of the Ecological Footprint per person per year is the GLOBAL HECTARE (gha/gHA) - not CO2e tonnes, km2 or GDP."
+    },
     {
-     "module": "M3",
-     "slides": [
-      40
-     ]
-    }
-   ]
-  },
-  {
-   "id": "m3.how-many-earths",
-   "label": "How Many Earths? Country Comparison",
-   "type": "data",
-   "module": "M3",
-   "parent": "m3.part4",
-   "summary": "If everyone lived like: USA ~5 Earths, Australia ~4.1-4.5, Germany 3.0, China ~2.2-2.4, India <1; world average ~1.7-1.75.",
-   "details": "**'How many Earths would be needed if the world's population lived like the residents of...'** (Global Footprint Network):\n\n| Country | 2018 | 2022 |\n|---|---|---|\n| USA | 5.0 | 5.1 |\n| Australia | 4.1 | 4.5 |\n| South Korea | 3.5 | - |\n| Russia | 3.3 | 3.4 |\n| Germany | 3.0 | 3.0 |\n| Japan | 2.8 | 2.9 |\n| UK | 2.9 | 2.6 |\n| China | 2.2 | 2.4 |\n| Brazil | 1.8 | 1.6 |\n| **India** | **0.7** | **0.8** |\n| **World** | **1.7** | **1.75** |\n\n**Lesson (lecturer's notes)**: **India has a far larger population than the USA**, yet its consumption can still be accommodated by **less than one Earth**, while the US lifestyle would require ~5. So it is **not only population that matters but how people consume** - the core 'overconsumption vs overpopulation' message of the week.",
-   "keyTerms": [
-    "how many Earths",
-    "Earth Overshoot Day",
-    "consumption",
-    "India vs USA"
-   ],
-   "importance": 3,
-   "sources": [
+      "id": "m3.indonesia-footprint",
+      "label": "Indonesia's Ecological Footprint (2022)",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.part4",
+      "summary": "Indonesia 2022: biocapacity 1.2 gha, footprint 1.8 gha per person: deficit of -0.6 gha; deficit since ~2000.",
+      "details": "**Indonesia (2022)** from the Global Footprint Network data portal:\n\n- **Biocapacity per person: 1.2 gha**\n- **Ecological footprint per person: 1.8 gha**\n- **Biocapacity reserve/deficit: -0.6 gha** (a **deficit**)\n- GDP per person ~**$4,788**; population ~**275.5 million**.\n\n**Trend 1961-2024**: in **1961** Indonesia's biocapacity per person was high (~2.8 gha) and its footprint low (~1.5 gha) - a large **reserve**. Biocapacity per person declined steadily (population growth, land degradation) while the footprint slowly rose; the lines **crossed around 2000**, and Indonesia has run a **growing deficit** since then.\n\nInterpretation: even a middle-income country with a modest per-capita footprint can overshoot when **population growth reduces biocapacity per person** and consumption rises - showing **P and A interact**. Students are encouraged to explore other countries on the website.",
+      "keyTerms": [
+        "Indonesia",
+        "biocapacity deficit",
+        "gha"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            40
+          ]
+        }
+      ]
+    },
     {
-     "module": "M3",
-     "slides": [
-      41
-     ]
-    }
-   ],
-   "examTips": "Use USA (~5 Earths) vs India (<1 Earth) to argue overconsumption matters more than overpopulation. World ~1.7 Earths."
-  },
-  {
-   "id": "m3.discussion",
-   "label": "Discussion: Reducing Your Footprint",
-   "type": "debate",
-   "module": "M3",
-   "parent": "m3.part4",
-   "summary": "Calculate your footprint; what changes reduce it (consumption patterns, technology)? Which changes are individual vs collective or policy-based?",
-   "details": "**Discussion questions (s42)**:\n1. Use the **Ecological Footprint calculator** (footprintcalculator.org). What result did you get?\n2. What can you do to **change your footprint**? Link changes to reducing **excessive consumption** - via **consumption patterns** or with the help of **technology**.\n3. **Can all changes be made individually?** Which can be done at the individual level, and which must be **collective**, or through **government or global policy**?\n\n**Model answer outline**:\n- *Individual*: eat less meat and waste less food; use public transport, cycle or walk; fly less; save electricity (AC, lights); buy less and repair/reuse (avoid fast fashion and yearly gadget upgrades); avoid single-use plastic.\n- *Technology-aided*: rooftop solar, efficient appliances, EVs - while watching for **Jevons rebound**.\n- *Collective/policy*: public transport and cycling infrastructure, renewable grids, carbon pricing, bans on single-use plastic, right-to-repair and anti-obsolescence rules, building codes, international agreements.\n- Many footprint components (grid electricity mix, urban form, product design) are **structural**, so individual action is necessary but **not sufficient**.",
-   "keyTerms": [
-    "footprint calculator",
-    "individual vs collective action",
-    "policy"
-   ],
-   "importance": 2,
-   "sources": [
+      "id": "m3.how-many-earths",
+      "label": "How Many Earths? Country Comparison",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.part4",
+      "summary": "If everyone lived like: USA ~5 Earths, Australia ~4.1-4.5, Germany 3.0, China ~2.2-2.4, India <1; world average ~1.7-1.75.",
+      "details": "**'How many Earths would be needed if the world's population lived like the residents of...'** (Global Footprint Network):\n\n| Country | 2018 | 2022 |\n|---|---|---|\n| USA | 5.0 | 5.1 |\n| Australia | 4.1 | 4.5 |\n| South Korea | 3.5 | - |\n| Russia | 3.3 | 3.4 |\n| Germany | 3.0 | 3.0 |\n| Japan | 2.8 | 2.9 |\n| UK | 2.9 | 2.6 |\n| China | 2.2 | 2.4 |\n| Brazil | 1.8 | 1.6 |\n| **India** | **0.7** | **0.8** |\n| **World** | **1.7** | **1.75** |\n\n**Lesson (lecturer's notes)**: **India has a far larger population than the USA**, yet its consumption can still be accommodated by **less than one Earth**, while the US lifestyle would require ~5. So it is **not only population that matters but how people consume** - the core 'overconsumption vs overpopulation' message of the week.",
+      "keyTerms": [
+        "how many Earths",
+        "Earth Overshoot Day",
+        "consumption",
+        "India vs USA"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            41
+          ]
+        }
+      ],
+      "examTips": "Use USA (~5 Earths) vs India (<1 Earth) to argue overconsumption matters more than overpopulation. World ~1.7 Earths."
+    },
     {
-     "module": "M3",
-     "slides": [
-      42
-     ]
+      "id": "m3.discussion",
+      "label": "Discussion: Reducing Your Footprint",
+      "type": "debate",
+      "module": "M3",
+      "parent": "m3.part4",
+      "summary": "Calculate your footprint; what changes reduce it (consumption patterns, technology)? Which changes are individual vs collective or policy-based?",
+      "details": "**Discussion questions (s42)**:\n1. Use the **Ecological Footprint calculator** (footprintcalculator.org). What result did you get?\n2. What can you do to **change your footprint**? Link changes to reducing **excessive consumption** - via **consumption patterns** or with the help of **technology**.\n3. **Can all changes be made individually?** Which can be done at the individual level, and which must be **collective**, or through **government or global policy**?\n\n**Model answer outline**:\n- *Individual*: eat less meat and waste less food; use public transport, cycle or walk; fly less; save electricity (AC, lights); buy less and repair/reuse (avoid fast fashion and yearly gadget upgrades); avoid single-use plastic.\n- *Technology-aided*: rooftop solar, efficient appliances, EVs - while watching for **Jevons rebound**.\n- *Collective/policy*: public transport and cycling infrastructure, renewable grids, carbon pricing, bans on single-use plastic, right-to-repair and anti-obsolescence rules, building codes, international agreements.\n- Many footprint components (grid electricity mix, urban form, product design) are **structural**, so individual action is necessary but **not sufficient**.",
+      "keyTerms": [
+        "footprint calculator",
+        "individual vs collective action",
+        "policy"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3.calc",
+      "label": "Week 3 worked calculations",
+      "type": "topic",
+      "module": "M3",
+      "parent": "m3",
+      "summary": "Calculation types tested in Quiz 1: IPAT decoupling factor, population-density difference, appliance electricity cost, footprint-vs-biocapacity and Earths.",
+      "details": "Quiz 1 contains **calculation questions** (every one is multiple choice with the worked steps given by the lecturer). All are simple multiplication/subtraction, so the exam trick is to set up the formula correctly.\n\n| Type | Formula | Quiz 1 items |\n|---|---|---|\n| IPAT / decoupling factor | required T reduction = P multiplier x A multiplier (I constant) | EN Q18 (q1-18): 1.35 x 4 = 5.4 ~ factor five; ID Q18 (q1-40): 1.2 x 2.5 = 3 |\n| Population-density difference | density A - density B | EN Q25 / ID Q23 (q1-25): 860 - 141 = 719 /km2 |\n| Electricity cost of an appliance | kW x hours/day x days x price per kWh | EN Q26 (q1-26): 90,000; ID Q26 (q1-41): Rp 405,000 |\n| Footprint vs biocapacity / Earths | footprint / biocapacity; Earths = footprint (as a % of one Earth) / 100 | underlies EN Q23-24 (units and comparison); slide arithmetic for overshoot |\n| Ratios from slide data | later / earlier, or A / B | e.g. EV battery GWP, data-centre demand (slides 26-27) |\n\nGeneral method: (1) write the formula, (2) convert units (watts to kW; % to multiplier: +35% = x1.35), (3) multiply, (4) check against the options (the nearest option is usually intended, e.g. 5.4 ~ five).",
+      "keyTerms": [
+        "calculation",
+        "IPAT",
+        "kWh",
+        "population density",
+        "ecological footprint"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            14,
+            16,
+            17,
+            19,
+            33,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "examTips": "Expect 1-3 numeric items. Know all four formulas cold and always convert units (W to kW, % to multiplier). Open each child node for the worked quiz example."
+    },
+    {
+      "id": "m3.calc.ipat",
+      "label": "Calculation: IPAT decoupling factor",
+      "type": "framework",
+      "module": "M3",
+      "parent": "m3.calc",
+      "summary": "Keep I constant: required fall in T = (1+%P) x (A multiplier). 1.35 x 4 = 5.4 ~ factor five; 1.2 x 2.5 = 3.",
+      "details": "**Formula:** I = P x A x T. To hold **I constant**, the technology factor must shrink by the same factor as P x A grows:\n\n**required reduction factor of T = P multiplier x A multiplier**, where P multiplier = 1 + (percent increase)/100.\n\n**Worked example 1 (English Q18, q1-18):** P +35% => 1.35; A x4 => 4. P x A = 1.35 x 4 = **5.4**. T must fall by about **5.4, i.e. 'a factor of five'** - the slide's 2050 scenario states 'factor five'. Answer: **Five** (options: two / three / four / five).\n\n**Worked example 2 (Indonesian Q18, q1-40):** I starts at 100; P +20% => 1.2; A x2.5. 1.2 x 2.5 = **3.0**. Write 100 = (1.2 P)(2.5 A)(T/X) => T/X must be 1/3, X = **3**. Answer: **3.0** (options 2.0 / 3.0 / 4.0 / 5.5; 5.5 is a trap).\n\n**Related reading of the result (derived):** if technology only improved 3x in example 1, I would be 5.4/3 = 1.8 times today's impact (+80%).\n\n**Slide data relied on:** slide 17 (I = PAT; A = consumption or per-capita income), slide 19 (2010 to 2050: population +35%, affluence ~x4, technology must reduce impact ~5 times), slide 18 (P and A trends).\n\n'Decoupling' = impact per unit of consumption falls even as consumption rises.",
+      "keyTerms": [
+        "IPAT",
+        "decoupling",
+        "factor five",
+        "P x A"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            16,
+            17,
+            18,
+            19
+          ]
+        }
+      ],
+      "examTips": "Percent increase of 35% => multiply by 1.35 (not 0.35). Multiply the multipliers, do not add them. Quiz answer for P+35%, A x4 is five (5.4 ~ 5); for P+20%, A x2.5 it is exactly 3."
+    },
+    {
+      "id": "m3.calc.density",
+      "label": "Calculation: population-density difference (Kerala vs Indonesia)",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.calc",
+      "summary": "Difference = 860 (Kerala) minus 141 (Indonesia) = 719 persons per km2 (2022 data).",
+      "details": "**Formula:** difference = density(A) - density(B).\n\n**Worked example (English Q25 / Indonesian Q23, q1-25):** slide 14 (2022 World Population Data) lists population density: **Kerala 860 /km2**, India 488, Australia 3.5, Germany 242, USA 37.8, **Indonesia 141**. So 860 - 141 = **719 per km2**. Options: 488 (this is India's density, a trap), 347 or 570 (filler), 141 (Indonesia's own density, a trap) and **719**.\n\nContext: Kerala is far more densely populated than Indonesia yet has literacy 94% and life expectancy 75 (slide 14), so density/income alone do not decide human development.\n\nIf the question asks for a different pair, subtract the slide-14 values (e.g. Kerala - India = 860 - 488 = 372).",
+      "keyTerms": [
+        "population density",
+        "Kerala",
+        "719"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            14
+          ]
+        }
+      ],
+      "examTips": "Memorise the density row: Kerala 860, India 488, Australia 3.5, Germany 242, USA 37.8, Indonesia 141. 488 and 141 appear as distractors."
+    },
+    {
+      "id": "m3.calc.electricity",
+      "label": "Calculation: electricity cost of an appliance",
+      "type": "framework",
+      "module": "M3",
+      "parent": "m3.calc",
+      "summary": "Cost = power (kW) x hours per day x days x price per kWh; convert watts to kW first.",
+      "details": "**Formula:** energy (kWh) = power (kW) x hours; **cost = kW x hours/day x days x price per kWh**. 1 kW = 1,000 W.\n\n**Worked example A (English Q26, q1-26):** a business leaves 20 LED bulbs of 15 W on for 10 h per day, price 1,000 per kWh. 20 x 15 W = 300 W = **0.3 kW**; 0.3 x 10 x 30 = 90 kWh; 90 x 1,000 = **90,000** (answer C; $4,500 / $9,000 / $120,000 are traps).\n\n**Worked example B (Indonesian Q26, q1-41):** a 1 PK AC (about 750 W = 0.75 kW) runs 12 h/day for 30 days at Rp 1,500/kWh. 0.75 x 12 = 9 kWh/day; x 30 = 270 kWh; x 1,500 = **Rp 405,000** (answer C; 270,000 = forgetting the price step, 540,000 = 16 h or doubling).\n\n**Slide data relied on:** the scenarios are the slide-33 overconsumption examples (air conditioning very cold all day, lights left on) and the Jevons/LED rebound idea of slide 22. The slides give no wattage or tariff; those come from the question.\n\nThe same arithmetic reappears in Week 6: cooling can be 50-60% of a building's energy (M6 s28).",
+      "keyTerms": [
+        "kWh",
+        "watt",
+        "electricity cost",
+        "overconsumption"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            22,
+            33
+          ]
+        }
+      ],
+      "examTips": "Always convert W to kW before multiplying. Order of multiplication does not matter; omitting days (or hours) is the common error. Check: 750 W x 12 h x 30 d = 270 kWh."
+    },
+    {
+      "id": "m3.calc.footprint",
+      "label": "Calculation: footprint vs biocapacity and 'how many Earths'",
+      "type": "framework",
+      "module": "M3",
+      "parent": "m3.calc",
+      "summary": "Footprint/biocapacity gives the overshoot ratio; humanity at 160% of biocapacity = 1.6 Earths; Indonesia 1.8 vs 1.2 gha = deficit 0.6.",
+      "details": "**Core comparison (Q23-24 in English):** the Ecological Footprint compares **footprint (demand)** with **biocapacity (supply)**; the unit is the **global hectare (gha) per person per year**.\n\n**Formulas (arithmetic used on the slides):**\n- Ecological balance = biocapacity - footprint (negative = deficit/overshoot).\n- Overshoot ratio = footprint / biocapacity; 100% of biocapacity = one Earth.\n- Earths needed = overshoot ratio / 100 when expressed in % (160% => 1.6 Earths).\n\n**Worked examples from the slides:**\n- Indonesia 2022 (slide 40): biocapacity 1.2 gha, footprint 1.8 gha per person => balance 1.2 - 1.8 = **-0.6 gha** (deficit); footprint is 1.8/1.2 = **150%** of its biocapacity.\n- Humanity (slide 38): **73%** of biocapacity in 1961; **160%** in 2020 => about **1.6 Earths**.\n- 'How many Earths' (slide 41, 2022): USA 5.1, Australia 4.5, Germany 3.0, China 2.4, World 1.75, India 0.8 (<1). Example: USA/World = 5.1/1.75 ~ 2.9 times the average; India lives within one Earth despite the larger population => consumption matters, not only population.\n\nNo numeric 'Earths' question appeared in Quiz 1; the conceptual items (unit and comparison) are q1-23 and q1-24.",
+      "keyTerms": [
+        "global hectare",
+        "biocapacity",
+        "overshoot",
+        "how many Earths"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "examTips": "Unit = gha per person per year (not tonnes CO2, km2 or GDP). Footprint is DEMAND, biocapacity is SUPPLY. 160% in 2020 = ~1.6 Earths; India <1; USA ~5."
+    },
+    {
+      "id": "m3.calc.slide-ratios",
+      "label": "Calculation: ratios from slide data (EV battery GWP, data centres)",
+      "type": "data",
+      "module": "M3",
+      "parent": "m3.calc",
+      "summary": "Ratio = later/earlier or A/B: NMC vs LFP battery GWP 1,208/573 ~ 2.1x; data centres 945/415 TWh ~ 2.3x by 2030.",
+      "details": "Further arithmetic the Week 3 slides support (not tested in Quiz 1):\n\n- **EV battery GWP (slide 26):** NMC production ~1,208 kg CO2-eq vs LFP ~573 kg CO2-eq => NMC/LFP = 1,208/573 ~ **2.1 times**; difference 1,208 - 573 = **635 kg CO2-eq** (units as on the slide). Water use 153.6 vs 25.8 => ~6 times. 70% of EVs in China use LFP.\n- **Data centres (slide 27):** 415 TWh in 2024 = 1.5% of global electricity; projected ~945 TWh by 2030 => growth 945/415 ~ **2.3 times**; implied world electricity ~ 415/0.015 ~ 27,700 TWh.\n- **EV mineral demand (slide 25):** cobalt x39.6, lithium x19.6, manganese x5.2, nickel x4.7 by 2030 relative to 2015.\n\nMethod: state the ratio you are asked for, keep units identical, round sensibly.",
+      "keyTerms": [
+        "GWP",
+        "TWh",
+        "ratio"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "module": "M3",
+          "slides": [
+            25,
+            26,
+            27
+          ]
+        }
+      ],
+      "examTips": "Low priority; not in Quiz 1. If asked, quote the slide numbers and the ratio."
     }
-   ]
-  }
- ],
- "edges": [
-  {
-   "source": "m3.overpopulation",
-   "target": "m3.carrying-capacity",
-   "type": "builds-on",
-   "label": "overpopulation = needs exceed carrying capacity"
-  },
-  {
-   "source": "m3.biocapacity",
-   "target": "m3.carrying-capacity",
-   "type": "related",
-   "label": "biocapacity as carrying capacity in area units"
-  },
-  {
-   "source": "m3.neo-malthus",
-   "target": "m3.malthus",
-   "type": "builds-on",
-   "label": "extends Malthus to social-economic-environmental factors"
-  },
-  {
-   "source": "m3.ipat",
-   "target": "m3.neo-malthus",
-   "type": "builds-on",
-   "label": "combines Ehrlich (P) and Commoner (T)"
-  },
-  {
-   "source": "m3.ipat",
-   "target": "m3.overpopulation",
-   "type": "builds-on",
-   "label": "impact not set by population alone"
-  },
-  {
-   "source": "m3.agri-tech",
-   "target": "m3.carrying-capacity",
-   "type": "causes",
-   "label": "raises effective carrying capacity"
-  },
-  {
-   "source": "m3.agri-tech",
-   "target": "m3.malthus",
-   "type": "contrasts",
-   "label": "Green Revolution undercut Malthus's prediction"
-  },
-  {
-   "source": "m3.demographic-transition",
-   "target": "m3.malthus",
-   "type": "contrasts",
-   "label": "fertility falls with development"
-  },
-  {
-   "source": "m3.kerala",
-   "target": "m3.demographic-transition",
-   "type": "example-of",
-   "label": "human development without high income"
-  },
-  {
-   "source": "m3.gdp-energy",
-   "target": "m3.ipat",
-   "type": "applies-to",
-   "label": "affluence vs technology/efficiency evidence"
-  },
-  {
-   "source": "m3.tech-dual-role",
-   "target": "m3.ipat",
-   "type": "applies-to",
-   "label": "T can raise or lower I"
-  },
-  {
-   "source": "m3.agri-tech",
-   "target": "m3.tech-dual-role",
-   "type": "example-of",
-   "label": "yields up, pollution and biodiversity loss"
-  },
-  {
-   "source": "m3.jevons",
-   "target": "m3.overconsumption",
-   "type": "causes",
-   "label": "backfire = overconsumption"
-  },
-  {
-   "source": "m3.ipat.2050",
-   "target": "m3.jevons",
-   "type": "contrasts",
-   "label": "decoupling target threatened by rebound"
-  },
-  {
-   "source": "m3.kuznets-kurzweil",
-   "target": "m3.offshoring",
-   "type": "contrasts",
-   "label": "rich-country gains may be displaced impacts"
-  },
-  {
-   "source": "m3.ev-battery",
-   "target": "m3.tech-dual-role",
-   "type": "example-of",
-   "label": "green tech with extraction burdens"
-  },
-  {
-   "source": "m3.ai-datacenter",
-   "target": "m3.tech-dual-role",
-   "type": "example-of",
-   "label": "digital tech with large energy demand"
-  },
-  {
-   "source": "m3.consumption-co2",
-   "target": "m3.env-justice",
-   "type": "related",
-   "label": "richest consume most; burdens fall elsewhere"
-  },
-  {
-   "source": "m3.hyperconsumption",
-   "target": "m3.overconsumption",
-   "type": "contrasts",
-   "label": "status/novelty-driven vs need-exceeding"
-  },
-  {
-   "source": "m3.hyperconsumption-examples",
-   "target": "m3.env-justice",
-   "type": "related",
-   "label": "fast fashion impacts in producing countries"
-  },
-  {
-   "source": "m3.eco-footprint",
-   "target": "m3.overconsumption",
-   "type": "applies-to",
-   "label": "measures overconsumption"
-  },
-  {
-   "source": "m3.how-many-earths",
-   "target": "m3.overpopulation",
-   "type": "contrasts",
-   "label": "India (big P) <1 Earth vs USA ~5"
-  },
-  {
-   "source": "m3.take-home",
-   "target": "m3.biocapacity",
-   "type": "related",
-   "label": "overshoot = outside safe operating space"
-  },
-  {
-   "source": "m3.indonesia-footprint",
-   "target": "m3.ipat",
-   "type": "example-of",
-   "label": "P and A jointly drive deficit"
-  }
- ],
- "crossModuleIdeas": [
-  {
-   "from": "m3.take-home",
-   "toModule": "M2",
-   "concept": "Planetary boundaries / safe operating space",
-   "type": "builds-on",
-   "reason": "7 of 9 boundaries breached frames Week 3"
-  },
-  {
-   "from": "m3.carrying-capacity",
-   "toModule": "M2",
-   "concept": "Planetary boundaries",
-   "type": "related",
-   "reason": "carrying capacity and footprint are limit concepts like planetary boundaries"
-  },
-  {
-   "from": "m3.overconsumption",
-   "toModule": "M2",
-   "concept": "Tragedy of the commons",
-   "type": "related",
-   "reason": "individual over-use of shared resources degrades the commons"
-  },
-  {
-   "from": "m3.env-justice",
-   "toModule": "M4",
-   "concept": "Global North vs Global South",
-   "type": "related",
-   "reason": "impacts of Northern consumption borne in the South"
-  },
-  {
-   "from": "m3.consumption-co2",
-   "toModule": "M4",
-   "concept": "Global North vs Global South",
-   "type": "related",
-   "reason": "richest 10% vs poorest 50% emissions"
-  },
-  {
-   "from": "m3.tech-dual-role",
-   "toModule": "M5",
-   "concept": "Science, Technology & Innovation for SDGs",
-   "type": "related",
-   "reason": "T in IPAT and dual role of technology vs STI"
-  },
-  {
-   "from": "m3.tech-dual-role",
-   "toModule": "M7",
-   "concept": "Technology and SDG interlinkages / trade-offs",
-   "type": "related",
-   "reason": "technology creates synergies and trade-offs"
-  },
-  {
-   "from": "m3.env-justice",
-   "toModule": "M7",
-   "concept": "Spillovers / North-South synergies",
-   "type": "related",
-   "reason": "consumption in one country causes impacts in another (spillover)"
-  },
-  {
-   "from": "m3.env-justice",
-   "toModule": "M6",
-   "concept": "CBDR-RC",
-   "type": "related",
-   "reason": "unequal responsibility for impacts underpins common but differentiated responsibilities"
-  },
-  {
-   "from": "m3.agri-tech",
-   "toModule": "M7",
-   "concept": "Food-energy-water nexus",
-   "type": "related",
-   "reason": "intensification trade-offs on water, energy, emissions"
-  },
-  {
-   "from": "m3.overconsumption",
-   "toModule": "M5",
-   "concept": "SDG 12 Responsible consumption and production",
-   "type": "related",
-   "reason": "SDG 12 targets overconsumption and waste"
-  },
-  {
-   "from": "m3.biocapacity",
-   "toModule": "M6",
-   "concept": "Climate change / GHG emissions",
-   "type": "related",
-   "reason": "carbon is the largest share of the footprint; overshoot accumulates CO2"
-  }
- ],
- "needsImageCheck": []
+  ],
+  "edges": [
+    {
+      "source": "m3.overpopulation",
+      "target": "m3.carrying-capacity",
+      "type": "builds-on",
+      "label": "overpopulation = needs exceed carrying capacity"
+    },
+    {
+      "source": "m3.biocapacity",
+      "target": "m3.carrying-capacity",
+      "type": "related",
+      "label": "biocapacity as carrying capacity in area units"
+    },
+    {
+      "source": "m3.neo-malthus",
+      "target": "m3.malthus",
+      "type": "builds-on",
+      "label": "extends Malthus to social-economic-environmental factors"
+    },
+    {
+      "source": "m3.ipat",
+      "target": "m3.neo-malthus",
+      "type": "builds-on",
+      "label": "combines Ehrlich (P) and Commoner (T)"
+    },
+    {
+      "source": "m3.ipat",
+      "target": "m3.overpopulation",
+      "type": "builds-on",
+      "label": "impact not set by population alone"
+    },
+    {
+      "source": "m3.agri-tech",
+      "target": "m3.carrying-capacity",
+      "type": "causes",
+      "label": "raises effective carrying capacity"
+    },
+    {
+      "source": "m3.agri-tech",
+      "target": "m3.malthus",
+      "type": "contrasts",
+      "label": "Green Revolution undercut Malthus's prediction"
+    },
+    {
+      "source": "m3.demographic-transition",
+      "target": "m3.malthus",
+      "type": "contrasts",
+      "label": "fertility falls with development"
+    },
+    {
+      "source": "m3.kerala",
+      "target": "m3.demographic-transition",
+      "type": "example-of",
+      "label": "human development without high income"
+    },
+    {
+      "source": "m3.gdp-energy",
+      "target": "m3.ipat",
+      "type": "applies-to",
+      "label": "affluence vs technology/efficiency evidence"
+    },
+    {
+      "source": "m3.tech-dual-role",
+      "target": "m3.ipat",
+      "type": "applies-to",
+      "label": "T can raise or lower I"
+    },
+    {
+      "source": "m3.agri-tech",
+      "target": "m3.tech-dual-role",
+      "type": "example-of",
+      "label": "yields up, pollution and biodiversity loss"
+    },
+    {
+      "source": "m3.jevons",
+      "target": "m3.overconsumption",
+      "type": "causes",
+      "label": "backfire = overconsumption"
+    },
+    {
+      "source": "m3.ipat.2050",
+      "target": "m3.jevons",
+      "type": "contrasts",
+      "label": "decoupling target threatened by rebound"
+    },
+    {
+      "source": "m3.kuznets-kurzweil",
+      "target": "m3.offshoring",
+      "type": "contrasts",
+      "label": "rich-country gains may be displaced impacts"
+    },
+    {
+      "source": "m3.ev-battery",
+      "target": "m3.tech-dual-role",
+      "type": "example-of",
+      "label": "green tech with extraction burdens"
+    },
+    {
+      "source": "m3.ai-datacenter",
+      "target": "m3.tech-dual-role",
+      "type": "example-of",
+      "label": "digital tech with large energy demand"
+    },
+    {
+      "source": "m3.consumption-co2",
+      "target": "m3.env-justice",
+      "type": "related",
+      "label": "richest consume most; burdens fall elsewhere"
+    },
+    {
+      "source": "m3.hyperconsumption",
+      "target": "m3.overconsumption",
+      "type": "contrasts",
+      "label": "status/novelty-driven vs need-exceeding"
+    },
+    {
+      "source": "m3.hyperconsumption-examples",
+      "target": "m3.env-justice",
+      "type": "related",
+      "label": "fast fashion impacts in producing countries"
+    },
+    {
+      "source": "m3.eco-footprint",
+      "target": "m3.overconsumption",
+      "type": "applies-to",
+      "label": "measures overconsumption"
+    },
+    {
+      "source": "m3.how-many-earths",
+      "target": "m3.overpopulation",
+      "type": "contrasts",
+      "label": "India (big P) <1 Earth vs USA ~5"
+    },
+    {
+      "source": "m3.take-home",
+      "target": "m3.biocapacity",
+      "type": "related",
+      "label": "overshoot = outside safe operating space"
+    },
+    {
+      "source": "m3.indonesia-footprint",
+      "target": "m3.ipat",
+      "type": "example-of",
+      "label": "P and A jointly drive deficit"
+    },
+    {
+      "source": "m3.calc.ipat",
+      "target": "m3.ipat.2050",
+      "type": "applies-to",
+      "label": "worked arithmetic of the factor-five scenario"
+    },
+    {
+      "source": "m3.calc.ipat",
+      "target": "m3.ipat",
+      "type": "applies-to",
+      "label": "I = P x A x T"
+    },
+    {
+      "source": "m3.calc.density",
+      "target": "m3.kerala",
+      "type": "applies-to",
+      "label": "uses the Kerala data table"
+    },
+    {
+      "source": "m3.calc.electricity",
+      "target": "m3.overconsumption-examples",
+      "type": "applies-to",
+      "label": "AC and lights left on"
+    },
+    {
+      "source": "m3.calc.footprint",
+      "target": "m3.biocapacity",
+      "type": "applies-to",
+      "label": "footprint vs biocapacity arithmetic"
+    },
+    {
+      "source": "m3.calc.footprint",
+      "target": "m3.how-many-earths",
+      "type": "applies-to",
+      "label": "Earths needed"
+    },
+    {
+      "source": "m3.calc.slide-ratios",
+      "target": "m3.ev-battery",
+      "type": "applies-to",
+      "label": "GWP ratio"
+    },
+    {
+      "source": "m3.calc.slide-ratios",
+      "target": "m3.ai-datacenter",
+      "type": "applies-to",
+      "label": "TWh growth ratio"
+    },
+    {
+      "source": "m3.calc.electricity",
+      "target": "m6.cooling-emissions",
+      "type": "related",
+      "label": "cooling energy use (M6)"
+    }
+  ],
+  "crossModuleIdeas": [
+    {
+      "from": "m3.take-home",
+      "toModule": "M2",
+      "concept": "Planetary boundaries / safe operating space",
+      "type": "builds-on",
+      "reason": "7 of 9 boundaries breached frames Week 3"
+    },
+    {
+      "from": "m3.carrying-capacity",
+      "toModule": "M2",
+      "concept": "Planetary boundaries",
+      "type": "related",
+      "reason": "carrying capacity and footprint are limit concepts like planetary boundaries"
+    },
+    {
+      "from": "m3.overconsumption",
+      "toModule": "M2",
+      "concept": "Tragedy of the commons",
+      "type": "related",
+      "reason": "individual over-use of shared resources degrades the commons"
+    },
+    {
+      "from": "m3.env-justice",
+      "toModule": "M4",
+      "concept": "Global North vs Global South",
+      "type": "related",
+      "reason": "impacts of Northern consumption borne in the South"
+    },
+    {
+      "from": "m3.consumption-co2",
+      "toModule": "M4",
+      "concept": "Global North vs Global South",
+      "type": "related",
+      "reason": "richest 10% vs poorest 50% emissions"
+    },
+    {
+      "from": "m3.tech-dual-role",
+      "toModule": "M5",
+      "concept": "Science, Technology & Innovation for SDGs",
+      "type": "related",
+      "reason": "T in IPAT and dual role of technology vs STI"
+    },
+    {
+      "from": "m3.tech-dual-role",
+      "toModule": "M7",
+      "concept": "Technology and SDG interlinkages / trade-offs",
+      "type": "related",
+      "reason": "technology creates synergies and trade-offs"
+    },
+    {
+      "from": "m3.env-justice",
+      "toModule": "M7",
+      "concept": "Spillovers / North-South synergies",
+      "type": "related",
+      "reason": "consumption in one country causes impacts in another (spillover)"
+    },
+    {
+      "from": "m3.env-justice",
+      "toModule": "M6",
+      "concept": "CBDR-RC",
+      "type": "related",
+      "reason": "unequal responsibility for impacts underpins common but differentiated responsibilities"
+    },
+    {
+      "from": "m3.agri-tech",
+      "toModule": "M7",
+      "concept": "Food-energy-water nexus",
+      "type": "related",
+      "reason": "intensification trade-offs on water, energy, emissions"
+    },
+    {
+      "from": "m3.overconsumption",
+      "toModule": "M5",
+      "concept": "SDG 12 Responsible consumption and production",
+      "type": "related",
+      "reason": "SDG 12 targets overconsumption and waste"
+    },
+    {
+      "from": "m3.biocapacity",
+      "toModule": "M6",
+      "concept": "Climate change / GHG emissions",
+      "type": "related",
+      "reason": "carbon is the largest share of the footprint; overshoot accumulates CO2"
+    }
+  ],
+  "needsImageCheck": []
 }

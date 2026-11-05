@@ -1,0 +1,817 @@
+{
+ "questions": [
+  {
+   "id": "g-calc-01",
+   "source": "generated",
+   "stem": "(I=PAT Calculation) Assuming Environmental Impact (I) is held constant, if the Population (P) increases by 50% and Affluence (A) doubles, by what factor must technology (T) reduce its impact (decoupling)?",
+   "options": [
+    "1.0",
+    "3.0",
+    "2.5",
+    "3.5"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "3.0",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.ipat"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: required reduction of T = P multiplier x A multiplier. P +50% = x1.5; A doubles = x2. Then 1.5 x 2 = 3.0. Adding (0.5 + 2 = 2.5 or 1.5 + 2 = 3.5) or multiplying by 0.5 instead of 1.5 (0.5 x 2 = 1.0) are the classic mistakes [M3 s17, s19].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      16,
+      17,
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-02",
+   "source": "generated",
+   "stem": "(I=PAT Calculation) With Environmental Impact (I) kept constant, Population (P) grows by 25% and Affluence (A) grows 3.2 times. Technology (T) must reduce its impact by approximately what factor?",
+   "options": [
+    "2.56",
+    "3.2",
+    "4.0",
+    "4.45"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "4.0",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.ipat"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: factor = P multiplier x A multiplier. P +25% = x1.25; A = x3.2. 1.25 x 3.2 = 4.0. Dividing (3.2 / 1.25 = 2.56), ignoring P (3.2) or adding (1.25 + 3.2 = 4.45) are wrong [M3 s17, s19].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      16,
+      17,
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-03",
+   "source": "generated",
+   "stem": "(I=PAT Calculation) Assume today's Environmental Impact (I) is 100. Population (P) increases by 40% and Affluence (A) increases 2.5 times, but technology (T) only improves its impact per unit by a factor of 2 (halved). What will the Environmental Impact (I) be, relative to today?",
+   "options": [
+    "1.75 times today's impact (I = 175)",
+    "3.5 times today's impact (I = 350)",
+    "0.57 times today's impact (I = 57)",
+    "1.5 times today's impact (I = 150)"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "1.75 times today's impact (I = 175)",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.ipat"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "P x A = 1.4 x 2.5 = 3.5 (I would be 350 with T constant). Technology halves the impact per unit, so I = 3.5 / 2 = 1.75 x 100 = 175. To keep I at 100, T would have had to fall by 3.5. 3.5 ignores T; 0.57 inverts the ratio (2 / 3.5); 1.5 subtracts (3.5 - 2) [M3 s17, s19].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      16,
+      17,
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-04",
+   "source": "generated",
+   "stem": "(Calculation based on Kerala Data) According to the 2022 population data in the sources (Germany 242, Indonesia 141 persons per km2), what is the difference in population density between Germany and Indonesia?",
+   "options": [
+    "101 per person/km2",
+    "141 per person/km2",
+    "242 per person/km2",
+    "383 per person/km2"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "101 per person/km2",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.density"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: difference = density(A) - density(B). 242 - 141 = 101 persons per km2. 141 and 242 are single densities; 383 adds instead of subtracting [M3 s14].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-05",
+   "source": "generated",
+   "stem": "(Calculation based on Kerala Data) Using the 2022 data in the sources, what is the approximate difference in population density (per km2) between the State of Kerala (860) and India as a whole (488)?",
+   "options": [
+    "719 per person/km2",
+    "488 per person/km2",
+    "1,348 per person/km2",
+    "372 per person/km2"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "372 per person/km2",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.density"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: difference = density(A) - density(B). 860 (Kerala) - 488 (India) = 372 per km2. 719 is Kerala minus Indonesia, 488 is India's own density, and 1,348 comes from adding [M3 s14].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-06",
+   "source": "generated",
+   "stem": "(Calculation based on Kerala Data) Using the 2022 data in the sources (Kerala 860, India 488, Indonesia 141 persons per km2), how much denser is Kerala than the simple average density of India and Indonesia?",
+   "options": [
+    "719 per person/km2",
+    "372 per person/km2",
+    "545.5 per person/km2",
+    "314.5 per person/km2"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "545.5 per person/km2",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.density"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Step 1: average = (488 + 141) / 2 = 314.5 per km2. Step 2: 860 - 314.5 = 545.5 per km2. 719 and 372 each use only one country; 314.5 is the average itself, not the difference [M3 s14].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-07",
+   "source": "generated",
+   "stem": "(Calculation based on Overconsumption) A 100-watt light bulb is left on unnecessarily for 10 hours per day (an example of Overconsumption). If the electricity rate is Rp1,000 per kWh, what is the approximate cost of this waste over a 30-day month?",
+   "options": [
+    "Rp1,000",
+    "Rp3,000",
+    "Rp30,000",
+    "Rp30,000,000"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Rp30,000",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.electricity"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: cost = kW x hours/day x days x price per kWh. 100 W = 0.1 kW. 0.1 kW x 10 h x 30 d x Rp1,000 = Rp30,000. Rp3,000 forgets the 30 days; Rp1,000 forgets hours and days; Rp30,000,000 forgets to convert W to kW [M3 s33].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22,
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-08",
+   "source": "generated",
+   "stem": "(Calculation based on Overconsumption) A hostel leaves 5 fans (each 60 watts) running for 8 hours per day when nobody is in the rooms. If the electricity rate is Rp1,500 per kWh, what is the approximate cost of this waste over a 30-day month?",
+   "options": [
+    "Rp3,600",
+    "Rp54,000",
+    "Rp108,000",
+    "Rp108,000,000"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "Rp108,000",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.electricity"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: cost = kW x hours/day x days x price per kWh. 5 x 60 W = 300 W = 0.3 kW. 0.3 x 8 h = 2.4 kWh/day; x 30 d = 72 kWh; x Rp1,500 = Rp108,000. Rp3,600 forgets the days; Rp54,000 uses 4 h; Rp108,000,000 forgets W to kW [M3 s33].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22,
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-09",
+   "source": "generated",
+   "stem": "(Calculation based on Overconsumption) A shop leaves 50 LED light bulbs (each 12 watts) on for 16 hours per day unnecessarily. If the electricity rate is Rp1,500 per kWh, what is the approximate cost of this waste over a 30-day month?",
+   "options": [
+    "Rp432,000",
+    "Rp8,640",
+    "Rp216,000",
+    "Rp432,000,000"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "Rp432,000",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.electricity"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: cost = kW x hours/day x days x price per kWh. 50 x 12 W = 600 W = 0.6 kW. 0.6 x 16 h = 9.6 kWh/day; x 30 d = 288 kWh; x Rp1,500 = Rp432,000. Rp8,640 is one bulb only; Rp216,000 uses 8 h; Rp432,000,000 forgets W to kW [M3 s33].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22,
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-10",
+   "source": "generated",
+   "stem": "(Calculation based on Ecological Footprint) The footprint of a country's average lifestyle is 250% of its biocapacity. If everyone in the world lived like this, approximately how many Earths would be needed?",
+   "options": [
+    "0.4 Earths",
+    "1.5 Earths",
+    "25 Earths",
+    "2.5 Earths"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "2.5 Earths",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.footprint"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: Earths needed = footprint / biocapacity = percentage / 100. 250% / 100 = 2.5 Earths (100% = one Earth). 0.4 inverts the ratio (100/250); 1.5 subtracts 100%; 25 mis-places the decimal [M3 s38, s41].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      38,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-11",
+   "source": "generated",
+   "stem": "(Calculation based on Ecological Footprint) A country has a biocapacity of 0.9 gha and an ecological footprint of 2.7 gha per person per year. What is its ecological balance?",
+   "options": [
+    "+1.8 gha per person (reserve)",
+    "-1.8 gha per person (deficit)",
+    "-3.6 gha per person (deficit)",
+    "-0.33 gha per person (deficit)"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "-1.8 gha per person (deficit)",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.footprint"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: ecological balance = biocapacity - footprint. 0.9 - 2.7 = -1.8 gha per person per year; negative means a deficit (overshoot), as for Indonesia (1.2 - 1.8 = -0.6) on [M3 s40]. A positive sign reverses the subtraction, 3.6 adds, and 0.33 is the ratio 0.9 / 2.7.",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      40
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-12",
+   "source": "generated",
+   "stem": "(Calculation based on Ecological Footprint) In the 2022 'how many Earths' data, the USA needs 5.1 Earths and the world average is 1.75 Earths. About how many times higher is the USA's footprint than the world average?",
+   "options": [
+    "About 2.9 times",
+    "About 0.34 times",
+    "About 3.35 times",
+    "About 6.85 times"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "About 2.9 times",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc.footprint"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Formula: ratio = A / B. 5.1 / 1.75 = 2.91, so about 2.9 times. 0.34 inverts the ratio; 3.35 is the difference (5.1 - 1.75) in Earths, not a ratio; 6.85 adds [M3 s41].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-13",
+   "source": "generated",
+   "stem": "Refrigerant HCFC-22 has a GWP of about 1,800 (CO2 = 1). If 4 kg of HCFC-22 leaks from an air conditioner, how much is emitted in CO2-equivalents?",
+   "options": [
+    "7.2 kg CO2e",
+    "450 kg CO2e",
+    "1,804 kg CO2e",
+    "7,200 kg CO2e"
+   ],
+   "answer": [
+    3
+   ],
+   "answerText": "7,200 kg CO2e",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.ghg.gwp.calc"
+   ],
+   "topic": "Climate system & GHGs",
+   "explanation": "Formula: CO2e = mass of gas x GWP. 4 kg x 1,800 = 7,200 kg CO2e (7.2 t). 450 divides instead of multiplying (1,800 / 4), 1,804 adds, and 7.2 kg is a unit slip (tonnes/kg) [M6 s6, s28].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      6,
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-14",
+   "source": "generated",
+   "stem": "According to the 2019 sector data (IPCC 2023; total about 59 GtCO2-eq: Energy 20, Industrial 14, AFOLU 13, Transportation 8.7, Building 3.3 Gt), what share of global GHG emissions came from Industrial and AFOLU together?",
+   "options": [
+    "About 46%",
+    "About 27%",
+    "About 54%",
+    "About 58%"
+   ],
+   "answer": [
+    0
+   ],
+   "answerText": "About 46%",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.ghg-sources.calc"
+   ],
+   "topic": "Climate system & GHGs",
+   "explanation": "Formula: share (%) = sector emissions / total x 100. (14 + 13) / 59 = 27 / 59 = 45.8%, about 46% (24% + 22% on the slide). 27% forgets to divide by the total; 54% is everything except these two; 58% is Energy + Industrial [M6 s32].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      32
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-15",
+   "source": "generated",
+   "stem": "A hotel uses 800 MWh of energy per year. If cooling can use 50-60% of a building's total energy, roughly how much energy does the hotel spend on cooling per year?",
+   "options": [
+    "50-60 MWh",
+    "320-400 MWh",
+    "400-480 MWh",
+    "1,333-1,600 MWh"
+   ],
+   "answer": [
+    2
+   ],
+   "answerText": "400-480 MWh",
+   "keyStatus": "given",
+   "module": "M6",
+   "nodeIds": [
+    "m6.cooling-emissions.calc"
+   ],
+   "topic": "Sustainable cooling",
+   "explanation": "Formula: cooling energy = building energy x cooling share. 800 x 0.50 = 400 MWh and 800 x 0.60 = 480 MWh. 50-60 treats the percentage as MWh; 320-400 uses 40-50%; 1,333-1,600 divides by the share (800 / 0.6, 800 / 0.5) [M6 s28].",
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-calc-16",
+   "source": "generated",
+   "stem": "In Week 3 calculation questions, which formula gives the cost of running an appliance for a month?",
+   "options": [
+    "Cost = power (W) x hours per day x price per kWh, because the number of days is already included in the tariff",
+    "Cost = power (kW) x hours per day x number of days x price per kWh, after converting watts to kW",
+    "Cost = power (kW) + hours per day + days + price per kWh",
+    "Cost = price per kWh / (power in kW x hours x days)"
+   ],
+   "answer": [
+    1
+   ],
+   "answerText": "Cost = power (kW) x hours per day x number of days x price per kWh, after converting watts to kW",
+   "keyStatus": "given",
+   "module": "M3",
+   "nodeIds": [
+    "m3.calc"
+   ],
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "explanation": "Electricity cost is multiplicative: kW x h/day x days x price per kWh, e.g. 0.3 kW x 10 h x 30 d x Rp1,000 = Rp90,000; watts must first be divided by 1,000. Adding the terms, inverting the ratio or dropping the days are all wrong [M3 s33].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14,
+      16,
+      17,
+      19,
+      33,
+      37,
+      38,
+      39,
+      40,
+      41
+     ]
+    }
+   ]
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-m1.environment.ecosystem",
+   "nodeId": "m1.environment.ecosystem",
+   "module": "M1",
+   "topic": "Sustainability basics & dimensions",
+   "front": "What is an ecosystem, and how large can it be?",
+   "back": "A functional unit of a community of living organisms (biotic) and their environment (abiotic), linked by energy flow and nutrient cycling. Can be a lake, forest or island, or the space under a fallen log; the biosphere is the global ecosystem. Any activity in one affects its material cycles and energy flows [M1 s15-16].",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.conserve-vs-preserve.muir",
+   "nodeId": "m1.conserve-vs-preserve.muir",
+   "module": "M1",
+   "topic": "Environmental ethics",
+   "front": "Who was John Muir and what was his position on nature?",
+   "back": "Naturalist and Sierra Club founder; a preservationist and non-utilitarian: nature should be managed primarily for protection, for the benefit of wildlife rather than human consumption. Pioneer of US conservation parks (Yosemite). Opposed the Hetch Hetchy dam, a step toward non-anthropocentric ethics [M1 s28-29].",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      28,
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m1.conserve-vs-preserve.hetch-hetchy",
+   "nodeId": "m1.conserve-vs-preserve.hetch-hetchy",
+   "module": "M1",
+   "topic": "Environmental ethics",
+   "front": "Summarise the Hetch Hetchy dispute: who argued what?",
+   "back": "Dam in Yosemite to supply water to San Francisco (approved 1913). Pinchot (conservationist, utilitarian): the dam brings greater benefits to society. Muir (preservationist, non-utilitarian): the valley is a biodiversity treasure and the dam disrupts wildlife [M1 s29].",
+   "sources": [
+    {
+     "module": "M1",
+     "slides": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.open-access-resources",
+   "nodeId": "m2.open-access-resources",
+   "module": "M2",
+   "topic": "Tragedy of the commons",
+   "front": "What are open-access resources? Give examples.",
+   "back": "Renewable resources not owned by anyone and usable by almost anyone. Fully open: the atmosphere and the open sea and its fish. Often used collectively but not entirely open: grasslands, forests, rivers, aquifers. Most at risk of a Hardin-style tragedy; global ones need collective agreements [M2 s4].",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.pb.land-system-change",
+   "nodeId": "m2.pb.land-system-change",
+   "module": "M2",
+   "topic": "Planetary boundaries",
+   "front": "Planetary boundary: land-system change - what drives it and what is its 2025 status?",
+   "back": "Large-scale land conversion for agriculture, urbanisation and deforestation disrupts ecosystems, reduces biodiversity and alters carbon and water cycles. Control variable: remaining forest cover. Status 2025: transgressed [M2 s7-8].",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      7,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m2.pb.biogeochemical-flows",
+   "nodeId": "m2.pb.biogeochemical-flows",
+   "module": "M2",
+   "topic": "Planetary boundaries",
+   "front": "Planetary boundary: biogeochemical flows - cause, effect, status?",
+   "back": "Excess synthetic fertiliser sends nitrogen (N) and phosphorus (P) into ecosystems, causing eutrophication (algal blooms, oxygen depletion, dead zones) and disrupting nutrient cycles. Status 2025: transgressed, with N and P deep in the high-risk zone [M2 s6, s7, s10].",
+   "sources": [
+    {
+     "module": "M2",
+     "slides": [
+      6,
+      7,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.ipat.2050",
+   "nodeId": "m3.ipat.2050",
+   "module": "M3",
+   "topic": "IPAT & technology",
+   "front": "IPAT 2050 scenario: what must happen to technology to keep impact constant?",
+   "back": "Base 2010: population +35% (x1.35), affluence about x4. With T constant, I = 1.35 x 4 = 5.4 times today. To keep I constant, technology must decouple: cut impact per unit of consumption by a factor of about five (Factor Five) [M3 s19].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.overconsumption-examples",
+   "nodeId": "m3.overconsumption-examples",
+   "module": "M3",
+   "topic": "Overconsumption",
+   "front": "Give everyday examples of overconsumption and of planned obsolescence.",
+   "back": "Overconsumption: AC very cold all day, lights left on, oversized portions and food waste, single-use plastic, excess fertiliser. Planned obsolescence: products designed with a limited life, e.g. incandescent bulbs limited to about 1,000 hours (Phoebus cartel), DuPont nylon stockings, electronics, furniture [M3 s33].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.footprint-measurement",
+   "nodeId": "m3.footprint-measurement",
+   "module": "M3",
+   "topic": "Ecological footprint",
+   "front": "How is an individual's ecological footprint measured?",
+   "back": "Unit: global hectare (gha) per person per year (a hectare of world-average productivity). Components: food consumption, energy and materials for the home, mobility, and waste. Tools: Footprint Calculator (how many Earths if everyone lived this way) and the Global Footprint Network data portal [M3 s39, s42].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      39,
+      42
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.calc",
+   "nodeId": "m3.calc",
+   "module": "M3",
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "front": "Which four calculation types does Week 3 test, and what is each formula?",
+   "back": "1) IPAT: required T reduction = P multiplier x A multiplier. 2) Density difference = density A - density B. 3) Electricity cost = kW x h/day x days x price per kWh. 4) Footprint: balance = biocapacity - footprint; Earths = footprint / biocapacity. Always convert W to kW and % to a multiplier first [M3 s14-41].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14,
+      16,
+      17,
+      19,
+      33,
+      37,
+      38,
+      39,
+      40,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.calc.ipat",
+   "nodeId": "m3.calc.ipat",
+   "module": "M3",
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "front": "IPAT decoupling: how do you compute the required reduction in T?",
+   "back": "Hold I constant: required T reduction = P multiplier x A multiplier, where +35% = x1.35. Multiply, do not add. Example: P +35%, A x4 gives 1.35 x 4 = 5.4, about factor five. P +20%, A x2.5 gives 1.2 x 2.5 = 3 [M3 s17, s19].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      16,
+      17,
+      18,
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.calc.density",
+   "nodeId": "m3.calc.density",
+   "module": "M3",
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "front": "How do you compute a population-density difference? Quiz example?",
+   "back": "Difference = density(A) - density(B), using the 2022 data (persons per km2): Kerala 860, India 488, Australia 3.5, Germany 242, USA 37.8, Indonesia 141. Example: Kerala - Indonesia = 860 - 141 = 719 per km2. Traps: 488 and 141 are single densities [M3 s14].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.calc.electricity",
+   "nodeId": "m3.calc.electricity",
+   "module": "M3",
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "front": "Formula for the electricity cost of an appliance? Worked example?",
+   "back": "Cost = kW x hours/day x days x price per kWh; convert W to kW first (/1,000). Example: 20 bulbs x 15 W = 300 W = 0.3 kW; 0.3 x 10 h x 30 d x Rp1,000 = Rp90,000. AC 750 W: 0.75 x 12 x 30 x Rp1,500 = Rp405,000 [M3 s22, s33].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22,
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m3.calc.footprint",
+   "nodeId": "m3.calc.footprint",
+   "module": "M3",
+   "topic": "Calculations (IPAT, footprint, energy cost)",
+   "front": "How do you calculate overshoot and 'how many Earths'?",
+   "back": "Balance = biocapacity - footprint (negative = deficit). Overshoot ratio = footprint / biocapacity; Earths = percentage / 100. Example: Indonesia 1.2 - 1.8 = -0.6 gha (footprint 150% of biocapacity); humanity 160% in 2020 = 1.6 Earths. Unit: gha per person per year [M3 s38, s40, s41].",
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      37,
+      38,
+      39,
+      40,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.south-data",
+   "nodeId": "m4.south-data",
+   "module": "M4",
+   "topic": "Global North & South",
+   "front": "Give the key data on the Global South.",
+   "back": "Economic development less advanced than the Global North; about 88% of the world's population; a larger land area; expected to host about 80% of the global middle class by 2030, so consumption (A in IPAT) will grow fastest there [M4 s5].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.commons-culture",
+   "nodeId": "m4.commons-culture",
+   "module": "M4",
+   "topic": "Commons in the Global South",
+   "front": "Why are commons in the Global South culturally important, and what threatens them?",
+   "back": "Commons are tied to cultural identity, spirituality and survival of indigenous and local communities; a forest is a pharmacy, a spiritual place and guardian of the water cycle, and traditional knowledge is an intellectual commons. Threats: corporate exploitation, policies excluding local communities, climate change [M4 s11].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.es-cultural",
+   "nodeId": "m4.es-cultural",
+   "module": "M4",
+   "topic": "Ecosystem services",
+   "front": "What are cultural ecosystem services? Give examples.",
+   "back": "Non-material benefits for spiritual, cognitive and recreational development: aesthetic value and recreation (nature tourism), spiritual and religious value of sacred places, inspiration for education, art and culture, and cultural heritage and identity. Example: Subak water temples and Tri Hita Karana [M4 s14].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc-m4.tech-progress",
+   "nodeId": "m4.tech-progress",
+   "module": "M4",
+   "topic": "Regulating the commons",
+   "front": "How does technological progress affect the management of commons?",
+   "back": "It can cause exclusion or reduced joint access, or strengthen collective capacity. Listed technologies: fences/stakes, information and data, energy, time-saving automation, (intellectual) property rights. Without clear goals and regulation protecting shared value, technology tends to privatise and fragment commons [M4 s32].",
+   "sources": [
+    {
+     "module": "M4",
+     "slides": [
+      32
+     ]
+    }
+   ]
+  }
+ ]
+}

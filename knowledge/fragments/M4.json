@@ -159,7 +159,7 @@
         "88% population",
         "80% middle class 2030"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "module": "M4",
@@ -168,7 +168,7 @@
           ]
         }
       ],
-      "examTips": "Memorise 88% of population and 80% middle class by 2030."
+      "examTips": "Memorise 88% of population and 80% middle class by 2030. Quiz 1: Global South = ~88% of the world population (distractors 40%, 65%, 75% / 80%). The 80% on the slide is the share of the global middle class by 2030, not population."
     },
     {
       "id": "m4.ns-definition",
@@ -195,7 +195,7 @@
           ]
         }
       ],
-      "examTips": "Classic trap: 'Global South = southern hemisphere' is WRONG. Give Australia (North) and Indonesia/India (South, partly northern hemisphere) as counter-examples."
+      "examTips": "Classic trap: 'Global South = southern hemisphere' is WRONG. Give Australia (North) and Indonesia/India (South, partly northern hemisphere) as counter-examples. Quiz 1: North/South is based on social and economic aspects (not geography, climate/area, population/biodiversity, colonisation history or emission level)."
     },
     {
       "id": "m4.country-lists",
@@ -308,7 +308,7 @@
         "indigenous communities",
         "intellectual commons"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "module": "M4",
@@ -316,7 +316,8 @@
             11
           ]
         }
-      ]
+      ],
+      "examTips": "Quiz 1: main threat to commons in the Global South = exploitation by corporations and government policies that fail to involve local communities."
     },
     {
       "id": "m4.commons-types",
@@ -341,7 +342,7 @@
           ]
         }
       ],
-      "examTips": "Be ready to give 3 natural and 3 man-made examples; surprising ones: electromagnetic spectrum, outer space, seeds, internet bandwidth."
+      "examTips": "Be ready to give 3 natural and 3 man-made examples; surprising ones: electromagnetic spectrum, outer space, seeds, internet bandwidth. Quiz 1: man-made commons example = shared knowledge / internet technology (ID version: pengetahuan bersama). Natural: electromagnetic spectrum, outer space, biodiversity, high seas."
     },
     {
       "id": "m4.importance",
@@ -397,7 +398,7 @@
           ]
         }
       ],
-      "examTips": "Name all four MEA categories with one example each. Common confusion: regulating (e.g. flood control) vs supporting (e.g. nutrient cycling, soil formation)."
+      "examTips": "Name all four MEA categories with one example each. Common confusion: regulating (e.g. flood control) vs supporting (e.g. nutrient cycling, soil formation). Quiz 1: benefits of healthy ecosystems (provisioning, regulating, supporting, cultural) = Ecosystem Services."
     },
     {
       "id": "m4.es-provisioning",
@@ -461,7 +462,7 @@
         "spiritual value",
         "heritage"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "module": "M4",
@@ -469,7 +470,8 @@
             14
           ]
         }
-      ]
+      ],
+      "examTips": "Quiz 1: aesthetic, spiritual and recreational values = CULTURAL services."
     },
     {
       "id": "m4.es-supporting",
@@ -565,7 +567,7 @@
           ]
         }
       ],
-      "examTips": "Define PES with beneficiary-pays + conditionality. Know the three payment/regulation routes (market, social, government) and an example of each."
+      "examTips": "Define PES with beneficiary-pays + conditionality. Know the three payment/regulation routes (market, social, government) and an example of each. Quiz 1: beneficiaries compensating those who maintain the service, provided results are achieved = Payment for Ecosystem Services (PES)."
     },
     {
       "id": "m4.cidanau",
@@ -681,7 +683,7 @@
           ]
         }
       ],
-      "examTips": "Pair years with treaties: Montreal 1987 (CFCs), Kigali 2016 (HFCs/HCFCs). Don't mix up with Kyoto (1997) or Paris (2015)."
+      "examTips": "Pair years with treaties: Montreal 1987 (CFCs), Kigali 2016 (HFCs/HCFCs). Don't mix up with Kyoto (1997) or Paris (2015). Quiz 1: Montreal Protocol 1987 (CFCs) = commons managed through global consensus / international cooperation."
     },
     {
       "id": "m4.common-property",
@@ -785,7 +787,7 @@
           ]
         }
       ],
-      "examTips": "Explain Dieselgate as a regulation/enforcement failure of a commons (air); key facts: Clean Air Act, NOx, software, 20× on-road, recall."
+      "examTips": "Explain Dieselgate as a regulation/enforcement failure of a commons (air); key facts: Clean Air Act, NOx, software, 20× on-road, recall. Quiz 1: Dieselgate pollutant = Nitrogen Oxides (NOx), smog-forming, regulated under the US Clean Air Act (not CO2, SO2, CFCs)."
     },
     {
       "id": "m4.indonesia-emissions",
@@ -953,7 +955,7 @@
         "privatisation",
         "intellectual property rights"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "module": "M4",
@@ -962,7 +964,7 @@
           ]
         }
       ],
-      "examTips": "Show both sides: technology can enclose (fences, IP) or empower (monitoring data, sensors)."
+      "examTips": "Show both sides: technology can enclose (fences, IP) or empower (monitoring data, sensors). Quiz 1: technology can cause exclusion/reduced common access OR strengthen collective capacity to manage commons (both sides; not \"always simplifies\", not \"eliminates collective action\", not \"only increases costs\")."
     },
     {
       "id": "m4.nonphysical",

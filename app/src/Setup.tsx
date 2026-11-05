@@ -21,6 +21,7 @@ export function scopeLabel(s: Scope, ctx: StudyCtx): string {
     case 'topic': return `Topic: ${s.topic}`
     case 'weakest': return `Weakest topics: ${weakestTopics(ctx.stats).join(', ')}`
     case 'due': return 'Due now'
+    case 'quiz1': return 'Quiz 1 questions'
     case 'quiz2': return 'Quiz 2 questions'
     case 'gen': return 'Generated questions'
     case 'unseen': return 'Unseen items'
@@ -30,7 +31,7 @@ export function scopeLabel(s: Scope, ctx: StudyCtx): string {
 
 const KINDS: { k: Scope['kind']; label: string }[] = [
   { k: 'all', label: 'All' }, { k: 'week', label: 'A week' }, { k: 'topic', label: 'A topic' }, { k: 'weakest', label: 'Weakest topics' },
-  { k: 'due', label: 'Due now' }, { k: 'quiz2', label: 'Quiz 2 only' }, { k: 'gen', label: 'Generated only' }, { k: 'unseen', label: 'Unseen' },
+  { k: 'due', label: 'Due now' }, { k: 'quiz1', label: 'Quiz 1 only' }, { k: 'quiz2', label: 'Quiz 2 only' }, { k: 'gen', label: 'Generated only' }, { k: 'unseen', label: 'Unseen' },
 ]
 
 export default function Setup({ kind, ctx, onStart }: { kind: 'quiz' | 'cards'; ctx: StudyCtx; onStart: (ids: string[], label: string) => void }) {

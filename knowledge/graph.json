@@ -202,7 +202,7 @@
    "module": "M1",
    "parent": "m1.part1",
    "summary": "Sustainability cannot be fixed scientifically once and for all: it is an open-ended, positive, temporary concept shaped by time, situation, culture and knowledge.",
-   "details": "Slide 11 asks: **can sustainability be scientifically defined?** The answer given is no single fixed definition exists. Sustainability should be understood as an **open-ended, positive and temporary** concept:\n\n- **Open-ended** – the *social understanding* of sustainable development depends on **time and situation, culture and knowledge**; it keeps evolving.\n- **Positive** – it describes a desirable direction, not just the avoidance of harm.\n- **Temporary** – any definition reflects its era and will be revised.\n\nThe slide's chart (Hopwood et al. 2005) **maps views of sustainable development** on two axes: *increasing environmental concern* (techno-centred → eco-centred) and *increasing socio-economic well-being & equality concern*. Positions range from **status quo** (e.g. World Bank, OECD, WBCSD, neo-liberal economists), through **reform** (e.g. Brundtland, ICLEI, IUCN), to **transformation** (e.g. social ecology, eco-socialism, indigenous/Global South movements, deep ecology).\n\nWhy it matters: the same word supports very different agendas – this is why the course keeps asking *whose* sustainability, and links to the ethics spectrum in Part 2 and to the SDG framing in W5.",
+   "details": "Slide 11 asks: **can sustainability be scientifically defined?** The answer given is no single fixed definition exists. Sustainability should be understood as an **open-ended, positive and temporary** concept:\n\n- **Open-ended** – the *social understanding* of sustainable development depends on **time and situation, culture and knowledge**; it keeps evolving.\n- **Positive** – it describes a desirable direction, not just the avoidance of harm.\n- **Temporary** – any definition reflects its era and will be revised.\n\nThe slide's chart (Hopwood et al. 2005) **maps views of sustainable development** on two axes: *increasing environmental concern* (techno-centred → eco-centred) and *increasing socio-economic well-being & equality concern*. Positions range from **status quo** (e.g. World Bank, OECD, WBCSD, neo-liberal economists), through **reform** (e.g. Brundtland, ICLEI, IUCN), to **transformation** (e.g. social ecology, eco-socialism, indigenous/Global South movements, deep ecology).\n\nWhy it matters: the same word supports very different agendas – this is why the course keeps asking *whose* sustainability, and links to the ethics spectrum in Part 2 and to the SDG framing in W5.\n\n**Quiz 1 phrasing:** sustainability is described as an **ethical concept** - a vision of *how the world ought to be* - rather than a scientifically derivable fact; it is open-ended, not static, not closed-ended and not a linear economic model.",
    "keyTerms": [
     "open-ended",
     "temporary",
@@ -210,7 +210,7 @@
     "Hopwood et al. 2005",
     "status quo / reform / transformation"
    ],
-   "examTips": "Be ready to explain WHY sustainability can't be defined once scientifically (depends on time, situation, culture, knowledge). Hopwood's map: techno-centred vs eco-centred; status quo vs reform vs transformation.",
+   "examTips": "Be ready to explain WHY sustainability can't be defined once scientifically (depends on time, situation, culture, knowledge). Hopwood's map: techno-centred vs eco-centred; status quo vs reform vs transformation. Quiz 1: sustainability is fundamentally an ETHICAL concept (a vision of \"how the world should be\"), not a static scientific fact, not a linear economic model, not a closed-ended universal definition.",
    "importance": 3,
    "sources": [
     {
@@ -236,7 +236,7 @@
     "Brundtland",
     "German Advisory Council 1994"
    ],
-   "examTips": "Know the order and who did what: Carlowitz (forests) → Malthus (population vs resources) → 1960s economists → Brundtland/WCED → German Advisory Council's 3 responsibilities.",
+   "examTips": "Know the order and who did what: Carlowitz (forests) → Malthus (population vs resources) → 1960s economists → Brundtland/WCED → German Advisory Council's 3 responsibilities. Quiz 1: Malthus (dated ~1850 on the slide and in the quiz) = first systematic study of ecological limits to growth; not Carlowitz (forestry, 1713), Leopold, Muir or Pinchot.",
    "importance": 3,
    "sources": [
     {
@@ -290,7 +290,7 @@
     "viable",
     "triple bottom line"
    ],
-   "examTips": "Classic question: name the 3 dimensions and the three overlaps (bearable = social+environment, equitable = social+economic, viable = environment+economic). Contrast the overlapping-circles model with the nested view (environment as foundation).",
+   "examTips": "Classic question: name the 3 dimensions and the three overlaps (bearable = social+environment, equitable = social+economic, viable = environment+economic). Contrast the overlapping-circles model with the nested view (environment as foundation). Quiz 1: the ENVIRONMENT dimension is the foundation; society and economy must operate within planetary boundaries.",
    "importance": 3,
    "sources": [
     {
@@ -369,8 +369,8 @@
     "nutrient cycling",
     "biosphere"
    ],
-   "examTips": "Define an ecosystem with all four parts: biotic community + abiotic environment + energy flow + nutrient cycling.",
-   "importance": 2,
+   "examTips": "Define an ecosystem with all four parts: biotic community + abiotic environment + energy flow + nutrient cycling. Quiz 1: ecosystem (not biosphere, population or habitat) = biotic community + abiotic environment in energy flow and nutrient cycles.",
+   "importance": 3,
    "sources": [
     {
      "module": "M1",
@@ -412,7 +412,7 @@
    "module": "M1",
    "parent": "m1.part1",
    "summary": "Six laws: everything is connected; species depend on each other; everything must go somewhere; thermodynamics applies; nature knows best; no free lunch.",
-   "details": "Slide 18 lists six **laws of ecology** (the first four and the last echo Barry Commoner's classic \"four laws\"):\n\n1. **Every element is connected to everything else** – ecosystems are networks; disturbing one part ripples through.\n2. **Every species depends on every other species** – interdependence within food webs.\n3. **Everything must go somewhere** – matter is not destroyed; waste and pollution are just moved (e.g. plastics, CO2, fertiliser runoff).\n4. **The laws of thermodynamics apply** – energy is conserved but degrades at each transfer; ecosystems need continuous energy input (sunlight).\n5. **Nature knows best** – human interventions in natural systems are likely to be harmful; long-evolved systems are hard to improve.\n6. **There is no such thing as a free lunch** – every gain from nature has a cost somewhere; exploitation always has consequences.\n\nThese laws give scientific weight to sustainability: e.g. law 3 explains pollution and the need for recycling (W7); law 6 explains why overconsumption has hidden costs (W3) and why planetary boundaries exist (W2).",
+   "details": "Slide 18 lists six **laws of ecology** (the first four and the last echo Barry Commoner's classic \"four laws\"):\n\n1. **Every element is connected to everything else** – ecosystems are networks; disturbing one part ripples through.\n2. **Every species depends on every other species** – interdependence within food webs.\n3. **Everything must go somewhere** – matter is not destroyed; waste and pollution are just moved (e.g. plastics, CO2, fertiliser runoff).\n4. **The laws of thermodynamics apply** – energy is conserved but degrades at each transfer; ecosystems need continuous energy input (sunlight).\n5. **Nature knows best** – human interventions in natural systems are likely to be harmful; long-evolved systems are hard to improve.\n6. **There is no such thing as a free lunch** – every gain from nature has a cost somewhere; exploitation always has consequences.\n\nThese laws give scientific weight to sustainability: e.g. law 3 explains pollution and the need for recycling (W7); law 6 explains why overconsumption has hidden costs (W3) and why planetary boundaries exist (W2).\n\n**Quiz 1 link:** the lecturer pairs law 3 (\"Everything must go somewhere\") with the **laws of thermodynamics** (conservation: nothing disappears, it only changes place or form). On the slide the thermodynamics law is listed separately as law 4, so answer \"thermodynamics\" when asked what science principle law 3 relates to.",
    "keyTerms": [
     "everything is connected",
     "everything must go somewhere",
@@ -420,7 +420,7 @@
     "thermodynamics",
     "Barry Commoner"
    ],
-   "examTips": "Be able to list the laws and illustrate one with a real example (e.g. 'everything must go somewhere' → microplastics, fertiliser runoff causing eutrophication).",
+   "examTips": "Be able to list the laws and illustrate one with a real example (e.g. 'everything must go somewhere' → microplastics, fertiliser runoff causing eutrophication). Quiz 1: \"Everything must go somewhere\" is the law the lecturer links closely to thermodynamics (matter is conserved, waste is only moved). Other options seen: Nature Knows Best, Everything is Connected to Everything Else, There is No Such Free Lunch; also \"energy flow\", \"carrying capacity\", \"biodiversity\" as lookalikes.",
    "importance": 3,
    "sources": [
     {
@@ -532,7 +532,7 @@
     "instrumental value",
     "wolf eradication"
    ],
-   "examTips": "Contrast Dominion (humans above nature, nature has only instrumental value) with Stewardship (responsibility to care) and Ecocentrism (humans as plain members of the land community).",
+   "examTips": "Contrast Dominion (humans above nature, nature has only instrumental value) with Stewardship (responsibility to care) and Ecocentrism (humans as plain members of the land community). Quiz 1: Dominion Thesis = humans separate from and superior to nature; nature useful only insofar as it benefits humans. Distractors: Utilitarianism, Land Ethic, Conservationism, Stewardship.",
    "importance": 3,
    "sources": [
     {
@@ -606,7 +606,7 @@
     "human-centred",
     "instrumental value"
    ],
-   "examTips": "Most common compare/contrast: anthropocentrism vs ecocentrism. Give an example argument for each (e.g. dam for electricity/jobs vs protecting salmon and the ecosystem).",
+   "examTips": "Most common compare/contrast: anthropocentrism vs ecocentrism. Give an example argument for each (e.g. dam for electricity/jobs vs protecting salmon and the ecosystem). Quiz 1: anthropocentrism = humans as the primary factor in judging right/wrong actions toward nature; distractors: ecocentrism, stewardship, utilitarianism, Land Ethic, preservationism.",
    "importance": 3,
    "sources": [
     {
@@ -734,7 +734,7 @@
     "national parks",
     "wildlife"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M1",
@@ -743,7 +743,8 @@
       29
      ]
     }
-   ]
+   ],
+   "examTips": "Quiz 1: John Muir = preservationist, protection of wilderness for its own sake, NON-utilitarian (not Pinchot, Malthus, Locke). The quiz spells Pinchot \"Clifford\"; the slide says Gifford."
   },
   {
    "id": "m1.conserve-vs-preserve.hetch-hetchy",
@@ -759,8 +760,8 @@
     "Pinchot vs Muir",
     "trade-off"
    ],
-   "examTips": "Use Hetch Hetchy as an illustration when asked to contrast conservationism and preservationism.",
-   "importance": 2,
+   "examTips": "Use Hetch Hetchy as an illustration when asked to contrast conservationism and preservationism. Quiz 1: Muir opposed the dam because it would disturb wilderness and biodiversity; Pinchot (conservationism) wanted efficient use for the greatest benefit of society. Muir is NOT the utilitarian.",
+   "importance": 3,
    "sources": [
     {
      "module": "M1",
@@ -808,7 +809,7 @@
     "ecological interests",
     "non-anthropocentric"
    ],
-   "examTips": "Pair with anthropocentrism. Be able to say which stance each actor in a dilemma takes (company/government vs environmentalists/indigenous community).",
+   "examTips": "Pair with anthropocentrism. Be able to say which stance each actor in a dilemma takes (company/government vs environmentalists/indigenous community). Quiz 1: ecological interests override human-species interests when judging the morality of an action = ecocentrism (not anthropocentrism, utilitarianism, Dominion Thesis).",
    "importance": 3,
    "sources": [
     {
@@ -966,7 +967,7 @@
     "high seas",
     "aquifer"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M2",
@@ -974,7 +975,8 @@
       4
      ]
     }
-   ]
+   ],
+   "examTips": "Quiz 1: \"renewable resources owned by no one, usable by almost anyone, e.g. atmosphere, open ocean\" = Open-Access Resources (not The Commons, not private property, not ecosystem services)."
   },
   {
    "id": "m2.tragedy-not-commons",
@@ -991,7 +993,7 @@
     "graduated sanctions",
     "customary rules"
    ],
-   "examTips": "If asked 'is Hardin right?', answer: partly – for unmanaged open access; but community commons with rules (Barambang Katute, Maine lobsters) avoid the tragedy. List the institutional ingredients.",
+   "examTips": "If asked 'is Hardin right?', answer: partly – for unmanaged open access; but community commons with rules (Barambang Katute, Maine lobsters) avoid the tragedy. List the institutional ingredients. Quiz 1: managed commons (Barambang Katute, Maine lobster) avoid tragedy because of mechanisms of policy and boundaries applied by the local community; unmanaged = Hardin 1968 assumption.",
    "importance": 3,
    "sources": [
     {
@@ -1125,7 +1127,7 @@
     "Holocene / interglacial state",
     "resilience"
    ],
-   "examTips": "Be able to name all nine boundaries and explain 'safe operating space'. Remember the boundaries are about Earth-system stability, not resource depletion per se.",
+   "examTips": "Be able to name all nine boundaries and explain 'safe operating space'. Remember the boundaries are about Earth-system stability, not resource depletion per se. Quiz 1: purpose = identify scientifically based limits that define a SAFE OPERATING SPACE for humanity within the Earth system (not max GDP, not a fossil-fuel depletion date, not 2050 energy capacity).",
    "importance": 3,
    "sources": [
     {
@@ -1139,19 +1141,19 @@
   },
   {
    "id": "m2.pb-status-2025",
-   "label": "2025 status: 7 of 9 transgressed",
+   "label": "Boundaries breached: 6 (quiz) vs 7 (2025 slide)",
    "type": "data",
    "module": "M2",
    "parent": "m2.part2",
-   "summary": "The 2025 update finds seven of nine boundaries breached; only stratospheric ozone and atmospheric aerosol loading remain within the safe operating space.",
-   "details": "Slide 7 (Stockholm Resilience Centre, **24 Sept 2025**; diagram \"The 2025 update to the Planetary Boundaries\", Sakschewski & Caesar et al. 2025): **7 out of 9 planetary boundaries have been transgressed**, meaning **Earth is now outside the safe operating space for humanity**.\n\n**Transgressed (7):**\n1. **Climate change** – both CO2 concentration and radiative forcing\n2. **Biosphere integrity** – genetic and functional (functional in the high-risk red zone)\n3. **Land-system change**\n4. **Freshwater change** – blue water and green water\n5. **Biogeochemical flows** – nitrogen (N) and phosphorus (P), both deep in the high-risk zone\n6. **Novel entities** (synthetic chemicals, plastics etc.)\n7. **Ocean acidification** – newly breached in the 2025 assessment\n\n**Within the safe space (2):**\n8. **Stratospheric ozone depletion**\n9. **Atmospheric aerosol loading**\n\nCompare the older 2009 diagram on slide 6: then only **3** were crossed (climate change, biodiversity loss, nitrogen cycle), and chemical pollution and aerosols were **\"not yet quantified\"**. The trend shows a rapidly worsening situation.",
+   "summary": "Quiz key: 6 of 9 boundaries breached (outside the safe operating space). The 2025 slide update counts 7, adding ocean acidification.",
+   "details": "**Quiz 1 headline fact: 6 of the 9 boundaries are currently breached** (Q10, options 3 / 5 / 6 / 9; key = 6). The lecturer's key matches the 2023 update (Richardson et al.): climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows and novel entities. **Slide 7 (2025 update) shows 7**, because ocean acidification was newly crossed. If the options contain 6 and not 7, answer 6; if 7 is offered, 7 is the slide figure. 2009 diagram (slide 6): only 3 crossed.\n\nSlide 7 (Stockholm Resilience Centre, **24 Sept 2025**; diagram \"The 2025 update to the Planetary Boundaries\", Sakschewski & Caesar et al. 2025): **7 out of 9 planetary boundaries have been transgressed**, meaning **Earth is now outside the safe operating space for humanity**.\n\n**Transgressed (7):**\n1. **Climate change** – both CO2 concentration and radiative forcing\n2. **Biosphere integrity** – genetic and functional (functional in the high-risk red zone)\n3. **Land-system change**\n4. **Freshwater change** – blue water and green water\n5. **Biogeochemical flows** – nitrogen (N) and phosphorus (P), both deep in the high-risk zone\n6. **Novel entities** (synthetic chemicals, plastics etc.)\n7. **Ocean acidification** – newly breached in the 2025 assessment\n\n**Within the safe space (2):**\n8. **Stratospheric ozone depletion**\n9. **Atmospheric aerosol loading**\n\nCompare the older 2009 diagram on slide 6: then only **3** were crossed (climate change, biodiversity loss, nitrogen cycle), and chemical pollution and aerosols were **\"not yet quantified\"**. The trend shows a rapidly worsening situation.",
    "keyTerms": [
     "7 of 9",
     "2025 update",
     "transgressed",
     "Stockholm Resilience Centre"
    ],
-   "examTips": "Memorise: 7 of 9 breached (2025); the 2 still safe are ozone and aerosols. Ocean acidification is the newest one crossed. 2009: only 3 crossed.",
+   "examTips": "Quiz 1 key: 6 of 9 breached (=> outside the safe operating space). Slide 7 (2025) says 7 of 9; the 2 still safe are ozone and aerosols; ocean acidification is the newest crossed. 2009: 3. Ensure you can name the 6/7 and the safe ones.",
    "importance": 3,
    "sources": [
     {
@@ -1285,7 +1287,7 @@
     "urbanisation",
     "forest cover"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M2",
@@ -1294,7 +1296,8 @@
       8
      ]
     }
-   ]
+   ],
+   "examTips": "Quiz 1: deforestation + urbanisation + agricultural expansion violate the LAND-SYSTEM CHANGE boundary (not freshwater, ocean acidification, ozone)."
   },
   {
    "id": "m2.pb.freshwater-change",
@@ -1338,8 +1341,8 @@
     "eutrophication",
     "algal bloom"
    ],
-   "examTips": "Explain the eutrophication chain: fertiliser runoff → algal bloom → oxygen depletion → dead zones.",
-   "importance": 2,
+   "examTips": "Explain the eutrophication chain: fertiliser runoff → algal bloom → oxygen depletion → dead zones. Quiz 1: synthetic-fertiliser N and P runoff causing eutrophication = BIOGEOCHEMICAL FLOWS (not climate change, chemical pollution/novel entities, land-system change).",
+   "importance": 3,
    "sources": [
     {
      "module": "M2",
@@ -1671,7 +1674,7 @@
      ]
     }
    ],
-   "examTips": "Define carrying capacity and name the three groups of limiting factors. Explain J vs S curve. Link to overpopulation (needs exceed carrying capacity) and to footprint vs biocapacity."
+   "examTips": "Define carrying capacity and name the three groups of limiting factors. Explain J vs S curve. Link to overpopulation (needs exceed carrying capacity) and to footprint vs biocapacity. Quiz 1: carrying capacity is determined by limiting factors - space, abiotic factors and biotic factors (e.g. disease) - not by exponential growth, unlimited technology or affluence."
   },
   {
    "id": "m3.population-theories",
@@ -1930,7 +1933,7 @@
      ]
     }
    ],
-   "examTips": "Know the headline numbers (GDP ~$3,100; literacy 94%; life expectancy 75; density 860/km2) and the lesson: human development is not just a function of income."
+   "examTips": "Know the headline numbers (GDP ~$3,100; literacy 94%; life expectancy 75; density 860/km2) and the lesson: human development is not just a function of income. Quiz 1: Kerala = human-development success (high literacy 94% and life expectancy 75) despite low income. Density 860 vs Indonesia 141 /km2 => difference 719 /km2 (see m3.calc.density)."
   },
   {
    "id": "m3.part2",
@@ -1995,7 +1998,7 @@
      ]
     }
    ],
-   "examTips": "Most likely exam item. State the formula, define each term (A = consumption/income per capita), name the authors (Ehrlich & Holdren 1974), and explain why T can raise or lower I. Do a simple calculation (e.g. P x1.35, A x4 -> T must fall ~5x)."
+   "examTips": "Most likely exam item. State the formula, define each term (A = consumption/income per capita), name the authors (Ehrlich & Holdren 1974), and explain why T can raise or lower I. Do a simple calculation (e.g. P x1.35, A x4 -> T must fall ~5x). Quiz 1: A (Affluence) = level of consumption or per-capita income (not population, patents, area). Calculation items: see m3.calc.ipat."
   },
   {
    "id": "m3.ipat.pa-data",
@@ -2034,7 +2037,7 @@
     "IPAT scenario",
     "2050"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M3",
@@ -2043,7 +2046,7 @@
      ]
     }
    ],
-   "examTips": "Be able to reproduce the arithmetic: 1.35 x 4 = 5.4, so T must fall ~5x. Explain what 'decoupling' means."
+   "examTips": "Be able to reproduce the arithmetic: 1.35 x 4 = 5.4, so T must fall ~5x. Explain what 'decoupling' means. Quiz 1 (EN Q18): P +35%, A x4 => 1.35 x 4 = 5.4, so T must fall by a factor of ~five. A second quiz item (ID Q18) used P +20%, A x2.5 => 3, so T must fall 3x. See m3.calc.ipat."
   },
   {
    "id": "m3.tech-dual-role",
@@ -2069,7 +2072,7 @@
      ]
     }
    ],
-   "examTips": "Give two examples each of technology improving and worsening impact. Explain the coal-vs-firewood nuance. Link to IPAT's T and to Jevons paradox."
+   "examTips": "Give two examples each of technology improving and worsening impact. Explain the coal-vs-firewood nuance. Link to IPAT's T and to Jevons paradox. Quiz 1: technology WORSENS impact via expansion of natural-resource exploitation (also pollution/waste, higher consumption); renewable energy, pollution monitoring and resource efficiency are the IMPROVING examples."
   },
   {
    "id": "m3.jevons",
@@ -2094,7 +2097,7 @@
      ]
     }
    ],
-   "examTips": "Classic trick question: 'Does efficiency always reduce resource use?' Answer with Jevons paradox; distinguish rebound vs backfire."
+   "examTips": "Classic trick question: 'Does efficiency always reduce resource use?' Answer with Jevons paradox; distinguish rebound vs backfire. Quiz 1: efficiency gains that increase total resource use = Jevons Paradox (lookalikes: Technofix, Malthusian theorem, rebound effect, ecocentrism)."
   },
   {
    "id": "m3.kuznets-kurzweil",
@@ -2281,7 +2284,7 @@
      ]
     }
    ],
-   "examTips": "Define overconsumption and contrast it with hyperconsumption (need-exceeding vs status/novelty-driven). Argue 'overconsumption, not overpopulation' using footprint and CO2 data."
+   "examTips": "Define overconsumption and contrast it with hyperconsumption (need-exceeding vs status/novelty-driven). Argue 'overconsumption, not overpopulation' using footprint and CO2 data. Quiz 1: overconsumption = using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality (not affluence, hyperconsumption, addictive consumption, rebound)."
   },
   {
    "id": "m3.consumption-co2",
@@ -2321,7 +2324,7 @@
     "food waste",
     "single-use plastic"
    ],
-   "importance": 1,
+   "importance": 3,
    "sources": [
     {
      "module": "M3",
@@ -2329,7 +2332,8 @@
       33
      ]
     }
-   ]
+   ],
+   "examTips": "Quiz 1 calculation items use these slide examples (AC set very cold, lights left on): 20 LED x 15 W, 10 h/day, 30 days at 1,000/kWh = 90,000; 750 W AC, 12 h/day, 30 days at Rp 1,500/kWh = Rp 405,000 (see m3.calc.electricity)."
   },
   {
    "id": "m3.addictive-consumption",
@@ -2379,7 +2383,7 @@
      ]
     }
    ],
-   "examTips": "Most likely: 'Distinguish overconsumption from hyperconsumption with examples.' Name Lipovetsky (2011)."
+   "examTips": "Most likely: 'Distinguish overconsumption from hyperconsumption with examples.' Name Lipovetsky (2011). Quiz 1: buying/replacing gadgets yearly for speed, novelty or status = hyperconsumption (not overconsumption, addictive consumption, rebound effect, provisioning services)."
   },
   {
    "id": "m3.hyperconsumption-examples",
@@ -2457,7 +2461,7 @@
      ]
     }
    ],
-   "examTips": "Define ecological footprint precisely (demand for productive land/sea to supply resources AND absorb waste). Don't confuse with carbon footprint (only one component)."
+   "examTips": "Define ecological footprint precisely (demand for productive land/sea to supply resources AND absorb waste). Don't confuse with carbon footprint (only one component). Quiz 1: the footprint is a comparison of demand (footprint) versus supply/availability (biocapacity). See m3.calc.footprint."
   },
   {
    "id": "m3.biocapacity",
@@ -2501,7 +2505,7 @@
     "housing",
     "waste"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M3",
@@ -2511,7 +2515,7 @@
      ]
     }
    ],
-   "examTips": "Know the unit (gha per person per year) and the four components."
+   "examTips": "Know the unit (gha per person per year) and the four components. Quiz 1: the unit of the Ecological Footprint per person per year is the GLOBAL HECTARE (gha/gHA) - not CO2e tonnes, km2 or GDP."
   },
   {
    "id": "m3.indonesia-footprint",
@@ -2583,6 +2587,174 @@
      ]
     }
    ]
+  },
+  {
+   "id": "m3.calc",
+   "label": "Week 3 worked calculations",
+   "type": "topic",
+   "module": "M3",
+   "parent": "m3",
+   "summary": "Calculation types tested in Quiz 1: IPAT decoupling factor, population-density difference, appliance electricity cost, footprint-vs-biocapacity and Earths.",
+   "details": "Quiz 1 contains **calculation questions** (every one is multiple choice with the worked steps given by the lecturer). All are simple multiplication/subtraction, so the exam trick is to set up the formula correctly.\n\n| Type | Formula | Quiz 1 items |\n|---|---|---|\n| IPAT / decoupling factor | required T reduction = P multiplier x A multiplier (I constant) | EN Q18 (q1-18): 1.35 x 4 = 5.4 ~ factor five; ID Q18 (q1-40): 1.2 x 2.5 = 3 |\n| Population-density difference | density A - density B | EN Q25 / ID Q23 (q1-25): 860 - 141 = 719 /km2 |\n| Electricity cost of an appliance | kW x hours/day x days x price per kWh | EN Q26 (q1-26): 90,000; ID Q26 (q1-41): Rp 405,000 |\n| Footprint vs biocapacity / Earths | footprint / biocapacity; Earths = footprint (as a % of one Earth) / 100 | underlies EN Q23-24 (units and comparison); slide arithmetic for overshoot |\n| Ratios from slide data | later / earlier, or A / B | e.g. EV battery GWP, data-centre demand (slides 26-27) |\n\nGeneral method: (1) write the formula, (2) convert units (watts to kW; % to multiplier: +35% = x1.35), (3) multiply, (4) check against the options (the nearest option is usually intended, e.g. 5.4 ~ five).",
+   "keyTerms": [
+    "calculation",
+    "IPAT",
+    "kWh",
+    "population density",
+    "ecological footprint"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14,
+      16,
+      17,
+      19,
+      33,
+      37,
+      38,
+      39,
+      40,
+      41
+     ]
+    }
+   ],
+   "examTips": "Expect 1-3 numeric items. Know all four formulas cold and always convert units (W to kW, % to multiplier). Open each child node for the worked quiz example."
+  },
+  {
+   "id": "m3.calc.ipat",
+   "label": "Calculation: IPAT decoupling factor",
+   "type": "framework",
+   "module": "M3",
+   "parent": "m3.calc",
+   "summary": "Keep I constant: required fall in T = (1+%P) x (A multiplier). 1.35 x 4 = 5.4 ~ factor five; 1.2 x 2.5 = 3.",
+   "details": "**Formula:** I = P x A x T. To hold **I constant**, the technology factor must shrink by the same factor as P x A grows:\n\n**required reduction factor of T = P multiplier x A multiplier**, where P multiplier = 1 + (percent increase)/100.\n\n**Worked example 1 (English Q18, q1-18):** P +35% => 1.35; A x4 => 4. P x A = 1.35 x 4 = **5.4**. T must fall by about **5.4, i.e. 'a factor of five'** - the slide's 2050 scenario states 'factor five'. Answer: **Five** (options: two / three / four / five).\n\n**Worked example 2 (Indonesian Q18, q1-40):** I starts at 100; P +20% => 1.2; A x2.5. 1.2 x 2.5 = **3.0**. Write 100 = (1.2 P)(2.5 A)(T/X) => T/X must be 1/3, X = **3**. Answer: **3.0** (options 2.0 / 3.0 / 4.0 / 5.5; 5.5 is a trap).\n\n**Related reading of the result (derived):** if technology only improved 3x in example 1, I would be 5.4/3 = 1.8 times today's impact (+80%).\n\n**Slide data relied on:** slide 17 (I = PAT; A = consumption or per-capita income), slide 19 (2010 to 2050: population +35%, affluence ~x4, technology must reduce impact ~5 times), slide 18 (P and A trends).\n\n'Decoupling' = impact per unit of consumption falls even as consumption rises.",
+   "keyTerms": [
+    "IPAT",
+    "decoupling",
+    "factor five",
+    "P x A"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      16,
+      17,
+      18,
+      19
+     ]
+    }
+   ],
+   "examTips": "Percent increase of 35% => multiply by 1.35 (not 0.35). Multiply the multipliers, do not add them. Quiz answer for P+35%, A x4 is five (5.4 ~ 5); for P+20%, A x2.5 it is exactly 3."
+  },
+  {
+   "id": "m3.calc.density",
+   "label": "Calculation: population-density difference (Kerala vs Indonesia)",
+   "type": "data",
+   "module": "M3",
+   "parent": "m3.calc",
+   "summary": "Difference = 860 (Kerala) minus 141 (Indonesia) = 719 persons per km2 (2022 data).",
+   "details": "**Formula:** difference = density(A) - density(B).\n\n**Worked example (English Q25 / Indonesian Q23, q1-25):** slide 14 (2022 World Population Data) lists population density: **Kerala 860 /km2**, India 488, Australia 3.5, Germany 242, USA 37.8, **Indonesia 141**. So 860 - 141 = **719 per km2**. Options: 488 (this is India's density, a trap), 347 or 570 (filler), 141 (Indonesia's own density, a trap) and **719**.\n\nContext: Kerala is far more densely populated than Indonesia yet has literacy 94% and life expectancy 75 (slide 14), so density/income alone do not decide human development.\n\nIf the question asks for a different pair, subtract the slide-14 values (e.g. Kerala - India = 860 - 488 = 372).",
+   "keyTerms": [
+    "population density",
+    "Kerala",
+    "719"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      14
+     ]
+    }
+   ],
+   "examTips": "Memorise the density row: Kerala 860, India 488, Australia 3.5, Germany 242, USA 37.8, Indonesia 141. 488 and 141 appear as distractors."
+  },
+  {
+   "id": "m3.calc.electricity",
+   "label": "Calculation: electricity cost of an appliance",
+   "type": "framework",
+   "module": "M3",
+   "parent": "m3.calc",
+   "summary": "Cost = power (kW) x hours per day x days x price per kWh; convert watts to kW first.",
+   "details": "**Formula:** energy (kWh) = power (kW) x hours; **cost = kW x hours/day x days x price per kWh**. 1 kW = 1,000 W.\n\n**Worked example A (English Q26, q1-26):** a business leaves 20 LED bulbs of 15 W on for 10 h per day, price 1,000 per kWh. 20 x 15 W = 300 W = **0.3 kW**; 0.3 x 10 x 30 = 90 kWh; 90 x 1,000 = **90,000** (answer C; $4,500 / $9,000 / $120,000 are traps).\n\n**Worked example B (Indonesian Q26, q1-41):** a 1 PK AC (about 750 W = 0.75 kW) runs 12 h/day for 30 days at Rp 1,500/kWh. 0.75 x 12 = 9 kWh/day; x 30 = 270 kWh; x 1,500 = **Rp 405,000** (answer C; 270,000 = forgetting the price step, 540,000 = 16 h or doubling).\n\n**Slide data relied on:** the scenarios are the slide-33 overconsumption examples (air conditioning very cold all day, lights left on) and the Jevons/LED rebound idea of slide 22. The slides give no wattage or tariff; those come from the question.\n\nThe same arithmetic reappears in Week 6: cooling can be 50-60% of a building's energy (M6 s28).",
+   "keyTerms": [
+    "kWh",
+    "watt",
+    "electricity cost",
+    "overconsumption"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      22,
+      33
+     ]
+    }
+   ],
+   "examTips": "Always convert W to kW before multiplying. Order of multiplication does not matter; omitting days (or hours) is the common error. Check: 750 W x 12 h x 30 d = 270 kWh."
+  },
+  {
+   "id": "m3.calc.footprint",
+   "label": "Calculation: footprint vs biocapacity and 'how many Earths'",
+   "type": "framework",
+   "module": "M3",
+   "parent": "m3.calc",
+   "summary": "Footprint/biocapacity gives the overshoot ratio; humanity at 160% of biocapacity = 1.6 Earths; Indonesia 1.8 vs 1.2 gha = deficit 0.6.",
+   "details": "**Core comparison (Q23-24 in English):** the Ecological Footprint compares **footprint (demand)** with **biocapacity (supply)**; the unit is the **global hectare (gha) per person per year**.\n\n**Formulas (arithmetic used on the slides):**\n- Ecological balance = biocapacity - footprint (negative = deficit/overshoot).\n- Overshoot ratio = footprint / biocapacity; 100% of biocapacity = one Earth.\n- Earths needed = overshoot ratio / 100 when expressed in % (160% => 1.6 Earths).\n\n**Worked examples from the slides:**\n- Indonesia 2022 (slide 40): biocapacity 1.2 gha, footprint 1.8 gha per person => balance 1.2 - 1.8 = **-0.6 gha** (deficit); footprint is 1.8/1.2 = **150%** of its biocapacity.\n- Humanity (slide 38): **73%** of biocapacity in 1961; **160%** in 2020 => about **1.6 Earths**.\n- 'How many Earths' (slide 41, 2022): USA 5.1, Australia 4.5, Germany 3.0, China 2.4, World 1.75, India 0.8 (<1). Example: USA/World = 5.1/1.75 ~ 2.9 times the average; India lives within one Earth despite the larger population => consumption matters, not only population.\n\nNo numeric 'Earths' question appeared in Quiz 1; the conceptual items (unit and comparison) are q1-23 and q1-24.",
+   "keyTerms": [
+    "global hectare",
+    "biocapacity",
+    "overshoot",
+    "how many Earths"
+   ],
+   "importance": 3,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      37,
+      38,
+      39,
+      40,
+      41
+     ]
+    }
+   ],
+   "examTips": "Unit = gha per person per year (not tonnes CO2, km2 or GDP). Footprint is DEMAND, biocapacity is SUPPLY. 160% in 2020 = ~1.6 Earths; India <1; USA ~5."
+  },
+  {
+   "id": "m3.calc.slide-ratios",
+   "label": "Calculation: ratios from slide data (EV battery GWP, data centres)",
+   "type": "data",
+   "module": "M3",
+   "parent": "m3.calc",
+   "summary": "Ratio = later/earlier or A/B: NMC vs LFP battery GWP 1,208/573 ~ 2.1x; data centres 945/415 TWh ~ 2.3x by 2030.",
+   "details": "Further arithmetic the Week 3 slides support (not tested in Quiz 1):\n\n- **EV battery GWP (slide 26):** NMC production ~1,208 kg CO2-eq vs LFP ~573 kg CO2-eq => NMC/LFP = 1,208/573 ~ **2.1 times**; difference 1,208 - 573 = **635 kg CO2-eq** (units as on the slide). Water use 153.6 vs 25.8 => ~6 times. 70% of EVs in China use LFP.\n- **Data centres (slide 27):** 415 TWh in 2024 = 1.5% of global electricity; projected ~945 TWh by 2030 => growth 945/415 ~ **2.3 times**; implied world electricity ~ 415/0.015 ~ 27,700 TWh.\n- **EV mineral demand (slide 25):** cobalt x39.6, lithium x19.6, manganese x5.2, nickel x4.7 by 2030 relative to 2015.\n\nMethod: state the ratio you are asked for, keep units identical, round sensibly.",
+   "keyTerms": [
+    "GWP",
+    "TWh",
+    "ratio"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M3",
+     "slides": [
+      25,
+      26,
+      27
+     ]
+    }
+   ],
+   "examTips": "Low priority; not in Quiz 1. If asked, quote the slide numbers and the ratio."
   },
   {
    "id": "m4",
@@ -2737,7 +2909,7 @@
     "88% population",
     "80% middle class 2030"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M4",
@@ -2746,7 +2918,7 @@
      ]
     }
    ],
-   "examTips": "Memorise 88% of population and 80% middle class by 2030."
+   "examTips": "Memorise 88% of population and 80% middle class by 2030. Quiz 1: Global South = ~88% of the world population (distractors 40%, 65%, 75% / 80%). The 80% on the slide is the share of the global middle class by 2030, not population."
   },
   {
    "id": "m4.ns-definition",
@@ -2773,7 +2945,7 @@
      ]
     }
    ],
-   "examTips": "Classic trap: 'Global South = southern hemisphere' is WRONG. Give Australia (North) and Indonesia/India (South, partly northern hemisphere) as counter-examples."
+   "examTips": "Classic trap: 'Global South = southern hemisphere' is WRONG. Give Australia (North) and Indonesia/India (South, partly northern hemisphere) as counter-examples. Quiz 1: North/South is based on social and economic aspects (not geography, climate/area, population/biodiversity, colonisation history or emission level)."
   },
   {
    "id": "m4.country-lists",
@@ -2886,7 +3058,7 @@
     "indigenous communities",
     "intellectual commons"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M4",
@@ -2894,7 +3066,8 @@
       11
      ]
     }
-   ]
+   ],
+   "examTips": "Quiz 1: main threat to commons in the Global South = exploitation by corporations and government policies that fail to involve local communities."
   },
   {
    "id": "m4.commons-types",
@@ -2919,7 +3092,7 @@
      ]
     }
    ],
-   "examTips": "Be ready to give 3 natural and 3 man-made examples; surprising ones: electromagnetic spectrum, outer space, seeds, internet bandwidth."
+   "examTips": "Be ready to give 3 natural and 3 man-made examples; surprising ones: electromagnetic spectrum, outer space, seeds, internet bandwidth. Quiz 1: man-made commons example = shared knowledge / internet technology (ID version: pengetahuan bersama). Natural: electromagnetic spectrum, outer space, biodiversity, high seas."
   },
   {
    "id": "m4.importance",
@@ -2975,7 +3148,7 @@
      ]
     }
    ],
-   "examTips": "Name all four MEA categories with one example each. Common confusion: regulating (e.g. flood control) vs supporting (e.g. nutrient cycling, soil formation)."
+   "examTips": "Name all four MEA categories with one example each. Common confusion: regulating (e.g. flood control) vs supporting (e.g. nutrient cycling, soil formation). Quiz 1: benefits of healthy ecosystems (provisioning, regulating, supporting, cultural) = Ecosystem Services."
   },
   {
    "id": "m4.es-provisioning",
@@ -3039,7 +3212,7 @@
     "spiritual value",
     "heritage"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M4",
@@ -3047,7 +3220,8 @@
       14
      ]
     }
-   ]
+   ],
+   "examTips": "Quiz 1: aesthetic, spiritual and recreational values = CULTURAL services."
   },
   {
    "id": "m4.es-supporting",
@@ -3143,7 +3317,7 @@
      ]
     }
    ],
-   "examTips": "Define PES with beneficiary-pays + conditionality. Know the three payment/regulation routes (market, social, government) and an example of each."
+   "examTips": "Define PES with beneficiary-pays + conditionality. Know the three payment/regulation routes (market, social, government) and an example of each. Quiz 1: beneficiaries compensating those who maintain the service, provided results are achieved = Payment for Ecosystem Services (PES)."
   },
   {
    "id": "m4.cidanau",
@@ -3259,7 +3433,7 @@
      ]
     }
    ],
-   "examTips": "Pair years with treaties: Montreal 1987 (CFCs), Kigali 2016 (HFCs/HCFCs). Don't mix up with Kyoto (1997) or Paris (2015)."
+   "examTips": "Pair years with treaties: Montreal 1987 (CFCs), Kigali 2016 (HFCs/HCFCs). Don't mix up with Kyoto (1997) or Paris (2015). Quiz 1: Montreal Protocol 1987 (CFCs) = commons managed through global consensus / international cooperation."
   },
   {
    "id": "m4.common-property",
@@ -3363,7 +3537,7 @@
      ]
     }
    ],
-   "examTips": "Explain Dieselgate as a regulation/enforcement failure of a commons (air); key facts: Clean Air Act, NOx, software, 20× on-road, recall."
+   "examTips": "Explain Dieselgate as a regulation/enforcement failure of a commons (air); key facts: Clean Air Act, NOx, software, 20× on-road, recall. Quiz 1: Dieselgate pollutant = Nitrogen Oxides (NOx), smog-forming, regulated under the US Clean Air Act (not CO2, SO2, CFCs)."
   },
   {
    "id": "m4.indonesia-emissions",
@@ -3531,7 +3705,7 @@
     "privatisation",
     "intellectual property rights"
    ],
-   "importance": 2,
+   "importance": 3,
    "sources": [
     {
      "module": "M4",
@@ -3540,7 +3714,7 @@
      ]
     }
    ],
-   "examTips": "Show both sides: technology can enclose (fences, IP) or empower (monitoring data, sensors)."
+   "examTips": "Show both sides: technology can enclose (fences, IP) or empower (monitoring data, sensors). Quiz 1: technology can cause exclusion/reduced common access OR strengthen collective capacity to manage commons (both sides; not \"always simplifies\", not \"eliminates collective action\", not \"only increases costs\")."
   },
   {
    "id": "m4.nonphysical",
@@ -5929,6 +6103,79 @@
    "importance": 3
   },
   {
+   "id": "m6.ghg.gwp.calc",
+   "label": "Worked calculation: CO2e from GWP",
+   "type": "framework",
+   "module": "M6",
+   "parent": "m6.ghg.gwp",
+   "summary": "CO2e = mass of gas x GWP; CO2 = 1, N2O = 298, HCFC-22 ~ 1,800, CFC up to 12,500 (lecturer's notes).",
+   "details": "**Formula:** emissions in CO2-equivalents (CO2e) = mass of gas x its GWP, because GWP is measured relative to CO2 (GWP = 1).\n\n**Slide data (M6 s6 speaker notes):** N2O = 298; HCFC-22 ~ 1,800; CFC up to 12,500.\n\n**Worked examples (derived from those numbers):**\n- 1 tonne of N2O = 1 x 298 = **298 t CO2e**.\n- 10 kg of HCFC-22 leaked from an AC = 10 x 1,800 = **18,000 kg CO2e** (18 t) - which is why refrigerant leakage is a direct-emission concern (M6 s28).\n- A CFC with GWP 12,500 is 12,500 times CO2 per kg.\n\nThe slides give no numeric exam question here; the point is to read GWP as a multiplier.",
+   "keyTerms": [
+    "GWP",
+    "CO2e",
+    "N2O 298"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      6,
+      28
+     ]
+    }
+   ],
+   "examTips": "Not tested numerically in Quiz 1/2: know that GWP is a multiplier relative to CO2 and the headline values (N2O 298, CFC ~12,500, HCFC-22 ~1,800)."
+  },
+  {
+   "id": "m6.ghg-sources.calc",
+   "label": "Worked calculation: sector shares of GHG emissions (2019)",
+   "type": "data",
+   "module": "M6",
+   "parent": "m6.ghg-sources",
+   "summary": "Share = sector emissions / total: 20 Gt of ~59 GtCO2-eq = 34% (energy); energy + industry = 58%.",
+   "details": "**Formula:** share (%) = sector emissions / total emissions x 100.\n\n**Slide data (M6 s32, IPCC 2023, 2019):** Energy 34% (20 GtCO2-eq), Industrial 24% (14), AFOLU 22% (13), Transportation 15% (8.7), Building 6% (3.3).\n\n**Checks and worked examples:**\n- Total = 20 + 14 + 13 + 8.7 + 3.3 = **59 GtCO2-eq**; the five percentages add to 101% because of rounding.\n- Energy: 20/59 = 33.9% ~ **34%**; Building: 3.3/59 = 5.6% ~ 6%.\n- Energy + Industrial = 34 Gt = 34/59 = **58%**; Transportation + Building = 12 Gt ~ 20%.\n\nKey fact (quiz): **Energy is the largest source in 2019**.",
+   "keyTerms": [
+    "GtCO2-eq",
+    "sector share",
+    "2019"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      32
+     ]
+    }
+   ],
+   "examTips": "Known quiz fact: energy is the biggest source. Percent = Gt / ~59."
+  },
+  {
+   "id": "m6.cooling-emissions.calc",
+   "label": "Worked calculation: cooling share of building energy",
+   "type": "data",
+   "module": "M6",
+   "parent": "m6.cooling-emissions",
+   "summary": "Indirect emissions from cooling = building energy x 50-60% share; combine with kW x h x tariff for cost.",
+   "details": "**Slide data (M6 s28):** in hotels, offices and shopping centres, cooling can use **50-60% of the building's total energy**.\n\n**Worked example (derived):** a building using 1,000 MWh per year spends about 500-600 MWh on cooling. At a tariff of Rp 1,500/kWh (the Quiz 1 price) that is 500,000-600,000 kWh x 1,500 = Rp 750-900 million per year. The same kW x hours x price method as Week 3 (see m3.calc.electricity) applies; converting kWh to CO2e needs a grid emission factor that the slides do not give.\n\nDirect emissions (refrigerant leakage of high-GWP CFC/HCFC/HFC) are calculated with the GWP multiplier (see m6.ghg.gwp.calc).",
+   "keyTerms": [
+    "cooling energy",
+    "50-60%",
+    "indirect emissions"
+   ],
+   "importance": 2,
+   "sources": [
+    {
+     "module": "M6",
+     "slides": [
+      28
+     ]
+    }
+   ],
+   "examTips": "Quiz fact: indirect emissions = energy use; direct = refrigerant leakage. 50-60% is the slide number."
+  },
+  {
    "id": "m7",
    "label": "W7 · SDG Interlinkages & Nexus",
    "type": "module",
@@ -6985,7 +7232,7 @@
    "parent": "core.themes",
    "importance": 3,
    "summary": "Carrying capacity, planetary boundaries, ecological footprint and overshoot.",
-   "details": "Carrying capacity, planetary boundaries, ecological footprint and overshoot.\n\nRelated concepts are linked by dashed edges — follow them across weeks.\n\n**Concepts in this theme:**\n- Planetary boundaries framework (M2)\n- 2025 status: 7 of 9 transgressed (M2)\n- Carrying Capacity (M3)\n- Malthusian View (M3)\n- Ecological Footprint: Concept (M3)\n- Footprint vs Biocapacity & Overshoot (M3)\n- Doughnut Economics (M1)\n- Laws of ecology (M1)\n- Greenhouse gases (GHGs) (M6)",
+   "details": "Carrying capacity, planetary boundaries, ecological footprint and overshoot.\n\nRelated concepts are linked by dashed edges — follow them across weeks.\n\n**Concepts in this theme:**\n- Planetary boundaries framework (M2)\n- Boundaries breached: 6 (quiz) vs 7 (2025 slide) (M2)\n- Carrying Capacity (M3)\n- Malthusian View (M3)\n- Ecological Footprint: Concept (M3)\n- Footprint vs Biocapacity & Overshoot (M3)\n- Doughnut Economics (M1)\n- Laws of ecology (M1)\n- Greenhouse gases (GHGs) (M6)",
    "keyTerms": [],
    "sources": [
     {
@@ -7355,6 +7602,60 @@
    "label": "P and A jointly drive deficit"
   },
   {
+   "source": "m3.calc.ipat",
+   "target": "m3.ipat.2050",
+   "type": "applies-to",
+   "label": "worked arithmetic of the factor-five scenario"
+  },
+  {
+   "source": "m3.calc.ipat",
+   "target": "m3.ipat",
+   "type": "applies-to",
+   "label": "I = P x A x T"
+  },
+  {
+   "source": "m3.calc.density",
+   "target": "m3.kerala",
+   "type": "applies-to",
+   "label": "uses the Kerala data table"
+  },
+  {
+   "source": "m3.calc.electricity",
+   "target": "m3.overconsumption-examples",
+   "type": "applies-to",
+   "label": "AC and lights left on"
+  },
+  {
+   "source": "m3.calc.footprint",
+   "target": "m3.biocapacity",
+   "type": "applies-to",
+   "label": "footprint vs biocapacity arithmetic"
+  },
+  {
+   "source": "m3.calc.footprint",
+   "target": "m3.how-many-earths",
+   "type": "applies-to",
+   "label": "Earths needed"
+  },
+  {
+   "source": "m3.calc.slide-ratios",
+   "target": "m3.ev-battery",
+   "type": "applies-to",
+   "label": "GWP ratio"
+  },
+  {
+   "source": "m3.calc.slide-ratios",
+   "target": "m3.ai-datacenter",
+   "type": "applies-to",
+   "label": "TWh growth ratio"
+  },
+  {
+   "source": "m3.calc.electricity",
+   "target": "m6.cooling-emissions",
+   "type": "related",
+   "label": "cooling energy use (M6)"
+  },
+  {
    "source": "m4.subak",
    "target": "m4.arrangement",
    "type": "applies-to",
@@ -7653,6 +7954,12 @@
    "target": "m6.paris.cbdr",
    "type": "applies-to",
    "label": "conditional vs unconditional target = CBDR-RC in practice"
+  },
+  {
+   "source": "m6.cooling-emissions.calc",
+   "target": "m3.calc.electricity",
+   "type": "builds-on",
+   "label": "same kW x hours x price method"
   },
   {
    "source": "m7.rankings",

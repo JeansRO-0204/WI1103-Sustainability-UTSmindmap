@@ -10,7 +10,7 @@ Course WI1103 (ITB), weeks 1-7 (M1-M7). Everything needed to answer questions is
 
 ## Layout
 `knowledge/` graph.json, chunks.jsonl (one line per slide), corpus.md, INDEX.md, fragments/ (per-week source); `tools/` query.py, mcp_server.py; `build/` extract, render, merge, validate; `app/` Vite+React mindmap (incl. Quiz / Cards / Progress study mode); `ppt/` original decks.
-`knowledge/quiz/`: `SPEC.md` (contract), `quiz2.raw.json` (verbatim Quiz 2) + `quiz2.tags.json` + `generated.M*.json` + `topics.json` are merged and validated by `python3 build/quiz_merge.py` into `quiz.json` (served as `/data/quiz.json`; `quiz.sample.json` is the fallback; `--sample` validates it). Learner progress is browser-local (`mm.quiz`, `mm.reviewed`) with Export/Import in the Progress tab.
+`knowledge/quiz/`: `SPEC.md` (contract), `quiz2.raw.json` (verbatim Quiz 2) + `quiz2.tags.json` + `quiz1.raw.json` (verbatim bilingual Quiz 1: English `stem`/`options`, Indonesian `stemId`/`optionsId`, optional `calc`, `enTranslated`) + `quiz1.tags.json` + `generated.M*.json` + `topics.json` are merged and validated by `python3 build/quiz_merge.py` into `quiz.json` (served as `/data/quiz.json`; `quiz.sample.json` is the fallback; `--sample` validates it and the `quiz1.sample.raw/tags.json` pair; missing quiz1 files only warn). Learner progress is browser-local (`mm.quiz`, `mm.reviewed`) with Export/Import in the Progress tab.
 
 ## Rebuild
 ```

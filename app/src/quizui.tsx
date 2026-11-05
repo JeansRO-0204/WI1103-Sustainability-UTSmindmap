@@ -20,6 +20,22 @@ export function Inline({ text }: { text: string }) {
   )
 }
 
+const SUB = '₀₁₂₃₄₅₆₇₈₉', SUP = '⁰¹²³⁴⁵⁶⁷⁸⁹'
+const script = (s: string, map: string) => (/^\d+$/.test(s) ? [...s].map((d) => map[Number(d)]).join('') : null)
+
+/** Turn the lecturer's LaTeX-ish calculation notes ("$1.35 \\times 4 = 5.4$") into readable plain text. */
+export function cleanMath(src: string): string {
+  let s = src
+  for (let i = 0; i < 3; i++) s = s.replace(/\\(?:text|mathrm|mathbf|textbf|operatorname)\{([^{}]*)\}/g, '$1').replace(/\\frac\{([^{}]*)\}\{([^{}]*)\}/g, '($1)/($2)')
+  s = s.replace(/\$\$?/g, '')
+    .replace(/\\(times|cdot|div|approx|neq|leq?|geq?|pm|rightarrow|to)\b/g, (_m, k: string) => ({ times: '×', cdot: '·', div: '÷', approx: '≈', neq: '≠', le: '≤', leq: '≤', ge: '≥', geq: '≥', pm: '±', rightarrow: '→', to: '→' } as Record<string, string>)[k])
+    .replace(/_\{([^{}]*)\}|_(\d+)/g, (m, a, b) => script(a ?? b, SUB) ?? m)
+    .replace(/\^\{([^{}]*)\}|\^(\d+)/g, (m, a, b) => script(a ?? b, SUP) ?? m)
+    .replace(/\\([%_&#])/g, '$1').replace(/\\[,;:! ]/g, ' ').replace(/\\([a-zA-Z]+)/g, '$1')
+    .replace(/[{}]/g, '')
+  return s.replace(/[ \t]+/g, ' ').trim()
+}
+
 export const MD = ({ text }: { text: string }) => <div className="md-q"><Markdown>{text}</Markdown></div>
 
 export function Ring({ agg, size = 16 }: { agg?: Agg; size?: number }) {

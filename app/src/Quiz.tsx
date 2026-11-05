@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import Setup, { scopeLabel, type Launch, type StudyCtx } from './Setup'
 import { INTERVALS, dueLabel, pickQueue, poolFor, shuffle, profColor } from './quizlib'
-import { ConceptChips, Inline, MD, SourceThumbs, noFocus } from './quizui'
+import { ConceptChips, Inline, MD, SourceThumbs, cleanMath, noFocus } from './quizui'
 
 interface Run { ids: string[]; order: Record<string, number[]>; i: number; sel: number | null; checked: boolean; res: { id: string; ok: boolean }[]; label: string }
 
@@ -10,7 +10,7 @@ function newRun(ctx: StudyCtx, ids: string[], label: string): Run {
   for (const id of ids) {
     const q = ctx.qd.questions.get(id)!
     const idx = q.options.map((_, k) => k)
-    order[id] = q.source === 'generated' ? shuffle(idx) : idx // Quiz 2 option order stays verbatim
+    order[id] = q.source === 'generated' ? shuffle(idx) : idx // Quiz 1 / Quiz 2 option order stays verbatim
   }
   return { ids, order, i: 0, sel: null, checked: false, res: [], label }
 }
@@ -18,6 +18,8 @@ function newRun(ctx: StudyCtx, ids: string[], label: string): Run {
 export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: boolean; launch: Launch | null }) {
   const [run, setRun] = useState<Run | null>(null)
   const [empty, setEmpty] = useState('')
+  const [lang, setLangState] = useState<'en' | 'id'>(() => { try { return localStorage.getItem('mm.lang') === 'id' ? 'id' : 'en' } catch { return 'en' } })
+  const setLang = (l: 'en' | 'id') => { setLangState(l); try { localStorage.setItem('mm.lang', l) } catch { /* private mode */ } }
 
   const begin = useCallback((ids: string[], label: string) => {
     if (!ids.length) { setEmpty(`No questions in scope: ${label}.`); setRun(null); return }
@@ -66,6 +68,9 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
   const picked = run.sel != null ? order[run.sel] : -1
   const ok = run.checked && q.answer.includes(picked)
   const st = ctx.state.items[q.id]
+  const bi = q.source === 'quiz1' && !!q.stemId && q.optionsId?.length === q.options.length // bilingual item
+  const id = bi && lang === 'id'
+  const optText = (i: number) => (id ? q.optionsId![i] : q.options[i])
   return (
     <div className="study-body">
       <div className="qhead">
@@ -80,12 +85,23 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
         <div className="qtags">
           <span className="tag" style={{ background: ctx.data.moduleColor(q.module) }}>{q.module}</span>
           <span className="tag ghost">{q.topic}</span>
-          <span className="tag ghost">{q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : 'Generated'}</span>
-          {q.source !== 'quiz2' && <span className="info-i" tabIndex={0} aria-label="About generated questions" data-tip="AI-generated from the course slides in the style of Quiz 2. Not written by your lecturer and not independently verified. Check anything doubtful against the cited slides.">i</span>}
+          <span className="tag ghost">{q.source === 'quiz1' ? `Quiz 1 #${q.n ?? ''}` : q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : 'Generated'}</span>
+          {q.source === 'quiz1' && q.enTranslated && <span className="info-i" tabIndex={0} aria-label="About the English translation" data-tip="English translation by AI; the lecturer's original is Indonesian.">i</span>}
+          {q.source === 'generated' && <span className="info-i" tabIndex={0} aria-label="About generated questions" data-tip="AI-generated from the course slides in the style of Quiz 2. Not written by your lecturer and not independently verified. Check anything doubtful against the cited slides.">i</span>}
           {q.keyStatus === 'inferred' && <span className="tag warn" title="The original quiz had no answer key">key inferred</span>}
           {q.keyStatus === 'disputed' && <span className="tag warn" title="The slides disagree with the quiz key">key disputed</span>}
+          {bi && (
+            <span className="grow" />
+          )}
+          {bi && (
+            <span className="langtoggle" role="group" aria-label="Question language">
+              {(['en', 'id'] as const).map((l) => (
+                <button key={l} className={lang === l ? 'on' : ''} aria-pressed={lang === l} onClick={() => setLang(l)} {...noFocus}>{l.toUpperCase()}</button>
+              ))}
+            </span>
+          )}
         </div>
-        <div className="qstem"><Inline text={q.stem} /></div>
+        <div className="qstem" lang={id ? 'id' : 'en'}><Inline text={id ? q.stemId! : q.stem} /></div>
         <div className="opts" role="radiogroup">
           {order.map((oi, pos) => {
             const isRight = run.checked && q.answer.includes(oi)
@@ -94,7 +110,7 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
               <label key={oi} className={'opt' + (pos === run.sel ? ' sel' : '') + (isRight ? ' right' : '') + (isWrong ? ' wrong' : '') + (run.checked ? ' locked' : '')}>
                 <input type="radio" name="qopt" checked={pos === run.sel} disabled={run.checked} onChange={() => select(pos)} />
                 <kbd>{pos + 1}</kbd>
-                <span className="otext"><Inline text={q.options[oi]} /></span>
+                <span className="otext" lang={id ? 'id' : 'en'}><Inline text={optText(oi)} /></span>
                 {isRight && <b className="mark">&#10003;</b>}
                 {isWrong && <b className="mark">&#10007;</b>}
               </label>
@@ -109,8 +125,9 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
         ) : (
           <div className={'feedback ' + (ok ? 'ok' : 'bad')}>
             <h3>{ok ? 'Correct' : 'Not quite'}</h3>
-            {!ok && <p className="ans">Correct answer: <b><Inline text={q.answerText} /></b></p>}
+            {!ok && <p className="ans">Correct answer: <b><Inline text={id ? (q.answerTextId ?? optText(q.answer[0])) : q.answerText} /></b></p>}
             {q.explanation && <MD text={q.explanation} />}
+            {q.calc && <div className="calcblock"><h5>Worked calculation</h5><p>{cleanMath(q.calc)}</p></div>}
             {q.note && <p className="qnote"><b>Note:</b> {q.note}</p>}
             {st && <p className="muted small">Leitner box <b style={{ color: profColor(((st.b - 1) / 4) * 100) }}>{st.b}</b> / 5 &middot; next review {dueLabel(INTERVALS[st.b - 1])}</p>}
             <SourceThumbs data={ctx.data} sources={q.sources} onSlide={ctx.onSlide} />

@@ -1,0 +1,1323 @@
+[
+ {
+  "id": "q1-01",
+  "source": "quiz1",
+  "n": 1,
+  "nId": 1,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "Based on the sources, sustainability is fundamentally defined as what kind of concept?",
+  "options": [
+   "A static scientific fact",
+   "A linear economic model",
+   "An ethical concept",
+   "A closed-ended concept defined universally"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "An ethical concept",
+  "stemId": "Konsep keberlanjutan (sustainability) bukanlah fakta yang dapat disimpulkan secara ilmiah, melainkan sebuah konsep yang menggambarkan visi tentang “bagaimana dunia seharusnya”. Berdasarkan sumber, sifat utama dari konsep keberlanjutan adalah...",
+  "optionsId": [
+   "Bersifat statis dan ilmiah",
+   "Model pembangunan ekonomi linier",
+   "Konsep etis",
+   "Terbatas dan closed-ended"
+  ],
+  "answerTextId": "Konsep etis",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Konsep etis",
+  "lang": "paired",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-02",
+  "source": "quiz1",
+  "n": 2,
+  "nId": 2,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "Which historical figure, writing around 1850, is credited with the first systematic study concerning ecological limits to growth, predicting crisis due to the imbalance between resources and population size?",
+  "options": [
+   "Carl von Carlowitz",
+   "Aldo Leopold",
+   "Thomas Robert Malthus",
+   "John Muir"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Thomas Robert Malthus",
+  "stemId": "Siapakah ekonom yang karyanya (sekitar tahun 1850) diidentifikasi sebagai studi sistematis pertama mengenai batasan ekologis terhadap pertumbuhan di dunia, karena memperkirakan ketidakseimbangan antara sumber daya dan jumlah populasi?",
+  "optionsId": [
+   "Carl von Carlowitz",
+   "Aldo Leopold",
+   "Thomas Robert Malthus",
+   "Clifford Pinchot"
+  ],
+  "answerTextId": "Thomas Robert Malthus",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Thomas Robert Malthus",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-03",
+  "source": "quiz1",
+  "n": 3,
+  "nId": 3,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "In the three dimensions of sustainability (Economic, Social, Environmental), which dimension is described as the foundational element upon which society and the economy must depend and operate within its boundaries?",
+  "options": [
+   "Economic",
+   "Social",
+   "Political",
+   "Environmental"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Environmental",
+  "stemId": "Dalam tiga dimensi keberlanjutan (Ekonomi, Sosial, Lingkungan), dimensi manakah yang digambarkan sebagai fondasi, di mana masyarakat dan ekonomi perlu beroperasi dalam batas-batasnya (planetary boundaries)?",
+  "optionsId": [
+   "Ekonomi",
+   "Sosial",
+   "Politik",
+   "Lingkungan"
+  ],
+  "answerTextId": "Lingkungan",
+  "idKey": [
+   3
+  ],
+  "idKeyText": "Lingkungan",
+  "lang": "paired",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-04",
+  "source": "quiz1",
+  "n": 4,
+  "nId": 4,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "In environmental science, the functional unit consisting of a community of living organisms (biotic) interacting with the non-living environment (abiotic) in the flow of energy and nutrient cycles is known as a(n)...",
+  "options": [
+   "Biosphere",
+   "Population",
+   "Habitat",
+   "Ecosystem"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Ecosystem",
+  "stemId": "Dalam kajian ilmu lingkungan, satuan fungsional yang terdiri dari komunitas makhluk hidup (biotik) dengan lingkungan tak hidup (abiotik) yang saling berinteraksi dalam aliran energi dan daur nutrien disebut sebagai...",
+  "optionsId": [
+   "Biosfer",
+   "Populasi",
+   "Habitat",
+   "Ekosistem"
+  ],
+  "answerTextId": "Ekosistem",
+  "idKey": [
+   3
+  ],
+  "idKeyText": "Ekosistem",
+  "lang": "paired",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-05",
+  "source": "quiz1",
+  "n": 5,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "Which Law of Ecology states that “Everything must go somewhere,” a principle closely related to the scientific concept of thermodynamics?",
+  "options": [
+   "Nature Knows Best",
+   "Everything is Connected to Everything Else",
+   "There is No Such Free Lunch",
+   "Everything must go somewhere"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Everything must go somewhere",
+  "lang": "en-only",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-06",
+  "source": "quiz1",
+  "n": 6,
+  "nId": 6,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "The ethical viewpoint that places human beings as the central factor in determining whether an action toward nature is right or wrong is called:",
+  "options": [
+   "Ecocentrism",
+   "Stewardship",
+   "Anthropocentrism",
+   "Preservasionism"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Anthropocentrism",
+  "stemId": "Sudut pandang etika lingkungan yang menempatkan manusia sebagai faktor utama dalam menentukan kebenaran atau kesalahan tindakan terhadap alam disebut sebagai...",
+  "optionsId": [
+   "Ekosentrisme",
+   "Utilitarianisme",
+   "Antroposentrisme",
+   "Land Ethic"
+  ],
+  "answerTextId": "Antroposentrisme",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Antroposentrisme",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-07",
+  "source": "quiz1",
+  "n": 7,
+  "nId": 7,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "Which ethical theory asserts that humans are superior and separate from nature, and that nature is only useful insofar as it benefits humans?",
+  "options": [
+   "Utilitarianism",
+   "Land Ethic",
+   "Dominion Thesis",
+   "Conservationism"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Dominion Thesis",
+  "stemId": "Teori etika yang menyatakan bahwa manusia merupakan entitas yang terpisah dan lebih superior dari alam, serta alam hanya berguna selama memiliki manfaat untuk manusia, adalah...",
+  "optionsId": [
+   "Stewardship",
+   "Land Ethic",
+   "Dominion Thesis",
+   "Konservasionisme"
+  ],
+  "answerTextId": "Dominion Thesis",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Dominion Thesis",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-08",
+  "source": "quiz1",
+  "n": 8,
+  "nId": 8,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "Which key figure in environmental ethics was a noted preservationist, focused on the protection of wilderness for its own sake, and held a non-utilitarian view regarding resource management?",
+  "options": [
+   "Clifford Pinchot",
+   "Thomas Malthus",
+   "John Muir",
+   "John Locke"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "John Muir",
+  "stemId": "Siapakah tokoh etika lingkungan yang dikenal sebagai preservasionis, yang pengelolaan sumber daya alamnya utamanya ditujukan untuk perlindungan alam liar dan menganut pandangan non-utilitarian?",
+  "optionsId": [
+   "Clifford Pinchot",
+   "Thomas Malthus",
+   "John Muir",
+   "John Locke"
+  ],
+  "answerTextId": "John Muir",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "John Muir",
+  "lang": "paired",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-09",
+  "source": "quiz1",
+  "n": 9,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "The perspective that ecological interests must override the interests of the human species when determining the morality of an action is characteristic of which ethical view?",
+  "options": [
+   "Anthropocentrism",
+   "Utilitarianism",
+   "Ecocentrism",
+   "Dominion Thesis"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Ecocentrism",
+  "lang": "en-only",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-10",
+  "source": "quiz1",
+  "n": 10,
+  "nId": 10,
+  "section": "B. Planetary Boundaries and The Commons (Week 2)",
+  "stem": "The Planetary Boundaries framework identifies 9 crucial processes for maintaining Earth's stability. How many of these boundaries are currently considered breached, indicating that Earth is outside the safe operating space for humanity?",
+  "options": [
+   "3",
+   "5",
+   "6",
+   "9"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "6",
+  "stemId": "Kerangka Planetary Boundaries mengidentifikasi 9 proses yang krusial untuk menjaga stabilitas Bumi. Saat ini, berapa banyak batas planet yang telah dilanggar, menunjukkan Bumi berada di luar safe operating space bagi manusia?",
+  "optionsId": [
+   "3",
+   "5",
+   "6",
+   "9"
+  ],
+  "answerTextId": "6",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "6",
+  "lang": "paired",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-11",
+  "source": "quiz1",
+  "n": 11,
+  "nId": 11,
+  "section": "B. Planetary Boundaries and The Commons (Week 2)",
+  "stem": "The boundary that is transgressed due to the excessive use of synthetic fertilizers, leading to the runoff of nitrogen and phosphorus into ecosystems (causing eutrophication), is the boundary for...",
+  "options": [
+   "Climate Change",
+   "Chemical Pollution",
+   "Land-System Change",
+   "Biogeochemical Flows"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Biogeochemical Flows",
+  "stemId": "Pelanggaran batas planet yang terjadi akibat penggunaan pupuk sintetis yang berlebihan, yang mengakibatkan aliran nitrogen dan fosfor berlebihan ke dalam ekosistem (misalnya, menyebabkan eutrofikasi), adalah batas...",
+  "optionsId": [
+   "Perubahan Iklim",
+   "Polusi Kimia",
+   "Kehilangan Keanekaragaman Hayati",
+   "Aliran Biogeokimia"
+  ],
+  "answerTextId": "Aliran Biogeokimia",
+  "idKey": [
+   3
+  ],
+  "idKeyText": "Aliran Biogeokimia",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-12",
+  "source": "quiz1",
+  "n": 12,
+  "nId": 12,
+  "section": "B. Planetary Boundaries and The Commons (Week 2)",
+  "stem": "Renewable resources that are owned by no one and can be used by almost anyone, such as the atmosphere or the open ocean, are specifically referred to as...",
+  "options": [
+   "The Commons",
+   "Private Property",
+   "Open-Access Resources",
+   "Ecosystem Services"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Open-Access Resources",
+  "stemId": "Sumber daya yang tidak dimiliki oleh siapa pun dan dapat digunakan oleh hampir siapa saja (contohnya adalah atmosfer dan laut lepas) secara spesifik disebut sebagai...",
+  "optionsId": [
+   "Barang Milik Bersama (The Commons)",
+   "Properti Pribadi",
+   "Open-Access Resources",
+   "Ekosistem"
+  ],
+  "answerTextId": "Open-Access Resources",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Open-Access Resources",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "note": "Source PDF has the key line typo 'jAwab C' in the English half.",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-13",
+  "source": "quiz1",
+  "n": 13,
+  "nId": 13,
+  "section": "B. Planetary Boundaries and The Commons (Week 2)",
+  "stem": "The sources emphasize that managed Commons (like the Barambang Katute Indigenous Forest) successfully avoid the \"tragedy\" associated with Open-Access Resources primarily because they have...",
+  "options": [
+   "Unlimited resource availability.",
+   "Mechanisms of policy and boundaries applied by the local community",
+   "No economic value.",
+   "Private individual ownership."
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Mechanisms of policy and boundaries applied by the local community",
+  "stemId": "The Tragedy of the Commons (Hardin, 1968) diperdebatkan karena asumsinya lebih mengacu pada sumber daya yang tidak dikelola. Sebaliknya, The Commons yang dikelola, seperti Hutan Adat Barambang Katute atau Perikanan lobster di Maine, berhasil karena...",
+  "optionsId": [
+   "Sumber daya tersebut sepenuhnya terbuka untuk diakses oleh siapa saja.",
+   "Adanya mekanisme kebijakan dan batasan yang diterapkan oleh komunitas lokal.",
+   "Sumber daya tersebut tidak memiliki nilai ekonomi.",
+   "Sumber daya tersebut dimiliki secara pribadi."
+  ],
+  "answerTextId": "Adanya mekanisme kebijakan dan batasan yang diterapkan oleh komunitas lokal.",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Adanya mekanisme kebijakan dan batasan yang diterapkan oleh komunitas lokal.",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-14",
+  "source": "quiz1",
+  "n": 14,
+  "nId": 14,
+  "section": "B. Planetary Boundaries and The Commons (Week 2)",
+  "stem": "Large-scale human activities such as deforestation, urbanization, and agricultural expansion are identified as causes for the violation of the Planetary Boundary related to...",
+  "options": [
+   "Global Freshwater Use",
+   "Land-System Change",
+   "Ocean Acidification",
+   "Stratospheric Ozone Depletion"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Land-System Change",
+  "stemId": "Menurut sumber, alih fungsi lahan besar-besaran untuk pertanian, urbanisasi, dan deforestasi mengganggu ekosistem alami dan secara langsung melanggar batas planet yang terkait dengan...",
+  "optionsId": [
+   "Polusi kimia",
+   "Perubahan Penggunaan Lahan",
+   "Pengasaman Laut",
+   "Penipisan Ozon"
+  ],
+  "answerTextId": "Perubahan Penggunaan Lahan",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Perubahan Penggunaan Lahan",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-15",
+  "source": "quiz1",
+  "n": 15,
+  "nId": 15,
+  "section": "B. Planetary Boundaries and The Commons (Week 2)",
+  "stem": "The core purpose of the Planetary Boundaries framework is to identify the scientifically based limits defining the...",
+  "options": [
+   "Maximum Gross Domestic Product (GDP) for all nations.",
+   "Safe operating space for humanity within the Earth System",
+   "Total required renewable energy capacity by 2050.",
+   "The precise date when all fossil fuels will be depleted."
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Safe operating space for humanity within the Earth System",
+  "stemId": "Kerangka Planetary Boundaries merumuskan batasan terhadap dampak kegiatan manusia pada sistem Bumi. Tujuan utamanya adalah mengidentifikasi...",
+  "optionsId": [
+   "Tingkat GDP maksimum untuk negara maju.",
+   "Ruang operasi aman berbasis ilmiah (safe operating space) bagi umat manusia.",
+   "Kebutuhan energi global di tahun 2050.",
+   "Jumlah spesies yang boleh punah."
+  ],
+  "answerTextId": "Ruang operasi aman berbasis ilmiah (safe operating space) bagi umat manusia.",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Ruang operasi aman berbasis ilmiah (safe operating space) bagi umat manusia.",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-16",
+  "source": "quiz1",
+  "n": 16,
+  "nId": 16,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "The Carrying Capacity of a habitat, representing the maximum number of individuals of a species that can be sustainably supported, is ultimately determined by...",
+  "options": [
+   "Exponential population growth",
+   "Unlimited technological advancement.",
+   "Limiting factors such as space, abiotic factors, and biotic factors (e.g., disease).",
+   "The affluence level of the population (A in I=PAT)"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Limiting factors such as space, abiotic factors, and biotic factors (e.g., disease).",
+  "stemId": "Carrying Capacity (Daya Dukung Lingkungan) suatu habitat adalah jumlah individu maksimum suatu spesies yang dapat didukung secara berkelanjutan. Kapasitas ini ditentukan oleh...",
+  "optionsId": [
+   "Pertumbuhan populasi eksponensial.",
+   "Inovasi teknologi yang tidak terbatas.",
+   "Faktor pembatas seperti ruang, faktor abiotik, dan faktor biotik (misalnya penyakit).",
+   "Tingkat inflasi global."
+  ],
+  "answerTextId": "Faktor pembatas seperti ruang, faktor abiotik, dan faktor biotik (misalnya penyakit).",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Faktor pembatas seperti ruang, faktor abiotik, dan faktor biotik (misalnya penyakit).",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-17",
+  "source": "quiz1",
+  "n": 17,
+  "nId": 17,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "In the Environmental Impact formula I=PAT, the variable 'A' (Affluence) is primarily measured by which factor?",
+  "options": [
+   "Total world population",
+   "The level of consumption or per capita income",
+   "The number of patents for green technologies",
+   "The overall geographic area of the nation"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "The level of consumption or per capita income",
+  "stemId": "Dalam formula Dampak Lingkungan I=PAT (I=Impact, P=Population, A=Affluence, T=Technology), variabel 'A' (Affluence) diukur berdasarkan...",
+  "optionsId": [
+   "Total populasi dunia.",
+   "Tingkat konsumsi atau pendapatan per kapita.",
+   "Jumlah paten teknologi yang terdaftar.",
+   "Luas wilayah geografis."
+  ],
+  "answerTextId": "Tingkat konsumsi atau pendapatan per kapita.",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Tingkat konsumsi atau pendapatan per kapita.",
+  "lang": "paired",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-18",
+  "source": "quiz1",
+  "n": 18,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "(I=PAT Calculation) Assuming Environmental Impact (I) is held constant, if the Population (P) increases by 35% and Affluence (A) increases four times, technology (T) must reduce its impact (decoupling) by approximately what factor?",
+  "options": [
+   "Two",
+   "Three",
+   "Four",
+   "Five"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Five",
+  "lang": "en-only",
+  "calc": "Calculation: $1.35 \\times 4 = 5.4$. The sources specifically state a factor of 'five'.",
+  "calcType": "ipat",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-19",
+  "source": "quiz1",
+  "n": 19,
+  "nId": 19,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "The concept describing how technological progress increases resource efficiency, yet simultaneously increases the total consumption of natural resources, is known as...",
+  "options": [
+   "Technofix",
+   "Malthusian Theorem",
+   "Jevons Paradox",
+   "Rebound Effect"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Jevons Paradox",
+  "stemId": "Konsep yang menjelaskan bahwa kemajuan teknologi telah membuat penggunaan sumber daya alam lebih efisien, namun pada saat yang sama, peningkatan efisiensi ini justru meningkatkan total konsumsi sumber daya alam, disebut sebagai...",
+  "optionsId": [
+   "Technofix",
+   "Malthusian Theorem",
+   "Jevons Paradox",
+   "Ekosentrisme"
+  ],
+  "answerTextId": "Jevons Paradox",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Jevons Paradox",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-20",
+  "source": "quiz1",
+  "n": 20,
+  "nId": 20,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "According to the dual role of technology, which factor represents a way technology can WORSEN environmental impact?",
+  "options": [
+   "Renewable Energy",
+   "Pollution Monitoring",
+   "Efficiency in resource use",
+   "Expansion of Natural Resource Exploitation"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Expansion of Natural Resource Exploitation",
+  "stemId": "Menurut sumber, teknologi memiliki peran ganda dalam keberlanjutan. Manakah yang merupakan contoh bagaimana teknologi dapat MEMPERBURUK dampak lingkungan?",
+  "optionsId": [
+   "Inovasi Energi Terbarukan",
+   "Pemantauan Polusi",
+   "Efisiensi dalam Penggunaan Sumber Daya",
+   "Ekspansi Eksploitasi Sumber Daya Alam"
+  ],
+  "answerTextId": "Ekspansi Eksploitasi Sumber Daya Alam",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Pemantauan Polusi",
+  "lang": "paired",
+  "note": "KEY MISMATCH: the Indonesian half keys B (Pollution Monitoring), the English half keys D (Expansion of Natural Resource Exploitation). Slides support D; the Indonesian key looks like a typo.",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-21",
+  "source": "quiz1",
+  "n": 21,
+  "nId": 21,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "Using resources more than needed or exceeding the ecosystem's ability to recover, which results in degrading environmental quality, is the definition of...",
+  "options": [
+   "Affluence",
+   "Hyperconsumption",
+   "Addictive Consumption",
+   "Overconsumption"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Overconsumption",
+  "stemId": "Penggunaan sumber daya yang melebihi kebutuhan atau melampaui kemampuan ekosistem untuk pulih, yang pada akhirnya menurunkan kualitas lingkungan, didefinisikan sebagai...",
+  "optionsId": [
+   "Affluence",
+   "Hyperconsumption",
+   "Rebound Effect",
+   "Overconsumption"
+  ],
+  "answerTextId": "Overconsumption",
+  "idKey": [
+   3
+  ],
+  "idKeyText": "Overconsumption",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-22",
+  "source": "quiz1",
+  "n": 22,
+  "nId": 22,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "Purchasing or using goods driven by social or psychological factors (speed, novelty, status) far beyond functional needs, often involving rapid turnover, is defined as...",
+  "options": [
+   "Overconsumption",
+   "Rebound Effect",
+   "Hyperconsumption",
+   "Provisioning Services"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Hyperconsumption",
+  "stemId": "Membeli dan mengganti gawai setiap tahun untuk mendapatkan model terbaru, yang didorong oleh faktor sosial dan psikologis seperti kecepatan, kebaruan, atau status, adalah contoh dari...",
+  "optionsId": [
+   "Overconsumption",
+   "Addictive Consumption",
+   "Hyperconsumption",
+   "Konservasi"
+  ],
+  "answerTextId": "Hyperconsumption",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Hyperconsumption",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-23",
+  "source": "quiz1",
+  "n": 23,
+  "nId": 24,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "The standard unit used to measure the Ecological Footprint—the area of productive biological land/sea 'required' by a lifestyle per person per year—is the...",
+  "options": [
+   "Metric Ton of CO2",
+   "Square Kilometer (km2)",
+   "Global Hectare (gHA)",
+   "Gross Domestic Product (GDP)"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Global Hectare (gHA)",
+  "stemId": "Ecological Footprint adalah ukuran permintaan manusia terhadap modal alam. Satuan utama yang digunakan untuk mengukur Ecological Footprint per orang per tahun adalah...",
+  "optionsId": [
+   "Ton CO2e",
+   "Kilometer persegi (km$^2$)",
+   "Global Hektar (gHA)",
+   "GDP per kapita (USD)"
+  ],
+  "answerTextId": "Global Hektar (gHA)",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Global Hektar (gHA)",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-24",
+  "source": "quiz1",
+  "n": 24,
+  "nId": 25,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "What comparison forms the fundamental basis of the Ecological Footprint calculation?",
+  "options": [
+   "Population (P) versus Technology (T)",
+   "Ecological Footprint (demand) versus Biocapacity (supply/availability)",
+   "Fossil fuel use versus renewable energy use",
+   "Local impact versus global impact"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Ecological Footprint (demand) versus Biocapacity (supply/availability)",
+  "stemId": "Secara fundamental, apa yang dibandingkan dalam perhitungan Ecological Footprint?",
+  "optionsId": [
+   "Populasi dengan tingkat kemakmuran (P vs A).",
+   "permintaan dengan ketersediaan.",
+   "Energi terbarukan dengan energi tak terbarukan.",
+   "Dampak lokal dengan dampak global."
+  ],
+  "answerTextId": "permintaan dengan ketersediaan.",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "permintaan dengan ketersediaan.",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-25",
+  "source": "quiz1",
+  "n": 25,
+  "nId": 23,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "(Calculation based on Kerala Data) According to the 2022 data provided in the sources, approximately what is the difference in population density (per $\\text{km}^2$) between the State of Kerala, India, and Indonesia?",
+  "options": [
+   "488 per person/km2",
+   "347 per person/km2",
+   "141 per person/km2",
+   "719 per person/km2"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "719 per person/km2",
+  "stemId": "Berdasarkan data Kerala, India vs. Indonesia (2022) terdapat perkiraan perbedaan kepadatan populasi (per km2). Berapakah perbedaan estimasi Kepadatan Populasi (per km2) antara Kerala dan Indonesia? (Bulatkan ke bilangan bulat terdekat).",
+  "optionsId": [
+   "488/km2",
+   "570/km2",
+   "141/km2",
+   "719/km2"
+  ],
+  "answerTextId": "719/km2",
+  "idKey": [
+   3
+  ],
+  "idKeyText": "719/km2",
+  "lang": "paired",
+  "calc": "Calculation: $860 \\text{ (Kerala)} - 141 \\text{ (Indonesia)} = 719$",
+  "calcId": "Perhitungan Kerala 860 /km2 – Indoensian 141 /km2 = 719 /km2",
+  "calcType": "density",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-26",
+  "source": "quiz1",
+  "n": 26,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "(Calculation based on Overconsumption) If a business leaves 20 LED light bulbs (each 15 watts) on for 10 hours unnecessarily per day (an example of Overconsumption), and the electricity rate is $1,000 or IDR per kWh, what is the approximate cost of this waste over a 30-day month?",
+  "options": [
+   "$4,500",
+   "$9,000",
+   "$90,000",
+   "$120,000"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "$90,000",
+  "lang": "en-only",
+  "calc": "Calculation: $20 x 15 W = 300 W = 0.3 kW; 0.3 x 10 hrs/day x 30 days x $1,000 =$90,000",
+  "calcType": "electricity",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-27",
+  "source": "quiz1",
+  "n": 27,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "Although having a \"low\" per capita income, the State of Kerala, India, is highlighted as a case study demonstrating human development success equivalent to developed countries due to its high levels of...",
+  "options": [
+   "GDP and industrialization.",
+   "Military strength.",
+   "Literacy rate and life expectancy.",
+   "Natural resource exports"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Literacy rate and life expectancy.",
+  "lang": "en-only",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-28",
+  "source": "quiz1",
+  "n": 28,
+  "nId": 27,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The categorization of countries into 'Global North' and 'Global South' is primarily based on what two factors, rather than strictly geographical location?",
+  "options": [
+   "Climate and land area",
+   "Social and economic aspects",
+   "Population size and biodiversity",
+   "History of colonization and language"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Social and economic aspects",
+  "stemId": "Kategori negara 'Global North' dan 'Global South' dibedakan berdasarkan...",
+  "optionsId": [
+   "Lokasi geografis di utara atau selatan Khatulistiwa.",
+   "Aspek sosial dan ekonomi",
+   "Luas wilayah dan keanekaragaman hayati.",
+   "Tingkat emisi gas rumah kaca."
+  ],
+  "answerTextId": "Aspek sosial dan ekonomi",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Aspek sosial dan ekonomi",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-29",
+  "source": "quiz1",
+  "n": 29,
+  "nId": 28,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The Global South is characterized as having what approximate percentage of the world's total population?",
+  "options": [
+   "40%",
+   "65%",
+   "75%",
+   "88%"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "88%",
+  "stemId": "Berdasarkan ciri-ciri Global South, berapa persentase kira-kira jumlah populasi dunia yang berada di Belahan Bumi Selatan?",
+  "optionsId": [
+   "40%",
+   "65%",
+   "80%",
+   "88%"
+  ],
+  "answerTextId": "88%",
+  "idKey": [
+   3
+  ],
+  "idKeyText": "88%",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "note": "The English half has NO answer key for this question; the key (88%) comes from the Indonesian half (Jawab D). The Indonesian option C is 80% (English: 75%).",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-30",
+  "source": "quiz1",
+  "n": 30,
+  "nId": 29,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The Commons include natural resources (e.g., forests, air) and resources created by humans. Which item is cited as an example of a 'Common Good' created by human action?",
+  "options": [
+   "The electromagnetic spectrum",
+   "Outer space",
+   "Shared Knowledge/Internet Technology",
+   "Biodiversity"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Shared Knowledge/Internet Technology",
+  "stemId": "Konsep The Commons mencakup sumber daya alam (Air, Hutan) dan sumber daya yang dikreasikan oleh manusia. Manakah yang merupakan contoh 'Barang Milik Bersama' yang dikreasikan oleh manusia?",
+  "optionsId": [
+   "Laut lepas",
+   "Ruang angkasa",
+   "Pengetahuan Bersama",
+   "Keanekaragaman hayati"
+  ],
+  "answerTextId": "Pengetahuan Bersama",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Pengetahuan Bersama",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-31",
+  "source": "quiz1",
+  "n": 31,
+  "nId": 30,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The primary threat cited against The Commons in the Global South is often related to...",
+  "options": [
+   "Lack of individual awareness regarding consumption.",
+   "Exploitation by corporations and government policies that fail to involve local communities",
+   "High technological rebound effects.",
+   "Low levels of literacy among communities"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Exploitation by corporations and government policies that fail to involve local communities",
+  "stemId": "Di Belahan Bumi Selatan, The Commons seringkali terikat erat dengan identitas budaya dan spiritualitas. Ancaman utama terhadap The Commons di Global South adalah...",
+  "optionsId": [
+   "Kurangnya pendidikan masyarakat lokal.",
+   "Eksploitasi oleh korporasi dan kebijakan pemerintah yang tidak melibatkan masyarakat lokal.",
+   "Penggunaan AC yang berlebihan.",
+   "Perbedaan waktu antar zona."
+  ],
+  "answerTextId": "Eksploitasi oleh korporasi dan kebijakan pemerintah yang tidak melibatkan masyarakat lokal.",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Eksploitasi oleh korporasi dan kebijakan pemerintah yang tidak melibatkan masyarakat lokal.",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-32",
+  "source": "quiz1",
+  "n": 32,
+  "nId": 31,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The benefits provided by healthy, functioning ecosystems—classified into provisioning, regulating, supporting, and cultural services—are collectively known as...",
+  "options": [
+   "Planetary Boundaries",
+   "Ecological Footprint",
+   "Ecosystem Services",
+   "Open-Access Resources"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Ecosystem Services",
+  "stemId": "Segala sesuatu yang disediakan oleh ekosistem yang sehat dan berfungsi dengan baik—yang diklasifikasikan menjadi provisioning, regulating, supporting, dan cultural—secara kolektif disebut sebagai...",
+  "optionsId": [
+   "Planetary Boundaries",
+   "Ecological Footprint",
+   "Jasa Ekosistem (Ecosystem Services)",
+   "Open-Access Resources"
+  ],
+  "answerTextId": "Jasa Ekosistem (Ecosystem Services)",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Jasa Ekosistem (Ecosystem Services)",
+  "lang": "paired",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-33",
+  "source": "quiz1",
+  "n": 33,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The ecosystem service category that includes aesthetic, spiritual, and recreational values is known as...",
+  "options": [
+   "Provisioning",
+   "Regulating",
+   "Supporting",
+   "Cultural"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Cultural",
+  "lang": "en-only",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-34",
+  "source": "quiz1",
+  "n": 34,
+  "nId": 32,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The economic mechanism where beneficiaries of natural services (e.g., clean water users) compensate those who maintain or enhance those services (e.g., forest farmers), provided the results are achieved, is known as...",
+  "options": [
+   "Mutual Consent",
+   "Utilitarianism",
+   "Payment for Ecosystem Services (PES)",
+   "Dominion Thesis"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Payment for Ecosystem Services (PES)",
+  "stemId": "Dalam konteks ekonomi lingkungan, mekanisme ketika pihak yang menikmati manfaat alam (misalnya, air bersih) membayar pihak yang menjaga atau meningkatkan jasa tersebut (misalnya, petani hutan) dikenal sebagai...",
+  "optionsId": [
+   "Mutual Consent",
+   "Utilitarianisme",
+   "Payment for Ecosystem Services (PES)",
+   "The Commons"
+  ],
+  "answerTextId": "Payment for Ecosystem Services (PES)",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Payment for Ecosystem Services (PES)",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-35",
+  "source": "quiz1",
+  "n": 35,
+  "nId": 33,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The successful global agreement (Montreal Protocol, 1987) that regulated the production and use of harmful substances (CFCs) to protect the ozone layer is a prime example of managing a 'Common Good' through...",
+  "options": [
+   "Individual property rights.",
+   "Global Consensus (international cooperation)",
+   "The expansion of resource exploitation.",
+   "Local community agreements only."
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Global Consensus (international cooperation)",
+  "stemId": "Kasus penipisan Lapisan Ozon yang berhasil diatasi melalui Montreal Protocol (1987) merupakan contoh keberhasilan pengelolaan 'Barang Milik Bersama' melalui...",
+  "optionsId": [
+   "Hukum termodinamika.",
+   "Konsensus Global (kerjasama masyarakat internasional).",
+   "Penerapan Dominion Thesis.",
+   "Peningkatan hyperconsumption."
+  ],
+  "answerTextId": "Konsensus Global (kerjasama masyarakat internasional).",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Konsensus Global (kerjasama masyarakat internasional).",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-36",
+  "source": "quiz1",
+  "n": 36,
+  "nId": 35,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "The Volkswagen ('Dieselgate') scandal in the US involved the company using software to cheat emissions tests, resulting in the excessive release of which smog-forming pollutant regulated under the Clean Air Act?",
+  "options": [
+   "Carbon Dioxide",
+   "Sulfur Dioxide",
+   "Chlorofluorocarbons (CFCs)",
+   "Nitrogen Oxides"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Nitrogen Oxides",
+  "stemId": "Skandal 'Dieselgate' yang melibatkan Volkswagen (VW) di AS, di mana mereka menggunakan perangkat lunak untuk memalsukan hasil uji emisi, melanggar pengaturan emisi gas buangan terkait dengan polutan yang diatur ketat oleh UU Udara Bersih dan menyebabkan 'smog' (kabut asap), yaitu...",
+  "optionsId": [
+   "Karbon Dioksida",
+   "Sulfur Dioksida",
+   "Klorofluorokarbon (CFC)",
+   "Nitrogen Oksida"
+  ],
+  "answerTextId": "Nitrogen Oksida",
+  "idKey": [
+   3
+  ],
+  "idKeyText": "Nitrogen Oksida",
+  "lang": "paired",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-37",
+  "source": "quiz1",
+  "n": 37,
+  "nId": 34,
+  "section": "D. Global South, Ecosystem Services, and Regulation (Week 4)",
+  "stem": "How does technological advancement impact the management of 'Common Goods'?",
+  "options": [
+   "Technology always simplifies management and ensures equal access.",
+   "Technology can drive change, sometimes causing exclusion or reduced common access, but other times strengthening collective capacity to manage them.",
+   "Technology eliminates the need for collective action entirely.",
+   "Technology only increases management costs due to monitoring requirements."
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Technology can drive change, sometimes causing exclusion or reduced common access, but other times strengthening collective capacity to manage them.",
+  "stemId": "Terkait The Commons, kemajuan teknologi dapat mendorong perubahan yang berdampak ganda, yaitu terkadang menyebabkan eksklusi atau pengurangan akses bersama, dan terkadang...",
+  "optionsId": [
+   "Mendorong backfire dalam konsumsi.",
+   "Memperkuat kapasitas kolektif untuk mengelolanya",
+   "Menghilangkan sama sekali kebutuhan akan pengelolaan bersama.",
+   "Selalu meningkatkan biaya pengelolaan."
+  ],
+  "answerTextId": "Memperkuat kapasitas kolektif untuk mengelolanya",
+  "idKey": [
+   0
+  ],
+  "idKeyText": "Mendorong backfire dalam konsumsi.",
+  "lang": "paired",
+  "flags": [
+   "distractorsDiffer"
+  ],
+  "note": "KEY MISMATCH: the Indonesian half keys D ('Mendorong backfire dalam konsumsi'), the English half keys B (strengthening collective capacity). The Indonesian stem ('...and sometimes...') is completed only by 'Memperkuat kapasitas kolektif' (B), so the Indonesian key looks like a typo. Slides (M4 s32) support B.",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-38",
+  "source": "quiz1",
+  "n": 38,
+  "nId": 5,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "The Law of Ecology stating that “Everything must go somewhere” is closely related to the scientific principle of...",
+  "options": [
+   "Energy flow",
+   "The laws of thermodynamics",
+   "Carrying capacity",
+   "Biodiversity"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "The laws of thermodynamics",
+  "stemId": "Hukum Ekologi yang menyatakan bahwa “Segala sesuatu Harus tersalurkan (Everything must go somewhere)” berkaitan erat dengan prinsip ilmiah mengenai...",
+  "optionsId": [
+   "Aliran energi",
+   "Hukum termodinamika",
+   "Daya dukung lingkungan",
+   "Keanekaragaman hayati"
+  ],
+  "answerTextId": "Hukum termodinamika",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Hukum termodinamika",
+  "lang": "id-only",
+  "enTranslated": true,
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-39",
+  "source": "quiz1",
+  "n": 39,
+  "nId": 9,
+  "section": "A. Foundations of Sustainability and Ethics (Week 1)",
+  "stem": "The Hetch Hetchy Valley conservation dilemma (Pinchot vs. Muir) is rooted in a difference of views between Conservationism (Pinchot), which seeks efficient use of natural resources for the greatest benefit of society, and Preservationism (Muir), which opposed building the dam because...",
+  "options": [
+   "The dam was not economical.",
+   "The dam would disturb wilderness and biodiversity.",
+   "The dam was not regulated by the government.",
+   "Muir held Utilitarianism."
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "The dam would disturb wilderness and biodiversity.",
+  "stemId": "Dilema konservasi Hetch Hetchy Valley (Pinchot vs. Muir) berakar pada perbedaan pandangan antara Konservasionisme (Pinchot) yang mencari penggunaan sumber daya alam yang efisien untuk manfaat terbesar masyarakat, dengan Preservasionisme (Muir) yang menentang pembangunan dam karena...",
+  "optionsId": [
+   "Dam tersebut tidak ekonomis.",
+   "Dam tersebut mengganggu alam liar dan biodiversitas.",
+   "Dam tersebut tidak diatur oleh pemerintah.",
+   "Muir menganut Utilitarianisme."
+  ],
+  "answerTextId": "Dam tersebut mengganggu alam liar dan biodiversitas.",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "Dam tersebut mengganggu alam liar dan biodiversitas.",
+  "lang": "id-only",
+  "enTranslated": true,
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-40",
+  "source": "quiz1",
+  "n": 40,
+  "nId": 18,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "(I=PAT Calculation) Assume the initial Environmental Quality (I) is 100. If Population (P) increases by 20% and the Level of Consumption (A) increases 2.5 times, by how many times must Technology (T) reduce its impact (decoupling) for Environmental Impact (I) to remain at 100?",
+  "options": [
+   "2.0",
+   "3.0",
+   "4.0",
+   "5.5"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "3.0",
+  "stemId": "Asumsikan Kualitas Lingkungan (I) awal adalah 100. Jika Populasi (P) meningkat sebesar 20% dan Tingkat Konsumsi (A) meningkat sebesar 2,5 kali lipat, berapa kali lipat Teknologi (T) harus mengurangi dampaknya (decoupling) agar Dampak Lingkungan (I) tetap 100?",
+  "optionsId": [
+   "2.0",
+   "3.0",
+   "4.0",
+   "5.5"
+  ],
+  "answerTextId": "3.0",
+  "idKey": [
+   1
+  ],
+  "idKeyText": "3.0",
+  "lang": "id-only",
+  "enTranslated": true,
+  "calc": "Calculation: $100 = (1.2 x P) x (2.5 x A) x (T / X); T = 3 / X. X= 3",
+  "calcId": "[Perhitungan: $100 = (1.2 x P) x (2.5 x A) x (T / X); T = 3 / X. X= 3]",
+  "calcType": "ipat",
+  "keyStatus": "given"
+ },
+ {
+  "id": "q1-41",
+  "source": "quiz1",
+  "n": 41,
+  "nId": 26,
+  "section": "C. Consumption, I=PAT, and Calculations (Week 3)",
+  "stem": "A family in Jakarta uses a 1 PK air conditioner (about 750 watts) for 12 hours per day at a very low temperature (as an example of Overconsumption). If the electricity price is Rp 1,500/kWh, what is the monthly electricity cost (30 days) for the AC?",
+  "options": [
+   "Rp 270,000",
+   "Rp 324,000",
+   "Rp 405,000",
+   "Rp 540,000"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Rp 405,000",
+  "stemId": "Sebuah keluarga di Jakarta menggunakan AC 1 PK (sekitar 750 watt) selama 12 jam per hari di suhu sangat rendah (sebagai contoh Overconsumption). Jika harga listrik Rp 1.500/kWh, berapa biaya listrik per bulan (30 hari) untuk AC tersebut?",
+  "optionsId": [
+   "Rp 270.000",
+   "Rp 324.000",
+   "Rp 405.000",
+   "Rp 540.000"
+  ],
+  "answerTextId": "Rp 405.000",
+  "idKey": [
+   2
+  ],
+  "idKeyText": "Rp 405.000",
+  "lang": "id-only",
+  "enTranslated": true,
+  "calc": "Calculation: $0.75 \\times 12 \\times 30 \\times 1500 = 405,000$ (= $0.75 \\text{ kW} \\times 12 \\text{ hours/day} \\times 30 \\text{ days} \\times \\text{Rp } 1,500/\\text{kWh} = \\text{Rp } 405,000$)",
+  "calcId": "[Perhitungan: $0.75 \\times 12 \\times 30 \\times 1500 = 405,000$] atau [Perhitungan: $0.75 \\text{ kW} \\times 12 \\text{ jam/hari} \\times 30 \\text{ hari} \\times \\text{Rp } 1.500/\\text{kWh} = \\text{Rp } 405.000$]",
+  "calcType": "electricity",
+  "keyStatus": "given"
+ }
+]

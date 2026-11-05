@@ -1,0 +1,19 @@
+[
+ {"id":"q1-01","source":"quiz1","n":1,
+  "stem":"The main factor causing climate change today is",
+  "options":["Volcanic activity","Human activity","Variations in solar radiation","Movement of tectonic plates"],
+  "stemId":"Faktor utama penyebab perubahan iklim saat ini adalah",
+  "optionsId":["Aktivitas vulkanik","Aktivitas manusia","Variasi radiasi matahari","Pergerakan lempeng tektonik"],
+  "answer":[1],"answerText":"Human activity","answerTextId":"Aktivitas manusia","keyStatus":"given"},
+ {"id":"q1-02","source":"quiz1","n":2,
+  "stem":"A company emits 4 t of CO2 per unit with an emission factor of 1.35. Total emissions are:",
+  "options":["2.96 t","5.4 t","3.0 t","5.35 t"],
+  "stemId":"Sebuah perusahaan menghasilkan 4 t CO2 per unit dengan faktor emisi 1,35. Total emisi adalah:",
+  "optionsId":["2,96 t","5,4 t","3,0 t","5,35 t"],
+  "answer":[1],"answerText":"5.4 t","answerTextId":"5,4 t","keyStatus":"given","enTranslated":true,
+  "calc":"$1.35 \\times 4 = 5.4$ t; so $E = 5.4\\ \\text{t CO}_2$ (not $4 / 1.35 = 2.96$)"},
+ {"id":"q1-03","source":"quiz1","n":3,
+  "stem":"Which SDG focuses on life below water?",
+  "options":["SDG 13","SDG 14","SDG 15","SDG 6"],
+  "answer":[1],"answerText":"SDG 14","keyStatus":"given"}
+]

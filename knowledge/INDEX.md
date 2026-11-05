@@ -12,7 +12,7 @@ Use with tools/query.py or grep; full details in graph.json.
       - `m1.dimensions` **Three dimensions of sustainability** ★★★ — Economic, environmental and social dimensions; their overlaps are bearable, equitable and viable, and all three together are sustainable. [M1 s13,15]
       - `m1.doughnut` **Doughnut Economics** ★★★ — Kate Raworth's model: a safe and just space between a social foundation (inner ring) and an ecological ceiling (outer ring, planetary boundaries). [M1 s14]
       - `m1.environment` **Environment as foundation** ★★ — The environment is everything around us, living and non-living; it is foundational, so society and economy must operate within planetary boundaries. [M1 s15]
-        - `m1.environment.ecosystem` **Ecosystem** ★★ — Functional unit of a biotic community and its abiotic environment, linked by energy flow and nutrient cycling; from a log to the biosphere. [M1 s15,16]
+        - `m1.environment.ecosystem` **Ecosystem** ★★★ — Functional unit of a biotic community and its abiotic environment, linked by energy flow and nutrient cycling; from a log to the biosphere. [M1 s15,16]
       - `m1.human-impacts` **Human activities alter ecosystems** ★★ — All human activities (forest clearing, fishing, logging) alter energy flows and nutrient/water cycles, changing ecosystem structure and the functions society relies on. [M1 s17]
       - `m1.laws-of-ecology` **Laws of ecology** ★★★ — Six laws: everything is connected; species depend on each other; everything must go somewhere; thermodynamics applies; nature knows best; no free lunch. [M1 s18]
     - `m1.part2` **Part 2 · Environmental ethics** ★★ — Ethical theories about humans and nature, from the Dominion thesis and anthropocentrism to Leopold's ecocentric Land Ethic, applied to livestock and dam dilemmas. [M1 s19,20,21,22,23,24,25,26,27,28,29,30,31]
@@ -26,8 +26,8 @@ Use with tools/query.py or grep; full details in graph.json.
         - `m1.human-centred.stewardship` **Stewardship** ★★ — The moral responsibility to protect the environment and living things; humans as caretakers rather than owners of nature. [M1 s26]
       - `m1.conserve-vs-preserve` **Conservation vs preservation** ★★★ — Pinchot's utilitarian conservationism (wise use) versus Muir's non-utilitarian preservationism, clashing over the Hetch Hetchy dam. [M1 s27,28,29]
         - `m1.conserve-vs-preserve.pinchot` **Gifford Pinchot: conservationism** ★★ — Conservationist favouring efficient, sustainable resource use for 'the greatest good for the greatest number'; opponent of the timber barons. [M1 s27,29]
-        - `m1.conserve-vs-preserve.muir` **John Muir: preservationism** ★★ — Preservationist, non-utilitarian: manage nature primarily for protection and wildlife; pioneer of US conservation (national) parks. [M1 s28,29]
-        - `m1.conserve-vs-preserve.hetch-hetchy` **Hetch Hetchy Valley dam** ★★ — Pinchot vs Muir: the dam brings greater benefits to society versus the valley as a biodiversity treasure whose wildlife the dam would disrupt. [M1 s29]
+        - `m1.conserve-vs-preserve.muir` **John Muir: preservationism** ★★★ — Preservationist, non-utilitarian: manage nature primarily for protection and wildlife; pioneer of US conservation (national) parks. [M1 s28,29]
+        - `m1.conserve-vs-preserve.hetch-hetchy` **Hetch Hetchy Valley dam** ★★★ — Pinchot vs Muir: the dam brings greater benefits to society versus the valley as a biodiversity treasure whose wildlife the dam would disrupt. [M1 s29]
       - `m1.land-ethic` **Aldo Leopold: Land Ethic** ★★★ — Land is not mere property; moral community extended to soils, waters, plants and animals—humans as 'plain member and citizen', not conqueror. [M1 s30]
         - `m1.land-ethic.ecocentrism` **Ecocentrism** ★★★ — Ecological interests must be placed above the interests of the human species when judging whether an action is right or wrong. [M1 s30]
       - `m1.dam-dilemma` **Conservation dilemma: dam vs salmon** ★★★ — An energy company's dam brings electricity and jobs but threatens migratory salmon and an indigenous community; the government supports it, environmentalists oppose. [M1 s31]
@@ -35,21 +35,21 @@ Use with tools/query.py or grep; full details in graph.json.
     - `m2.part1` **Part 1 · Tragedy of the commons** ★★ — Hardin's argument, the commons vs open-access distinction, and community-managed counter-examples showing that management regimes, not sharing, decide the outcome. [M2 s1,2,3,4,5]
       - `m2.hardin-tragedy` **Hardin's Tragedy of the Commons (1968)** ★★★ — Hardin (Science, 1968): on a pasture open to all, each herder adds cattle for private gain while costs are shared, ruining the resource. [M2 s2]
       - `m2.commons-vs-open-access` **Commons vs open-access resource** ★★★ — Commons: joint ownership by a bounded community that excludes non-members. Open access: no ownership rights, the whole public, no exclusion. [M2 s3]
-      - `m2.open-access-resources` **Open-access resources** ★★ — Renewable resources owned by no one and usable by almost anyone, e.g. the atmosphere and open sea; grasslands, forests, rivers, aquifers are often shared. [M2 s4]
+      - `m2.open-access-resources` **Open-access resources** ★★★ — Renewable resources owned by no one and usable by almost anyone, e.g. the atmosphere and open sea; grasslands, forests, rivers, aquifers are often shared. [M2 s4]
       - `m2.tragedy-not-commons` **Does the tragedy lie in the commons?** ★★★ — No: the tragedy comes from unmanaged open access. Commons with boundaries, rules, monitoring and sanctions often stay sustainable. [M2 s5]
         - `m2.tragedy-not-commons.barambang-katute` **Barambang Katute customary forest** ★★★ — Indonesian customary (adat) forest managed by the Barambang Katute indigenous community, with protection mechanisms and sacred areas where mining is banned. [M2 s5]
         - `m2.tragedy-not-commons.maine-lobster` **Maine lobster fisheries** ★★ — Local lobster-fishing communities in Maine use shared policy mechanisms to protect waters and lobster stocks and avoid overfishing. [M2 s5]
       - `m2.commons-solutions` **Solutions to the tragedy** ★★ — Reduce use by agreement, regulate access, or privatise, though privatisation often fails and cannot apply to the atmosphere or high seas. [M2 s5]
     - `m2.part2` **Part 2 · Planetary boundaries** ★★ — The nine planetary boundaries framework, its 2025 status (7 of 9 transgressed), the link to doughnut economics, human impacts on ecosystems, and discussion. [M2 s6,7,8,9,10,11,12,13]
       - `m2.pb-framework` **Planetary boundaries framework** ★★★ — Earth-system framework identifying nine processes that regulate planetary stability and setting science-based limits: a safe operating space for humanity. [M2 s6,7]
-      - `m2.pb-status-2025` **2025 status: 7 of 9 transgressed** ★★★ — The 2025 update finds seven of nine boundaries breached; only stratospheric ozone and atmospheric aerosol loading remain within the safe operating space. [M2 s6,7]
+      - `m2.pb-status-2025` **Boundaries breached: 6 (quiz) vs 7 (2025 slide)** ★★★ — Quiz key: 6 of 9 boundaries breached (outside the safe operating space). The 2025 slide update counts 7, adding ocean acidification. [M2 s6,7]
       - `m2.nine-boundaries` **The nine boundaries** ★★★ — The nine Earth-system processes, grouped by 2025 status: seven transgressed and two still within the safe operating space. [M2 s7,8,9,10]
         - `m2.pb-transgressed` **Transgressed boundaries (7)** ★★ — Climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, novel entities and ocean acidification are beyond safe limits (2025). [M2 s7,8,9,10]
           - `m2.pb.climate-change` **Climate change** ★★★ — GHG emissions, mainly from burning fossil fuels, raise atmospheric CO2 and cause global warming; both CO2 concentration and radiative forcing are transgressed. [M2 s7,9]
           - `m2.pb.biosphere-integrity` **Biosphere integrity (biodiversity loss)** ★★ — Habitat destruction, pollution and exploitation drive extinctions at a very high rate; both genetic and functional diversity are transgressed, functional at high risk. [M2 s6,7,9]
-          - `m2.pb.land-system-change` **Land-system change** ★★ — Large-scale conversion of land for agriculture, urbanisation and deforestation disrupts ecosystems, reduces biodiversity and alters carbon and water cycles. Transgressed. [M2 s7,8]
+          - `m2.pb.land-system-change` **Land-system change** ★★★ — Large-scale conversion of land for agriculture, urbanisation and deforestation disrupts ecosystems, reduces biodiversity and alters carbon and water cycles. Transgressed. [M2 s7,8]
           - `m2.pb.freshwater-change` **Freshwater change (global water cycle)** ★★ — Large-scale irrigation and river diversion alter the hydrological cycle, causing droughts, floods and poorer water quality; blue and green water both transgressed. [M2 s6,7,8]
-          - `m2.pb.biogeochemical-flows` **Biogeochemical flows (N & P)** ★★ — Excess synthetic fertiliser sends nitrogen and phosphorus into ecosystems, causing eutrophication and disrupting natural cycles; both N and P are in the high-risk zone. [M2 s6,7,10]
+          - `m2.pb.biogeochemical-flows` **Biogeochemical flows (N & P)** ★★★ — Excess synthetic fertiliser sends nitrogen and phosphorus into ecosystems, causing eutrophication and disrupting natural cycles; both N and P are in the high-risk zone. [M2 s6,7,10]
           - `m2.pb.novel-entities` **Novel entities (chemical pollution)** ★★ — Hazardous chemicals—pesticides, heavy metals, industrial chemicals, plastics—pollute the environment and harm human and animal health; far beyond the boundary. [M2 s6,7,10]
           - `m2.pb.ocean-acidification` **Ocean acidification** ★★ — Oceans absorb CO2, lowering pH and harming shell- and reef-building organisms; newly transgressed in the 2025 update—the seventh boundary breached. [M2 s6,7,12]
         - `m2.pb-safe` **Boundaries still safe (2)** ★★ — Stratospheric ozone depletion and atmospheric aerosol loading remain within the safe operating space in the 2025 update. [M2 s6,7]
@@ -75,7 +75,7 @@ Use with tools/query.py or grep; full details in graph.json.
     - `m3.part2` **Part 3.2: Thinking About Environmental Impact** ★★ — From population to impact: IPAT, technology's dual role, Jevons paradox, Kuznets optimism and unequal/unjust distribution of impacts. [M3 s15,16,17,18,19,20,21,22,23,24,25,26,27,28]
       - `m3.ipat` **IPAT Equation** ★★★ — I = P x A x T: impact equals Population x Affluence (consumption/income per capita) x Technology (impact per unit); Ehrlich & Holdren 1974. [M3 s16,17]
         - `m3.ipat.pa-data` **P and A Data: Population & GDP Trends** ★★ — Charts of world population (3 bn 1960 to ~9 bn 2045) and world real GDP growth (1999-2010) illustrate rising P and A. [M3 s18]
-        - `m3.ipat.2050` **2050 Scenario: Factor-Five Decoupling** ★★ — To keep 2050 environmental quality at 2010 levels with population +35% and affluence about x4, technology impact must fall by a factor of ~5. [M3 s19]
+        - `m3.ipat.2050` **2050 Scenario: Factor-Five Decoupling** ★★★ — To keep 2050 environmental quality at 2010 levels with population +35% and affluence about x4, technology impact must fall by a factor of ~5. [M3 s19]
       - `m3.tech-dual-role` **Dual Role of Technology** ★★★ — Technology can reduce impact (efficiency, renewables, monitoring, innovation) or increase it (more exploitation, pollution, waste, consumption). [M3 s20,21]
         - `m3.jevons` **Jevons Paradox: Rebound & Backfire** ★★★ — Efficiency gains can raise total resource use: rebound (consumption offsets savings) and backfire (overconsumption exceeds savings). [M3 s22]
       - `m3.kuznets-kurzweil` **Kuznets & Kurzweil: Affluence Reduces Impact?** ★★ — Claim: rising affluence plus advanced technology eventually lowers impact (e.g. reforestation in W. Europe/US vs loss in Brazil/Indonesia). Is it true? [M3 s23]
@@ -86,34 +86,40 @@ Use with tools/query.py or grep; full details in graph.json.
     - `m3.part3` **Part 3.3: Over-Consumption** ★★ — Consumption beyond need or beyond ecosystem recovery drives damage; includes addictive consumption and hyperconsumption, concentrated among the richest. [M3 s29,30,31,32,33,34,35]
       - `m3.overconsumption` **Overconsumption** ★★★ — Using resources more than needed or beyond the ecosystem's ability to recover, degrading environmental quality; a key driver of damage. [M3 s30,33,34]
         - `m3.consumption-co2` **Consumption Inequality & CO2 Data** ★★ — Richest 10% emit roughly half of global CO2; poorest 50% only ~10%. Consumption-based CO2 per capita (2021) is high in few countries. [M3 s30,31]
-        - `m3.overconsumption-examples` **Everyday Overconsumption & Planned Obsolescence** ★ — AC set very cold all day, lights left on, oversized portions and food waste, single-use plastic, excess fertiliser; products built to fail. [M3 s33]
+        - `m3.overconsumption-examples` **Everyday Overconsumption & Planned Obsolescence** ★★★ — AC set very cold all day, lights left on, oversized portions and food waste, single-use plastic, excess fertiliser; products built to fail. [M3 s33]
       - `m3.addictive-consumption` **Addictive Consumption** ★★ — John Ehrenfeld: consumption that becomes addictive, unrelated to real needs, lowers individual health and social participation (e.g. obesity). [M3 s32]
       - `m3.hyperconsumption` **Hyperconsumption** ★★★ — Lipovetsky (2011): buying driven by social/psychological factors (novelty, speed, status) far beyond functional need, with rapid turnover and duplication. [M3 s34,35]
         - `m3.hyperconsumption-examples` **Hyperconsumption Examples** ★★ — Fast fashion, fast furniture, yearly gadget upgrades, duplicated skincare, frequent food delivery and buy-try-return e-commerce. [M3 s35]
     - `m3.part4` **Part 3.4: Ecological Footprint** ★★ — Ecological footprint measures human demand on nature in global hectares and compares it with biocapacity to reveal overshoot. [M3 s36,37,38,39,40,41,42]
       - `m3.eco-footprint` **Ecological Footprint: Concept** ★★★ — A measure of human demand for natural capital: the biologically productive area needed to supply resources and absorb wastes. [M3 s37]
       - `m3.biocapacity` **Footprint vs Biocapacity & Overshoot** ★★★ — Footprint (area demanded) is compared with biocapacity (productive area available); humanity used 73% of biocapacity in 1961 and 160% in 2020. [M3 s38]
-      - `m3.footprint-measurement` **Measuring the Footprint (gha)** ★★ — Measured in global hectares (gha) per person per year from food, housing energy and materials, mobility, and waste. [M3 s39,42]
+      - `m3.footprint-measurement` **Measuring the Footprint (gha)** ★★★ — Measured in global hectares (gha) per person per year from food, housing energy and materials, mobility, and waste. [M3 s39,42]
       - `m3.indonesia-footprint` **Indonesia's Ecological Footprint (2022)** ★★ — Indonesia 2022: biocapacity 1.2 gha, footprint 1.8 gha per person: deficit of -0.6 gha; deficit since ~2000. [M3 s40]
       - `m3.how-many-earths` **How Many Earths? Country Comparison** ★★★ — If everyone lived like: USA ~5 Earths, Australia ~4.1-4.5, Germany 3.0, China ~2.2-2.4, India <1; world average ~1.7-1.75. [M3 s41]
       - `m3.discussion` **Discussion: Reducing Your Footprint** ★★ — Calculate your footprint; what changes reduce it (consumption patterns, technology)? Which changes are individual vs collective or policy-based? [M3 s42]
+    - `m3.calc` **Week 3 worked calculations** ★★★ — Calculation types tested in Quiz 1: IPAT decoupling factor, population-density difference, appliance electricity cost, footprint-vs-biocapacity and Earths. [M3 s14,16,17,19,33,37,38,39,40,41]
+      - `m3.calc.ipat` **Calculation: IPAT decoupling factor** ★★★ — Keep I constant: required fall in T = (1+%P) x (A multiplier). 1.35 x 4 = 5.4 ~ factor five; 1.2 x 2.5 = 3. [M3 s16,17,18,19]
+      - `m3.calc.density` **Calculation: population-density difference (Kerala vs Indonesia)** ★★★ — Difference = 860 (Kerala) minus 141 (Indonesia) = 719 persons per km2 (2022 data). [M3 s14]
+      - `m3.calc.electricity` **Calculation: electricity cost of an appliance** ★★★ — Cost = power (kW) x hours per day x days x price per kWh; convert watts to kW first. [M3 s22,33]
+      - `m3.calc.footprint` **Calculation: footprint vs biocapacity and 'how many Earths'** ★★★ — Footprint/biocapacity gives the overshoot ratio; humanity at 160% of biocapacity = 1.6 Earths; Indonesia 1.8 vs 1.2 gha = deficit 0.6. [M3 s37,38,39,40,41]
+      - `m3.calc.slide-ratios` **Calculation: ratios from slide data (EV battery GWP, data centres)** ★★ — Ratio = later/earlier or A/B: NMC vs LFP battery GWP 1,208/573 ~ 2.1x; data centres 945/415 TWh ~ 2.3x by 2030. [M3 s25,26,27]
   - `m4` **Week 4: The Commons in the Global South** ★★★ — Global North vs South, the commons, ecosystem services and their payment, and how commons are regulated (ozone, Subak, vehicle emissions). [M4 s1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
     - `m4.north-south` **4.1 Global North and Global South** ★★ — Countries are split into Global North and South by socio-economic development, not geography; the South's choices shape global sustainability. [M4 s2,3,4,5,6,7,8]
       - `m4.rio20` **Rio+20: 'The Future We Want'** ★★ — Rio+20 (2012) outcome 'The Future We Want' launched the SDG process and called for a development path differing between South and North. [M4 s3]
       - `m4.why-south` **Why the Global South matters** ★★★ — Environmental pressure (IPAT) is unequally distributed; the South holds most people, growth and natural capital but bears the worst impacts. [M4 s4,5]
-        - `m4.south-data` **Global South in numbers** ★★ — Global South: less advanced economies, ~88% of world population, larger land area, ~80% of the world's middle class by 2030. [M4 s5]
+        - `m4.south-data` **Global South in numbers** ★★★ — Global South: less advanced economies, ~88% of world population, larger land area, ~80% of the world's middle class by 2030. [M4 s5]
       - `m4.ns-definition` **North/South is socio-economic, not geographic** ★★★ — Global North = rich, industrialised, globally influential; Global South = developing countries. Categories reflect economics and power, not map location. [M4 s6,7,8]
         - `m4.country-lists` **Country lists: IMF North and the Global South** ★ — IMF list of 37 advanced economies (US, Japan, Korea, Singapore, Israel…) vs Global South map: Latin America, Africa, Middle East, South/Southeast Asia incl. China. [M4 s7,8]
     - `m4.commons-south` **4.2 The commons in the Global South** ★★ — The Global South relies heavily on shared natural resources; key questions are who uses, who benefits and who guards them. [M4 s9,10,11,12]
       - `m4.commons-definition` **What 'the commons' means** ★★★ — The commons: wealth (land, culture, knowledge, values) owned, used and maintained together under shared rules, often non-excludable yet rivalrous. [M4 s10,11]
       - `m4.tropical-commons` **Tropical natural commons: mangroves & rainforests** ★★ — Mangroves cover ~150,000 km² (~15% of coastlines); ~3.2 million ha of primary tropical forest lost yearly since 2002. [M4 s10]
-      - `m4.commons-culture` **Commons, culture and indigenous communities** ★★ — Commons are tied to identity, spirituality and survival of indigenous communities; threatened by corporations, exclusionary policies and climate change. [M4 s11]
+      - `m4.commons-culture` **Commons, culture and indigenous communities** ★★★ — Commons are tied to identity, spirituality and survival of indigenous communities; threatened by corporations, exclusionary policies and climate change. [M4 s11]
       - `m4.commons-types` **Natural vs man-made commons** ★★★ — Natural commons: water, air, land, forest, ocean, biodiversity, spectrum, outer space. Man-made: irrigation, music, parks, seeds, knowledge, internet, libraries. [M4 s12]
     - `m4.importance` **4.3 Importance of the commons: ecosystem services** ★★ — Commons matter because healthy ecosystems provide services the whole economy depends on; these can be valued and paid for. [M4 s13,14,15,16,17,18]
       - `m4.ecosystem-services` **Ecosystem services (MEA 2005)** ★★★ — Benefits from healthy ecosystems; Millennium Ecosystem Assessment (2005) groups them as provisioning, regulating, supporting and cultural services. [M4 s14,15,16]
         - `m4.es-provisioning` **Provisioning services** ★★ — Material or energy products taken directly from nature: food, fresh water, timber, fibre, genetic resources, fuels. [M4 s14]
         - `m4.es-regulating` **Regulating services** ★★ — Benefits from natural regulation: climate regulation via carbon uptake, air and water purification, erosion and flood control, pollination, pest control. [M4 s14,15]
-        - `m4.es-cultural` **Cultural services** ★★ — Non-material benefits: aesthetic and recreational value, spiritual and religious meaning, inspiration for education and art, cultural heritage and identity. [M4 s14]
+        - `m4.es-cultural` **Cultural services** ★★★ — Non-material benefits: aesthetic and recreational value, spiritual and religious meaning, inspiration for education and art, cultural heritage and identity. [M4 s14]
         - `m4.es-supporting` **Supporting services** ★★ — Foundational processes enabling all other services: nutrient cycling, soil formation and retention, primary production (photosynthesis), water cycle. [M4 s14]
       - `m4.es-economy` **Ecosystem services as the basis of the economy** ★★ — All economic sectors depend on ecosystem services (natural capital); they have direct and indirect value, and losing them raises costs. [M4 s15,16]
       - `m4.es-valuation` **Economic value of ecosystem services (~US$63.9 trillion/yr)** ★★★ — Spoolman & Miller (2021) chart: annual value of ecosystem services by biome; coastal marshes/mangroves top at $24.8T, forests $15.6T, open ocean $16.3T. [M4 s17]
@@ -132,7 +138,7 @@ Use with tools/query.py or grep; full details in graph.json.
         - `m4.bandung-air` **Air quality in Bandung** ★★ — IQAir snapshot: Bandung AQI 173 'unhealthy', PM2.5 87 µg/m³ (17.4× WHO guideline); developing-country governments avoid strict rules to protect growth. [M4 s30,27]
       - `m4.arrangement` **How commons arrangements are made (Ostrom)** ★★★ — Six elements: boundaries, cost sharing, rules for use, supervision, graduated sanctions, conflict resolution – reflecting Ostrom's design principles for commons. [M4 s31]
     - `m4.tech-commons-topic` **Technology and non-physical commons** ★★ — Technology can enclose or strengthen commons, and helps define invisible boundaries of air, sea, data and knowledge. [M4 s32,33,34]
-      - `m4.tech-progress` **Technological progress and the commons** ★★ — Technology (fences, data, energy, automation, IP rights) can privatise and fragment commons or strengthen collective management; regulation decides which. [M4 s32]
+      - `m4.tech-progress` **Technological progress and the commons** ★★★ — Technology (fences, data, energy, automation, IP rights) can privatise and fragment commons or strengthen collective management; regulation decides which. [M4 s32]
       - `m4.nonphysical` **Commons with non-physical boundaries** ★★ — Air, waters, groundwater, fish and knowledge cross borders; boundaries define use rights and limits, made monitorable by satellites, GPS, sensors, data. [M4 s33]
         - `m4.unclos` **Maritime boundaries: UNCLOS** ★★ — No fences at sea: UNCLOS sets legal boundaries as coordinates – territorial sea ≤12 nm, EEZ ≤200 nm, high seas beyond national jurisdiction. [M4 s33]
         - `m4.knowledge-ai` **Knowledge commons in the AI era** ★ — Lecturer's 2026 Navier–Stokes example raises questions on where private research ends and shared knowledge used by AI begins. [M4 s33]
@@ -180,6 +186,7 @@ Use with tools/query.py or grep; full details in graph.json.
       - `m6.ghg` **Greenhouse gases (GHGs)** ★★★ — Gases that absorb heat radiated from Earth's surface; in natural amounts they keep Earth above freezing, in excess they cause global warming. [M6 s4,6]
         - `m6.ghg.concentration` **GHG concentrations over time** ★★★ — Ice cores show CO₂ ~180–300 ppm for 800,000 years, then a sharp post-1760 rise: 409.9 ppm in 2019, 419.3 ppm in 2023 (+50% vs pre-industrial). [M6 s5,7]
         - `m6.ghg.gwp` **Enhanced greenhouse effect & GWP** ★★★ — Extra human GHGs enhance the greenhouse effect, causing global warming. GWP compares each gas's heat-trapping power to CO₂ (GWP = 1). [M6 s6]
+          - `m6.ghg.gwp.calc` **Worked calculation: CO2e from GWP** ★★ — CO2e = mass of gas x GWP; CO2 = 1, N2O = 298, HCFC-22 ~ 1,800, CFC up to 12,500 (lecturer's notes). [M6 s6,28]
         - `m6.ghg.list` **Which gases are GHGs (NH₃ is not)** ★★★ — GHGs: water vapour, CO₂, CH₄, N₂O, ozone and industrial CFCs/HFCs/PFCs/SF₆; ammonia (NH₃), N₂ and O₂ are not greenhouse gases. [M6 s4,6,32]
       - `m6.sdg-challenges` **Why the SDGs are hard to achieve** ★★★ — Climate change can reverse progress on other SDGs via disasters (slow and fast onset): temperature rise, sea-level rise, ecosystem disruption. [M6 s8]
       - `m6.sdg13-to-others` **SDG 13 → other SDGs** ★★★ — Climate change undermines other SDGs; extreme weather is a cause, and vulnerable groups (SIDS, coasts, Global South, women, children) suffer most. [M6 s9]
@@ -205,6 +212,7 @@ Use with tools/query.py or grep; full details in graph.json.
         - `m6.urban-heat` **Rising heat in urban areas** ★★★ — Heat waves hit Europe and SE Asia; BMKG says Indonesia's 2023 records (Semarang, Surabaya, Makassar) weren't heat waves but still harmful. [M6 s26]
         - `m6.ac-adaptation` **AC use: adaptation vs. emissions** ★★★ — Air conditioning saves lives and productivity in heat, but raises energy use and HFC emissions — a potential maladaptation. [M6 s27]
         - `m6.cooling-emissions` **CO₂e emissions from cooling** ★★★ — Cooling emits directly (high-GWP refrigerant leaks and poor servicing) and indirectly (energy use, up to 50–60% of a commercial building's energy). [M6 s28]
+          - `m6.cooling-emissions.calc` **Worked calculation: cooling share of building energy** ★★ — Indirect emissions from cooling = building energy x 50-60% share; combine with kW x h x tariff for cost. [M6 s28]
         - `m6.sustainable-cooling` **Principles of sustainable cooling** ★★★ — Five principles: energy savings, eco-friendly refrigerants (zero ODP, low GWP), renewable integration, fair access, and circular end-of-life management. [M6 s29]
           - `m6.sustainable-cooling.energy-passive` **Energy savings & passive design** ★★★ — Cut cooling energy with efficient equipment and passive design that lowers the thermal load: ventilation, insulation, shading. [M6 s28,29]
           - `m6.sustainable-cooling.refrigerants` **Environmentally friendly refrigerants (zero ODP, low GWP)** ★★★ — Refrigerants must have zero ODP (protect the ozone layer) and low GWP (avoid warming); CFCs, HCFCs and HFCs are the problem group. [M6 s28,29]
@@ -213,6 +221,7 @@ Use with tools/query.py or grep; full details in graph.json.
       - `m6.mitigation-effort` **Mitigation efforts** ★ — Three-level response to extreme heat: city blue/green infrastructure and disaster preparedness, community shaded shelters, individual hydration, fans, AC and clothing. [M6 s30]
     - `m6.part4` **6.4 What can we do?** ★★ — Where emissions come from and how to cut them: carbon sequestration, tropical peatland protection, CCUS, and AFOLU mitigation. [M6 s31,32,33,34,35,36,37,38,39,40,41,42]
       - `m6.ghg-sources` **GHG emissions by sector** ★★★ — 2019 global GHG emissions (IPCC 2023): energy 34%, industry 24%, AFOLU 22%, transport 15%, buildings 6%. [M6 s32]
+        - `m6.ghg-sources.calc` **Worked calculation: sector shares of GHG emissions (2019)** ★★ — Share = sector emissions / total: 20 Gt of ~59 GtCO2-eq = 34% (energy); energy + industry = 58%. [M6 s32]
       - `m6.carbon-sequestration` **Carbon sequestration** ★★★ — Natural or artificial removal/diversion of CO₂ from the atmosphere or emission sources, stored in oceans, land (vegetation, soil) or geological formations. [M6 s33]
       - `m6.peatland` **Tropical peatlands** ★★★ — Waterlogged soils of partly decomposed plant matter storing huge carbon; disturbance (drainage, deforestation, fire) makes Indonesia's peatlands major emitters. [M6 s34,35,36,39,40,41]
         - `m6.peat.carbon-cycle` **Carbon cycle in tropical peatland** ★★ — CO₂ fixed by photosynthesis (GPP) minus respiration gives NPP; litter decomposes aerobically (CO₂) above the water table or anaerobically (CH₄) below it. [M6 s34]
@@ -315,6 +324,15 @@ Use with tools/query.py or grep; full details in graph.json.
 - `m3.how-many-earths` —contrasts→ `m3.overpopulation`: India (big P) <1 Earth vs USA ~5
 - `m3.take-home` —related→ `m3.biocapacity`: overshoot = outside safe operating space
 - `m3.indonesia-footprint` —example-of→ `m3.ipat`: P and A jointly drive deficit
+- `m3.calc.ipat` —applies-to→ `m3.ipat.2050`: worked arithmetic of the factor-five scenario
+- `m3.calc.ipat` —applies-to→ `m3.ipat`: I = P x A x T
+- `m3.calc.density` —applies-to→ `m3.kerala`: uses the Kerala data table
+- `m3.calc.electricity` —applies-to→ `m3.overconsumption-examples`: AC and lights left on
+- `m3.calc.footprint` —applies-to→ `m3.biocapacity`: footprint vs biocapacity arithmetic
+- `m3.calc.footprint` —applies-to→ `m3.how-many-earths`: Earths needed
+- `m3.calc.slide-ratios` —applies-to→ `m3.ev-battery`: GWP ratio
+- `m3.calc.slide-ratios` —applies-to→ `m3.ai-datacenter`: TWh growth ratio
+- `m3.calc.electricity` —related→ `m6.cooling-emissions`: cooling energy use (M6)
 - `m4.subak` —applies-to→ `m4.arrangement`: Subak fulfils Ostrom's arrangement elements
 - `m4.cidanau` —example-of→ `m4.es-regulating`: pays for watershed (regulating) service
 - `m4.es-payment` —builds-on→ `m4.regulating`: market / social / government routes reappear as regulation cases
@@ -365,6 +383,7 @@ Use with tools/query.py or grep; full details in graph.json.
 - `m6.ghg-sources` —related→ `m6.afolu`: AFOLU = 22% of global emissions
 - `m6.indonesia-endc` —builds-on→ `m6.indonesia-sndc`: same percentages restated as absolute 2035 targets in the SNDC
 - `m6.indonesia-endc` —applies-to→ `m6.paris.cbdr`: conditional vs unconditional target = CBDR-RC in practice
+- `m6.cooling-emissions.calc` —builds-on→ `m3.calc.electricity`: same kW x hours x price method
 - `m7.rankings` —related→ `m7.spillover`: rankings hide cross-border spillovers
 - `m7.spillover.types` —example-of→ `m7.interlinkages.synergy-tradeoff`: spillovers are cross-border trade-offs
 - `m7.activities` —applies-to→ `m7.interlinkages.synergy-tradeoff`: core = synergy; mixed/opposed = trade-off

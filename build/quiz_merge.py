@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Merge quiz2.raw.json + quiz2.tags.json + generated.M*.json -> knowledge/quiz/quiz.json (see knowledge/quiz/SPEC.md).
+"""Merge quiz2.raw/tags + quiz1.raw/tags (bilingual) + generated.M*.json -> knowledge/quiz/quiz.json (see knowledge/quiz/SPEC.md).
 
 Usage: python3 build/quiz_merge.py [--strict] [--sample]
   --strict  treat warnings (untagged quiz2 questions, missing files, missing explanations) as errors
-  --sample  validate knowledge/quiz/quiz.sample.json only (nothing written)
+  --sample  validate knowledge/quiz/quiz.sample.json + quiz1.sample.raw/tags.json only (nothing written)
 
 Exit code 0 = merged and valid, 1 = validation errors (quiz.json NOT written).
 Missing tags/generated files only warn, so the merge works incrementally while other agents are still writing.
@@ -89,6 +89,59 @@ def check_question(q, where, nodes, topics):
     if q.get("keyStatus") == "disputed" and not q.get("note"): warn(f"{where}: disputed without a note")
     check_common(q, where, nodes, topics)
 
+def ingest(src, raw_path, tags_path, required, out, nodes, topics):
+    """Merge <src>.raw.json + <src>.tags.json (quiz2 / quiz1) into `out`; returns how many questions were added."""
+    raw = load(raw_path, f"{src} raw", required=required)
+    if raw is None: return 0
+    tags = tags_by_id(load(tags_path, f"{src} tags"))
+    raw_ids = {r["id"] for r in raw}
+    untagged, added = [], []
+    for tid in tags:
+        if tid not in raw_ids: err(f"{tags_path.name}: unknown question id {tid!r}")
+    for r in raw:
+        where = r["id"]
+        t = tags.get(where)
+        if t is None:
+            untagged.append(where)
+            continue
+        verbatim = ["stem", "options", "answerText", "stemId", "optionsId", "answerTextId", "calc", "enTranslated"]
+        for field in verbatim:
+            if field == "answerText" and t.get("keyStatus") == "inferred": continue  # raw has no real key; inferred answer is set below
+            if field in t and t[field] != r.get(field): err(f"{where}: tag overrides {field}; {src} text must stay verbatim")
+        q = dict(r)
+        for f in COPY_FROM_TAG:
+            if f in t: q[f] = t[f]
+        if q.get("keyStatus") == "inferred":
+            idx = as_index(t.get("answer"))
+            if not isinstance(idx, int) or not 0 <= idx < len(q["options"]):
+                err(f"{where}: keyStatus 'inferred' needs a valid single `answer` index in the tag"); continue
+            q["answer"] = [idx]; q["answerText"] = q["options"][idx]
+        elif q.get("keyStatus") == "missing":
+            err(f"{where}: quiz has no key; tag must set keyStatus 'inferred' with an `answer` index"); continue
+        elif "answer" in t and as_index(t["answer"]) != (q["answer"][0] if q.get("answer") else None) and q.get("keyStatus") != "disputed":
+            err(f"{where}: tag answer {t['answer']!r} differs from the quiz key {q.get('answer')!r}; set keyStatus 'disputed' with a note")
+        check_question(q, where, nodes, topics)
+        if src == "quiz1": check_bilingual(q, where)
+        added.append(q)
+    added.sort(key=lambda q: q.get("n", 0))
+    out.extend(added)
+    if untagged: warn(f"{len(untagged)} {src} question(s) have no entry in {tags_path.name} and were skipped: {', '.join(untagged)}")
+    return len(added)
+
+def check_bilingual(q, where):
+    if q.get("source") != "quiz1": err(f"{where}: source must be 'quiz1'")
+    if not re.fullmatch(r"q1-\d+", str(q.get("id", ""))): err(f"{where}: id must look like q1-07")
+    opts = q.get("options") or []
+    if "optionsId" in q or "stemId" in q:
+        oi = q.get("optionsId")
+        if not isinstance(q.get("stemId"), str) or not q["stemId"].strip(): err(f"{where}: stemId missing or empty")
+        if not isinstance(oi, list) or len(oi) != len(opts) or not all(isinstance(o, str) and o.strip() for o in oi):
+            err(f"{where}: optionsId must be {len(opts)} non-empty strings aligned with options")
+        elif "answerTextId" in q and isinstance(q.get("answer"), list) and q["answer"] and q["answer"][0] < len(oi) and q["answerTextId"] != oi[q["answer"][0]]:
+            err(f"{where}: answerTextId != optionsId[{q['answer'][0]}]")
+    if "enTranslated" in q and not isinstance(q["enTranslated"], bool): err(f"{where}: enTranslated must be boolean")
+    if "calc" in q and (not isinstance(q["calc"], str) or not q["calc"].strip()): err(f"{where}: calc must be a non-empty string")
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--strict", action="store_true")
@@ -100,44 +153,15 @@ def main():
     topics = topics_of(load(K / "topics.json", "topics"))
 
     questions, cards = [], []
-    n_quiz2 = 0
+    n_quiz2 = n_quiz1 = 0
     if args.sample:
         s = load(K / "quiz.sample.json", "sample", required=True) or {}
         questions, cards = s.get("questions", []), s.get("flashcards", [])
         for i, q in enumerate(questions): check_question(q, f"sample {q.get('id', i)}", nodes, topics)
+        n_quiz1 = ingest("quiz1", K / "quiz1.sample.raw.json", K / "quiz1.sample.tags.json", True, questions, nodes, topics)
     else:
-        raw = load(K / "quiz2.raw.json", "quiz2 raw", required=True) or []
-        tags = tags_by_id(load(K / "quiz2.tags.json", "quiz2 tags"))
-        raw_ids = {r["id"] for r in raw}
-        untagged = []
-        for tid in tags:
-            if tid not in raw_ids: err(f"quiz2.tags.json: unknown question id {tid!r}")
-        for r in raw:
-            where = r["id"]
-            t = tags.get(where)
-            if t is None:
-                untagged.append(where)
-                continue
-            for field in ("stem", "options", "answerText"):
-                if field == "answerText" and t.get("keyStatus") == "inferred": continue  # raw has no real key; inferred answer is set below
-                if field in t and t[field] != r[field]: err(f"{where}: tag overrides {field}; quiz2 text must stay verbatim")
-            q = dict(r)
-            for f in COPY_FROM_TAG:
-                if f in t: q[f] = t[f]
-            if q["keyStatus"] == "inferred":
-                idx = as_index(t.get("answer"))
-                if not isinstance(idx, int) or not 0 <= idx < len(q["options"]):
-                    err(f"{where}: keyStatus 'inferred' needs a valid single `answer` index in the tag"); continue
-                q["answer"] = [idx]; q["answerText"] = q["options"][idx]
-            elif q["keyStatus"] == "missing":
-                err(f"{where}: quiz has no key; tag must set keyStatus 'inferred' with an `answer` index"); continue
-            elif "answer" in t and as_index(t["answer"]) != (q["answer"][0] if q["answer"] else None) and q["keyStatus"] != "disputed":
-                err(f"{where}: tag answer {t['answer']!r} differs from the quiz key {q['answer']!r}; set keyStatus 'disputed' with a note")
-            check_question(q, where, nodes, topics)
-            questions.append(q)
-            n_quiz2 += 1
-        questions.sort(key=lambda q: q["n"])
-        if untagged: warn(f"{len(untagged)} quiz2 question(s) have no entry in quiz2.tags.json and were skipped: {', '.join(untagged)}")
+        n_quiz2 = ingest("quiz2", K / "quiz2.raw.json", K / "quiz2.tags.json", True, questions, nodes, topics)
+        n_quiz1 = ingest("quiz1", K / "quiz1.raw.json", K / "quiz1.tags.json", False, questions, nodes, topics)
 
         files = sorted(glob.glob(str(K / "generated.*.json")), key=lambda p: Path(p).name)
         if not files: warn("no generated.*.json files yet")
@@ -180,7 +204,7 @@ def main():
         d = q.get("dupOf")
         if not d: continue
         if d == q["id"]: err(f"{q['id']}: dupOf points to itself")
-        elif d not in qids and not (not args.sample and d.startswith("q2-")): err(f"{q['id']}: dupOf {d!r} does not exist")
+        elif d not in qids and not (not args.sample and d.startswith(("q2-", "q1-"))): err(f"{q['id']}: dupOf {d!r} does not exist")
 
     if args.strict and warnings:
         for w in warnings: err(f"(strict) {w}")
@@ -193,7 +217,7 @@ def main():
     if not questions and not cards and not args.sample:
         print("quiz_merge: nothing to merge yet (no tagged quiz2 questions, no generated files); quiz.json NOT written", file=sys.stderr)
         return 1
-    out = {"meta": {"generated": datetime.date.today().isoformat(), "quiz2Count": n_quiz2,
+    out = {"meta": {"generated": datetime.date.today().isoformat(), "quiz2Count": n_quiz2, "quiz1Count": n_quiz1,
                     "generatedCount": len([q for q in questions if q.get("source") == "generated"]), "flashcardCount": len(cards)},
            "questions": questions, "flashcards": cards}
     if args.sample:
@@ -202,7 +226,7 @@ def main():
     (K / "quiz.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     by_mod = {}
     for q in questions: by_mod[q["module"]] = by_mod.get(q["module"], 0) + 1
-    print(f"wrote knowledge/quiz/quiz.json: {len(questions)} questions ({n_quiz2} quiz2 + {len(questions) - n_quiz2} generated), {len(cards)} flashcards; per module {dict(sorted(by_mod.items()))}; {len(warnings)} warning(s)")
+    print(f"wrote knowledge/quiz/quiz.json: {len(questions)} questions ({n_quiz2} quiz2 + {n_quiz1} quiz1 + {len(questions) - n_quiz2 - n_quiz1} generated), {len(cards)} flashcards; per module {dict(sorted(by_mod.items()))}; {len(warnings)} warning(s)")
     return 0
 
 if __name__ == "__main__":

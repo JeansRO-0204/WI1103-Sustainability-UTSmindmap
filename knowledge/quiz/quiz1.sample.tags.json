@@ -1,0 +1,5 @@
+[
+ {"id":"q1-01","module":"M6","topic":"Climate system & GHGs","nodeIds":["m6.climate-change"],"explanation":"Today's warming is primarily driven by human activities [M6 s3].","sources":[{"module":"M6","slides":[3]}],"keyStatus":"given"},
+ {"id":"q1-02","module":"M6","topic":"Climate system & GHGs","nodeIds":["m6.climate-change"],"explanation":"Multiply activity by the emission factor [M6 s3].","sources":[{"module":"M6","slides":[3]}],"keyStatus":"given"},
+ {"id":"q1-03","module":"M5","topic":"Biodiversity & IBSAP","nodeIds":["m5.sdgs"],"explanation":"SDG 14 is Life Below Water [M5 s5].","sources":[{"module":"M5","slides":[5]}],"keyStatus":"given"}
+]
