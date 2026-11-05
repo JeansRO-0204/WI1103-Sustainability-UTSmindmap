@@ -23,3 +23,7 @@ Open the site's **Quiz / Cards / Progress** tabs: Quiz 1 (bilingual EN/ID toggle
 - `build/`, `tools/` pipeline, validator, query CLI, MCP server
 
 Original lecture files (`ppt/`) and PDFs are included. Content is the author's study notes derived from course slides; check slides for exam-critical figures.
+
+## Credits
+- "Latihan Soal UTS Sustainability" prediction paper (questions, key and figures): Justin Christian (@justin_christiannn) and Vinca Anindya Aurora (@vincaanindyaa), SAPPK 2025. English versions are AI translations.
+- Course slides and Quizzes 1-2: WI1103 lecturers, ITB.
