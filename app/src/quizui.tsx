@@ -1,6 +1,6 @@
-import { Fragment } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import Markdown from 'react-markdown'
-import { slideKey, thumbUrl, type Data } from './data'
+import { BASE, slideKey, thumbUrl, type Data } from './data'
 import { profColor, type Agg } from './quizlib'
 import type { Source } from './types'
 import { SlideImg } from './ui'
@@ -92,3 +92,30 @@ export function ConceptChips({ data, ids, onFly }: { data: Data; ids: string[]; 
 
 /** Prevents the button from taking focus on mouse click so global keyboard shortcuts (Enter/Space) never double-fire. */
 export const noFocus = { onMouseDown: (e: React.MouseEvent) => e.preventDefault() }
+
+/** Question figure (prediction paper): click to zoom in a simple modal; Esc or click outside closes. */
+export function ZoomImg({ src, alt, small }: { src: string; alt: string; small?: boolean }) {
+  const [open, setOpen] = useState(false)
+  const url = BASE + src
+  useEffect(() => {
+    if (!open) return
+    // capture + stopPropagation so quiz shortcuts (1-9 / Enter) and the lightbox never see keys while zoomed
+    const h = (e: KeyboardEvent) => { if (e.key === 'Escape') setOpen(false); e.preventDefault(); e.stopPropagation() }
+    window.addEventListener('keydown', h, true)
+    return () => window.removeEventListener('keydown', h, true)
+  }, [open])
+  return (
+    <>
+      <button type="button" className={'qimg' + (small ? ' small' : '')} title="Click to zoom"
+        onClick={(e) => { e.preventDefault(); e.stopPropagation(); setOpen(true) }} {...noFocus}>
+        <img src={url} alt={alt} loading="lazy" />
+      </button>
+      {open && (
+        <div className="lb qzoom" role="dialog" aria-label={alt} onClick={(e) => { e.preventDefault(); e.stopPropagation(); setOpen(false) }}>
+          <button type="button" className="icon qzoom-x" title="Close (Esc)" onClick={() => setOpen(false)}>&#10005;</button>
+          <img src={url} alt={alt} />
+        </div>
+      )}
+    </>
+  )
+}

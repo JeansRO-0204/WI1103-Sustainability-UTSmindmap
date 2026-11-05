@@ -1,0 +1,1400 @@
+[
+ {
+  "id": "lp-51",
+  "source": "latsol",
+  "n": 51,
+  "stem": "Look at the following map!\n\nThe light-blue regions on the map are countries with…",
+  "options": [
+   "A location entirely in the Northern Hemisphere",
+   "Uneven (unequal) infrastructure",
+   "High per-capita income",
+   "Dominance of the agrarian economic sector"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "High per-capita income",
+  "stemId": "Perhatikan peta berikut!\n\nWilayah berwarna biru muda dalam peta tersebut adalah negara-negara dengan…",
+  "optionsId": [
+   "Lokasi di belahan utara Bumi sepenuhnya",
+   "Infrastruktur yang timpang",
+   "Pendapatan perkapita tinggi",
+   "Dominasi ekonomi sektor agraris"
+  ],
+  "answerTextId": "Pendapatan perkapita tinggi",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high",
+  "images": [
+   "quiz/latsol/lp51-1.jpg"
+  ]
+ },
+ {
+  "id": "lp-52",
+  "source": "latsol",
+  "n": 52,
+  "stem": "The dichotomy of regions on the map in the previous question is based on…",
+  "options": [
+   "Climate uniformity",
+   "Dominant gender proportion",
+   "Latitude",
+   "Level of economic development"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Level of economic development",
+  "stemId": "Dikotomi wilayah peta di soal sebelumnya dibagi berdasarkan…",
+  "optionsId": [
+   "Keseragaman iklim",
+   "Proporsi gender yang dominan",
+   "Latitude",
+   "Tingkat pembangunan ekonomi"
+  ],
+  "answerTextId": "Tingkat pembangunan ekonomi",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high",
+  "images": [
+   "quiz/latsol/lp52-1.jpg"
+  ]
+ },
+ {
+  "id": "lp-53",
+  "source": "latsol",
+  "n": 53,
+  "stem": "‘The commons’ refers to…",
+  "options": [
+   "Commodities that can only be exploited by a few groups",
+   "Private assets protected by individual ownership law",
+   "Resources that can be used together",
+   "Goods produced by multinational corporations"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Resources that can be used together",
+  "stemId": "‘Barang milik bersama (the commons)’ mengacu pada…",
+  "optionsId": [
+   "Komoditas yang hanya bisa dieksploitasi oleh beberapa kelompok",
+   "Aset pribadi yang dilindungi hukum kepemilikan individu",
+   "Sumber daya yang dapat digunakan bersama",
+   "Barang-barang yang diproduksi korporasi multinasional"
+  ],
+  "answerTextId": "Sumber daya yang dapat digunakan bersama",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-54",
+  "source": "latsol",
+  "n": 54,
+  "stem": "Subak is the irrigation system of the Balinese community that is closely tied to customary law (Hukum Adat). It not only unites agriculture with religious ritual, Subak also ensures that every part of Balinese society receives its “right” to water. Subak is also a real manifestation of the philosophy “Tri Hita Karana”, which means maintaining harmony in the relationship with God, among humans, and with nature. The Balinese people's obedience to ancestral tradition has let Subak survive from the 8th century to the present.\n\nIn the context of ‘the commons’, Subak belongs to…",
+  "options": [
+   "Intellectual commons",
+   "Biotic (biological) commons",
+   "Marine commons",
+   "Digital commons"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Intellectual commons",
+  "stemId": "Subak adalah sistem pengairan masyarakat Bali yang memiliki keterkaitan erat dengan Hukum Adat. Tidak hanya menyatukan pertanian dengan ritual keagamaan, subak memastikan seluruh unsur masyarakat Bali mendapatkan “haknya” atas air. Subak juga merupakan manifestasi nyata dari filosofi “Tri Hita Karana”, yang memiliki arti menjaga keharmonisan hubungan dengan Tuhan, antara manusia, dan dengan alam. Ketaatan masyarakat Bali pada tradisi leluhur membuat Subak bertahan dari abad ke-8 sampai masa kini. Dalam konteks ‘the commons’, Subak termasuk ke dalam…",
+  "optionsId": [
+   "Commons intelektual",
+   "Commons hayati",
+   "Commons marina",
+   "Commons digital"
+  ],
+  "answerTextId": "Commons intelektual",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "low",
+  "images": [
+   "quiz/latsol/lp54-1.jpg"
+  ],
+  "note": "The slides do not classify Subak into one of these four labels. They list the irrigation system among man-made commons (M4 s12) and traditional knowledge/culture as an intellectual commons (M4 s11); Subak is presented as a collective social-cultural institution (M4 s24). 'Intellectual' is the best fit by elimination, but 'biotic' (water, paddy) is arguable."
+ },
+ {
+  "id": "lp-55",
+  "source": "latsol",
+  "n": 55,
+  "stem": "Ecosystem services are everything provided by a healthy and well-functioning ecosystem. Which of the following is NOT an ecosystem service according to the Millennium Ecosystem Assessment (2005)?",
+  "options": [
+   "provisioning",
+   "regulating",
+   "cultural",
+   "Industrial"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Industrial",
+  "stemId": "Jasa ekosistem adalah segala sesuatu yang disediakan oleh ekosistem yang sehat dan berfungsi dengan baik. Manakah yang tidak termasuk jasa ekosistem menurut Millenial Ecosystem Assessment (2005)?",
+  "optionsId": [
+   "provisioning",
+   "regulating",
+   "cultural",
+   "Industrial"
+  ],
+  "answerTextId": "Industrial",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-56",
+  "source": "latsol",
+  "n": 56,
+  "stem": "The Gersmehl Diagram depicts the dynamics of the nutrient cycle in 3 different biomes: taiga, tropical rainforest, and desert. In the diagram, nutrients are shown moving between forms: 1) litter (organic waste), 2) biomass (living things), and 3) soil. In the taiga, most nutrients are stored as litter because low temperatures inhibit decomposition and the transfer of nutrients to soil and biomass. In the tropical rainforest, most nutrients are stored as biomass because the consistently high temperature and rainfall speed up litter decomposition and litter is quickly absorbed by plant roots. In the desert, most nutrients are stored as soil because of the large amount of chemical and physical weathering, and the minimal plant formation caused by low rainfall.\n\nThe Gersmehl Diagram depicts one of the ecosystem services, namely…",
+  "options": [
+   "Provisioning services",
+   "Regulating services",
+   "Cultural services",
+   "Supporting services"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Supporting services",
+  "stemId": "Gersmehl Diagram menggambarkan dinamika siklus nutrien pada 3 bioma berbeda: taiga, hutan hujan tropis, dan gurun. Dalam diagram tersebut, nutrien digambarkan berpindah-pindah bentuk dari 1) litter (sampah organik), 2) biomass (makhluk hidup), dan 3) soil (tanah). Di taiga, kebanyakan nutrien disimpan sebagai litter karena suhu yang rendah menghambat pembusukan dan transfer nutrien ke soil dan biomass. Di hutan hujan tropis, kebanyakan nutrien disimpan sebagai biomass karena suhu dan curah hujan yang stabil tinggi mempercepat dekomposisi litter dan litter cepat diserap oleh akar-akar tumbuhan. Di gurun, kebanyakan nutrien disimpan sebagai soil karena banyaknya pelapukan kimia maupun fisika, serta minimnya pembentukan tumbuhan yang disebabkan oleh sedikitnya curah hujan. Gersmehl Diagram menggambarkan salah satu jasa ekosistem, yaitu…",
+  "optionsId": [
+   "Provisioning services",
+   "Regulating services",
+   "Cultural services",
+   "Supporting services"
+  ],
+  "answerTextId": "Supporting services",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "images": [
+   "quiz/latsol/lp56-1.jpg"
+  ],
+  "note": "The Gersmehl diagram itself is not in the slides; nutrient cycling is the standard MEA example of a supporting service, and the forest slide lists 'support energy flow and chemical cycling' (M4 s16)."
+ },
+ {
+  "id": "lp-57",
+  "source": "latsol",
+  "n": 57,
+  "stem": "The Amazon rainforest is the largest rainforest in the world. The Amazon forest is indeed a habitat for millions of animal and plant species, but its role goes beyond that. One of the roles of the Amazon forest is maintaining climate stability. This is achieved through the high density and amount of vegetation in the Amazon forest. The trees of the Amazon absorb a great deal of water. Through transpiration, these trees release about 20 tons of water vapor every day. This water vapor then forms clouds and produces rainfall that not only keeps the forest itself humid but also affects global weather patterns. If the Amazon forest disappears, the Earth will lose one of its largest rain suppliers and become increasingly hot.\n\nThe role of the Amazon forest in the reading is as…",
+  "options": [
+   "Provisioning services",
+   "Regulating services",
+   "Cultural services",
+   "Supporting services"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Regulating services",
+  "stemId": "Hutan Amazon adalah hutan hujan terluas di dunia. Hutan Amazon memang merupakan habitat bagi jutaan spesies hewan dan tumbuhan, tetapi peran keberadaannya lebih dari itu. Salah satu peran Hutan Amazon adalah menjaga kestabilan iklim. Hal ini terwujud melalui tingginya kepadatan dan jumlah vegetasi Hutan Amazon. Pohon-pohon di Hutan Amazon menyerap sangat banyak air. Melalui proses transpirasi, pohon-pohon tersebut mengeluarkan uap air hingga sekitar 20 ton setiap harinya. Uap air ini kemudian membentuk awan dan menghasilkan curah hujan yang tidak hanya menjaga kelembapan hutan itu sendiri, tetapi juga memengaruhi pola cuaca global. Jika Hutan Amazon habis, Bumi akan kehilangan salah satu pemasok hujan terbesarnya dan menjadi semakin panas. Peran Hutan Amazon dalam bacaan tersebut adalah sebagai…",
+  "optionsId": [
+   "Provisioning services",
+   "Regulating services",
+   "Cultural services",
+   "Supporting services"
+  ],
+  "answerTextId": "Regulating services",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high",
+  "images": [
+   "quiz/latsol/lp57-1.jpg",
+   "quiz/latsol/lp57-2.jpg"
+  ]
+ },
+ {
+  "id": "lp-58",
+  "source": "latsol",
+  "n": 58,
+  "stem": "Look at the following table for this question and the next 3 questions!\n\n| Ecosystem service | Example |\n|---|---|\n| J | Animist belief in mountains |\n| V | Swamp forests slowly produce coal to meet human energy needs |\n| Regulating services | Lake microorganisms are able to break down waste in the water |\n\nThe correct choice to replace the letter ‘J’ is…",
+  "options": [
+   "Provisioning services",
+   "Regulating services",
+   "Cultural services",
+   "Supporting services"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Cultural services",
+  "stemId": "Perhatikan tabel berikut untuk nomor ini dan 3 nomor selanjutnya!\n\n| Jasa ekosistem | Contoh |\n|---|---|\n| J | Kepercayaan animisme terhadap gunung |\n| V | Hutan rawa memproduksi batu bara secara perlahan untuk memenuhi kebutuhan energi manusia |\n| Regulating services | Mikroorganisme danau mampu mengurai limbah dalam air |\n\nPilihan yang tepat untuk mengganti huruf ‘J’ adalah…",
+  "optionsId": [
+   "Provisioning services",
+   "Regulating services",
+   "Cultural services",
+   "Supporting services"
+  ],
+  "answerTextId": "Cultural services",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-59",
+  "source": "latsol",
+  "n": 59,
+  "stem": "(Table as in the previous question: J = Animist belief in mountains; V = Swamp forests slowly produce coal to meet human energy needs; Regulating services = Lake microorganisms break down waste in the water.)\n\nThe correct choice to replace the letter ‘V’ is…",
+  "options": [
+   "Provisioning services",
+   "Regulating services",
+   "Cultural services",
+   "Supporting services"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Provisioning services",
+  "stemId": "(Tabel seperti pada nomor sebelumnya: J = Kepercayaan animisme terhadap gunung; V = Hutan rawa memproduksi batu bara secara perlahan untuk memenuhi kebutuhan energi manusia; Regulating services = Mikroorganisme danau mampu mengurai limbah dalam air.)\n\nPilihan yang tepat untuk mengganti huruf ‘V’ adalah…",
+  "optionsId": [
+   "Provisioning services",
+   "Regulating services",
+   "Cultural services",
+   "Supporting services"
+  ],
+  "answerTextId": "Provisioning services",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-60",
+  "source": "latsol",
+  "n": 60,
+  "stem": "The ecosystem with the highest economic value of ecosystem services is … for terrestrial ecosystems and … for aquatic ecosystems",
+  "options": [
+   "Forests, mangroves",
+   "Grasslands, sea (open ocean)",
+   "Cropland, coral reef",
+   "Wetlands, marine shelf"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Forests, mangroves",
+  "stemId": "Ekosistem dengan nilai ekonomi jasa ekosistem paling tinggi adalah … untuk ekosistem terestrial dan … untuk ekosistem akuatik",
+  "optionsId": [
+   "Hutan, mangrove",
+   "Padang rumput, laut",
+   "Lahan pertanian, coral reef",
+   "Lahan basah, marine shelf"
+  ],
+  "answerTextId": "Hutan, mangrove",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-61",
+  "source": "latsol",
+  "n": 61,
+  "stem": "According to Spoolman and Miller (2021), Payment for Ecosystem Services (PES; Indonesian: PJL) is a mechanism of…",
+  "options": [
+   "Government funding assistance for forest farmers",
+   "Exchange of agricultural products between regions",
+   "Payment by parties who enjoy nature's benefits to those who maintain or enhance environmental services",
+   "There is no correct answer"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Payment by parties who enjoy nature's benefits to those who maintain or enhance environmental services",
+  "stemId": "Menurut Spoolman dan Miller (2021), Pembayaran Jasa Lingkungan (PJL) atau Payment for Ecosystem Services (PES) merupakan mekanisme…",
+  "optionsId": [
+   "Bantuan dana dari pemerintah untuk petani hutan",
+   "Pertukaran hasil pertanian antar daerah",
+   "Pembayaran oleh pihak yang menikmati manfaat alam kepada pihak yang menjaga atau meningkatkan jasa lingkungan",
+   "Tidak ada jawaban yang benar"
+  ],
+  "answerTextId": "Pembayaran oleh pihak yang menikmati manfaat alam kepada pihak yang menjaga atau meningkatkan jasa lingkungan",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-62",
+  "source": "latsol",
+  "n": 62,
+  "stem": "Look at the following graph! (Ozone-depleting substance consumption, World, 1989 to 2014.)\n\nThe agreement that influenced the trend in the graph above is…",
+  "options": [
+   "Paris Agreement",
+   "COP28",
+   "Montreal Protocol",
+   "Kyoto Protocol"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Montreal Protocol",
+  "stemId": "Perhatikan grafik berikut!\n\nPerjanjian yang memengaruhi tren dalam grafik di atas adalah…",
+  "optionsId": [
+   "Paris Agreement",
+   "COP28",
+   "Montreal Protocol",
+   "Kyoto Protocol"
+  ],
+  "answerTextId": "Montreal Protocol",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high",
+  "images": [
+   "quiz/latsol/lp62-1.jpg"
+  ]
+ },
+ {
+  "id": "lp-63",
+  "source": "latsol",
+  "n": 63,
+  "stem": "The Logic of Collective Action means the community's joint decision to regulate the use of resources so that they remain sustainable. A case related to this is Dieselgate. What happened in Dieselgate?",
+  "options": [
+   "An increase in the circulation of illegal non-environmentally-friendly fuel",
+   "An automobile company was caught manipulating its vehicles' emission test results",
+   "The failure of the carbon tax programme because only a few companies could afford to pay it",
+   "The erasure of fuel consumption data"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "An automobile company was caught manipulating its vehicles' emission test results",
+  "stemId": "Logika Aksi Bersama (Logic of Collective Action) memiliki arti keputusan bersama masyarakat untuk mengatur penggunaan sumber daya agar tetap lestari. Contoh kasus yang berkaitan dengan hal tersebut adalah Dieselgate. Apa yang terjadi dalam Dieselgate?",
+  "optionsId": [
+   "Meningkatnya peredaran bahan bakar non-ramah lingkungan ilegal",
+   "Tertangkapnya aksi manipulasi hasil uji emisi kendaraan perusahaan automobil",
+   "Gagalnya program pajak karbon karena hanya sedikit perusahaan yang mampu membayarnya",
+   "Terhapusnya data konsumsi BBM"
+  ],
+  "answerTextId": "Tertangkapnya aksi manipulasi hasil uji emisi kendaraan perusahaan automobil",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-64",
+  "source": "latsol",
+  "n": 64,
+  "stem": "Vehicle exhaust emissions in Indonesia are legally regulated by…",
+  "options": [
+   "Minister of Environment and Forestry Regulation (Permen LHK) No. 8 of 2023 and Government Regulation (PP) No. 22 of 2021",
+   "Minister of Environment and Forestry Regulation (Permen LHK) No. 8 of 2024 and Government Regulation (PP) No. 22 of 2022",
+   "Minister of Environment and Forestry Regulation (Permen LHK) No. 9 of 2023 and Government Regulation (PP) No. 23 of 2021",
+   "There is no correct answer"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Minister of Environment and Forestry Regulation (Permen LHK) No. 8 of 2023 and Government Regulation (PP) No. 22 of 2021",
+  "stemId": "Emisi gas buangan kendaraan di Indonesia diatur secara hukum oleh…",
+  "optionsId": [
+   "Peraturan Menteri Lingkungan Hidup dan Kehutanan (Permen LHK) No. 8 Tahun 2023 dan Peraturan Pemerintah (PP) No. 22 Tahun 2021",
+   "Peraturan Menteri Lingkungan Hidup dan Kehutanan (Permen LHK) No. 8 Tahun 2024 dan Peraturan Pemerintah (PP) No. 22 Tahun 2022",
+   "Peraturan Menteri Lingkungan Hidup dan Kehutanan (Permen LHK) No. 9 Tahun 2023 dan Peraturan Pemerintah (PP) No. 23 Tahun 2021",
+   "Tidak ada jawaban yang benar"
+  ],
+  "answerTextId": "Peraturan Menteri Lingkungan Hidup dan Kehutanan (Permen LHK) No. 8 Tahun 2023 dan Peraturan Pemerintah (PP) No. 22 Tahun 2021",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-65",
+  "source": "latsol",
+  "n": 65,
+  "stem": "The Sustainable Development Goals (SDGs) are a refinement of the Millennium Development Goals (MDGs). The SDGs have … goals, whereas the MDGs had only … goals.",
+  "options": [
+   "8, 17",
+   "17, 8",
+   "10, 8",
+   "8, 10"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "17, 8",
+  "stemId": "Sustainable Development Goals (SDGs) merupakan penyempurnaan dari Millenium Development Goals (MDGs). SDGs memiliki … tujuan, sedangkan MDGs hanya memiliki … tujuan.",
+  "optionsId": [
+   "8, 17",
+   "17, 8",
+   "10, 8",
+   "8, 10"
+  ],
+  "answerTextId": "17, 8",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-66",
+  "source": "latsol",
+  "n": 66,
+  "stem": "So that the achievement of the SDG goals can be measured, targets and indicators apply. SDG targets and indicators apply globally, with modification for each country that takes into account differences in conditions, capabilities and development levels. There are … indicators that apply globally. In Indonesia, these indicators are modified into … indicators.",
+  "options": [
+   "169, 289",
+   "231, 289",
+   "169, 231",
+   "231, 169"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "231, 289",
+  "stemId": "Agar pencapaian tujuan SDGs dapat diukur, terdapat target dan indikator yang berlaku. Target dan indikator SDGs berlaku secara global dengan modifikasi bagi tiap negara namun dengan memperhitungkan perbedaan kondisi, kemampuan, dan tingkat pembangunan masing-masing. Terdapat … indikator yang berlaku secara global. Di Indonesia, indikator-indikator tersebut dimodifikasi menjadi … indikator.",
+  "optionsId": [
+   "169, 289",
+   "231, 289",
+   "169, 231",
+   "231, 169"
+  ],
+  "answerTextId": "231, 289",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-67",
+  "source": "latsol",
+  "n": 67,
+  "stem": "Look at the following map! (5G coverage map by Ookla, February 2024, Southeast Asia.)\n\nThe problem shown in the map falls under SDG number…",
+  "options": [
+   "12",
+   "11",
+   "9",
+   "8"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "9",
+  "stemId": "Perhatikan peta berikut!\n\nMasalah yang ditampilkan pada peta tersebut berada di bawah tujuan SDGs nomor…",
+  "optionsId": [
+   "12",
+   "11",
+   "9",
+   "8"
+  ],
+  "answerTextId": "9",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "images": [
+   "quiz/latsol/lp67-1.jpg"
+  ],
+  "note": "5G coverage (digital infrastructure and its uneven spread) is SDG 9 Industry, Innovation and Infrastructure; the slides do not discuss this map itself."
+ },
+ {
+  "id": "lp-68",
+  "source": "latsol",
+  "n": 68,
+  "stem": "Ocean acidification is the prolonged decrease in the pH of seawater because the ocean absorbs carbon dioxide from the air. This seriously threatens marine life. Ocean acidification can damage the balance of ecosystems, erode the shells of marine organisms, stress coral reefs until they bleach, and more.\n\nThis problem falls under SDG number…",
+  "options": [
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "14",
+  "stemId": "Pengasaman samudra adalah penurunan berkepanjangan pH air laut karena laut menyerap karbon dioksida di udara. Hal ini sangat mengancam kehidupan biota di laut. Pengasaman samudra dapat merusak keseimbangan ekosistem, mengikis cangkang biota laut, membuat terumbu karang stres hingga menjadi putih, dan lain-lain lain-lain. Masalah ini berada di bawah tujuan SDGs nomor…",
+  "optionsId": [
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "answerTextId": "14",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high",
+  "images": [
+   "quiz/latsol/lp68-1.jpg"
+  ]
+ },
+ {
+  "id": "lp-69",
+  "source": "latsol",
+  "n": 69,
+  "stem": "Which of the following is one of the targets of SDG number 3?",
+  "options": [
+   "Strengthen the prevention and treatment of abuse of harmful narcotics",
+   "Ensure representation and voice of developing countries in decision-making in global international economic and financial institutions",
+   "End hunger and ensure access to food for all",
+   "Protect labour rights and promote a safe working environment for all workers"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Strengthen the prevention and treatment of abuse of harmful narcotics",
+  "stemId": "Di bawah ini yang merupakan salah satu sasaran dari tujuan SDGs nomor 3 adalah…",
+  "optionsId": [
+   "Memperkuat pencegahan dan penanganan penyalahgunaan narkotika yang berbahaya",
+   "Memastikan adanya representasi dan suara dari negara-negara berkembang dalam pengambilan keputusan di lembaga-lembaga ekonomi dan keuangan internasional global",
+   "Mengakhiri kelaparan dan menjamin akses makanan bagi semua orang",
+   "Melindungi hak-hak buruh dan mempromosikan lingkungan kerja yang aman dan bagi semua pekerja"
+  ],
+  "answerTextId": "Memperkuat pencegahan dan penanganan penyalahgunaan narkotika yang berbahaya",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "note": "Target 3.5 of the UN SDGs (substance and narcotic drug abuse) is general knowledge; the slides do not list SDG 3 targets."
+ },
+ {
+  "id": "lp-70",
+  "source": "latsol",
+  "n": 70,
+  "stem": "Look at the following table for this question and the next 3 questions!\n\n| Number | Goal |\n|---|---|\n| A | Peace, Justice, and Strong Institutions |\n| 11 | B |\n| 7 | C |\n\nThe correct choice to replace the letter ‘A’ is…",
+  "options": [
+   "2",
+   "4",
+   "8",
+   "16"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "16",
+  "stemId": "Perhatikan tabel berikut untuk nomor ini dan 3 nomor selanjutnya!\n\n| Nomor | Tujuan |\n|---|---|\n| A | Peace, Justice, and Strong Institutions |\n| 11 | B |\n| 7 | C |\n\nPilihan yang tepat untuk mengganti huruf ‘A’ adalah…",
+  "optionsId": [
+   "2",
+   "4",
+   "8",
+   "16"
+  ],
+  "answerTextId": "16",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-71",
+  "source": "latsol",
+  "n": 71,
+  "stem": "(Table as in the previous question: A = Peace, Justice, and Strong Institutions; 11 = B; 7 = C.)\n\nThe correct choice to replace the letter ‘B’ is…",
+  "options": [
+   "Quality Education",
+   "Climate Action",
+   "Sustainable Cities and Communities",
+   "Clean Water and Sanitation"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Sustainable Cities and Communities",
+  "stemId": "(Tabel seperti pada nomor sebelumnya: A = Peace, Justice, and Strong Institutions; 11 = B; 7 = C.)\n\nPilihan yang tepat untuk mengganti huruf ‘B’ adalah…",
+  "optionsId": [
+   "Quality Education",
+   "Climate Action",
+   "Sustainable Cities and Communities",
+   "Clean Water and Sanitation"
+  ],
+  "answerTextId": "Sustainable Cities and Communities",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-72",
+  "source": "latsol",
+  "n": 72,
+  "stem": "(Table as in the previous question: A = Peace, Justice, and Strong Institutions; 11 = B; 7 = C.)\n\nThe correct choice to replace the letter ‘C’ is…",
+  "options": [
+   "Affordable and Clean Energy",
+   "Responsible Consumption and Production",
+   "Life on Land",
+   "Partnership for the Goals"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Affordable and Clean Energy",
+  "stemId": "(Tabel seperti pada nomor sebelumnya: A = Peace, Justice, and Strong Institutions; 11 = B; 7 = C.)\n\nPilihan yang tepat untuk mengganti huruf ‘C’ adalah…",
+  "optionsId": [
+   "Affordable and Clean Energy",
+   "Responsible Consumption and Production",
+   "Life on Land",
+   "Partnership for the Goals"
+  ],
+  "answerTextId": "Affordable and Clean Energy",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-73",
+  "source": "latsol",
+  "n": 73,
+  "stem": "What is the main vision of the Indonesian Biodiversity Strategy and Action Plan (IBSAP) for 2025-2045?",
+  "options": [
+   "Making Indonesia the leading Megadiversity Country in the world",
+   "Living in harmony with nature for the sustainability of all life forms in Indonesia",
+   "Achieving all 17 Sustainable Development Goals (SDGs) in Indonesia",
+   "All answers are correct"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Living in harmony with nature for the sustainability of all life forms in Indonesia",
+  "stemId": "Apa visi utama dari Strategi dan Rencana Aksi Keanekaragaman Hayati Indonesia (IBSAP) periode 2025-2045?",
+  "optionsId": [
+   "Menjadikan Indonesia sebagai Megadiversity Country terdepan di dunia",
+   "Hidup selaras dengan alam untuk keberlangsungan seluruh bentuk kehidupan di Indonesia",
+   "Mencapai seluruh 17 Tujuan Pembangunan Berkelanjutan (SDGs) di Indonesia",
+   "Semua jawaban benar"
+  ],
+  "answerTextId": "Hidup selaras dengan alam untuk keberlangsungan seluruh bentuk kehidupan di Indonesia",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-74",
+  "source": "latsol",
+  "n": 74,
+  "stem": "Science, Technology and Innovation (STI) plays a vital role in achieving the SDGs. STI covers three distinct but closely related areas. The STI role related to new ways of producing, distributing or using goods and services based on new technology, new business models, or new ways of economic or social organisation is the role of…",
+  "options": [
+   "Science",
+   "Technology",
+   "Innovation",
+   "Accommodation"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Innovation",
+  "stemId": "Sains, Teknologi, dan Inovasi (STI) memegang peran vital dalam pencapaian SDGs. STI mencakup tiga bidang yang berbeda namun saling terkait erat. Peran STI yang berhubungan dengan cara baru dalam memproduksi, mendistribusikan, atau menggunakan barang dan jasa yang didasarkan pada teknologi baru, model bisnis baru, atau cara organisasi ekonomi atau sosial yang baru adalah peran…",
+  "optionsId": [
+   "Ilmu pengetahuan (science)",
+   "Teknologi (technology)",
+   "Inovasi (innovation)",
+   "Akomodasi (accomodation)"
+  ],
+  "answerTextId": "Inovasi (innovation)",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-75",
+  "source": "latsol",
+  "n": 75,
+  "stem": "The creation, development and dissemination of innovation and new technologies, including mutually agreed ‘technology transfer’, aims to…",
+  "options": [
+   "Promote sustainable development",
+   "Limit the increase in foreign debt",
+   "Limit developing countries' access to global competition",
+   "Reduce the domestic budget burden"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Promote sustainable development",
+  "stemId": "Penciptaan, pengembangan, dan penyebaran inovasi serta teknologi baru, termasuk 'transfer teknologi' yang disepakati bersama, memiliki tujuan untuk…",
+  "optionsId": [
+   "Mendorong pembangunan berkelanjutan",
+   "Membatasi peningkatan hutang luar negeri",
+   "Membatasi akses negara berkembang terhadap persaingan global",
+   "Mengurangi beban anggaran domestik"
+  ],
+  "answerTextId": "Mendorong pembangunan berkelanjutan",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-76",
+  "source": "latsol",
+  "n": 76,
+  "stem": "“Every country will produce and require different STI” is the meaning of…",
+  "options": [
+   "The need for knowledge management",
+   "Place-based priority",
+   "Technology Facilitation Mechanism",
+   "Capacity building"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Place-based priority",
+  "stemId": "“Setiap negara akan menghasilkan dan membutuhkan STI yang berbeda beda” merupakan makna…",
+  "optionsId": [
+   "Kebutuhan knowledge management",
+   "Place-based priority",
+   "Technology Facilitation Mechanism",
+   "Capacity building"
+  ],
+  "answerTextId": "Place-based priority",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-77",
+  "source": "latsol",
+  "n": 77,
+  "stem": "Key points of the mid-point evaluation of the “Decade of Action” (2023), EXCEPT…",
+  "options": [
+   "More and more databases are being compared across countries",
+   "The agreed methods are decreasing",
+   "48% of targets are not on the roadmap, more than 30% of targets are stagnant or declining below the 2015 baseline",
+   "15% of targets are progressing according to the roadmap"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "The agreed methods are decreasing",
+  "stemId": "Poin penting dari evaluasi pada pertengahan \"Dekade Aksi\" (2023) kecuali…",
+  "optionsId": [
+   "Semakin banyak database yang berhasil diperbandingkan antar negara",
+   "Metode yang disepakati semakin berkurang",
+   "48% target tidak sesuai dengan peta jalan, lebih dari 30% target stagnan atau menurun di bawah tahun dasar 2015",
+   "15% target maju sesuai peta jalan"
+  ],
+  "answerTextId": "Metode yang disepakati semakin berkurang",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-78",
+  "source": "latsol",
+  "n": 78,
+  "stem": "Which of the following is NOT a component of the climate system according to the IPCC (Intergovernmental Panel on Climate Change)?",
+  "options": [
+   "Atmosphere",
+   "Biosphere",
+   "Cryosphere",
+   "Anthroposphere"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Anthroposphere",
+  "stemId": "Berikut yang tidak termasuk komponen sistem iklim menurut IPCC (Intergovernmental Panel on Climate Change) yaitu…",
+  "optionsId": [
+   "Atmosfer",
+   "Biosfer",
+   "Kriosfer",
+   "Antroposfer"
+  ],
+  "answerTextId": "Antroposfer",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-79",
+  "source": "latsol",
+  "n": 79,
+  "stem": "The GHG that is often cited as a GHG from the agriculture/livestock sector is… (picture: cattle on pasture)",
+  "options": [
+   "CH4",
+   "H2O",
+   "N2O",
+   "CO2"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "CH4",
+  "stemId": "GRK yang sering disebutkan sebagai GRK hasil sektor pertanian/peternakan adalah…",
+  "optionsId": [
+   "CH4",
+   "H2O",
+   "N2O",
+   "CO2"
+  ],
+  "answerTextId": "CH4",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "images": [
+   "quiz/latsol/lp79-1.jpg"
+  ],
+  "note": "Livestock/agriculture as a methane source is general knowledge; the slides only list methane among the GHGs and do not tie it to livestock. N2O (fertiliser) is also agricultural, but the cattle picture points to CH4."
+ },
+ {
+  "id": "lp-80",
+  "source": "latsol",
+  "n": 80,
+  "stem": "The Global Warming Potential (GWP) value of a greenhouse gas shows…",
+  "options": [
+   "The intensity of solar energy absorbed by the gas in the atmosphere",
+   "The potential of the gas to cause global warming relative to CO2 over a certain time period",
+   "The potential of the gas to cause ozone depletion",
+   "The change in the proportion of a gas in the atmosphere over time"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "The potential of the gas to cause global warming relative to CO2 over a certain time period",
+  "stemId": "Nilai Global Warming Potential (GWP) suatu gas rumah kaca menunjukkan...",
+  "optionsId": [
+   "Intensitas energi surya yang diserap gas di atmosfer",
+   "Potensi gas untuk menyebabkan pemanasan global relatif terhadap CO2 dalam periode waktu tertentu",
+   "Potensi gas untuk menyebabkan pelubangan ozon",
+   "Perubahan proporsi suatu gas di atmosfer dari waktu ke waktu"
+  ],
+  "answerTextId": "Potensi gas untuk menyebabkan pemanasan global relatif terhadap CO2 dalam periode waktu tertentu",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-81",
+  "source": "latsol",
+  "n": 81,
+  "stem": "The Paris Agreement officially came into force in the year … and aims to keep the increase in global average temperature from exceeding …",
+  "options": [
+   "2015, 3°C compared to the pre-industrial era",
+   "2016, 1.5°C compared to the pre-industrial era",
+   "2014, 5°C compared to the pre-industrial era",
+   "2006, 2.5°C compared to the pre-industrial era"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "2016, 1.5°C compared to the pre-industrial era",
+  "stemId": "Paris Agreement berlaku secara resmi mulai tahun … dan memiliki tujuan untuk menjaga kenaikan suhu rata-rata global agar tidak melebihi …",
+  "optionsId": [
+   "2015, 3°C dibanding masa pra-industri",
+   "2016, 1,5°C dibanding masa pra-industri",
+   "2014, 5°C dibanding masa pra-industri",
+   "2006, 2,5°C dibanding masa pra-industri"
+  ],
+  "answerTextId": "2016, 1,5°C dibanding masa pra-industri",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "note": "Entry into force in 2016 is general knowledge (the slides show the Paris Agreement as 2015–2030, adopted 2015); the goal text is 'well below 2°C, pursuing 1.5°C' (M6 s14 notes). Only option b is defensible."
+ },
+ {
+  "id": "lp-82",
+  "source": "latsol",
+  "n": 82,
+  "stem": "The Paris Agreement has several principles. One of them is “Equity: Common but Differentiated Responsibilities & Respective Capabilities (CBDR-RC)”. Which is NOT part of the meaning of that principle?",
+  "options": [
+   "Common responsibilities: saving the Earth is the shared responsibility of every country. All countries contribute to Climate Change, to varying degrees",
+   "Differentiated Responsibilities: considering each country's conditions & development goals. Rich countries must commit more.",
+   "Respective Capabilities: every country has a different capacity. Poor countries are entitled to international support, one form being the Technology Facilitation Mechanism (TFM)",
+   "Review Progress: assessing how far countries have carried out their commitments"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Review Progress: assessing how far countries have carried out their commitments",
+  "stemId": "Paris Agreement memiliki beberapa prinsip. Salah satu dari prinsip tersebut adalah “Equity: Common but Differentiated Responsibilities & Respective Capabilities (CBDR -RC)”. Mana yang tidak termasuk makna prinsip tersebut?",
+  "optionsId": [
+   "Common responsibilities: menyelamatkan Bumi merupakan tanggung jawab bersama setiap negara. Semua negara berkontribusi untuk Perubahan Iklim, dengan derajat yang berbeda",
+   "Differentiated Responsibilities: Mempertimbangkan kondisi & tujuan pembangunan masing masing. Negara-negara kaya harus berkomitmen lebih.",
+   "Respective Capabilities: Setiap negara punya kapasitas yang berbeda. Negara-negara miskin berhak mendapat dukungan internasional, salah satunya dalam bentuk Technology Facilitation Mechanism (TFM)",
+   "Review Progress: Menilai sejauh mana berbagai negara sudah menjalankan komitmen"
+  ],
+  "answerTextId": "Review Progress: Menilai sejauh mana berbagai negara sudah menjalankan komitmen",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-83",
+  "source": "latsol",
+  "n": 83,
+  "stem": "The Transparency principle in the Paris Agreement means every country must be open and honest in reporting its progress in dealing with climate change, which is done through the Global Stocktake (GST). The GST is carried out every…",
+  "options": [
+   "5 years",
+   "10 years",
+   "3 years",
+   "2.5 years"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "5 years",
+  "stemId": "Prinsip Transparansi dalam Paris Agreement memiliki makna setiap negara harus terbuka dan jujur ketika melaporkan kemajuannya dalam usaha menangani perubahan iklim, yang dilakukan melalui Global Stocktake (GST). GST dilakukan setiap…",
+  "optionsId": [
+   "5 tahun sekali",
+   "10 tahun sekali",
+   "3 tahun sekali",
+   "2,5 tahun sekali"
+  ],
+  "answerTextId": "5 tahun sekali",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "note": "The five-year GST cycle is Paris Agreement general knowledge; the slides describe the GST (first completed at COP28, 2023) but do not state the interval."
+ },
+ {
+  "id": "lp-84",
+  "source": "latsol",
+  "n": 84,
+  "stem": "The principle of sovereignty in the Paris Agreement is also called the … approach",
+  "options": [
+   "Top-down Architecture",
+   "Bottom-up Architecture",
+   "Trickle Down Economy",
+   "Cap and Trade"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Bottom-up Architecture",
+  "stemId": "Prinsip kedaulatan dalam Paris Agreement disebut juga dengan pendekatan…",
+  "optionsId": [
+   "Top-down Architecture",
+   "Bottom-up Architecture",
+   "Trickle Down Economy",
+   "Cap and Trade"
+  ],
+  "answerTextId": "Bottom-up Architecture",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-85",
+  "source": "latsol",
+  "n": 85,
+  "stem": "The Indonesian Government ratified the Paris Agreement as Law No. 16/2016. Indonesia targets a GHG emission reduction of … in 2030, and … if it receives international assistance.",
+  "options": [
+   "23%, 36.15%",
+   "41, 59%",
+   "31.89%, 43%",
+   "17.64%, 25%"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "31.89%, 43%",
+  "stemId": "Pemerintah Indonesia meratifikasi Persetujuan Paris sebagai UU No. 16/2016. Indonesia menargetkan pengurangan emisi GRK sebesar … di tahun 2030, serta … jika menerima bantuan internasional.",
+  "optionsId": [
+   "23%, 36,15%",
+   "41, 59%",
+   "31,89%, 43%",
+   "17,64%, 25%"
+  ],
+  "answerTextId": "31,89%, 43%",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "note": "Slide M6 s19 gives 29% / 41% for 2030 (the first NDC) and M6 s20 gives 31.89% / 43.20% for 2035 (second NDC). The 31.89% / 43.2% pair is the Enhanced NDC 2022 target for 2030, the only option matching the course's figures. No option shows 29/41, so c is the best answer, but the stem year and the slides' pairs do not align cleanly."
+ },
+ {
+  "id": "lp-86",
+  "source": "latsol",
+  "n": 86,
+  "stem": "Kiribati is an island nation located in the middle of the vast Pacific Ocean. Its geography makes the country vulnerable to sea-level rise. Because of the severity of the flooding of its islands, the President of Kiribati, Anote Tong (2005), responded to the threat through the “Migrate with Dignity” policy, namely…",
+  "options": [
+   "Asking for emergency funds from Australia",
+   "Fortifying the islands with seawalls",
+   "Buying 6000 acres (“are”) of land in the country of Fiji",
+   "Mass migration to countries around Kiribati"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Buying 6000 acres (“are”) of land in the country of Fiji",
+  "stemId": "Kiribati adalah sebuah negara kepulauan yang terletak di tengah luasnya Samudra Pasifik. Kondisi geografisnya membuat negara tersebut rentan terhadap kenaikan permukaan air laut. Karena parahnya kasus tergenangnya pulau, Presiden Kiribati, Anote Tong (2005) merespons ancaman tersebut melalui kebijakan “Migrate with Dignity”, yaitu…",
+  "optionsId": [
+   "Meminta sumbangan dana darurat dari Australia",
+   "Membentengi pulau dengan seawall",
+   "Membeli 6000 are tanah di negara Fiji",
+   "Migrasi besar-besaran ke negara di sekitar Kiribati"
+  ],
+  "answerTextId": "Membeli 6000 are tanah di negara Fiji",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high",
+  "images": [
+   "quiz/latsol/lp86-1.jpg"
+  ],
+  "note": "The stem says 2005; the slide dates Tong's statement to 2015. The paper's '6000 are' is a typo for 6,000 acres; the answer is unaffected."
+ },
+ {
+  "id": "lp-87",
+  "source": "latsol",
+  "n": 87,
+  "stem": "In the midst of rising global temperatures, humans created the AC as one climate-change adaptation strategy. Unfortunately, the use of AC also has adverse effects on the climate. AC can produce CO2e (carbon dioxide equivalent) through direct and indirect emissions, making the principle of sustainable cooling important. Which of the following is an example of direct CO2e emissions from AC?",
+  "options": [
+   "Refrigerant leakage from cooling units",
+   "Emissions from energy consumption in the cooling system",
+   "Release of water vapour condensed during the air-cooling process",
+   "Electricity consumption that increases demand for fossil fuels"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Refrigerant leakage from cooling units",
+  "stemId": "Di tengah memanasnya suhu global, manusia menciptakan AC sebagai salah satu strategi adaptasi perubahan iklim. Sayangnya, penggunaan AC juga tetap memiliki dampak buruk terhadap iklim. AC dapat menghasilkan CO2e (carbon dioxide equivalent) melalui emisi langsung maupun tidak langsung, membuat prinsip sustainable cooling menjadi penting. Berikut yang merupakan contoh emisi CO2e langsung dari AC adalah…",
+  "optionsId": [
+   "Kebocoran refrigeran dari unit pendingin",
+   "Emisi yang berasal dari konsumsi energi pada sistem pendingin",
+   "Pelepasan uap air yang terkondensasi selama proses pendinginan udara",
+   "Konsumsi energi listrik yang meningkatkan permintaan bahan bakar fosil"
+  ],
+  "answerTextId": "Kebocoran refrigeran dari unit pendingin",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-88",
+  "source": "latsol",
+  "n": 88,
+  "stem": "The largest contributing sector of global GHG emissions is…",
+  "options": [
+   "Energy",
+   "Industry",
+   "AFOLU (Agriculture, Forestry and Other Land Use)",
+   "Transportation"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Energy",
+  "stemId": "Sektor penyumbang terbesar emisi GRK global adalah…",
+  "optionsId": [
+   "Energi",
+   "Industri",
+   "AFOLU (Agriculture, Forestry and Other Land Use)",
+   "Transportasi"
+  ],
+  "answerTextId": "Energi",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-89",
+  "source": "latsol",
+  "n": 89,
+  "stem": "Humans continue to create innovations to reduce the impact of GHGs. One of them is carbon sequestration. Carbon sequestration is a natural or artificial process to “extract” carbon in the atmosphere to be stored in the ocean, terrestrial environments and geological formations. The following are types of carbon sequestration, EXCEPT…",
+  "options": [
+   "Biological sequestration",
+   "Geological sequestration",
+   "Technological sequestration",
+   "Atmospherical sequestration"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Atmospherical sequestration",
+  "stemId": "Manusia terus menciptakan inovasi untuk mengurangi dampak GRK. Salah satunya adalah carbon sequestration. Carbon sequestration adalah proses, baik alami maupun artifisial, untuk “mengekstraksi” karbon di atmosfer untuk disimpan di laut, lingkungan daratan, serta formasi geologi. Berikut merupakan tipe carbon sequestration, kecuali…",
+  "optionsId": [
+   "Biological sequestration",
+   "Geological sequestration",
+   "Technological sequestration",
+   "Atmospherical sequestration"
+  ],
+  "answerTextId": "Atmospherical sequestration",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-90",
+  "source": "latsol",
+  "n": 90,
+  "stem": "One application of carbon sequestration is Carbon Capture, Utilization, & Storage (CCUS). Arrange the following CCUS stages into the correct order!\n\n| No. | Stage |\n|---|---|\n| 1 | Carbon is stored in very deep underground rock formations |\n| 2 | Carbon is compressed and then transported by pipeline, ship, truck, etc. |\n| 3 | ‘Capturing’ carbon from the air, for example by installing filters on the chimneys of manufacturing industries |",
+  "options": [
+   "1-2-3",
+   "3-2-1",
+   "The order can be swapped",
+   "1-3-2"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "3-2-1",
+  "stemId": "Salah satu penerapan dari carbon sequestration adalah Carbon Capture, Utilization, & Storage (CCUS). Urutkan tahapan CCUS berikut menjadi urutan yang benar!\n\n| No. | Tahapan |\n|---|---|\n| 1 | Karbon disimpan di formasi batuan bawah tanah yang sangat dalam |\n| 2 | Karbon di-compress lalu ditransportasikan melalui pipa, kapal, truk, dan lain-lain |\n| 3 | ‘Penangkapan’ karbon di udara. Contohnya dengan memasang filter di cerobong asap industri manufaktur |",
+  "optionsId": [
+   "1-2-3",
+   "3-2-1",
+   "Urutan bisa ditukar-tukar",
+   "1-3-2"
+  ],
+  "answerTextId": "3-2-1",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-91",
+  "source": "latsol",
+  "n": 91,
+  "stem": "Look at the following thematic map!\n\nMap (b) is a choropleth map of coal production, while map (c) is a choropleth map of coal consumption. How do the two maps relate to spillover effects?",
+  "options": [
+   "Not all countries produce coal. There are also countries with high coal consumption but low coal production. This can indicate that those countries exploit coal from other countries. The exploited countries get “stress” in the form of environmental degradation, land conflict, etc. in order to meet the needs of other countries.",
+   "Both maps show that all countries that produce coal also have high consumption, indicating that each country meets its energy needs independently. \"Stress\" is experienced by the remaining countries that cannot meet their own energy needs.",
+   "Countries with low coal production show strong leadership in global climate-change mitigation. This indicates that these countries have successfully overcome dependence on coal and do not feel any “stress” in their territory.",
+   "There is no correct answer"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Not all countries produce coal. There are also countries with high coal consumption but low coal production. This can indicate that those countries exploit coal from other countries. The exploited countries get “stress” in the form of environmental degradation, land conflict, etc. in order to meet the needs of other countries.",
+  "stemId": "Perhatikan peta tematik berikut!\n\nPeta (b) adalah peta choropleth produksi batu bara, sedangkan peta (c) adalah peta choropleth konsumsi batu bara. Bagaimana kedua peta tersebut berhubungan dengan spillover effects?",
+  "optionsId": [
+   "Tidak semua negara memproduksi batu bara. Ada pula negara dengan konsumsi batu bara tinggi, tetapi produksi batu bara rendah. Hal ini dapat mengindikasikan negara-negara tersebut mengeksploitasi batu bara dari negara lain. Negara yang dieksploitasi mendapatkan “stress” dalam bentuk degradasi lingkungan, konflik lahan, dan lain-lain demi memenuhi kebutuhan negara lain.",
+   "Kedua peta menunjukkan bahwa semua negara yang memproduksi batu bara juga memiliki tingkat konsumsi yang tinggi, mengindikasikan bahwa setiap negara memenuhi kebutuhan energinya secara mandiri. \"Stress\" dalam dialami oleh negara-negara sisanya yang tidak bisa memenuhi kebutuhan energinya sendiri.",
+   "Negara-negara dengan produksi batu bara yang rendah menunjukkan kepemimpinan yang kuat dalam mitigasi perubahan iklim global. Hal ini mengindikasikan bahwa negara-negara tersebut telah berhasil mengatasi ketergantungan terhadap batu bara dan tidak merasakan “stress” apa pun di wilayahnya.",
+   "Tidak ada jawaban benar"
+  ],
+  "answerTextId": "Tidak semua negara memproduksi batu bara. Ada pula negara dengan konsumsi batu bara tinggi, tetapi produksi batu bara rendah. Hal ini dapat mengindikasikan negara-negara tersebut mengeksploitasi batu bara dari negara lain. Negara yang dieksploitasi mendapatkan “stress” dalam bentuk degradasi lingkungan, konflik lahan, dan lain-lain demi memenuhi kebutuhan negara lain.",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high",
+  "images": [
+   "quiz/latsol/lp91-1.jpg"
+  ]
+ },
+ {
+  "id": "lp-92",
+  "source": "latsol",
+  "n": 92,
+  "stem": "The concept of indivisibility in the SDGs means…",
+  "options": [
+   "The SDG goals must be achieved one by one, separately",
+   "All SDG goals are interconnected and must be considered in an integrated way within a shared framework",
+   "SDG targets are only imposed on developing countries",
+   "Every country must be self-reliant in achieving all the goals without needing international assistance or cooperation"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "All SDG goals are interconnected and must be considered in an integrated way within a shared framework",
+  "stemId": "Konsep indivisibility dalam SDGs bermakna…",
+  "optionsId": [
+   "Tujuan-tujuan SDGs harus dicapai satu per satu secara terpisah",
+   "Semua tujuan SDGs saling terkait dan harus dipertimbangkan secara terintegrasi dalam kerangka bersama",
+   "Target SDGs hanya dibebankan kepada negara berkembang",
+   "Setiap negara harus mandiri dalam mencapai semua tujuan tanpa memerlukan bantuan atau kerjasama internasional"
+  ],
+  "answerTextId": "Semua tujuan SDGs saling terkait dan harus dipertimbangkan secara terintegrasi dalam kerangka bersama",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-93",
+  "source": "latsol",
+  "n": 93,
+  "stem": "The following are types of activities classified as synergies (core activities) in the SDGs, EXCEPT…",
+  "options": [
+   "Formal and informal education",
+   "Scientific research",
+   "Cultural preservation activities through dance and painting",
+   "Transmission and distribution of renewable-energy power plants (PLT EBT)"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Cultural preservation activities through dance and painting",
+  "stemId": "Berikut ini adalah jenis-jenis kegiatan yang digolongkan sebagai synergies (core activities) dalam SDGs, kecuali…",
+  "optionsId": [
+   "Pendidikan formal dan informal",
+   "Penelitian sains",
+   "Kegiatan preservasi budaya melalui tarian dan melukis",
+   "Transmisi dan distribusi PLT EBT (Pembangkit Listrik Tenaga Energi Baru Terbarukan)."
+  ],
+  "answerTextId": "Kegiatan preservasi budaya melalui tarian dan melukis",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-94",
+  "source": "latsol",
+  "n": 94,
+  "stem": "There are two sorting methods, namely single and dual stream recycling.\n1) Single stream mixes all recyclable products in one container\n2) Dual stream produces lower material quality\n3) Single stream sorts based on material quality\n4) Dual stream sorts based on type or material quality\n\nWhich statements are correct about single and dual stream recycling?",
+  "options": [
+   "1, 2",
+   "2, 4",
+   "1, 4",
+   "3, 4"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "1, 4",
+  "stemId": "Terdapat dua metode pemilahan, yaitu single dan dual stream recycling.\n1) Single stream mencampuradukkan segala produk recyclable dalam satu wadah\n2) Dual stream menghasilkan kualitas material yang lebih rendah\n3) Single stream memilah berdasarkan kualitas material\n4) Dual stream memilah berdasarkan jenis atau kualitas material\n\nManakah pernyataan yang benar mengenai single dan dual steam recycling?",
+  "optionsId": [
+   "1, 2",
+   "2, 4",
+   "1, 4",
+   "3, 4"
+  ],
+  "answerTextId": "1, 4",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-95",
+  "source": "latsol",
+  "n": 95,
+  "stem": "Look at the following classification! (Infographic ‘Scopes of Emissions’.)\n\nThe following are the 3 types of global emission scope, divided into direct (scope 1) and indirect (scope 1 and 2) emissions, which explain that the emissions of a country or production centre cannot be seen from the end result alone but also from the energy source, raw materials, production and distribution it requires. The impact of scope 2 and scope 3, which indirectly increases … in the recipient country",
+  "options": [
+   "Ecological burden",
+   "Spillover effect",
+   "Production rate",
+   "Distribution freight"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Spillover effect",
+  "stemId": "Perhatikan klasifikasi berikut!\n\nBerikut merupakan 3 jenis cakupan emisi global yang dibagi menjadi direct (scope 1) and indirect (scope 1 and 2) emission yang menjelaskan bahwa emisi dari suatu negara maupun pusat produksi tidak dapat dilihat dari hasil akhirnya saja melainkan juga dari sumber energi, bahan baku, produksi, dan distribusi yang dibutuhkannya. Adapun dampak dari scope 2 dan scope 3 yang secara tidak langsung meningkatkan… pada negara penerima",
+  "optionsId": [
+   "Ecological burden",
+   "Spillover effect",
+   "Production rate",
+   "Distribution freight"
+  ],
+  "answerTextId": "Spillover effect",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "images": [
+   "quiz/latsol/lp95-1.jpg"
+  ],
+  "note": "Emission scopes 1-3 are not in the slides; the answer rests on the spillover concept (M7 s4-5), where emissions embodied in imports burden other countries. The stem also mislabels scope 1 as indirect."
+ },
+ {
+  "id": "lp-96",
+  "source": "latsol",
+  "n": 96,
+  "stem": "The implementation of the 17th Sustainable Development Goals under the UN, in which every country follows an integrated framework and goals, is one realisation of the SDG principle, namely…",
+  "options": [
+   "Transformative",
+   "Universality",
+   "Indivisibility",
+   "Interlinkages"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Indivisibility",
+  "stemId": "Penerapan 17th Sustainable Development Goals dibawah PBB dimana setiap negara mengikuti kerangka dan tujuan yang terintegrasi merupakan salah satu realisasi dari prinsip TPB yakni…",
+  "optionsId": [
+   "Transformative",
+   "Universality",
+   "Indivisibility",
+   "Interlinkages"
+  ],
+  "answerTextId": "Indivisibility",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "medium",
+  "note": "Ambiguous stem: 'every country follows' hints at Universality (applicable in all countries) while 'integrated framework' matches Indivisibility (integrated within a common framework, M7 s6). The authors' key is Indivisibility."
+ },
+ {
+  "id": "lp-97",
+  "source": "latsol",
+  "n": 97,
+  "stem": "The SDGs that often have difficulty in progress reporting are…",
+  "options": [
+   "1, 4, 6, 10",
+   "5, 10, 14, 15",
+   "9, 11, 12",
+   "5, 9, 12, 15"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "5, 10, 14, 15",
+  "stemId": "Nilai-nilai TPB yang seringkali mengalami kesulitan dalam pelaporan kemajuan adalah…",
+  "optionsId": [
+   "1, 4, 6, 10",
+   "5, 10, 14, 15",
+   "9, 11, 12",
+   "5, 9, 12, 15"
+  ],
+  "answerTextId": "5, 10, 14, 15",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-98",
+  "source": "latsol",
+  "n": 98,
+  "stem": "The study of approaches to, and deepening of, the integration between goals and targets across sectors is called…",
+  "options": [
+   "Interlinkages",
+   "Horus event",
+   "Nexus",
+   "Intersection"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Nexus",
+  "stemId": "Ilmu yang mempelajari pendekatan dan pendalaman terhadap integrasi antar tujuan dan target antar sektor disebut sebagai…",
+  "optionsId": [
+   "Interlinkages",
+   "Horus event",
+   "Nexus",
+   "Intersection"
+  ],
+  "answerTextId": "Nexus",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-99",
+  "source": "latsol",
+  "n": 99,
+  "stem": "The main difference between SDG implementation in Global South and Global North countries lies in the dimensions and interlinkages approach they have. Global North countries tend to have synergies that cover … while Global South countries tend to have…",
+  "options": [
+   "3 dimensions: social, economic, environmental; only 1 dimension",
+   "only 1 dimension; 3 dimensions: social, economic, environmental",
+   "2 dimensions: technology and environment; 2 dimensions: social and economic",
+   "3 dimensions: social, economic, environmental; 3 dimensions: social, economic, environmental"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "3 dimensions: social, economic, environmental; only 1 dimension",
+  "stemId": "Perbedaan utama antara implementasi TPB pada negara Global South dan Global North terletak pada dimensi dan pendekatan interlinkages yang dimiliki. Negara Global North cenderung memiliki sinergi yang meliputi… sedangkan negara Global South cenderung memiliki…",
+  "optionsId": [
+   "3 dimensi: sosial, ekonomi, lingkungan, 1 dimensi saja",
+   "1 dimensi saja, 3 dimensi: sosial, ekonomi, lingkungan",
+   "2 dimensi: teknologi dan lingkungan, 2 dimensi: sosial dan ekonomi",
+   "3 dimensi: sosial, ekonomi, lingkungan, 3 dimensi: sosial, ekonomi, lingkungan"
+  ],
+  "answerTextId": "3 dimensi: sosial, ekonomi, lingkungan, 1 dimensi saja",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ },
+ {
+  "id": "lp-100",
+  "source": "latsol",
+  "n": 100,
+  "stem": "The aspects considered in Responsible Innovation are, EXCEPT…",
+  "options": [
+   "Anticipation",
+   "Inclusive",
+   "Responsive",
+   "Strategic"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Strategic",
+  "stemId": "Aspek yang ditinjau dalam Responsible Innovations adalah kecuali…",
+  "optionsId": [
+   "Antisipasi",
+   "Inklusif",
+   "Responsif",
+   "Strategis"
+  ],
+  "answerTextId": "Strategis",
+  "enTranslated": true,
+  "keyStatus": "given",
+  "confidence": "high"
+ }
+]

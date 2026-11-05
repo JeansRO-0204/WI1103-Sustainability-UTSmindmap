@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import Setup, { scopeLabel, type Launch, type StudyCtx } from './Setup'
 import { INTERVALS, dueLabel, pickQueue, poolFor, shuffle, profColor } from './quizlib'
-import { ConceptChips, Inline, MD, SourceThumbs, cleanMath, noFocus } from './quizui'
+import { ConceptChips, Inline, MD, SourceThumbs, ZoomImg, cleanMath, noFocus } from './quizui'
 
 interface Run { ids: string[]; order: Record<string, number[]>; i: number; sel: number | null; checked: boolean; res: { id: string; ok: boolean }[]; label: string }
 
@@ -10,7 +10,7 @@ function newRun(ctx: StudyCtx, ids: string[], label: string): Run {
   for (const id of ids) {
     const q = ctx.qd.questions.get(id)!
     const idx = q.options.map((_, k) => k)
-    order[id] = q.source === 'generated' ? shuffle(idx) : idx // Quiz 1 / Quiz 2 option order stays verbatim
+    order[id] = q.source === 'generated' ? shuffle(idx) : idx // Quiz 1 / Quiz 2 / prediction paper option order stays verbatim
   }
   return { ids, order, i: 0, sel: null, checked: false, res: [], label }
 }
@@ -68,7 +68,7 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
   const picked = run.sel != null ? order[run.sel] : -1
   const ok = run.checked && q.answer.includes(picked)
   const st = ctx.state.items[q.id]
-  const bi = q.source === 'quiz1' && !!q.stemId && q.optionsId?.length === q.options.length // bilingual item
+  const bi = (q.source === 'quiz1' || q.source === 'latsol') && !!q.stemId && q.optionsId?.length === q.options.length // bilingual item
   const id = bi && lang === 'id'
   const optText = (i: number) => (id ? q.optionsId![i] : q.options[i])
   return (
@@ -85,11 +85,13 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
         <div className="qtags">
           <span className="tag" style={{ background: ctx.data.moduleColor(q.module) }}>{q.module}</span>
           <span className="tag ghost">{q.topic}</span>
-          <span className="tag ghost">{q.source === 'quiz1' ? `Quiz 1 #${q.n ?? ''}` : q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : 'Generated'}</span>
+          <span className="tag ghost">{q.source === 'quiz1' ? `Quiz 1 #${q.n ?? ''}` : q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : q.source === 'latsol' ? `Prediction paper #${q.n ?? ''}` : 'Generated'}</span>
           {q.source === 'quiz1' && q.enTranslated && <span className="info-i" tabIndex={0} aria-label="About the English translation" data-tip="English translation by AI; the lecturer's original is Indonesian.">i</span>}
+          {q.source === 'latsol' && <span className="info-i" tabIndex={0} aria-label="About the prediction paper" data-tip="Student-made practice paper (SAPPK 2025), not by the lecturer. English is an AI translation; answer key is the authors' and may contain errors.">i</span>}
           {q.source === 'generated' && <span className="info-i" tabIndex={0} aria-label="About generated questions" data-tip="AI-generated from the course slides in the style of Quiz 2. Not written by your lecturer and not independently verified. Check anything doubtful against the cited slides.">i</span>}
           {q.keyStatus === 'inferred' && <span className="tag warn" title="The original quiz had no answer key">key inferred</span>}
           {q.keyStatus === 'disputed' && <span className="tag warn" title="The slides disagree with the quiz key">key disputed</span>}
+          {q.confidence === 'low' && <span className="tag warn" title="Low confidence that the answer key is right">confidence: low</span>}
           {bi && (
             <span className="grow" />
           )}
@@ -102,6 +104,7 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
           )}
         </div>
         <div className="qstem" lang={id ? 'id' : 'en'}><Inline text={id ? q.stemId! : q.stem} /></div>
+        {q.images?.length ? <div className="qimgs">{q.images.map((src, k) => <ZoomImg key={src} src={src} alt={`Question ${q.n ?? ''} figure${q.images!.length > 1 ? ` ${k + 1}` : ''}`} />)}</div> : null}
         <div className="opts" role="radiogroup">
           {order.map((oi, pos) => {
             const isRight = run.checked && q.answer.includes(oi)
@@ -110,14 +113,17 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
               <label key={oi} className={'opt' + (pos === run.sel ? ' sel' : '') + (isRight ? ' right' : '') + (isWrong ? ' wrong' : '') + (run.checked ? ' locked' : '')}>
                 <input type="radio" name="qopt" checked={pos === run.sel} disabled={run.checked} onChange={() => select(pos)} />
                 <kbd>{pos + 1}</kbd>
-                <span className="otext" lang={id ? 'id' : 'en'}><Inline text={optText(oi)} /></span>
+                <span className="otext" lang={id ? 'id' : 'en'}>
+                  <Inline text={optText(oi)} />
+                  {q.optionImages?.[oi] && <ZoomImg small src={q.optionImages[oi]!} alt={`Question ${q.n ?? ''} option ${String.fromCharCode(65 + oi)}`} />}
+                </span>
                 {isRight && <b className="mark">&#10003;</b>}
                 {isWrong && <b className="mark">&#10007;</b>}
               </label>
             )
           })}
         </div>
-        {q.keyStatus === 'inferred' && !run.checked && <p className="muted small">The original quiz shipped without an answer key for this question; the answer used here is inferred from the slides.</p>}
+        {q.keyStatus === 'inferred' && !run.checked && <p className="muted small">{q.source === 'latsol' ? "The authors' answer marking was missing or ambiguous for this question; the answer used here is inferred from the slides." : 'The original quiz shipped without an answer key for this question; the answer used here is inferred from the slides.'}</p>}
         {!run.checked ? (
           <div className="qactions">
             <button className="primary" disabled={run.sel == null} onClick={check} {...noFocus}>Check <kbd>Enter</kbd></button>

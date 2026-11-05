@@ -268,3 +268,13 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .calcblock { margin: 10px 0; padding: 8px 12px; border-left: 3px solid #94a3b8; background: rgba(148,163,184,.14); border-radius: 0 8px 8px 0; }
 .calcblock h5 { margin: 0 0 4px; }
 .calcblock p { margin: 0; font-variant-numeric: tabular-nums; white-space: pre-wrap; }
+
+/* prediction paper figures */
+.qimgs { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 16px; }
+.qimg { display: block; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: #fff; cursor: zoom-in; max-width: 100%; }
+.qimg img { display: block; max-width: 100%; max-height: 320px; width: auto; height: auto; border-radius: 7px; }
+.qimg.small { margin-top: 6px; } .qimg.small img { max-height: 200px; }
+.qzoom { cursor: zoom-out; z-index: 200; }
+.qzoom img { max-width: 94vw; max-height: 92vh; background: #fff; border-radius: 8px; box-shadow: 0 10px 40px rgba(0,0,0,.4); }
+.qzoom-x { position: fixed; top: 14px; right: 18px; }
+.qzoom-x { background: #fff; color: #111; }

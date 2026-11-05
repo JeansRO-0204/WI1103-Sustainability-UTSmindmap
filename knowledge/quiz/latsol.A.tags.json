@@ -1,0 +1,920 @@
+[
+ {
+  "id": "lp-01",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.open-ended-definition"
+  ],
+  "explanation": "Sustainability is an open-ended, positive and temporary concept; it is open-ended precisely because social understanding of it depends on time, situation, culture and knowledge [M1 s11].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     11
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-02",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.open-ended-definition"
+  ],
+  "explanation": "Sustainability cannot be scientifically fixed; it expresses a vision of how the world should be, i.e. an ideal state of the world, not an absolute truth [M1 s11].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     11
+    ]
+   }
+  ],
+  "note": "Same idea as lecturer quiz q1-01 (sustainability = an ethical concept)."
+ },
+ {
+  "id": "lp-03",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.history"
+  ],
+  "explanation": "Carlowitz (1713), a German mining director, called for 'continuous, stable and sustainable utilization of forests'; the economists' agenda (1960) and Our Common Future (Brundtland, 1983) came later [M1 s12].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     12
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-04",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.history",
+   "m3.malthus"
+  ],
+  "explanation": "Malthus's work is cited as the first systematic study of the ecological limits to growth and an early source of sustainability; the later concept aligns environment, economy and society [M1 s12][M3 s5].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     12
+    ]
+   },
+   {
+    "module": "M3",
+    "slides": [
+     5
+    ]
+   }
+  ],
+  "note": "Stem is garbled (the blank '…' and the 'keselarasan antara' list); option a is the only one starting with 'ecological limits' and listing the three dimensions."
+ },
+ {
+  "id": "lp-05",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.history"
+  ],
+  "explanation": "The German Advisory Council (1994) divided sustainable development into humanity's responsibility for its natural environment, for the social world and for itself [M1 s12].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     12
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-06",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.history",
+   "m1.dimensions"
+  ],
+  "explanation": "The headline (Greenpeace: the return of PT Gag Nickel's operations is a disaster for Indonesians and Papua's nature) shows a single (economic) dimension pursued at the expense of the environment/social dimensions; the slides split sustainability concepts into unidimensional and multidimensional [M1 s12].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     12,
+     13
+    ]
+   }
+  ],
+  "note": "The slides only name the unidimensional/multidimensional split; the nickel-mining reading is the authors' application."
+ },
+ {
+  "id": "lp-07",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.environment",
+   "m1.laws-of-ecology"
+  ],
+  "explanation": "The environment is foundational and societies and economies must operate within planetary boundaries; the matching law of ecology is 'every element is connected to everything else' [M1 s15, s18].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     15,
+     18
+    ]
+   }
+  ],
+  "note": "Paper typo: the 4th option is also lettered 'a.'; aligned by position."
+ },
+ {
+  "id": "lp-08",
+  "module": "M1",
+  "topic": "Sustainability basics & dimensions",
+  "nodeIds": [
+   "m1.environment.ecosystem"
+  ],
+  "explanation": "An ecosystem is a functional unit of a community of living organisms (biotic) and the environment (abiotic) interacting through energy flow and nutrient cycling [M1 s15].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     15
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-09",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.conserve-vs-preserve.pinchot"
+  ],
+  "explanation": "Pinchot's conservationism (efficient, sustainable use; 'the greatest good for the greatest number') made him the enemy of the 'timber barons', the wealthy mass-loggers [M1 s27].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     27
+    ]
+   }
+  ],
+  "note": "'Timber baron' = rich logging magnate is general knowledge; slide only names the term."
+ },
+ {
+  "id": "lp-10",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.dominion-thesis",
+   "m1.human-centred.anthropocentrism",
+   "m1.human-centred.utilitarianism"
+  ],
+  "explanation": "The farrowing-crate case is the human-centred view: Dominion thesis (nature useful only for humans), anthropocentrism and utilitarianism; Muir (preservation), Stewardship (moral responsibility) and Pinchot (conservation) are not purely human-need driven [M1 s21, s24-28].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     21,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-11",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.human-centred.stewardship",
+   "m1.dimensions"
+  ],
+  "explanation": "Stewardship is the moral responsibility to protect the environment and living things, i.e. it balances human use with care for nature, which fits a multidimensional view better than purely human-centred theories [M1 s26].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     26
+    ]
+   }
+  ],
+  "note": "Slides never link any ethics theory to 'multidimensional'; the authors' key is plausible (Muir is also non-human-centred) but not verifiable from the slides."
+ },
+ {
+  "id": "lp-12",
+  "module": "M1",
+  "topic": "Environmental ethics",
+  "nodeIds": [
+   "m1.land-ethic",
+   "m1.land-ethic.ecocentrism"
+  ],
+  "explanation": "Aldo Leopold's Land Ethic is tied to ecocentrism: ecological interests stand above those of the human species when judging right and wrong [M1 s30].",
+  "sources": [
+   {
+    "module": "M1",
+    "slides": [
+     30
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-13",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.hardin-tragedy",
+   "m2.open-access-resources"
+  ],
+  "explanation": "The figure (a reclamation/coastal mega-development) is read by the authors as groundwater over-extraction; the slides list aquifers among resources that are often used collectively and degrade when over-used [M2 s2, s4].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     2,
+     4
+    ]
+   }
+  ],
+  "note": "Figure interpretation is not covered in the slides; the stem is vague ('dalam aspek…'), and other options are equally 'exploitation'. Key kept as given."
+ },
+ {
+  "id": "lp-14",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.hardin-tragedy"
+  ],
+  "explanation": "Hardin's tragedy: each user thinks their small use does no harm, but cumulative exploitation degrades the shared resource so that nobody benefits and everyone loses [M2 s2].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     2
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-15",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.commons-vs-open-access"
+  ],
+  "explanation": "The photo shows a managed lake/park of a defined community, i.e. a resource with joint ownership and a bounded community, which fits 'the commons' rather than an open-access resource [M2 s3].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     3
+    ]
+   }
+  ],
+  "note": "The picture (a lake with surrounding road and buildings in a city) has no caption; answer depends on the authors' reading that it is a jointly owned/managed space."
+ },
+ {
+  "id": "lp-16",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.commons-vs-open-access"
+  ],
+  "explanation": "The commons = joint ownership by a narrowly defined community with boundaries; an open-access resource = no ownership rights and the community at large [M2 s3].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     3
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-17",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.commons-vs-open-access"
+  ],
+  "explanation": "The commons has exclusion for non-members, whereas an open-access resource has none [M2 s3].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     3
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-18",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.open-access-resources"
+  ],
+  "explanation": "Atmosphere and open sea are open-access examples, while grasslands, forests, rivers and aquifers are not entirely open but often used collectively [M2 s4].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-19",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.tragedy-not-commons",
+   "m2.tragedy-not-commons.barambang-katute"
+  ],
+  "explanation": "The tragedy lies in unmanaged open access, not the commons; commons managed by indigenous communities with rules (e.g. Barambang Katute customary forest) are often well preserved [M2 s5].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     5
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-20",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb.ocean-acidification",
+   "m2.pb-transgressed"
+  ],
+  "explanation": "The photo shows a bleached coral next to a healthy one; coral bleaching/dissolution is the classic effect of ocean acidification, one of the seven transgressed boundaries [M2 s7].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     7
+    ]
+   }
+  ],
+  "note": "Coral bleaching is also driven by warming (climate change); the key follows the authors' intended 'ocean acidification'. Slides list the boundary but not this example."
+ },
+ {
+  "id": "lp-21",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb-framework"
+  ],
+  "explanation": "The framework identifies nine processes critical for the stability and resilience of the Earth system as a whole and formulates a safe operating space that safeguards Earth's interglacial state and resilience [M2 s6].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     6
+    ]
+   }
+  ],
+  "note": "Option a also paraphrases part of the slide ('ranges historically known'), but is incomplete; b and c match the slide wording."
+ },
+ {
+  "id": "lp-22",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb-safe",
+   "m2.pb.aerosols"
+  ],
+  "explanation": "In the 2025 update seven of nine boundaries are transgressed; the two still safe are stratospheric ozone depletion and atmospheric aerosol loading, while land-system change and biosphere integrity (genetic) are breached [M2 s7].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     7
+    ]
+   }
+  ],
+  "note": "'Tropospheric ozone' is not one of the nine boundaries (stratospheric is)."
+ },
+ {
+  "id": "lp-23",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb.biogeochemical-flows"
+  ],
+  "explanation": "Excess synthetic fertiliser sends nitrogen and phosphorus into ecosystems, causing eutrophication (algal/water-hyacinth blooms) and violating the biogeochemical flows boundary [M2 s10].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     10
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-24",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb.ozone"
+  ],
+  "explanation": "A thinner stratospheric ozone layer lets more of the sun's (UV) radiation reach the Earth; the other options confuse ozone with the greenhouse effect (general knowledge, slides only list the boundary) [M2 s7].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     7
+    ]
+   }
+  ],
+  "note": "Consequence of ozone depletion is not explained in the slides."
+ },
+ {
+  "id": "lp-25",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb.novel-entities"
+  ],
+  "explanation": "Plastics and other man-made chemicals are the 'novel entities' / chemical pollution boundary, which is transgressed [M2 s7, s10].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     7,
+     10
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-26",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.carrying-capacity"
+  ],
+  "explanation": "Carrying capacity is the maximum number of individuals that a habitat can sustainably support, like the posted maximum load (1350 kg / 20 persons) of a lift [M3 s4].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-27",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.carrying-capacity"
+  ],
+  "explanation": "The S-shaped curve rises steeply (A), slows as it nears the dashed carrying-capacity line (B), and at C the population is held by limiting factors [M3 s4].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     4
+    ]
+   }
+  ],
+  "note": "Slide only says the curve becomes S-shaped (logistic) near carrying capacity; 'rising-and-falling' at C vs the plotted flat line is the authors' reading (option b 'stagnant/flat' is also defensible) - not resolvable from slides."
+ },
+ {
+  "id": "lp-28",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.carrying-capacity"
+  ],
+  "explanation": "As the population approaches the carrying capacity the growth curve takes an S (logistic) shape [M3 s4].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-29",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.carrying-capacity"
+  ],
+  "explanation": "Limiting factors (space, abiotic factors, biotic factors such as disease) determine the carrying capacity of an area [M3 s4].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-30",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.malthus"
+  ],
+  "explanation": "Malthus: population grows exponentially (geometric) while resources/food grow arithmetically (linear); series 2 doubles each step, so it is the geometric one [M3 s5].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     5
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-31",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.neo-malthus"
+  ],
+  "explanation": "Neo-Malthusian theory recognises the interaction of social, economic and environmental factors that lead to environmental damage and resource scarcity [M3 s8].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     8
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-32",
+  "module": "M3",
+  "topic": "Calculations (IPAT, footprint, energy cost)",
+  "nodeIds": [
+   "m3.ipat.pa-data",
+   "m3.calc.slide-ratios"
+  ],
+  "explanation": "Total emissions = population x per-capita emissions: USA 288 M x 23.92 = 6,888.96 Mt CO2e, China 1,294 M x 3.91 = 5,059.54 Mt; the 23.92 and 11.19 figures are per capita, not totals [M3 s16-18].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     16,
+     17,
+     18
+    ]
+   }
+  ],
+  "note": "Table is the lecturer's IPAT P and A data (image only, not transcribed to markdown). Unit 'tons' vs 'mtons' loose in the options."
+ },
+ {
+  "id": "lp-33",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.overpopulation"
+  ],
+  "explanation": "Overpopulation occurs when the needs of the population exceed the carrying capacity of the system [M3 s7].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     7
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-34",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.demographic-transition",
+   "m3.overpopulation"
+  ],
+  "explanation": "The total-population curve flattens at the end of stage 4 when it reaches its plateau, which the authors read as the saturation/carrying-capacity point; the slide itself only explains the transition phases (low growth, high growth, low growth) [M3 s13, s7].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     7,
+     13
+    ]
+   }
+  ],
+  "note": "Slides never say at which demographic-transition stage overpopulation starts; key is the authors' interpretation (population saturation), weakly supported."
+ },
+ {
+  "id": "lp-35",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.demographic-transition",
+   "m3.agri-tech"
+  ],
+  "explanation": "Technology (agricultural innovation, Green Revolution) and improving health that lowers death rates push population up; a saturation point of food production would limit, not drive, growth [M3 s12, s13].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     12,
+     13
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-36",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.demographic-transition",
+   "m3.overpopulation"
+  ],
+  "explanation": "Population growth falls as economic development reduces poverty and raises education and health; where poverty persists, birth rates stay high, so poverty keeps population growing [M3 s13].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     13
+    ]
+   }
+  ],
+  "note": "'Counterintuitive' driver is not stated in the slides; key (poverty) follows from the demographic-transition notes but 'high fertility' is also defensible."
+ },
+ {
+  "id": "lp-37",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.ipat",
+   "m3.env-justice"
+  ],
+  "explanation": "Ehrlich & Holdren (1974): impact depends on population, affluence (consumption) and technology; high-consumption (affluent) countries such as the Global North have large impact per capita even with small populations [M3 s16, s17, s24].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     16,
+     17,
+     24
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-38",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.ipat"
+  ],
+  "explanation": "I = P x A x T: impact is proportional to population, affluence (measured by consumption level or per-capita income) and technology [M3 s17].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     17
+    ]
+   }
+  ],
+  "note": "Ambiguous: affluence is 'level of consumption OR per-capita income' on the slide, so option a (population, income, technology) is also defensible; key follows the wording 'tingkat konsumsi'."
+ },
+ {
+  "id": "lp-39",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.ipat",
+   "m3.ipat.2050"
+  ],
+  "explanation": "With I = P x A x T and P doubled, A and/or T must fall enough that P x A x T < 1 of before: A x0.25 with T x1.25 gives 2 x 0.25 x 1.25 = 0.63 (impact falls), whereas A falling only 1.5x gives 2/1.5 = 1.33 (still worse) [M3 s17, s19].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     17,
+     19
+    ]
+   }
+  ],
+  "note": "Wording ('technology increases 25%') is loose (T = pollutant per unit of good); c is the only option that unambiguously lowers I, option a works only if 'T grows' means 'impact per unit falls'."
+ },
+ {
+  "id": "lp-40",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons",
+   "m3.tech-dual-role"
+  ],
+  "explanation": "Technological progress makes resource use more efficient but also raises consumption: the Jevons Paradox [M3 s21, s22].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     21,
+     22
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-41",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons"
+  ],
+  "explanation": "Rebound is when increased consumption offsets efficiency (RE = 1); backfire is excessive consumption (RE < 1), where the net impact becomes worse than before [M3 s22].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     22
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-42",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.kuznets-kurzweil"
+  ],
+  "explanation": "Kuznets and Kurzweil argue that with increasing affluence and more advanced technology the impact on the environment declines [M3 s23].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     23
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-43",
+  "module": "M3",
+  "topic": "Overconsumption",
+  "nodeIds": [
+   "m3.hyperconsumption"
+  ],
+  "explanation": "Hyperconsumption is purchasing/using driven by social and psychological factors far beyond functional needs (speed, novelty, status) [M3 s34].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     34
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-44",
+  "module": "M3",
+  "topic": "Overconsumption",
+  "nodeIds": [
+   "m3.hyperconsumption-examples"
+  ],
+  "explanation": "Fast fashion and fast furniture are the slide's hyperconsumption examples; single-use packaging and fertiliser overuse are listed as overconsumption, and obesity as addictive consumption [M3 s32, s33, s35].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     32,
+     33,
+     35
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-45",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.agri-tech"
+  ],
+  "explanation": "The photo shows a vast, mechanised grain field with low input per area, i.e. extensive farming (opening more land), in contrast to intensification that raises yield on the same land [M3 s12].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     12
+    ]
+   }
+  ],
+  "note": "Slides only name extensification vs intensification; classifying this photo is the authors' judgement."
+ },
+ {
+  "id": "lp-46",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.agri-tech"
+  ],
+  "explanation": "Food security has four pillars: availability, access, utilisation (nutrition/food safety) and stability; food poisoning from MBG meals is a failure of utilisation [M3 s12 notes].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     12
+    ]
+   }
+  ],
+  "note": "Four pillars appear only in the speaker notes of M3 s12."
+ },
+ {
+  "id": "lp-47",
+  "module": "M3",
+  "topic": "Ecological footprint",
+  "nodeIds": [
+   "m3.eco-footprint"
+  ],
+  "explanation": "The ecological footprint measures human demand for natural capital: how much land area is required to provide resources and absorb waste; the notes put it as how much land is needed to meet needs [M3 s37].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     37
+    ]
+   }
+  ],
+  "note": "Option d is loosely worded ('each living being') but is the only one close to the slide definition."
+ },
+ {
+  "id": "lp-48",
+  "module": "M3",
+  "topic": "Ecological footprint",
+  "nodeIds": [
+   "m3.biocapacity",
+   "m3.calc.footprint"
+  ],
+  "explanation": "The calculation compares ecological footprint (demand) with biocapacity (supply) [M3 s38]; capacity relative to demand (biocapacity / footprint) is the supply-over-demand form.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     38
+    ]
+   }
+  ],
+  "note": "Slide only says 'compares footprint with biocapacity' (lecturer quiz q1-24: footprint (demand) versus biocapacity (supply)); direction a vs b cannot be settled from slides. Key kept as given."
+ },
+ {
+  "id": "lp-49",
+  "module": "M3",
+  "topic": "Ecological footprint",
+  "nodeIds": [
+   "m3.biocapacity",
+   "m3.footprint-measurement"
+  ],
+  "explanation": "The footprint accounts for food consumption, energy/material use for homes, mobility and waste produced, but not social interaction [M3 s39].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     39
+    ]
+   }
+  ],
+  "note": "Stem conflates biocapacity with the footprint components listed on M3 s39; the exception (social interaction) is clear either way."
+ },
+ {
+  "id": "lp-50",
+  "module": "M3",
+  "topic": "Ecological footprint",
+  "nodeIds": [
+   "m3.footprint-measurement"
+  ],
+  "explanation": "The main unit is the global hectare (gha) per person per year [M3 s39].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     39
+    ]
+   }
+  ]
+ }
+]

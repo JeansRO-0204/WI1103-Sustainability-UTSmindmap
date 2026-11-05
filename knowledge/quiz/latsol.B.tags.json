@@ -1,0 +1,898 @@
+[
+ {
+  "id": "lp-51",
+  "module": "M4",
+  "topic": "Global North & South",
+  "nodeIds": [
+   "m4.ns-definition",
+   "m4.country-lists"
+  ],
+  "explanation": "The light-blue countries are the Global North (the IMF list of advanced economies), characterised by high per-capita income, strong economies and developed infrastructure [M4 s7].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     6,
+     7
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-52",
+  "module": "M4",
+  "topic": "Global North & South",
+  "nodeIds": [
+   "m4.ns-definition"
+  ],
+  "explanation": "The North/South split is socio-economic, not purely geographic (Australia is in the Global North), so it follows level of development rather than latitude or climate [M4 s6].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     6
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-53",
+  "module": "M4",
+  "topic": "Commons in the Global South",
+  "nodeIds": [
+   "m4.commons-definition"
+  ],
+  "explanation": "'The commons' are materials and/or resources that are used, owned and maintained together (water, air, forest, but also shared knowledge) [M4 s10, s11].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     10,
+     11,
+     12
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-54",
+  "module": "M4",
+  "topic": "Commons in the Global South",
+  "nodeIds": [
+   "m4.subak",
+   "m4.commons-types"
+  ],
+  "explanation": "Subak is a man-made, culturally embedded commons: shared water managed through collective rules, rituals and Tri Hita Karana, i.e. a social-cultural (intellectual) institution rather than a marine or digital commons [M4 s12, s24].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     11,
+     12,
+     24
+    ]
+   }
+  ],
+  "note": "The slides do not classify Subak into one of these four labels. They list the irrigation system among man-made commons (M4 s12) and traditional knowledge/culture as an intellectual commons (M4 s11); Subak is presented as a collective social-cultural institution (M4 s24). 'Intellectual' is the best fit by elimination, but 'biotic' (water, paddy) is arguable."
+ },
+ {
+  "id": "lp-55",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.ecosystem-services"
+  ],
+  "explanation": "The MEA (2005) groups ecosystem services into provisioning, regulating, supporting and cultural; 'industrial' is not a category [M4 s14].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     14
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-56",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.es-supporting"
+  ],
+  "explanation": "Nutrient cycling underlies all other services and is a supporting service; the forest example on the slide lists 'support energy flow and chemical cycling' [M4 s16].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     14,
+     16
+    ]
+   }
+  ],
+  "note": "The Gersmehl diagram itself is not in the slides; nutrient cycling is the standard MEA example of a supporting service, and the forest slide lists 'support energy flow and chemical cycling' (M4 s16)."
+ },
+ {
+  "id": "lp-57",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.es-regulating"
+  ],
+  "explanation": "Climate regulation (rainfall, humidity, temperature stability) is a regulating service; the slide lists 'influence local and regional climate' and 'store atmospheric carbon' for forests [M4 s14, s16].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     14,
+     16
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-58",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.es-cultural"
+  ],
+  "explanation": "Spiritual and religious values attached to sacred places such as mountains are cultural services (non-material benefits) [M4 s14].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     14
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-59",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.es-provisioning"
+  ],
+  "explanation": "Material or energy products taken directly from nature (here coal as an energy source) are provisioning services [M4 s14].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     14
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-60",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.es-valuation"
+  ],
+  "explanation": "On the Spoolman & Miller chart forests are the highest terrestrial value (US$15.6 trillion) and coastal marshes/mangroves the highest aquatic value (US$24.8 trillion) [M4 s17].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     17
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-61",
+  "module": "M4",
+  "topic": "Ecosystem services",
+  "nodeIds": [
+   "m4.es-payment",
+   "m4.cidanau"
+  ],
+  "explanation": "PES is the economic route in which beneficiaries of nature (e.g. downstream industry) pay those who preserve or enhance the service (e.g. upstream forest farmers), as in Cidanau [M4 s18].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     18
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-62",
+  "module": "M4",
+  "topic": "Regulating the commons",
+  "nodeIds": [
+   "m4.montreal",
+   "m4.ozone"
+  ],
+  "explanation": "Consumption of ozone-depleting substances (CFCs etc.) collapses after 1989, the result of the Montreal Protocol (1987) that banned them [M4 s21].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     20,
+     21
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-63",
+  "module": "M4",
+  "topic": "Regulating the commons",
+  "nodeIds": [
+   "m4.dieselgate"
+  ],
+  "explanation": "In Dieselgate VW used software that controlled emissions during testing, so on-road NOx emissions were about 20x higher; millions of vehicles were recalled [M4 s25].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     23,
+     25
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-64",
+  "module": "M4",
+  "topic": "Regulating the commons",
+  "nodeIds": [
+   "m4.indonesia-emissions"
+  ],
+  "explanation": "The slide states that vehicle gas emissions in Indonesia refer to Permen LHK No. 8/2023 and PP No. 22/2021 [M4 s26].",
+  "sources": [
+   {
+    "module": "M4",
+    "slides": [
+     26
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-65",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.sdgs",
+   "m5.mdgs"
+  ],
+  "explanation": "The SDGs have 17 goals (2015–2030); the MDGs (2000–2015) had eight [M5 s3, s4].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     3,
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-66",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.goals-targets-indicators"
+  ],
+  "explanation": "17 goals and 169 targets; 231 indicators apply globally and Indonesia has 289 tailored to its development targets [M5 s8].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     8
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-67",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.sdgs",
+   "m5.sti-sdg9-17"
+  ],
+  "explanation": "Access to 5G/digital connectivity is infrastructure and innovation, which is SDG 9 (Industry, Innovation and Infrastructure); the slides link STI to SDG 9 and 17 [M5 s26].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     26
+    ]
+   }
+  ],
+  "note": "5G coverage (digital infrastructure and its uneven spread) is SDG 9 Industry, Innovation and Infrastructure; the slides do not discuss this map itself."
+ },
+ {
+  "id": "lp-68",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.sdg14-15-indonesia"
+  ],
+  "explanation": "Harm to marine life and coral is SDG 14 Life Below Water (Goal 14 covers marine ecosystems) [M5 s18, s20].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     18,
+     20
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-69",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.goals-targets-indicators",
+   "m5.sdgs"
+  ],
+  "explanation": "SDG 3 (Good Health and Well-being) includes strengthening prevention and treatment of substance/narcotic drug abuse; the other options are targets of SDG 2, SDG 10/17 and SDG 8 (general knowledge, not on the slides) [M5 s6, s8].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     6,
+     8
+    ]
+   }
+  ],
+  "note": "Target 3.5 of the UN SDGs (substance and narcotic drug abuse) is general knowledge; the slides do not list SDG 3 targets."
+ },
+ {
+  "id": "lp-70",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.sdgs"
+  ],
+  "explanation": "SDG 16 is Peace, Justice and Strong Institutions [M7 s5].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     5
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-71",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.sdgs"
+  ],
+  "explanation": "SDG 11 is Sustainable Cities and Communities (SDG 4 is Quality Education, 13 Climate Action, 6 Clean Water and Sanitation) [M5 s6].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     6
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-72",
+  "module": "M5",
+  "topic": "SDG basics & indicators",
+  "nodeIds": [
+   "m5.sdgs",
+   "m5.sdg7-example"
+  ],
+  "explanation": "SDG 7 is Affordable and Clean Energy (SDG 12 Responsible Consumption and Production, 15 Life on Land, 17 Partnerships for the Goals) [M5 s8].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     6,
+     8
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-73",
+  "module": "M5",
+  "topic": "Biodiversity & IBSAP",
+  "nodeIds": [
+   "m5.ibsap"
+  ],
+  "explanation": "The IBSAP 2025–2045 vision is 'Living in harmony with nature for the sustainability of all life forms in Indonesia' [M5 s19].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     19
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-74",
+  "module": "M5",
+  "topic": "STI & TFM",
+  "nodeIds": [
+   "m5.sti-definition"
+  ],
+  "explanation": "Innovation is defined as a new way of producing, distributing or using goods and services based on new technology, new business models or new forms of economic/social organisation [M5 s23].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     23
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-75",
+  "module": "M5",
+  "topic": "STI & TFM",
+  "nodeIds": [
+   "m5.sti-aaaa"
+  ],
+  "explanation": "In the Addis Ababa Action Agenda, STI (including mutually agreed technology transfer) promotes sustainable development [M5 s24].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     24
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-76",
+  "module": "M5",
+  "topic": "STI & TFM",
+  "nodeIds": [
+   "m5.sti-features"
+  ],
+  "explanation": "The slide pairs 'the challenges of each SDG require different STI' with knowledge management needs, and 'each country will generate and require different STI' with place-based priorities [M5 s27].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     27
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-77",
+  "module": "M5",
+  "topic": "SDG progress (reality check)",
+  "nodeIds": [
+   "m5.reality-2023"
+  ],
+  "explanation": "Of 140 targets evaluated 15% are on track, 48% are not, >30% stagnate or fall below 2015; more databases are compared and more agreed methods exist, so 'fewer agreed methods' is the false point [M5 s29].",
+  "sources": [
+   {
+    "module": "M5",
+    "slides": [
+     29
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-78",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.climate-change"
+  ],
+  "explanation": "The main components of the climate system (IPCC 2021) are atmosphere, biosphere, cryosphere and oceans; the anthroposphere is not one [M6 s3].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     3
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-79",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg",
+   "m6.ghg.list"
+  ],
+  "explanation": "Methane (CH4) is the GHG typically associated with livestock (enteric fermentation) and rice farming; the cattle picture is the cue [M6 s4].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     4
+    ]
+   }
+  ],
+  "note": "Livestock/agriculture as a methane source is general knowledge; the slides only list methane among the GHGs and do not tie it to livestock. N2O (fertiliser) is also agricultural, but the cattle picture points to CH4."
+ },
+ {
+  "id": "lp-80",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg.gwp"
+  ],
+  "explanation": "GWP measures the heat absorbed over a given period due to emission of a gas, with CO2 as the reference (GWP = 1) [M6 s6].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     6
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-81",
+  "module": "M6",
+  "topic": "Paris Agreement",
+  "nodeIds": [
+   "m6.paris"
+  ],
+  "explanation": "The Paris Agreement (adopted 2015, in force 2016) limits warming below 2°C while pursuing 1.5°C; the other options have impossible temperatures or dates [M6 s14, s19].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     14,
+     19
+    ]
+   }
+  ],
+  "note": "Entry into force in 2016 is general knowledge (the slides show the Paris Agreement as 2015–2030, adopted 2015); the goal text is 'well below 2°C, pursuing 1.5°C' (M6 s14 notes). Only option b is defensible."
+ },
+ {
+  "id": "lp-82",
+  "module": "M6",
+  "topic": "Paris Agreement",
+  "nodeIds": [
+   "m6.paris.cbdr",
+   "m6.paris.gst"
+  ],
+  "explanation": "Reviewing progress is the Global Stocktake, which belongs to the transparency principle, not to CBDR-RC (common, differentiated, respective capabilities) [M6 s16, s17].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     16,
+     17
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-83",
+  "module": "M6",
+  "topic": "Paris Agreement",
+  "nodeIds": [
+   "m6.paris.gst"
+  ],
+  "explanation": "The GST assesses collective progress and runs on a five-year cycle (first one concluded at COP28 in 2023) [M6 s12, s17].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     12,
+     17
+    ]
+   }
+  ],
+  "note": "The five-year GST cycle is Paris Agreement general knowledge; the slides describe the GST (first completed at COP28, 2023) but do not state the interval."
+ },
+ {
+  "id": "lp-84",
+  "module": "M6",
+  "topic": "Paris Agreement",
+  "nodeIds": [
+   "m6.paris.sovereignty"
+  ],
+  "explanation": "Sovereignty = bottom-up architecture: each country determines its own emission level and reports it as a Nationally Determined Contribution (NDC) [M6 s18].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     18
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-85",
+  "module": "M6",
+  "topic": "Indonesia's NDC",
+  "nodeIds": [
+   "m6.indonesia-endc",
+   "m6.indonesia-commitment"
+  ],
+  "explanation": "Indonesia's Enhanced NDC (2022) targets 31.89% unconditional and 43.2% with international support; the slides give 29%/41% for the original NDC and the same 31.89%/43.20% for the 2035 target of the 2nd NDC [M6 s19, s20].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     19,
+     20
+    ]
+   }
+  ],
+  "note": "Slide M6 s19 gives 29% / 41% for 2030 (the first NDC) and M6 s20 gives 31.89% / 43.20% for 2035 (second NDC). The 31.89% / 43.2% pair is the Enhanced NDC 2022 target for 2030, the only option matching the course's figures. No option shows 29/41, so c is the best answer, but the stem year and the slides' pairs do not align cleanly."
+ },
+ {
+  "id": "lp-86",
+  "module": "M6",
+  "topic": "Climate change & SDGs",
+  "nodeIds": [
+   "m6.kiribati"
+  ],
+  "explanation": "President Anote Tong's 'Migrate with Dignity' policy involved purchasing 6,000 acres in Fiji [M6 s23].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     23
+    ]
+   }
+  ],
+  "note": "The stem says 2005; the slide dates Tong's statement to 2015. The paper's '6000 are' is a typo for 6,000 acres; the answer is unaffected."
+ },
+ {
+  "id": "lp-87",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.cooling-emissions"
+  ],
+  "explanation": "Direct emissions are releases of high-GWP refrigerants (CFC, HCFC, HFC), e.g. leakage or poor handling during servicing; energy use is the indirect emission [M6 s28].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     27,
+     28
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-88",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg-sources"
+  ],
+  "explanation": "In 2019 energy produced 34% (20 GtCO2-eq), ahead of industry 24%, AFOLU 22% and transport 15% [M6 s32].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     32
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-89",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.carbon-sequestration"
+  ],
+  "explanation": "The slide's notes distinguish biological, geological and technological (e.g. direct air capture) sequestration; 'atmospherical' is not a type (the atmosphere is the source) [M6 s33].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     33
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-90",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.ccus"
+  ],
+  "explanation": "CCUS works in sequence: capture the CO2, compress and transport it, then utilise or store it in geological formations, i.e. 3-2-1 [M6 s37].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     37
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-91",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.spillover"
+  ],
+  "explanation": "Spillover effects occur when what one country consumes places stress (water, emissions, land conflict) on the producing country; high consumption with low production signals this cross-border transfer [M7 s4, s5].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     4,
+     5
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-92",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.interlinkages"
+  ],
+  "explanation": "SDGs are not achieved one by one; indivisibility means integrated within a common framework (alongside transformative and universality) [M7 s6].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     6
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-93",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.activities.core",
+   "m7.activities.peripheral"
+  ],
+  "explanation": "Core (synergy) activities are education, public health, social/legal activities, renewable-energy transmission and distribution, and scientific research; cultural preservation through dance and painting is a peripheral activity [M7 s7, s10].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     7,
+     10
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-94",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.recycling.cost",
+   "m7.recycling"
+  ],
+  "explanation": "Single stream collects recyclables of mixed quality in one container; dual stream sorts by material quality to raise market value, so statements 1 and 4 are correct [M7 s11].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     11
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-95",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.spillover",
+   "m7.spillover.types"
+  ],
+  "explanation": "Indirect emissions embodied in energy, materials and trade are carried across borders as spillover effects, e.g. CO2 emissions and water stress in imports [M7 s4, s5].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     4,
+     5
+    ]
+   }
+  ],
+  "note": "Emission scopes 1-3 are not in the slides; the answer rests on the spillover concept (M7 s4-5), where emissions embodied in imports burden other countries. The stem also mislabels scope 1 as indirect."
+ },
+ {
+  "id": "lp-96",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.interlinkages"
+  ],
+  "explanation": "Of the principles on the slide, indivisibility is 'integrated within a common framework', whereas universality is 'applicable in all countries' and transformative requires fundamental change [M7 s6].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     6
+    ]
+   }
+  ],
+  "note": "Ambiguous stem: 'every country follows' hints at Universality (applicable in all countries) while 'integrated framework' matches Indivisibility (integrated within a common framework, M7 s6). The authors' key is Indivisibility."
+ },
+ {
+  "id": "lp-97",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.hardest-sdgs"
+  ],
+  "explanation": "Goals whose progress is often not reported are SDG 15, 14, 5 and 10; SDG 9, 11 and 12 are those that need attention instead [M7 s16].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     16
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-98",
+  "module": "M7",
+  "topic": "FEW nexus",
+  "nodeIds": [
+   "m7.nexus"
+  ],
+  "explanation": "The nexus approach deepens the integration between goals and targets across sectors, strengthening synergies and reducing trade-offs [M7 s21].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     21
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-99",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.boar"
+  ],
+  "explanation": "Boar et al. (2021): in the Global North synergies among SDGs include all three dimensions; in the Global South they cover only one dimension [M7 s17].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     17
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lp-100",
+  "module": "M7",
+  "topic": "Technology & SDG relationships",
+  "nodeIds": [
+   "m7.responsible-innovation"
+  ],
+  "explanation": "Responsible Innovation (Stilgoe et al.) rests on anticipation, reflexivity, inclusion and responsiveness; 'strategic' is not one of them [M7 s19].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     19
+    ]
+   }
+  ]
+ }
+]
