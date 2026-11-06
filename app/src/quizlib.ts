@@ -214,10 +214,14 @@ function chainOf(id: string, byId: Map<string, Item>, kids: Map<string, Item[]>)
   return out
 }
 
+export type Order = 'source' | 'shuffle'
+export const getOrder = (): Order => (typeof localStorage !== 'undefined' && localStorage.getItem('mm.order') === 'shuffle' ? 'shuffle' : 'source')
+export const setOrder = (o: Order) => { try { localStorage.setItem('mm.order', o) } catch { /* ignore */ } }
+
 /** cram: random order, ignoring due dates. Otherwise due and unseen items come first.
  *  Prediction-paper questions that depend on an earlier one are pulled in together with it and always stay consecutive and in
- *  source order (so a round may run slightly over `n`). A prediction-paper-only round is played in the paper's own number order. */
-export function pickQueue(pool: Item[], n: number, stats: Stats, st: QuizState, cram: boolean, all: Item[] = pool): string[] {
+ *  source order (so a round may run slightly over `n`). A prediction-paper-only round is played in the paper's own number order unless `order` is 'shuffle' (chains stay together either way). */
+export function pickQueue(pool: Item[], n: number, stats: Stats, st: QuizState, cram: boolean, all: Item[] = pool, order: Order = getOrder()): string[] {
   let r = shuffle(pool)
   if (!cram) {
     const urgent = (i: Item) => (!st.items[i.id]?.a.length || stats.due.has(i.id) ? 0 : 1)
@@ -237,7 +241,7 @@ export function pickQueue(pool: Item[], n: number, stats: Stats, st: QuizState, 
       for (const c of chain.length ? chain : [i]) if (!seen.has(c.id)) { seen.add(c.id); out.push(c) }
     }
     r = out
-    if (r.every((i) => i.src === 'latsol')) r = [...r].sort((a, b) => (a.seq ?? 0) - (b.seq ?? 0))
+    if (order === 'source' && r.every((i) => i.src === 'latsol')) r = [...r].sort((a, b) => (a.seq ?? 0) - (b.seq ?? 0))
   }
   return r.map((i) => i.id)
 }

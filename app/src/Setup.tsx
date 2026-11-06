@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { Data } from './data'
-import { pickQueue, poolFor, weakestTopics, type ItemState, type QuizData, type QuizState, type Scope, type Stats } from './quizlib'
+import { getOrder, pickQueue, poolFor, setOrder, type Order, weakestTopics, type ItemState, type QuizData, type QuizState, type Scope, type Stats } from './quizlib'
 
 export interface Launch { id: number; kind: 'quiz' | 'cards'; scope: Scope; n?: number; cram?: boolean; /** explicit item ids (search results) overrides scope */ ids?: string[]; label?: string }
 
@@ -47,6 +47,7 @@ export default function Setup({ kind, ctx, onStart }: { kind: 'quiz' | 'cards'; 
   const [topic, setTopic] = useState(topicList[0]?.label ?? '')
   const [n, setN] = useState(10)
   const [cram, setCram] = useState(true)
+  const [order, setOrd] = useState<Order>(getOrder)
   const noun = kind === 'quiz' ? 'questions' : 'cards'
   const scopeOf = (k: Scope['kind']): Scope => {
     switch (k) {
@@ -65,7 +66,7 @@ export default function Setup({ kind, ctx, onStart }: { kind: 'quiz' | 'cards'; 
   const scope = scopeOf(sk)
   const pool = poolFor(ctx.qd, ctx.stats, ctx.state, scope, ik)
   const count = n > 0 ? Math.min(n, pool.length) : pool.length
-  const go = () => onStart(pickQueue(pool, n, ctx.stats, ctx.state, sk === 'due' ? false : cram, ctx.qd.items), scopeLabel(scope, ctx))
+  const go = () => onStart(pickQueue(pool, n, ctx.stats, ctx.state, sk === 'due' ? false : cram, ctx.qd.items, order), scopeLabel(scope, ctx))
   const dueCount = poolFor(ctx.qd, ctx.stats, ctx.state, { kind: 'due' }, ik).length
 
   return (
@@ -105,6 +106,16 @@ export default function Setup({ kind, ctx, onStart }: { kind: 'quiz' | 'cards'; 
           <input type="checkbox" checked={cram || sk === 'due'} disabled={sk === 'due'} onChange={(e) => setCram(e.target.checked)} /> Cram mode (ignore due dates)
         </label>
       </div>
+      {ik === 'q' && pool.some((i) => i.src === 'latsol') && (
+        <div className="row">
+          <label title="Prediction paper: 'Paper order' plays the selected questions in the paper's own numbering; 'Shuffled' mixes them. Follow-up questions (e.g. 'see previous number') always stay right after the one they build on.">Prediction paper order&nbsp;
+            <select value={order} onChange={(e) => { const o = e.target.value as Order; setOrd(o); setOrder(o) }}>
+              <option value="source">Paper order (true numbering)</option>
+              <option value="shuffle">Shuffled (follow-ups stay together)</option>
+            </select>
+          </label>
+        </div>
+      )}
       <button className="primary" disabled={!pool.length} onClick={go}>
         {pool.length ? `Start ${count} ${noun}` : `No ${noun} in this scope`}
       </button>
