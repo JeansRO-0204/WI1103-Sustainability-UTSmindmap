@@ -312,6 +312,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .qstrip .dot:disabled { opacity: .45; cursor: default; }
 .qstrip .dot.ok { background: #e8f7ef; border-color: #4cb98a; color: #16875a; } .qstrip .dot.bad { background: #fdecec; border-color: #e58a8a; color: #b42323; }
 .qstrip .dot.g0 { background: #fdecec; border-color: #e58a8a; color: #b42323; } .qstrip .dot.g1 { background: #e8f7ef; border-color: #4cb98a; color: #16875a; } .qstrip .dot.g2 { background: #e9f0ff; border-color: #7aa2ee; color: #2552b8; }
+.qstrip .dot.draft { border-style: dashed; border-color: #94a3b8; }
 .qstrip .dot.cur { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--ink, #1e293b); }
 .reviewbar { margin: 0 0 12px; padding: 7px 12px; border-radius: 8px; background: #fff8e1; border: 1px solid #f1d98a; font-size: 13px; }
 .kbhint { margin-top: 12px; display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
