@@ -32,7 +32,7 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
     if (!launch || launch.kind !== 'quiz') return
     if (launch.ids) { begin(launch.ids.filter((i) => ctx.qd.questions.has(i)), launch.label ?? 'Search result'); return }
     const pool = poolFor(ctx.qd, ctx.stats, ctx.state, launch.scope, 'q')
-    begin(pickQueue(pool, launch.n ?? 10, ctx.stats, ctx.state, launch.cram ?? true), scopeLabel(launch.scope, ctx))
+    begin(pickQueue(pool, launch.n ?? 10, ctx.stats, ctx.state, launch.cram ?? true, ctx.qd.items), scopeLabel(launch.scope, ctx))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [launch?.id])
 
@@ -106,6 +106,7 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
           {q.source === 'quiz1' && q.enTranslated && <span className="info-i" tabIndex={0} aria-label="About the English translation" data-tip="English translation by AI; the lecturer's original is Indonesian.">i</span>}
           {q.source === 'latsol' && <span className="info-i" tabIndex={0} aria-label="About the prediction paper" data-tip="Student-made practice paper (SAPPK 2025), not by the lecturer. English is an AI translation; answer key is the authors' and may contain errors.">i</span>}
           {q.source === 'generated' && <span className="info-i" tabIndex={0} aria-label="About generated questions" data-tip="AI-generated from the course slides in the style of Quiz 2. Not written by your lecturer and not independently verified. Check anything doubtful against the cited slides.">i</span>}
+          {q.after && <span className="tag ghost" title="This question builds on the earlier numbered one; they are always asked together, in order.">continues #{Number(q.after.replace(/\D/g, ''))}</span>}
           {q.keyStatus === 'inferred' && <span className="tag warn" title="The original quiz had no answer key">key inferred</span>}
           {q.keyStatus === 'disputed' && <span className="tag warn" title="The slides disagree with the quiz key">key disputed</span>}
           {q.confidence === 'low' && <span className="tag warn" title="Low confidence that the answer key is right">confidence: low</span>}

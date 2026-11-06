@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-11-05",
+  "generated": "2026-11-06",
   "quiz2Count": 45,
   "quiz1Count": 41,
   "latsolCount": 100,
@@ -3891,7 +3891,8 @@
      ]
     }
    ],
-   "note": "Slides never link any ethics theory to 'multidimensional'; the authors' key is plausible (Muir is also non-human-centred) but not verifiable from the slides."
+   "note": "Slides never link any ethics theory to 'multidimensional'; the authors' key is plausible (Muir is also non-human-centred) but not verifiable from the slides.",
+   "after": "lp-10"
   },
   {
    "id": "lp-12",
@@ -4021,7 +4022,8 @@
       2
      ]
     }
-   ]
+   ],
+   "after": "lp-13"
   },
   {
    "id": "lp-15",
@@ -4623,7 +4625,8 @@
       4
      ]
     }
-   ]
+   ],
+   "after": "lp-27"
   },
   {
    "id": "lp-29",
@@ -4664,7 +4667,8 @@
       4
      ]
     }
-   ]
+   ],
+   "after": "lp-28"
   },
   {
    "id": "lp-30",
@@ -4925,7 +4929,8 @@
       13
      ]
     }
-   ]
+   ],
+   "after": "lp-34"
   },
   {
    "id": "lp-36",
@@ -5659,7 +5664,8 @@
       6
      ]
     }
-   ]
+   ],
+   "after": "lp-51"
   },
   {
    "id": "lp-53",
@@ -5965,7 +5971,8 @@
       14
      ]
     }
-   ]
+   ],
+   "after": "lp-58"
   },
   {
    "id": "lp-60",
@@ -6478,7 +6485,8 @@
       6
      ]
     }
-   ]
+   ],
+   "after": "lp-70"
   },
   {
    "id": "lp-72",
@@ -6521,7 +6529,8 @@
       8
      ]
     }
-   ]
+   ],
+   "after": "lp-71"
   },
   {
    "id": "lp-73",

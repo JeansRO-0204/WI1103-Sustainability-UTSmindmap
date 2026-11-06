@@ -65,7 +65,7 @@ export default function Setup({ kind, ctx, onStart }: { kind: 'quiz' | 'cards'; 
   const scope = scopeOf(sk)
   const pool = poolFor(ctx.qd, ctx.stats, ctx.state, scope, ik)
   const count = n > 0 ? Math.min(n, pool.length) : pool.length
-  const go = () => onStart(pickQueue(pool, n, ctx.stats, ctx.state, sk === 'due' ? false : cram), scopeLabel(scope, ctx))
+  const go = () => onStart(pickQueue(pool, n, ctx.stats, ctx.state, sk === 'due' ? false : cram, ctx.qd.items), scopeLabel(scope, ctx))
   const dueCount = poolFor(ctx.qd, ctx.stats, ctx.state, { kind: 'due' }, ik).length
 
   return (

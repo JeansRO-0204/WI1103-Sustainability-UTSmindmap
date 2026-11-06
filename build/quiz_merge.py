@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 K = ROOT / "knowledge" / "quiz"
 MODULES = {f"M{i}" for i in range(1, 8)}
 KEY_STATUS = {"given", "inferred", "disputed"}
-COPY_FROM_TAG = ["module", "topic", "nodeIds", "explanation", "sources", "keyStatus", "dupOf", "note", "confidence"]
+COPY_FROM_TAG = ["module", "topic", "nodeIds", "explanation", "sources", "keyStatus", "dupOf", "note", "confidence", "after"]
 PUBLIC = ROOT / "app" / "public"
 
 errors, warnings = [], []
@@ -234,6 +234,10 @@ def main():
         if not d: continue
         if d == q["id"]: err(f"{q['id']}: dupOf points to itself")
         elif d not in qids and not (not args.sample and d.startswith(("q2-", "q1-", "lp-"))): err(f"{q['id']}: dupOf {d!r} does not exist")
+
+    for q in questions:
+        a = q.get("after")
+        if a and (a == q["id"] or a not in qids): err(f"{q['id']}: after {a!r} does not exist (prediction-paper follow-up link)")
 
     if args.strict and warnings:
         for w in warnings: err(f"(strict) {w}")

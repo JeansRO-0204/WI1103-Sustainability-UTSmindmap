@@ -209,7 +209,8 @@
     ]
    }
   ],
-  "note": "Slides never link any ethics theory to 'multidimensional'; the authors' key is plausible (Muir is also non-human-centred) but not verifiable from the slides."
+  "note": "Slides never link any ethics theory to 'multidimensional'; the authors' key is plausible (Muir is also non-human-centred) but not verifiable from the slides.",
+  "after": "lp-10"
  },
  {
   "id": "lp-12",
@@ -264,7 +265,8 @@
      2
     ]
    }
-  ]
+  ],
+  "after": "lp-13"
  },
  {
   "id": "lp-15",
@@ -512,7 +514,8 @@
      4
     ]
    }
-  ]
+  ],
+  "after": "lp-27"
  },
  {
   "id": "lp-29",
@@ -529,7 +532,8 @@
      4
     ]
    }
-  ]
+  ],
+  "after": "lp-28"
  },
  {
   "id": "lp-30",
@@ -640,7 +644,8 @@
      13
     ]
    }
-  ]
+  ],
+  "after": "lp-34"
  },
  {
   "id": "lp-36",

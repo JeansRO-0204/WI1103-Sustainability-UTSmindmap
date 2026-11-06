@@ -17,6 +17,8 @@ export interface Question {
   keyStatus: 'given' | 'inferred' | 'disputed'
   module: string; nodeIds: string[]; topic: string
   explanation?: string; sources?: Source[]; dupOf?: string; note?: string
+  /** latsol: id of the question this one builds on ("as in the previous number"); chains are kept consecutive */
+  after?: string
 }
 export interface Flashcard {
   id: string; nodeId: string; module: string; topic: string; front: string; back: string; sources?: Source[]
@@ -29,6 +31,8 @@ export interface QuizFile {
 /** Unified view of a question or a card for scheduling / stats. */
 export interface Item {
   id: string; kind: 'q' | 'c'; module: string; topic: string; nodeIds: string[]; dup: boolean; src: 'quiz1' | 'quiz2' | 'latsol' | 'generated'
+  /** latsol: predecessor id + source number, for chained questions and source ordering */
+  after?: string; seq?: number
 }
 export interface QuizData {
   questions: Map<string, Question>
@@ -56,7 +60,7 @@ export async function loadQuiz(data: Data): Promise<QuizData | null> {
     if (!q.options?.length || !q.answer?.length) continue
     const nodeIds = (q.nodeIds ?? []).filter((n) => data.nodes.has(n))
     questions.set(q.id, { ...q, nodeIds })
-    items.push({ id: q.id, kind: 'q', module: q.module, topic: q.topic, nodeIds, dup: !!q.dupOf, src: q.source })
+    items.push({ id: q.id, kind: 'q', module: q.module, topic: q.topic, nodeIds, dup: !!q.dupOf, src: q.source, after: q.after, seq: q.source === 'latsol' ? Number(q.id.replace(/\D/g, '')) : undefined })
   }
   for (const c of f.flashcards ?? []) {
     if (!c.front || !c.back) continue
@@ -199,14 +203,43 @@ export function shuffle<T>(a: T[]): T[] {
   return r
 }
 
-/** cram: random order, ignoring due dates. Otherwise due and unseen items come first. */
-export function pickQueue(pool: Item[], n: number, stats: Stats, st: QuizState, cram: boolean): string[] {
+/** Prediction-paper questions that build on an earlier number ("Merujuk kepada nomor 13...") form chains; this returns the chain of `id` in source order. */
+function chainOf(id: string, byId: Map<string, Item>, kids: Map<string, Item[]>): Item[] {
+  let root = byId.get(id)
+  while (root?.after && byId.has(root.after)) root = byId.get(root.after)
+  if (!root) return []
+  const out: Item[] = []
+  const walk = (i: Item) => { out.push(i); for (const k of kids.get(i.id) ?? []) walk(k) }
+  walk(root)
+  return out
+}
+
+/** cram: random order, ignoring due dates. Otherwise due and unseen items come first.
+ *  Prediction-paper questions that depend on an earlier one are pulled in together with it and always stay consecutive and in
+ *  source order (so a round may run slightly over `n`). A prediction-paper-only round is played in the paper's own number order. */
+export function pickQueue(pool: Item[], n: number, stats: Stats, st: QuizState, cram: boolean, all: Item[] = pool): string[] {
   let r = shuffle(pool)
   if (!cram) {
     const urgent = (i: Item) => (!st.items[i.id]?.a.length || stats.due.has(i.id) ? 0 : 1)
     r = r.sort((a, b) => urgent(a) - urgent(b))
   }
-  return r.slice(0, n > 0 ? n : r.length).map((i) => i.id)
+  r = r.slice(0, n > 0 ? n : r.length)
+  if (r.some((i) => i.src === 'latsol')) {
+    const byId = new Map(all.map((i) => [i.id, i]))
+    const kids = new Map<string, Item[]>()
+    for (const i of all) if (i.after) kids.set(i.after, [...(kids.get(i.after) ?? []), i])
+    for (const l of kids.values()) l.sort((a, b) => (a.seq ?? 0) - (b.seq ?? 0))
+    const seen = new Set<string>()
+    const out: Item[] = []
+    for (const i of r) {
+      if (seen.has(i.id)) continue
+      const chain = i.src === 'latsol' ? chainOf(i.id, byId, kids) : [i]
+      for (const c of chain.length ? chain : [i]) if (!seen.has(c.id)) { seen.add(c.id); out.push(c) }
+    }
+    r = out
+    if (r.every((i) => i.src === 'latsol')) r = [...r].sort((a, b) => (a.seq ?? 0) - (b.seq ?? 0))
+  }
+  return r.map((i) => i.id)
 }
 
 // ---------- export / import ----------
