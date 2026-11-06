@@ -4,27 +4,17 @@ import Canvas from './Canvas'
 import Detail from './Detail'
 import Lightbox from './Lightbox'
 import Sidecar, { type Hits } from './Sidecar'
+import Palette, { SearchBtn } from './Palette'
+import { snippet } from './search'
 import Study, { ModeSeg, type View } from './Study'
 import type { Launch, StudyCtx } from './Setup'
-import { EMPTY_STATE, computeStats, loadQuiz, mergeQuiz, recordAttempt, type Agg, type QuizData, type QuizState, type Scope } from './quizlib'
+import { EMPTY_STATE, computeStats, loadQuiz, mergeQuiz, recordAttempt, setItemState, type ItemState, type Agg, type QuizData, type QuizState, type Scope } from './quizlib'
 import { ancestors, descendants, loadData, type Data } from './data'
 import { CARD_H, CARD_W, computeLayout, visibleIds, type Pos } from './layout'
 import { ActionsCtx, useLocalState } from './ui'
 import type { LayoutMode } from './types'
 
 const NO_PROF = new Map<string, Agg>()
-const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-
-function snippet(text: string, q: string): string {
-  const terms = q.toLowerCase().split(/\s+/).filter((t) => t.length > 1)
-  const low = text.toLowerCase()
-  let at = -1
-  for (const t of terms) { const i = low.indexOf(t); if (i >= 0 && (at < 0 || i < at)) at = i }
-  const start = Math.max(0, (at < 0 ? 0 : at) - 40)
-  let out = esc(text.slice(start, start + 140).replace(/\s+/g, ' '))
-  for (const t of terms) out = out.replace(new RegExp(`(${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'ig'), '<mark>$1</mark>')
-  return (start > 0 ? '…' : '') + out + '…'
-}
 
 export default function App() {
   const [data, setData] = useState<Data | null>(null)
@@ -58,7 +48,9 @@ function Main({ data }: { data: Data }) {
   const [view, setView] = useState<View>('map')
   const [launch, setLaunch] = useState<Launch | null>(null)
   const launchN = useRef(0)
-  const record = useCallback((id: string, score: number, up: number) => setQraw((p) => recordAttempt(p?.items ? p : EMPTY_STATE, id, score, up)), [setQraw])
+  const record = useCallback((id: string, score: number, up: number, now?: number) => setQraw((p) => recordAttempt(p?.items ? p : EMPTY_STATE, id, score, up, now)), [setQraw])
+  const restore = useCallback((id: string, st: ItemState | undefined) => setQraw((p) => setItemState(p?.items ? p : EMPTY_STATE, id, st)), [setQraw])
+  const startIds = useCallback((kind: 'quiz' | 'cards', ids: string[], label: string) => { setLaunch({ id: ++launchN.current, kind, scope: { kind: 'all' }, ids, label }); setView(kind) }, [])
   const startPractice = useCallback((kind: 'quiz' | 'cards', scope: Scope) => { setLaunch({ id: ++launchN.current, kind, scope }); setView(kind) }, [])
   const mergeProgress = useCallback((rev: string[], quiz: QuizState) => {
     const m = mergeQuiz(qstate, quiz)
@@ -72,7 +64,11 @@ function Main({ data }: { data: Data }) {
   const [focus, setFocus] = useState<{ id: string; n: number; zoom?: number } | null>(null)
   const [fitReq, setFitReq] = useState(1)
   const [lb, setLb] = useState<{ module: string; slide: number } | null>(null)
-  const [query, setQuery] = useState('')
+  const [query, setQueryRaw] = useState('')
+  const [matchIdx, setMatchIdx] = useState(-1)
+  const setQuery = useCallback((s: string) => { setQueryRaw(s); setMatchIdx(-1) }, [])
+  const [palOpen, setPalOpen] = useState(false)
+  const palQuery = useRef('')
   const [msg, setMsg] = useState('')
   const [help, setHelp] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -92,7 +88,13 @@ function Main({ data }: { data: Data }) {
       const c = data.chunkMap.get(String(r.id))!
       return { module: c.module, slide: c.slide, title: c.title, snippet: snippet(c.text + ' ' + (c.notes ?? ''), q) }
     })
-    return { nodes, slides }
+    const ids = [...nodes]
+    const seen = new Set(nodes)
+    for (const sl of data.slideSearch.search(q)) {
+      const c = data.chunkMap.get(String(sl.id))!
+      for (const id of data.slideNodes.get(`${c.module}-s${c.slide}`) ?? []) if (!seen.has(id)) { seen.add(id); ids.push(id) }
+    }
+    return { nodes, slides, ids }
   }, [q, data])
   const highlight = useMemo(() => {
     if (!hits) return null
@@ -124,13 +126,24 @@ function Main({ data }: { data: Data }) {
   const setMode = (m: LayoutMode) => { setPrefs((p) => ({ ...p, mode: m })); setFitReq((n) => n + 1) }
 
   const flyTo = useCallback((id: string) => { reveal(id, 1) }, [reveal])
+  /** sidebar search: step through every matching node (direct concept hits first, then concepts citing matching slides) */
+  const step = useCallback((dir: 1 | -1) => {
+    if (!hits) return
+    if (!hits.ids.length) { const s0 = hits.slides[0]; if (s0) setLb({ module: s0.module, slide: s0.slide }); return }
+    const n = hits.ids.length
+    const i = matchIdx < 0 ? (dir > 0 ? 0 : n - 1) : (matchIdx + dir + n) % n
+    setMatchIdx(i)
+    flyTo(hits.ids[i])
+  }, [hits, matchIdx, flyTo])
+  const openPal = useCallback(() => setPalOpen(true), [])
 
   // keyboard
   useEffect(() => {
     const h = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement
       const typing = t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)
-      if (lb) return
+      if ((e.metaKey || e.ctrlKey) && !e.altKey && e.key.toLowerCase() === 'k') { e.preventDefault(); if (!lb) setPalOpen((o) => !o); return }
+      if (lb || palOpen) return
       if (e.key === '/' && !typing) { e.preventDefault(); setPrefs((p) => ({ ...p, side: true })); setTimeout(() => inputRef.current?.focus(), 0); return }
       if (view !== 'map') return // study panes own the keyboard
       if (e.key === 'Escape') { if (typing) return; if (help) setHelp(false); else setSelected(null); return }
@@ -164,9 +177,9 @@ function Main({ data }: { data: Data }) {
     }
     window.addEventListener('keydown', h)
     return () => window.removeEventListener('keydown', h)
-  }, [lb, view, selected, visSet, data, vis, mode, overrides, rf, toggle, expandBranch, review, help, setPrefs])
+  }, [lb, palOpen, view, selected, visSet, data, vis, mode, overrides, rf, toggle, expandBranch, review, help, setPrefs])
 
-  const ctx = useMemo<StudyCtx | null>(() => (qd && stats ? { data, qd, state: qstate, stats, record, onFly: flyTo, onSlide: (module, slide) => setLb({ module, slide }), start: startPractice, paused: !!lb } : null), [data, qd, stats, qstate, record, flyTo, startPractice, lb])
+  const ctx = useMemo<StudyCtx | null>(() => (qd && stats ? { data, qd, state: qstate, stats, record, restore, onFly: flyTo, onSlide: (module, slide) => setLb({ module, slide }), start: startPractice, paused: !!lb || palOpen } : null), [data, qd, stats, qstate, record, restore, flyTo, startPractice, lb, palOpen])
   const openSlide = useCallback((module: string, slide: number) => setLb({ module, slide }), [])
   const onDragStop = useCallback((id: string, p: Pos) => setOvr((o) => ({ ...o, [mode]: { ...o[mode], [id]: { x: Math.round(p.x), y: Math.round(p.y) } } })), [mode, setOvr])
 
@@ -175,9 +188,8 @@ function Main({ data }: { data: Data }) {
       <div className={'app' + (prefs.side ? '' : ' no-side') + (selected && view === 'map' ? ' has-detail' : '') + (highlight ? ' searching' : '')}>
         {prefs.side && (
           <Sidecar
-            data={data} reviewed={reviewed} stats={stats} query={query} setQuery={setQuery} inputRef={inputRef} hits={hits}
+            data={data} reviewed={reviewed} stats={stats} query={query} setQuery={setQuery} inputRef={inputRef} hits={hits} matchIdx={matchIdx} onStep={step}
             onFly={flyTo} onSlide={openSlide}
-            onFirstHit={() => { if (hits?.nodes[0]) flyTo(hits.nodes[0]); else if (hits?.slides[0]) openSlide(hits.slides[0].module, hits.slides[0].slide) }}
           />
         )}
         <main className="stage">
@@ -188,6 +200,7 @@ function Main({ data }: { data: Data }) {
           >
             <Panel position="top-left" className="toolbar">
               <ModeSeg view={view} setView={setView} />
+              <SearchBtn onClick={openPal} />
               <button className="tb" onClick={() => setPrefs((p) => ({ ...p, side: !p.side }))} title="Toggle materials sidebar">{prefs.side ? '◀ Materials' : '▶ Materials'}</button>
               <div className="seg">
                 <button className={mode === 'radial' ? 'on' : ''} onClick={() => setMode('radial')}>Radial</button>
@@ -202,12 +215,12 @@ function Main({ data }: { data: Data }) {
               <button className="tb" onClick={() => setHelp((h) => !h)} title="?">?</button>
             </Panel>
           </Canvas>
-          <Study ctx={ctx} view={view} setView={setView} launch={launch} reviewed={revArr} mergeProgress={mergeProgress} />
+          <Study ctx={ctx} view={view} setView={setView} launch={launch} onSearch={openPal} reviewed={revArr} mergeProgress={mergeProgress} />
           {help && (
             <div className="help" onClick={() => setHelp(false)}>
               <h4>Keyboard</h4>
               <dl>
-                <dt>/</dt><dd>search</dd><dt>Esc</dt><dd>close panel</dd><dt>&uarr; &darr;</dt><dd>previous / next sibling</dd>
+                <dt>/</dt><dd>search sidebar</dd><dt>&#8984;/Ctrl K</dt><dd>search everything</dd><dt>Esc</dt><dd>close panel</dd><dt>&uarr; &darr;</dt><dd>previous / next sibling</dd>
                 <dt>&larr;</dt><dd>parent</dd><dt>&rarr;</dt><dd>first child (expands)</dd><dt>Space</dt><dd>expand / collapse</dd>
                 <dt>E</dt><dd>expand whole branch</dd><dt>F</dt><dd>fit view</dd><dt>R</dt><dd>toggle reviewed</dd><dt>Lightbox</dt><dd>&larr; &rarr; slides, Esc</dd>
               </dl>
@@ -223,6 +236,11 @@ function Main({ data }: { data: Data }) {
             onReview={() => review(selected)} onClose={() => setSelected(null)} toast={toast}
           />
         )}
+        <Palette
+          open={palOpen} onClose={() => setPalOpen(false)} data={data} qd={qd} initial={palQuery.current} onQuery={(v) => { palQuery.current = v }}
+          onNode={flyTo} onSlide={openSlide}
+          onQuestion={(id) => startIds('quiz', [id], 'Search result')} onCard={(id) => startIds('cards', [id], 'Search result')}
+        />
         {lb && <Lightbox data={data} module={lb.module} slide={lb.slide} onSlide={(s) => setLb({ module: lb.module, slide: s })} onClose={() => setLb(null)} onNode={(id) => { setLb(null); reveal(id) }} />}
       </div>
     </ActionsCtx.Provider>

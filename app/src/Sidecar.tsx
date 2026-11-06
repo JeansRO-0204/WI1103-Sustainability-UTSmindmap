@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { descendants, originalUrl, pdfUrl, thumbUrl, type Data } from './data'
 import { SlideImg } from './ui'
+import { matchesAll } from './search'
 import { profColor, type Stats } from './quizlib'
 
-export interface Hits { nodes: string[]; slides: { module: string; slide: number; title: string; snippet: string }[] }
+export interface Hits { ids: string[]; nodes: string[]; slides: { module: string; slide: number; title: string; snippet: string }[] }
 
 interface Props {
   data: Data
@@ -15,11 +16,14 @@ interface Props {
   hits: Hits | null
   onFly: (id: string) => void
   onSlide: (m: string, s: number) => void
-  onFirstHit: () => void
+  matchIdx: number
+  onStep: (dir: 1 | -1) => void
 }
 
-export default function Sidecar({ data, reviewed, stats, query, setQuery, inputRef, hits, onFly, onSlide, onFirstHit }: Props) {
-  const [open, setOpen] = useState<string | null>(null)
+export default function Sidecar({ data, reviewed, stats, query, setQuery, inputRef, hits, onFly, onSlide, matchIdx, onStep }: Props) {
+  const [open, setOpen] = useState<Set<string>>(new Set())
+  const [filt, setFilt] = useState<Record<string, string>>({})
+  const toggleMod = (id: string) => setOpen((p) => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); return n })
   const total = data.graph.nodes.length, done = [...reviewed].filter((i) => data.nodes.has(i)).length
   return (
     <aside className="side">
@@ -33,10 +37,18 @@ export default function Sidecar({ data, reviewed, stats, query, setQuery, inputR
         <input
           ref={inputRef} value={query} placeholder="Search concepts and slide text  ( / )"
           onChange={(e) => setQuery(e.target.value)}
-          onKeyDown={(e) => { if (e.key === 'Escape') { setQuery(''); (e.target as HTMLInputElement).blur() } else if (e.key === 'Enter') onFirstHit() }}
+          onKeyDown={(e) => { if (e.key === 'Escape') { setQuery(''); (e.target as HTMLInputElement).blur() } else if (e.key === 'Enter') { e.preventDefault(); onStep(e.shiftKey ? -1 : 1) } }}
         />
-        {query && <button className="icon" onClick={() => setQuery('')}>&#10005;</button>}
+        {query && <button className="icon" onClick={() => setQuery('')} title="Clear (Esc)">&#10005;</button>}
       </div>
+      {hits && (
+        <div className="matchbar">
+          <span className="mcount">{hits.ids.length ? `${matchIdx >= 0 ? matchIdx + 1 : '–'} / ${hits.ids.length} on map` : 'No concept on map'}</span>
+          <button className="tb" disabled={!hits.ids.length} onClick={() => onStep(-1)} title="Previous match (Shift+Enter)">&#8249; Prev</button>
+          <button className="tb" disabled={!hits.ids.length} onClick={() => onStep(1)} title="Next match (Enter)">Next &#8250;</button>
+          <button className="tb" onClick={() => setQuery('')} title="Clear search (Esc)">Clear</button>
+        </div>
+      )}
       <div className="side-scroll">
         {hits ? (
           <div className="results">
@@ -58,18 +70,26 @@ export default function Sidecar({ data, reviewed, stats, query, setQuery, inputR
             {!hits.nodes.length && !hits.slides.length && <p className="empty">No matches.</p>}
           </div>
         ) : (
-          data.modules.map((m) => {
+          <>
+          <div className="modbar">
+            <button onClick={() => setOpen(new Set(data.modules.map((m) => m.id)))}>Expand all</button>
+            <button onClick={() => setOpen(new Set())}>Collapse all</button>
+          </div>
+          {data.modules.map((m) => {
             const ids = data.graph.nodes.filter((n) => n.module === m.id).map((n) => n.id)
             const r = ids.filter((i) => reviewed.has(i)).length
             const deck = data.decks.get(m.id) ?? []
-            const isOpen = open === m.id
+            const isOpen = open.has(m.id)
             const modNode = data.nodes.get(m.id.toLowerCase()) ?? data.nodes.get(m.id.toLowerCase() + '.themes')
-            const topics = modNode ? descendants(data, modNode.id).filter((i) => (data.depth.get(i) ?? 9) <= (data.depth.get(modNode.id) ?? 0) + 2) : []
+            const allTopics = modNode ? descendants(data, modNode.id).filter((i) => (data.depth.get(i) ?? 9) <= (data.depth.get(modNode.id) ?? 0) + 2) : []
+            const fq = (filt[m.id] ?? '').trim()
+            const topics = fq ? allTopics.filter((i) => { const n = data.nodes.get(i)!; return matchesAll(`${n.label} ${n.summary} ${(n.keyTerms ?? []).join(' ')}`, fq) }) : allTopics
+            const slides = fq ? deck.filter((c) => matchesAll(`${c.title} ${c.text} ${c.notes ?? ''}`, fq)) : deck
             const color = data.moduleColor(m.id)
             const qa = stats?.week.get(m.id)
             return (
               <div key={m.id} className={'mod' + (isOpen ? ' open' : '')} style={{ ['--c' as any]: color }}>
-                <button className="mod-head" onClick={() => setOpen(isOpen ? null : m.id)}>
+                <button className="mod-head" onClick={() => toggleMod(m.id)}>
                   <span className="dot" />
                   <span className="mt"><b>{m.id}</b>{m.week ? ` · W${m.week}` : ''}<br /><span>{m.title}</span></span>
                   <span className="cnt">{ids.length ? `${r}/${ids.length}` : ''}
@@ -84,13 +104,21 @@ export default function Sidecar({ data, reviewed, stats, query, setQuery, inputR
                       {m.file && <a href={originalUrl(m)} target="_blank" rel="noreferrer">Original file</a>}
                       <button onClick={() => modNode && onFly(modNode.id)}>Show on map</button>
                     </div>
+                    <div className="modfilter">
+                      <input value={filt[m.id] ?? ''} placeholder={`Filter ${m.id} topics and slides`} onChange={(e) => setFilt((f) => ({ ...f, [m.id]: e.target.value }))}
+                        onKeyDown={(e) => { if (e.key === 'Escape') { e.stopPropagation(); setFilt((f) => ({ ...f, [m.id]: '' })) } }} />
+                      {fq && <button className="icon" onClick={() => setFilt((f) => ({ ...f, [m.id]: '' }))} title="Clear filter">&#10005;</button>}
+                      {fq && <small>{topics.length}/{allTopics.length} topics &middot; {slides.length}/{deck.length} slides</small>}
+                    </div>
                     <div className="strip">
-                      {deck.map((c) => (
+                      {fq && !slides.length && <small className="muted">No matching slides.</small>}
+                      {slides.map((c) => (
                         <button key={c.slide} className="thumb" onClick={() => onSlide(m.id, c.slide)} title={c.title}>
                           <SlideImg src={thumbUrl(c)} label={String(c.slide)} /><span>{c.slide}</span>
                         </button>
                       ))}
                     </div>
+                    {fq && !topics.length && <small className="muted">No matching topics.</small>}
                     <ul className="topics">
                       {topics.map((i) => {
                         const n = data.nodes.get(i)!
@@ -106,7 +134,8 @@ export default function Sidecar({ data, reviewed, stats, query, setQuery, inputR
                 )}
               </div>
             )
-          })
+          })}
+          </>
         )}
       </div>
       <div className="gh-foot">

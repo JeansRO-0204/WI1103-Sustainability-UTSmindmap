@@ -1,6 +1,7 @@
 import Cards from './Cards'
 import Progress from './Progress'
 import Quiz from './Quiz'
+import { SearchBtn } from './Palette'
 import type { Launch, StudyCtx } from './Setup'
 import type { QuizState } from './quizlib'
 
@@ -21,16 +22,18 @@ interface Props {
   setView: (v: View) => void
   launch: Launch | null
   reviewed: string[]
+  onSearch: () => void
   mergeProgress: (reviewed: string[], quiz: QuizState) => { newReviewed: number; newAttempts: number; itemsTouched: number }
 }
 
 /** Overlay on top of the (still mounted) map. Panes stay mounted once opened so a half-finished quiz survives a trip to the map. */
-export default function Study({ ctx, view, setView, launch, reviewed, mergeProgress }: Props) {
+export default function Study({ ctx, view, setView, launch, reviewed, mergeProgress, onSearch }: Props) {
   const open = view !== 'map'
   return (
     <div className="study" hidden={!open}>
       <div className="study-bar">
         <ModeSeg view={view} setView={setView} />
+        <SearchBtn onClick={onSearch} />
         <span className="grow" />
         {ctx?.qd.sample && <span className="sample small">SAMPLE QUIZ DATA</span>}
       </div>

@@ -1,12 +1,14 @@
 import { useMemo, useState } from 'react'
 import type { Data } from './data'
-import { pickQueue, poolFor, weakestTopics, type QuizData, type QuizState, type Scope, type Stats } from './quizlib'
+import { pickQueue, poolFor, weakestTopics, type ItemState, type QuizData, type QuizState, type Scope, type Stats } from './quizlib'
 
-export interface Launch { id: number; kind: 'quiz' | 'cards'; scope: Scope; n?: number; cram?: boolean }
+export interface Launch { id: number; kind: 'quiz' | 'cards'; scope: Scope; n?: number; cram?: boolean; /** explicit item ids (search results) overrides scope */ ids?: string[]; label?: string }
 
 export interface StudyCtx {
   data: Data; qd: QuizData; state: QuizState; stats: Stats
-  record: (id: string, score: number, up: number) => void
+  record: (id: string, score: number, up: number, now?: number) => void
+  /** overwrite one item's stored Leitner state (undefined = remove); used when a grade is changed afterwards */
+  restore: (id: string, s: ItemState | undefined) => void
   onFly: (id: string) => void
   onSlide: (module: string, slide: number) => void
   start: (kind: 'quiz' | 'cards', scope: Scope) => void

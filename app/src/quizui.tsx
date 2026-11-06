@@ -119,3 +119,18 @@ export function ZoomImg({ src, alt, small }: { src: string; alt: string; small?:
     </>
   )
 }
+
+/** Clickable numbered dots (one per question / card). cls(i) gives the colour class; dots beyond `max` are disabled. */
+export function Strip({ n, cls, cur, max, onJump, noun }: { n: number; cls: (i: number) => string; cur: number; max: number; onJump: (i: number) => void; noun: string }) {
+  return (
+    <div className="qstrip" role="group" aria-label={`Jump to ${noun}`}>
+      {Array.from({ length: n }, (_, i) => (
+        <button key={i} type="button" className={'dot ' + cls(i) + (i === cur ? ' cur' : '')} disabled={i > max} aria-current={i === cur} aria-label={`${noun} ${i + 1}`} title={`${noun} ${i + 1}`} onClick={() => onJump(i)} {...noFocus}>{i + 1}</button>
+      ))}
+    </div>
+  )
+}
+
+export function KeyHints({ items }: { items: [string, string][] }) {
+  return <div className="kbhint">{items.map(([k, l]) => <span key={l}><kbd>{k}</kbd> {l}</span>)}</div>
+}

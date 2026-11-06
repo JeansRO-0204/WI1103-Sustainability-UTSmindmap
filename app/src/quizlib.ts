@@ -82,12 +82,22 @@ export const MAX_ATT = 20
 export const DAY = 86400000
 export const INTERVALS = [0, DAY, 2 * DAY, 4 * DAY, 8 * DAY] // box 1..5
 
-/** up = boxes to climb on success (1 normal, 2 for "Easy"); 0 = lapse back to box 1. */
-export function recordAttempt(st: QuizState, id: string, score: number, up: number, now = Date.now()): QuizState {
-  const prev = st.items[id]
+/** Pure Leitner step for one item. up = boxes to climb on success (1 normal, 2 for "Easy"); 0 = lapse back to box 1. */
+export function applyAttempt(prev: ItemState | undefined, score: number, up: number, now = Date.now()): ItemState {
   const box = up <= 0 ? 1 : Math.min(5, (prev?.b ?? 1) + up)
   const a = [...(prev?.a ?? []), [now, score] as Att].slice(-MAX_ATT)
-  return { v: 1, items: { ...st.items, [id]: { b: box, d: now + INTERVALS[box - 1], a } } }
+  return { b: box, d: now + INTERVALS[box - 1], a }
+}
+
+export function recordAttempt(st: QuizState, id: string, score: number, up: number, now = Date.now()): QuizState {
+  return { v: 1, items: { ...st.items, [id]: applyAttempt(st.items[id], score, up, now) } }
+}
+
+/** Set (or with undefined, remove) one item's stored state; used to undo/replay attempts when a grade is changed. */
+export function setItemState(st: QuizState, id: string, s: ItemState | undefined): QuizState {
+  const items = { ...st.items }
+  if (s) items[id] = s; else delete items[id]
+  return { v: 1, items }
 }
 
 export function dueLabel(ms: number): string {

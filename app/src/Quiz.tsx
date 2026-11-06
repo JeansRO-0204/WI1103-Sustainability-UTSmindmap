@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import Setup, { scopeLabel, type Launch, type StudyCtx } from './Setup'
 import { INTERVALS, dueLabel, pickQueue, poolFor, shuffle, profColor } from './quizlib'
-import { ConceptChips, Inline, MD, SourceThumbs, ZoomImg, cleanMath, noFocus } from './quizui'
+import { ConceptChips, Inline, KeyHints, MD, SourceThumbs, Strip, ZoomImg, cleanMath, noFocus } from './quizui'
 
-interface Run { ids: string[]; order: Record<string, number[]>; i: number; sel: number | null; checked: boolean; res: { id: string; ok: boolean }[]; label: string }
+/** answers[k] is the recorded answer to ids[k] (answered strictly in order). v = the question on screen (v === ids.length is the summary). Going back is read-only: nothing already recorded is re-recorded. */
+interface Run { ids: string[]; order: Record<string, number[]>; v: number; sel: number | null; answers: { sel: number; ok: boolean }[]; label: string }
 
 function newRun(ctx: StudyCtx, ids: string[], label: string): Run {
   const order: Record<string, number[]> = {}
@@ -12,7 +13,7 @@ function newRun(ctx: StudyCtx, ids: string[], label: string): Run {
     const idx = q.options.map((_, k) => k)
     order[id] = q.source === 'generated' ? shuffle(idx) : idx // Quiz 1 / Quiz 2 / prediction paper option order stays verbatim
   }
-  return { ids, order, i: 0, sel: null, checked: false, res: [], label }
+  return { ids, order, v: 0, sel: null, answers: [], label }
 }
 
 export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: boolean; launch: Launch | null }) {
@@ -29,44 +30,58 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
   // start from outside (Practice buttons)
   useEffect(() => {
     if (!launch || launch.kind !== 'quiz') return
+    if (launch.ids) { begin(launch.ids.filter((i) => ctx.qd.questions.has(i)), launch.label ?? 'Search result'); return }
     const pool = poolFor(ctx.qd, ctx.stats, ctx.state, launch.scope, 'q')
     begin(pickQueue(pool, launch.n ?? 10, ctx.stats, ctx.state, launch.cram ?? true), scopeLabel(launch.scope, ctx))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [launch?.id])
 
-  const q = run && run.i < run.ids.length ? ctx.qd.questions.get(run.ids[run.i]) : undefined
+  const total = run ? run.ids.length : 0
+  const answered = run ? run.answers.length : 0
+  const q = run && run.v < total ? ctx.qd.questions.get(run.ids[run.v]) : undefined
   const order = run && q ? run.order[q.id] : []
+  const ans = run && run.v < answered ? run.answers[run.v] : undefined // set => read-only review of an already recorded answer
+  const checked = !!ans
 
-  const select = useCallback((pos: number) => setRun((r) => (r && !r.checked ? { ...r, sel: pos } : r)), [])
+  const select = useCallback((pos: number) => setRun((r) => (r && r.v === r.answers.length ? { ...r, sel: pos } : r)), [])
   const check = useCallback(() => {
-    if (!run || run.sel == null || run.checked || !q) return
+    if (!run || !q || run.v !== run.answers.length || run.sel == null) return
     const ok = q.answer.includes(order[run.sel])
     ctx.record(q.id, ok ? 1 : 0, ok ? 1 : 0)
-    setRun({ ...run, checked: true, res: [...run.res, { id: q.id, ok }] })
+    setRun({ ...run, sel: null, answers: [...run.answers, { sel: run.sel, ok }] })
   }, [run, q, order, ctx])
-  const next = useCallback(() => setRun((r) => (r && r.checked ? { ...r, i: r.i + 1, sel: null, checked: false } : r)), [])
+  /** step back/forward through questions already answered (forward stops at the first unanswered one) */
+  const go = useCallback((d: number) => setRun((r) => { if (!r) return r; const nv = r.v + d; return nv < 0 || nv > r.answers.length ? r : { ...r, v: nv } }), [])
+  const jump = useCallback((i: number) => setRun((r) => (r && i >= 0 && i <= r.answers.length ? { ...r, v: i } : r)), [])
 
   useEffect(() => {
-    if (!active || ctx.paused || !run || !q) return
+    if (!active || ctx.paused || !run) return
     const h = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement
       if (t && (t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || (t.tagName === 'INPUT' && (t as HTMLInputElement).type !== 'radio' && (t as HTMLInputElement).type !== 'checkbox'))) return
       if (e.metaKey || e.ctrlKey || e.altKey) return
-      if (/^[1-9]$/.test(e.key)) { const p = Number(e.key) - 1; if (p < order.length) { e.preventDefault(); select(p) } }
-      else if (e.key === 'Enter') { e.preventDefault(); if (run.checked) next(); else check() }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(-1) }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); go(1) }
+      else if (!q) return
+      else if (/^[1-9]$/.test(e.key)) { const p = Number(e.key) - 1; if (p < order.length) { e.preventDefault(); select(p) } }
+      else if (e.key === 'Enter') { e.preventDefault(); if (checked) go(1); else check() }
     }
     window.addEventListener('keydown', h)
     return () => window.removeEventListener('keydown', h)
-  }, [active, ctx.paused, run, q, order, select, check, next])
+  }, [active, ctx.paused, run, q, order, checked, select, check, go])
 
   const setup = <Setup kind="quiz" ctx={ctx} onStart={begin} />
   if (!run) return <div className="study-body">{empty && <div className="notice warn">{empty}</div>}{setup}</div>
-  if (!q) return <Summary ctx={ctx} run={run} onRetry={(ids) => begin(ids, 'Retry missed')} onNew={() => setRun(null)} />
+  const strip = (
+    <Strip n={total} cur={run.v} max={answered} noun="Question" onJump={jump}
+      cls={(i) => (i < answered ? (run.answers[i].ok ? 'ok' : 'bad') : 'todo')} />
+  )
+  if (!q) return <Summary ctx={ctx} run={run} strip={strip} onBack={() => go(-1)} onRetry={(ids) => begin(ids, 'Retry missed')} onNew={() => setRun(null)} />
 
-  const total = run.ids.length
-  const right = run.res.filter((r) => r.ok).length
-  const picked = run.sel != null ? order[run.sel] : -1
-  const ok = run.checked && q.answer.includes(picked)
+  const right = run.answers.filter((r) => r.ok).length
+  const picked = ans ? order[ans.sel] : run.sel != null ? order[run.sel] : -1
+  const selPos = ans ? ans.sel : run.sel
+  const ok = !!ans && ans.ok
   const st = ctx.state.items[q.id]
   const bi = (q.source === 'quiz1' || q.source === 'latsol') && !!q.stemId && q.optionsId?.length === q.options.length // bilingual item
   const id = bi && lang === 'id'
@@ -74,13 +89,15 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
   return (
     <div className="study-body">
       <div className="qhead">
-        <div className="qprog"><div style={{ width: `${((run.i + (run.checked ? 1 : 0)) / total) * 100}%` }} /></div>
-        <span>Question {run.i + 1} / {total}</span>
+        <div className="qprog"><div style={{ width: `${(answered / total) * 100}%` }} /></div>
+        <span>Question {run.v + 1} / {total}</span>
         <span className="muted">&middot; {right} correct</span>
         <span className="grow" />
         <span className="muted small">{run.label}</span>
         <button className="linkbtn" onClick={() => setRun(null)}>End quiz</button>
       </div>
+      {strip}
+      {ans && <div className="reviewbar">Reviewing your recorded answer (read-only). <button className="linkbtn" onClick={() => jump(answered)}>{answered < total ? `Resume at question ${answered + 1}` : 'Go to summary'}</button></div>}
       <div className="qcard">
         <div className="qtags">
           <span className="tag" style={{ background: ctx.data.moduleColor(q.module) }}>{q.module}</span>
@@ -107,11 +124,11 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
         {q.images?.length ? <div className="qimgs">{q.images.map((src, k) => <ZoomImg key={src} src={src} alt={`Question ${q.n ?? ''} figure${q.images!.length > 1 ? ` ${k + 1}` : ''}`} />)}</div> : null}
         <div className="opts" role="radiogroup">
           {order.map((oi, pos) => {
-            const isRight = run.checked && q.answer.includes(oi)
-            const isWrong = run.checked && pos === run.sel && !isRight
+            const isRight = checked && q.answer.includes(oi)
+            const isWrong = checked && pos === selPos && !isRight
             return (
-              <label key={oi} className={'opt' + (pos === run.sel ? ' sel' : '') + (isRight ? ' right' : '') + (isWrong ? ' wrong' : '') + (run.checked ? ' locked' : '')}>
-                <input type="radio" name="qopt" checked={pos === run.sel} disabled={run.checked} onChange={() => select(pos)} />
+              <label key={oi} className={'opt' + (pos === selPos ? ' sel' : '') + (isRight ? ' right' : '') + (isWrong ? ' wrong' : '') + (checked ? ' locked' : '')}>
+                <input type="radio" name="qopt" checked={pos === selPos} disabled={checked} onChange={() => select(pos)} />
                 <kbd>{pos + 1}</kbd>
                 <span className="otext" lang={id ? 'id' : 'en'}>
                   <Inline text={optText(oi)} />
@@ -123,9 +140,10 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
             )
           })}
         </div>
-        {q.keyStatus === 'inferred' && !run.checked && <p className="muted small">{q.source === 'latsol' ? "The authors' answer marking was missing or ambiguous for this question; the answer used here is inferred from the slides." : 'The original quiz shipped without an answer key for this question; the answer used here is inferred from the slides.'}</p>}
-        {!run.checked ? (
+        {q.keyStatus === 'inferred' && !checked && <p className="muted small">{q.source === 'latsol' ? "The authors' answer marking was missing or ambiguous for this question; the answer used here is inferred from the slides." : 'The original quiz shipped without an answer key for this question; the answer used here is inferred from the slides.'}</p>}
+        {!checked ? (
           <div className="qactions">
+            <button disabled={run.v === 0} onClick={() => go(-1)} title="Previous question (Left arrow)" {...noFocus}>&larr; Back</button>
             <button className="primary" disabled={run.sel == null} onClick={check} {...noFocus}>Check <kbd>Enter</kbd></button>
           </div>
         ) : (
@@ -139,27 +157,31 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
             <SourceThumbs data={ctx.data} sources={q.sources} onSlide={ctx.onSlide} />
             <ConceptChips data={ctx.data} ids={q.nodeIds} onFly={ctx.onFly} />
             <div className="qactions">
-              <button className="primary" onClick={next} {...noFocus}>{run.i + 1 < total ? 'Next question' : 'Finish'} <kbd>Enter</kbd></button>
+              <button disabled={run.v === 0} onClick={() => go(-1)} title="Previous question (Left arrow)" {...noFocus}>&larr; Back</button>
+              <button className="primary" onClick={() => go(1)} title="Next (Right arrow)" {...noFocus}>{run.v + 1 < total ? 'Next' : answered === total ? 'Finish' : 'Next'} &rarr; <kbd>Enter</kbd></button>
             </div>
           </div>
         )}
       </div>
+      <KeyHints items={[['←', 'Back'], ['→', 'Next'], ...(checked ? [] : [['1-9', 'Select'], ['Enter', 'Check']] as [string, string][]), ...(checked ? [['Enter', 'Next']] as [string, string][] : [])]} />
     </div>
   )
 }
 
-function Summary({ ctx, run, onRetry, onNew }: { ctx: StudyCtx; run: Run; onRetry: (ids: string[]) => void; onNew: () => void }) {
-  const right = run.res.filter((r) => r.ok).length
-  const total = run.res.length
-  const missed = run.res.filter((r) => !r.ok).map((r) => r.id)
+function Summary({ ctx, run, strip, onBack, onRetry, onNew }: { ctx: StudyCtx; run: Run; strip: React.ReactNode; onBack: () => void; onRetry: (ids: string[]) => void; onNew: () => void }) {
+  const res = run.answers.map((a, k) => ({ id: run.ids[k], ok: a.ok }))
+  const right = res.filter((r) => r.ok).length
+  const total = res.length
+  const missed = res.filter((r) => !r.ok).map((r) => r.id)
   const by = useMemo(() => {
     const m = new Map<string, { ok: number; n: number }>()
-    for (const r of run.res) { const t = ctx.qd.questions.get(r.id)!.topic; const e = m.get(t) ?? { ok: 0, n: 0 }; e.n++; if (r.ok) e.ok++; m.set(t, e) }
+    for (const r of res) { const t = ctx.qd.questions.get(r.id)!.topic; const e = m.get(t) ?? { ok: 0, n: 0 }; e.n++; if (r.ok) e.ok++; m.set(t, e) }
     return [...m].map(([topic, e]) => ({ topic, ...e })).sort((a, b) => a.ok / a.n - b.ok / b.n)
   }, [run, ctx.qd])
   const pct = total ? Math.round((right / total) * 100) : 0
   return (
     <div className="study-body">
+      {strip}
       <div className="qcard summary">
         <h2>Quiz complete</h2>
         <div className="score" style={{ color: profColor(pct) }}>{right} / {total} <small>{pct}%</small></div>
@@ -177,6 +199,7 @@ function Summary({ ctx, run, onRetry, onNew }: { ctx: StudyCtx; run: Run; onRetr
         </div>
         <div className="qactions">
           {missed.length > 0 && <button className="primary" onClick={() => onRetry(missed)}>Retry missed ({missed.length})</button>}
+          <button onClick={onBack} {...noFocus}>&larr; Back to last question</button>
           <button onClick={onNew}>New quiz</button>
         </div>
       </div>
