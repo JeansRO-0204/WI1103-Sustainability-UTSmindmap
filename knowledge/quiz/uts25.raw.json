@@ -1,0 +1,1054 @@
+[
+ {
+  "id": "u25-01",
+  "source": "uts25",
+  "n": 1,
+  "stem": "According to the Brundtland Report, sustainable development is defined as development that meets the needs of the present without compromising the ability of future generations to meet their own needs. In the context of Indonesia, with a gross domestic product (GDP) per capita of US$4,788 and an ecological footprint of 1.8 gha (2022), which strategy MOST EFFECTIVELY integrates the three pillars of sustainability?",
+  "options": [
+   "Focusing on maximum economic growth to catch up with developed countries such as Germany (GDP US$51,204)",
+   "Applying the Kerala (India) model, which achieved high human development with a low GDP (US$3,100) through investment in education and health",
+   "Copying the consumption pattern of the United States, with an ecological footprint of 5.1 Earths, to raise living standards",
+   "Restricting infrastructure development to preserve biocapacity reserves",
+   "Applying a one-child policy like China's to control population size"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Applying the Kerala (India) model, which achieved high human development with a low GDP (US$3,100) through investment in education and health",
+  "stemId": "Menurut Laporan Brundtland, pembangunan berkelanjutan didefinisikan sebagai pembangunan yang memenuhi kebutuhan masa kini tanpa mengorbankan kemampuan generasi mendatang untuk memenuhi kebutuhan mereka sendiri. Dalam konteks Indonesia dengan produk domestik bruto (PDB) per kapita US$4.788 dan jejak ekologis 1,8 gha (2022), strategi manakah yang PALING EFEKTIF memadukan ketiga pilar keberlanjutan?",
+  "optionsId": [
+   "Berfokus pada pertumbuhan ekonomi maksimum untuk mengejar negara maju seperti Jerman (PDB US$51.204)",
+   "Menerapkan model Kerala, India, yang mencapai pembangunan manusia yang tinggi dengan PDB rendah (US$3.100) melalui investasi pendidikan dan kesehatan",
+   "Meniru pola konsumsi Amerika Serikat dengan jejak ekologis 5,1 Bumi untuk meningkatkan taraf hidup",
+   "Membatasi pembangunan infrastruktur untuk melestarikan cadangan biokapasitas",
+   "Menerapkan kebijakan satu anak seperti Tiongkok untuk mengendalikan jumlah penduduk"
+  ],
+  "answerTextId": "Menerapkan model Kerala, India, yang mencapai pembangunan manusia yang tinggi dengan PDB rendah (US$3.100) melalui investasi pendidikan dan kesehatan",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-02",
+  "source": "uts25",
+  "n": 2,
+  "stem": "Based on 2021 data, per-capita CO2 emissions are 1.93 tonnes for Indonesia, 8.05 tonnes for China and 14.86 tonnes for the United States. If Indonesia targets net zero emission (NZE) by 2060 under the 2022 Enhanced NDC (a 31.89% reduction unconditionally, 43.2% with international support), which sector produces the LARGEST global greenhouse gas (GHG) emissions and should be prioritised?",
+  "options": [
+   "Buildings sector (6% or 3.3 GtCO2)",
+   "Transport sector (15% or 8.7 GtCO2)",
+   "AFOLU sector / Agriculture, Forestry and Other Land Use (22% or 13 GtCO2)",
+   "Industry sector (24% or 14 GtCO2)",
+   "Energy sector (34% or 20 GtCO2)"
+  ],
+  "answer": [
+   4
+  ],
+  "answerText": "Energy sector (34% or 20 GtCO2)",
+  "stemId": "Berdasarkan data 2021, emisi CO2 per kapita Indonesia sebesar 1,93 ton, Tiongkok 8,05 ton, dan Amerika Serikat 14,86 ton. Jika Indonesia menargetkan emisi nol bersih (*net zero emission*, NZE) pada 2060 dengan Enhanced NDC 2022 (penurunan 31,89% secara mandiri, 43,2% dengan dukungan internasional), sektor manakah yang menghasilkan emisi gas rumah kaca (GRK) global TERBESAR dan harus diprioritaskan?",
+  "optionsId": [
+   "Sektor bangunan (6% atau 3,3 GtCO2)",
+   "Sektor transportasi (15% atau 8,7 GtCO2)",
+   "Sektor AFOLU/Pertanian, Kehutanan, dan Penggunaan Lahan Lainnya (22% atau 13 GtCO2)",
+   "Sektor industri (24% atau 14 GtCO2)",
+   "Sektor energi (34% atau 20 GtCO2)"
+  ],
+  "answerTextId": "Sektor energi (34% atau 20 GtCO2)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-03",
+  "source": "uts25",
+  "n": 3,
+  "stem": "Garrett Hardin's (1968) *Tragedy of the Commons* is debated because it conflates “commons” (*commons*, i.e. joint ownership) with “open-access resources” (*open-access resources*). Which example MOST ACCURATELY shows successful management of a commons that avoids the tragedy?",
+  "options": [
+   "The global atmosphere, open to all countries with no emission regulation",
+   "The high seas with unlimited fish catch quotas",
+   "The lobster fishery in Maine, UK, where local community mechanisms regulate the catch sustainably",
+   "An open pasture with no ownership, used by all herders",
+   "A river used by various industries without wastewater treatment"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "The lobster fishery in Maine, UK, where local community mechanisms regulate the catch sustainably",
+  "stemId": "Tragedi Barang Milik Bersama (*Tragedy of the Commons*) yang dikemukakan oleh Garrett Hardin (1968) diperdebatkan karena mencampuradukkan “milik bersama” (*commons*, yaitu kepemilikan bersama) dengan “sumber daya akses terbuka” (*open-access resources*). Contoh manakah yang PALING TEPAT menunjukkan pengelolaan milik bersama yang berhasil dan terhindar dari tragedi?",
+  "optionsId": [
+   "Atmosfer global yang terbuka bagi semua negara tanpa regulasi emisi",
+   "Laut lepas dengan kuota tangkapan ikan tanpa batas",
+   "Perikanan lobster di Maine, UK, dengan mekanisme komunitas lokal yang mengatur tangkapan secara berkelanjutan",
+   "Padang penggembalaan terbuka tanpa kepemilikan yang digunakan oleh semua penggembala",
+   "Sungai yang dimanfaatkan berbagai industri tanpa pengolahan limbah"
+  ],
+  "answerTextId": "Perikanan lobster di Maine, UK, dengan mekanisme komunitas lokal yang mengatur tangkapan secara berkelanjutan",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-04",
+  "source": "uts25",
+  "n": 4,
+  "stem": "Of the 9 *Planetary Boundaries*, 6 have now been transgressed according to the latest data. Which planetary boundary is NOT among those transgressed?",
+  "options": [
+   "Climate change",
+   "Biosphere integrity—biodiversity loss",
+   "Biogeochemical flows—nitrogen and phosphorus cycles",
+   "Stratospheric ozone depletion",
+   "Land-system change"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Stratospheric ozone depletion",
+  "stemId": "Dari 9 Batas Planet (*Planetary Boundaries*), saat ini 6 batas telah dilampaui menurut data terbaru. Batas planet manakah yang TIDAK termasuk yang telah dilampaui?",
+  "optionsId": [
+   "Perubahan iklim",
+   "Integritas biosfer—kehilangan keanekaragaman hayati",
+   "Aliran biogeokimia—siklus nitrogen dan fosfor",
+   "Penipisan ozon stratosfer",
+   "Perubahan sistem lahan"
+  ],
+  "answerTextId": "Penipisan ozon stratosfer",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-05",
+  "source": "uts25",
+  "n": 5,
+  "stem": "The IPAT formula (I = P × A × T) of Ehrlich and Holdren (1974) shows that environmental impact (I) is driven by population (*Population*), affluence (*Affluence*) and technology (*Technology*). If world population in 2050 rises by 35% and affluence rises 4-fold compared with 2010, while we want to keep the environmental quality of 2010, by what factor must technology achieve “decoupling” (*decoupling*, i.e. reducing impact)?",
+  "options": [
+   "2 times",
+   "3 times",
+   "4 times",
+   "5 times",
+   "6 times"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "5 times",
+  "stemId": "Rumus IPAT (I = P × A × T) dari Ehrlich dan Holdren (1974) menunjukkan bahwa dampak lingkungan (I) dipengaruhi oleh populasi (*Population*), kemakmuran (*Affluence*), dan teknologi (*Technology*). Jika populasi dunia pada 2050 meningkat 35% dan tingkat kemakmuran naik 4 kali lipat dibandingkan dengan 2010, sementara kita ingin mempertahankan kualitas lingkungan 2010, berapa kali lipat teknologi harus mencapai “pemisahan” (*decoupling*, yaitu mengurangi dampak)?",
+  "optionsId": [
+   "2 kali",
+   "3 kali",
+   "4 kali",
+   "5 kali",
+   "6 kali"
+  ],
+  "answerTextId": "5 kali",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "calc": "Calculation: $1.35 \\times 4 = 5.4$, so to keep $I$ constant $T_{2050} = T_{2010}/5.4 \\approx 0.185\\,T_{2010}$: impact per unit must fall about 5.4-fold. The slide rounds this to a factor of 'five'."
+ },
+ {
+  "id": "u25-06",
+  "source": "uts25",
+  "n": 6,
+  "stem": "Indonesia's *Ecological Footprint* in 2022 was 1.8 gha per person, with a biocapacity of 1.2 gha, giving a deficit of 0.6 gha. If the whole world's population lived like Indonesians, how many Earths would be needed?",
+  "options": [
+   "0.7 Earths",
+   "1.0 Earths",
+   "1.5 Earths",
+   "1.8 Earths",
+   "2.4 Earths"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "1.5 Earths",
+  "stemId": "Jejak ekologis (*Ecological Footprint*) Indonesia pada 2022 sebesar 1,8 gha per orang, dengan biokapasitas 1,2 gha sehingga menghasilkan defisit 0,6 gha. Jika seluruh penduduk dunia hidup seperti orang Indonesia, berapa Bumi yang diperlukan?",
+  "optionsId": [
+   "0,7 Bumi",
+   "1,0 Bumi",
+   "1,5 Bumi",
+   "1,8 Bumi",
+   "2,4 Bumi"
+  ],
+  "answerTextId": "1,5 Bumi",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "low",
+  "calc": "Calculation: $1.8 / 1.2 = 1.5$ (footprint is 150% of biocapacity). Note: the GFN 'Earths' convention divides by world average biocapacity (~1.6 gha), giving ~1.1."
+ },
+ {
+  "id": "u25-07",
+  "source": "uts25",
+  "n": 7,
+  "stem": "Neo-Malthusian theory, particularly Barry Commoner's, stresses that technology has a greater impact on the environment than population size. Which country comparison MOST STRONGLY supports this argument?",
+  "options": [
+   "China and India: similar populations, but China's per-capita CO2 emissions (8.05 tonnes) compared with India's (1.93 tonnes)",
+   "Canada and Indonesia: Indonesia's population is 7 times larger, but Canada's per-capita CO2 emissions (14.30 tonnes) compared with Indonesia's (1.93 tonnes)",
+   "Germany and France: similar GDP per capita (US$51,204 and US$43,659), similar per-capita CO2 emissions (8.09 and 4.74 tonnes)",
+   "Bangladesh and Kenya: both developing countries with low emissions",
+   "Japan and South Korea: both advanced Asian countries with sophisticated technology"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Canada and Indonesia: Indonesia's population is 7 times larger, but Canada's per-capita CO2 emissions (14.30 tonnes) compared with Indonesia's (1.93 tonnes)",
+  "stemId": "Teori Neo-Malthusian, khususnya dari Barry Commoner, menekankan bahwa teknologi berdampak lebih besar terhadap lingkungan daripada jumlah penduduk. Perbandingan negara manakah yang PALING KUAT mendukung argumen ini?",
+  "optionsId": [
+   "Tiongkok dan India: populasi serupa, tetapi emisi CO2 per kapita Tiongkok (8,05 ton) dibandingkan dengan India (1,93 ton)",
+   "Kanada dan Indonesia: populasi Indonesia 7 kali lebih besar, tetapi emisi CO2 per kapita Kanada (14,30 ton) dibandingkan dengan Indonesia (1,93 ton)",
+   "Jerman dan Prancis: PDB per kapita serupa (US$51.204 dan US$43.659), emisi CO2 per kapita serupa (8,09 dan 4,74 ton)",
+   "Bangladesh dan Kenya: sama-sama negara berkembang dengan emisi rendah",
+   "Jepang dan Korea Selatan: sama-sama negara maju di Asia dengan teknologi canggih"
+  ],
+  "answerTextId": "Kanada dan Indonesia: populasi Indonesia 7 kali lebih besar, tetapi emisi CO2 per kapita Kanada (14,30 ton) dibandingkan dengan Indonesia (1,93 ton)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-18",
+  "source": "uts25",
+  "n": 18,
+  "stem": "The *Urban Heat Island* phenomenon in Indonesia recorded the highest temperatures in the history of the Meteorology, Climatology and Geophysics Agency (BMKG) (2023) for Semarang, Surabaya and Makassar. Using air conditioners (AC) as an adaptation strategy creates a dilemma. What is meant by “*Sustainable Cooling*”?",
+  "options": [
+   "Using AC as much as possible for maximum comfort",
+   "Not using AC at all to reduce emissions",
+   "A combination: energy conservation, environmentally friendly refrigerants (low GWP), integration of renewable energy, fair access, and circular economy",
+   "Using only traditional electric fans",
+   "Restricting AC use to elite groups only"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "A combination: energy conservation, environmentally friendly refrigerants (low GWP), integration of renewable energy, fair access, and circular economy",
+  "stemId": "Fenomena Pulau Panas Perkotaan (*Urban Heat Island*) di Indonesia mencatat suhu tertinggi dalam sejarah Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) (2023) untuk Semarang, Surabaya, dan Makassar. Penggunaan pendingin ruangan (AC) sebagai strategi adaptasi menimbulkan dilema. Apa yang dimaksud dengan “Pendinginan Berkelanjutan” (*Sustainable Cooling*)?",
+  "optionsId": [
+   "Menggunakan AC sebanyak mungkin demi kenyamanan maksimum",
+   "Tidak menggunakan AC sama sekali untuk mengurangi emisi",
+   "Kombinasi: konservasi energi, refrigeran ramah lingkungan (GWP rendah), integrasi energi terbarukan, akses yang adil, dan ekonomi sirkular",
+   "Hanya menggunakan kipas angin tradisional",
+   "Membatasi penggunaan AC hanya untuk kelompok elite"
+  ],
+  "answerTextId": "Kombinasi: konservasi energi, refrigeran ramah lingkungan (GWP rendah), integrasi energi terbarukan, akses yang adil, dan ekonomi sirkular",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-19",
+  "source": "uts25",
+  "n": 19,
+  "stem": "*Carbon Capture Utilization & Storage* (CCUS) is a technology to reduce GHG impacts. The difference between CCU (*Carbon Capture and Utilization*) and CCS (*Carbon Capture and Storage*) is:",
+  "options": [
+   "CCU stores CO2 in geological formations, CCS uses it for production",
+   "CCU uses CO2 for production (fuels, chemicals), CCS stores CO2 permanently in geological formations or deep aquifers",
+   "CCU and CCS are the same technology with different names",
+   "CCU is only for the energy industry, CCS is for all sectors",
+   "CCU is more expensive and less effective than CCS"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "CCU uses CO2 for production (fuels, chemicals), CCS stores CO2 permanently in geological formations or deep aquifers",
+  "stemId": "Penangkapan, Pemanfaatan, dan Penyimpanan Karbon (*Carbon Capture Utilization & Storage*, CCUS) merupakan teknologi untuk mengurangi dampak GRK. Perbedaan antara CCU (*Carbon Capture and Utilization*) dan CCS (*Carbon Capture and Storage*) adalah:",
+  "optionsId": [
+   "CCU menyimpan CO2 di formasi geologi, CCS memanfaatkannya untuk produksi",
+   "CCU memanfaatkan CO2 untuk produksi (bahan bakar, bahan kimia), CCS menyimpan CO2 secara permanen di formasi geologi atau akuifer dalam",
+   "CCU dan CCS adalah teknologi yang sama dengan nama berbeda",
+   "CCU hanya untuk industri energi, CCS untuk semua sektor",
+   "CCU lebih mahal dan kurang efektif daripada CCS"
+  ],
+  "answerTextId": "CCU memanfaatkan CO2 untuk produksi (bahan bakar, bahan kimia), CCS menyimpan CO2 secara permanen di formasi geologi atau akuifer dalam",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-20",
+  "source": "uts25",
+  "n": 20,
+  "stem": "GHG mitigation options in the AFOLU sector (Agriculture, Forestry and Other Land Use), which accounts for 22% of global emissions (13 GtCO2), include several strategies. Which strategy has the HIGHEST potential?",
+  "options": [
+   "Use of bioenergy in agricultural practices",
+   "Soil carbon management",
+   "Afforestation, reforestation and forest ecosystem restoration",
+   "Agroforestry practices for food production",
+   "Reducing methane emissions from livestock"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Afforestation, reforestation and forest ecosystem restoration",
+  "stemId": "Opsi mitigasi GRK dari sektor AFOLU (Pertanian, Kehutanan, dan Penggunaan Lahan Lainnya) yang mencakup 22% emisi global (13 GtCO2) meliputi beberapa strategi. Strategi manakah yang memiliki potensi TERTINGGI?",
+  "optionsId": [
+   "Penggunaan bioenergi dalam praktik pertanian",
+   "Pengelolaan karbon tanah",
+   "Aforestasi, reforestasi, dan restorasi ekosistem hutan",
+   "Praktik agroforestri untuk produksi pangan",
+   "Pengurangan emisi metana dari peternakan"
+  ],
+  "answerTextId": "Aforestasi, reforestasi, dan restorasi ekosistem hutan",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-21",
+  "source": "uts25",
+  "n": 21,
+  "stem": "Indonesia is committed to reaching net zero emissions (NZE) by 2060 or sooner. To reach NZE, biological carbon sequestration is important. Which ecosystem in Indonesia is a *blue carbon* ecosystem with a VERY HIGH carbon sequestration capacity per hectare?",
+  "options": [
+   "The Amazon tropical rainforest",
+   "Savanna grassland",
+   "Mangrove forests and coastal ecosystems",
+   "Oil palm plantations",
+   "City parks"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Mangrove forests and coastal ecosystems",
+  "stemId": "Indonesia berkomitmen mencapai emisi nol bersih (NZE) pada 2060 atau lebih cepat. Untuk mencapai NZE, sekuestrasi karbon biologis menjadi penting. Ekosistem manakah di Indonesia yang merupakan ekosistem karbon biru (*blue carbon*) dengan kapasitas sekuestrasi karbon per hektare yang SANGAT TINGGI?",
+  "optionsId": [
+   "Hutan hujan tropis Amazon",
+   "Padang sabana",
+   "Hutan mangrove dan ekosistem pesisir",
+   "Perkebunan kelapa sawit",
+   "Taman kota"
+  ],
+  "answerTextId": "Hutan mangrove dan ekosistem pesisir",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-22",
+  "source": "uts25",
+  "n": 22,
+  "stem": "The Nexus approach was developed because food, energy and water are interconnected and affect SDG achievement. Of the 9 reasons why the Nexus approach is needed, which one explains the aspect of interdependence with climate change?",
+  "options": [
+   "Food, energy and water are global goods traded between countries",
+   "These three areas are related to climate change: climate change affects the availability and quality of all three",
+   "The tightly regulated markets for food, energy and water require policy caution",
+   "Risks of scarcity, pollution and unequal access need to be identified and managed explicitly",
+   "Billions of people worldwide lack adequate access"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "These three areas are related to climate change: climate change affects the availability and quality of all three",
+  "stemId": "Pendekatan Nexus dikembangkan karena pangan, energi, dan air saling terhubung dan memengaruhi pencapaian SDG. Dari 9 alasan mengapa pendekatan Nexus diperlukan, manakah yang menjelaskan aspek ketergantungan pada perubahan iklim?",
+  "optionsId": [
+   "Pangan, energi, dan air merupakan barang global yang diperdagangkan antarnegara",
+   "Ketiga bidang ini berkaitan dengan perubahan iklim: perubahan iklim memengaruhi ketersediaan dan kualitas ketiganya",
+   "Pasar pangan, energi, dan air yang diatur secara ketat memerlukan kehati-hatian kebijakan",
+   "Identifikasi risiko kelangkaan, pencemaran, dan ketimpangan akses perlu dikelola secara eksplisit",
+   "Miliaran penduduk dunia kekurangan akses yang memadai"
+  ],
+  "answerTextId": "Ketiga bidang ini berkaitan dengan perubahan iklim: perubahan iklim memengaruhi ketersediaan dan kualitas ketiganya",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-23",
+  "source": "uts25",
+  "n": 23,
+  "stem": "In the Food-Energy-Water Nexus approach there is the concept of a “*driver*”, which can be endogenous (internal to the system) or exogenous (external to the system). Which is an example of an EXOGENOUS driver in the Nexus?",
+  "options": [
+   "Resource governance",
+   "Direct interaction between food production and water consumption",
+   "Energy use for food processing",
+   "Rain and currency conversion",
+   "Agricultural irrigation systems"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Rain and currency conversion",
+  "stemId": "Dalam pendekatan Nexus Pangan-Energi-Air, terdapat konsep “pendorong” (*driver*) yang dapat bersifat endogen (internal terhadap sistem) atau eksogen (eksternal terhadap sistem). Manakah contoh pendorong EKSOGEN dalam Nexus?",
+  "optionsId": [
+   "Tata kelola sumber daya",
+   "Interaksi langsung antara produksi pangan dan konsumsi air",
+   "Penggunaan energi untuk pengolahan pangan",
+   "Hujan dan konversi mata uang",
+   "Sistem irigasi pertanian"
+  ],
+  "answerTextId": "Hujan dan konversi mata uang",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-24",
+  "source": "uts25",
+  "n": 24,
+  "stem": "An example of a Nexus intervention is “Agricultural Conservation”, which affects all three securities (water-energy-food). The impact of this intervention on energy security is:",
+  "options": [
+   "Better soil water retention",
+   "Use of engines that can increase fuel consumption",
+   "Increase in food ingredients and their diversity",
+   "Reduced deforestation increases water retention",
+   "Change in cooking habits"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Use of engines that can increase fuel consumption",
+  "stemId": "Contoh intervensi Nexus adalah “Konservasi Pertanian” yang berdampak pada ketiga ketahanan (air-energi-pangan). Dampak terhadap ketahanan energi dari intervensi ini adalah:",
+  "optionsId": [
+   "Retensi air tanah yang lebih baik",
+   "Penggunaan mesin yang dapat meningkatkan konsumsi bahan bakar",
+   "Peningkatan bahan pangan dan keragamannya",
+   "Berkurangnya deforestasi meningkatkan retensi air",
+   "Perubahan kebiasaan memasak"
+  ],
+  "answerTextId": "Penggunaan mesin yang dapat meningkatkan konsumsi bahan bakar",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-25",
+  "source": "uts25",
+  "n": 25,
+  "stem": "SDG interlinkages show that achieving one SDG can have a positive (synergy) or negative (*trade-off*) impact on other SDGs. Based on the literature review (Boar et al., 2021), which SDG pair shows the STRONGEST SYNERGY in the environmental dimension?",
+  "options": [
+   "SDG 1 (No Poverty) with SDG 8 (Decent Work)",
+   "SDG 7 (Clean Energy) with SDG 13 (Climate Action)",
+   "SDG 4 (Education) with SDG 5 (Gender Equality)",
+   "SDG 9 (Industry, Innovation) with SDG 17 (Partnerships)",
+   "SDG 11 (Sustainable Cities) with SDG 16 (Peace, Justice)"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "SDG 7 (Clean Energy) with SDG 13 (Climate Action)",
+  "stemId": "Keterkaitan antar-SDG menunjukkan bahwa pencapaian satu SDG dapat berdampak positif (sinergi) atau negatif (*trade-off*) pada SDG lain. Berdasarkan kajian literatur (Boar dkk., 2021), pasangan SDG manakah yang menunjukkan SINERGI TERKUAT dalam dimensi lingkungan?",
+  "optionsId": [
+   "SDG 1 (Tanpa Kemiskinan) dengan SDG 8 (Pekerjaan Layak)",
+   "SDG 7 (Energi Bersih) dengan SDG 13 (Aksi Iklim)",
+   "SDG 4 (Pendidikan) dengan SDG 5 (Kesetaraan Gender)",
+   "SDG 9 (Industri, Inovasi) dengan SDG 17 (Kemitraan)",
+   "SDG 11 (Kota Berkelanjutan) dengan SDG 16 (Perdamaian, Keadilan)"
+  ],
+  "answerTextId": "SDG 7 (Energi Bersih) dengan SDG 13 (Aksi Iklim)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-26",
+  "source": "uts25",
+  "n": 26,
+  "stem": "Activity characteristics based on relationships between SDGs can be categorised as: synergy (core activities), *trade-off* (mixed activities), *trade-off* (opposed activities) and *trade-off* (peripheral activities). Into which category does “coal mining” fall?",
+  "options": [
+   "Synergy (core activities)—greater positive impact",
+   "*Trade-off* (mixed activities)—positive and negative impacts balanced",
+   "*Trade-off* (opposed activities)—greater negative impact on SDG achievement",
+   "*Trade-off* (peripheral activities)—no significant impact",
+   "An activity that supports SDG 7 (Clean Energy)"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "*Trade-off* (opposed activities)—greater negative impact on SDG achievement",
+  "stemId": "Karakteristik aktivitas berdasarkan hubungan antar-SDG dapat dikategorikan menjadi: sinergi (aktivitas inti), *trade-off* (aktivitas campuran), *trade-off* (aktivitas berlawanan), dan *trade-off* (aktivitas periferal). Ke dalam kategori manakah “pertambangan batu bara” termasuk?",
+  "optionsId": [
+   "Sinergi (aktivitas inti)—dampak positif lebih besar",
+   "*Trade-off* (aktivitas campuran)—dampak positif dan negatif seimbang",
+   "*Trade-off* (aktivitas berlawanan)—dampak negatif lebih besar terhadap pencapaian SDG",
+   "*Trade-off* (aktivitas periferal)—tidak ada dampak signifikan",
+   "Aktivitas yang mendukung SDG 7 (Energi Bersih)"
+  ],
+  "answerTextId": "*Trade-off* (aktivitas berlawanan)—dampak negatif lebih besar terhadap pencapaian SDG",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-27",
+  "source": "uts25",
+  "n": 27,
+  "stem": "The concept of “*spillover effects*” in SDG achievement between countries shows that one country's actions can affect other countries. An example of a negative spillover for SDG 14 (Life Below Water) is:",
+  "options": [
+   "Export of hazardous pesticides",
+   "Restricted water consumption in imports",
+   "SO2 emissions in imports",
+   "Marine biodiversity in imports",
+   "Export of conventional weapons"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Marine biodiversity in imports",
+  "stemId": "Konsep “efek limpahan” (*spillover effects*) dalam pencapaian SDG antarnegara menunjukkan bahwa tindakan satu negara dapat memengaruhi negara lain. Contoh limpahan negatif pada SDG 14 (Ekosistem Lautan) adalah:",
+  "optionsId": [
+   "Ekspor pestisida berbahaya",
+   "Konsumsi air terbatas pada impor",
+   "Emisi SO2 pada impor",
+   "Keanekaragaman hayati laut pada impor",
+   "Ekspor senjata konvensional"
+  ],
+  "answerTextId": "Keanekaragaman hayati laut pada impor",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-28",
+  "source": "uts25",
+  "n": 28,
+  "stem": "The *Responsible Innovation* (RI) framework has three dimensions of responsibility related to SDG interlinkages: avoiding harm, doing good, and governance. The RI strategy comprises 4 elements (Stilgoe et al., 2013). Which element focuses on involving stakeholders to understand long-term impacts?",
+  "options": [
+   "Anticipation",
+   "Reflexivity",
+   "Inclusion",
+   "Responsiveness",
+   "Knowledge Management"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Inclusion",
+  "stemId": "Kerangka kerja Inovasi Bertanggung Jawab (*Responsible Innovation*, RI) memiliki tiga dimensi tanggung jawab yang berkaitan dengan keterkaitan antar-SDG: menghindari kerugian, berbuat baik, dan tata kelola. Strategi RI mencakup 4 elemen (Stilgoe dkk., 2013). Elemen manakah yang berfokus pada pelibatan pemangku kepentingan untuk memahami dampak jangka panjang?",
+  "optionsId": [
+   "Antisipasi",
+   "Refleksivitas",
+   "Inklusi",
+   "Responsivitas",
+   "Manajemen Pengetahuan"
+  ],
+  "answerTextId": "Inklusi",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-29",
+  "source": "uts25",
+  "n": 29,
+  "stem": "Recycling, as part of SDG 12 (Responsible Consumption and Production), has a *trade-off*. Why is plastic recycling currently not yet cost-effective?",
+  "options": [
+   "Plastic recycling technology has not yet been invented",
+   "People are unwilling to sort plastic waste",
+   "It depends on crude oil prices; recycling is more expensive than producing new plastic from petrochemicals",
+   "Plastic cannot be recycled at all",
+   "All countries have banned the production of new plastic"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "It depends on crude oil prices; recycling is more expensive than producing new plastic from petrochemicals",
+  "stemId": "Daur ulang sebagai bagian dari SDG 12 (Konsumsi dan Produksi yang Bertanggung Jawab) memiliki *trade-off*. Mengapa daur ulang plastik saat ini belum efektif secara biaya?",
+  "optionsId": [
+   "Teknologi daur ulang plastik belum ditemukan",
+   "Masyarakat tidak mau memilah sampah plastik",
+   "Bergantung pada harga minyak mentah; daur ulang lebih mahal daripada memproduksi plastik baru dari petrokimia",
+   "Plastik sama sekali tidak dapat didaur ulang",
+   "Semua negara telah melarang produksi plastik baru"
+  ],
+  "answerTextId": "Bergantung pada harga minyak mentah; daur ulang lebih mahal daripada memproduksi plastik baru dari petrokimia",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-30",
+  "source": "uts25",
+  "n": 30,
+  "stem": "The relationship between technology use and the SDGs shows a correlation with material footprint. The *Environmental Kuznets Curve* describes the relationship between:",
+  "options": [
+   "Population and CO2 emissions",
+   "Income per capita and material/environmental footprint",
+   "Technology and biodiversity",
+   "Renewable energy and economic growth",
+   "Urbanisation and water quality"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Income per capita and material/environmental footprint",
+  "stemId": "Hubungan antara penggunaan teknologi dan SDG menunjukkan korelasi dengan jejak material. Kurva Kuznets Lingkungan (*Environmental Kuznets Curve*) menggambarkan hubungan antara:",
+  "optionsId": [
+   "Populasi dan emisi CO2",
+   "Pendapatan per kapita dan jejak material/lingkungan",
+   "Teknologi dan keanekaragaman hayati",
+   "Energi terbarukan dan pertumbuhan ekonomi",
+   "Urbanisasi dan kualitas air"
+  ],
+  "answerTextId": "Pendapatan per kapita dan jejak material/lingkungan",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-31",
+  "source": "uts25",
+  "n": 31,
+  "stem": "The concept of environmental carrying capacity explains that there is a maximum number of individuals of a species that can be sustainably supported by a particular habitat. The population growth curve approaching carrying capacity has the shape of:",
+  "options": [
+   "Exponential (J-curve)",
+   "Logistic (S-curve)",
+   "Linear",
+   "Parabolic",
+   "Vertical"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Logistic (S-curve)",
+  "stemId": "Konsep daya dukung lingkungan menjelaskan bahwa ada batas maksimum jumlah individu suatu spesies yang dapat didukung secara berkelanjutan oleh habitat tertentu. Kurva pertumbuhan populasi yang mendekati daya dukung berbentuk:",
+  "optionsId": [
+   "Eksponensial (kurva-J)",
+   "Logistik (kurva-S)",
+   "Linear",
+   "Parabolik",
+   "Vertikal"
+  ],
+  "answerTextId": "Logistik (kurva-S)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-32",
+  "source": "uts25",
+  "n": 32,
+  "stem": "The concept of *overpopulation* in the Neo-Malthusian view states that different locations experience different population pressures. Which country shows “overpopulation” in terms of the highest consumption-based emissions despite a relatively small population?",
+  "options": [
+   "Bangladesh (143 million people, 0.38 tonnes CO2 per capita)",
+   "Kenya (32 million people, 0.81 tonnes CO2 per capita)",
+   "United States (288 million people, 23.92 tonnes CO2 per capita)",
+   "China (1,294 million people, 3.91 tonnes CO2 per capita)",
+   "India (more than 1 billion people, 1.93 tonnes CO2 per capita)"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "United States (288 million people, 23.92 tonnes CO2 per capita)",
+  "stemId": "Konsep kelebihan penduduk (*overpopulation*) dalam pandangan Neo-Malthusian menyebutkan bahwa lokasi yang berbeda mengalami tekanan populasi yang berbeda. Negara manakah yang menunjukkan “kelebihan penduduk” dalam hal emisi berbasis konsumsi tertinggi meskipun jumlah penduduknya relatif kecil?",
+  "optionsId": [
+   "Bangladesh (143 juta penduduk, 0,38 ton CO2 per kapita)",
+   "Kenya (32 juta penduduk, 0,81 ton CO2 per kapita)",
+   "Amerika Serikat (288 juta penduduk, 23,92 ton CO2 per kapita)",
+   "Tiongkok (1,294 juta penduduk, 3,91 ton CO2 per kapita)",
+   "India (lebih dari 1 miliar penduduk, 1,93 ton CO2 per kapita)"
+  ],
+  "answerTextId": "Amerika Serikat (288 juta penduduk, 23,92 ton CO2 per kapita)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-33",
+  "source": "uts25",
+  "n": 33,
+  "stem": "The Jevons Paradox explains the phenomenon that improved technological efficiency can lead to an increase in total resource consumption. Which condition describes “*backfire*” in the Jevons Paradox?",
+  "options": [
+   "Efficiency increases—proportional reduction in consumption (RE = 1)",
+   "Efficiency increases—small increase in consumption (RE > 1)",
+   "Efficiency increases—excessive consumption (RE < 1)",
+   "Efficiency increases—no change in consumption",
+   "Efficiency increases—maximum resource savings"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Efficiency increases—excessive consumption (RE < 1)",
+  "stemId": "Paradoks Jevons menjelaskan fenomena bahwa peningkatan efisiensi teknologi dapat menyebabkan peningkatan total konsumsi sumber daya. Kondisi manakah yang menggambarkan “*backfire*” dalam Paradoks Jevons?",
+  "optionsId": [
+   "Efisiensi meningkat—pengurangan konsumsi proporsional (RE = 1)",
+   "Efisiensi meningkat—peningkatan konsumsi yang kecil (RE > 1)",
+   "Efisiensi meningkat—konsumsi berlebihan (RE < 1)",
+   "Efisiensi meningkat—tidak ada perubahan konsumsi",
+   "Efisiensi meningkat—penghematan sumber daya maksimum"
+  ],
+  "answerTextId": "Efisiensi meningkat—konsumsi berlebihan (RE < 1)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-34",
+  "source": "uts25",
+  "n": 34,
+  "stem": "Consumption-based per-capita CO2 emission data (2021) show significant differences between countries. “Consumption-based emissions” differ from “production-based emissions” because they:",
+  "options": [
+   "Count only emissions from motor vehicles",
+   "Account for trade: production-based emissions minus emissions embedded in exports, plus emissions embedded in imports",
+   "Count only emissions from power plants",
+   "Exclude emissions from the transport sector",
+   "Are exactly the same as production-based emissions"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Account for trade: production-based emissions minus emissions embedded in exports, plus emissions embedded in imports",
+  "stemId": "Data emisi CO2 per kapita berbasis konsumsi (2021) menunjukkan perbedaan yang signifikan antarnegara. “Emisi berbasis konsumsi” berbeda dari “emisi berbasis produksi” karena emisi tersebut:",
+  "optionsId": [
+   "Hanya menghitung emisi dari kendaraan bermotor",
+   "Memperhitungkan perdagangan: emisi berbasis produksi dikurangi emisi yang terkandung dalam ekspor, ditambah emisi yang terkandung dalam impor",
+   "Hanya menghitung emisi dari pembangkit listrik",
+   "Mengecualikan emisi dari sektor transportasi",
+   "Persis sama dengan emisi berbasis produksi"
+  ],
+  "answerTextId": "Memperhitungkan perdagangan: emisi berbasis produksi dikurangi emisi yang terkandung dalam ekspor, ditambah emisi yang terkandung dalam impor",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-35",
+  "source": "uts25",
+  "n": 35,
+  "stem": "The concept of *overconsumption* is explained differently from *hyperconsumption*. Which example MOST ACCURATELY describes overconsumption (not hyperconsumption)?",
+  "options": [
+   "Buying the latest smartphone every year to stay up to date",
+   "*Fast fashion*: buying the latest clothing styles every month to follow trends",
+   "Using fertiliser excessively beyond the plants' needs, causing eutrophication",
+   "Replacing cheap, low-quality furniture (*fast furniture*) every year",
+   "Buying gadgets because of peer pressure and social status"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "Using fertiliser excessively beyond the plants' needs, causing eutrophication",
+  "stemId": "Konsep konsumsi berlebih (*overconsumption*) dijelaskan secara berbeda dari hiperkonsumsi (*hyperconsumption*). Contoh manakah yang PALING TEPAT menggambarkan konsumsi berlebih (bukan hiperkonsumsi)?",
+  "optionsId": [
+   "Membeli ponsel pintar terbaru setiap tahun agar selalu mutakhir",
+   "*Fast fashion*: membeli pakaian model terbaru setiap bulan untuk mengikuti tren",
+   "Menggunakan pupuk secara berlebihan melebihi kebutuhan tanaman sehingga menyebabkan eutrofikasi",
+   "Mengganti furnitur murah berkualitas rendah (*fast furniture*) setiap tahun",
+   "Membeli gawai karena tekanan teman sebaya dan status sosial"
+  ],
+  "answerTextId": "Menggunakan pupuk secara berlebihan melebihi kebutuhan tanaman sehingga menyebabkan eutrofikasi",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-36",
+  "source": "uts25",
+  "n": 36,
+  "stem": "According to John Ehrenfeld, addictive consumption is consumption that becomes an addiction and is unrelated to actual needs. Which example best describes addictive consumption with a low level of individual health?",
+  "options": [
+   "Buying many books for a personal collection",
+   "Obesity resulting from excessive food consumption",
+   "Collecting rare stamps",
+   "Subscribing to many *streaming* services",
+   "Buying many ornamental plants"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Obesity resulting from excessive food consumption",
+  "stemId": "Konsumsi adiktif menurut John Ehrenfeld adalah konsumsi yang menjadi kecanduan dan tidak berkaitan dengan kebutuhan sebenarnya. Contoh manakah yang paling tepat menggambarkan konsumsi adiktif dengan tingkat kesehatan individu yang rendah?",
+  "optionsId": [
+   "Membeli banyak buku untuk koleksi pribadi",
+   "Obesitas akibat konsumsi makanan yang berlebihan",
+   "Mengoleksi perangko langka",
+   "Berlangganan banyak layanan *streaming*",
+   "Membeli banyak tanaman hias"
+  ],
+  "answerTextId": "Obesitas akibat konsumsi makanan yang berlebihan",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-37",
+  "source": "uts25",
+  "n": 37,
+  "stem": "A question on agricultural innovation and population growth: the Green Revolution increased food production dramatically. The shift in concept from *Food Sufficiency* to *Food Security* shows a change in focus from:",
+  "options": [
+   "Production quantity alone to access, availability, utilisation and stability",
+   "Traditional agriculture to modern agriculture",
+   "Extensification to intensification",
+   "Food imports to food exports",
+   "Plant-based food to animal-based food"
+  ],
+  "answer": [
+   0
+  ],
+  "answerText": "Production quantity alone to access, availability, utilisation and stability",
+  "stemId": "Pertanyaan tentang inovasi pertanian dan pertumbuhan penduduk: Revolusi Hijau meningkatkan produksi pangan secara dramatis. Pergeseran konsep dari kecukupan pangan (*Food Sufficiency*) ke ketahanan pangan (*Food Security*) menunjukkan perubahan fokus dari:",
+  "optionsId": [
+   "Kuantitas produksi semata ke akses, ketersediaan, pemanfaatan, dan stabilitas",
+   "Pertanian tradisional ke pertanian modern",
+   "Extensifikasi ke intensifikasi",
+   "Impor pangan ke ekspor pangan",
+   "Pangan nabati ke pangan hewani"
+  ],
+  "answerTextId": "Kuantitas produksi semata ke akses, ketersediaan, pemanfaatan, dan stabilitas",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-38",
+  "source": "uts25",
+  "n": 38,
+  "stem": "The Kuznets and Kurzweil argument about the Environmental Kuznets Curve states that as “*affluence*” increases and technology becomes more advanced, environmental impact decreases. Tropical deforestation data show: Brazil 33.12%, Indonesia 13.94%, Americas (excluding Brazil and Mexico) 20.85%. Do these data support the Kuznets argument?",
+  "options": [
+   "Yes, fully, because developed countries do not cause deforestation",
+   "Not entirely, because deforestation continues in developing countries to meet global consumption demand, including from developed countries",
+   "Yes, because Indonesia and Brazil are the main actors",
+   "Not relevant to the Kuznets argument",
+   "Yes, because these data show that poor countries are responsible"
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Not entirely, because deforestation continues in developing countries to meet global consumption demand, including from developed countries",
+  "stemId": "Argumen Kuznets dan Kurzweil tentang Kurva Kuznets Lingkungan menyatakan bahwa seiring meningkatnya “kemakmuran” (*affluence*) dan makin canggihnya teknologi, dampak lingkungan berkurang. Data deforestasi tropis menunjukkan: Brasil 33,12%, Indonesia 13,94%, Amerika (di luar Brasil dan Meksiko) 20,85%. Apakah data ini mendukung argumen Kuznets?",
+  "optionsId": [
+   "Ya, sepenuhnya mendukung karena negara maju tidak menyebabkan deforestasi",
+   "Tidak sepenuhnya karena deforestasi terus berlanjut di negara berkembang untuk memenuhi permintaan konsumsi global, termasuk dari negara maju",
+   "Ya karena Indonesia dan Brasil adalah pelaku utama",
+   "Tidak relevan dengan argumen Kuznets",
+   "Ya karena data ini menunjukkan bahwa negara miskin yang bertanggung jawab"
+  ],
+  "answerTextId": "Tidak sepenuhnya karena deforestasi terus berlanjut di negara berkembang untuk memenuhi permintaan konsumsi global, termasuk dari negara maju",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "images": [
+   "quiz/uts25/u25-38-1.jpg"
+  ]
+ },
+ {
+  "id": "u25-39",
+  "source": "uts25",
+  "n": 39,
+  "stem": "The case of Semarang, facing coastal abrasion with infrastructure investment: sea dikes, sea walls, a maritime toll road, mangrove forest and tyres. This approach combines grey infrastructure (*gray infrastructure*) and nature-based solutions. Why is combining the two more effective?",
+  "options": [
+   "Grey infrastructure alone is enough to deal with abrasion",
+   "Nature-based solutions (mangroves) alone can solve every problem",
+   "The combination provides short-term structural protection (grey) as well as long-term resilience and additional ecological benefits (nature-based)",
+   "It is cheaper to use both",
+   "Because regulations require the use of both"
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "The combination provides short-term structural protection (grey) as well as long-term resilience and additional ecological benefits (nature-based)",
+  "stemId": "Kasus Semarang yang menghadapi abrasi pantai dengan investasi infrastruktur: tanggul laut, dinding laut, jalan tol laut, hutan mangrove, dan ban. Pendekatan ini memadukan infrastruktur abu-abu (*gray infrastructure*) dan solusi berbasis alam. Mengapa memadukan keduanya lebih efektif?",
+  "optionsId": [
+   "Infrastruktur abu-abu saja sudah cukup untuk mengatasi abrasi",
+   "Solusi berbasis alam (mangrove) saja dapat menyelesaikan semua masalah",
+   "Kombinasi ini memberikan perlindungan struktural jangka pendek (abu-abu) serta ketahanan jangka panjang dan manfaat ekologis tambahan (berbasis alam)",
+   "Lebih murah jika menggunakan keduanya",
+   "Karena peraturan mewajibkan penggunaan keduanya"
+  ],
+  "answerTextId": "Kombinasi ini memberikan perlindungan struktural jangka pendek (abu-abu) serta ketahanan jangka panjang dan manfaat ekologis tambahan (berbasis alam)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-40",
+  "source": "uts25",
+  "n": 40,
+  "stem": "Which statement accurately defines the Jevons Paradox, as originally put forward by W. Stanley Jevons in 1865?",
+  "options": [
+   "Economical use of fuel naturally causes total energy consumption to fall.",
+   "Increased efficiency in energy use causes total consumption of that resource to rise rather than fall",
+   "Consumption levels stay static regardless of improvements in technological efficiency.",
+   "The size of appliances, such as refrigerators, is directly proportional to their energy efficiency.",
+   "Efficiency mandates are a politically motivated tool to limit economic growth."
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Increased efficiency in energy use causes total consumption of that resource to rise rather than fall",
+  "stemId": "Pernyataan manakah yang secara akurat mendefinisikan Paradoks Jevons, sebagaimana awalnya dikemukakan oleh W. Stanley Jevons pada 1865?",
+  "optionsId": [
+   "Penggunaan bahan bakar secara hemat secara alami menyebabkan total konsumsi energi menurun.",
+   "Peningkatan efisiensi penggunaan energi menyebabkan total konsumsi sumber daya tersebut meningkat, bukan menurun",
+   "Tingkat konsumsi tetap statis terlepas dari peningkatan efisiensi teknologi.",
+   "Ukuran peralatan, seperti kulkas, berbanding lurus dengan efisiensi energinya.",
+   "Mandat efisiensi adalah alat bermotif politik untuk membatasi pertumbuhan ekonomi."
+  ],
+  "answerTextId": "Peningkatan efisiensi penggunaan energi menyebabkan total konsumsi sumber daya tersebut meningkat, bukan menurun",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "high"
+ },
+ {
+  "id": "u25-41",
+  "source": "uts25",
+  "n": 41,
+  "stem": "David Goldstein, in his discussion “Some Dilemma”, analysed trends in refrigerator size and energy use. According to his analysis (Figure 1), which refrigerator-size trend challenges the hypothesis that the Jevons Paradox explains the growth of refrigerators?",
+  "options": [
+   "Refrigerator size kept increasing even after 2000, which confirms the paradox.",
+   "The trend of increasing size slowed down when efficiency began to improve (after 1972)",
+   "The size increase was initially driven mainly by the introduction of energy-wasting *side-by-side* models.",
+   "Cooling capacity only surged in suburban homes, but not in urban areas",
+   "The massive size increase initially happened precisely *when* efficiency was improving rapidly."
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "The trend of increasing size slowed down when efficiency began to improve (after 1972)",
+  "stemId": "David Goldstein, dalam pembahasannya “Some Dilemma”, menganalisis tren ukuran dan penggunaan energi kulkas. Menurut analisisnya (Gambar 1), tren ukuran kulkas manakah yang menantang hipotesis bahwa Paradoks Jevons menjelaskan pertumbuhan kulkas?",
+  "optionsId": [
+   "Ukuran kulkas terus meningkat bahkan setelah tahun 2000, yang menegaskan paradoks tersebut.",
+   "Tren peningkatan ukuran melambat ketika efisiensi mulai membaik (setelah 1972)",
+   "Peningkatan ukuran pada awalnya terutama didorong oleh pengenalan model *side-by-side* yang boros energi.",
+   "Peningkatan kapasitas pendinginan hanya melonjak di rumah-rumah pinggiran kota, tetapi tidak di perkotaan",
+   "Peningkatan ukuran yang masif pada awalnya terjadi justru *ketika* efisiensi meningkat pesat."
+  ],
+  "answerTextId": "Tren peningkatan ukuran melambat ketika efisiensi mulai membaik (setelah 1972)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "images": [
+   "quiz/uts25/u25-41-1.jpg"
+  ]
+ },
+ {
+  "id": "u25-42",
+  "source": "uts25",
+  "n": 42,
+  "stem": "The debate over whether efficiency causes “*backfire*” highlights an important sustainability concept. According to Lloyd Alter and Zack Semke, what crucial concept do they agree is needed for a successful sustainability approach, shifting the focus beyond mere energy efficiency?",
+  "options": [
+   "The inevitability of conspicuous consumption",
+   "The need for stricter energy-efficiency mandates.",
+   "The *rebound* hypothesis is completely wrong and misleading.",
+   "That sufficiency (*sufficiency*) is the key, not just efficiency",
+   "That all energy-efficiency improvements eventually cause *backfire*"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "That sufficiency (*sufficiency*) is the key, not just efficiency",
+  "stemId": "Perdebatan tentang apakah efisiensi menyebabkan “*backfire*” menyoroti sebuah konsep keberlanjutan yang penting. Menurut Lloyd Alter dan Zack Semke, konsep krusial apa yang mereka sepakati diperlukan untuk pendekatan keberlanjutan yang berhasil, yang menggeser fokus melampaui sekadar efisiensi energi?",
+  "optionsId": [
+   "Tak terhindarkannya konsumsi mencolok",
+   "Perlunya mandat efisiensi energi yang lebih ketat.",
+   "Hipotesis *rebound* sepenuhnya keliru dan menyesatkan.",
+   "Bahwa kecukupan (*sufficiency*) adalah kuncinya, bukan sekadar efisiensi",
+   "Bahwa semua peningkatan efisiensi energi pada akhirnya menyebabkan *backfire*"
+  ],
+  "answerTextId": "Bahwa kecukupan (*sufficiency*) adalah kuncinya, bukan sekadar efisiensi",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-43",
+  "source": "uts25",
+  "n": 43,
+  "stem": "The Jevons Paradox has survived 150 years since it was introduced mainly because of “politics”. According to Semke, why is the idea still prominently discussed today?",
+  "options": [
+   "Ongoing scientific experiments prove that the paradox applies universally to all technologies.",
+   "The concept is fundamentally correct, but its application is often misinterpreted.",
+   "The idea is politically attractive to groups opposed to energy-efficiency mandates, giving rise to a storytelling “*cottage industry*”",
+   "… it accurately explains the rise in modern resource consumption, such as water and *bandwidth*.",
+   "Its original text, *The Coal Question*, has recently become popular again among environmental activists."
+  ],
+  "answer": [
+   2
+  ],
+  "answerText": "The idea is politically attractive to groups opposed to energy-efficiency mandates, giving rise to a storytelling “*cottage industry*”",
+  "stemId": "Paradoks Jevons bertahan 150 tahun sejak diperkenalkan terutama karena “politik”. Menurut Semke, mengapa gagasan ini terus dibahas secara menonjol saat ini?",
+  "optionsId": [
+   "Eksperimen ilmiah yang sedang berjalan membuktikan bahwa paradoks tersebut berlaku universal pada semua teknologi.",
+   "Konsepnya pada dasarnya benar, tetapi penerapannya sering disalahartikan.",
+   "Gagasan ini menarik secara politis bagi kelompok yang menentang mandat efisiensi energi sehingga melahirkan “industri rumahan” (*cottage industry*) pendongengan",
+   "… secara akurat menjelaskan peningkatan konsumsi sumber daya modern, seperti air dan pita lebar (*bandwidth*).",
+   "Teks aslinya, *The Coal Question*, belakangan kembali populer di kalangan pegiat lingkungan."
+  ],
+  "answerTextId": "Gagasan ini menarik secara politis bagi kelompok yang menentang mandat efisiensi energi sehingga melahirkan “industri rumahan” (*cottage industry*) pendongengan",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-44",
+  "source": "uts25",
+  "n": 44,
+  "stem": "Stephen Stuart offers a sociological perspective on the desire for ever-larger appliances. He states that this trend is an “old dilemma” that replaces declining social connectedness with material possessions. What specific term does Stuart use to describe the act of seeking “shiny objects to soothe our souls” and wrongly feeding the ego?",
+  "options": [
+   "Efficiency dilemma",
+   "Conspicuous consumption (*conspicuous consumption*)",
+   "*Rebound* hypothesis",
+   "Suburban economic machine (*suburban economic machine*)",
+   "Energy consumption escalation."
+  ],
+  "answer": [
+   1
+  ],
+  "answerText": "Conspicuous consumption (*conspicuous consumption*)",
+  "stemId": "Stephen Stuart menawarkan perspektif sosiologis tentang keinginan akan peralatan yang makin besar. Ia menyatakan bahwa tren ini merupakan “dilema lama” yang menggantikan keterhubungan sosial yang menurun dengan kepemilikan materi. Istilah khusus apa yang digunakan Stuart untuk menggambarkan tindakan mencari “benda berkilau untuk menenangkan jiwa kita” dan secara keliru memupuk ego?",
+  "optionsId": [
+   "Dilema efisiensi",
+   "Konsumsi mencolok (*conspicuous consumption*)",
+   "Hipotesis *rebound*",
+   "Mesin ekonomi pinggiran kota (*suburban economic machine*)",
+   "Eskalasi konsumsi energi."
+  ],
+  "answerTextId": "Konsumsi mencolok (*conspicuous consumption*)",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-45",
+  "source": "uts25",
+  "n": 45,
+  "stem": "The “materials revolution” proposed for the construction sector, needed to tackle the huge *upfront carbon* emissions (NOW emissions), involves replacing carbon-intensive traditional materials mainly with which alternatives?",
+  "options": [
+   "Aluminium, copper and steel because they are easy to recycle.",
+   "Cement and clinker because of advances in carbon capture during production.",
+   "Non-metallic mineral products and concrete aggregates.",
+   "Bio-based materials, such as timber and straw, that can store carbon.",
+   "Fossil fuels, as the only materials able to support the scale of modern infrastructure."
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Bio-based materials, such as timber and straw, that can store carbon.",
+  "stemId": "“Revolusi material” yang diusulkan untuk sektor konstruksi, yang diperlukan untuk mengatasi emisi karbon di muka (*upfront carbon*) yang sangat besar (emisi NOW), melibatkan penggantian bahan tradisional yang padat karbon terutama dengan alternatif yang mana?",
+  "optionsId": [
+   "Aluminium, tembaga, dan baja karena mudah didaur ulang.",
+   "Semen dan klinker karena kemajuan penangkapan karbon selama produksi.",
+   "Produk mineral nonlogam dan agregat beton.",
+   "Bahan berbasis hayati, seperti kayu dan jerami, yang dapat menyimpan karbon.",
+   "Bahan bakar fosil, sebagai satu-satunya bahan yang mampu menopang skala infrastruktur modern."
+  ],
+  "answerTextId": "Bahan berbasis hayati, seperti kayu dan jerami, yang dapat menyimpan karbon.",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ },
+ {
+  "id": "u25-46",
+  "source": "uts25",
+  "n": 46,
+  "stem": "The “*Electrify Everything Gang*” assumes that decarbonisation can be achieved while keeping “the same-sized houses, the same-sized cars, the same level of comfort, just electric”. The author argues that this is merely a fantasy because it ignores the high costs and the serious *upfront carbon* released during the conversion process. Which principle is emphasised as essential alongside electrification to effectively reduce short-term and long-term emissions?",
+  "options": [
+   "Abundance (*Abundance*), i.e. focusing only on creating large-scale energy storage solutions to deal with intermittency",
+   "Structural Inertia (*Structural Inertia*), which holds that a slow transition is needed to avoid economic collapse.",
+   "Technological Optimism (*Technological Optimism*), which relies on miraculous future technologies to suck carbon out of the atmosphere.",
+   "Sufficiency (*Sufficiency*), i.e. building only what is needed, reducing demand, minimising the replacement of fossil-fuel vehicles with electric vehicles, and promoting efficient, dense housing (*Goldilocks Density*).",
+   "Focusing exclusively on operational emissions because the upfront emissions from making electric cars and batteries are negligible compared with long-term fossil fuel use"
+  ],
+  "answer": [
+   3
+  ],
+  "answerText": "Sufficiency (*Sufficiency*), i.e. building only what is needed, reducing demand, minimising the replacement of fossil-fuel vehicles with electric vehicles, and promoting efficient, dense housing (*Goldilocks Density*).",
+  "stemId": "Kelompok “*Electrify Everything Gang*” berasumsi bahwa dekarbonisasi dapat dicapai sambil mempertahankan “rumah berukuran sama, mobil berukuran sama, tingkat kenyamanan yang sama, tinggal listrik saja”. Penulis berpendapat bahwa hal ini hanyalah khayalan karena mengabaikan biaya yang tinggi serta karbon di muka (*upfront carbon*) yang serius yang dilepaskan selama proses konversi. Prinsip manakah yang ditekankan sebagai hal esensial bersama elektrifikasi untuk mengurangi emisi jangka pendek dan jangka panjang secara efektif?",
+  "optionsId": [
+   "Kelimpahan (*Abundance*), yaitu berfokus hanya pada penciptaan solusi penyimpanan energi berskala besar untuk menangani sifat intermiten",
+   "Inersia Struktural (*Structural Inertia*), yang menyatakan bahwa transisi yang lambat diperlukan untuk menghindari keruntuhan ekonomi.",
+   "Optimisme Teknologi (*Technological Optimism*), yang mengandalkan teknologi ajaib di masa depan untuk menyedot karbon dari atmosfer.",
+   "Kecukupan (*Sufficiency*), yaitu membangun hanya yang diperlukan, mengurangi permintaan, meminimalkan penggantian kendaraan berbahan bakar fosil dengan kendaraan listrik, dan mendorong perumahan yang efisien dan padat (*Goldilocks Density*).",
+   "Berfokus secara eksklusif pada emisi operasional karena emisi di muka dari pembuatan mobil listrik dan baterai dapat diabaikan dibandingkan dengan penggunaan bahan bakar fosil jangka panjang"
+  ],
+  "answerTextId": "Kecukupan (*Sufficiency*), yaitu membangun hanya yang diperlukan, mengurangi permintaan, meminimalkan penggantian kendaraan berbahan bakar fosil dengan kendaraan listrik, dan mendorong perumahan yang efisien dan padat (*Goldilocks Density*).",
+  "enTranslated": true,
+  "keyStatus": "inferred",
+  "confidence": "medium"
+ }
+]

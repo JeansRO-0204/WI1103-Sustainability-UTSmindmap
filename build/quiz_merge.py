@@ -123,8 +123,8 @@ def ingest(src, raw_path, tags_path, required, out, nodes, topics):
         elif "answer" in t and as_index(t["answer"]) != (q["answer"][0] if q.get("answer") else None) and q.get("keyStatus") != "disputed":
             err(f"{where}: tag answer {t['answer']!r} differs from the quiz key {q.get('answer')!r}; set keyStatus 'disputed' with a note")
         check_question(q, where, nodes, topics)
-        if src in ("quiz1", "latsol"): check_bilingual(q, where, src)
-        if src == "latsol": check_latsol(q, where)
+        if src in ("quiz1", "latsol", "uts25"): check_bilingual(q, where, src)
+        if src in ("latsol", "uts25"): check_latsol(q, where)
         added.append(q)
     added.sort(key=lambda q: q.get("n", 0))
     out.extend(added)
@@ -151,7 +151,7 @@ def check_latsol(q, where):
 
 def check_bilingual(q, where, src="quiz1"):
     if q.get("source") != src: err(f"{where}: source must be '{src}'")
-    pat, ex = (r"q1-\d+", "q1-07") if src == "quiz1" else (r"lp-\d+", "lp-07")
+    pat, ex = {"quiz1": (r"q1-\d+", "q1-07"), "latsol": (r"lp-\d+", "lp-07"), "uts25": (r"u25-\d+", "u25-07")}[src]
     if not re.fullmatch(pat, str(q.get("id", ""))): err(f"{where}: id must look like {ex}")
     opts = q.get("options") or []
     if "optionsId" in q or "stemId" in q:
@@ -175,7 +175,7 @@ def main():
     topics = topics_of(load(K / "topics.json", "topics"))
 
     questions, cards = [], []
-    n_quiz2 = n_quiz1 = n_latsol = 0
+    n_quiz2 = n_quiz1 = n_latsol = n_uts25 = 0
     if args.sample:
         s = load(K / "quiz.sample.json", "sample", required=True) or {}
         questions, cards = s.get("questions", []), s.get("flashcards", [])
@@ -191,6 +191,7 @@ def main():
             if ".sample." in rp.name: continue
             n_latsol += ingest("latsol", rp, rp.with_name(rp.name.replace(".raw.json", ".tags.json")), False, questions, nodes, topics)
         if not n_latsol: warn("no latsol.*.raw.json ingested yet")
+        n_uts25 = ingest("uts25", K / "uts25.raw.json", K / "uts25.tags.json", False, questions, nodes, topics)
 
         files = sorted(glob.glob(str(K / "generated.*.json")), key=lambda p: Path(p).name)
         if not files: warn("no generated.*.json files yet")
@@ -250,7 +251,7 @@ def main():
     if not questions and not cards and not args.sample:
         print("quiz_merge: nothing to merge yet (no tagged quiz2 questions, no generated files); quiz.json NOT written", file=sys.stderr)
         return 1
-    out = {"meta": {"generated": datetime.date.today().isoformat(), "quiz2Count": n_quiz2, "quiz1Count": n_quiz1, "latsolCount": n_latsol,
+    out = {"meta": {"generated": datetime.date.today().isoformat(), "quiz2Count": n_quiz2, "quiz1Count": n_quiz1, "latsolCount": n_latsol, "uts25Count": n_uts25,
                     "generatedCount": len([q for q in questions if q.get("source") == "generated"]), "flashcardCount": len(cards)},
            "questions": questions, "flashcards": cards}
     if args.sample:
@@ -259,7 +260,7 @@ def main():
     (K / "quiz.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     by_mod = {}
     for q in questions: by_mod[q["module"]] = by_mod.get(q["module"], 0) + 1
-    print(f"wrote knowledge/quiz/quiz.json: {len(questions)} questions ({n_quiz2} quiz2 + {n_quiz1} quiz1 + {n_latsol} latsol + {len(questions) - n_quiz2 - n_quiz1 - n_latsol} generated), {len(cards)} flashcards; per module {dict(sorted(by_mod.items()))}; {len(warnings)} warning(s)")
+    print(f"wrote knowledge/quiz/quiz.json: {len(questions)} questions ({n_quiz2} quiz2 + {n_quiz1} quiz1 + {n_latsol} latsol + {n_uts25} uts25 + {len(questions) - n_quiz2 - n_quiz1 - n_latsol - n_uts25} generated), {len(cards)} flashcards; per module {dict(sorted(by_mod.items()))}; {len(warnings)} warning(s)")
     return 0
 
 if __name__ == "__main__":

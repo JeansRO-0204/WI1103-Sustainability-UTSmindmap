@@ -96,7 +96,7 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
   const selPos = ans ? ans.sel : sel
   const ok = !!ans && ans.ok
   const st = ctx.state.items[q.id]
-  const bi = (q.source === 'quiz1' || q.source === 'latsol') && !!q.stemId && q.optionsId?.length === q.options.length // bilingual item
+  const bi = (q.source === 'quiz1' || q.source === 'latsol' || q.source === 'uts25') && !!q.stemId && q.optionsId?.length === q.options.length // bilingual item
   const id = bi && lang === 'id'
   const optText = (i: number) => (id ? q.optionsId![i] : q.options[i])
   return (
@@ -115,9 +115,10 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
         <div className="qtags">
           <span className="tag" style={{ background: ctx.data.moduleColor(q.module) }}>{q.module}</span>
           <span className="tag ghost">{q.topic}</span>
-          <span className="tag ghost">{q.source === 'quiz1' ? `Quiz 1 #${q.n ?? ''}` : q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : q.source === 'latsol' ? `Prediction paper #${q.n ?? ''}` : 'Generated'}</span>
+          <span className="tag ghost">{q.source === 'quiz1' ? `Quiz 1 #${q.n ?? ''}` : q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : q.source === 'latsol' ? `Prediction paper #${q.n ?? ''}` : q.source === 'uts25' ? `UTS 2025 Ver. A #${q.n ?? ''}` : 'Generated'}</span>
           {q.source === 'quiz1' && q.enTranslated && <span className="info-i" tabIndex={0} aria-label="About the English translation" data-tip="English translation by AI; the lecturer's original is Indonesian.">i</span>}
           {q.source === 'latsol' && <span className="info-i" tabIndex={0} aria-label="About the prediction paper" data-tip="Student-made practice paper (SAPPK 2025), not by the lecturer. English is an AI translation; answer key is the authors' and may contain errors.">i</span>}
+          {q.source === 'uts25' && <span className="info-i" tabIndex={0} aria-label="About the UTS 2025 paper" data-tip="UTS 2025 Version A paper (published by @shiromewo, CC BY-NC 4.0). It shipped without an answer key, so the answers here are inferred from the slides. English is an AI translation. Questions 8-17 are not in the PDF.">i</span>}
           {q.source === 'generated' && <span className="info-i" tabIndex={0} aria-label="About generated questions" data-tip="AI-generated from the course slides in the style of Quiz 2. Not written by your lecturer and not independently verified. Check anything doubtful against the cited slides.">i</span>}
           {q.after && <span className="tag ghost" title="This question builds on the earlier numbered one; they are always asked together, in order.">continues #{Number(q.after.replace(/\D/g, ''))}</span>}
           {q.keyStatus === 'inferred' && <span className="tag warn" title="The original quiz had no answer key">key inferred</span>}
@@ -154,7 +155,7 @@ export default function Quiz({ ctx, active, launch }: { ctx: StudyCtx; active: b
             )
           })}
         </div>
-        {q.keyStatus === 'inferred' && !checked && <p className="muted small">{q.source === 'latsol' ? "The authors' answer marking was missing or ambiguous for this question; the answer used here is inferred from the slides." : 'The original quiz shipped without an answer key for this question; the answer used here is inferred from the slides.'}</p>}
+        {q.keyStatus === 'inferred' && !checked && <p className="muted small">{q.source === 'latsol' ? "The authors' answer marking was missing or ambiguous for this question; the answer used here is inferred from the slides." : q.source === 'uts25' ? 'This paper has no answer key; the answer used here is inferred from the slides.' : 'The original quiz shipped without an answer key for this question; the answer used here is inferred from the slides.'}</p>}
         {!checked ? (
           <div className="qactions">
             <button disabled={run.v === 0} onClick={() => go(-1)} title="Previous question (Left arrow)" {...noFocus}>&larr; Back</button>

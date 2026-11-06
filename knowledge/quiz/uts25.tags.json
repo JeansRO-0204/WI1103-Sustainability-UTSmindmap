@@ -1,0 +1,929 @@
+[
+ {
+  "id": "u25-01",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.kerala",
+   "m1.dimensions",
+   "m1.history.brundtland"
+  ],
+  "explanation": "Kerala has a low per-capita income (US$3,100) yet literacy and life expectancy comparable to developed countries, showing that human development need not wait for high GDP or high consumption [M3 s14]. Investing in education and health advances the social and economic pillars without an oversized footprint, unlike the growth-only, US-lifestyle, no-development or coercive options; sustainability needs all three dimensions together [M1 s13].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     14
+    ]
+   },
+   {
+    "module": "M1",
+    "slides": [
+     12,
+     13
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-02",
+  "module": "M6",
+  "topic": "Climate system & GHGs",
+  "nodeIds": [
+   "m6.ghg-sources",
+   "m6.indonesia-endc"
+  ],
+  "explanation": "In 2019 global GHG emissions were energy 34% (20 GtCO2-eq), industry 24% (14), AFOLU 22% (13), transport 15% (8.7) and buildings 6% (3.3), so energy is the largest sector [M6 s32]. The NDC figures (31.89% / 43.2%) are background from [M6 s19-20].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     32,
+     19,
+     20
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "note": "The option numbers match the slide exactly. The question asks about the GLOBAL largest sector; for Indonesia itself, land use/FOLU is also a major source, but that is not what is asked.",
+  "answer": [
+   4
+  ]
+ },
+ {
+  "id": "u25-03",
+  "module": "M2",
+  "topic": "Tragedy of the commons",
+  "nodeIds": [
+   "m2.tragedy-not-commons.maine-lobster",
+   "m2.commons-vs-open-access",
+   "m2.tragedy-not-commons"
+  ],
+  "explanation": "The slides contrast jointly owned, rule-governed commons with unowned open-access resources such as the atmosphere and the open sea [M2 s3-4]. Their example of a commons that escapes the tragedy is the Maine lobster fishery, where local communities set rules that prevent overfishing [M2 s5]; every other option is unregulated open access.",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     3,
+     4,
+     5
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "note": "'Maine, UK' repeats the slide's wording; Maine is actually in the USA (general knowledge).",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-04",
+  "module": "M2",
+  "topic": "Planetary boundaries",
+  "nodeIds": [
+   "m2.pb-safe",
+   "m2.pb.ozone",
+   "m2.pb-transgressed"
+  ],
+  "explanation": "In the 2025 diagram stratospheric ozone depletion (with atmospheric aerosol loading) is still inside the safe operating space, while climate change, biosphere integrity, biogeochemical flows (N, P) and land-system change are all transgressed [M2 s7]. The ozone layer is recovering under the Montreal Protocol [M4 s21-22].",
+  "sources": [
+   {
+    "module": "M2",
+    "slides": [
+     7
+    ]
+   },
+   {
+    "module": "M4",
+    "slides": [
+     21,
+     22
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "note": "Premise says 6 of 9 boundaries are transgressed (2023 figure); the course slide uses the 2025 update: 7 of 9 (ocean acidification newly crossed) [M2 s7, M3 s3]. The answer is the same either way.",
+  "answer": [
+   3
+  ]
+ },
+ {
+  "id": "u25-05",
+  "module": "M3",
+  "topic": "Calculations (IPAT, footprint, energy cost)",
+  "nodeIds": [
+   "m3.calc.ipat",
+   "m3.ipat.2050",
+   "m3.ipat"
+  ],
+  "explanation": "Holding I constant: P x A grows by 1.35 x 4 = 5.4, so T must fall to 1/5.4 = 0.185 of its 2010 value, i.e. impact per unit must be cut about 5.4-fold. The slide states exactly this case and rounds it to decoupling by a factor of 'five' [M3 s19]; IPAT itself is on [M3 s17].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     17,
+     19
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   3
+  ]
+ },
+ {
+  "id": "u25-06",
+  "module": "M3",
+  "topic": "Calculations (IPAT, footprint, energy cost)",
+  "nodeIds": [
+   "m3.calc.footprint",
+   "m3.indonesia-footprint",
+   "m3.how-many-earths"
+  ],
+  "explanation": "Using only the numbers given (Indonesia 2022: footprint 1.8 gha, biocapacity 1.2 gha, deficit -0.6 gha [M3 s40]), footprint/biocapacity = 1.8/1.2 = 1.5, i.e. 150% of biocapacity, which is the 'Earths' ratio the question intends. The 'How many Earths' chart [M3 s41] uses the same overshoot idea (World 1.75, India 0.8) but does not list Indonesia.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     38,
+     40,
+     41
+    ]
+   }
+  ],
+  "keyStatus": "disputed",
+  "confidence": "low",
+  "note": "Premise method is questionable: Global Footprint Network computes 'Earths needed' as national footprint / WORLD average biocapacity per person (about 1.5-1.6 gha), which gives about 1.1-1.2 Earths for Indonesia (closest option 1.0), not footprint / Indonesia's own biocapacity. Key 1.5 follows the only calculation possible from the data given in the question; 1.0 is defensible under the GFN convention (general knowledge, not on the slides).",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-07",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.neo-malthus",
+   "m3.overpopulation"
+  ],
+  "explanation": "Commoner argues technology (fossil fuels, petrochemicals, pesticides) matters more than population numbers [M3 s9]. Canada vs Indonesia makes that point most sharply: a country with one-seventh of the population emits about 7.4 times more per person, so its total impact rivals Indonesia's despite far fewer people; population size alone does not determine pressure [M3 s7, s16].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     7,
+     9,
+     16
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "Option (a) (similar populations, very different per-capita emissions) is also defensible; (b) is preferred because it shows a much smaller population out-polluting a much larger one, i.e. technology/consumption outweighing numbers. Option (c) is internally inconsistent (8.09 vs 4.74 t called 'similar').",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-18",
+  "module": "M6",
+  "topic": "Sustainable cooling",
+  "nodeIds": [
+   "m6.sustainable-cooling",
+   "m6.urban-heat",
+   "m6.ac-adaptation"
+  ],
+  "explanation": "The principles of sustainable cooling are energy savings (efficient units, passive design), environmentally friendly refrigerants (zero ODP, low GWP), renewable energy integration, fair and affordable access, and circular economy/end-of-life management [M6 s29]. It answers the AC dilemma: cooling is needed as adaptation to urban heat but raises energy use and HFC emissions [M6 s26-28].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     26,
+     27,
+     28,
+     29
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-19",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.ccus",
+   "m6.carbon-sequestration"
+  ],
+  "explanation": "CCUS captures CO2 from industrial sources or the air; the 'U' branch turns it into products such as fuels, chemicals or building aggregates, while the 'S' branch stores it permanently underground in oil/gas reservoirs, deep saline aquifers or unmineable coal seams [M6 s37].",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     33,
+     37
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-20",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.afolu",
+   "m6.ghg-sources"
+  ],
+  "explanation": "The slide lists the high-potential AFOLU options with afforestation, reforestation and forest ecosystem restoration first, followed by agroforestry, soil carbon management and bioenergy [M6 s38]; the cited IPCC AR6 figure ranks forest-related measures highest. Livestock methane is not among the listed options.",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     32,
+     38
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "The slide lists four 'high potential' options without ranking them explicitly; the key relies on the list order and the cited IPCC AR6 Ch. 7 figure (forest measures have the largest potential).",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-21",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.carbon-sequestration",
+   "m4.tropical-commons"
+  ],
+  "explanation": "Biological sequestration stores CO2 in vegetation, soils and oceans [M6 s33]. Mangroves are coastal ('blue carbon') ecosystems that the course highlights for carbon storage and coastal protection [M4 s10, M6 s24]; the Amazon is not in Indonesia and the other options are not blue-carbon systems.",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     33,
+     24
+    ]
+   },
+   {
+    "module": "M4",
+    "slides": [
+     10
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "note": "The term 'blue carbon' itself is not defined on the slides; that mangroves are the main blue-carbon ecosystem is general knowledge.",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-22",
+  "module": "M7",
+  "topic": "FEW nexus",
+  "nodeIds": [
+   "m7.few.why",
+   "m7.few"
+  ],
+  "explanation": "Among the nine reasons, 'Interdependence in climate and environmental change' states that climate change affects the availability and quality of food, energy and water [M7 s24]. The other options are the reasons global goods [M7 s24], tightly regulated market and identification/management [M7 s25], and limited access [M7 s23].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     23,
+     24,
+     25
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-23",
+  "module": "M7",
+  "topic": "FEW nexus",
+  "nodeIds": [
+   "m7.nexus.drivers"
+  ],
+  "explanation": "The driver table gives resource governance as an endogenous (direct) driver, rain as an exogenous direct driver and money (currency) conversion as an exogenous indirect driver [M7 s26].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     26
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   3
+  ]
+ },
+ {
+  "id": "u25-24",
+  "module": "M7",
+  "topic": "FEW nexus",
+  "nodeIds": [
+   "m7.nexus.interventions"
+  ],
+  "explanation": "In the interventions table, agricultural conservation brings better soil water retention (water security), 'use of engines that can increase fuel consumption' (energy security) and more food ingredients and diversity (food security) [M7 s27]. Reduced deforestation and changed cooking habits belong to the energy-efficient cookstove row.",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     27
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "note": "Option (b) copies the slide's wording; the original source most likely means engines with better fuel efficiency.",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-25",
+  "module": "M7",
+  "topic": "Technology & SDG relationships",
+  "nodeIds": [
+   "m7.boar",
+   "m7.boar.maps",
+   "m6.others-to-sdg13"
+  ],
+  "explanation": "Boar et al. (2021) find that new technology and renewable energy reduce impacts in the environmental dimension [M7 s17], and SDG 7 is a synergy hub in their diagram [M7 s18]; the clean energy transition is also the lecture's example of another SDG contributing to climate action [M6 s10]. Only option (b) involves an environmental goal.",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     17,
+     18
+    ]
+   },
+   {
+    "module": "M6",
+    "slides": [
+     10
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "The synergy diagram does not draw a direct 7-13 arrow; the key rests on the s17 text and on (b) being the only pair with an environmental-dimension goal.",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-26",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.activities.opposed",
+   "m7.activities"
+  ],
+  "explanation": "Opposed activities have more negative than positive impact on the SDGs; the slide's examples are coal and lignite mining, crude oil extraction, metal mining and extraction of building materials, which harm SDGs 6, 12, 13, 14 and 15 [M7 s9].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-27",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.spillover.types",
+   "m7.spillover"
+  ],
+  "explanation": "In the negative-spillover table, SDG 14 Life Below Water is tracked by 'marine biodiversity (KEHATI) in imports'; pesticides belong to SDG 2, water in imports to SDG 6, SO2 in imports to SDG 12 and conventional weapons to SDG 16 [M7 s5].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     4,
+     5
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   3
+  ]
+ },
+ {
+  "id": "u25-28",
+  "module": "M7",
+  "topic": "Technology & SDG relationships",
+  "nodeIds": [
+   "m7.responsible-innovation"
+  ],
+  "explanation": "Stilgoe et al.'s four RI dimensions are anticipation (systematic thinking about futures), reflexivity (reflecting on one's own assumptions), inclusion (involving stakeholders and the public) and responsiveness (changing direction in response to stakeholders and circumstances) [M7 s19]. Stakeholder involvement is inclusion.",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     19
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "The question blends anticipation ('long-term impacts') with inclusion ('stakeholder involvement'); 'involving stakeholders' is the defining feature of inclusion in the notes. The slide's third responsibility item is 'long-term trade-offs (double effects)', not 'governance'.",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-29",
+  "module": "M7",
+  "topic": "SDG interlinkages",
+  "nodeIds": [
+   "m7.recycling.cost",
+   "m7.recycling"
+  ],
+  "explanation": "Plastic recycling is 'not yet cost-effective (currently)' and 'depends on crude oil prices' [M7 s12]; recycling generally costs more than producing new material [M7 s11].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     11,
+     12
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-30",
+  "module": "M7",
+  "topic": "Technology & SDG relationships",
+  "nodeIds": [
+   "m7.tech-sdg12",
+   "m3.kuznets-kurzweil"
+  ],
+  "explanation": "The slide's inverted-U curve plots per-capita material footprint against per-capita income, rising to a turning point and then falling [M7 s15]; the Kuznets argument links rising affluence with eventually declining impact [M3 s23].",
+  "sources": [
+   {
+    "module": "M7",
+    "slides": [
+     15
+    ]
+   },
+   {
+    "module": "M3",
+    "slides": [
+     23
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-31",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.carrying-capacity"
+  ],
+  "explanation": "As a population approaches the carrying capacity of its habitat, its growth curve takes an S (logistic) shape; the J-curve applies only while resources seem unlimited, far below carrying capacity [M3 s4].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     4
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-32",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.overpopulation",
+   "m3.consumption-co2",
+   "m3.how-many-earths"
+  ],
+  "explanation": "Overpopulation is not set by population size alone but by whether needs exceed carrying capacity, which depends on consumption and technology [M3 s7]. The US, with far fewer people than China or India, has by far the highest per-capita (consumption-based) emissions [M3 s31] and would need about 5 Earths if everyone lived like its residents [M3 s41].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     7,
+     31,
+     41
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "note": "The population/emission figures in the options are not on the slides (they look like older ~2002 data); 'Tiongkok (1,294 juta' is printed as written (i.e. 1,294 million).",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-33",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons",
+   "m3.tech-dual-role"
+  ],
+  "explanation": "The slide defines rebound as increased consumption eating into efficiency savings (labelled RE = 1) and backfire as excessive consumption (overconsumption), labelled RE < 1 [M3 s22]. Option (c) reproduces the slide's backfire line: efficiency rises but consumption rises so much that total use grows.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     21,
+     22
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "The RE labels in the options are garbled relative to standard usage: in the literature backfire means a rebound effect greater than 100% (RE > 1), and option (b) pairs RE > 1 with a 'small' increase, which is not backfire. Chosen by definition ('excessive consumption'), which also matches the slide's own notation 'Backfire ~ RE < 1' [M3 s22].",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-34",
+  "module": "M3",
+  "topic": "Overconsumption",
+  "nodeIds": [
+   "m3.consumption-co2",
+   "m3.overconsumption"
+  ],
+  "explanation": "The slide's map defines consumption-based emissions as national emissions adjusted for trade: production-based emissions minus emissions embedded in exports, plus emissions embedded in imports [M3 s31].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     31
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-35",
+  "module": "M3",
+  "topic": "Overconsumption",
+  "nodeIds": [
+   "m3.overconsumption-examples",
+   "m3.hyperconsumption",
+   "m3.hyperconsumption-examples"
+  ],
+  "explanation": "Overconsumption means using resources beyond need or beyond the ecosystem's ability to recover; overuse of fertiliser beyond plants' needs is one of the slide's examples [M3 s33-34]. Yearly phone upgrades, fast fashion, fast furniture and status-driven purchases are the slides' examples of hyperconsumption, driven by social/psychological factors [M3 s34-35].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     33,
+     34,
+     35
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-36",
+  "module": "M3",
+  "topic": "Overconsumption",
+  "nodeIds": [
+   "m3.addictive-consumption",
+   "m3.overconsumption"
+  ],
+  "explanation": "Ehrenfeld's addictive consumption is unrelated to actual needs and results in low individual health and low participation in society; the slide's example is obesity [M3 s32].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     32
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-37",
+  "module": "M3",
+  "topic": "Carrying capacity & population",
+  "nodeIds": [
+   "m3.agri-tech",
+   "m3.carrying-capacity"
+  ],
+  "explanation": "The slide says agriculture is 'no longer just about Food Sufficiency, but Food Security' [M3 s12]; the notes explain the shift from how much is produced to the four pillars of availability, access, utilisation and stability. Extensification to intensification is a separate shift on the same slide.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     12
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "note": "Option (c) (extensification to intensification) is also on the slide, but it describes the change in farming practice, not the sufficiency-to-security shift.",
+  "answer": [
+   0
+  ]
+ },
+ {
+  "id": "u25-38",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.kuznets-kurzweil",
+   "m3.offshoring",
+   "m3.env-justice"
+  ],
+  "explanation": "The slide shows the same deforestation shares (from commodity production) and asks whether the Kuznets/Kurzweil claim is true [M3 s23]. The course's answer is environmental injustice: goods consumed in rich countries use land and resources in producing countries, so impacts are displaced rather than eliminated [M3 s24-25].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     23,
+     24,
+     25
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-39",
+  "module": "M6",
+  "topic": "Climate change & SDGs",
+  "nodeIds": [
+   "m6.semarang",
+   "m6.coastal",
+   "m5.nbs"
+  ],
+  "explanation": "Semarang's response mixes hard structures (coastal and sea dikes, maritime toll road, tyre dams) with mangrove planting, and the lecturer questions whether a giant sea wall alone is the answer [M6 s24]. Nature-based solutions protect and restore ecosystems while benefiting people and nature [M5 s21], so grey gives immediate protection and green adds long-term resilience and co-benefits.",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     24
+    ]
+   },
+   {
+    "module": "M5",
+    "slides": [
+     21
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "note": "The slide lists the measures but does not state the grey + green rationale; the key follows from the NbS definition and the only option that is not absolute or irrelevant.",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-40",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons"
+  ],
+  "explanation": "The Jevons Paradox: technological progress makes resource use more efficient but has also increased total consumption of the resource [M3 s22]; Jevons observed in 1865 that more efficient steam engines raised Britain's coal use.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     22
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "high",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-41",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons",
+   "m3.tech-dual-role"
+  ],
+  "explanation": "Jevons would predict that cheaper-to-run (more efficient) fridges drive bigger fridges. The chart shows the opposite timing: size grew fastest while energy use was also rising (no efficiency gain), and size growth flattened once energy use began to fall (efficiency improving), which undercuts a Jevons explanation. Jevons Paradox itself is on [M3 s22].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     22
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "Not covered in the slides: the Goldstein fridge analysis comes from an external article. Key read from the figure in the question; option (e) states the reverse of what the curves show.",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-42",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons",
+   "m3.overconsumption"
+  ],
+  "explanation": "The question says the agreed concept goes 'beyond mere energy efficiency', which points to sufficiency: limiting how much we consume rather than only how efficiently. This fits the course message that efficiency gains can be eaten up by rebound/backfire and overconsumption [M3 s22, s30].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     22,
+     30
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "Not covered in the slides: rests on an external article (Lloyd Alter / Zack Semke on the Jevons Paradox and sufficiency). Answer chosen from the stem's own framing.",
+  "answer": [
+   3
+  ]
+ },
+ {
+  "id": "u25-43",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons"
+  ],
+  "explanation": "The stem already says the paradox survives mainly because of 'politics'; the only option giving a political reason is (c): opponents of efficiency mandates find it useful, sustaining a storytelling 'cottage industry'. The slides cover only the paradox itself [M3 s22].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     22
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "Not covered in the slides: rests on an external article by Zack Semke. Option (d) begins with an ellipsis in the original paper.",
+  "answer": [
+   2
+  ]
+ },
+ {
+  "id": "u25-44",
+  "module": "M3",
+  "topic": "Overconsumption",
+  "nodeIds": [
+   "m3.hyperconsumption",
+   "m3.consumption-co2"
+  ],
+  "explanation": "Buying 'shiny objects' to feed the ego and signal status is conspicuous consumption; in course terms it is consumption driven by identity, communication and status rather than function, i.e. hyperconsumption [M3 s30, s34].",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     30,
+     34
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "Not covered in the slides: rests on an external article (Stephen Stuart's comment). 'Conspicuous consumption' is the only option that names a status-seeking behaviour.",
+  "answer": [
+   1
+  ]
+ },
+ {
+  "id": "u25-45",
+  "module": "M6",
+  "topic": "Carbon sequestration & AFOLU",
+  "nodeIds": [
+   "m6.carbon-sequestration",
+   "m6.ghg-sources"
+  ],
+  "explanation": "Bio-based materials such as timber and straw lock away carbon absorbed by plants (biological sequestration in vegetation [M6 s33]) instead of emitting large amounts during manufacture, as cement, steel and aluminium do (industry is 24% of global emissions [M6 s32]).",
+  "sources": [
+   {
+    "module": "M6",
+    "slides": [
+     32,
+     33
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "Not covered in the slides: 'upfront carbon' and the construction materials revolution come from an external article (Lloyd Alter). Key is the only low-carbon, carbon-storing option.",
+  "answer": [
+   3
+  ]
+ },
+ {
+  "id": "u25-46",
+  "module": "M3",
+  "topic": "IPAT & technology",
+  "nodeIds": [
+   "m3.jevons",
+   "m3.tech-dual-role",
+   "m3.ev-battery"
+  ],
+  "explanation": "If technology (electrification) is the only lever, rising consumption and the embodied impacts of new products undo the gains (Jevons/backfire, dual role of technology [M3 s21-22]); EV batteries carry large production footprints [M3 s26]. Reducing demand, i.e. sufficiency, is the complement the author stresses.",
+  "sources": [
+   {
+    "module": "M3",
+    "slides": [
+     21,
+     22,
+     26
+    ]
+   }
+  ],
+  "keyStatus": "inferred",
+  "confidence": "medium",
+  "note": "Not covered in the slides: rests on an external article (Lloyd Alter, 'Electrify Everything' and sufficiency). Option (d) is the only one consistent with the stem's critique; (e) contradicts its upfront-carbon argument.",
+  "answer": [
+   3
+  ]
+ }
+]

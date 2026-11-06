@@ -26,6 +26,7 @@ export function scopeLabel(s: Scope, ctx: StudyCtx): string {
     case 'quiz1': return 'Quiz 1 questions'
     case 'quiz2': return 'Quiz 2 questions'
     case 'latsol': return 'Prediction paper questions'
+    case 'uts25': return 'UTS 2025 Version A'
     case 'gen': return 'Generated questions'
     case 'unseen': return 'Unseen items'
     case 'node': return `Concept: ${ctx.data.nodes.get(s.id)?.label ?? s.id}`
@@ -34,7 +35,7 @@ export function scopeLabel(s: Scope, ctx: StudyCtx): string {
 
 const KINDS: { k: Scope['kind']; label: string }[] = [
   { k: 'all', label: 'All' }, { k: 'week', label: 'A week' }, { k: 'topic', label: 'A topic' }, { k: 'weakest', label: 'Weakest topics' },
-  { k: 'due', label: 'Due now' }, { k: 'quiz1', label: 'Quiz 1 only' }, { k: 'quiz2', label: 'Quiz 2 only' }, { k: 'latsol', label: 'Prediction paper' }, { k: 'gen', label: 'Generated only' }, { k: 'unseen', label: 'Unseen' },
+  { k: 'due', label: 'Due now' }, { k: 'quiz1', label: 'Quiz 1 only' }, { k: 'quiz2', label: 'Quiz 2 only' }, { k: 'latsol', label: 'Prediction paper' }, { k: 'uts25', label: 'UTS 2025 (Ver. A)' }, { k: 'gen', label: 'Generated only' }, { k: 'unseen', label: 'Unseen' },
 ]
 
 export default function Setup({ kind, ctx, onStart }: { kind: 'quiz' | 'cards'; ctx: StudyCtx; onStart: (ids: string[], label: string) => void }) {
@@ -106,9 +107,9 @@ export default function Setup({ kind, ctx, onStart }: { kind: 'quiz' | 'cards'; 
           <input type="checkbox" checked={cram || sk === 'due'} disabled={sk === 'due'} onChange={(e) => setCram(e.target.checked)} /> Cram mode (ignore due dates)
         </label>
       </div>
-      {ik === 'q' && pool.some((i) => i.src === 'latsol') && (
+      {ik === 'q' && pool.some((i) => i.src === 'latsol' || i.src === 'uts25') && (
         <div className="row">
-          <label title="Prediction paper: 'Paper order' plays the selected questions in the paper's own numbering; 'Shuffled' mixes them. Follow-up questions (e.g. 'see previous number') always stay right after the one they build on.">Prediction paper order&nbsp;
+          <label title="Prediction paper and UTS 2025: 'Paper order' plays the selected questions in the paper's own numbering; 'Shuffled' mixes them. Follow-up questions (e.g. 'see previous number') always stay right after the one they build on.">Prediction paper / UTS 2025 order&nbsp;
             <select value={order} onChange={(e) => { const o = e.target.value as Order; setOrd(o); setOrder(o) }}>
               <option value="source">Paper order (true numbering)</option>
               <option value="shuffle">Shuffled (follow-ups stay together)</option>

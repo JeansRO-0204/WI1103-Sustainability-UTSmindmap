@@ -17,7 +17,7 @@ Everything is plain files + stdlib Python (no API keys, no provider lock-in):
 **Search and navigation:** press Cmd/Ctrl+K anywhere for a palette over concepts, slides, quiz questions (EN and ID) and flashcards. In Quiz and Cards, use the numbered strip or ← / → to go back to earlier items; a flashcard grade can be changed afterwards.
 
 ## Practice (quiz, flashcards, proficiency)
-Open the site's **Quiz / Cards / Progress** tabs: Quiz 1 (bilingual EN/ID toggle, once ingested), the student-made 'Prediction paper' (100 MCQs with figures, EN/ID, authors' unofficial key flagged where the slides disagree) and Quiz 2's 45 questions verbatim plus ~180 generated questions in the same style, and a flashcard for every importance-3 concept. Spaced repetition and per-topic proficiency are saved in your browser (use Export/Import on the Progress tab to move devices). Data: `knowledge/quiz/quiz.json` (rebuild with `python3 build/quiz_merge.py`, which also merges `quiz1.raw/tags.json`); where Quiz 2's key disagrees with the slides see `knowledge/quiz/RECONCILIATION.md`.
+Open the site's **Quiz / Cards / Progress** tabs: Quiz 1 (bilingual EN/ID toggle, once ingested), the student-made 'Prediction paper' (100 MCQs with figures, EN/ID, authors' unofficial key flagged where the slides disagree) and the 'UTS 2025 (Ver. A)' paper (36 MCQs, EN/ID; the PDF ships without a key, so answers are inferred from the slides and flagged), Quiz 2's 45 questions verbatim plus ~180 generated questions in the same style, and a flashcard for every importance-3 concept. Spaced repetition and per-topic proficiency are saved in your browser (use Export/Import on the Progress tab to move devices). Data: `knowledge/quiz/quiz.json` (rebuild with `python3 build/quiz_merge.py`, which also merges `quiz1.raw/tags.json`); where Quiz 2's key disagrees with the slides see `knowledge/quiz/RECONCILIATION.md`.
 
 ## Layout
 - `knowledge/` graph.json (concepts), chunks.jsonl + corpus.md (slide text and speaker notes), INDEX.md
@@ -28,4 +28,5 @@ Original lecture files (`ppt/`) and PDFs are included. Content is the author's s
 
 ## Credits
 - "Latihan Soal UTS Sustainability" prediction paper (questions, key and figures): Justin Christian (@justin_christiannn) and Vinca Anindya Aurora (@vincaanindyaa), SAPPK 2025. English versions are AI translations.
+- "UTS Pengantar Prinsip Keberlanjutan 2025 Versi A" paper: published by @shiromewo under CC BY-NC 4.0 (non-commercial use; this study site is non-commercial). English text is an AI translation; the answers are inferred from the course slides because the PDF has no key.
 - Course slides and Quizzes 1-2: WI1103 lecturers, ITB.

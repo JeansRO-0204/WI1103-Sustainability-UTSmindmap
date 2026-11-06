@@ -19,7 +19,7 @@ type Row =
 
 const TITLES: Record<Group, string> = { node: 'Concepts', slide: 'Slides', q: 'Quiz questions', c: 'Flashcards' }
 const PAGE = 8, MAXR = 60
-const SRC = (q: { source: string; n?: number }) => (q.source === 'quiz1' ? `Quiz 1 #${q.n ?? ''}` : q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : q.source === 'latsol' ? `Prediction #${q.n ?? ''}` : 'Generated')
+const SRC = (q: { source: string; n?: number }) => (q.source === 'quiz1' ? `Quiz 1 #${q.n ?? ''}` : q.source === 'quiz2' ? `Quiz 2 #${q.n ?? ''}` : q.source === 'latsol' ? `Prediction #${q.n ?? ''}` : q.source === 'uts25' ? `UTS 2025 #${q.n ?? ''}` : 'Generated')
 
 interface Props {
   open: boolean; onClose: () => void

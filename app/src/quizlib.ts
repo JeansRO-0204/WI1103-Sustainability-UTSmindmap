@@ -3,11 +3,11 @@ import { BASE, type Data } from './data'
 import type { Source } from './types'
 
 export interface Question {
-  id: string; source: 'quiz1' | 'quiz2' | 'latsol' | 'generated'; n?: number
+  id: string; source: 'quiz1' | 'quiz2' | 'latsol' | 'uts25' | 'generated'; n?: number
   stem: string; options: string[]; answer: number[]; answerText: string
-  /** Quiz 1 / latsol: Indonesian original, optionsId aligned index-by-index with options */
+  /** Quiz 1 / latsol / uts25: Indonesian original, optionsId aligned index-by-index with options */
   stemId?: string; optionsId?: string[]; answerTextId?: string
-  /** Quiz 1 / latsol: the English text was translated by AI (the original is Indonesian) */
+  /** Quiz 1 / latsol / uts25: the English text was translated by AI (the original is Indonesian) */
   enTranslated?: boolean
   /** Quiz 1 only: lecturer's worked calculation (verbatim, may contain LaTeX-ish markup) */
   calc?: string
@@ -24,13 +24,13 @@ export interface Flashcard {
   id: string; nodeId: string; module: string; topic: string; front: string; back: string; sources?: Source[]
 }
 export interface QuizFile {
-  meta?: { generated?: string; quiz2Count?: number; quiz1Count?: number; latsolCount?: number; sample?: boolean }
+  meta?: { generated?: string; quiz2Count?: number; quiz1Count?: number; latsolCount?: number; uts25Count?: number; sample?: boolean }
   questions: Question[]; flashcards: Flashcard[]
 }
 
 /** Unified view of a question or a card for scheduling / stats. */
 export interface Item {
-  id: string; kind: 'q' | 'c'; module: string; topic: string; nodeIds: string[]; dup: boolean; src: 'quiz1' | 'quiz2' | 'latsol' | 'generated'
+  id: string; kind: 'q' | 'c'; module: string; topic: string; nodeIds: string[]; dup: boolean; src: 'quiz1' | 'quiz2' | 'latsol' | 'uts25' | 'generated'
   /** latsol: predecessor id + source number, for chained questions and source ordering */
   after?: string; seq?: number
 }
@@ -60,7 +60,7 @@ export async function loadQuiz(data: Data): Promise<QuizData | null> {
     if (!q.options?.length || !q.answer?.length) continue
     const nodeIds = (q.nodeIds ?? []).filter((n) => data.nodes.has(n))
     questions.set(q.id, { ...q, nodeIds })
-    items.push({ id: q.id, kind: 'q', module: q.module, topic: q.topic, nodeIds, dup: !!q.dupOf, src: q.source, after: q.after, seq: q.source === 'latsol' ? Number(q.id.replace(/\D/g, '')) : undefined })
+    items.push({ id: q.id, kind: 'q', module: q.module, topic: q.topic, nodeIds, dup: !!q.dupOf, src: q.source, after: q.after, seq: q.source === 'latsol' || q.source === 'uts25' ? Number(q.id.replace(/\D/g, '')) : undefined })
   }
   for (const c of f.flashcards ?? []) {
     if (!c.front || !c.back) continue
@@ -171,7 +171,7 @@ export function profColor(p: number | null | undefined, tested = true): string {
 // ---------- scopes ----------
 export type Scope =
   | { kind: 'all' } | { kind: 'week'; module: string } | { kind: 'topic'; topic: string } | { kind: 'weakest' }
-  | { kind: 'due' } | { kind: 'quiz1' } | { kind: 'quiz2' } | { kind: 'latsol' } | { kind: 'gen' } | { kind: 'unseen' } | { kind: 'node'; id: string }
+  | { kind: 'due' } | { kind: 'quiz1' } | { kind: 'quiz2' } | { kind: 'latsol' } | { kind: 'uts25' } | { kind: 'gen' } | { kind: 'unseen' } | { kind: 'node'; id: string }
 
 export function weakestTopics(stats: Stats, k = 3): string[] {
   const all = [...stats.topic].map(([label, a]) => ({ label, ...a }))
@@ -191,6 +191,7 @@ export function poolFor(qd: QuizData, stats: Stats, st: QuizState, scope: Scope,
     case 'quiz1': return base.filter((i) => i.src === 'quiz1')
     case 'quiz2': return base.filter((i) => i.src === 'quiz2')
     case 'latsol': return base.filter((i) => i.src === 'latsol')
+    case 'uts25': return base.filter((i) => i.src === 'uts25')
     case 'gen': return base.filter((i) => i.src === 'generated')
     case 'unseen': return base.filter((i) => !(st.items[i.id]?.a.length))
     case 'node': return base.filter((i) => i.nodeIds.includes(scope.id))
@@ -220,7 +221,7 @@ export const setOrder = (o: Order) => { try { localStorage.setItem('mm.order', o
 
 /** cram: random order, ignoring due dates. Otherwise due and unseen items come first.
  *  Prediction-paper questions that depend on an earlier one are pulled in together with it and always stay consecutive and in
- *  source order (so a round may run slightly over `n`). A prediction-paper-only round is played in the paper's own number order unless `order` is 'shuffle' (chains stay together either way). */
+ *  source order (so a round may run slightly over `n`). A prediction-paper-only (or UTS-2025-only) round is played in the paper's own number order unless `order` is 'shuffle' (chains stay together either way). */
 export function pickQueue(pool: Item[], n: number, stats: Stats, st: QuizState, cram: boolean, all: Item[] = pool, order: Order = getOrder()): string[] {
   let r = shuffle(pool)
   if (!cram) {
@@ -228,7 +229,7 @@ export function pickQueue(pool: Item[], n: number, stats: Stats, st: QuizState, 
     r = r.sort((a, b) => urgent(a) - urgent(b))
   }
   r = r.slice(0, n > 0 ? n : r.length)
-  if (r.some((i) => i.src === 'latsol')) {
+  if (r.some((i) => i.src === 'latsol' || i.src === 'uts25')) {
     const byId = new Map(all.map((i) => [i.id, i]))
     const kids = new Map<string, Item[]>()
     for (const i of all) if (i.after) kids.set(i.after, [...(kids.get(i.after) ?? []), i])
@@ -241,7 +242,7 @@ export function pickQueue(pool: Item[], n: number, stats: Stats, st: QuizState, 
       for (const c of chain.length ? chain : [i]) if (!seen.has(c.id)) { seen.add(c.id); out.push(c) }
     }
     r = out
-    if (order === 'source' && r.every((i) => i.src === 'latsol')) r = [...r].sort((a, b) => (a.seq ?? 0) - (b.seq ?? 0))
+    if (order === 'source' && r.every((i) => i.src === r[0].src && (i.src === 'latsol' || i.src === 'uts25'))) r = [...r].sort((a, b) => (a.seq ?? 0) - (b.seq ?? 0))
   }
   return r.map((i) => i.id)
 }
